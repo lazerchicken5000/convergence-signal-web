@@ -11,6 +11,13 @@ interface SourceAuditProps {
 }
 
 async function submitFeedback(data: Record<string, unknown>) {
+  // Fire to PostHog for analytics
+  try {
+    const posthog = (await import('posthog-js')).default;
+    posthog.capture('feedback_submitted', data);
+  } catch { /* posthog not loaded */ }
+
+  // Also hit the API endpoint (logged in Vercel function logs)
   try {
     await fetch('/api/feedback', {
       method: 'POST',
