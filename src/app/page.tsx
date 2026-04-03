@@ -1,17 +1,19 @@
 import {
   getConvergencePatterns, getRPGProfiles, getStats, getLatestDiff,
   getPatternSources, getPatternTokenCost, getLeaderContribution,
-  getPatternSignalQuality,
+  getPatternSignalQuality, getActivityCalendar, getAggregateStats,
+  getLeaderLinks, getLeaderSourcedContributions,
 } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { AccordionItem } from '@/components/ui/accordion';
-import { SourceLinks } from '@/components/source-links';
+import { SourceLinks, PlatformLinks } from '@/components/source-links';
 import { SignalBadges, TokenCostBadge } from '@/components/signal-badges';
-import { ContributionTypeBadge } from '@/components/rpg-card';
+import { ContributionTypeBadge, RPGCard, deriveAccolades, AccoladeBadges } from '@/components/rpg-card';
 import { TextSizeSelector } from '@/components/depth-selector';
 import { PatternFeedback } from '@/components/source-audit';
 import { ColumnTabs } from '@/components/column-tabs';
+import { ActivityHeatmap } from '@/components/activity-heatmap';
 import Link from 'next/link';
 
 export const revalidate = 14400;
@@ -24,10 +26,11 @@ function ciColor(score: number) {
 }
 
 export default function DashboardPage() {
-  const stats = getStats();
   const patterns = getConvergencePatterns();
   const profiles = getRPGProfiles();
   const diff = getLatestDiff();
+  const calendar = getActivityCalendar();
+  const aggStats = getAggregateStats();
 
   const topPatterns = patterns.slice(0, 10);
   const topLeaders = profiles.slice(0, 10);
@@ -39,7 +42,7 @@ export default function DashboardPage() {
   return (
     <main className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
       {/* Header */}
-      <div className="flex items-start justify-between mb-8">
+      <div className="flex items-start justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold tracking-tight">Converge</h1>
           <p className="text-sm text-muted-foreground mt-0.5">
@@ -54,19 +57,9 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Stats */}
-      <div className="grid grid-cols-4 gap-2 mb-8 text-center">
-        {[
-          { n: stats.patternCount, label: 'Patterns' },
-          { n: stats.emergingPatterns, label: 'Emerging', color: 'text-amber-400' },
-          { n: stats.leaderCount, label: 'Leaders' },
-          { n: stats.platforms, label: 'Sources' },
-        ].map(s => (
-          <div key={s.label} className="border border-zinc-800 rounded-lg py-2.5">
-            <p className={`text-xl font-bold font-mono ${s.color ?? ''}`}>{s.n}</p>
-            <p className="text-[10px] text-muted-foreground">{s.label}</p>
-          </div>
-        ))}
+      {/* Activity Heatmap */}
+      <div className="mb-8">
+        <ActivityHeatmap days={calendar} stats={aggStats} />
       </div>
 
       {/* === TAB SWITCHER === */}
@@ -130,99 +123,179 @@ export default function DashboardPage() {
             </div>
           ),
 
-          /* ── LEADERS ── */
+          /* ── LEADERS (accordion, inline) ── */
           leaders: (
-            <div className="space-y-1">
+            <div className="space-y-1.5">
               {topLeaders.map((l, rank) => {
                 const contrib = getLeaderContribution(l);
+                const links = getLeaderLinks(l);
+                const accolades = deriveAccolades(l);
+                const sourcedContent = getLeaderSourcedContributions(l.id);
+                const themes = l.recurring_themes.sort((a, b) => b.frequency - a.frequency).slice(0, 5);
                 return (
-                  <Link key={l.id} href={`/leader/${l.id}`} className="block">
-                    <div className="flex items-center gap-3 py-3 px-4 rounded-lg border border-zinc-800 hover:border-zinc-600 transition-colors">
-                      <span className="text-sm font-mono text-zinc-600 w-6 text-right shrink-0">{rank + 1}</span>
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm font-medium truncate">{l.name}</span>
-                          <ContributionTypeBadge type={contrib.contributionType} />
-                          {l.influence_trajectory === 'rising' && <span className="text-emerald-400 text-xs">&#x2191;</span>}
+                  <AccordionItem
+                    key={l.id}
+                    trigger={
+                      <div className="flex items-center gap-3">
+                        <span className="text-xs font-mono text-zinc-600 w-5 text-right shrink-0">{rank + 1}</span>
+                        <div className="min-w-0 flex-1">
+                          <div className="flex items-center gap-2">
+                            <span className="text-sm font-medium truncate">{l.name}</span>
+                            <ContributionTypeBadge type={contrib.contributionType} />
+                            {l.influence_trajectory === 'rising' && <span className="text-emerald-400 text-xs">&#x2191;</span>}
+                          </div>
+                          <span className="text-[10px] text-zinc-500">
+                            {l.convergence_patterns.length} pattern{l.convergence_patterns.length !== 1 ? 's' : ''} · {l.tenure_weeks}w
+                          </span>
                         </div>
-                        <span className="text-[10px] text-zinc-500">
-                          {l.convergence_patterns.length} pattern{l.convergence_patterns.length !== 1 ? 's' : ''} · {l.tenure_weeks}w · {l.source_types.filter(s => s !== 'citation').join(', ')}
-                        </span>
+                        <span className="font-mono text-sm font-bold shrink-0">{l.leader_score.toFixed(3)}</span>
                       </div>
-                      <span className="font-mono text-sm font-bold shrink-0">{l.leader_score.toFixed(3)}</span>
+                    }
+                  >
+                    <div className="space-y-4 pt-3">
+                      {/* Accolades */}
+                      {accolades.length > 0 && <AccoladeBadges accolades={accolades} />}
+
+                      {/* RPG Stats */}
+                      <RPGCard contribution={contrib} />
+
+                      {/* Platform links */}
+                      {links.length > 0 && <PlatformLinks links={links} />}
+
+                      {/* Sourced contributions */}
+                      {sourcedContent.length > 0 && (
+                        <SourceLinks sources={sourcedContent} />
+                      )}
+
+                      {/* Themes */}
+                      {themes.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5">
+                          {themes.map(t => (
+                            <span key={t.topic} className="text-[10px] px-2 py-0.5 rounded bg-zinc-800 text-zinc-400">
+                              {t.topic}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
+                      <Link href={`/leader/${l.id}`} className="text-[10px] text-zinc-500 hover:text-zinc-300">
+                        Full profile &rarr;
+                      </Link>
                     </div>
-                  </Link>
+                  </AccordionItem>
                 );
               })}
               {profiles.length > 10 && (
                 <p className="text-xs text-zinc-500 text-center pt-3">
-                  <Link href="/leaders" className="hover:text-zinc-300 transition-colors">
-                    View all {profiles.length} leaders &rarr;
-                  </Link>
+                  +{profiles.length - 10} more leaders
                 </p>
               )}
             </div>
           ),
 
-          /* ── EMERGING ── */
+          /* ── EMERGING (accordion) ── */
           emerging: !diff ? (
             <p className="text-sm text-muted-foreground py-10 text-center border border-zinc-800 rounded-lg">
               Waiting for second pipeline run to show changes.
             </p>
           ) : (
-            <div className="space-y-6">
-              {diff.new_patterns.length > 0 && (
-                <div>
-                  <h3 className="text-xs font-semibold text-emerald-400 mb-2 uppercase tracking-wide">New Signal</h3>
-                  {diff.new_patterns.slice(0, 10).map(p => (
-                    <div key={p.lineage_id} className="py-2.5 px-4 border-b border-zinc-800/50 flex justify-between items-start gap-3">
-                      <span className="text-sm text-zinc-300 leading-snug">{p.label}</span>
-                      <span className="font-mono text-xs text-emerald-400 shrink-0">{p.ci_score.toFixed(2)}</span>
+            <div className="space-y-1.5">
+              {/* New Signal */}
+              {diff.new_patterns.map(p => (
+                <AccordionItem
+                  key={p.lineage_id}
+                  trigger={
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2 mb-0.5">
+                          <span className="text-[10px] px-1.5 py-0.5 rounded border border-emerald-500/30 text-emerald-400 bg-emerald-500/5">new</span>
+                          <span className="font-mono text-xs text-emerald-400">{p.ci_score.toFixed(2)}</span>
+                        </div>
+                        <h3 className="text-sm text-zinc-300 leading-snug">{p.label}</h3>
+                      </div>
                     </div>
-                  ))}
-                </div>
+                  }
+                >
+                  <div className="pt-2 space-y-2">
+                    <p className="text-xs text-zinc-500">{p.creator_count} independent sources detected this pattern.</p>
+                    <PatternFeedback patternId={p.lineage_id} />
+                  </div>
+                </AccordionItem>
+              ))}
+
+              {/* Accelerating */}
+              {diff.accelerating.map(p => (
+                <AccordionItem
+                  key={p.lineage_id}
+                  trigger={
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2 mb-0.5">
+                          <span className="text-[10px] px-1.5 py-0.5 rounded border border-amber-500/30 text-amber-400 bg-amber-500/5">accelerating</span>
+                          <span className="font-mono text-xs text-zinc-500">
+                            {p.ci_before.toFixed(2)} &rarr; <span className="text-amber-400">{p.ci_after.toFixed(2)}</span>
+                          </span>
+                        </div>
+                        <h3 className="text-sm text-zinc-300 leading-snug">{p.label}</h3>
+                      </div>
+                    </div>
+                  }
+                >
+                  <div className="pt-2 space-y-2">
+                    <p className="text-xs text-zinc-500">
+                      CI moved from {p.ci_before.toFixed(3)} to {p.ci_after.toFixed(3)} (+{p.delta.toFixed(3)}).
+                    </p>
+                    <PatternFeedback patternId={p.lineage_id} />
+                  </div>
+                </AccordionItem>
+              ))}
+
+              {/* Fading */}
+              {diff.decaying?.map(p => (
+                <AccordionItem
+                  key={p.lineage_id}
+                  trigger={
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2 mb-0.5">
+                          <span className="text-[10px] px-1.5 py-0.5 rounded border border-zinc-600 text-zinc-500">fading</span>
+                          <span className="font-mono text-xs text-zinc-600">
+                            {p.ci_before.toFixed(2)} &rarr; {p.ci_after.toFixed(2)}
+                          </span>
+                        </div>
+                        <h3 className="text-sm text-zinc-500 leading-snug">{p.label}</h3>
+                      </div>
+                    </div>
+                  }
+                >
+                  <div className="pt-2">
+                    <p className="text-xs text-zinc-600">Signal weakening. Fewer independent sources contributing.</p>
+                  </div>
+                </AccordionItem>
+              ))}
+
+              {/* Died / Noise */}
+              {diff.died?.map(p => (
+                <AccordionItem
+                  key={p.lineage_id}
+                  trigger={
+                    <div className="flex items-center gap-2">
+                      <span className="text-[10px] px-1.5 py-0.5 rounded border border-zinc-700 text-zinc-600">noise</span>
+                      <h3 className="text-sm text-zinc-600 leading-snug">{p.label}</h3>
+                    </div>
+                  }
+                >
+                  <div className="pt-2">
+                    <p className="text-xs text-zinc-600">Tracked {p.age_days} days. Signal did not sustain — likely amplified noise, not genuine convergence.</p>
+                  </div>
+                </AccordionItem>
+              ))}
+
+              {(!diff.new_patterns.length && !diff.accelerating.length && !diff.decaying?.length && !diff.died?.length) && (
+                <p className="text-xs text-zinc-500 text-center py-6">No significant changes in the latest pipeline run.</p>
               )}
 
-              {diff.accelerating.length > 0 && (
-                <div>
-                  <h3 className="text-xs font-semibold text-amber-400 mb-2 uppercase tracking-wide">Accelerating</h3>
-                  {diff.accelerating.slice(0, 10).map(p => (
-                    <div key={p.lineage_id} className="py-2.5 px-4 border-b border-zinc-800/50 flex justify-between items-start gap-3">
-                      <span className="text-sm text-zinc-300 leading-snug">{p.label}</span>
-                      <span className="font-mono text-xs text-zinc-500 shrink-0">
-                        {p.ci_before.toFixed(2)} &rarr; <span className="text-amber-400">{p.ci_after.toFixed(2)}</span>
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              {diff.decaying && diff.decaying.length > 0 && (
-                <div>
-                  <h3 className="text-xs font-semibold text-zinc-500 mb-2 uppercase tracking-wide">Fading</h3>
-                  {diff.decaying.slice(0, 5).map(p => (
-                    <div key={p.lineage_id} className="py-2 px-4 border-b border-zinc-800/50 flex justify-between items-start gap-3">
-                      <span className="text-sm text-zinc-500 leading-snug">{p.label}</span>
-                      <span className="font-mono text-[10px] text-zinc-600 shrink-0">
-                        {p.ci_before.toFixed(2)} &rarr; {p.ci_after.toFixed(2)}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              {diff.died && diff.died.length > 0 && (
-                <div>
-                  <h3 className="text-xs font-semibold text-zinc-600 mb-2 uppercase tracking-wide">Noise / Died</h3>
-                  {diff.died.slice(0, 5).map(p => (
-                    <div key={p.lineage_id} className="py-2 px-4 border-b border-zinc-800/50 text-sm text-zinc-600">
-                      {p.label}
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              <p className="text-[10px] text-zinc-600 text-center">
+              <p className="text-[10px] text-zinc-600 text-center pt-2">
                 {diff.date} vs {diff.previous_date}
               </p>
             </div>

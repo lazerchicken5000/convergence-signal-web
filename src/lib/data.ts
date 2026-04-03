@@ -381,6 +381,90 @@ export function getPatternSignalQuality(pattern: ConvergencePattern): SignalQual
   };
 }
 
+// --- Activity Calendar ---
+
+export interface DayActivity {
+  date: string;        // YYYY-MM-DD
+  itemCount: number;   // content items ingested
+  hasDiff: boolean;    // pipeline produced a diff
+}
+
+export function getActivityCalendar(): DayActivity[] {
+  const contentDir = path.join(CI_BASE, 'content/items');
+  const diffDir = path.join(CI_BASE, 'history/diffs');
+
+  // Count items per day
+  const dayCounts: Record<string, number> = {};
+  if (existsSync(contentDir)) {
+    for (const f of readdirSync(contentDir).filter(f => f.endsWith('.json'))) {
+      const item = readJson<any>(path.join(contentDir, f));
+      const date = (item?.ingested_at || item?.created_at || '')?.slice(0, 10);
+      if (date) dayCounts[date] = (dayCounts[date] || 0) + 1;
+    }
+  }
+
+  // Check which days have diffs
+  const diffDates = new Set<string>();
+  if (existsSync(diffDir)) {
+    for (const f of readdirSync(diffDir).filter(f => f.endsWith('.json'))) {
+      // filename: 2026-04-03_0259.json → date: 2026-04-03
+      const date = f.slice(0, 10);
+      diffDates.add(date);
+    }
+  }
+
+  // Build calendar for last 90 days
+  const days: DayActivity[] = [];
+  const now = new Date();
+  for (let i = 89; i >= 0; i--) {
+    const d = new Date(now);
+    d.setDate(d.getDate() - i);
+    const date = d.toISOString().slice(0, 10);
+    days.push({
+      date,
+      itemCount: dayCounts[date] || 0,
+      hasDiff: diffDates.has(date),
+    });
+  }
+  return days;
+}
+
+// --- Aggregate Stats ---
+
+export interface AggregateStats {
+  totalTokensBaked: number;
+  totalArticles: number;
+  totalLeaders: number;
+  totalPatterns: number;
+  totalPlatforms: number;
+  activeDays: number;
+}
+
+export function getAggregateStats(): AggregateStats {
+  const patterns = getConvergencePatterns();
+  const profiles = getRPGProfiles();
+  const calendar = getActivityCalendar();
+
+  // Sum token bakes across all patterns
+  let totalTokens = 0;
+  for (const p of patterns) {
+    const cost = getPatternTokenCost(p);
+    totalTokens += cost.rawTokens;
+  }
+
+  const contentDir = path.join(CI_BASE, 'content/items');
+  const totalArticles = existsSync(contentDir) ? readdirSync(contentDir).filter(f => f.endsWith('.json')).length : 0;
+
+  return {
+    totalTokensBaked: totalTokens,
+    totalArticles,
+    totalLeaders: profiles.length,
+    totalPatterns: patterns.length,
+    totalPlatforms: new Set(profiles.flatMap(p => p.source_types.filter(s => s !== 'citation'))).size,
+    activeDays: calendar.filter(d => d.itemCount > 0).length,
+  };
+}
+
 export function getStats() {
   const patterns = getConvergencePatterns();
   const profiles = getRPGProfiles();
