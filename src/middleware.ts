@@ -7,9 +7,10 @@ import { NextRequest, NextResponse } from 'next/server';
  * Username: signal
  */
 export function middleware(request: NextRequest) {
-  // Public API routes — no auth required
+  // Public routes — no auth required
   if (request.nextUrl.pathname.startsWith('/api/revalidate') ||
-      request.nextUrl.pathname.startsWith('/api/patterns')) {
+      request.nextUrl.pathname.startsWith('/api/patterns') ||
+      request.nextUrl.pathname.startsWith('/glossary')) {
     return NextResponse.next();
   }
 

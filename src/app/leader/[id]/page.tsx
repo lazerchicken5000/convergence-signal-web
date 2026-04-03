@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { PlatformLinks, SourceLinks } from '@/components/source-links';
-import { RPGCard, ContributionTypeBadge } from '@/components/rpg-card';
+import { RPGCard, ContributionTypeBadge, deriveAccolades, AccoladeBadges } from '@/components/rpg-card';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -23,6 +23,7 @@ export default async function LeaderPage({ params }: { params: Promise<{ id: str
   const contrib = getLeaderContribution(leader);
   const links = getLeaderLinks(leader);
   const sourcedContent = getLeaderSourcedContributions(leader.id);
+  const accolades = deriveAccolades(leader);
   const themes = leader.recurring_themes.sort((a, b) => b.frequency - a.frequency).slice(0, 6);
 
   const tierColors: Record<string, string> = {
@@ -53,6 +54,13 @@ export default async function LeaderPage({ params }: { params: Promise<{ id: str
           {leader.domains.join(', ')} · tracked {leader.tenure_weeks}w
         </p>
       </div>
+
+      {/* Accolades */}
+      {accolades.length > 0 && (
+        <div className="mb-4">
+          <AccoladeBadges accolades={accolades} />
+        </div>
+      )}
 
       {/* Contribution Profile (RPG Card) */}
       <Card className="mb-6">

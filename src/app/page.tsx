@@ -9,6 +9,7 @@ import { AccordionItem } from '@/components/ui/accordion';
 import { SourceLinks, PlatformLinks } from '@/components/source-links';
 import { SignalBadges, TokenCostBadge } from '@/components/signal-badges';
 import { ContributionTypeBadge } from '@/components/rpg-card';
+import { DepthSelector } from '@/components/depth-selector';
 import Link from 'next/link';
 
 // ISR: revalidate every 4 hours (matches trenddistill fast-ingest cycle)
@@ -70,12 +71,20 @@ export default function DashboardPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
       {/* Header */}
-      <div className="mb-10">
-        <h1 className="text-3xl font-bold tracking-tight">Convergence Signal</h1>
-        <p className="text-base text-muted-foreground mt-1">
-          Tracking what independent minds are converging on
-        </p>
-        <p className="text-sm text-muted-foreground mt-0.5 font-mono">@lazerhawk5000</p>
+      <div className="flex items-start justify-between mb-10">
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight">Converge</h1>
+          <p className="text-base text-muted-foreground mt-1">
+            Sourcing signal. Removing noise. For builders.
+          </p>
+          <p className="text-sm text-muted-foreground mt-0.5 font-mono">@lazerhawk5000</p>
+        </div>
+        <div className="flex items-center gap-2 shrink-0">
+          <DepthSelector />
+          <Link href="/glossary" className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors px-2 py-1 border border-zinc-700 rounded-md">
+            Glossary
+          </Link>
+        </div>
       </div>
 
       {/* Stats */}

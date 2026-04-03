@@ -45,41 +45,66 @@ function formatTokens(n: number): string {
 
 export function TokenCostBadge({ cost }: { cost: TokenCost }) {
   return (
-    <span className="inline-flex items-center gap-1.5 text-[10px] text-zinc-500 font-mono">
-      <span>{formatTokens(cost.rawTokens)} raw</span>
-      <span className="text-zinc-700">&rarr;</span>
-      <span className="text-zinc-300">{formatTokens(cost.curatedTokens)} curated</span>
-      <span className="text-emerald-400">({cost.savings}% saved)</span>
-    </span>
+    <div className="flex items-center gap-2 mt-1">
+      <div className="flex items-center gap-1">
+        <span className="text-[10px] text-zinc-600 font-mono">{formatTokens(cost.rawTokens)}</span>
+        <span className="text-zinc-700">&rarr;</span>
+        <span className="text-[10px] text-emerald-400 font-mono font-bold">{formatTokens(cost.curatedTokens)}</span>
+      </div>
+      <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-mono font-bold border border-emerald-500/20">
+        {cost.savings}% saved
+      </span>
+    </div>
+  );
+}
+
+export function TokenCostHero({ cost }: { cost: TokenCost }) {
+  // Visual ratio: how much of the bar is "saved"
+  const savedPct = cost.savings;
+  const usedPct = 100 - savedPct;
+
+  return (
+    <div className="border border-emerald-500/20 rounded-lg p-5 bg-emerald-500/[0.03] space-y-4">
+      <div className="flex items-center justify-between">
+        <p className="text-xs uppercase tracking-widest text-emerald-400/80 font-semibold">Intelligence Savings</p>
+        <span className="text-2xl font-mono font-black text-emerald-400">{savedPct}%</span>
+      </div>
+
+      {/* Visual bar */}
+      <div className="relative h-3 bg-zinc-800 rounded-full overflow-hidden">
+        <div
+          className="absolute inset-y-0 left-0 bg-emerald-500/30 rounded-full"
+          style={{ width: '100%' }}
+        />
+        <div
+          className="absolute inset-y-0 left-0 bg-emerald-500 rounded-full transition-all"
+          style={{ width: `${usedPct}%` }}
+        />
+      </div>
+
+      <div className="grid grid-cols-3 gap-4 text-center">
+        <div>
+          <p className="text-lg font-mono font-bold text-zinc-400">{formatTokens(cost.rawTokens)}</p>
+          <p className="text-[10px] text-zinc-600">raw source tokens</p>
+        </div>
+        <div>
+          <p className="text-lg font-mono font-bold text-emerald-400">{formatTokens(cost.curatedTokens)}</p>
+          <p className="text-[10px] text-zinc-600">curated output</p>
+        </div>
+        <div>
+          <p className="text-lg font-mono font-bold text-zinc-300">{cost.sourceCount}</p>
+          <p className="text-[10px] text-zinc-600">sources distilled</p>
+        </div>
+      </div>
+
+      <p className="text-[10px] text-zinc-500 text-center">
+        This pattern was distilled from {cost.sourceCount} independent sources across {cost.vectorCount} vectors.
+        An AI agent accessing this curated signal saves {formatTokens(cost.rawTokens - cost.curatedTokens)} tokens per query.
+      </p>
+    </div>
   );
 }
 
 export function TokenCostDetail({ cost }: { cost: TokenCost }) {
-  return (
-    <div className="border border-zinc-800 rounded-lg p-4 space-y-2">
-      <p className="text-xs uppercase tracking-wide text-zinc-500 font-semibold">Intelligence Cost</p>
-      <div className="grid grid-cols-2 gap-3">
-        <div>
-          <p className="text-lg font-mono font-bold text-zinc-300">{formatTokens(cost.rawTokens)}</p>
-          <p className="text-[10px] text-zinc-500">tokens in raw sources</p>
-        </div>
-        <div>
-          <p className="text-lg font-mono font-bold text-emerald-400">{formatTokens(cost.curatedTokens)}</p>
-          <p className="text-[10px] text-zinc-500">tokens curated</p>
-        </div>
-      </div>
-      <div className="flex items-center gap-3 pt-1">
-        <div className="flex-1 h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-          <div
-            className="h-full rounded-full bg-emerald-500"
-            style={{ width: `${100 - cost.savings}%` }}
-          />
-        </div>
-        <span className="text-xs font-mono text-emerald-400">{cost.savings}% saved</span>
-      </div>
-      <p className="text-[10px] text-zinc-600">
-        Distilled from {cost.sourceCount} sources across {cost.vectorCount} vectors
-      </p>
-    </div>
-  );
+  return <TokenCostHero cost={cost} />;
 }
