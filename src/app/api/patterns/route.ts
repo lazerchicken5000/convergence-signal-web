@@ -8,9 +8,47 @@ import { NextResponse } from 'next/server';
  * GET /api/patterns?limit=3  → top N patterns
  * GET /api/patterns?min_ci=0.3 → filter by CI score
  *
- * No auth required — this is the "test the API surface" endpoint.
+ * Rate limited: 60 requests/minute per IP.
  */
+
+// In-memory rate limiter (resets on cold start, which is fine for Edge/Serverless)
+const rateMap = new Map<string, { count: number; resetAt: number }>();
+const RATE_LIMIT = 60;
+const WINDOW_MS = 60_000;
+
+function isRateLimited(ip: string): { limited: boolean; remaining: number } {
+  const now = Date.now();
+  const entry = rateMap.get(ip);
+
+  if (!entry || now > entry.resetAt) {
+    rateMap.set(ip, { count: 1, resetAt: now + WINDOW_MS });
+    return { limited: false, remaining: RATE_LIMIT - 1 };
+  }
+
+  entry.count++;
+  if (entry.count > RATE_LIMIT) {
+    return { limited: true, remaining: 0 };
+  }
+  return { limited: false, remaining: RATE_LIMIT - entry.count };
+}
+
 export async function GET(request: Request) {
+  const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
+  const { limited, remaining } = isRateLimited(ip);
+
+  if (limited) {
+    return NextResponse.json(
+      { error: 'Rate limit exceeded. Max 60 requests/minute.' },
+      {
+        status: 429,
+        headers: {
+          'Retry-After': '60',
+          'X-RateLimit-Limit': String(RATE_LIMIT),
+          'X-RateLimit-Remaining': '0',
+        },
+      },
+    );
+  }
   const url = new URL(request.url);
   const limit = parseInt(url.searchParams.get('limit') || '0') || undefined;
   const minCI = parseFloat(url.searchParams.get('min_ci') || '0') || 0;
@@ -64,6 +102,8 @@ export async function GET(request: Request) {
     headers: {
       'Cache-Control': 'public, s-maxage=14400, stale-while-revalidate=3600',
       'Access-Control-Allow-Origin': '*',
+      'X-RateLimit-Limit': String(RATE_LIMIT),
+      'X-RateLimit-Remaining': String(remaining),
     },
   });
 }
