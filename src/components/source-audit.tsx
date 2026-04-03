@@ -88,17 +88,27 @@ export function PatternFeedback({ patternId }: { patternId: string }) {
   }
 
   if (voted !== null) {
-    return <span className="text-[10px] text-zinc-600 italic">{voted ? 'Marked useful' : 'Noted — thanks'}</span>;
+    return (
+      <div className="flex items-center gap-2 py-2 px-3 rounded-lg bg-zinc-800/50">
+        <span className="text-xs text-zinc-400">{voted ? 'Marked useful — thanks' : 'Noted — we\'ll improve this'}</span>
+      </div>
+    );
   }
 
   return (
-    <div className="flex items-center gap-2">
-      <span className="text-[10px] text-zinc-600">Was this useful?</span>
-      <button onClick={() => vote(true)} className="text-[10px] px-1.5 py-0.5 rounded border border-zinc-700 text-zinc-500 hover:text-emerald-400 hover:border-emerald-500/30 transition-colors cursor-pointer">
+    <div className="flex items-center gap-3 py-2.5 px-4 rounded-lg border border-zinc-700 bg-zinc-800/30">
+      <span className="text-xs text-zinc-300 font-medium">Was this useful?</span>
+      <button
+        onClick={() => vote(true)}
+        className="text-xs px-3 py-1.5 rounded-md border border-emerald-500/30 text-emerald-400 bg-emerald-500/5 hover:bg-emerald-500/15 transition-colors cursor-pointer font-medium"
+      >
         Yes
       </button>
-      <button onClick={() => vote(false)} className="text-[10px] px-1.5 py-0.5 rounded border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-500/30 transition-colors cursor-pointer">
-        No
+      <button
+        onClick={() => vote(false)}
+        className="text-xs px-3 py-1.5 rounded-md border border-zinc-600 text-zinc-400 hover:text-amber-400 hover:border-amber-500/30 hover:bg-amber-500/5 transition-colors cursor-pointer font-medium"
+      >
+        Not really
       </button>
     </div>
   );

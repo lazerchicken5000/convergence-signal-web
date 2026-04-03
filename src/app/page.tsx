@@ -9,7 +9,7 @@ import { AccordionItem } from '@/components/ui/accordion';
 import { SourceLinks, PlatformLinks } from '@/components/source-links';
 import { SignalBadges, TokenCostBadge } from '@/components/signal-badges';
 import { ContributionTypeBadge } from '@/components/rpg-card';
-import { DepthSelector } from '@/components/depth-selector';
+import { TextSizeSelector } from '@/components/depth-selector';
 import { PatternFeedback } from '@/components/source-audit';
 import Link from 'next/link';
 
@@ -81,7 +81,7 @@ export default function DashboardPage() {
           <p className="text-sm text-muted-foreground mt-0.5 font-mono">@lazerhawk5000</p>
         </div>
         <div className="flex items-center gap-2 shrink-0">
-          <DepthSelector />
+          <TextSizeSelector />
           <Link href="/glossary" className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors px-2 py-1 border border-zinc-700 rounded-md">
             Glossary
           </Link>
