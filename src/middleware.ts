@@ -23,10 +23,17 @@ export function middleware(request: NextRequest) {
   if (authHeader) {
     const [scheme, encoded] = authHeader.split(' ');
     if (scheme === 'Basic' && encoded) {
-      const decoded = atob(encoded);
-      const [user, pass] = decoded.split(':');
-      if (user === 'signal' && pass === password) {
-        return NextResponse.next();
+      // Decode base64 — use TextDecoder for Edge compatibility
+      const bytes = Uint8Array.from(atob(encoded), c => c.charCodeAt(0));
+      const decoded = new TextDecoder().decode(bytes);
+      // Split on first colon only (password may contain colons)
+      const colonIdx = decoded.indexOf(':');
+      if (colonIdx > 0) {
+        const user = decoded.slice(0, colonIdx);
+        const pass = decoded.slice(colonIdx + 1);
+        if (user === 'signal' && pass === password) {
+          return NextResponse.next();
+        }
       }
     }
   }
