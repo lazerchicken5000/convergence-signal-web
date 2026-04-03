@@ -1,0 +1,37 @@
+{
+  "id": "td_547ffe3d",
+  "source": "semantic_scholar",
+  "source_id": "03e4b8090ff2aa4098a343a42ee578bb56ed2fd5",
+  "source_url": "https://www.semanticscholar.org/paper/03e4b8090ff2aa4098a343a42ee578bb56ed2fd5",
+  "content_type": "paper",
+  "creator": {
+    "id": "haojun_xia",
+    "name": "Haojun Xia",
+    "handle": "Haojun Xia, Xiaoxia Wu, Jisen Li, Robert Wu, Junxiong Wang, Jue Wang, Chenxia Li, Aman Singhal, A. Shah, Alpay Ariyak, Donglin Zhuang, Zhongzhu Zhou, Ben Athiwaratkun, Zhen Zheng, S. Song",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost",
+  "body_text": "Kitty: Accurate and Efficient 2-bit KV Cache Quantization with Dynamic Channel-wise Precision Boost\nTLDR: Kitty provides a page-centric KV layout, Triton-compatible page dequantization kernels, and a lightweight runtime pipeline that preserves coalescing and avoids divergence, enabling up to 8x larger batches and 2.1x higher throughput under the same memory budget.\nThe KV cache is a dominant memory bottleneck for LLM inference. While 4-bit KV quantization preserves accuracy, 2-bit often degrades it, especially on long-context reasoning. We close this gap via an algorithm-system co-design for mixed-precision KV caching: Kitty. On the algorithm side, extensive experiments show that Dynamic Channel-wise Precision Boost -- which ranks Key-cache channels by sensitivity and keeps only a small fraction at higher precision -- maintains near-zero loss in accuracy drop while approaching 2-bit memory. The main challenge is handling dynamic 4-bit channel boosts while keeping the page layout coalesced and the dequantization uniform, with no scattered reads or hard-coded masks. Kitty addresses these issues by decompose each mixed-precision Key page into two tensors with unified 2-bit precision. Based on this, Kitty provides a page-centric KV layout, Triton-compatible page dequantization kernels, and a lightweight runtime pipeline that preserves coalescing and avoids divergence. Across seven tasks and two model families (Qwen3, LLaMA3), Kitty cuts KV memory by nearly 8x with negligible accuracy loss, enabling up to 8x larger batches and 2.1x-4.1x higher throughput under the same memory budget. We release the full implementation of Kitty at https://github.com/Summer-Summer/Kitty.\nAuthors: Haojun Xia, Xiaoxia Wu, Jisen Li, Robert Wu, Junxiong Wang, Jue Wang, Chenxia Li, Aman Singhal, A. Shah, Alpay Ariyak, Donglin Zhuang, Zhongzhu Zhou, Ben Athiwaratkun, Zhen Zheng, S. Song\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 274,
+  "published_at": "2025-11-23",
+  "ingested_at": "2026-03-27T21:22:03.839Z",
+  "engagement": {
+    "views": 0,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

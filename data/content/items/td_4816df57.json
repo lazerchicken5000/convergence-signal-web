@@ -1,0 +1,38 @@
+{
+  "id": "td_4816df57",
+  "source": "arxiv",
+  "source_id": "2603.25739",
+  "source_url": "https://arxiv.org/abs/2603.25739",
+  "content_type": "paper",
+  "creator": {
+    "id": "dingxi_zhang",
+    "name": "Dingxi Zhang",
+    "handle": "Dingxi Zhang, Fangjinhua Wang, Marc Pollefeys, Haofei Xu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MegaFlow: Zero-Shot Large Displacement Optical Flow",
+  "body_text": "MegaFlow: Zero-Shot Large Displacement Optical Flow\n\nAccurate estimation of large displacement optical flow remains a critical challenge. Existing methods typically rely on iterative local search or/and domain-specific fine-tuning, which severely limits their performance in large displacement and zero-shot generalization scenarios. To overcome this, we introduce MegaFlow, a simple yet powerful model for zero-shot large displacement optical flow. Rather than relying on highly complex, task-specific architectural designs, MegaFlow adapts powerful pre-trained vision priors to produce temporally consistent motion fields. In particular, we formulate flow estimation as a global matching problem by leveraging pre-trained global Vision Transformer features, which naturally capture large displacements. This is followed by a few lightweight iterative refinements to further improve the sub-pixel accuracy. Extensive experiments demonstrate that MegaFlow achieves state-of-the-art zero-shot performance across multiple optical flow benchmarks. Moreover, our model also delivers highly competitive zero-shot performance on long-range point tracking benchmarks, demonstrating its robust transferability and suggesting a unified paradigm for generalizable motion estimation. Our project page is at: https://kristen-z.github.io/projects/megaflow.\n\nAuthors: Dingxi Zhang, Fangjinhua Wang, Marc Pollefeys, Haofei Xu\nCategories: cs.CV, cs.CV",
+  "word_count": 157,
+  "published_at": "2026-03-26T17:59:51Z",
+  "ingested_at": "2026-03-27T21:20:43.985Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_522945b3",
+  "source": "semantic_scholar",
+  "source_id": "670b3e5fa7dfe9e587b5459117c000820119c2bb",
+  "source_url": "https://www.semanticscholar.org/paper/670b3e5fa7dfe9e587b5459117c000820119c2bb",
+  "content_type": "paper",
+  "creator": {
+    "id": "elliot_murphy",
+    "name": "Elliot Murphy",
+    "handle": "Elliot Murphy (neurolinguist)",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "A model for learning strings is not a model of language",
+  "body_text": "A model for learning strings is not a model of language\nYang and Piantadosi (1) attempt to show that language acquisition is possible without recourse to “innate knowledge of the structures that occur in natural language.” The authors claim that a domain-general rule-learning algorithm can “acquire key pieces of natural language.” Yang and Piantadosi provide a number of technical innovations and elegant arguments for why acquisition researchers should expand their conception of what a possible domain-general learner can achieve. Yet, we also believe that their findings do not directly pertain to human language. The authors (1) provide a model that can take strings of discrete elements and execute a number of primitive operations. The “assumed primitive functions” make regular reference to linearity: “list,” “first character,” “middle of Y,” and “set of strings.” The postulated “pair” and “first” operations are claimed to be “similar in spirit to ‘merge’ in minimalist linguistics [...], except they come with none of the associated machinery that is required in those theories; here, they only concatenate.” Merge is typically not assumed to be a concatenation process. It simply forms sets and does not impose order. Natural language syntax additionally needs a set categorization or a “labeling” operation. Yang and Piantadosi (1) assume some measure of progress in that their model is free from any “associated machinery” of generative models of Merge—but their model captures only relations between strings, not structures. As such, it falls short of explaining “key pieces of natural language.” The Yang and Piantadosi (1) model successfully learns many types of simple formal languages, and its technical sophistication will likely inspire new research into learnability. However, the model exhibits strikingly poor performance with the English auxiliary system, which the authors say may be due to the “complexity” of this system. Likewise, the model has difficulty learning the simple finite grammar from Braine that mimics phrase structure rules. It has only moderate success with a fragment of English involving center embedding. Drawing comparisons with natural language learning (NLL), string inference seems to differ in two critical dimensions: 1) noise—the Yang and Piantadosi (1) model received grammatically correct tokens, while input in NLL is rife with disfluencies (i.e., repetitions, false starts, incorrect syntax); 2) ambiguity of source—the Yang and Piantadosi model was presented with unambiguous data from each source, while human brains are innately predisposed to deal with multiple languages, acquiring them in parallel (2). It is unclear whether the Yang and Piantadosi model can generate strings respecting the syntax of different languages if it is not told which tokens come from which language. Simply put, any learning model that does not link meaning with structure is not a model of human language (3–8). In the generative framework, language is understood to be about form/meaning associations. The intricate regulation of form/meaning pairs constitutes the stuff of syntactic theory, not the organization of strings into an arrangement that overlaps with the linearized output of a Merge-based computational system. The innate predisposition for language goes well beyond the process of inferring strings. We therefore submit that models of learnability will benefit from focusing on the same objects postulated in theoretical linguistics: structures, not strings.\nVenue: Proceedings of the National Academy of Sciences of the United States of America\nCitations: 18",
+  "word_count": 542,
+  "published_at": "2022-06-01",
+  "ingested_at": "2026-03-26T20:28:16.739Z",
+  "engagement": {
+    "views": 18,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "neurolinguistics",
+    "language",
+    "cognition"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

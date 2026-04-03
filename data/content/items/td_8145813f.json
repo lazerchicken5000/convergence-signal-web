@@ -1,0 +1,37 @@
+{
+  "id": "td_8145813f",
+  "source": "semantic_scholar",
+  "source_id": "44933dc8ed246aec4ddcf7c0823f69a7f3b373e6",
+  "source_url": "https://www.semanticscholar.org/paper/44933dc8ed246aec4ddcf7c0823f69a7f3b373e6",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhihan_cai",
+    "name": "Zhihan Cai",
+    "handle": "Zhihan Cai, Xingjun Zhang, Zhendong Tan, Zheng Wei",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "NQKV: A KV Cache Quantization Scheme Based on Normal Distribution Characteristics",
+  "body_text": "NQKV: A KV Cache Quantization Scheme Based on Normal Distribution Characteristics\nTLDR: NQKV enables the OPT model to perform inference with an 2x larger batch size or a 4x longer context length, and it improves throughput by 9.3x compared to when the KV cache is not used.\nLarge Language Models (LLMs) have demonstrated remarkable proficiency across a wide range of tasks. However, LLMs often require larger batch sizes to enhance throughput or longer context lengths to meet task demands, which significantly increases the memory resource consumption of the Key-Value (KV) cache during inference, becoming a major bottleneck in LLM deployment. To address this issue, quantization is a common and straightforward approach. Currently, quantization methods for activations are limited to 8-bit, and quantization to even lower bits can lead to substantial accuracy drops. To further save space by quantizing the KV cache to even lower bits, we analyzed the element distribution of the KV cache and designed the NQKV algorithm. Since the elements within each block of the KV cache follow a normal distribution, NQKV employs per-block quantile quantization to achieve information-theoretically optimal quantization error. Without significantly compromising model output quality, NQKV enables the OPT model to perform inference with an 2x larger batch size or a 4x longer context length, and it improves throughput by 9.3x compared to when the KV cache is not used.\nAuthors: Zhihan Cai, Xingjun Zhang, Zhendong Tan, Zheng Wei\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 239,
+  "published_at": "2025-05-22",
+  "ingested_at": "2026-03-27T21:22:03.838Z",
+  "engagement": {
+    "views": 3,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

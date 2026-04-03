@@ -1,0 +1,39 @@
+{
+  "id": "td_51bd4ffd",
+  "source": "arxiv",
+  "source_id": "2603.25584",
+  "source_url": "https://arxiv.org/abs/2603.25584",
+  "content_type": "paper",
+  "creator": {
+    "id": "adrien_cances",
+    "name": "Adrien Cances",
+    "handle": "Adrien Cances, Quentin Mérigot, Luca Nenna",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Particle method for a nonlinear multimarginal optimal transport problem",
+  "body_text": "Particle method for a nonlinear multimarginal optimal transport problem\n\nWe study a nonlinear multimarginal optimal transport problem arising in risk management, where the objective is to maximize a spectral risk measure of the pushforward of a coupling by a cost function. Although this problem is inherently nonlinear, it is known to have an equivalent linear reformulation as a multimarginal transport problem with an additional marginal. We introduce a Lagrangian particle discretization of this problem, in which admissible couplings are approximated by uniformly weighted point clouds, and marginal constraints are enforced through Wasserstein penalization. We prove quantitative convergence results for this discretization as the number of particles tends to infinity. The convergence rate is shown to be governed by the uniform quantization error of an optimal solution, and can be bounded in terms of the geometric properties of its support, notably its box dimension. In the case of univariate marginals and supermodular cost functions, where optimal couplings are known to be comonotone, we obtain sharper convergence rates expressed in terms of the asymptotic quantization errors of the marginals themselves. We also discuss the particular case of conditional value at risk, for which the problem reduces to a multimarginal partial transport formulation. Finally, we illustrate our approach with numerical experiments in several application domains, including risk management and partial barycenters, as well as some artificial examples with a repulsive cost.\n\nAuthors: Adrien Cances, Quentin Mérigot, Luca Nenna\nCategories: math.OC, math.NA, math.OC",
+  "word_count": 219,
+  "published_at": "2026-03-26T16:00:41Z",
+  "ingested_at": "2026-03-27T21:20:46.458Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.NA",
+    "math.OC"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

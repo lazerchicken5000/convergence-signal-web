@@ -1,0 +1,35 @@
+{
+  "id": "td_19daa688",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
+  "body_text": "We Rewrote JSONata with AI in a Day, Saved $500K/Year\nBit of a hyperbolic framing but this looks like another case study of vibe porting, this time spinning up a new custom Go implementation of the JSONata JSON expression language - similar in focus to jq, and heavily associated with the Node-RED platform.\nAs with other vibe-porting projects the key enabling factor was JSONata's existing test suite, which helped build the first working Go version in 7 hours and $400 of token spend.\nThe Reco team then used a shadow deployment for a week to run the new and old versions in parallel to confirm the new implementation exactly matched the behavior of the old one.\n\n\n    Tags: go, json, ai, generative-ai, llms, agentic-engineering, vibe-porting",
+  "word_count": 124,
+  "published_at": "2026-03-27T00:35:01.000Z",
+  "ingested_at": "2026-03-28T00:15:42.454Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

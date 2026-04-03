@@ -1,0 +1,37 @@
+{
+  "id": "td_3220e901",
+  "source": "semantic_scholar",
+  "source_id": "19e0edfb65c279427c145afc466b31b7b4a3bb93",
+  "source_url": "https://www.semanticscholar.org/paper/19e0edfb65c279427c145afc466b31b7b4a3bb93",
+  "content_type": "paper",
+  "creator": {
+    "id": "minseok_seo",
+    "name": "Minseok Seo",
+    "handle": "Minseok Seo, Jungi Hyun, Seongho Jeong, Xuan Truong Nguyen, Hyuk-Jae Lee, Hyokeun Lee",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "OASIS: Outlier-Aware KV Cache Clustering for Scaling LLM Inference in CXL Memory Systems",
+  "body_text": "OASIS: Outlier-Aware KV Cache Clustering for Scaling LLM Inference in CXL Memory Systems\nThe key-value (KV) cache in large language models (LLMs) now necessitates a substantial amount of memory capacity as its size proportionally grows with the context’s size. Recently, Compute-Express Link (CXL) memory becomes a promising method to secure memory capacity. However, CXL memory in a GPU-based LLM inference platform entails performance and scalability challenges due to the limited bandwidth of CXL memory. This paper proposes OASIS, an outlier-aware KV cache clustering for scaling LLM inference in CXL memory systems. Our method is based on the observation that clustering is effective in trading off between performance and accuracy compared to previous quantization- or selection-based approaches if clustering is aware of outliers. Our evaluation shows OASIS yields 3.6× speedup compared to the case without clustering while preserving accuracy with just 5% of full KV cache.\nAuthors: Minseok Seo, Jungi Hyun, Seongho Jeong, Xuan Truong Nguyen, Hyuk-Jae Lee, Hyokeun Lee\nVenue: IEEE computer architecture letters\nFields: Computer Science",
+  "word_count": 167,
+  "published_at": "2025-01-01",
+  "ingested_at": "2026-03-27T21:22:03.838Z",
+  "engagement": {
+    "views": 1,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_14ebcbbe",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm",
+  "body_text": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm\nUseful writeup of today's supply chain attack against Axios, the HTTP client NPM package with 101 million weekly downloads. Versions 1.14.1 and 0.30.4 both included a new dependency called plain-crypto-js which was freshly published malware, stealing credentials and installing a remote access trojan (RAT).\nIt looks like the attack came from a leaked long-lived npm token. Axios have an open issue to adopt trusted publishing, which would ensure that only their GitHub Actions workflows are able to publish to npm. The malware packages were published without an accompanying GitHub release, which strikes me as a useful heuristic for spotting potentially malicious releases - the same pattern was present for LiteLLM last week as well.\n\n    Via lobste.rs\n\n\n    Tags: javascript, security, npm, supply-chain",
+  "word_count": 131,
+  "published_at": "2026-03-31T23:28:40.000Z",
+  "ingested_at": "2026-04-03T01:03:28.687Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

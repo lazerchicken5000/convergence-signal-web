@@ -1,0 +1,38 @@
+{
+  "id": "td_295b6460",
+  "source": "arxiv",
+  "source_id": "2603.25744",
+  "source_url": "https://arxiv.org/abs/2603.25744",
+  "content_type": "paper",
+  "creator": {
+    "id": "bocheng_zou",
+    "name": "Bocheng Zou",
+    "handle": "Bocheng Zou, Mu Cai, Mark Stanley, Dingfu Lu, Yong Jae Lee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
+  "body_text": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models\n\nVision Foundation Models (VFMs) have become the cornerstone of modern computer vision, offering robust representations across a wide array of tasks. While recent advances allow these models to handle varying input sizes during training, inference typically remains restricted to a single, fixed scale. This prevalent single-scale paradigm overlooks a fundamental property of visual perception: varying resolutions offer complementary inductive biases, where low-resolution views excel at global semantic recognition and high-resolution views are essential for fine-grained refinement. In this work, we propose Multi-Resolution Fusion (MuRF), a simple yet universally effective strategy to harness this synergy at inference time. Instead of relying on a single view, MuRF constructs a unified representation by processing an image at multiple resolutions through a frozen VFM and fusing the resulting features. The universality of MuRF is its most compelling attribute. It is not tied to a specific architecture, serving instead as a fundamental, training-free enhancement to visual representation. We empirically validate this by applying MuRF to a broad spectrum of critical computer vision tasks across multiple distinct VFM families - primarily DINOv2, but also demonstrating successful generalization to contrastive models like SigLIP2.\n\nAuthors: Bocheng Zou, Mu Cai, Mark Stanley, Dingfu Lu, Yong Jae Lee\nCategories: cs.CV, cs.CV",
+  "word_count": 186,
+  "published_at": "2026-03-26T17:59:58Z",
+  "ingested_at": "2026-03-27T21:20:43.984Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

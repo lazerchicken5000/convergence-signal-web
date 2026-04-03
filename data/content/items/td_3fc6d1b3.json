@@ -1,0 +1,38 @@
+{
+  "id": "td_3fc6d1b3",
+  "source": "arxiv",
+  "source_id": "2603.24586",
+  "source_url": "https://arxiv.org/abs/2603.24586",
+  "content_type": "paper",
+  "creator": {
+    "id": "aditya_mittal",
+    "name": "Aditya Mittal",
+    "handle": "Aditya Mittal, Ryan Shar, Zichu Wu, Shyam Agarwal, Tongshuang Wu, Chris Donahue, Ameet Talwalkar, Wayne Chi, Valerie Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Comparing Developer and LLM Biases in Code Evaluation",
+  "body_text": "Comparing Developer and LLM Biases in Code Evaluation\n\nAs LLMs are increasingly used as judges in code applications, they should be evaluated in realistic interactive settings that capture partial context and ambiguous intent. We present TRACE (Tool for Rubric Analysis in Code Evaluation), a framework that evaluates LLM judges' ability to predict human preferences and automatically extracts rubric items to reveal systematic biases in how humans and models weigh each item. Across three modalities -- chat-based programming, IDE autocompletion, and instructed code editing -- we use TRACE to measure how well LLM judges align with developer preferences. Among 13 different models, the best judges underperform human annotators by 12-23%. TRACE identifies 35 significant sources of misalignment between humans and judges across interaction modalities, the majority of which correspond to existing software engineering code quality criteria. For example, in chat-based coding, judges are biased towards longer code explanations while humans prefer shorter ones. We find significant misalignment on the majority of existing code quality dimensions, showing alignment gaps between LLM judges and human preference in realistic coding applications.\n\nAuthors: Aditya Mittal, Ryan Shar, Zichu Wu, Shyam Agarwal, Tongshuang Wu, Chris Donahue, Ameet Talwalkar, Wayne Chi, Valerie Chen\nCategories: cs.SE, cs.CL, cs.SE",
+  "word_count": 169,
+  "published_at": "2026-03-25T17:56:55Z",
+  "ingested_at": "2026-03-26T08:40:05.119Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.CL",
+    "cs.SE"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

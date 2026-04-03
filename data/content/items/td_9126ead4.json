@@ -1,0 +1,38 @@
+{
+  "id": "td_9126ead4",
+  "source": "arxiv",
+  "source_id": "2603.24574",
+  "source_url": "https://arxiv.org/abs/2603.24574",
+  "content_type": "paper",
+  "creator": {
+    "id": "philip_kaminsky",
+    "name": "Philip Kaminsky",
+    "handle": "Philip Kaminsky, Rachitesh Kumar, Roger Lederman",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Coordinating Spot and Contract Supply in Freight Marketplaces",
+  "body_text": "Coordinating Spot and Contract Supply in Freight Marketplaces\n\nThe freight industry is undergoing a digital revolution, with an ever-growing volume of transactions being facilitated by digital marketplaces. A core capability of these marketplaces is the fulfillment of demand for truckload movements (loads) by procuring the services of carriers who execute them. Notably, these services are procured both through long-term contracts, where carriers commit capacity to execute loads (e.g., contracted fleet of drivers or lane-level commitments), and through short-term spot marketplaces, where carriers can agree to move individual loads for the offered price. This naturally couples two canonical problems of the transportation industry: contract assignment and spot pricing. In this work, we model and analyze the problem of coordinating long-term contract supply and short-term spot supply to minimize total procurement costs. We develop a Dual Frank Wolfe algorithm to compute shadow prices which allow the spot pricing policy to account for the committed contract capacity. We show that our algorithm achieves small relative regret against the optimal -- but intractable -- dynamic programming benchmark when the size of the market is large. Importantly, our Dual Frank Wolfe algorithm is computationally efficient, modular, and only requires oracle access to spot-pricing protocols, making it ideal for large-scale markets. Finally, we evaluate our algorithm on semi-synthetic data from a major Digital Freight Marketplace, and find that it yields significant savings ($\\approx 10\\%$) compared to a popular status-quo method.\n\nAuthors: Philip Kaminsky, Rachitesh Kumar, Roger Lederman\nCategories: cs.DS, math.OC, cs.DS",
+  "word_count": 226,
+  "published_at": "2026-03-25T17:52:19Z",
+  "ingested_at": "2026-03-26T08:40:04.487Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "math.OC",
+    "cs.DS"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

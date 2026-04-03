@@ -1,0 +1,37 @@
+{
+  "id": "td_6150c5d3",
+  "source": "arxiv",
+  "source_id": "2603.19007",
+  "source_url": "https://arxiv.org/abs/2603.19007",
+  "content_type": "paper",
+  "creator": {
+    "id": "elliot_c._eklund",
+    "name": "Elliot C. Eklund",
+    "handle": "Elliot C. Eklund, Arkin Tikku, Patrick Sinnott, William J. Huggins, Guang Hao Low, Dominic W. Berry, Ivan Kassal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "End-to-End Simulation of Chemical Dynamics on a Quantum Computer",
+  "body_text": "End-to-End Simulation of Chemical Dynamics on a Quantum Computer\n\nSimulations of chemical dynamics are a powerful means for understanding chemistry. However, classical computers struggle to simulate many chemical processes, especially non-adiabatic ones, where the Born-Oppenheimer approximation breaks down. Quantum computers could simulate quantum-chemical dynamics more efficiently than classical computers, but there is currently no complete quantum algorithm for calculating dynamical observables to within a known error. Here, we develop an efficient, end-to-end quantum algorithm for simulating chemical dynamics that avoids all uncontrolled approximations (including the Born-Oppenheimer approximation) and whose error is bounded subject to mild assumptions. To do so, we treat the nuclei and the electrons on an equal footing and simulate the full molecular wavefunction on a momentum-space grid in first quantization, including all algorithmic steps: initial-state preparation, time evolution using qubitization, and measurement of chemical observables such as reaction yields and rates. Our work gives the first algorithm for quantum simulation of chemistry whose end-to-end complexity achieves sublinear scaling in the size of the grid. We achieve this by developing an exponentially faster method for initial-state-preparation. Photochemistry is a likely early application of our algorithm and we estimate resources required for end-to-end simulations of non-adiabatic dynamics of atmospherically important molecules. Classically intractable photochemical computations could be performed using resources comparable to those required for other chemical applications of quantum computing.\n\nAuthors: Elliot C. Eklund, Arkin Tikku, Patrick Sinnott, William J. Huggins, Guang Hao Low, Dominic W. Berry, Ivan Kassal\nCategories: quant-ph, quant-ph",
+  "word_count": 213,
+  "published_at": "2026-03-19T15:13:13Z",
+  "ingested_at": "2026-03-26T20:26:16.884Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

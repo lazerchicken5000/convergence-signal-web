@@ -1,0 +1,39 @@
+{
+  "id": "td_17d8827f",
+  "source": "arxiv",
+  "source_id": "2603.24576",
+  "source_url": "https://arxiv.org/abs/2603.24576",
+  "content_type": "paper",
+  "creator": {
+    "id": "xinying_guo",
+    "name": "Xinying Guo",
+    "handle": "Xinying Guo, Chenxi Jiang, Hyun Bin Kim, Ying Sun, Yang Xiao, Yuhang Han, Jianfei Yang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation",
+  "body_text": "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation\n\nRobotic manipulation often requires memory: occlusion and state changes can make decision-time observations perceptually aliased, making action selection non-Markovian at the observation level because the same observation may arise from different interaction histories. Most embodied agents implement memory via semantically compressed traces and similarity-based retrieval, which discards disambiguating fine-grained perceptual cues and can return perceptually similar but decision-irrelevant episodes. Inspired by human episodic memory, we propose Chameleon, which writes geometry-grounded multimodal tokens to preserve disambiguating context and produces goal-directed recall through a differentiable memory stack. We also introduce Camo-Dataset, a real-robot UR5e dataset spanning episodic recall, spatial tracking, and sequential manipulation under perceptual aliasing. Across tasks, Chameleon consistently improves decision reliability and long-horizon control over strong baselines in perceptually confusable settings.\n\nAuthors: Xinying Guo, Chenxi Jiang, Hyun Bin Kim, Ying Sun, Yang Xiao, Yuhang Han, Jianfei Yang\nCategories: cs.RO, cs.AI, cs.CV, cs.RO",
+  "word_count": 121,
+  "published_at": "2026-03-25T17:52:43Z",
+  "ingested_at": "2026-03-26T07:35:02.195Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

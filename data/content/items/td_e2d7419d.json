@@ -1,0 +1,37 @@
+{
+  "id": "td_e2d7419d",
+  "source": "semantic_scholar",
+  "source_id": "d0c4087c331d285a3b8dfd1e7b40484160e8d23d",
+  "source_url": "https://www.semanticscholar.org/paper/d0c4087c331d285a3b8dfd1e7b40484160e8d23d",
+  "content_type": "paper",
+  "creator": {
+    "id": "arthur_gervais",
+    "name": "Arthur Gervais",
+    "handle": "Arthur Gervais, Liyi Zhou",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AI Agent Smart Contract Exploit Generation",
+  "body_text": "AI Agent Smart Contract Exploit Generation\nTLDR: A1 is presented, an agentic system that transforms any LLM into an end-to-end exploit generator, providing agents with six domain-specific tools for autonomous vulnerability discovery, from understanding contract behavior to testing strategies on real blockchain states.\nSmart contract vulnerabilities have led to billions in losses, yet finding actionable exploits remains challenging. Traditional fuzzers rely on rigid heuristics and struggle with complex attacks, while human auditors are thorough but slow and don't scale. Large Language Models offer a promising middle ground, combining human-like reasoning with machine speed. Early studies show that simply prompting LLMs generates unverified vulnerability speculations with high false positive rates. To address this, we present A1, an agentic system that transforms any LLM into an end-to-end exploit generator. A1 provides agents with six domain-specific tools for autonomous vulnerability discovery, from understanding contract behavior to testing strategies on real blockchain states. All outputs are concretely validated through execution, ensuring only profitable proof-of-concept exploits are reported. We evaluate A1 across 36 real-world vulnerable contracts on Ethereum and Binance Smart Chain. A1 achieves a 63% success rate on the VERITE benchmark. Across all successful cases, A1 extracts up to \\$8.59 million per exploit and \\$9.33 million total. Using Monte Carlo analysis of historical attacks, we demonstrate that immediate vulnerability detection yields 86-89% success probability, dropping to 6-21% with week-long delays. Our economic analysis reveals a troubling asymmetry: attackers achieve profitability at \\$6,000 exploit values while defenders require \\$60,000 -- raising fundamental questions about whether AI agents inevitably favor exploitation over defense.\nAuthors: Arthur Gervais, Liyi Zhou\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 267,
+  "published_at": "2025-07-08",
+  "ingested_at": "2026-03-28T04:40:25.856Z",
+  "engagement": {
+    "views": 7,
+    "likes": 1,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

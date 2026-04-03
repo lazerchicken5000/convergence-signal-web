@@ -1,0 +1,35 @@
+{
+  "id": "td_fadbc70f",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Gemma 4: Byte for byte, the most capable open models",
+  "body_text": "Gemma 4: Byte for byte, the most capable open models\nFour new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Experts.\nGoogle emphasize \"unprecedented level of intelligence-per-parameter\", providing yet more evidence that creating small useful models is one of the hottest areas of research right now.\nThey actually label the two smaller models as E2B and E4B for \"Effective\" parameter size. The system card explains:\n\nThe smaller models incorporate Per-Layer Embeddings (PLE) to maximize parameter efficiency in on-device deployments. Rather than adding more layers or parameters to the model, PLE gives each decoder layer its own small embedding for every token. These embedding tables are large but are only used for quick lookups, which is why the effective parameter count is much smaller than the total.\n\nI don't entirely understand that, but apparently that's what the \"E\" in E2B means!\nOne particularly exciting feature of these models is that they are multi-modal beyond just images:\n\nVision and audio: All models natively process video and images, supporting variable resolutions, and excelling at visual tasks like OCR and chart understanding. Additionally, the E2B and E4B models feature native audio input for speech recognition and understanding.\n\nI've not figured out a way to run audio input locally - I don't think that feature is in LM Studio or Ollama yet.\nI tried them out using the GGUFs for LM Studio. The 2B (4.41GB), 4B (6.33GB) and 26B-A4B (17.99GB) models all worked perfectly, but the 31B (19.89GB) model was broken and spat out \"---\\n\" in a loop for every prompt I tried.\nThe succession of pelican quality from 2B to 4B to 26B-A4B is notable:\nE2B:\n\nE4B:\n\n26B-A4B:\n\n(This one actually had an SVG error - \"error on line 18 at column 88: Attribute x1 redefined\" - but after fixing that I got probably the best pelican I've seen yet from a model that runs on my laptop.)\nGoogle are providing API access to the two larger Gemma models via their AI Studio. I added support to llm-gemini and then ran a pelican through the 31B model using that:\nllm -m gemini/gemma-4-31b-it 'Generate an SVG of a pelican riding a bicycle'\n\nPretty good, though it is missing the front part of the bicycle frame:\n\n\n\n    Tags: google, ai, generative-ai, local-llms, llms, llm, vision-llms, pelican-riding-a-bicycle, llm-reasoning, gemma, llm-release, lm-studio",
+  "word_count": 392,
+  "published_at": "2026-04-02T18:28:54.000Z",
+  "ingested_at": "2026-04-03T01:03:28.687Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_cdda277b",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Vibe coding SwiftUI apps is a lot of fun",
+  "body_text": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results.\r\nThis is my second experiment with vibe coding macOS apps - the first was this presentation app a few weeks ago.\r\nIt turns out Claude Opus 4.6 and GPT-5.4 are both very competent at SwiftUI - and a full SwiftUI app can fit in a single text file, which means I can use them to spin something up without even opening Xcode.\r\nI’ve built two apps so far: Bandwidther shows me what apps are using network bandwidth and Gpuer to show me what’s going on with the GPU. At Claude’s suggestion both of these are now menu bar icons that open a panel full of information.\r\nBandwidther\r\nI built this app first, because I wanted to see what Dropbox was doing. It looks like this:\r\n\r\nI’ve shared the full transcript I used to build the first version of the app. My prompts were pretty minimal:\r\n\r\nShow me how much network bandwidth is in use from this machine to the internet as opposed to local LAN\r\n\r\n(My initial curiosity was to see if Dropbox was transferring files via the LAN from my old computer or was downloading from the internet.)\r\n\r\nmkdir /tmp/bandwidther and write a native Swift UI app in there that shows me these details on a live ongoing basis\r\n\r\nThis got me the first version, which proved to me this was worth pursuing further.\r\n\r\ngit init and git commit what you have so far\r\n\r\nSince I was about to start adding new features.\r\n\r\nNow suggest features we could add to that app, the goal is to provide as much detail as possible concerning network usage including by different apps\r\n\r\nThe nice thing about having Claude suggest features is that it has a much better idea for what’s possible than I do.\r\nWe had a bit of back and forth fixing some bugs, then I sent a few more prompts to get to the two column layout shown above:\r\n\r\nadd Per-Process Bandwidth, relaunch the app once that is done\r\n\r\n\r\nnow add the reverse DNS feature but make sure original IP addresses are still visible too, albeit in smaller typeface\r\n\r\n\r\nredesign the app so that it is wider, I want two columns - the per-process one on the left and the rest on the right\r\n\r\n\r\nOK make it a task bar icon thing, when I click the icon I want the app to appear, the icon itself should be a neat minimal little thing\r\n\r\nThe source code and build instructions are available in simonw/bandwidther.\r\nGpuer\r\nWhile I was building Bandwidther in one session I had another session running to build a similar tool for seeing what the GPU was doing. Here’s what I ended up with:\r\n\r\nHere's the transcript. This one took even less prompting because I could use the in-progress Bandwidther as an example:\r\n\r\nI want to know how much RAM and GPU this computer is using, which is hard because stuff on the GPU and RAM does not seem to show up in Activity Monitor\r\n\r\nThis collected information using system_profiler and memory_pressure and gave me an answer - more importantly it showed me this was possible, so I said:\r\n\r\nLook at /tmp/bandwidther and then create a similar app in /tmp/gpuer which shows the information from above on an ongoing basis, or maybe does it better\r\n\r\nAfter a few more changes to the Bandwidther app I told it to catch up:\r\n\r\nNow take a look at recent changes in /tmp/bandwidther - that app now uses a sys tray icon, imitate that\r\n\r\nThis remains one of my favorite tricks for using coding agents: having them recombine elements from other projects.\r\nThe code for Gpuer can be found in simonw/gpuer on GitHub.\r\nYou shouldn't trust these apps\r\nThese two apps are classic vibe coding: I don't know Swift and I hardly glanced at the code they were writing.\r\nMore importantly though, I have very little experience with macOS internals such as the values these tools are measuring. I am completely unqualified to evaluate if the numbers and charts being spat out by these tools are credible or accurate!\r\nI've added warnings to both GitHub repositories to that effect.\r\nThis morning I caught Gpuer reporting that I had just 5GB of memory left when that clearly wasn't the case (according to Activity Monitor). I pasted a screenshot into Claude Code and it adjusted the calculations and the new numbers look right, but I'm still not confident that it's reporting things correctly.\r\nI only shared them on GitHub because I think they're interesting as an example of what Claude can do with SwiftUI.\r\nDespite my lack of confidence in the apps themselves, I did learn some useful things from these projects:\r\n\r\nA SwiftUI app can get a whole lot done with a single file of code - here's GpuerApp.swift (880 lines) and BandwidtherApp.swift (1063 lines).\r\nWrapping various terminal commands in a neat UI with Swift is easily achieved.\r\nClaude has surprisingly good design taste when it comes to SwiftUI applications.\r\nTurning an app into a menu bar app is just a few lines of extra code as well.\r\nYou don't need to open Xcode to build this kind of application!\r\n\r\nThese two apps took very little time to build and have convinced me that building macOS apps in SwiftUI is a new capability I should consider for future projects.\n    \n        Tags: macos, ai, generative-ai, llms, vibe-coding, coding-agents, swift, claude-code",
+  "word_count": 943,
+  "published_at": "2026-03-27T20:59:53.000Z",
+  "ingested_at": "2026-03-28T00:15:42.454Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_64cf81e4",
+  "source": "arxiv",
+  "source_id": "2603.24567",
+  "source_url": "https://arxiv.org/abs/2603.24567",
+  "content_type": "paper",
+  "creator": {
+    "id": "raju_chowdhury",
+    "name": "Raju Chowdhury",
+    "handle": "Raju Chowdhury, Tanmay Sen, Prajamitra Bhuyan, Biswabrata Pradhan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Trust Region Constrained Bayesian Optimization with Penalized Constraint Handling",
+  "body_text": "Trust Region Constrained Bayesian Optimization with Penalized Constraint Handling\n\nConstrained optimization in high-dimensional black-box settings is difficult due to expensive evaluations, the lack of gradient information, and complex feasibility regions. In this work, we propose a Bayesian optimization method that combines a penalty formulation, a surrogate model, and a trust region strategy. The constrained problem is converted to an unconstrained form by penalizing constraint violations, which provides a unified modeling framework. A trust region restricts the search to a local region around the current best solution, which improves stability and efficiency in high dimensions. Within this region, we use the Expected Improvement acquisition function to select evaluation points by balancing improvement and uncertainty. The proposed Trust Region method integrates penalty-based constraint handling with local surrogate modeling. This combination enables efficient exploration of feasible regions while maintaining sample efficiency. We compare the proposed method with state-of-the-art methods on synthetic and real-world high-dimensional constrained optimization problems. The results show that the method identifies high-quality feasible solutions with fewer evaluations and maintains stable performance across different settings.\n\nAuthors: Raju Chowdhury, Tanmay Sen, Prajamitra Bhuyan, Biswabrata Pradhan\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 165,
+  "published_at": "2026-03-25T17:44:27Z",
+  "ingested_at": "2026-03-26T08:40:04.488Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

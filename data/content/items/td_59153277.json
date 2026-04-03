@@ -1,0 +1,35 @@
+{
+  "id": "td_59153277",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/say-chameleonicity-three-times-fast-or-read-post",
+  "source_url": "https://www.science.org/content/blog-post/say-chameleonicity-three-times-fast-or-read-post",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Say \"Chameleonicity\" Three Times Fast. Or Read This Post.",
+  "body_text": "By this point a lot of companies have made a lot of PROTAC bifunctionals. Those, as my readers in the business well know, are large species that have two “business ends” tied together by some sort of linking group. One end binds to a protein of interest (POI) and the other to a protein that is involved in the protein degradation machinery (typically an E3 ligase enzyme). Having these in the same molecule lets you bind to your target and then bring the E3 ligase over in proximity. At that point it does what it does for a living, namely slap ubiquitin moeities on available lysine residues, and those go on to signal the cell that this protein has been tagged for removal to the proteasome and destruction for recycled pieces. This lets you stand up there like Zeus while zapping target proteins with destroying lightning bolts, and this often accomplishes much more than just hitting those targets with more traditional small-molecule inhibitors. There are some details to be worked out before you start raining down the divine retribution, though, and a big one is that linking group. How long it should be, how polar, how flexible. . .there are a lot of possibilities, too many to run through them systematically, and they most definitely have effects on the activity of your final molecules. Looking closely, those activity variations are due to several factors. One is whether your bifunctional brings the two proteins together in a productive manner. We don’t always know why some of them work better than the others in this step, but there’s no doubt that some combinations result in a lot more ubquitination than others. Good ol’ pharmacokinetics is (as always!) a consideration, too. These bifunctionals tend to lie pretty far outside most people’s comfort zones in size, molecular weight, number of hydrogen bonding groups, and all those other parameters we used to use to convince ourselves that we know how to make compounds with good properties. Now, many of them do work - more than you would have thought twenty years ago if you’d advanced these structures, I’m sure - but many of them don’t (problems with oral absorption, membrane penetration, metabolic stability and more). There have been a lot of proposals for guidelines and heuristics to help you narrow things down, and this new paper has a look at them in the context of around 1500 PROTAC candidates produced at AstraZeneca over the last few years. One of the properties that has gotten a lot of attention is “chameleonicity”, which is broadly defined as the ability of a molecule to adapt to solvent or membrane environments by changes in its conformation. You can imagine hydrogen bond pairs being buried in a more close conformation, the better to slip through, for example. In molecules as large as PROTACs (and with flexible linkers in them) it’s not hard to think that this could be important. But is it? The authors here found that they could not use any of the proposed chameleonicity parameters to make sense of their experimental oral absorption numbers, unfortunately. Solubility measurements, in either buffer or simulated intestinal fluid, were no help either. The “bifunctional bioavailability index” from Bristol-Myers Squibb was a bit more useful, but still not something you’d want to base your whole program on. The only help the authors found was from the good ol’ Caco-2 assay. That’s one that’s been in use for many years - you grow a layer of those cells (which come from an intestinal epithelial cancer line) and then measure the amount of compound that can move through it, ideally in either direction (because these cell layers do have an “inside” and an “outside”. It’s rather labor-intensive and low-throughput, and there is no guarantee that every membrane you encounter will behave like a lab-grown layer of Caco-2 cells either (quite the opposite!) But it can certainly flag outliers, and that’s what it did with the bifunctionals here. The compounds with a high efflux ratio in the assay (indicating that compounds moved out through the cell layer more readily than they moved in) were notably less likely to have decent oral absorption, which is a sensible result. So you can at least eliminate some candidates that way if you are willing to put in the time and effort. That’s one take-home here, and the other one is that you probably shouldn’t try to shortcut things by doing chameleonicity calculations, either. If there are shortcuts in this area, we haven’t found the good ones yet.",
+  "word_count": 758,
+  "published_at": "2026-04-02T02:44:26.000Z",
+  "ingested_at": "2026-04-03T01:03:39.759Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_dcb670cc",
+  "source": "arxiv",
+  "source_id": "2603.25737",
+  "source_url": "https://arxiv.org/abs/2603.25737",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuxing_lu",
+    "name": "Yuxing Lu",
+    "handle": "Yuxing Lu, Xukai Zhao, Wei Wu, Jinzhuo Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment",
+  "body_text": "Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment\n\nThe knowledge base in a retrieval-augmented generation (RAG) system is typically assembled once and never revised, even though the facts a query requires are often fragmented across documents and buried in irrelevant content. We argue that the knowledge base should be treated as a trainable component and propose WriteBack-RAG, a framework that uses labeled examples to identify where retrieval succeeds, isolate the relevant documents, and distill them into compact knowledge units that are indexed alongside the original corpus. Because the method modifies only the corpus, it can be applied once as an offline preprocessing step and combined with any RAG pipeline. Across four RAG methods, six benchmarks, and two LLM backbones, WriteBack-RAG improves every evaluated setting, with gains averaging +2.14%. Cross-method transfer experiments further show that the distilled knowledge benefits RAG pipelines other than the one used to produce it, confirming that the improvement resides in the corpus itself.\n\nAuthors: Yuxing Lu, Xukai Zhao, Wei Wu, Jinzhuo Wang\nCategories: cs.AI, cs.CL, cs.IR, cs.AI",
+  "word_count": 149,
+  "published_at": "2026-03-26T17:59:49Z",
+  "ingested_at": "2026-03-27T21:20:43.986Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.IR",
+    "cs.AI"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

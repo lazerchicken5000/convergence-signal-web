@@ -1,0 +1,37 @@
+{
+  "id": "td_dc2c9ed2",
+  "source": "semantic_scholar",
+  "source_id": "0d1b4aa4611cfe92ab545183c841549d2c1a6336",
+  "source_url": "https://www.semanticscholar.org/paper/0d1b4aa4611cfe92ab545183c841549d2c1a6336",
+  "content_type": "paper",
+  "creator": {
+    "id": "dingyu_yao",
+    "name": "Dingyu Yao",
+    "handle": "Dingyu Yao, Chenxu Yang, Zhengyang Tong, Zheng Lin, Wei Liu, Jian Luan, Weiping Wang",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization",
+  "body_text": "VecInfer: Efficient LLM Inference with Low-Bit KV Cache via Outlier-Suppressed Vector Quantization\nTLDR: V VecInfer is proposed, a novel VQ method for aggressive KV cache compression while enabling efficient inference and an optimized CUDA kernel that fuses computation with dequantization to minimize memory access overhead.\nThe Key-Value (KV) cache introduces substantial memory overhead during large language model (LLM) inference. Although existing vector quantization (VQ) methods reduce KV cache usage and provide flexible representational capacity across bit-widths, they suffer severe performance degradation at ultra-low bit-widths due to key cache outliers that hinder effective codebook utilization. To address this challenge, we propose VecInfer, a novel VQ method for aggressive KV cache compression while enabling efficient inference. By applying smooth and Hadamard transformations, VecInfer suppresses outliers in the key cache, enabling the codebook to comprehensively cover the original data distribution and thereby reducing quantization difficulty. To facilitate efficient deployment, we design an optimized CUDA kernel that fuses computation with dequantization to minimize memory access overhead. Extensive evaluations demonstrate that VecInfer consistently outperforms existing quantization baselines across both long-context understanding and mathematical reasoning tasks. With only 2-bit quantization, VecInfer achieves performance comparable to full precision, while delivering up to $\\mathbf{2.7\\times}$ speedup in large-batch self-attention computation and $\\mathbf{8.3\\times}$ reduction in single-batch end-to-end latency on Llama-3.1-8B with a 196k sequence length.\nAuthors: Dingyu Yao, Chenxu Yang, Zhengyang Tong, Zheng Lin, Wei Liu, Jian Luan, Weiping Wang\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 235,
+  "published_at": "2025-10-07",
+  "ingested_at": "2026-03-27T21:22:03.838Z",
+  "engagement": {
+    "views": 1,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

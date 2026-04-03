@@ -1,0 +1,38 @@
+{
+  "id": "td_84a64212",
+  "source": "arxiv",
+  "source_id": "2603.14835",
+  "source_url": "https://arxiv.org/abs/2603.14835",
+  "content_type": "paper",
+  "creator": {
+    "id": "robert_j._taggart",
+    "name": "Robert J. Taggart",
+    "handle": "Robert J. Taggart, Nicholas Loveday, Simon Louis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the evaluation of time-to-event, survival time and first passage time forecasts",
+  "body_text": "On the evaluation of time-to-event, survival time and first passage time forecasts\n\nTime-to-event forecasts are essential when decisions depend on event timing. This article develops a framework for evaluating such forecasts when the event has not yet occurred or is not predicted within the forecast horizon. We introduce a theory of provisional evaluation, in which each forecast is assessed against its right-censored realization, defined as the minimum of the event time and the evaluation time. For probabilistic forecasts, we show that strictly proper scoring rules induce provisionally strictly proper scoring rules, whose expected score, computed from the right-censored realization, is optimized under truthful forecasting. Threshold-weighted versions of the continuous ranked probability score and the logarithmic score satisfy this property. We also develop a theory for scoring point (single-valued) forecasts under right-censoring. Quantile and interquartile range forecasts are shown to be provisionally elicitable, meaning that scoring functions exist for which these functionals uniquely minimize the expected score, whereas the expectation functional is not provisionally elicitable. A synthetic experiment demonstrates that the proposed scores correctly rank forecasters. Diagnostic tools, including Murphy diagrams and reliability diagrams, extend naturally. Applications to operational time-to-flood and time-to-strong-wind forecasts illustrate the approach.\n\nAuthors: Robert J. Taggart, Nicholas Loveday, Simon Louis\nCategories: math.ST, stat.AP, math.ST",
+  "word_count": 183,
+  "published_at": "2026-03-16T05:30:05Z",
+  "ingested_at": "2026-03-26T20:26:16.885Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "stat.AP",
+    "math.ST"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

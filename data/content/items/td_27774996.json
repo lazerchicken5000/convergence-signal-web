@@ -1,0 +1,37 @@
+{
+  "id": "td_27774996",
+  "source": "semantic_scholar",
+  "source_id": "3f8ac8d3b4d9d66f17a4f47739f9d820af668448",
+  "source_url": "https://www.semanticscholar.org/paper/3f8ac8d3b4d9d66f17a4f47739f9d820af668448",
+  "content_type": "paper",
+  "creator": {
+    "id": "konrad_staniszewski",
+    "name": "Konrad Staniszewski",
+    "handle": "Konrad Staniszewski, Adrian La'ncucki",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "KV Cache Transform Coding for Compact Storage in LLM Inference",
+  "body_text": "KV Cache Transform Coding for Compact Storage in LLM Inference\nTLDR: KVTC is presented, a lightweight transform coder that compresses KV caches for compact on-GPU and off-GPU storage and consistently outperforms inference-time baselines such as token eviction, quantization, and SVD-based methods, while achieving higher compression ratios.\nServing large language models (LLMs) at scale necessitates efficient key-value (KV) cache management. KV caches can be reused across conversation turns via shared-prefix prompts that are common in iterative code editing and chat. However, stale caches consume scarce GPU memory, require offloading, or force recomputation. We present KVTC, a lightweight transform coder that compresses KV caches for compact on-GPU and off-GPU storage. Drawing on classical media compression, KVTC combines PCA-based feature decorrelation, adaptive quantization, and entropy coding. It requires only a brief initial calibration and leaves model parameters unchanged. By exploiting redundancies in KV caches, KVTC achieves up to 20$\\times$ compression while maintaining reasoning and long-context accuracy, and 40$\\times$ or higher for specific use cases. We test KVTC with Llama 3, Mistral NeMo, and R1-Qwen 2.5 models across benchmarks including AIME25, GSM8K, LiveCodeBench, LongBench, MATH-500, MMLU, Qasper and RULER. It consistently outperforms inference-time baselines such as token eviction, quantization, and SVD-based methods, while achieving higher compression ratios. These results support KVTC as a practical building block for memory-efficient LLM serving with reusable KV caches.\nAuthors: Konrad Staniszewski, Adrian La'ncucki\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 230,
+  "published_at": "2025-11-03",
+  "ingested_at": "2026-03-27T21:22:03.838Z",
+  "engagement": {
+    "views": 0,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "cited_creator_ids": [],
+  "discourse_format": "academic_paper"
+}

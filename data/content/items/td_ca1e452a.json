@@ -1,0 +1,35 @@
+{
+  "id": "td_ca1e452a",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Quantization from the ground up",
+  "body_text": "Quantization from the ground up\nSam Rose continues his streak of publishing spectacularly informative interactive essays, this time explaining how quantization of Large Language Models works (which he says might be \"the best post I've ever made\".)\nAlso included is the best visual explanation I've ever seen of how floating point numbers are represented using binary digits.\n\nI hadn't heard about outlier values in quantization - rare float values that exist outside of the normal tiny-value distribution - but apparently they're very important:\n\nWhy do these outliers exist? [...] tl;dr: no one conclusively knows, but a small fraction of these outliers are very important to model quality. Removing even a single \"super weight,\" as Apple calls them, can cause the model to output complete gibberish.\nGiven their importance, real-world quantization schemes sometimes do extra work to preserve these outliers. They might do this by not quantizing them at all, or by saving their location and value into a separate table, then removing them so that their block isn't destroyed.\n\nPlus there's a section on How much does quantization affect model accuracy?. Sam explains the concepts of perplexity and ** KL divergence ** and then uses the llama.cpp perplexity tool and a run of the GPQA benchmark to show how different quantization levels affect Qwen 3.5 9B.\nHis conclusion:\n\nIt looks like 16-bit to 8-bit carries almost no quality penalty. 16-bit to 4-bit is more noticeable, but it's certainly not a quarter as good as the original. Closer to 90%, depending on how you want to measure it.\n\n\n\n    Tags: computer-science, ai, explorables, generative-ai, llms, sam-rose, qwen",
+  "word_count": 265,
+  "published_at": "2026-03-26T16:21:09.000Z",
+  "ingested_at": "2026-03-28T00:15:42.454Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

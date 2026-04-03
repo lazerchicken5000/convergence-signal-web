@@ -1,0 +1,37 @@
+{
+  "id": "td_80da91aa",
+  "source": "arxiv",
+  "source_id": "2603.24538",
+  "source_url": "https://arxiv.org/abs/2603.24538",
+  "content_type": "paper",
+  "creator": {
+    "id": "deyu_ming",
+    "name": "Deyu Ming",
+    "handle": "Deyu Ming, Daniel Williamson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Generalized and Scalable Deep Gaussian Process Emulation",
+  "body_text": "Generalized and Scalable Deep Gaussian Process Emulation\n\nGaussian process (GP) emulators have become essential tools for approximating complex simulators, significantly reducing computational demands in optimization, sensitivity analysis, and model calibration. While traditional GP emulators effectively model continuous and Gaussian-distributed simulator outputs with homogeneous variability, they typically struggle with discrete, heteroskedastic Gaussian, or non-Gaussian data, limiting their applicability to increasingly common stochastic simulators. In this work, we introduce a scalable Generalized Deep Gaussian Process (GDGP) emulation framework designed to accommodate simulators with heteroskedastic Gaussian outputs and a wide range of non-Gaussian response distributions, including Poisson, negative binomial, and categorical distributions. The GDGP framework leverages the expressiveness of DGPs and extends them to latent GP structures, enabling it to capture the complex, non-stationary behavior inherent in many simulators while also modeling non-Gaussian simulator outputs. We make GDGP scalable by incorporating the Vecchia approximation for settings with a large number of input locations, while also developing efficient inference procedures for handling large numbers of replicates. In particular, we present methodological developments that further enhance the computation of the approach for heteroskedastic Gaussian responses. We demonstrate through a series of synthetic and empirical examples that these extensions deliver the practical application of GDGP emulators and a unified methodology capable of addressing diverse modeling challenges. The proposed GDGP framework is implemented in the open-source R package dgpsi.\n\nAuthors: Deyu Ming, Daniel Williamson\nCategories: stat.CO, stat.CO",
+  "word_count": 215,
+  "published_at": "2026-03-25T17:12:54Z",
+  "ingested_at": "2026-03-26T08:40:04.488Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.CO",
+    "stat.CO"
+  ],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper"
+}

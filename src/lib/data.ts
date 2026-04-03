@@ -1,14 +1,14 @@
 /**
- * Data layer — reads trenddistill JSON ledgers.
+ * Data layer — reads trenddistill JSON ledgers from the repo's data/ directory.
  *
- * For local dev: reads directly from the trenddistill data directory.
- * For production: would read from Vercel Blob (future).
+ * Data is synced from trenddistill → data/ → git push → Vercel auto-deploy.
+ * See scripts/sync-data.sh in the trenddistill repo.
  */
 
 import { readFileSync, existsSync, readdirSync } from 'fs';
 import path from 'path';
 
-const CI_BASE = '/Users/sol_agent/.openclaw/workspace/trenddistill/data';
+const CI_BASE = path.join(process.cwd(), 'data');
 
 // --- Types ---
 
@@ -103,7 +103,7 @@ function getLatestFile(dir: string): string | null {
 
 export function getConvergencePatterns(): ConvergencePattern[] {
   const data = readJson<{ patterns: ConvergencePattern[] }>(
-    path.join(CI_BASE, 'ledger/convergence.json')
+    path.join(CI_BASE, 'convergence.json')
   );
   if (!data?.patterns) return [];
   return data.patterns.sort((a, b) => b.ci_score - a.ci_score);
@@ -116,7 +116,7 @@ export function getConvergencePattern(id: string): ConvergencePattern | null {
 
 export function getRPGProfiles(): RPGProfile[] {
   const data = readJson<RPGProfile[]>(
-    path.join(CI_BASE, 'ledger/rpg_profiles.json')
+    path.join(CI_BASE, 'rpg_profiles.json')
   );
   if (!data) return [];
   return data.sort((a, b) => b.leader_score - a.leader_score);
@@ -160,7 +160,7 @@ interface ActiveVector {
  * Pattern → vectors (trend_context) → content items (content/items/).
  */
 export function getPatternSources(vectorIds: string[], limit = 10): ContentItem[] {
-  const contextPath = path.join(CI_BASE, 'ledger/trend_context.json');
+  const contextPath = path.join(CI_BASE, 'trend_context.json');
   const context = readJson<{ active_vectors: ActiveVector[]; graduated_vectors: ActiveVector[] }>(contextPath);
   if (!context) return [];
 

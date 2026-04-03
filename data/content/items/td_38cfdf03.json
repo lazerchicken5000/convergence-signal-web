@@ -1,0 +1,35 @@
+{
+  "id": "td_38cfdf03",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette-llm-usage 0.2a0",
+  "body_text": "Release: datasette-llm-usage 0.2a0\n    \n\nRemoved features relating to allowances and estimated pricing. These are now the domain of datasette-llm-accountant.\nNow depends on datasette-llm for model configuration. #3\nFull prompts and responses and tool calls can now be logged to the llm_usage_prompt_log table in the internal database if you set the new datasette-llm-usage.log_prompts plugin configuration setting.\nRedesigned the /-/llm-usage-simple-prompt page, which now requires the llm-usage-simple-prompt permission.\n\n\n    \n        Tags: llm, datasette",
+  "word_count": 67,
+  "published_at": "2026-04-01T03:24:03.000Z",
+  "ingested_at": "2026-04-01T21:57:52.640Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

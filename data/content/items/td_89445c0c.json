@@ -1,0 +1,35 @@
+{
+  "id": "td_89445c0c",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Mar/31/llm/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Mar/31/llm/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm 0.30",
+  "body_text": "Release: llm 0.30\n    \n\nThe register_models() plugin hook now takes an optional model_aliases parameter listing all of the models, async models and aliases that have been registered so far by other plugins. A plugin with @hookimpl(trylast=True) can use this to take previously registered models into account. #1389\nAdded docstrings to public classes and methods and included those directly in the documentation.\n\n\n    \n        Tags: llm",
+  "word_count": 62,
+  "published_at": "2026-03-31T20:35:51.000Z",
+  "ingested_at": "2026-04-03T01:03:28.687Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

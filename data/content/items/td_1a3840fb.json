@@ -1,0 +1,35 @@
+{
+  "id": "td_1a3840fb",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/revving-lnp-delivery",
+  "source_url": "https://www.science.org/content/blog-post/revving-lnp-delivery",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Revving Up LNP Delivery",
+  "body_text": "Now here’s something that I wouldn’t have guessed. As the world knows, lipid nanoparticles have been the key to getting mRNA vaccines to work, and they are useful for all other attempts to deliver RNA cargoes into cells and probably much besides. A huge amount of effort, time, and money has been put into trying to optimize them for these purposes - all sorts of different lipids and lipid mixes, close attention to size, morphology, and cargo loading, you name it. But as this new paper notes, even with this, mRNA delivery can be rather spotty across different tissue types, for reasons that are still up for debate. The genetic background of the cells and tissues that youre trying to deliver to will clearly have an influence, but even going after what should be the same cell types you can see some real variation (and plenty of changes between in vitro and in vivo behavior). What’s not up for debate, sadly, is that if we’re going to have to just keep trying combinations of lipid carriers to get out of this problem, well, we could be at it a while: a four-component LNP could have up to ten billion potential combinations, given the number of candidates for each of those positions. The authors here note that culturing your target cells in different media leads to very different mRNA LNP outcomes. The standard cell media mixes are formulated to optimize cell growth in culture, and as such contain rather nonphysiological amounts of many nutrients. That was the impetus to develop human plasma-like medium (HPLM) to more closely mimic the in vivo situation. When they used that mix instead of the usual cell media, the authors saw the efficiency of the mRNA delivery drop sharply, which got them to thinking about the effects of all those extra components in the classic brews. It turns out that the HPLM-grown cells show downregulation of several amino acid metabolic pathways (arginine, methione, and proline, for example), and the team hypothesized that this might have something to do with the impaired LNP uptake. Screening supplementation of individual amino acids in HPLM to bring their concentrations up to where they are in other media showed that extra methionine, arginine, and serine had a very significant effect on efficacy of mRNA delivery. Working on the concentrations of these in more detail, a mixture of 30x HPLM background in methionine, 10X arginine, and 30X serine performed well across the board, with five-to tenfold increases in delivery. Cells fed this mixture showed enrichment of endocytosis pathway proteins (but not those associated with endosomal escape, as far as could be seen). The clathrin-independent-carrier (CLIC) pathway seemed to be especially affected, and had already been flagged by other research as important for LNP success. And convincingly, this amino acid supplementation idea worked in animals, showing greatly increased uptake of mRNA cargos both in model systems and with therapeutic cargos. And this worked not only for mRNA delivery, but for in vivo gene editing cargoes with CRISPR-Cas9 components as well. This is good news - it’s hard to see how anyone could have a problem with some extra amino acids being given along with the mRNA doses. So it looks like the metabolic state of the target cells is indeed a key factor in hitting them with lipid nanoparticles, and that this can be easily modified with a cocktail of inexpensive, easily available and easily administered amino acids. I hope this idea gets some intensive scrutiny and that it works as well for others as it did here!",
+  "word_count": 595,
+  "published_at": "2026-03-30T03:19:34.000Z",
+  "ingested_at": "2026-04-01T21:59:32.589Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
