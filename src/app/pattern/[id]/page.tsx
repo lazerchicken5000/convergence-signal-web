@@ -1,7 +1,8 @@
-import { getConvergencePattern, getConvergencePatterns } from '@/lib/data';
+import { getConvergencePattern, getConvergencePatterns, getPatternSources } from '@/lib/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { SourceLinks } from '@/components/source-links';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -106,11 +107,12 @@ export default async function PatternPage({ params }: { params: Promise<{ id: st
       <Card className="mb-4">
         <CardHeader className="pb-2"><CardTitle className="text-sm">Contributing Sources ({pattern.creator_ids.length})</CardTitle></CardHeader>
         <CardContent>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mb-4">
             {pattern.creator_ids.slice(0, 20).map(cid => (
               <Badge key={cid} variant="secondary" className="text-xs font-mono">{cid}</Badge>
             ))}
           </div>
+          <SourceLinks sources={getPatternSources(pattern.vector_ids, 10)} />
         </CardContent>
       </Card>
 

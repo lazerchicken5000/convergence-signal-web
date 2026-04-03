@@ -133,6 +133,101 @@ export function getLatestDiff(): ConvergenceDiff | null {
   return readJson<ConvergenceDiff>(latestFile);
 }
 
+// --- Source Content ---
+
+export interface ContentItem {
+  id: string;
+  source: string;       // youtube, arxiv, github, web, rss
+  source_url: string;
+  title: string;
+  creator: {
+    id: string;
+    name: string;
+    handle: string;
+    platform: string;
+  };
+  content_type: string;  // talk, paper, repo, article, post
+}
+
+interface ActiveVector {
+  vector_id: string;
+  vector_text: string;
+  source_content_ids: string[];
+}
+
+/**
+ * Resolve source content items for a pattern's vector_ids.
+ * Pattern → vectors (trend_context) → content items (content/items/).
+ */
+export function getPatternSources(vectorIds: string[], limit = 10): ContentItem[] {
+  const contextPath = path.join(CI_BASE, 'ledger/trend_context.json');
+  const context = readJson<{ active_vectors: ActiveVector[]; graduated_vectors: ActiveVector[] }>(contextPath);
+  if (!context) return [];
+
+  const allVectors = [...(context.active_vectors || []), ...(context.graduated_vectors || [])];
+  const vectorMap = new Map(allVectors.map(v => [v.vector_id, v]));
+
+  // Collect unique content IDs from matching vectors
+  const contentIds = new Set<string>();
+  for (const vid of vectorIds) {
+    const vector = vectorMap.get(vid);
+    if (vector?.source_content_ids) {
+      for (const cid of vector.source_content_ids) {
+        contentIds.add(cid);
+      }
+    }
+  }
+
+  // Load content items
+  const items: ContentItem[] = [];
+  const contentDir = path.join(CI_BASE, 'content/items');
+  for (const cid of contentIds) {
+    if (items.length >= limit) break;
+    const itemPath = path.join(contentDir, `${cid}.json`);
+    const item = readJson<any>(itemPath);
+    if (item?.source_url) {
+      items.push({
+        id: item.id,
+        source: item.source || 'web',
+        source_url: item.source_url,
+        title: item.title || 'Untitled',
+        creator: {
+          id: item.creator?.id || '',
+          name: item.creator?.name || 'Unknown',
+          handle: item.creator?.handle || '',
+          platform: item.creator?.platform || item.source || 'web',
+        },
+        content_type: item.content_type || 'article',
+      });
+    }
+  }
+
+  return items;
+}
+
+/** Get source links for a leader's handles */
+export function getLeaderLinks(leader: RPGProfile): Array<{ platform: string; url: string; handle: string }> {
+  const links: Array<{ platform: string; url: string; handle: string }> = [];
+  const urlTemplates: Record<string, (h: string) => string> = {
+    youtube: h => `https://youtube.com/${h.startsWith('@') ? h : 'channel/' + h}`,
+    x: h => `https://x.com/${h.replace('@', '')}`,
+    twitter: h => `https://x.com/${h.replace('@', '')}`,
+    github: h => `https://github.com/${h}`,
+    web: h => h.startsWith('http') ? h : `https://${h}`,
+    arxiv: h => h.startsWith('http') ? h : `https://arxiv.org/search/?query=${encodeURIComponent(h)}`,
+    rss: h => h.startsWith('http') ? h : `https://${h}`,
+  };
+
+  for (const [platform, handle] of Object.entries(leader.handles || {})) {
+    if (!handle) continue;
+    const builder = urlTemplates[platform];
+    if (builder) {
+      links.push({ platform, url: builder(handle), handle });
+    }
+  }
+  return links;
+}
+
 export function getStats() {
   const patterns = getConvergencePatterns();
   const profiles = getRPGProfiles();

@@ -1,7 +1,8 @@
-import { getRPGProfile, getRPGProfiles } from '@/lib/data';
+import { getRPGProfile, getRPGProfiles, getLeaderLinks } from '@/lib/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { PlatformLinks } from '@/components/source-links';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -156,19 +157,12 @@ export default async function LeaderPage({ params }: { params: Promise<{ id: str
         </Card>
       )}
 
-      {/* Handles */}
+      {/* Platform Links */}
       {Object.keys(leader.handles).length > 0 && (
         <Card className="mb-4">
-          <CardHeader className="pb-2"><CardTitle className="text-sm">Handles</CardTitle></CardHeader>
+          <CardHeader className="pb-2"><CardTitle className="text-sm">Links</CardTitle></CardHeader>
           <CardContent>
-            <div className="space-y-1">
-              {Object.entries(leader.handles).map(([platform, handle]) => (
-                <p key={platform} className="text-sm">
-                  <span className="text-muted-foreground">{platform}:</span>{' '}
-                  <span className="font-mono">{handle}</span>
-                </p>
-              ))}
-            </div>
+            <PlatformLinks links={getLeaderLinks(leader)} />
           </CardContent>
         </Card>
       )}
