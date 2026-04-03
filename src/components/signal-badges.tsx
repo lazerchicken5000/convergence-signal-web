@@ -44,16 +44,10 @@ function formatTokens(n: number): string {
 }
 
 export function TokenCostBadge({ cost }: { cost: TokenCost }) {
-  const saved = cost.rawTokens - cost.curatedTokens;
   return (
-    <div className="flex items-center gap-2 mt-1">
-      <span className="text-[10px] text-zinc-500 font-mono">
-        {formatTokens(cost.rawTokens)} token bake
-      </span>
-      <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-mono font-bold border border-emerald-500/20">
-        saves you {formatTokens(saved)}
-      </span>
-    </div>
+    <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-mono font-bold border border-emerald-500/20">
+      {formatTokens(cost.rawTokens)} token bake
+    </span>
   );
 }
 
