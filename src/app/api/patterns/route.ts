@@ -1,4 +1,4 @@
-import { getConvergencePatterns, getPatternSources, getStats } from '@/lib/data';
+import { getConvergencePatterns, getPatternSources, getStats, getPatternTokenCost, getPatternSignalQuality } from '@/lib/data';
 import { NextResponse } from 'next/server';
 
 /**
@@ -62,9 +62,11 @@ export async function GET(request: Request) {
     patterns = patterns.slice(0, limit);
   }
 
-  // Resolve source links for each pattern
+  // Resolve source links, token costs, and signal quality for each pattern
   const enriched = patterns.map(p => {
     const sources = getPatternSources(p.vector_ids, 5);
+    const cost = getPatternTokenCost(p);
+    const signal = getPatternSignalQuality(p);
     return {
       id: p.id,
       label: p.label,
@@ -78,6 +80,18 @@ export async function GET(request: Request) {
       presuppositions: p.presupposition_set.slice(0, 3),
       first_detected: p.first_detected,
       last_updated: p.last_updated,
+      token_cost: {
+        raw_tokens: cost.rawTokens,
+        curated_tokens: cost.curatedTokens,
+        savings_percent: cost.savings,
+        source_count: cost.sourceCount,
+      },
+      signal_quality: {
+        independence: signal.independence,
+        platform_diversity: signal.platformDiversity,
+        platforms: signal.platforms,
+        narrative_direction: signal.narrativeDirection,
+      },
       sources: sources.map(s => ({
         title: s.title,
         url: s.source_url,

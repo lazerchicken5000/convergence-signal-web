@@ -1,11 +1,14 @@
 import {
   getConvergencePatterns, getRPGProfiles, getStats, getLatestDiff,
-  getPatternSources, getLeaderLinks,
+  getPatternSources, getLeaderLinks, getPatternTokenCost, getLeaderContribution,
+  getPatternSignalQuality,
 } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { AccordionItem } from '@/components/ui/accordion';
 import { SourceLinks, PlatformLinks } from '@/components/source-links';
+import { SignalBadges, TokenCostBadge } from '@/components/signal-badges';
+import { ContributionTypeBadge } from '@/components/rpg-card';
 import Link from 'next/link';
 
 // ISR: revalidate every 4 hours (matches trenddistill fast-ingest cycle)
@@ -49,9 +52,15 @@ export default function DashboardPage() {
   const profiles = getRPGProfiles();
   const diff = getLatestDiff();
 
-  // Pre-resolve source links for each pattern
+  // Pre-resolve source links, token costs, and signal quality for each pattern
   const patternSources = new Map(
     patterns.map(p => [p.id, getPatternSources(p.vector_ids, 6)])
+  );
+  const patternCosts = new Map(
+    patterns.map(p => [p.id, getPatternTokenCost(p)])
+  );
+  const patternSignals = new Map(
+    patterns.map(p => [p.id, getPatternSignalQuality(p)])
   );
 
   const topLeaders = profiles.filter(l => l.tier === 'top');
@@ -93,13 +102,15 @@ export default function DashboardPage() {
           <div className="space-y-2">
             {patterns.map(p => {
               const sources = patternSources.get(p.id) || [];
+              const cost = patternCosts.get(p.id)!;
+              const signal = patternSignals.get(p.id)!;
               return (
                 <AccordionItem
                   key={p.id}
                   trigger={
                     <div className="flex items-start justify-between gap-4">
                       <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2 mb-1">
+                        <div className="flex items-center gap-2 mb-1 flex-wrap">
                           <Badge variant="outline" className={
                             p.convergence_type === 'solution' ? 'border-emerald-500/30 text-emerald-400' :
                             p.convergence_type === 'problem' ? 'border-red-500/30 text-red-400' :
@@ -107,15 +118,15 @@ export default function DashboardPage() {
                           }>
                             {p.convergence_type}
                           </Badge>
-                          {p.stability_weeks >= 4 && (
-                            <Badge variant="outline" className="border-zinc-600 text-zinc-400">stable</Badge>
-                          )}
+                          <SignalBadges quality={signal} />
                         </div>
                         <h3 className="font-medium text-base leading-snug">{p.label}</h3>
-                        <p className="text-xs text-muted-foreground mt-1">
-                          {p.creator_ids.length} sources · {p.vector_ids.length} vectors · {p.stability_weeks}w
-                          {sources.length > 0 && ` · ${sources.length} linked`}
-                        </p>
+                        <div className="mt-1 space-y-0.5">
+                          <p className="text-xs text-muted-foreground">
+                            {p.creator_ids.length} sources · {p.vector_ids.length} vectors · {p.stability_weeks}w
+                          </p>
+                          <TokenCostBadge cost={cost} />
+                        </div>
                       </div>
                       <div className="text-right shrink-0">
                         <p className={`text-xl font-mono font-bold ${ciColor(p.ci_score)}`}>
@@ -187,6 +198,7 @@ export default function DashboardPage() {
                 <div className="space-y-1.5">
                   {group.leaders.map(l => {
                     const links = getLeaderLinks(l);
+                    const contrib = getLeaderContribution(l);
                     return (
                       <AccordionItem
                         key={l.id}
@@ -194,9 +206,7 @@ export default function DashboardPage() {
                           <div className="flex items-center justify-between gap-3">
                             <div className="flex items-center gap-2 min-w-0 flex-1">
                               <span className="font-medium text-sm truncate">{l.name}</span>
-                              <Badge variant="secondary" className={`${typeColor(l.leader_type)} text-[10px] shrink-0`}>
-                                {l.leader_type}
-                              </Badge>
+                              <ContributionTypeBadge type={contrib.contributionType} />
                               {l.influence_trajectory === 'rising' && <span className="text-emerald-400 text-xs">↑</span>}
                             </div>
                             <span className="font-mono text-sm font-bold shrink-0">{l.leader_score.toFixed(3)}</span>

@@ -228,6 +228,159 @@ export function getLeaderLinks(leader: RPGProfile): Array<{ platform: string; ur
   return links;
 }
 
+// --- Token Cost ---
+
+export interface TokenCost {
+  rawTokens: number;       // estimated tokens in raw source content
+  curatedTokens: number;   // tokens in the curated pattern output
+  savings: number;         // percentage saved (0-100)
+  sourceCount: number;
+  vectorCount: number;
+}
+
+export function getPatternTokenCost(pattern: ConvergencePattern): TokenCost {
+  const sources = getPatternSources(pattern.vector_ids, 999);
+
+  // Estimate raw tokens from source content (load body_text length)
+  let rawChars = 0;
+  const contentDir = path.join(CI_BASE, 'content/items');
+  for (const s of sources) {
+    const item = readJson<any>(path.join(contentDir, `${s.id}.json`));
+    rawChars += (item?.body_text?.length || 2000); // fallback estimate
+  }
+  const rawTokens = Math.round(rawChars / 4);
+
+  // Curated output = pattern label + description + presuppositions + resolution
+  const curatedText = [
+    pattern.label,
+    pattern.description,
+    ...pattern.presupposition_set,
+    pattern.resolution_data?.tier1_summary || '',
+    pattern.resolution_data?.tier2_temporal || '',
+  ].join(' ');
+  const curatedTokens = Math.round(curatedText.length / 4);
+
+  const savings = rawTokens > 0 ? Math.round((1 - curatedTokens / rawTokens) * 10000) / 100 : 0;
+
+  return {
+    rawTokens,
+    curatedTokens,
+    savings,
+    sourceCount: sources.length,
+    vectorCount: pattern.vector_ids.length,
+  };
+}
+
+// --- Contribution Scoring ---
+
+export interface LeaderContribution {
+  originality: number;      // 0-100: independence_contribution normalized
+  independence: number;     // 0-100: cross-checked with pattern independence
+  centrality: number;       // 0-100: convergence_centrality normalized
+  sourceDepth: number;      // 0-100: weighted by source type depth
+  contributionType: string; // Researcher | Builder | Analyst | Synthesizer | Contributor
+}
+
+const SOURCE_DEPTH_WEIGHTS: Record<string, number> = {
+  arxiv: 1.0,
+  github: 0.85,
+  youtube: 0.5,
+  rss: 0.4,
+  web: 0.3,
+  x: 0.15,
+  twitter: 0.15,
+};
+
+export function getLeaderContribution(leader: RPGProfile): LeaderContribution {
+  const s = leader.signals;
+
+  // Originality: from independence_contribution (0-1 → 0-100)
+  const originality = Math.round(Math.min(100, (s.independence_contribution || 0) * 107));
+
+  // Independence: cross_source_mentions indicates multi-platform presence
+  const independence = Math.round(Math.min(100, (s.cross_source_mentions || 0) * 250));
+
+  // Centrality: convergence_centrality (0-0.3 range → 0-100)
+  const centrality = Math.round(Math.min(100, (s.convergence_centrality || 0) * 333));
+
+  // Source Depth: weighted average of source types
+  const types = leader.source_types.filter(t => t !== 'citation');
+  const depthScore = types.length > 0
+    ? types.reduce((sum, t) => sum + (SOURCE_DEPTH_WEIGHTS[t] || 0.2), 0) / types.length
+    : 0.2;
+  const sourceDepth = Math.round(depthScore * 100);
+
+  // Contribution type derivation
+  const contributionType = deriveContributionType(leader, { originality, sourceDepth });
+
+  return { originality, independence, centrality, sourceDepth, contributionType };
+}
+
+function deriveContributionType(
+  leader: RPGProfile,
+  attrs: { originality: number; sourceDepth: number },
+): string {
+  const types = leader.source_types;
+  if (types.includes('arxiv')) return 'Researcher';
+  if (types.includes('github') && leader.signals.content_volume > 0.3) return 'Builder';
+  if (leader.signals.cross_source_mentions > 0.3 && attrs.originality > 50) return 'Synthesizer';
+  if (types.includes('youtube') || types.includes('rss')) return 'Analyst';
+  return 'Contributor';
+}
+
+/** Get content items authored by a specific leader */
+export function getLeaderSourcedContributions(leaderId: string): ContentItem[] {
+  const contentDir = path.join(CI_BASE, 'content/items');
+  if (!existsSync(contentDir)) return [];
+
+  const items: ContentItem[] = [];
+  const files = readdirSync(contentDir).filter(f => f.endsWith('.json'));
+
+  for (const file of files) {
+    if (items.length >= 10) break;
+    const item = readJson<any>(path.join(contentDir, file));
+    if (item?.creator?.id === leaderId && item?.source_url) {
+      items.push({
+        id: item.id,
+        source: item.source || 'web',
+        source_url: item.source_url,
+        title: item.title || 'Untitled',
+        creator: {
+          id: item.creator?.id || '',
+          name: item.creator?.name || 'Unknown',
+          handle: item.creator?.handle || '',
+          platform: item.creator?.platform || item.source || 'web',
+        },
+        content_type: item.content_type || 'article',
+      });
+    }
+  }
+  return items;
+}
+
+// --- Signal Quality ---
+
+export interface SignalQuality {
+  independence: 'high' | 'medium' | 'low';
+  platformDiversity: number;  // count of unique platforms
+  narrativeDirection: 'accelerating' | 'stable' | 'fading';
+  platforms: string[];
+}
+
+export function getPatternSignalQuality(pattern: ConvergencePattern): SignalQuality {
+  const sources = getPatternSources(pattern.vector_ids, 100);
+  const platforms = [...new Set(sources.map(s => s.source))];
+
+  return {
+    independence: pattern.independence_score >= 0.7 ? 'high'
+      : pattern.independence_score >= 0.5 ? 'medium' : 'low',
+    platformDiversity: platforms.length,
+    narrativeDirection: pattern.acceleration > 0.1 ? 'accelerating'
+      : pattern.acceleration < -0.1 ? 'fading' : 'stable',
+    platforms,
+  };
+}
+
 export function getStats() {
   const patterns = getConvergencePatterns();
   const profiles = getRPGProfiles();
