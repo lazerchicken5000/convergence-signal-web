@@ -8,8 +8,7 @@ import { NextRequest, NextResponse } from 'next/server';
  */
 export function middleware(request: NextRequest) {
   // Public routes — no auth required
-  if (request.nextUrl.pathname.startsWith('/api/revalidate') ||
-      request.nextUrl.pathname.startsWith('/api/patterns') ||
+  if (request.nextUrl.pathname.startsWith('/api/') ||
       request.nextUrl.pathname.startsWith('/glossary')) {
     return NextResponse.next();
   }

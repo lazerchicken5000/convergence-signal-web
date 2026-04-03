@@ -10,6 +10,7 @@ import { SourceLinks, PlatformLinks } from '@/components/source-links';
 import { SignalBadges, TokenCostBadge } from '@/components/signal-badges';
 import { ContributionTypeBadge } from '@/components/rpg-card';
 import { DepthSelector } from '@/components/depth-selector';
+import { PatternFeedback } from '@/components/source-audit';
 import Link from 'next/link';
 
 // ISR: revalidate every 4 hours (matches trenddistill fast-ingest cycle)
@@ -176,12 +177,15 @@ export default function DashboardPage() {
                     )}
 
                     {/* Source links */}
-                    <SourceLinks sources={sources} />
+                    <SourceLinks sources={sources} patternId={p.id} />
 
-                    {/* Detail link */}
-                    <Link href={`/pattern/${p.id}`} className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors">
-                      Full analysis →
-                    </Link>
+                    {/* Feedback + detail link */}
+                    <div className="flex items-center justify-between">
+                      <PatternFeedback patternId={p.id} />
+                      <Link href={`/pattern/${p.id}`} className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors">
+                        Full analysis &rarr;
+                      </Link>
+                    </div>
                   </div>
                 </AccordionItem>
               );

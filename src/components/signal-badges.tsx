@@ -44,15 +44,14 @@ function formatTokens(n: number): string {
 }
 
 export function TokenCostBadge({ cost }: { cost: TokenCost }) {
+  const saved = cost.rawTokens - cost.curatedTokens;
   return (
     <div className="flex items-center gap-2 mt-1">
-      <div className="flex items-center gap-1">
-        <span className="text-[10px] text-zinc-600 font-mono">{formatTokens(cost.rawTokens)}</span>
-        <span className="text-zinc-700">&rarr;</span>
-        <span className="text-[10px] text-emerald-400 font-mono font-bold">{formatTokens(cost.curatedTokens)}</span>
-      </div>
+      <span className="text-[10px] text-zinc-500">
+        Cost {formatTokens(cost.rawTokens)} tokens to distill
+      </span>
       <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-mono font-bold border border-emerald-500/20">
-        {cost.savings}% saved
+        saves you {formatTokens(saved)}
       </span>
     </div>
   );
@@ -85,21 +84,21 @@ export function TokenCostHero({ cost }: { cost: TokenCost }) {
       <div className="grid grid-cols-3 gap-4 text-center">
         <div>
           <p className="text-lg font-mono font-bold text-zinc-400">{formatTokens(cost.rawTokens)}</p>
-          <p className="text-[10px] text-zinc-600">raw source tokens</p>
+          <p className="text-[10px] text-zinc-600">tokens used to distill</p>
         </div>
         <div>
           <p className="text-lg font-mono font-bold text-emerald-400">{formatTokens(cost.curatedTokens)}</p>
-          <p className="text-[10px] text-zinc-600">curated output</p>
+          <p className="text-[10px] text-zinc-600">tokens you consume</p>
         </div>
         <div>
-          <p className="text-lg font-mono font-bold text-zinc-300">{cost.sourceCount}</p>
-          <p className="text-[10px] text-zinc-600">sources distilled</p>
+          <p className="text-lg font-mono font-bold text-zinc-300">{formatTokens(cost.rawTokens - cost.curatedTokens)}</p>
+          <p className="text-[10px] text-zinc-600">tokens saved for you</p>
         </div>
       </div>
 
       <p className="text-[10px] text-zinc-500 text-center">
-        This pattern was distilled from {cost.sourceCount} independent sources across {cost.vectorCount} vectors.
-        An AI agent accessing this curated signal saves {formatTokens(cost.rawTokens - cost.curatedTokens)} tokens per query.
+        We processed {formatTokens(cost.rawTokens)} tokens across {cost.sourceCount} sources and {cost.vectorCount} vectors to produce this {formatTokens(cost.curatedTokens)}-token insight.
+        Whether you&apos;re a human scanning for signal or an agent querying the API, you skip {savedPct}% of the noise.
       </p>
     </div>
   );

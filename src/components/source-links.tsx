@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/lib/data';
+import { SourceAuditButtons } from './source-audit';
 
 const SOURCE_ICONS: Record<string, string> = {
   youtube: '▶',
@@ -8,6 +9,7 @@ const SOURCE_ICONS: Record<string, string> = {
   rss: '◉',
   x: '𝕏',
   twitter: '𝕏',
+  semantic_scholar: '📄',
 };
 
 const TYPE_LABELS: Record<string, string> = {
@@ -21,34 +23,36 @@ const TYPE_LABELS: Record<string, string> = {
   podcast: 'Podcast',
 };
 
-export function SourceLinks({ sources }: { sources: ContentItem[] }) {
+export function SourceLinks({ sources, patternId }: { sources: ContentItem[]; patternId?: string }) {
   if (sources.length === 0) return null;
 
   return (
-    <div className="space-y-2 mt-3">
+    <div className="space-y-1 mt-3">
       <p className="text-xs uppercase tracking-wide text-zinc-500 font-semibold">Sources</p>
       {sources.map(s => (
-        <a
-          key={s.id}
-          href={s.source_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-start gap-2.5 py-1.5 group"
-        >
+        <div key={s.id} className="flex items-start gap-2.5 py-1.5 group">
           <span className="text-sm shrink-0 mt-0.5 opacity-60 group-hover:opacity-100">
             {SOURCE_ICONS[s.source] ?? '·'}
           </span>
           <div className="min-w-0 flex-1">
-            <p className="text-sm text-zinc-300 group-hover:text-white truncate transition-colors">
-              {s.title}
-            </p>
+            <div className="flex items-center gap-2">
+              <a
+                href={s.source_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-zinc-300 hover:text-white truncate transition-colors"
+              >
+                {s.title}
+              </a>
+              <SourceAuditButtons sourceId={s.id} sourceUrl={s.source_url} patternId={patternId} />
+            </div>
             <p className="text-xs text-zinc-500">
               {s.creator.name}
               {TYPE_LABELS[s.content_type] ? ` · ${TYPE_LABELS[s.content_type]}` : ''}
               {' · '}{s.source}
             </p>
           </div>
-        </a>
+        </div>
       ))}
     </div>
   );

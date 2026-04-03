@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { SourceLinks } from '@/components/source-links';
 import { SignalBadges, TokenCostDetail } from '@/components/signal-badges';
+import { PatternFeedback } from '@/components/source-audit';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -106,7 +107,7 @@ export default async function PatternPage({ params }: { params: Promise<{ id: st
           <CardTitle className="text-sm">Sources ({sources.length} linked, {pattern.creator_ids.length} total)</CardTitle>
         </CardHeader>
         <CardContent>
-          <SourceLinks sources={sources} />
+          <SourceLinks sources={sources} patternId={pattern.id} />
           {pattern.creator_ids.length > sources.length && (
             <p className="text-[10px] text-zinc-600 mt-3">
               +{pattern.creator_ids.length - sources.length} additional contributing sources
@@ -114,6 +115,10 @@ export default async function PatternPage({ params }: { params: Promise<{ id: st
           )}
         </CardContent>
       </Card>
+
+      <div className="my-4">
+        <PatternFeedback patternId={pattern.id} />
+      </div>
 
       {pattern.frame_alignment && (
         <p className="text-xs text-zinc-500 mb-4">Frame: {pattern.frame_alignment}</p>
