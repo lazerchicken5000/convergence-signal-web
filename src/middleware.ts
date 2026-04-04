@@ -9,7 +9,8 @@ import { NextRequest, NextResponse } from 'next/server';
 export function middleware(request: NextRequest) {
   // Public routes — no auth required
   if (request.nextUrl.pathname.startsWith('/api/') ||
-      request.nextUrl.pathname.startsWith('/glossary')) {
+      request.nextUrl.pathname.startsWith('/glossary') ||
+      request.nextUrl.pathname === '/llms.txt') {
     return NextResponse.next();
   }
 
