@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-04-04T10:10:29.530Z",
+  "total_graded": 12,
+  "total_correct": 3,
+  "total_partially_correct": 2,
+  "total_incorrect": 0,
+  "total_too_early": 4,
+  "total_expired": 3,
+  "accuracy": 0.8,
+  "weighted_accuracy": 0.875,
+  "by_signal_type": {
+    "convergence_spike": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1
+    },
+    "frame_shift": {
+      "total": 2,
+      "correct": 1,
+      "accuracy": 0.5
+    }
+  },
+  "by_confidence": {
+    "high": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 1
+    },
+    "medium": {
+      "total": 1,
+      "correct": 0.5,
+      "accuracy": 0.5
+    },
+    "low": {
+      "total": 1,
+      "correct": 0.5,
+      "accuracy": 0.5
+    }
+  },
+  "graded": [
+    {
+      "prediction_id": "wp_conv_4",
+      "prediction_text": "\"There is a growing need for oversight and reliability in agentic AI systems.\" is gaining rapid convergence. 4 independent creators now aligned, up from 1 mentions.",
+      "type": "weekly",
+      "signal_type": "convergence_spike",
+      "confidence": "high",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "expired",
+      "grade_reason": "Vector no longer in active ledger",
+      "predicted_state": "Likely to become consensus topic within 1-2 weeks if trajectory holds",
+      "actual_state": "Vector dropped from tracking",
+      "confidence_weight": 3
+    },
+    {
+      "prediction_id": "wp_conv_5",
+      "prediction_text": "\"Three-stage AI training pipeline: pre-training (knowledge), supervised fine-tuning (expert imitation), reinforcement learning (practice)\" is gaining rapid convergence. 4 independent creators now aligned, up from 1 mentions.",
+      "type": "weekly",
+      "signal_type": "convergence_spike",
+      "confidence": "high",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "expired",
+      "grade_reason": "Vector no longer in active ledger",
+      "predicted_state": "Likely to become consensus topic within 1-2 weeks if trajectory holds",
+      "actual_state": "Vector dropped from tracking",
+      "confidence_weight": 3
+    },
+    {
+      "prediction_id": "wp_conv_6",
+      "prediction_text": "\"AI-generated content will dominate low-value, high-volume spaces.\" is gaining rapid convergence. 3 independent creators now aligned, up from 1 mentions.",
+      "type": "weekly",
+      "signal_type": "convergence_spike",
+      "confidence": "high",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "expired",
+      "grade_reason": "Vector no longer in active ledger",
+      "predicted_state": "Likely to become consensus topic within 1-2 weeks if trajectory holds",
+      "actual_state": "Vector dropped from tracking",
+      "confidence_weight": 3
+    },
+    {
+      "prediction_id": "wp_frame_1",
+      "prediction_text": "The \"infrastructure\" frame is gaining dominance in how the ecosystem discusses AI. This metaphorical frame shapes decision-making — when people think in infrastructure terms, they act accordingly.",
+      "type": "weekly",
+      "signal_type": "frame_shift",
+      "confidence": "medium",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "partially_correct",
+      "grade_reason": "Frame still active in convergence patterns",
+      "predicted_state": "Frame solidifying — expect vocabulary and strategy to align with this metaphor",
+      "actual_state": "Frame persisted",
+      "confidence_weight": 2
+    },
+    {
+      "prediction_id": "wp_frame_2",
+      "prediction_text": "The \"mechanics\" frame is gaining dominance in how the ecosystem discusses AI. This metaphorical frame shapes decision-making — when people think in mechanics terms, they act accordingly.",
+      "type": "weekly",
+      "signal_type": "frame_shift",
+      "confidence": "low",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "partially_correct",
+      "grade_reason": "Frame still active in convergence patterns",
+      "predicted_state": "Frame solidifying — expect vocabulary and strategy to align with this metaphor",
+      "actual_state": "Frame persisted",
+      "confidence_weight": 1
+    },
+    {
+      "prediction_id": "mp_1",
+      "prediction_text": "\"agentic ai\" will enter thought-leader discourse by June 2026. Currently at published stage, moving at 1.5 stages/month.",
+      "type": "monthly",
+      "signal_type": "diffusion_arrival",
+      "confidence": "low",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "too_early",
+      "grade_reason": "Not enough time has passed to evaluate this prediction",
+      "predicted_state": "podcast",
+      "actual_state": "Pending evaluation",
+      "confidence_weight": 1
+    },
+    {
+      "prediction_id": "mp_2",
+      "prediction_text": "\"markovian framework\" will enter thought-leader discourse by June 2026. Currently at published stage, moving at 1.5 stages/month.",
+      "type": "monthly",
+      "signal_type": "diffusion_arrival",
+      "confidence": "speculative",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "too_early",
+      "grade_reason": "Not enough time has passed to evaluate this prediction",
+      "predicted_state": "podcast",
+      "actual_state": "Pending evaluation",
+      "confidence_weight": 0.5
+    },
+    {
+      "prediction_id": "mp_3",
+      "prediction_text": "\"dynamic feature-space modeling\" will enter thought-leader discourse by June 2026. Currently at published stage, moving at 1.5 stages/month.",
+      "type": "monthly",
+      "signal_type": "diffusion_arrival",
+      "confidence": "speculative",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "too_early",
+      "grade_reason": "Not enough time has passed to evaluate this prediction",
+      "predicted_state": "podcast",
+      "actual_state": "Pending evaluation",
+      "confidence_weight": 0.5
+    },
+    {
+      "prediction_id": "mp_4",
+      "prediction_text": "\"reinforcement learning (rl)\" will enter thought-leader discourse by June 2026. Currently at published stage, moving at 1.5 stages/month.",
+      "type": "monthly",
+      "signal_type": "diffusion_arrival",
+      "confidence": "speculative",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.530Z",
+      "grade": "too_early",
+      "grade_reason": "Not enough time has passed to evaluate this prediction",
+      "predicted_state": "podcast",
+      "actual_state": "Pending evaluation",
+      "confidence_weight": 0.5
+    },
+    {
+      "prediction_id": "wp_conv_1",
+      "prediction_text": "\"Designing AI systems for supervision workflows rather than full automation.\" is gaining rapid convergence. 8 independent creators now aligned, up from 1 mentions.",
+      "type": "weekly",
+      "signal_type": "convergence_spike",
+      "confidence": "high",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.529Z",
+      "grade": "correct",
+      "grade_reason": "Vector has 46 creators and is part of convergence pattern \"Designing AI systems to assist human workflows rather than f\"",
+      "predicted_state": "Likely to become consensus topic within 1-2 weeks if trajectory holds",
+      "actual_state": "46 creators, CI score 0.26",
+      "confidence_weight": 3
+    },
+    {
+      "prediction_id": "wp_conv_2",
+      "prediction_text": "\"Open-source models and tools are democratizing AI capabilities, forcing proprietary players to compete on applications.\" is gaining rapid convergence. 6 independent creators now aligned, up from 1 mentions.",
+      "type": "weekly",
+      "signal_type": "convergence_spike",
+      "confidence": "high",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.529Z",
+      "grade": "correct",
+      "grade_reason": "Vector has 38 creators and is part of convergence pattern \"Designing AI systems to assist human workflows rather than f\"",
+      "predicted_state": "Likely to become consensus topic within 1-2 weeks if trajectory holds",
+      "actual_state": "38 creators, CI score 0.26",
+      "confidence_weight": 3
+    },
+    {
+      "prediction_id": "wp_conv_3",
+      "prediction_text": "\"AI systems should be designed for collaboration with humans, not as replacements.\" is gaining rapid convergence. 5 independent creators now aligned, up from 1 mentions.",
+      "type": "weekly",
+      "signal_type": "convergence_spike",
+      "confidence": "high",
+      "predicted_at": "2026-03-26T09:16:23.787Z",
+      "graded_at": "2026-04-04T10:10:29.529Z",
+      "grade": "correct",
+      "grade_reason": "Vector has 17 creators and is part of convergence pattern \"Designing AI systems to assist human workflows rather than f\"",
+      "predicted_state": "Likely to become consensus topic within 1-2 weeks if trajectory holds",
+      "actual_state": "17 creators, CI score 0.26",
+      "confidence_weight": 3
+    }
+  ]
+}
