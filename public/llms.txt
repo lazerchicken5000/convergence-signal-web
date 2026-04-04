@@ -6,7 +6,8 @@
 Verg ingests content from 485+ sources (research papers, GitHub repos, YouTube talks, podcasts, RSS feeds) and detects convergence patterns — moments when multiple independent voices arrive at the same conclusion without coordination. Each pattern is scored for independence (is this genuine convergence or amplified echo?) and includes source provenance (every claim links to the paper, repo, or talk that generated it).
 
 ## API
-- **Patterns endpoint**: /api/patterns
+- **Base URL**: https://verg.dev
+- **Patterns endpoint**: https://verg.dev/api/patterns
 - **Rate limit**: 60 requests per minute
 - **Auth**: None required (public)
 - **Format**: JSON
@@ -33,7 +34,9 @@ Every pattern shows how many tokens of raw content were processed to produce the
 - **Contribution Score**: Leaders are scored by originality, independence, centrality, and source depth — not by follower count
 
 ## Glossary
-Available at /glossary (public, no auth required)
+Available at https://verg.dev/glossary (public, no auth required)
 
 ## Source
-Built by @lazerhawk5000
+- **Website**: https://verg.dev
+- **X**: @lazerhawk5000
+- Built by @lazerhawk5000
