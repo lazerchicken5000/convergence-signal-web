@@ -1,0 +1,37 @@
+{
+  "id": "td_fd5b3ab8",
+  "source": "semantic_scholar",
+  "source_id": "4233cf4e5eda6b32e9abc74ded5a2f8c67a59663",
+  "source_url": "https://www.semanticscholar.org/paper/4233cf4e5eda6b32e9abc74ded5a2f8c67a59663",
+  "content_type": "paper",
+  "creator": {
+    "id": "weizhi_zhang",
+    "name": "Weizhi Zhang",
+    "handle": "Weizhi Zhang, Xinyang Zhang, Chenwei Zhang, Liangwei Yang, Jingbo Shang, Zhepei Wei, Henry Peng Zou, Zijie Huang, Zhengyang Wang, Yifan Gao, Xiaoman Pan, Lian Xiong, Jingguo Liu, Philip S. Yu, Xian Li",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PersonaAgent: When Large Language Model Agents Meet Personalization at Test Time",
+  "body_text": "PersonaAgent: When Large Language Model Agents Meet Personalization at Test Time\nTLDR: Experimental evaluations demonstrate that PersonaAgent significantly outperforms other baseline methods by not only personalizing the action space effectively but also scaling during test-time real-world applications, underscoring the feasibility and potential of the approach in delivering tailored, dynamic user experiences.\nLarge Language Model (LLM) empowered agents have recently emerged as advanced paradigms that exhibit impressive capabilities in a wide range of domains and tasks. Despite their potential, current LLM agents often adopt a one-size-fits-all approach, lacking the flexibility to respond to users' varying needs and preferences. This limitation motivates us to develop PersonaAgent, the first personalized LLM agent framework designed to address versatile personalization tasks. Specifically, PersonaAgent integrates two complementary components - a personalized memory module that includes episodic and semantic memory mechanisms; a personalized action module that enables the agent to perform tool actions tailored to the user. At the core, the persona (defined as unique system prompt for each user) functions as an intermediary: it leverages insights from personalized memory to control agent actions, while the outcomes of these actions in turn refine the memory. Based on the framework, we propose a test-time user-preference alignment strategy that simulate the latest n interactions to optimize the persona prompt, ensuring real-time user preference alignment through textual loss feedback between simulated and ground-truth responses. Experimental evaluations demonstrate that PersonaAgent significantly outperforms other baseline methods by not only personalizing the action space effectively but also scaling during test-time real-world applications. These results underscore the feasibility and potential of our approach in delivering tailored, dynamic user experiences.\nAuthors: Weizhi Zhang, Xinyang Zhang, Chenwei Zhang, Liangwei Yang, Jingbo Shang, Zhepei Wei, Henry Peng Zou, Zijie Huang, Zhengyang Wang, Yifan Gao, Xiaoman Pan, Lian Xiong, Jingguo Liu, Philip S. Yu, Xian Li\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 303,
+  "published_at": "2025-06-06",
+  "ingested_at": "2026-04-04T04:33:16.672Z",
+  "engagement": {
+    "views": 20,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_f9387dc4",
+  "source": "arxiv",
+  "source_id": "2604.02290",
+  "source_url": "https://arxiv.org/abs/2604.02290",
+  "content_type": "paper",
+  "creator": {
+    "id": "qiang_ma",
+    "name": "Qiang Ma",
+    "handle": "Qiang Ma, Qingjie Meng, Xin Hu, Yicheng Wu, Wenjia Bai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AdamFlow: Adam-based Wasserstein Gradient Flows for Surface Registration in Medical Imaging",
+  "body_text": "AdamFlow: Adam-based Wasserstein Gradient Flows for Surface Registration in Medical Imaging\n\nSurface registration plays an important role for anatomical shape analysis in medical imaging. Existing surface registration methods often face a trade-off between efficiency and robustness. Local point matching methods are computationally efficient, but vulnerable to noise and initialisation. Methods designed for global point set alignment tend to incur a high computational cost. To address the challenge, here we present a fast surface registration method, which formulates surface meshes as probability measures and surface registration as a distributional optimisation problem. The discrepancy between two meshes is measured using an efficient sliced Wasserstein distance with log-linear computational complexity. We propose a novel optimisation method, AdamFlow, which generalises the well-known Adam optimisation method from the Euclidean space to the probability space for minimising the sliced Wasserstein distance. We theoretically analyse the asymptotic convergence of AdamFlow and empirically demonstrate its superior performance in both affine and non-rigid surface registration across various anatomical structures.\n\nAuthors: Qiang Ma, Qingjie Meng, Xin Hu, Yicheng Wu, Wenjia Bai\nCategories: cs.CV, math.OC, cs.CV",
+  "word_count": 149,
+  "published_at": "2026-04-02T17:29:54Z",
+  "ingested_at": "2026-04-04T04:33:11.656Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "math.OC",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

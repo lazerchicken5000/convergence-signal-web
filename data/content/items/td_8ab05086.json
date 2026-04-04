@@ -1,0 +1,37 @@
+{
+  "id": "td_8ab05086",
+  "source": "semantic_scholar",
+  "source_id": "9df0947ec8a14c43e69f3b72ece5e9af2b8e8215",
+  "source_url": "https://www.semanticscholar.org/paper/9df0947ec8a14c43e69f3b72ece5e9af2b8e8215",
+  "content_type": "paper",
+  "creator": {
+    "id": "sikuan_yan",
+    "name": "Sikuan Yan",
+    "handle": "Sikuan Yan, Xiufeng Yang, Zuchao Huang, Ercong Nie, Zifeng Ding, Zonggen Li, Xiaowen Ma, Hinrich Schutze, Volker Tresp, Yunpu Ma",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
+  "body_text": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning\nTLDR: Memory-R1 is presented, a reinforcement learning (RL) framework that equips LLMs with the ability to actively manage and utilize external memory through two specialized agents: a Memory Manager that learns structured operations, including ADD, UPDATE, DELETE, and NOOP and an Answer Agent that pre-selects and reasons over relevant entries.\nLarge Language Models (LLMs) have demonstrated impressive capabilities across a wide range of NLP tasks, but they remain fundamentally stateless, constrained by limited context windows that hinder long-horizon reasoning. Recent efforts to address this limitation often augment LLMs with an external memory bank, yet most existing pipelines are static and heuristic-driven, lacking a learned mechanism for deciding what to store, update, or retrieve. We present Memory-R1, a reinforcement learning (RL) framework that equips LLMs with the ability to actively manage and utilize external memory through two specialized agents: a Memory Manager that learns structured operations, including ADD, UPDATE, DELETE, and NOOP; and an Answer Agent that pre-selects and reasons over relevant entries. Both agents are fine-tuned with outcome-driven RL (PPO and GRPO), enabling adaptive memory management with minimal supervision. With only 152 training QA pairs, Memory-R1 outperforms strong baselines and generalizes across diverse question types, three benchmarks (LoCoMo, MSC, LongMemEval), and multiple model scales (3B-14B).\nAuthors: Sikuan Yan, Xiufeng Yang, Zuchao Huang, Ercong Nie, Zifeng Ding, Zonggen Li, Xiaowen Ma, Hinrich Schutze, Volker Tresp, Yunpu Ma\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 245,
+  "published_at": "2025-08-27",
+  "ingested_at": "2026-04-04T04:33:16.671Z",
+  "engagement": {
+    "views": 72,
+    "likes": 8,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

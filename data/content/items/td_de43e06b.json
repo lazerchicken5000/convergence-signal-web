@@ -1,0 +1,38 @@
+{
+  "id": "td_de43e06b",
+  "source": "arxiv",
+  "source_id": "2604.02323",
+  "source_url": "https://arxiv.org/abs/2604.02323",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruozhen_he",
+    "name": "Ruozhen He",
+    "handle": "Ruozhen He, Nisarg A. Shah, Qihua Dong, Zilin Xiao, Jaywon Koo, Vicente Ordonez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Referring Expressions: Scenario Comprehension Visual Grounding",
+  "body_text": "Beyond Referring Expressions: Scenario Comprehension Visual Grounding\n\nExisting visual grounding benchmarks primarily evaluate alignment between image regions and literal referring expressions, where models can often succeed by matching a prominent named category. We explore a complementary and more challenging setting of scenario-based visual grounding, where the target must be inferred from roles, intentions, and relational context rather than explicit naming. We introduce Referring Scenario Comprehension (RSC), a benchmark designed for this setting. The queries in this benchmark are paragraph-length texts that describe object roles, user goals, and contextual cues, including deliberate references to distractor objects that often require deep understanding to resolve. Each instance is annotated with interpretable difficulty tags for uniqueness, clutter, size, overlap, and position which expose distinct failure modes and support fine-grained analysis. RSC contains approximately 31k training examples, 4k in-domain test examples, and a 3k out-of-distribution split with unseen object categories. We further propose ScenGround, a curriculum reasoning method serving as a reference point for this setting, combining supervised warm-starting with difficulty-aware reinforcement learning. Experiments show that scenario-based queries expose systematic failures in current models that standard benchmarks do not reveal, and that curriculum training improves performance on challenging slices and transfers to standard benchmarks.\n\nAuthors: Ruozhen He, Nisarg A. Shah, Qihua Dong, Zilin Xiao, Jaywon Koo, Vicente Ordonez\nCategories: cs.CV, cs.CV",
+  "word_count": 192,
+  "published_at": "2026-04-02T17:59:08Z",
+  "ingested_at": "2026-04-04T04:33:07.540Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

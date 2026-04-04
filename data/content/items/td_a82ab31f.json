@@ -1,0 +1,38 @@
+{
+  "id": "td_a82ab31f",
+  "source": "arxiv",
+  "source_id": "2604.02200",
+  "source_url": "https://arxiv.org/abs/2604.02200",
+  "content_type": "paper",
+  "creator": {
+    "id": "silin_du",
+    "name": "Silin Du",
+    "handle": "Silin Du, Hongyan Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Towards Position-Robust Talent Recommendation via Large Language Models",
+  "body_text": "Towards Position-Robust Talent Recommendation via Large Language Models\n\nTalent recruitment is a critical, yet costly process for many industries, with high recruitment costs and long hiring cycles. Existing talent recommendation systems increasingly adopt large language models (LLMs) due to their remarkable language understanding capabilities. However, most prior approaches follow a pointwise paradigm, which requires LLMs to repeatedly process some text and fails to capture the relationships among candidates in the list, resulting in higher token consumption and suboptimal recommendations. Besides, LLMs exhibit position bias and the lost-in-the-middle issue when answering multiple-choice questions and processing multiple long documents. To address these issues, we introduce an implicit strategy to utilize LLM's potential output for the recommendation task and propose L3TR, a novel framework for listwise talent recommendation with LLMs. In this framework, we propose a block attention mechanism and a local positional encoding method to enhance inter-document processing and mitigate the position bias and concurrent token bias issue. We also introduce an ID sampling method for resolving the inconsistency between candidate set sizes in the training phase and the inference phase. We design evaluation methods to detect position bias and token bias and training-free debiasing methods. Extensive experiments on two real-world datasets validated the effectiveness of L3TR, showing consistent improvements over existing baselines.\n\nAuthors: Silin Du, Hongyan Liu\nCategories: cs.CL, cs.CL",
+  "word_count": 203,
+  "published_at": "2026-04-02T15:54:03Z",
+  "ingested_at": "2026-04-04T04:32:55.420Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

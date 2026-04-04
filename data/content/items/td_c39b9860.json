@@ -1,0 +1,39 @@
+{
+  "id": "td_c39b9860",
+  "source": "arxiv",
+  "source_id": "2604.02217",
+  "source_url": "https://arxiv.org/abs/2604.02217",
+  "content_type": "paper",
+  "creator": {
+    "id": "syed_ahmed",
+    "name": "Syed Ahmed",
+    "handle": "Syed Ahmed, Bharathi Vokkaliga Ganesh, Jagadish Babu P, Karthick Selvaraj, Praneeth Talluri, Sanket Hingne, Anubhav Kumar, Anushka Yadav, Pratham Kumar Verma, Kiranmayee Janardhan, Mandanna A N",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VISTA: Visualization of Token Attribution via Efficient Analysis",
+  "body_text": "VISTA: Visualization of Token Attribution via Efficient Analysis\n\nUnderstanding how Large Language Models (LLMs) process information from prompts remains a significant challenge. To shed light on this \"black box,\" attention visualization techniques have been developed to capture neuron-level perceptions and interpret how models focus on different parts of input data. However, many existing techniques are tailored to specific model architectures, particularly within the Transformer family, and often require backpropagation, resulting in nearly double the GPU memory usage and increased computational cost. A lightweight, model-agnostic approach for attention visualization remains lacking. In this paper, we introduce a model-agnostic token importance visualization technique to better understand how generative AI systems perceive and prioritize information from input text, without incurring additional computational cost. Our method leverages perturbation-based strategies combined with a three-matrix analytical framework to generate relevance maps that illustrate token-level contributions to model predictions. The framework comprises: (1) the Angular Deviation Matrix, which captures shifts in semantic direction; (2) the Magnitude Deviation Matrix, which measures changes in semantic intensity; and (3) the Dimensional Importance Matrix, which evaluates contributions across individual vector dimensions. By systematically removing each token and measuring the resulting impact across these three complementary dimensions, we derive a composite importance score that provides a nuanced and mathematically grounded measure of token significance. To support reproducibility and foster wider adoption, we provide open-source implementations of all proposed and utilized explainability techniques, with code and resources publicly available at https://github.com/Infosys/Infosys-Responsible-AI-Toolkit\n\nAuthors: Syed Ahmed, Bharathi Vokkaliga Ganesh, Jagadish Babu P, Karthick Selvaraj, Praneeth Talluri, Sanket Hingne, Anubhav Kumar, Anushka Yadav, Pratham Kumar Verma, Kiranmayee Janardhan, Mandanna A N\nCategories: cs.AI, cs.CL, cs.AI",
+  "word_count": 230,
+  "published_at": "2026-04-02T16:09:13Z",
+  "ingested_at": "2026-04-04T04:32:55.419Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

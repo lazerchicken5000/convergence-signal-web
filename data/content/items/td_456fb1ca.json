@@ -1,0 +1,37 @@
+{
+  "id": "td_456fb1ca",
+  "source": "semantic_scholar",
+  "source_id": "c8eee9766f0968e8f1b1be0731bc70b85be0ac97",
+  "source_url": "https://www.semanticscholar.org/paper/c8eee9766f0968e8f1b1be0731bc70b85be0ac97",
+  "content_type": "paper",
+  "creator": {
+    "id": "qiusi_zhan",
+    "name": "Qiusi Zhan",
+    "handle": "Qiusi Zhan, Zhixiang Liang, Zifan Ying, Daniel Kang",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+  "body_text": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents\nTLDR: This work introduces InjecAgent, a benchmark designed to assess the vulnerability of tool-integrated LLM agents to IPI attacks, and shows that agents are vulnerable to IPI attacks, with ReAct-prompted GPT-4 vulnerable to attacks 24% of the time.\nRecent work has embodied LLMs as agents, allowing them to access tools, perform actions, and interact with external content (e.g., emails or websites). However, external content introduces the risk of indirect prompt injection (IPI) attacks, where malicious instructions are embedded within the content processed by LLMs, aiming to manipulate these agents into executing detrimental actions against users. Given the potentially severe consequences of such attacks, establishing benchmarks to assess and mitigate these risks is imperative. In this work, we introduce InjecAgent, a benchmark designed to assess the vulnerability of tool-integrated LLM agents to IPI attacks. InjecAgent comprises 1,054 test cases covering 17 different user tools and 62 attacker tools. We categorize attack intentions into two primary types: direct harm to users and exfiltration of private data. We evaluate 30 different LLM agents and show that agents are vulnerable to IPI attacks, with ReAct-prompted GPT-4 vulnerable to attacks 24% of the time. Further investigation into an enhanced setting, where the attacker instructions are reinforced with a hacking prompt, shows additional increases in success rates, nearly doubling the attack success rate on the ReAct-prompted GPT-4. Our findings raise questions about the widespread deployment of LLM Agents. Our benchmark is available at https://github.com/uiuc-kang-lab/InjecAgent.\nAuthors: Qiusi Zhan, Zhixiang Liang, Zifan Ying, Daniel Kang\nVenue: Annual Meeting of the Association for Computational Linguistics\nFields: Computer Science",
+  "word_count": 270,
+  "published_at": "2024-03-05",
+  "ingested_at": "2026-04-04T04:33:16.671Z",
+  "engagement": {
+    "views": 266,
+    "likes": 41,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

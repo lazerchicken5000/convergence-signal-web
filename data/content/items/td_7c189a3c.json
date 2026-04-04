@@ -1,0 +1,39 @@
+{
+  "id": "td_7c189a3c",
+  "source": "arxiv",
+  "source_id": "2604.02318",
+  "source_url": "https://arxiv.org/abs/2604.02318",
+  "content_type": "paper",
+  "creator": {
+    "id": "xueying_li",
+    "name": "Xueying Li",
+    "handle": "Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu, Guozi Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
+  "body_text": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning\n\nTraining-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we propose MetaNav, a metacognitive navigation agent integrating spatial memory, history-aware planning, and reflective correction. Spatial memory builds a persistent 3D semantic map. History-aware planning penalizes revisiting to improve efficiency. Reflective correction detects stagnation and uses an LLM to generate corrective rules that guide future frontier selection. Experiments on GOAT-Bench, HM3D-OVON, and A-EQA show that MetaNav achieves state-of-the-art performance while reducing VLM queries by 20.7%, demonstrating that metacognitive reasoning significantly improves robustness and efficiency.\n\nAuthors: Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu, Guozi Liu\nCategories: cs.RO, cs.CV, cs.RO",
+  "word_count": 140,
+  "published_at": "2026-04-02T17:58:08Z",
+  "ingested_at": "2026-04-04T04:33:03.354Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

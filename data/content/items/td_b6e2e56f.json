@@ -1,0 +1,39 @@
+{
+  "id": "td_b6e2e56f",
+  "source": "arxiv",
+  "source_id": "2604.02270",
+  "source_url": "https://arxiv.org/abs/2604.02270",
+  "content_type": "paper",
+  "creator": {
+    "id": "tin_hadži_veljković",
+    "name": "Tin Hadži Veljković",
+    "handle": "Tin Hadži Veljković, Joshua Rosenthal, Ivor Lončarić, Jan-Willem van de Meent",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling",
+  "body_text": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling\n\nGenerative models for crystalline materials often rely on equivariant graph neural networks, which capture geometric structure well but are costly to train and slow to sample. We present Crystalite, a lightweight diffusion Transformer for crystal modeling built around two simple inductive biases. The first is Subatomic Tokenization, a compact chemically structured atom representation that replaces high-dimensional one-hot encodings and is better suited to continuous diffusion. The second is the Geometry Enhancement Module (GEM), which injects periodic minimum-image pair geometry directly into attention through additive geometric biases. Together, these components preserve the simplicity and efficiency of a standard Transformer while making it better matched to the structure of crystalline materials. Crystalite achieves state-of-the-art results on crystal structure prediction benchmarks, and de novo generation performance, attaining the best S.U.N. discovery score among the evaluated baselines while sampling substantially faster than geometry-heavy alternatives.\n\nAuthors: Tin Hadži Veljković, Joshua Rosenthal, Ivor Lončarić, Jan-Willem van de Meent\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 140,
+  "published_at": "2026-04-02T17:03:42Z",
+  "ingested_at": "2026-04-04T04:32:59.236Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

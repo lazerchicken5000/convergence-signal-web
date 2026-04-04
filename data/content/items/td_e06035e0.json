@@ -1,0 +1,35 @@
+{
+  "id": "td_e06035e0",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Vulnerability Research Is Cooked",
+  "body_text": "Vulnerability Research Is Cooked\nThomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research.\n\nWithin the next few months, coding agents will drastically alter both the practice and the economics of exploit development. Frontier model improvement won’t be a slow burn, but rather a step function. Substantial amounts of high-impact vulnerability research (maybe even most of it) will happen simply by pointing an agent at a source tree and typing “find me zero days”.\n\nWhy are agents so good at this? A combination of baked-in knowledge, pattern matching ability and brute force:\n\nYou can't design a better problem for an LLM agent than exploitation research.\nBefore you feed it a single token of context, a frontier LLM already encodes supernatural amounts of correlation across vast bodies of source code. Is the Linux KVM hypervisor connected to the hrtimer subsystem, workqueue, or perf_event? The model knows.\nAlso baked into those model weights: the complete library of documented \"bug classes\" on which all exploit development builds: stale pointers, integer mishandling, type confusion, allocator grooming, and all the known ways of promoting a wild write to a controlled 64-bit read/write in Firefox.\nVulnerabilities are found by pattern-matching bug classes and constraint-solving for reachability and exploitability. Precisely the implicit search problems that LLMs are most gifted at solving. Exploit outcomes are straightforwardly testable success/failure trials. An agent never gets bored and will search forever if you tell it to.\n\nThe article was partly inspired by this episode of the Security Cryptography Whatever podcast, where David Adrian, Deirdre Connolly, and Thomas interviewed Anthropic's Nicholas Carlini for 1 hour 16 minutes.\nI just started a new tag here for ai-security-research - it's up to 11 posts already.\n\n\n    Tags: security, thomas-ptacek, careers, ai, generative-ai, llms, nicholas-carlini, ai-ethics, ai-security-research",
+  "word_count": 302,
+  "published_at": "2026-04-03T23:59:08.000Z",
+  "ingested_at": "2026-04-04T04:30:08.594Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

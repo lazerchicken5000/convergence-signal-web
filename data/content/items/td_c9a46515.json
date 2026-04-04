@@ -1,0 +1,38 @@
+{
+  "id": "td_c9a46515",
+  "source": "arxiv",
+  "source_id": "2604.02317",
+  "source_url": "https://arxiv.org/abs/2604.02317",
+  "content_type": "paper",
+  "creator": {
+    "id": "yujiao_shen",
+    "name": "Yujiao Shen",
+    "handle": "Yujiao Shen, Shulin Tian, Jingkang Yang, Ziwei Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Simple Baseline for Streaming Video Understanding",
+  "body_text": "A Simple Baseline for Streaming Video Understanding\n\nRecent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video streams. We challenge this trend with a simple finding: a sliding-window baseline that feeds only the most recent N frames to an off-the-shelf VLM already matches or surpasses published streaming models. We formalize this baseline as SimpleStream and evaluate it against 13 major offline and online video LLM baselines on OVO-Bench and StreamingBench. Despite its simplicity, SimpleStream delivers consistently strong performance. With only 4 recent frames, it reaches 67.7% average accuracy on OVO-Bench and 80.59% on StreamingBench. Controlled ablations further show that the value of longer context is backbone-dependent rather than uniformly increasing with model scale, and reveal a consistent perception-memory trade-off: adding more historical context can improve recall, but often weakens real-time perception. This suggests that stronger memory, retrieval, or compression modules should not be taken as evidence of progress unless they clearly outperform SimpleStream under the same protocol. We therefore argue that future streaming benchmarks should separate recent-scene perception from long-range memory, so that performance improvements from added complexity can be evaluated more clearly.\n\nAuthors: Yujiao Shen, Shulin Tian, Jingkang Yang, Ziwei Liu\nCategories: cs.CV, cs.CV",
+  "word_count": 181,
+  "published_at": "2026-04-02T17:58:04Z",
+  "ingested_at": "2026-04-04T04:33:03.354Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": false,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
