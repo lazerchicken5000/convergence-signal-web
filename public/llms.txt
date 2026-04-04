@@ -1,0 +1,39 @@
+# Verg — Intelligence on the Verge
+
+> Verg detects when independent minds converge on the same idea without coordinating. It sources signal, removes amplified noise, and makes contribution visible — for builders, researchers, and machines seeking truth.
+
+## What Verg Does
+Verg ingests content from 485+ sources (research papers, GitHub repos, YouTube talks, podcasts, RSS feeds) and detects convergence patterns — moments when multiple independent voices arrive at the same conclusion without coordination. Each pattern is scored for independence (is this genuine convergence or amplified echo?) and includes source provenance (every claim links to the paper, repo, or talk that generated it).
+
+## API
+- **Patterns endpoint**: /api/patterns
+- **Rate limit**: 60 requests per minute
+- **Auth**: None required (public)
+- **Format**: JSON
+- **Parameters**: ?limit=N, ?min_ci=0.3
+
+## What the API returns
+Each pattern includes:
+- Convergence label and description
+- CI score (0-1): strength of independent convergence
+- Independence score: are sources genuinely independent?
+- Signal quality: platform diversity, narrative direction
+- Token bake: raw source tokens processed vs curated output tokens (savings %)
+- Source links: papers, repos, talks, blog posts with URLs and creator names
+- Presuppositions: shared assumptions detected across sources
+
+## Token Bake
+Every pattern shows how many tokens of raw content were processed to produce the curated insight. A typical pattern distills 144,000 tokens from 164 sources into ~280 curated tokens — a 99.8% reduction. Agents consuming Verg's API skip that processing entirely.
+
+## Key Concepts
+- **CI Score**: Convergence Index — measures agreement strength weighted by source independence
+- **Independence**: Verified via citation graph analysis — filters amplification from genuine convergence
+- **Token Bake**: Total tokens processed to produce an insight. Higher = more research distilled.
+- **Verg Pattern**: A detected convergence — classified as Solution, Problem, or Metaphor
+- **Contribution Score**: Leaders are scored by originality, independence, centrality, and source depth — not by follower count
+
+## Glossary
+Available at /glossary (public, no auth required)
+
+## Source
+Built by @lazerhawk5000
