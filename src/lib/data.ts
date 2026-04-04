@@ -523,6 +523,114 @@ export function getAggregateStats(): AggregateStats {
   };
 }
 
+// --- Research Data ---
+
+export interface ScorecardData {
+  generated_at: string;
+  total_graded: number;
+  total_correct: number;
+  total_partially_correct: number;
+  total_incorrect: number;
+  total_too_early: number;
+  total_expired: number;
+  accuracy: number;
+  weighted_accuracy: number;
+  by_signal_type: Record<string, { total: number; correct: number; accuracy: number }>;
+  by_confidence: Record<string, { total: number; correct: number; accuracy: number }>;
+  graded: Array<{
+    prediction_id: string;
+    prediction_text: string;
+    type: string;
+    signal_type: string;
+    confidence: string;
+    predicted_at: string;
+    graded_at: string;
+    grade: string;
+    grade_reason: string;
+    predicted_state: string;
+    actual_state: string;
+  }>;
+}
+
+export interface EfficiencyTrendData {
+  generated_at: string;
+  total_runs_analyzed: number;
+  current_tokens_per_pattern: number;
+  avg_tokens_per_pattern_7d: number;
+  avg_tokens_per_pattern_30d: number;
+  trend_direction: string;
+  trend_pct_change_7d: number;
+  most_efficient_sources: Array<{ source: string; creator: string; tokens_per_pattern: number; grade: string }>;
+  least_efficient_sources: Array<{ source: string; creator: string; tokens_per_pattern: number; grade: string }>;
+  history: Array<{ date: string; tokens_per_pattern: number; total_patterns: number; compression_ratio: number }>;
+}
+
+export interface CandidateReportData {
+  generated_at: string;
+  total_leaders_analyzed: number;
+  candidates: Array<{
+    rank: number;
+    id: string;
+    name: string;
+    leader_type: string;
+    entity_type: string;
+    score: number;
+    tier: string;
+    trajectory: string;
+    rank_change: number;
+    score_change: number;
+    is_new_entrant: boolean;
+    top_signals: Array<{ signal: string; value: number }>;
+    pattern_count: number;
+    domains: string[];
+    source_types: string[];
+  }>;
+  new_entrants: Array<{ name: string; rank: number; score: number; reason: string }>;
+  rising: Array<{ name: string; rank: number; rank_change: number; score_change: number }>;
+  fading: Array<{ name: string; previous_rank: number; score_change: number }>;
+  dropped_out: string[];
+}
+
+export interface SourceRankingData {
+  date: string;
+  totalSources: number;
+  totalItems: number;
+  avgConversionRate: number;
+  avgTokensPerPattern: number;
+  rankings: Array<{
+    source: string;
+    creator: string;
+    itemCount: number;
+    vectorCount: number;
+    patternCount: number;
+    conversionRate: number;
+    totalTokens: number;
+    tokensPerPattern: number;
+    grade: string;
+  }>;
+  recommendations: {
+    expand: string[];
+    prune: string[];
+    watch: string[];
+  };
+}
+
+export function getScorecard(): ScorecardData | null {
+  return readJson<ScorecardData>(path.join(CI_BASE, 'research', 'scorecard.json'));
+}
+
+export function getEfficiencyTrend(): EfficiencyTrendData | null {
+  return readJson<EfficiencyTrendData>(path.join(CI_BASE, 'research', 'token_efficiency_report.json'));
+}
+
+export function getCandidateReport(): CandidateReportData | null {
+  return readJson<CandidateReportData>(path.join(CI_BASE, 'research', 'leader_candidates.json'));
+}
+
+export function getSourceRankings(): SourceRankingData | null {
+  return readJson<SourceRankingData>(path.join(CI_BASE, 'research', 'source_rankings.json'));
+}
+
 export function getStats() {
   const patterns = getConvergencePatterns();
   const profiles = getRPGProfiles();

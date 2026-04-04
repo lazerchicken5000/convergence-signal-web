@@ -2,12 +2,13 @@
 
 import { useState } from 'react';
 
-type Tab = 'signal' | 'leaders' | 'emerging';
+type Tab = 'signal' | 'leaders' | 'emerging' | 'research';
 
 const TABS: Array<{ key: Tab; label: string }> = [
   { key: 'signal', label: 'Signal' },
   { key: 'leaders', label: 'Leaders' },
   { key: 'emerging', label: 'Emerging' },
+  { key: 'research', label: 'Research' },
 ];
 
 export function ColumnTabs({ children }: { children: Record<Tab, React.ReactNode> }) {
