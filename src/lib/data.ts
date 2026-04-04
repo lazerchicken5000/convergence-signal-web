@@ -358,6 +358,64 @@ export function getLeaderSourcedContributions(leaderId: string): ContentItem[] {
   return items;
 }
 
+// --- Leader Highlight & Bio ---
+
+export interface LeaderHighlight {
+  topContribution: { title: string; source: string; url: string } | null;
+  bio: string;
+}
+
+export function getLeaderHighlight(leader: RPGProfile): LeaderHighlight {
+  // Find their most notable content item
+  const contributions = getLeaderSourcedContributions(leader.id);
+  let topContribution: LeaderHighlight['topContribution'] = null;
+
+  if (contributions.length > 0) {
+    // Prefer YouTube/talks > papers > repos > articles (visual > deep > code > text)
+    const priority: Record<string, number> = { youtube: 4, arxiv: 3, semantic_scholar: 3, github: 2, rss: 1, web: 1 };
+    const sorted = [...contributions].sort((a, b) => (priority[b.source] || 0) - (priority[a.source] || 0));
+    const top = sorted[0];
+    topContribution = { title: top.title, source: top.source, url: top.source_url };
+  }
+
+  // Generate bio from profile data
+  const parts: string[] = [];
+
+  // What they do
+  const domains = leader.domains.filter(d => d !== 'unknown').slice(0, 2);
+  if (domains.length > 0) {
+    parts.push(domains.join(' & '));
+  }
+
+  // How they contribute
+  const sourceTypes = leader.source_types.filter(s => s !== 'citation');
+  if (sourceTypes.includes('arxiv') || sourceTypes.includes('semantic_scholar')) {
+    parts.push('publishes research');
+  } else if (sourceTypes.includes('github')) {
+    parts.push('ships open source');
+  } else if (sourceTypes.includes('youtube')) {
+    parts.push('creates video content');
+  } else if (sourceTypes.includes('rss')) {
+    parts.push('writes');
+  }
+
+  // Scale
+  if (leader.tenure_weeks >= 200) {
+    parts.push(`tracked ${Math.round(leader.tenure_weeks / 52)}+ years`);
+  } else if (leader.tenure_weeks >= 52) {
+    parts.push(`tracked ${Math.round(leader.tenure_weeks / 52)}+ year${leader.tenure_weeks >= 104 ? 's' : ''}`);
+  }
+
+  // Pattern involvement
+  if (leader.convergence_patterns.length > 0) {
+    parts.push(`appears in ${leader.convergence_patterns.length} convergence pattern${leader.convergence_patterns.length !== 1 ? 's' : ''}`);
+  }
+
+  const bio = parts.length > 0 ? parts.join('. ') + '.' : '';
+
+  return { topContribution, bio };
+}
+
 // --- Signal Quality ---
 
 export interface SignalQuality {

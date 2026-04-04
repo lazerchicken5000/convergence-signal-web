@@ -2,7 +2,7 @@ import {
   getConvergencePatterns, getRPGProfiles, getStats, getLatestDiff,
   getPatternSources, getPatternTokenCost, getLeaderContribution,
   getPatternSignalQuality, getActivityCalendar, getAggregateStats,
-  getLeaderLinks, getLeaderSourcedContributions,
+  getLeaderLinks, getLeaderSourcedContributions, getLeaderHighlight,
 } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
@@ -131,6 +131,7 @@ export default function DashboardPage() {
                 const links = getLeaderLinks(l);
                 const accolades = deriveAccolades(l);
                 const sourcedContent = getLeaderSourcedContributions(l.id);
+                const highlight = getLeaderHighlight(l);
                 const themes = l.recurring_themes.sort((a, b) => b.frequency - a.frequency).slice(0, 5);
                 return (
                   <AccordionItem
@@ -144,15 +145,34 @@ export default function DashboardPage() {
                             <ContributionTypeBadge type={contrib.contributionType} />
                             {l.influence_trajectory === 'rising' && <span className="text-emerald-400 text-xs">&#x2191;</span>}
                           </div>
-                          <span className="text-[10px] text-zinc-500">
-                            {l.convergence_patterns.length} pattern{l.convergence_patterns.length !== 1 ? 's' : ''} · {l.tenure_weeks}w
-                          </span>
+                          {highlight.bio && (
+                            <p className="text-[10px] text-zinc-500 mt-0.5">{highlight.bio}</p>
+                          )}
+                          {highlight.topContribution && (
+                            <p className="text-[10px] text-zinc-400 mt-0.5 truncate">
+                              <span className="text-zinc-600">Notable:</span> {highlight.topContribution.title}
+                            </p>
+                          )}
                         </div>
                         <span className="font-mono text-sm font-bold shrink-0">{l.leader_score.toFixed(3)}</span>
                       </div>
                     }
                   >
                     <div className="space-y-4 pt-3">
+                      {/* Contribution highlight */}
+                      {highlight.topContribution && (
+                        <a
+                          href={highlight.topContribution.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block py-2.5 px-3 rounded-lg border border-zinc-700 bg-zinc-800/30 hover:border-zinc-500 transition-colors"
+                        >
+                          <p className="text-[10px] uppercase tracking-wide text-zinc-500 font-semibold mb-1">Top Contribution</p>
+                          <p className="text-sm text-zinc-200">{highlight.topContribution.title}</p>
+                          <p className="text-[10px] text-zinc-500 mt-0.5">{highlight.topContribution.source}</p>
+                        </a>
+                      )}
+
                       {/* Accolades */}
                       {accolades.length > 0 && <AccoladeBadges accolades={accolades} />}
 
