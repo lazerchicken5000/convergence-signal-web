@@ -14,6 +14,7 @@ import { TextSizeSelector } from '@/components/depth-selector';
 import { PatternFeedback } from '@/components/source-audit';
 import { ColumnTabs } from '@/components/column-tabs';
 import { ActivityHeatmap } from '@/components/activity-heatmap';
+import { VergTitle } from '@/components/verg-title';
 import Link from 'next/link';
 
 export const revalidate = 14400;
@@ -39,16 +40,21 @@ export default function DashboardPage() {
   const patternCosts = new Map(topPatterns.map(p => [p.id, getPatternTokenCost(p)]));
   const patternSignals = new Map(topPatterns.map(p => [p.id, getPatternSignalQuality(p)]));
 
+  // Extract keywords from patterns for the animated title
+  const titleKeywords = [...new Set(
+    patterns.flatMap(p =>
+      p.label.split(/\s+/).filter(w => w.length > 4).map(w => w.toLowerCase().replace(/[^a-z0-9]/g, ''))
+    ).filter(w => w.length > 4)
+  )].slice(0, 30);
+
   return (
     <main className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
-      {/* Header */}
-      <div className="flex items-start justify-between mb-6">
-        <div>
-          <h1 className="text-2xl font-bold tracking-tight">Verg</h1>
-          <p className="text-sm text-muted-foreground mt-0.5">
-            Sourcing signal. Removing noise. For builders.
-          </p>
-        </div>
+      {/* Animated Title */}
+      <VergTitle keywords={titleKeywords} />
+      <div className="flex items-center justify-between mb-6 -mt-2">
+        <p className="text-sm text-muted-foreground">
+          Sourcing signal. Removing noise. For builders. <span className="font-mono text-zinc-600">@lazerhawk5000</span>
+        </p>
         <div className="flex items-center gap-2 shrink-0">
           <TextSizeSelector />
           <Link href="/glossary" className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors px-2 py-1 border border-zinc-700 rounded-md">
@@ -182,9 +188,13 @@ export default function DashboardPage() {
                       {/* Platform links */}
                       {links.length > 0 && <PlatformLinks links={links} />}
 
-                      {/* Sourced contributions */}
-                      {sourcedContent.length > 0 && (
-                        <SourceLinks sources={sourcedContent} />
+                      {/* Sourced contributions (exclude top contribution to avoid dupe) */}
+                      {sourcedContent.length > (highlight.topContribution ? 1 : 0) && (
+                        <SourceLinks sources={
+                          highlight.topContribution
+                            ? sourcedContent.filter(s => s.source_url !== highlight.topContribution!.url)
+                            : sourcedContent
+                        } />
                       )}
 
                       {/* Themes */}
