@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Convergence Signal — @lazerhawk5000",
-  description: "Curated tech intelligence. Track what independent minds are converging on.",
+  title: "Verg — @lazerhawk5000",
+  description: "Sourcing signal. Removing noise. For builders.",
 };
 
 export default function RootLayout({

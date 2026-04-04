@@ -133,7 +133,7 @@ export default async function LeaderPage({ params }: { params: Promise<{ id: str
 
       <Separator className="my-8" />
       <footer className="text-xs text-muted-foreground text-center pb-8">
-        <Link href="/" className="underline">Converge</Link> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
+        <Link href="/" className="underline">Verg</Link> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
       </footer>
     </main>
   );

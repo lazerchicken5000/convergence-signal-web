@@ -44,7 +44,7 @@ export default function DashboardPage() {
       {/* Header */}
       <div className="flex items-start justify-between mb-6">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">Converge</h1>
+          <h1 className="text-2xl font-bold tracking-tight">Verg</h1>
           <p className="text-sm text-muted-foreground mt-0.5">
             Sourcing signal. Removing noise. For builders.
           </p>
@@ -83,7 +83,7 @@ export default function DashboardPage() {
                             p.convergence_type === 'problem' ? 'border-red-500/30 text-red-400' :
                             'border-purple-500/30 text-purple-400'
                           }>
-                            {p.convergence_type}
+                            {p.convergence_type === 'solution' ? 'solution' : p.convergence_type === 'problem' ? 'problem' : 'metaphor'}
                           </Badge>
                           <span className={`text-sm font-mono font-bold ${ciColor(p.ci_score)}`}>
                             {p.ci_score.toFixed(2)}
@@ -306,7 +306,7 @@ export default function DashboardPage() {
                   }
                 >
                   <div className="pt-2">
-                    <p className="text-xs text-zinc-600">Tracked {p.age_days} days. Signal did not sustain — likely amplified noise, not genuine convergence.</p>
+                    <p className="text-xs text-zinc-600">Tracked {p.age_days} days. Signal did not sustain — likely amplified noise, not genuine verg.</p>
                   </div>
                 </AccordionItem>
               ))}
@@ -325,7 +325,7 @@ export default function DashboardPage() {
 
       <Separator className="my-8" />
       <footer className="text-xs text-muted-foreground text-center pb-8">
-        Converge · <span className="font-mono">trenddistill</span> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
+        Verg · <span className="font-mono">trenddistill</span> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
       </footer>
     </main>
   );

@@ -4,19 +4,19 @@ import Link from 'next/link';
 
 const TERMS = [
   {
-    term: 'Convergence Pattern',
+    term: 'Verg Pattern',
     simple: 'When different people independently come to the same conclusion without talking to each other.',
-    nuanced: 'A detected cluster of independent assertions from multiple sources sharing the same underlying thesis, verified against citation graphs to filter amplification. Classified as Solution, Problem, or Metaphor convergence.',
+    nuanced: 'A detected cluster of independent assertions from multiple sources sharing the same underlying thesis, verified against citation graphs to filter amplification. Classified as Solution, Problem, or Metaphor verg.',
   },
   {
     term: 'CI Score',
     simple: 'How strong the agreement is. Higher = more people agree independently.',
-    nuanced: 'Convergence Index — composite of semantic similarity, independence score, and creator diversity. Weighted by stability duration and cross-platform verification. Range 0-1.',
+    nuanced: 'Verg Index — composite of semantic similarity, independence score, and creator diversity. Weighted by stability duration and cross-platform verification. Range 0-1.',
   },
   {
     term: 'Independence Score',
     simple: 'Are these people actually thinking for themselves, or just copying each other?',
-    nuanced: 'Measures whether sources arrived at conclusions independently or via amplification. Derived from citation graph analysis and temporal ordering. High (>0.7) = genuine convergence. Low (<0.5) = possible echo.',
+    nuanced: 'Measures whether sources arrived at conclusions independently or via amplification. Derived from citation graph analysis and temporal ordering. High (>0.7) = genuine verg. Low (<0.5) = possible echo.',
   },
   {
     term: 'Token Bake',
@@ -26,7 +26,7 @@ const TERMS = [
   {
     term: 'Thought Leader',
     simple: 'Someone who creates original ideas that other people end up agreeing with — not just someone who\'s popular.',
-    nuanced: 'A tracked contributor whose content appears in convergence patterns. Profiled via contribution attributes (Originality, Independence, Centrality, Source Depth) rather than reach or follower metrics.',
+    nuanced: 'A tracked contributor whose content appears in verg patterns. Profiled via contribution attributes (Originality, Independence, Centrality, Source Depth) rather than reach or follower metrics.',
   },
   {
     term: 'Originality',
@@ -49,9 +49,9 @@ const TERMS = [
     nuanced: 'Computed from signal data thresholds. Veteran: tenure >= 200 weeks. Cross-Platform: 3+ source types. High Originality: independence_contribution > 0.5. Published: arxiv presence. Active Builder: github + high content volume.',
   },
   {
-    term: 'Convergence Type',
+    term: 'Verg Type',
     simple: 'What kind of agreement: everyone found the same solution, or everyone hit the same problem, or everyone started thinking in the same way.',
-    nuanced: 'Solution convergence = aligned approaches. Problem convergence = shared obstacles. Metaphor convergence = aligned cognitive frameworks. Classified during vector clustering based on assertion framing.',
+    nuanced: 'Solution verg = aligned approaches. Problem verg = shared obstacles. Metaphor verg = aligned cognitive frameworks. Classified during vector clustering based on assertion framing.',
   },
 ];
 
@@ -63,7 +63,7 @@ export default function GlossaryPage() {
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-2xl font-bold tracking-tight">Glossary</h1>
-          <p className="text-sm text-muted-foreground mt-1">Key concepts behind Converge</p>
+          <p className="text-sm text-muted-foreground mt-1">Key concepts behind Verg</p>
         </div>
         <GlossaryDepthToggle />
       </div>
@@ -81,7 +81,7 @@ export default function GlossaryPage() {
 
       <Separator className="my-8" />
       <footer className="text-xs text-muted-foreground text-center pb-8">
-        <Link href="/" className="underline">Converge</Link> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
+        <Link href="/" className="underline">Verg</Link> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
       </footer>
     </main>
   );
