@@ -67,7 +67,7 @@ export function RPGCard({ contribution, compact = false }: RPGCardProps) {
 
 // --- Accolades ---
 
-interface Accolade {
+export interface Accolade {
   label: string;
   color: string; // tailwind border + text
 }
