@@ -147,6 +147,8 @@ export interface ContentItem {
     platform: string;
   };
   content_type: string;  // talk, paper, repo, article, post
+  published_at?: string;
+  ingested_at?: string;
 }
 
 interface ActiveVector {
@@ -198,11 +200,86 @@ export function getPatternSources(vectorIds: string[], limit = 10): ContentItem[
           platform: item.creator?.platform || item.source || 'web',
         },
         content_type: item.content_type || 'article',
+        published_at: item.published_at || undefined,
+        ingested_at: item.ingested_at || undefined,
       });
     }
   }
 
   return items;
+}
+
+// --- Synthesis Chain ---
+
+export interface SynthesisVector {
+  vector_id: string;
+  vector_text: string;
+  sources: ContentItem[];
+}
+
+export interface SynthesisChain {
+  pattern_id: string;
+  vectors: SynthesisVector[];
+  total_sources: number;
+  total_vectors: number;
+}
+
+/**
+ * Get the full synthesis chain: pattern → vectors → all content items.
+ * Shows how atomic signals were distilled into the convergence pattern.
+ */
+export function getPatternSynthesis(pattern: ConvergencePattern): SynthesisChain {
+  const contextPath = path.join(CI_BASE, 'trend_context.json');
+  const context = readJson<{ active_vectors: ActiveVector[]; graduated_vectors: ActiveVector[] }>(contextPath);
+  if (!context) return { pattern_id: pattern.id, vectors: [], total_sources: 0, total_vectors: 0 };
+
+  const allVectors = [...(context.active_vectors || []), ...(context.graduated_vectors || [])];
+  const vectorMap = new Map(allVectors.map(v => [v.vector_id, v]));
+  const contentDir = path.join(CI_BASE, 'content/items');
+
+  const vectors: SynthesisVector[] = [];
+  let totalSources = 0;
+
+  for (const vid of pattern.vector_ids) {
+    const vector = vectorMap.get(vid);
+    if (!vector) continue;
+
+    const sources: ContentItem[] = [];
+    for (const cid of vector.source_content_ids) {
+      const item = readJson<any>(path.join(contentDir, `${cid}.json`));
+      if (item?.source_url) {
+        sources.push({
+          id: item.id,
+          source: item.source || 'web',
+          source_url: item.source_url,
+          title: item.title || 'Untitled',
+          creator: {
+            id: item.creator?.id || '',
+            name: item.creator?.name || 'Unknown',
+            handle: item.creator?.handle || '',
+            platform: item.creator?.platform || item.source || 'web',
+          },
+          content_type: item.content_type || 'article',
+          published_at: item.published_at || undefined,
+          ingested_at: item.ingested_at || undefined,
+        });
+      }
+    }
+
+    vectors.push({
+      vector_id: vector.vector_id,
+      vector_text: vector.vector_text,
+      sources,
+    });
+    totalSources += sources.length;
+  }
+
+  return {
+    pattern_id: pattern.id,
+    vectors,
+    total_sources: totalSources,
+    total_vectors: vectors.length,
+  };
 }
 
 /** Get source links for a leader's handles */
@@ -352,6 +429,8 @@ export function getLeaderSourcedContributions(leaderId: string): ContentItem[] {
           platform: item.creator?.platform || item.source || 'web',
         },
         content_type: item.content_type || 'article',
+        published_at: item.published_at || undefined,
+        ingested_at: item.ingested_at || undefined,
       });
     }
   }

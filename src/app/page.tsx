@@ -3,6 +3,7 @@ import {
   getPatternSources, getPatternTokenCost, getLeaderContribution,
   getPatternSignalQuality, getActivityCalendar, getAggregateStats,
   getLeaderLinks, getLeaderSourcedContributions, getLeaderHighlight,
+  getPatternSynthesis, getScorecard, getEfficiencyTrend, getSourceRankings,
 } from '@/lib/data';
 import { Badge } from '@/components/ui/badge';
 import { SourceLinks, PlatformLinks } from '@/components/source-links';
@@ -28,6 +29,7 @@ export default function DashboardPage() {
     sources: getPatternSources(p.vector_ids, 6),
     cost: getPatternTokenCost(p),
     signal: getPatternSignalQuality(p),
+    synthesis: getPatternSynthesis(p),
   }));
 
   // Pre-compute data for all leaders
@@ -66,6 +68,9 @@ export default function DashboardPage() {
         diff={diff}
         totalPatterns={patterns.length}
         totalLeaders={profiles.length}
+        scorecard={getScorecard()}
+        efficiency={getEfficiencyTrend()}
+        sourceRankings={getSourceRankings()}
       />
 
       <footer className="text-xs text-muted-foreground text-center py-8 mt-4 border-t border-zinc-800">

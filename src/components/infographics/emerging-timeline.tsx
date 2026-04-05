@@ -6,6 +6,7 @@ import type { ConvergenceDiff } from '@/lib/data';
 interface EmergingTimelineProps {
   diff: ConvergenceDiff;
   selectedId: string | null;
+  height?: number;
 }
 
 interface TimelineItem {
@@ -19,7 +20,7 @@ interface TimelineItem {
   creatorCount?: number;
 }
 
-export function EmergingTimeline({ diff, selectedId }: EmergingTimelineProps) {
+export function EmergingTimeline({ diff, selectedId, height = 480 }: EmergingTimelineProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animRef = useRef<number>(0);
 
@@ -309,7 +310,7 @@ export function EmergingTimeline({ diff, selectedId }: EmergingTimelineProps) {
     <canvas
       ref={canvasRef}
       className="w-full"
-      style={{ height: '480px' }}
+      style={{ height: `${height}px` }}
     />
   );
 }
