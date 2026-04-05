@@ -1,50 +1,37 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-/**
- * Password-protect the entire dashboard via HTTP Basic Auth.
- *
- * Set DASHBOARD_PASSWORD env var on Vercel (and locally in .env.local).
- * Username: signal
- */
+const PASSWORD = 'verg5000';
+const USERNAME = 'signal';
+
 export function middleware(request: NextRequest) {
   // Public routes — no auth required
   if (request.nextUrl.pathname.startsWith('/api/') ||
       request.nextUrl.pathname.startsWith('/glossary') ||
+      request.nextUrl.pathname.startsWith('/tip') ||
       request.nextUrl.pathname === '/llms.txt') {
-    return NextResponse.next();
-  }
-
-  const password = process.env.DASHBOARD_PASSWORD;
-  if (!password) {
-    // No password configured — allow access (dev mode)
     return NextResponse.next();
   }
 
   const authHeader = request.headers.get('authorization');
 
   if (authHeader) {
-    const [scheme, encoded] = authHeader.split(' ');
-    if (scheme === 'Basic' && encoded) {
-      // Decode base64 — use TextDecoder for Edge compatibility
-      const bytes = Uint8Array.from(atob(encoded), c => c.charCodeAt(0));
-      const decoded = new TextDecoder().decode(bytes);
-      // Split on first colon only (password may contain colons)
-      const colonIdx = decoded.indexOf(':');
-      if (colonIdx > 0) {
-        const user = decoded.slice(0, colonIdx);
-        const pass = decoded.slice(colonIdx + 1);
-        if (user === 'signal' && pass === password) {
-          return NextResponse.next();
-        }
+    try {
+      const base64 = authHeader.replace('Basic ', '');
+      const decoded = atob(base64);
+      const [user, ...passParts] = decoded.split(':');
+      const pass = passParts.join(':');
+
+      if (user === USERNAME && pass === PASSWORD) {
+        return NextResponse.next();
       }
+    } catch {
+      // bad header, fall through to 401
     }
   }
 
   return new NextResponse('Authentication required', {
     status: 401,
-    headers: {
-      'WWW-Authenticate': 'Basic realm="Verg"',
-    },
+    headers: { 'WWW-Authenticate': 'Basic realm="Verg"' },
   });
 }
 
