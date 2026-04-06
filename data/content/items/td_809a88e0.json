@@ -1,0 +1,38 @@
+{
+  "id": "td_809a88e0",
+  "source": "arxiv",
+  "source_id": "2604.03171",
+  "source_url": "https://arxiv.org/abs/2604.03171",
+  "content_type": "paper",
+  "creator": {
+    "id": "ge_sun",
+    "name": "Ge Sun",
+    "handle": "Ge Sun, Weisheng Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Flexible Imputation of Incomplete Network Data",
+  "body_text": "Flexible Imputation of Incomplete Network Data\n\nSampled network data are common in empirical research because collecting full network information is costly, but using sampled networks can lead to biased estimates. We propose a nonparametric imputation method for sampled networks and show that empirical analysis based on imputed networks yields consistent parameter estimates. Our approach imputes missing network links by combining a projection onto covariates with a local two-way fixed-effects regression, which avoids parametric assumptions, does not rely on low-rank restrictions, and flexibly accommodates both observed covariates and unobserved heterogeneity. We establish entrywise convergence rates for the imputed matrix and prove the consistency of GMM estimators based on the imputed network. We further derive the convergence rate of the corresponding estimator in the linear-in-means peer-effects model. Simulations show strong performance of our method both in terms of imputation accuracy and in downstream empirical analysis. We illustrate our method with an application to the microfinance network data of Banerjee et al. (2013).\n\nAuthors: Ge Sun, Weisheng Zhang\nCategories: econ.EM, econ.EM",
+  "word_count": 154,
+  "published_at": "2026-04-03T16:47:00Z",
+  "ingested_at": "2026-04-06T07:23:28.261Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "econ.EM",
+    "econ.EM"
+  ],
+  "domain": "finance",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

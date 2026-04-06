@@ -1,0 +1,40 @@
+{
+  "id": "td_6f076030",
+  "source": "arxiv",
+  "source_id": "2604.03191",
+  "source_url": "https://arxiv.org/abs/2604.03191",
+  "content_type": "paper",
+  "creator": {
+    "id": "takuya_shiba",
+    "name": "Takuya Shiba",
+    "handle": "Takuya Shiba",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
+  "body_text": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling\n\nScaling Vision-Language-Action (VLA) models by upgrading the vision encoder is expected to improve downstream manipulation performance--as it does in vision-language modeling. We show that this expectation fails when actions are represented as discrete tokens, and explain why through an information-theoretic principle we call the Compression Gap: in any visuomotor pipeline, scaling behavior is governed by the location of the tightest information bottleneck. When actions are continuous (e.g., Diffusion Policy), the vision encoder is the binding constraint, and upgrading it directly improves performance. When actions are discretized through a fixed-capacity codebook (e.g., OAT), the codebook becomes the binding constraint, and encoder improvements cannot propagate past it--regardless of how rich the upstream representation is. We validate this principle on the LIBERO benchmark with three lines of evidence: a factorial experiment showing that encoder upgrades improve Diffusion Policy by over 21 percentage points while OAT gains are substantially attenuated across model scales; an encoder quality gradient across four encoders confirming that Diffusion Policy tracks encoder quality monotonically while OAT remains flat; and a codebook size experiment demonstrating that relaxing codebook capacity partially recovers encoder sensitivity, providing causal evidence for the bottleneck hypothesis. Our findings reveal that scaling in Physical AI requires identifying where information bottlenecks lie in the pipeline, rather than uniformly increasing model or data size.\n\nAuthors: Takuya Shiba\nCategories: cs.RO, cs.CV, cs.LG, cs.RO",
+  "word_count": 214,
+  "published_at": "2026-04-03T17:06:31Z",
+  "ingested_at": "2026-04-06T07:23:15.013Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

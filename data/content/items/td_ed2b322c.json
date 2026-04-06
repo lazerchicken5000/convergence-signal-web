@@ -1,0 +1,38 @@
+{
+  "id": "td_ed2b322c",
+  "source": "arxiv",
+  "source_id": "2604.03212",
+  "source_url": "https://arxiv.org/abs/2604.03212",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiekai_wu",
+    "name": "Jiekai Wu",
+    "handle": "Jiekai Wu, Rong Fu, Chuangqi Li, Zijian Zhang, Guangxin Wu, Hao Zhang, Shiyin Lin, Jianyuan Ni, Yang Li, Dongxu Zhang, Amir H. Gandomi, Simon Fong, Pengbin Feng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ProtoFlow: Mitigating Forgetting in Class-Incremental Remote Sensing Segmentation via Low-Curvature Prototype Flow",
+  "body_text": "ProtoFlow: Mitigating Forgetting in Class-Incremental Remote Sensing Segmentation via Low-Curvature Prototype Flow\n\nRemote sensing segmentation in real deployment is inherently continual: new semantic categories emerge, and acquisition conditions shift across seasons, cities, and sensors. Despite recent progress, many incremental approaches still treat training steps as isolated updates, which leaves representation drift and forgetting insufficiently controlled. We present ProtoFlow, a time-aware prototype dynamics framework that models class prototypes as trajectories and learns their evolution with an explicit temporal vector field. By jointly enforcing low-curvature motion and inter-class separation, ProtoFlow stabilizes prototype geometry throughout incremental learning. Experiments on standard class- and domain-incremental remote sensing benchmarks show consistent gains over strong baselines, including up to 1.5-2.0 points improvement in mIoUall, together with reduced forgetting. These results suggest that explicitly modeling temporal prototype evolution is a practical and interpretable strategy for robust continual remote sensing segmentation.\n\nAuthors: Jiekai Wu, Rong Fu, Chuangqi Li, Zijian Zhang, Guangxin Wu, Hao Zhang, Shiyin Lin, Jianyuan Ni, Yang Li, Dongxu Zhang, Amir H. Gandomi, Simon Fong, Pengbin Feng\nCategories: cs.CV, cs.CV",
+  "word_count": 130,
+  "published_at": "2026-04-03T17:40:58Z",
+  "ingested_at": "2026-04-06T07:23:24.161Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

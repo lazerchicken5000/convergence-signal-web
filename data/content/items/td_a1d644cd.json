@@ -1,0 +1,39 @@
+{
+  "id": "td_a1d644cd",
+  "source": "arxiv",
+  "source_id": "2604.03190",
+  "source_url": "https://arxiv.org/abs/2604.03190",
+  "content_type": "paper",
+  "creator": {
+    "id": "saleh_sargolzaei",
+    "name": "Saleh Sargolzaei",
+    "handle": "Saleh Sargolzaei",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Gradient Boosting within a Single Attention Layer",
+  "body_text": "Gradient Boosting within a Single Attention Layer\n\nTransformer attention computes a single softmax-weighted average over values -- a one-pass estimate that cannot correct its own errors. We introduce \\emph{gradient-boosted attention}, which applies the principle of gradient boosting \\emph{within} a single attention layer: a second attention pass, with its own learned projections, attends to the prediction error of the first and applies a gated correction. Under a squared reconstruction objective, the construction maps onto Friedman's gradient boosting machine, with each attention pass as a base learner and the per-dimension gate as the shrinkage parameter. We show that a single Hopfield-style update erases all query information orthogonal to the stored-pattern subspace, and that further iteration under local contraction can collapse distinct queries in the same region to the same fixed point. We also show that separate projections for the correction pass can recover residual information inaccessible to the shared-projection approach of Tukey's twicing. On a 10M-token subset of WikiText-103, gradient-boosted attention achieves a test perplexity of $67.9$ compared to $72.2$ for standard attention, $69.6$ for Twicing Attention, and $69.0$ for a parameter-matched wider baseline, with two rounds capturing most of the benefit.\n\nAuthors: Saleh Sargolzaei\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 183,
+  "published_at": "2026-04-03T17:06:08Z",
+  "ingested_at": "2026-04-06T07:23:07.288Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

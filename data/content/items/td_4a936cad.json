@@ -1,0 +1,35 @@
+{
+  "id": "td_4a936cad",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette-ports 0.1",
+  "body_text": "Release: datasette-ports 0.1\n    Another example of README-driven development, this time solving a problem that might be unique to me.\nI often find myself running a bunch of different Datasette instances with different databases and different in-development plugins, spreads across dozens of different terminal windows - enough that I frequently lose them!\nNow I can run this:\ndatasette install datasette-ports\ndatasette ports\n\nAnd get a list of every running instance that looks something like this:\nhttp://127.0.0.1:8333/ - v1.0a26\n  Databases: data\n  Plugins: datasette-enrichments, datasette-enrichments-llm, datasette-llm, datasette-secrets\nhttp://127.0.0.1:8001/ - v1.0a26\n  Databases: creatures\n  Plugins: datasette-extract, datasette-llm, datasette-secrets\nhttp://127.0.0.1:8900/ - v0.65.2\n  Databases: logs\n\n    \n        Tags: datasette",
+  "word_count": 100,
+  "published_at": "2026-04-06T00:23:55.000Z",
+  "ingested_at": "2026-04-06T07:20:12.961Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

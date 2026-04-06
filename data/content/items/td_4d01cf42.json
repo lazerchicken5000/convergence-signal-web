@@ -1,0 +1,40 @@
+{
+  "id": "td_4d01cf42",
+  "source": "arxiv",
+  "source_id": "2604.03199",
+  "source_url": "https://arxiv.org/abs/2604.03199",
+  "content_type": "paper",
+  "creator": {
+    "id": "david_ilić",
+    "name": "David Ilić",
+    "handle": "David Ilić, Kostadin Cvejoski, David Stanojević, Evgeny Grigorenko",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning the Signature of Memorization in Autoregressive Language Models",
+  "body_text": "Learning the Signature of Memorization in Autoregressive Language Models\n\nAll prior membership inference attacks for fine-tuned language models use hand-crafted heuristics (e.g., loss thresholding, Min-K\\%, reference calibration), each bounded by the designer's intuition. We introduce the first transferable learned attack, enabled by the observation that fine-tuning any model on any corpus yields unlimited labeled data, since membership is known by construction. This removes the shadow model bottleneck and brings membership inference into the deep learning era: learning what matters rather than designing it, with generalization through training diversity and scale. We discover that fine-tuning language models produces an invariant signature of memorization detectable across architectural families and data domains. We train a membership inference classifier exclusively on transformer-based models. It transfers zero-shot to Mamba (state-space), RWKV-4 (linear attention), and RecurrentGemma (gated recurrence), achieving 0.963, 0.972, and 0.936 AUC respectively. Each evaluation combines an architecture and dataset never seen during training, yet all three exceed performance on held-out transformers (0.908 AUC). These four families share no computational mechanisms, their only commonality is gradient descent on cross-entropy loss. Even simple likelihood-based methods exhibit strong transfer, confirming the signature exists independently of the detection method. Our method, Learned Transfer MIA (LT-MIA), captures this signal most effectively by reframing membership inference as sequence classification over per-token distributional statistics. On transformers, LT-MIA achieves 2.8$\\times$ higher TPR at 0.1\\% FPR than the strongest baseline. The method also transfers to code (0.865 AUC) despite training only on natural language texts. Code and trained classifier available at https://github.com/JetBrains-Research/learned-mia.\n\nAuthors: David Ilić, Kostadin Cvejoski, David Stanojević, Evgeny Grigorenko\nCategories: cs.CL, cs.CR, cs.LG, cs.CL",
+  "word_count": 241,
+  "published_at": "2026-04-03T17:17:51Z",
+  "ingested_at": "2026-04-06T07:23:11.142Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CR",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

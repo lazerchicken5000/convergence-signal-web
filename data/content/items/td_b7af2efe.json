@@ -1,0 +1,41 @@
+{
+  "id": "td_b7af2efe",
+  "source": "arxiv",
+  "source_id": "2604.03180",
+  "source_url": "https://arxiv.org/abs/2604.03180",
+  "content_type": "paper",
+  "creator": {
+    "id": "connor_douglas",
+    "name": "Connor Douglas",
+    "handle": "Connor Douglas, Utkucan Balci, Joseph Aylett-Bullock",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PRISM: LLM-Guided Semantic Clustering for High-Precision Topics",
+  "body_text": "PRISM: LLM-Guided Semantic Clustering for High-Precision Topics\n\nIn this paper, we propose Precision-Informed Semantic Modeling (PRISM), a structured topic modeling framework combining the benefits of rich representations captured by LLMs with the low cost and interpretability of latent semantic clustering methods. PRISM fine-tunes a sentence encoding model using a sparse set of LLM- provided labels on samples drawn from some corpus of interest. We segment this embedding space with thresholded clustering, yielding clusters that separate closely related topics within some narrow domain. Across multiple corpora, PRISM improves topic separability over state-of-the-art local topic models and even over clustering on large, frontier embedding models while requiring only a small number of LLM queries to train. This work contributes to several research streams by providing (i) a student-teacher pipeline to distill sparse LLM supervision into a lightweight model for topic discovery; (ii) an analysis of the efficacy of sampling strategies to improve local geometry for cluster separability; and (iii) an effective approach for web-scale text analysis, enabling researchers and practitioners to track nuanced claims and subtopics online with an interpretable, locally deployable framework.\n\nAuthors: Connor Douglas, Utkucan Balci, Joseph Aylett-Bullock\nCategories: cs.LG, cs.CL, cs.IR, cs.SI, cs.LG",
+  "word_count": 174,
+  "published_at": "2026-04-03T16:56:47Z",
+  "ingested_at": "2026-04-06T07:23:11.142Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.IR",
+    "cs.SI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

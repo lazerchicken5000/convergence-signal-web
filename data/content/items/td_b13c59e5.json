@@ -1,0 +1,39 @@
+{
+  "id": "td_b13c59e5",
+  "source": "arxiv",
+  "source_id": "2604.03192",
+  "source_url": "https://arxiv.org/abs/2604.03192",
+  "content_type": "paper",
+  "creator": {
+    "id": "dipto_sumit",
+    "name": "Dipto Sumit",
+    "handle": "Dipto Sumit, Ankan Kumar Roy, Sadia Khair Rodela, Atia Haque Asha, Mourchona Afrin, Niloy Farhan, Farig Yousuf Sadeque",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Reliability Gated Multi-Teacher Distillation for Low Resource Abstractive Summarization",
+  "body_text": "Reliability Gated Multi-Teacher Distillation for Low Resource Abstractive Summarization\n\nWe study multiteacher knowledge distillation for low resource abstractive summarization from a reliability aware perspective. We introduce EWAD (Entropy Weighted Agreement Aware Distillation), a token level mechanism that routes supervision between teacher distillation and gold supervision based on inter teacher agreement, and CPDP (Capacity Proportional Divergence Preservation), a geometric constraint on the student position relative to heterogeneous teachers. Across two Bangla datasets, 13 BanglaT5 ablations, and eight Qwen2.5 experiments, we find that logit level KD provides the most reliable gains, while more complex distillation improves semantic similarity for short summaries but degrades longer outputs. Cross lingual pseudo label KD across ten languages retains 71-122 percent of teacher ROUGE L at 3.2x compression. A human validated multi judge LLM evaluation further reveals calibration bias in single judge pipelines. Overall, our results show that reliability aware distillation helps characterize when multi teacher supervision improves summarization and when data scaling outweighs loss engineering.\n\nAuthors: Dipto Sumit, Ankan Kumar Roy, Sadia Khair Rodela, Atia Haque Asha, Mourchona Afrin, Niloy Farhan, Farig Yousuf Sadeque\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 150,
+  "published_at": "2026-04-03T17:06:51Z",
+  "ingested_at": "2026-04-06T07:23:07.287Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

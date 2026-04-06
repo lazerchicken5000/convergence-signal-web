@@ -1,0 +1,39 @@
+{
+  "id": "td_75c9ae45",
+  "source": "arxiv",
+  "source_id": "2604.03224",
+  "source_url": "https://arxiv.org/abs/2604.03224",
+  "content_type": "paper",
+  "creator": {
+    "id": "fengbei_liu",
+    "name": "Fengbei Liu",
+    "handle": "Fengbei Liu, Sunwoo Kwak, Hao Phung, Nusrat Binta Nizam, Ilan Richter, Nir Uriel, Hadar Averbuch-Elor, Daborah Estrin, Mert R. Sabuncu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "HyperCT: Low-Rank Hypernet for Unified Chest CT Analysis",
+  "body_text": "HyperCT: Low-Rank Hypernet for Unified Chest CT Analysis\n\nNon-contrast chest CTs offer a rich opportunity for both conventional pulmonary and opportunistic extra-pulmonary screening. While Multi-Task Learning (MTL) can unify these diverse tasks, standard hard-parameter sharing approaches are often suboptimal for modeling distinct pathologies. We propose HyperCT, a framework that dynamically adapts a Vision Transformer backbone via a Hypernetwork. To ensure computational efficiency, we integrate Low-Rank Adaptation (LoRA), allowing the model to regress task-specific low-rank weight updates rather than full parameters. Validated on a large-scale dataset of radiological and cardiological tasks, \\method{} outperforms various strong baselines, offering a unified, parameter-efficient solution for holistic patient assessment. Our code is available at https://github.com/lfb-1/HyperCT.\n\nAuthors: Fengbei Liu, Sunwoo Kwak, Hao Phung, Nusrat Binta Nizam, Ilan Richter, Nir Uriel, Hadar Averbuch-Elor, Daborah Estrin, Mert R. Sabuncu\nCategories: eess.IV, cs.CV, eess.IV",
+  "word_count": 102,
+  "published_at": "2026-04-03T17:50:09Z",
+  "ingested_at": "2026-04-06T07:23:24.161Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.IV",
+    "cs.CV",
+    "eess.IV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

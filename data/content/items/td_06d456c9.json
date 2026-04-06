@@ -1,0 +1,38 @@
+{
+  "id": "td_06d456c9",
+  "source": "arxiv",
+  "source_id": "2604.03173",
+  "source_url": "https://arxiv.org/abs/2604.03173",
+  "content_type": "paper",
+  "creator": {
+    "id": "delip_rao",
+    "name": "Delip Rao",
+    "handle": "Delip Rao, Eric Wong, Chris Callison-Burch",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents",
+  "body_text": "Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents\n\nLarge language models and deep research agents supply citation URLs to support their claims, yet the reliability of these citations has not been systematically measured. We address six research questions about citation URL validity using 10 models and agents on DRBench (53,090 URLs) and 3 models on ExpertQA (168,021 URLs across 32 academic fields). We find that 3--13\\% of citation URLs are hallucinated -- they have no record in the Wayback Machine and likely never existed -- while 5--18\\% are non-resolving overall. Deep research agents generate substantially more citations per query than search-augmented LLMs but hallucinate URLs at higher rates. Domain effects are pronounced: non-resolving rates range from 5.4\\% (Business) to 11.4\\% (Theology), with per-model effects even larger. Decomposing failures reveals that some models fabricate every non-resolving URL, while others show substantial link-rot fractions indicating genuine retrieval. As a solution, we release urlhealth, an open-source tool for URL liveness checking and stale-vs-hallucinated classification using the Wayback Machine. In agentic self-correction experiments, models equipped with urlhealth reduce non-resolving citation URLs by $6\\textrm{--}79\\times$ to under 1\\%, though effectiveness depends on the model's tool-use competence. The tool and all data are publicly available. Our characterization findings, failure taxonomy, and open-source tooling establish that citation URL validity is both measurable at scale and correctable in practice.\n\nAuthors: Delip Rao, Eric Wong, Chris Callison-Burch\nCategories: cs.CL, cs.CL",
+  "word_count": 212,
+  "published_at": "2026-04-03T16:49:02Z",
+  "ingested_at": "2026-04-06T07:23:11.142Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

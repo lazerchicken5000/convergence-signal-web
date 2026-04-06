@@ -1,0 +1,37 @@
+{
+  "id": "td_e8d3a922",
+  "source": "semantic_scholar",
+  "source_id": "c8691974e7459989d0b9c8da027599b582910c0c",
+  "source_url": "https://www.semanticscholar.org/paper/c8691974e7459989d0b9c8da027599b582910c0c",
+  "content_type": "paper",
+  "creator": {
+    "id": "shaona_ghosh",
+    "name": "Shaona Ghosh",
+    "handle": "Shaona Ghosh, Prasoon Varshney, Makesh Narsimhan Sreedhar, Aishwarya Padmakumar, Traian Rebedea, J. Varghese, Christopher Parisien",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Aegis2.0: A Diverse AI Safety Dataset and Risks Taxonomy for Alignment of LLM Guardrails",
+  "body_text": "Aegis2.0: A Diverse AI Safety Dataset and Risks Taxonomy for Alignment of LLM Guardrails\nTLDR: A comprehensive and adaptable taxonomy for categorizing safety risks, structured into 12 top-level hazard categories with an extension to 9 fine-grained subcategories is proposed, designed to meet the diverse requirements of downstream users, offering more granular and flexible tools for managing various risk types.\nAs Large Language Models (LLMs) and generative AI become increasingly widespread, concerns about content safety have grown in parallel. Currently, there is a clear lack of high-quality, human-annotated datasets that address the full spectrum of LLM-related safety risks and are usable for commercial applications. To bridge this gap, we propose a comprehensive and adaptable taxonomy for categorizing safety risks, structured into 12 top-level hazard categories with an extension to 9 fine-grained subcategories. This taxonomy is designed to meet the diverse requirements of downstream users, offering more granular and flexible tools for managing various risk types. Using a hybrid data generation pipeline that combines human annotations with a multi-LLM\"jury\"system to assess the safety of responses, we obtain Aegis 2.0, a carefully curated collection of 34,248 samples of human-LLM interactions, annotated according to our proposed taxonomy. To validate its effectiveness, we demonstrate that several lightweight models, trained using parameter-efficient techniques on Aegis 2.0, achieve performance competitive with leading safety models fully fine-tuned on much larger, non-commercial datasets. In addition, we introduce a novel training blend that combines safety with topic following data.This approach enhances the adaptability of guard models, enabling them to generalize to new risk categories defined during inference. We plan to open-source Aegis 2.0 data and models to the research community to aid in the safety guardrailing of LLMs.\nAuthors: Shaona Ghosh, Prasoon Varshney, Makesh Narsimhan Sreedhar, Aishwarya Padmakumar, Traian Rebedea, J. Varghese, Christopher Parisien\nVenue: North American Chapter of the Association for Computational Linguistics\nFields: Computer Science",
+  "word_count": 307,
+  "published_at": "2025-01-15",
+  "ingested_at": "2026-04-06T07:24:36.105Z",
+  "engagement": {
+    "views": 82,
+    "likes": 20,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
