@@ -77,6 +77,7 @@ export default function DashboardPage() {
         Verg · <span className="font-mono">trenddistill</span> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
         {' · '}<Link href="/glossary" className="underline">Glossary</Link>
         {' · '}<Link href="/whitepaper" className="underline">Whitepaper</Link>
+        {' · '}<Link href="/blog" className="underline">Transmissions</Link>
         {' · '}<Link href="/tip" className="underline">Support</Link>
       </footer>
     </main>

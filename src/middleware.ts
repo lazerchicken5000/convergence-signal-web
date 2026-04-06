@@ -9,6 +9,7 @@ export function middleware(request: NextRequest) {
       request.nextUrl.pathname.startsWith('/glossary') ||
       request.nextUrl.pathname.startsWith('/tip') ||
       request.nextUrl.pathname.startsWith('/whitepaper') ||
+      request.nextUrl.pathname.startsWith('/blog') ||
       request.nextUrl.pathname === '/llms.txt') {
     return NextResponse.next();
   }
