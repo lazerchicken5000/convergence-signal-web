@@ -78,6 +78,7 @@ export default function DashboardPage() {
         {' · '}<Link href="/glossary" className="underline">Glossary</Link>
         {' · '}<Link href="/whitepaper" className="underline">Whitepaper</Link>
         {' · '}<Link href="/blog" className="underline">Transmissions</Link>
+        {' · '}<Link href="/docs" className="underline">API</Link>
         {' · '}<Link href="/tip" className="underline">Support</Link>
       </footer>
     </main>
