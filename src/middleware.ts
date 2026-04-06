@@ -4,14 +4,30 @@ const PASSWORD = 'verg5000';
 const USERNAME = 'signal';
 
 export function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
+
+  // Markdown files and llms discovery files — public, with markdown headers
+  // Static .md files live in public/ and are served by Next.js automatically.
+  // Blog markdown files are copied to public/blog/<slug>.md by the prebuild step.
+  const isMarkdownFile = pathname.endsWith('.md');
+  const isLlmsFile = pathname === '/llms.txt' || pathname === '/llms-full.txt';
+
+  if (isMarkdownFile || isLlmsFile) {
+    const res = NextResponse.next();
+    res.headers.set('Content-Type', 'text/markdown; charset=utf-8');
+    res.headers.set('X-Robots-Tag', 'noindex');
+    res.headers.set('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=3600');
+    res.headers.set('Access-Control-Allow-Origin', '*');
+    return res;
+  }
+
   // Public routes — no auth required
-  if (request.nextUrl.pathname.startsWith('/api/') ||
-      request.nextUrl.pathname.startsWith('/glossary') ||
-      request.nextUrl.pathname.startsWith('/tip') ||
-      request.nextUrl.pathname.startsWith('/whitepaper') ||
-      request.nextUrl.pathname.startsWith('/blog') ||
-      request.nextUrl.pathname.startsWith('/docs') ||
-      request.nextUrl.pathname === '/llms.txt') {
+  if (pathname.startsWith('/api/') ||
+      pathname.startsWith('/glossary') ||
+      pathname.startsWith('/tip') ||
+      pathname.startsWith('/whitepaper') ||
+      pathname.startsWith('/blog') ||
+      pathname.startsWith('/docs')) {
     return NextResponse.next();
   }
 

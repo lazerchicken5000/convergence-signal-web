@@ -29,11 +29,11 @@ interface TreeRect {
 }
 
 const GRADE_COLORS: Record<string, { bg: string; border: string; text: string }> = {
-  A: { bg: 'rgba(52, 211, 153, 0.12)', border: 'rgba(52, 211, 153, 0.3)', text: '#34d399' },
+  A: { bg: 'rgba(52, 211, 153, 0.15)', border: 'rgba(52, 211, 153, 0.3)', text: '#34d399' },
   B: { bg: 'rgba(96, 165, 250, 0.12)', border: 'rgba(96, 165, 250, 0.3)', text: '#60a5fa' },
   C: { bg: 'rgba(251, 191, 36, 0.12)', border: 'rgba(251, 191, 36, 0.3)', text: '#fbbf24' },
   D: { bg: 'rgba(251, 146, 60, 0.12)', border: 'rgba(251, 146, 60, 0.3)', text: '#fb923c' },
-  F: { bg: 'rgba(63, 63, 70, 0.15)', border: 'rgba(63, 63, 70, 0.3)', text: '#52525b' },
+  F: { bg: 'rgba(239, 68, 68, 0.08)', border: 'rgba(239, 68, 68, 0.2)', text: '#b91c1c' },
 };
 
 const SOURCE_LABELS: Record<string, string> = {

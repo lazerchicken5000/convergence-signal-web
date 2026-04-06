@@ -490,7 +490,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
         {tab === 'emerging' && diff && (
           <div>
             <div className="border-b border-zinc-800">
-              <EmergingTimeline diff={diff} selectedId={selectedId} height={160} />
+              <EmergingTimeline diff={diff} selectedId={selectedId} height={320} />
             </div>
 
             {/* Detail below for selected item */}

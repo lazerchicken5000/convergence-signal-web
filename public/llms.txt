@@ -1,85 +1,41 @@
-# Verg — Intelligence on the Verge
+# Verg
 
-> Verg is an attempt to meet mind to mind with the parts of the paradigm. It detects when independent minds converge on the same idea without coordinating, sources signal, removes amplified noise, and makes contribution visible — for builders, researchers, and machines seeking truth.
+> Verg is a protocol for convergence intelligence. It detects when independent minds arrive at the same conclusion without coordinating, verifies the independence through social graph analysis, and exposes the resulting signal to humans and AI agents. Built for the paradigm shift into agent-native media.
 
-## What Verg Does
-Verg ingests content from 485+ sources (research papers, GitHub repos, YouTube talks, podcasts, RSS feeds) and detects convergence patterns — moments when multiple independent voices arrive at the same conclusion without coordination. Each pattern is scored for independence (is this genuine convergence or amplified echo?) and includes source provenance (every claim links to the paper, repo, or talk that generated it).
+Verg ingests from 485+ sources (arXiv, GitHub, YouTube, podcasts, RSS), runs a daily pipeline that detects convergence patterns with 99.8% token compression, and scores its own predictions (currently 80% accuracy). Every claim traces back to primary sources. Contribution is measured by what you produce, not by followers. Low-quality signals are classified (noise, frontier, archived), not pruned — preserving potential paradigm-shifting ideas that haven't converged yet.
 
-## API Quick Start
-Base URL: https://verg.dev
-Auth: None (public)
-Rate limit: 60 requests/minute per IP
+Verg is an attempt to meet mind to mind with the parts of the paradigm.
 
-Core endpoints:
-- GET /api/patterns — convergence patterns with full provenance
-- GET /api/leaders — thought leaders ranked by contribution
-- GET /api/openapi.json — full OpenAPI 3.0 spec for tool discovery
-- POST /api/feedback — submit pattern or source feedback
+## Core
 
-## Machine-Readable Discovery
-- **OpenAPI spec**: https://verg.dev/api/openapi.json
-- **API documentation**: https://verg.dev/docs
-- **Whitepaper**: https://verg.dev/whitepaper
+- [Whitepaper](https://verg.dev/whitepaper.md): Protocol specification — convergence thesis, token bake economics, independence verification, frontier classification (living document)
+- [API documentation](https://verg.dev/docs): REST endpoints, query parameters, response shapes, integration examples
+- [Glossary](https://verg.dev/glossary): CI score, independence score, token bake, convergence type definitions
+- [Dashboard](https://verg.dev): Live convergence patterns, thought leaders, emerging signals with full source provenance (requires auth for browsing)
 
-## For AI Agents
-Verg is built to be queried by agents natively. Three integration paths:
+## API
 
-1. **REST API** — direct HTTP calls with OpenAPI 3.0 spec
-2. **MCP Server** — Model Context Protocol server with 5 tools (verg_patterns, verg_leaders, verg_emerging, verg_search, verg_predictions)
-3. **LLMs.txt discovery** — this file
+- [OpenAPI 3.0 spec](https://verg.dev/api/openapi.json): Machine-readable tool definitions for agent integration
+- [GET /api/patterns](https://verg.dev/api/patterns): Convergence patterns with source provenance, CI scores, independence verification — query ?limit=N&min_ci=0.3
+- [GET /api/leaders](https://verg.dev/api/leaders): Thought leaders ranked by contribution profile — query ?limit=N&type=architect&min_score=0.2
+- [POST /api/feedback](https://verg.dev/api/feedback): Submit pattern or source quality feedback
 
-## Example Queries
+## Key Facts
 
-### Get top 5 patterns with strong CI score
-```
-curl "https://verg.dev/api/patterns?limit=5&min_ci=0.2"
-```
+- Convergence detected by independence verification, not volume or trend metrics
+- Independence verified via PageRank + Louvain community detection on the citation graph
+- Token bake: typical pattern distills 144,000 raw tokens into ~280 curated tokens (99.8% compression)
+- Prediction scorecard: 80% accuracy on graded predictions, published and auditable
+- Leader scoring dimensions: originality, independence, centrality, source depth (never follower count)
+- MCP server available with 5 tools: verg_patterns, verg_leaders, verg_emerging, verg_search, verg_predictions
+- Public API: no auth, rate-limited to 60 requests per minute per IP
+- Daily pipeline: runs autonomously at 4am, self-grades its predictions, prunes noise, classifies frontier ideas
+- Built by @lazerhawk5000 — open methodology, open scorecard, no VC funding, no growth hacking
 
-### Get top 10 architect-type leaders
-```
-curl "https://verg.dev/api/leaders?limit=10&type=architect"
-```
+## Optional
 
-### Get full OpenAPI spec for tool integration
-```
-curl https://verg.dev/api/openapi.json
-```
-
-## What the API Returns
-
-**Patterns** include:
-- id, label, description, convergence_type (problem/metaphor/solution)
-- ci_score (0-1) — strength of convergence
-- independence_score (0-1) — verified via social graph analysis
-- presuppositions — shared assumptions across sources
-- token_cost — raw tokens processed vs curated output (typically 99.8% savings)
-- signal_quality — independence, platform diversity, narrative direction
-- sources — list of URLs, creators, platforms (arxiv, github, youtube, rss)
-
-**Leaders** include:
-- contribution profile (originality, independence, centrality, source_depth) — all 0-100
-- leader_type (architect, philosopher, amplifier, contrarian, bridge)
-- trajectory (rising, stable, declining)
-- pattern_count — how many convergence patterns they've contributed to
-- themes, platform links, domains
-
-## Key Concepts
-- **CI Score**: Convergence Intelligence — measures agreement strength weighted by source independence (0-1)
-- **Independence Score**: Verified via PageRank + Louvain community detection on the citation graph
-- **Token Bake**: Total raw tokens processed to produce an insight. Higher = more research distilled
-- **Contribution (not clout)**: Leaders are scored by what they produce, not by followers
-- **Classify, don't prune**: Low-scoring sources are classified (noise, frontier, archived) not deleted
-
-## Token Bake Value
-A typical pattern distills 144,000 raw tokens from 164 sources into ~280 curated tokens — a 99.8% reduction. Agents consuming Verg's API skip that processing entirely. This is the protocol's core value proposition: curated intelligence at 100x lower cost than deriving it from scratch.
-
-## Glossary & Whitepaper
-- https://verg.dev/glossary — key term definitions
-- https://verg.dev/whitepaper — full protocol specification (living document)
-- https://verg.dev/blog — transmissions from the frontier
-- https://verg.dev/docs — API documentation
-
-## Source
-- **Website**: https://verg.dev
-- **X**: @lazerhawk5000
-- Built by @lazerhawk5000
+- [Transmissions blog](https://verg.dev/blog): Rants and raw thinking from the frontier
+- [Meeting the Paradigm](https://verg.dev/blog/meeting-the-paradigm.md): First post — raw thesis on convergence, agentic internet, information absorption
+- [Full context bundle](https://verg.dev/llms-full.txt): Complete llms.txt + whitepaper + blog bundled for deep ingestion
+- [Support](https://verg.dev/tip): Stripe tip mechanism for supporting the protocol
+- [X @lazerhawk5000](https://x.com/lazerhawk5000): Author on X
