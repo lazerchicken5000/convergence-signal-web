@@ -8,6 +8,7 @@ export function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith('/api/') ||
       request.nextUrl.pathname.startsWith('/glossary') ||
       request.nextUrl.pathname.startsWith('/tip') ||
+      request.nextUrl.pathname.startsWith('/whitepaper') ||
       request.nextUrl.pathname === '/llms.txt') {
     return NextResponse.next();
   }
