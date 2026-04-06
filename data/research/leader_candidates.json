@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-06T09:23:18.232Z",
-  "total_leaders_analyzed": 186,
+  "generated_at": "2026-04-06T11:37:51.989Z",
+  "total_leaders_analyzed": 190,
   "candidates": [
     {
       "rank": 1,
@@ -8,11 +8,11 @@
       "name": "simon willison",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.353,
+      "score": 0.369,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
-      "score_change": 0,
+      "score_change": 0.016,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -21,11 +21,11 @@
         },
         {
           "signal": "social_pagerank",
-          "value": 0.844
+          "value": 0.847
         },
         {
           "signal": "independence_contribution",
-          "value": 0.448
+          "value": 0.583
         }
       ],
       "pattern_count": 1,
@@ -44,11 +44,11 @@
       "name": "hetu-project",
       "leader_type": "architect",
       "entity_type": "open_source_project",
-      "score": 0.291,
+      "score": 0.29,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
-      "score_change": -0.003,
+      "score_change": -0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -57,7 +57,7 @@
         },
         {
           "signal": "social_pagerank",
-          "value": 0.844
+          "value": 0.847
         },
         {
           "signal": "cross_source_mentions",
@@ -78,16 +78,16 @@
       "name": "hard fork (nyt)",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.287,
+      "score": 0.284,
       "tier": "top",
-      "trajectory": "rising",
+      "trajectory": "stable",
       "rank_change": 0,
-      "score_change": 0.008,
+      "score_change": -0.003,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.844
+          "value": 0.847
         },
         {
           "signal": "independence_contribution",
@@ -112,20 +112,20 @@
       "name": "the changelog: software development, open source",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.257,
+      "score": 0.264,
       "tier": "established",
-      "trajectory": "rising",
+      "trajectory": "stable",
       "rank_change": 0,
-      "score_change": 0.001,
+      "score_change": 0.007,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.844
+          "value": 0.847
         },
         {
           "signal": "independence_contribution",
-          "value": 0.481
+          "value": 0.547
         },
         {
           "signal": "content_volume",
@@ -142,92 +142,24 @@
     },
     {
       "rank": 5,
-      "id": "js_party_javascript_css_web_development",
-      "name": "js party: javascript, css, web development",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.244,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": -0.005,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.844
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.392
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.25
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
-      ]
-    },
-    {
-      "rank": 6,
-      "id": "theo_t3_gg",
-      "name": "theo - t3․gg",
-      "leader_type": "architect",
-      "entity_type": "individual",
-      "score": 0.242,
-      "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
-      "score_change": 0.007,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.844
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.25
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.204
-        }
-      ],
-      "pattern_count": 2,
-      "domains": [
-        "tech_media"
-      ],
-      "source_types": [
-        "youtube"
-      ]
-    },
-    {
-      "rank": 7,
       "id": "fireship",
       "name": "fireship",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.238,
+      "score": 0.257,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
-      "score_change": -0.004,
+      "rank_change": 2,
+      "score_change": 0.019,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.844
+          "value": 0.847
         },
         {
           "signal": "independence_contribution",
-          "value": 0.427
+          "value": 0.593
         },
         {
           "signal": "cross_source_mentions",
@@ -243,6 +175,74 @@
       ]
     },
     {
+      "rank": 6,
+      "id": "theo_t3_gg",
+      "name": "theo - t3․gg",
+      "leader_type": "architect",
+      "entity_type": "individual",
+      "score": 0.256,
+      "tier": "top",
+      "trajectory": "stable",
+      "rank_change": 0,
+      "score_change": 0.014,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.847
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.351
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.25
+        }
+      ],
+      "pattern_count": 2,
+      "domains": [
+        "tech_media"
+      ],
+      "source_types": [
+        "youtube"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "js_party_javascript_css_web_development",
+      "name": "js party: javascript, css, web development",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.255,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -2,
+      "score_change": 0.011,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.847
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.492
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.25
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
       "rank": 8,
       "id": "openai",
       "name": "openai",
@@ -250,7 +250,7 @@
       "entity_type": "organization",
       "score": 0.226,
       "tier": "established",
-      "trajectory": "rising",
+      "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
@@ -283,11 +283,11 @@
       "name": "elliot murphy",
       "leader_type": "architect",
       "entity_type": "academic_group",
-      "score": 0.209,
+      "score": 0.211,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
-      "score_change": -0.005,
+      "score_change": 0.002,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -296,7 +296,7 @@
         },
         {
           "signal": "independence_contribution",
-          "value": 0.615
+          "value": 0.643
         },
         {
           "signal": "cross_source_mentions",
@@ -317,20 +317,20 @@
       "name": "thedaily@nytimes.com (the new york times)",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.192,
+      "score": 0.198,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
-      "score_change": 0.004,
+      "score_change": 0.006,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.844
+          "value": 0.847
         },
         {
           "signal": "content_volume",
-          "value": 0.35
+          "value": 0.4
         },
         {
           "signal": "cross_source_mentions",
@@ -353,8 +353,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -387,8 +387,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -421,8 +421,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -455,8 +455,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -489,8 +489,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -523,8 +523,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -557,8 +557,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -591,8 +591,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -625,8 +625,8 @@
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 2,
+      "trajectory": "stable",
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -662,7 +662,7 @@
       "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": true,
+      "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -696,7 +696,7 @@
       "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": true,
+      "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -730,7 +730,7 @@
       "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": true,
+      "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -764,7 +764,7 @@
       "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": true,
+      "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -796,7 +796,7 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -2,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -830,7 +830,7 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -2,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -861,16 +861,16 @@
       "name": "david carney",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.184,
+      "score": 0.185,
       "tier": "established",
-      "trajectory": "rising",
+      "trajectory": "stable",
       "rank_change": 0,
-      "score_change": -0.001,
+      "score_change": 0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.988
+          "value": 0.991
         },
         {
           "signal": "cross_source_mentions",
@@ -895,16 +895,16 @@
       "name": "astral",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.184,
+      "score": 0.185,
       "tier": "established",
-      "trajectory": "rising",
+      "trajectory": "stable",
       "rank_change": 0,
-      "score_change": -0.001,
+      "score_change": 0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.988
+          "value": 0.991
         },
         {
           "signal": "cross_source_mentions",
@@ -929,16 +929,16 @@
       "name": "litellm",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.184,
+      "score": 0.185,
       "tier": "established",
-      "trajectory": "rising",
+      "trajectory": "stable",
       "rank_change": 0,
-      "score_change": -0.001,
+      "score_change": 0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.988
+          "value": 0.991
         },
         {
           "signal": "cross_source_mentions",
@@ -963,16 +963,16 @@
       "name": "burke holland",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.184,
+      "score": 0.185,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": 1,
-      "score_change": -0.001,
+      "trajectory": "stable",
+      "rank_change": 0,
+      "score_change": 0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.988
+          "value": 0.991
         },
         {
           "signal": "cross_source_mentions",
@@ -1002,11 +1002,11 @@
       "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": true,
+      "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.844
+          "value": 0.847
         },
         {
           "signal": "content_volume",
@@ -1026,71 +1026,8 @@
       ]
     }
   ],
-  "new_entrants": [
-    {
-      "name": "marios kalomenopoulos",
-      "rank": 20,
-      "score": 0.186,
-      "reason": "Entered at #20 — social_pagerank strength"
-    },
-    {
-      "name": "carl-johan haster",
-      "rank": 21,
-      "score": 0.186,
-      "reason": "Entered at #21 — social_pagerank strength"
-    },
-    {
-      "name": "bing zhang",
-      "rank": 22,
-      "score": 0.186,
-      "reason": "Entered at #22 — social_pagerank strength"
-    },
-    {
-      "name": "herbert robbins",
-      "rank": 23,
-      "score": 0.186,
-      "reason": "Entered at #23 — social_pagerank strength"
-    },
-    {
-      "name": "the joe rogan experience",
-      "rank": 30,
-      "score": 0.183,
-      "reason": "Entered at #30 — social_pagerank strength"
-    }
-  ],
+  "new_entrants": [],
   "rising": [],
-  "fading": [
-    {
-      "name": "yinghao zhu",
-      "previous_rank": 11,
-      "score_change": -0.008
-    },
-    {
-      "name": "anthropic",
-      "previous_rank": 20,
-      "score_change": -0.008
-    },
-    {
-      "name": "gen. stanley mcchrystal",
-      "previous_rank": 24,
-      "score_change": -0.004
-    },
-    {
-      "name": "kenneth chang",
-      "previous_rank": 25,
-      "score_change": -0.004
-    },
-    {
-      "name": "david e. sanger",
-      "previous_rank": 29,
-      "score_change": -0.004
-    }
-  ],
-  "dropped_out": [
-    "yinghao_zhu",
-    "anthropic",
-    "gen_stanley_mcchrystal",
-    "kenneth_chang",
-    "david_e_sanger"
-  ]
+  "fading": [],
+  "dropped_out": []
 }

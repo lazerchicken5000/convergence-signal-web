@@ -1265,7 +1265,7 @@
       "vector_id": "tv_d414f924",
       "vector_text": "Data curation and post-training optimization are becoming more important competitive advantages than raw compute power.",
       "vector_type": "strategy",
-      "sci": 0.68,
+      "sci": 0.67,
       "sci_level": "emerging",
       "detection_count": 19,
       "unique_creators": [
@@ -1336,7 +1336,7 @@
       "vector_id": "tv_dfa46e08",
       "vector_text": "There is a growing trend towards optimizing memory usage and computational efficiency in AI models, particularly through techniques like quantization and mixed-precision.",
       "vector_type": "industry",
-      "sci": 0.67,
+      "sci": 0.66,
       "sci_level": "emerging",
       "detection_count": 12,
       "unique_creators": [
@@ -1557,10 +1557,61 @@
       "convergence_pattern_id": null
     },
     {
+      "vector_id": "tv_079cd426",
+      "vector_text": "Designing AI systems with embedded ethical frameworks.",
+      "vector_type": "design",
+      "sci": 0.3,
+      "sci_level": "weak",
+      "detection_count": 17,
+      "unique_creators": [
+        "matthew e. brophy",
+        "theo - t3․gg",
+        "daniel c. macrae",
+        "zoé roy-stang",
+        "dylan waldner",
+        "qijia he",
+        "hardfork@nytimes.com (the new york times)"
+      ],
+      "source_content_ids": [
+        "td_20ace4fe",
+        "td_261b6651",
+        "td_61dbf8ec",
+        "td_6f132470",
+        "td_4a4230ce",
+        "td_79dd3268",
+        "td_6de3090d",
+        "td_32ff8b52",
+        "td_d902a100",
+        "td_cfaa80c6",
+        "td_59df8ca9"
+      ],
+      "first_detected": "2026-03-26T03:20:03.143Z",
+      "last_seen": "2026-04-06T08:04:55.840Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.89,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "The importance of iterative and user-centric design in AI systems",
+        "Modularity enhances flexibility and adaptability in AI systems",
+        "AI systems should account for human cognitive limitations",
+        "Ethical considerations are integral to AI design",
+        "Ethical considerations are essential in AI design to address regulatory and societal concerns"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
       "vector_id": "tv_77604a3d",
       "vector_text": "Efficient KV cache compression and quantization techniques are critical for scaling Large Language Models (LLMs) while reducing computational costs.",
       "vector_type": "strategy",
-      "sci": 0.29,
+      "sci": 0.28,
       "sci_level": "weak",
       "detection_count": 9,
       "unique_creators": [
@@ -1728,49 +1779,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_079cd426",
-      "vector_text": "Designing AI systems with embedded ethical frameworks.",
-      "vector_type": "design",
-      "sci": 0.13,
-      "sci_level": "noise",
-      "detection_count": 8,
-      "unique_creators": [
-        "matthew e. brophy",
-        "theo - t3․gg",
-        "daniel c. macrae",
-        "zoé roy-stang",
-        "dylan waldner"
-      ],
-      "source_content_ids": [
-        "td_20ace4fe",
-        "td_261b6651",
-        "td_61dbf8ec",
-        "td_6f132470",
-        "td_4a4230ce",
-        "td_79dd3268"
-      ],
-      "first_detected": "2026-04-06T07:35:45.823Z",
-      "last_seen": "2026-04-06T08:04:55.840Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0.9,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "The importance of iterative and user-centric design in AI systems",
-        "Modularity enhances flexibility and adaptability in AI systems",
-        "AI systems should account for human cognitive limitations",
-        "Ethical considerations are integral to AI design"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_f0ad3d3b",
       "vector_text": "There is a growing demand for tools and methodologies that enhance the security of software development processes.",
       "vector_type": "industry",
@@ -1885,6 +1893,46 @@
       "convergence_pattern_id": null
     },
     {
+      "vector_id": "tv_2d9336c2",
+      "vector_text": "Designing AI systems with advanced capabilities for autonomous behavior analysis, prediction, and interaction in complex environments.",
+      "vector_type": "design",
+      "sci": 0.05,
+      "sci_level": "noise",
+      "detection_count": 7,
+      "unique_creators": [
+        " ",
+        "almir aljović",
+        "yinghao zhu",
+        "jianhua he",
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_2c9bd1f6",
+        "td_331024dc",
+        "td_cbf3b174",
+        "td_51324bf2",
+        "td_43d586b8"
+      ],
+      "first_detected": "2026-03-28T13:10:46.802Z",
+      "last_seen": "2026-03-28T13:25:44.045Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.83,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "AI systems need to be robust and adaptable in varied conditions",
+        "Advanced AI capabilities are needed for complex environment interaction and prediction"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
       "vector_id": "tv_c52623b6",
       "vector_text": "AI models can provide competitive advantage in social impact and development workflows when integrated with ethical principles and domain-specific training.",
       "vector_type": "strategy",
@@ -1952,43 +2000,6 @@
       "presuppositions": [
         "AI systems need robust safety measures to prevent misuse and ensure reliability.",
         "Knowledge distillation can improve the performance and efficiency of AI models."
-      ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_2d9336c2",
-      "vector_text": "Designing AI systems with advanced capabilities for autonomous behavior analysis, prediction, and interaction in complex environments.",
-      "vector_type": "design",
-      "sci": 0.03,
-      "sci_level": "noise",
-      "detection_count": 5,
-      "unique_creators": [
-        " ",
-        "almir aljović",
-        "yinghao zhu",
-        "jianhua he"
-      ],
-      "source_content_ids": [
-        "td_2c9bd1f6",
-        "td_331024dc",
-        "td_cbf3b174",
-        "td_51324bf2"
-      ],
-      "first_detected": "2026-03-28T13:10:46.802Z",
-      "last_seen": "2026-03-28T13:25:44.045Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0.85,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "AI systems need to be robust and adaptable in varied conditions"
       ],
       "convergence_pattern_id": null
     },
@@ -2070,6 +2081,78 @@
       "convergence_pattern_id": null
     },
     {
+      "vector_id": "tv_cb301d57",
+      "vector_text": "Designing efficient computational frameworks to enhance performance, scalability, and usability.",
+      "vector_type": "design",
+      "sci": 0.03,
+      "sci_level": "noise",
+      "detection_count": 11,
+      "unique_creators": [
+        "pengxuan yang",
+        "lex fridman podcast",
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_596b4ad1",
+        "td_54327ba7",
+        "td_45f7275f"
+      ],
+      "first_detected": "2026-03-26T02:47:38.979Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 1,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Efficiency and scalability are critical in computational frameworks.",
+        "Efficiency and scalability are key goals in software design."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_34a13555",
+      "vector_text": "AI models and tools face challenges in user experience and reliability, impacting sustained usage and trust.",
+      "vector_type": "industry",
+      "sci": 0.03,
+      "sci_level": "noise",
+      "detection_count": 5,
+      "unique_creators": [
+        "hardfork@nytimes.com (the new york times)",
+        "theo - t3․gg",
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_59df8ca9",
+        "td_45f7275f",
+        "td_ea12579e"
+      ],
+      "first_detected": "2026-03-26T03:20:28.381Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.92,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "AI technologies are increasingly integrated into various industries and daily life.",
+        "Improving user experience is crucial for the adoption of AI tools."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
       "vector_id": "tv_6771b4c9",
       "vector_text": "Open-source technologies are enabling more flexible and specialized solutions in various domains.",
       "vector_type": "strategy",
@@ -2138,6 +2221,42 @@
       "presuppositions": [
         "Smart contract vulnerabilities present significant security risks and opportunities for exploitation.",
         "Advanced machine learning techniques can solve complex problems in various industries."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_464ab60c",
+      "vector_text": "There is a growing need for frameworks to evaluate AI systems' alignment with human preferences.",
+      "vector_type": "industry",
+      "sci": 0.02,
+      "sci_level": "noise",
+      "detection_count": 3,
+      "unique_creators": [
+        "aditya mittal",
+        "dair-ai",
+        "satyadhar joshi"
+      ],
+      "source_content_ids": [
+        "td_3fc6d1b3",
+        "td_65ffe512",
+        "td_0f07f701"
+      ],
+      "first_detected": "2026-03-26T07:42:27.661Z",
+      "last_seen": "2026-03-28T13:02:22.468Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 1,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Current AI systems may not align well with human preferences in realistic applications",
+        "AI systems need to be aligned with human preferences for ethical and regulatory compliance."
       ],
       "convergence_pattern_id": null
     },
@@ -2556,72 +2675,6 @@
       "presuppositions": [
         "LLMs and VLMs can enhance scientific discovery",
         "Integration of multiple AI models is beneficial for complex tasks"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_14219c5c",
-      "vector_text": "Designing AI systems for security and robustness in supply chain management.",
-      "vector_type": "design",
-      "sci": 0.01,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "simon willison",
-        "almir aljović"
-      ],
-      "source_content_ids": [
-        "td_43d586b8",
-        "td_331024dc"
-      ],
-      "first_detected": "2026-03-28T13:12:34.470Z",
-      "last_seen": "2026-03-28T13:13:58.578Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0.88,
-      "convergence_type": "problem",
-      "presuppositions": [
-        "AI systems need to address security concerns in supply chain management"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_f4f379db",
-      "vector_text": "There is a growing emphasis on ethical and legal considerations in the development of AI tools.",
-      "vector_type": "industry",
-      "sci": 0.01,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "simon willison",
-        "jaeyong lee"
-      ],
-      "source_content_ids": [
-        "td_1120eac4",
-        "td_1984d24b"
-      ],
-      "first_detected": "2026-03-28T13:04:59.713Z",
-      "last_seen": "2026-03-28T13:06:55.806Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0.88,
-      "convergence_type": "problem",
-      "presuppositions": [
-        "Ethical and legal compliance is essential for AI development."
       ],
       "convergence_pattern_id": null
     },
@@ -3067,39 +3120,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_8612c2bd",
-      "vector_text": "AI agents are essential for enabling intelligent and adaptive behavior in autonomous systems, such as vehicles and software.",
-      "vector_type": "strategy",
-      "sci": 0.01,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "jianhua he",
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_51324bf2",
-        "td_19daa688"
-      ],
-      "first_detected": "2026-03-28T13:07:56.480Z",
-      "last_seen": "2026-03-28T13:17:21.413Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0.88,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "AI agents can significantly enhance system performance and adaptability"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_bbb2c596",
       "vector_text": "AI systems need robustness and resilience to handle stress and uncertainty.",
       "vector_type": "strategy",
@@ -3401,10 +3421,545 @@
       "convergence_pattern_id": null
     },
     {
+      "vector_id": "tv_4e638917",
+      "vector_text": "Performance improvements in AI applications are increasingly coming from system-level optimizations rather than just model improvements.",
+      "vector_type": "industry",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 4,
+      "unique_creators": [
+        "yoonho lee",
+        "bioinfo"
+      ],
+      "source_content_ids": [
+        "td_967904c9",
+        "td_a0439db7"
+      ],
+      "first_detected": "2026-03-31T09:15:42.742Z",
+      "last_seen": "2026-03-31T09:16:02.277Z",
+      "trajectory": [
+        {
+          "date": "2026-03-31",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 1,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "System-level optimizations are critical for AI performance",
+        "System-level optimizations are becoming more important for AI performance."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_978f3f87",
+      "vector_text": "Developing off-the-shelf protocols or models can reduce costs and improve accessibility, offering a promising but risky alternative to traditional methods.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 4,
+      "unique_creators": [
+        " ",
+        "andrej karpathy"
+      ],
+      "source_content_ids": [
+        "td_b325a2a0",
+        "td_ebacf0c9"
+      ],
+      "first_detected": "2026-03-26T03:28:06.099Z",
+      "last_seen": "2026-03-28T13:21:31.412Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.94,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Reducing customization costs and improving accessibility can make CAR-T therapies more widely available.",
+        "reducing costs and improving accessibility is a key goal in innovation"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_7c11bd6d",
+      "vector_text": "Designing AI systems for personalized learning and teaching support",
+      "vector_type": "design",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "wanli xing",
+        "xincheng shuai"
+      ],
+      "source_content_ids": [
+        "td_8a1ff3c8",
+        "td_0ea65744"
+      ],
+      "first_detected": "2026-03-27T22:19:21.378Z",
+      "last_seen": "2026-03-28T13:19:37.008Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 1,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Personalized learning and teaching support can be enhanced through AI-driven systems."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_c2c94fe9",
+      "vector_text": "Developer-centric innovation is key in the future of web development, with a focus on frameworks and methodologies.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 4,
+      "unique_creators": [
+        "js party: javascript, css, web development",
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_27ee5a1c",
+        "td_6e9e7b88",
+        "td_261b6651"
+      ],
+      "first_detected": "2026-04-01T22:07:01.769Z",
+      "last_seen": "2026-04-06T07:43:26.978Z",
+      "trajectory": [
+        {
+          "date": "2026-04-01",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 1,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "The future of web development is driven by developer needs and innovation in frameworks and methodologies.",
+        "Innovation driven by developers leads to better tools and practices in software development."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_e37d4a8b",
+      "vector_text": "Developers should prioritize security when integrating third-party libraries into their projects to prevent supply chain attacks.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "fireship",
+        "the changelog: software development, open source"
+      ],
+      "source_content_ids": [
+        "td_554a20ca",
+        "td_be2a3b90"
+      ],
+      "first_detected": "2026-04-01T22:17:45.524Z",
+      "last_seen": "2026-04-01T22:33:57.647Z",
+      "trajectory": [
+        {
+          "date": "2026-04-01",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 1,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Security is a critical concern in the integration of third-party libraries."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_24069901",
+      "vector_text": "AI models will produce high-quality code due to market incentives for economic efficiency.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "simon willison",
+        "tanbiralam"
+      ],
+      "source_content_ids": [
+        "td_ea12579e",
+        "td_3a606a18"
+      ],
+      "first_detected": "2026-04-01T22:41:03.075Z",
+      "last_seen": "2026-04-03T09:24:37.728Z",
+      "trajectory": [
+        {
+          "date": "2026-04-01",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Market incentives drive the development of high-quality AI models for code generation."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_1b2132a5",
+      "vector_text": "Open-source tools for verifying the validity of citations generated by LLMs will become essential.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 4,
+      "unique_creators": [
+        "delip rao",
+        "sean wu"
+      ],
+      "source_content_ids": [
+        "td_06d456c9",
+        "td_2c83f991"
+      ],
+      "first_detected": "2026-04-06T07:27:56.183Z",
+      "last_seen": "2026-04-06T07:46:44.350Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "LLMs generate citations that need to be verified for reliability and credibility",
+        "LLMs generate citations that need verification tools."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_51186cdd",
+      "vector_text": "LLMs need improvements to address factual incompleteness and precision issues.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "nazanin jafari",
+        "delip rao"
+      ],
+      "source_content_ids": [
+        "td_3b509aa6",
+        "td_6e3c89da"
+      ],
+      "first_detected": "2026-04-06T07:49:23.792Z",
+      "last_seen": "2026-04-06T07:59:27.297Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "LLMs have limitations in recall and factual accuracy"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_5338c8b3",
+      "vector_text": "There is a growing recognition of the limitations and challenges in AI safety, governance, and ethics.",
+      "vector_type": "industry",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "fazl barez",
+        "zoé roy-stang"
+      ],
+      "source_content_ids": [
+        "td_65e7e0fc",
+        "td_6f132470"
+      ],
+      "first_detected": "2026-04-06T07:56:48.792Z",
+      "last_seen": "2026-04-06T08:02:11.771Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "AI systems face significant challenges in ensuring safety, ethics, and governance"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_9ed14a2a",
+      "vector_text": "There is a growing demand for advanced AI techniques that can handle complex tasks with partial observability and strategic observation.",
+      "vector_type": "industry",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "maximiliano armesto",
+        "yunfei bai"
+      ],
+      "source_content_ids": [
+        "td_6a51f030",
+        "td_c35d19a3"
+      ],
+      "first_detected": "2026-04-06T07:58:03.929Z",
+      "last_seen": "2026-04-06T08:37:42.199Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "AI systems need to be more robust and adaptable in handling complex, real-world scenarios"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_9b6a0728",
+      "vector_text": "AI models should be adapted for task-specific needs rather than being general-purpose.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "theo - t3․gg",
+        "maximiliano armesto"
+      ],
+      "source_content_ids": [
+        "td_ae7214d0",
+        "td_6a51f030"
+      ],
+      "first_detected": "2026-04-06T07:58:03.929Z",
+      "last_seen": "2026-04-06T08:30:06.300Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 1,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "General-purpose AI models may not be optimal for specific tasks"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_8f9e8eb4",
+      "vector_text": "Designing AI systems that can adapt and improve iteratively based on context updates and feedback mechanisms.",
+      "vector_type": "design",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "gengwei zhang",
+        "nikita vassilyev"
+      ],
+      "source_content_ids": [
+        "td_c5310f18",
+        "td_d2854b33"
+      ],
+      "first_detected": "2026-04-06T08:38:51.761Z",
+      "last_seen": "2026-04-06T08:41:11.225Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "AI systems need to adapt and improve over time based on context updates and feedback mechanisms."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_f4f379db",
+      "vector_text": "There is a growing emphasis on ethical and legal considerations in the development of AI tools.",
+      "vector_type": "industry",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "simon willison",
+        "jaeyong lee"
+      ],
+      "source_content_ids": [
+        "td_1120eac4",
+        "td_1984d24b"
+      ],
+      "first_detected": "2026-03-28T13:04:59.713Z",
+      "last_seen": "2026-03-28T13:06:55.806Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Ethical and legal compliance is essential for AI development."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_8612c2bd",
+      "vector_text": "AI agents are essential for enabling intelligent and adaptive behavior in autonomous systems, such as vehicles and software.",
+      "vector_type": "strategy",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "jianhua he",
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_51324bf2",
+        "td_19daa688"
+      ],
+      "first_detected": "2026-03-28T13:07:56.480Z",
+      "last_seen": "2026-03-28T13:17:21.413Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "AI agents can significantly enhance system performance and adaptability"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_1f1d1a85",
+      "vector_text": "There is a growing interest in developing text-to-speech models that can generate natural speech from minimal reference audio.",
+      "vector_type": "industry",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 4,
+      "unique_creators": [
+        "alexander h. liu",
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_a9095fc0",
+        "td_ffbc3458",
+        "td_19daa688",
+        "td_cdda277b"
+      ],
+      "first_detected": "2026-03-27T22:34:51.766Z",
+      "last_seen": "2026-03-28T13:31:48.377Z",
+      "trajectory": [
+        {
+          "date": "2026-03-27",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Text-to-speech models are evolving to require less reference audio."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_34ab01d8",
+      "vector_text": "Designing autonomous vehicles with personalized frameworks",
+      "vector_type": "design",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "zehao wang",
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_79cc66a5",
+        "td_ffbc3458"
+      ],
+      "first_detected": "2026-03-27T22:31:16.399Z",
+      "last_seen": "2026-03-28T13:31:48.377Z",
+      "trajectory": [
+        {
+          "date": "2026-03-27",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Autonomous vehicles can benefit from personalized frameworks that adapt to individual user habits."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
       "vector_id": "tv_eed9836c",
       "vector_text": "Optimizing CUDA kernels for efficient memory access through quantization techniques.",
       "vector_type": "design",
-      "sci": 0.01,
+      "sci": 0,
       "sci_level": "noise",
       "detection_count": 2,
       "unique_creators": [
@@ -3438,7 +3993,7 @@
       "vector_id": "tv_13c60754",
       "vector_text": "Efficient KV cache management for large language models is becoming a critical area of focus to improve inference efficiency.",
       "vector_type": "industry",
-      "sci": 0.01,
+      "sci": 0,
       "sci_level": "noise",
       "detection_count": 2,
       "unique_creators": [
@@ -3471,7 +4026,7 @@
       "vector_id": "tv_2052b70f",
       "vector_text": "AI systems should integrate natural language instructions to enhance personalized decision-making in autonomous driving.",
       "vector_type": "strategy",
-      "sci": 0.01,
+      "sci": 0,
       "sci_level": "noise",
       "detection_count": 2,
       "unique_creators": [
@@ -3505,7 +4060,7 @@
       "vector_id": "tv_443df29a",
       "vector_text": "AI models for video generation should focus on improving feature alignment and interactivity, driven by advancements like ShotStream.",
       "vector_type": "strategy",
-      "sci": 0.01,
+      "sci": 0,
       "sci_level": "noise",
       "detection_count": 2,
       "unique_creators": [
@@ -3538,7 +4093,7 @@
       "vector_id": "tv_3a1257a2",
       "vector_text": "Advanced machine learning models can accurately assess and quantify individual skills.",
       "vector_type": "strategy",
-      "sci": 0.01,
+      "sci": 0,
       "sci_level": "noise",
       "detection_count": 2,
       "unique_creators": [
@@ -3867,39 +4422,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_464ab60c",
-      "vector_text": "There is a growing need for frameworks to evaluate AI systems' alignment with human preferences.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "aditya mittal",
-        "dair-ai"
-      ],
-      "source_content_ids": [
-        "td_3fc6d1b3",
-        "td_65ffe512"
-      ],
-      "first_detected": "2026-03-26T07:42:27.661Z",
-      "last_seen": "2026-03-26T09:46:05.177Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 1,
-      "convergence_type": "problem",
-      "presuppositions": [
-        "Current AI systems may not align well with human preferences in realistic applications"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_905d2d9c",
       "vector_text": "Designing AI models with enhanced syntactic understanding to improve reliability in language tasks.",
       "vector_type": "design",
@@ -3930,42 +4452,6 @@
       "convergence_type": "solution",
       "presuppositions": [
         "Enhanced syntactic understanding is crucial for improving reliability in language tasks"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_26661d09",
-      "vector_text": "Designing AI systems with robust ethical frameworks to address regulatory concerns.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 9,
-      "unique_creators": [
-        "qijia he",
-        "hardfork@nytimes.com (the new york times)"
-      ],
-      "source_content_ids": [
-        "td_6de3090d",
-        "td_32ff8b52",
-        "td_d902a100",
-        "td_cfaa80c6",
-        "td_59df8ca9"
-      ],
-      "first_detected": "2026-03-26T03:20:03.143Z",
-      "last_seen": "2026-03-26T07:44:08.680Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 1,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "AI systems need robust ethical frameworks to comply with regulations and societal expectations."
       ],
       "convergence_pattern_id": null
     },
@@ -4144,35 +4630,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_652b0850",
-      "vector_text": "Enterprise-grade hardware platforms (NVIDIA DGX) are becoming standard for validating AI optimization techniques before production deployment",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "bioinfo"
-      ],
-      "source_content_ids": [
-        "td_a0439db7"
-      ],
-      "first_detected": "2026-03-31T09:16:02.277Z",
-      "last_seen": "2026-03-31T09:16:02.277Z",
-      "trajectory": [
-        {
-          "date": "2026-03-31",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_a68fb083",
       "vector_text": "Infrastructure optimization around AI models will become automated rather than hand-engineered, shifting focus from manual system design to automated harness discovery",
       "vector_type": "strategy",
@@ -4315,37 +4772,6 @@
       "independence_score": 0,
       "convergence_type": null,
       "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_4e638917",
-      "vector_text": "Performance improvements in AI applications are increasingly coming from system-level optimizations rather than just model improvements.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 3,
-      "unique_creators": [
-        "yoonho lee"
-      ],
-      "source_content_ids": [
-        "td_967904c9"
-      ],
-      "first_detected": "2026-03-31T09:15:42.742Z",
-      "last_seen": "2026-03-31T09:15:42.742Z",
-      "trajectory": [
-        {
-          "date": "2026-03-31",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "System-level optimizations are critical for AI performance"
-      ],
       "convergence_pattern_id": null
     },
     {
@@ -4584,18 +5010,19 @@
     },
     {
       "vector_id": "tv_93ccc6e1",
-      "vector_text": "Designing biological systems that utilize supersaturation for rapid response mechanisms, balancing between quick action and longevity risk.",
+      "vector_text": "Designing systems to balance rapid response with longevity risk",
       "vector_type": "design",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 2,
       "unique_creators": [
         " "
       ],
       "source_content_ids": [
-        "td_b69e3921"
+        "td_b69e3921",
+        "td_b325a2a0"
       ],
-      "first_detected": "2026-03-28T13:22:53.053Z",
+      "first_detected": "2026-03-28T13:21:31.412Z",
       "last_seen": "2026-03-28T13:22:53.053Z",
       "trajectory": [
         {
@@ -4607,8 +5034,10 @@
       "status": "active",
       "graduated_reason": null,
       "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Balancing quick action and long-term stability is a critical design challenge in biological and medical systems."
+      ],
       "convergence_pattern_id": null
     },
     {
@@ -4626,95 +5055,6 @@
       ],
       "first_detected": "2026-03-28T13:22:53.053Z",
       "last_seen": "2026-03-28T13:22:53.053Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_978f3f87",
-      "vector_text": "Developing off-the-shelf CAR-T protocols can reduce customization costs and improve accessibility, offering a promising but risky alternative to traditional methods.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        " "
-      ],
-      "source_content_ids": [
-        "td_b325a2a0"
-      ],
-      "first_detected": "2026-03-28T13:21:31.412Z",
-      "last_seen": "2026-03-28T13:21:31.412Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "Reducing customization costs and improving accessibility can make CAR-T therapies more widely available."
-      ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_0b395f6e",
-      "vector_text": "Designing lentivirus vectors for efficient and safe in vivo production of CAR-T cells.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        " "
-      ],
-      "source_content_ids": [
-        "td_b325a2a0"
-      ],
-      "first_detected": "2026-03-28T13:21:31.412Z",
-      "last_seen": "2026-03-28T13:21:31.412Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_7c11bd6d",
-      "vector_text": "Designing an AI-powered teachable agent that supports secondary school students' learning-by-teaching practices of mathematics.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "wanli xing"
-      ],
-      "source_content_ids": [
-        "td_8a1ff3c8"
-      ],
-      "first_detected": "2026-03-28T13:19:37.008Z",
-      "last_seen": "2026-03-28T13:19:37.008Z",
       "trajectory": [
         {
           "date": "2026-03-28",
@@ -4991,48 +5331,21 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_a71f2eed",
-      "vector_text": "There is a growing need for AI agents to be transparent, interpretable, and secure in order to meet regulatory compliance and ethical standards.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "satyadhar joshi"
-      ],
-      "source_content_ids": [
-        "td_0f07f701"
-      ],
-      "first_detected": "2026-03-28T13:02:22.468Z",
-      "last_seen": "2026-03-28T13:02:22.468Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_349ad03c",
-      "vector_text": "Dual-cache memory mechanism for preserving visual coherence in multi-shot video generation.",
+      "vector_text": "Designing AI-driven systems for autonomous operation and decision-making",
       "vector_type": "design",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 3,
       "unique_creators": [
-        "yawen luo"
+        "yawen luo",
+        "lei wang"
       ],
       "source_content_ids": [
-        "td_e7b3ee8f"
+        "td_e7b3ee8f",
+        "td_d4bcb1e6"
       ],
-      "first_detected": "2026-03-27T22:47:21.494Z",
+      "first_detected": "2026-03-27T22:41:09.134Z",
       "last_seen": "2026-03-27T22:47:21.494Z",
       "trajectory": [
         {
@@ -5043,38 +5356,11 @@
       ],
       "status": "active",
       "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_6cf77df6",
-      "vector_text": "Two-stage distillation strategy to mitigate error accumulation in autoregressive generation.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "yawen luo"
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Autonomous systems require robust mechanisms to handle complex tasks and maintain performance over time."
       ],
-      "source_content_ids": [
-        "td_e7b3ee8f"
-      ],
-      "first_detected": "2026-03-27T22:47:21.494Z",
-      "last_seen": "2026-03-27T22:47:21.494Z",
-      "trajectory": [
-        {
-          "date": "2026-03-27",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
       "convergence_pattern_id": null
     },
     {
@@ -5194,35 +5480,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_f75247df",
-      "vector_text": "Use a reference alignment loss to pull features of the same subject closer and push apart those of different subjects during training.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "lei wang"
-      ],
-      "source_content_ids": [
-        "td_d4bcb1e6"
-      ],
-      "first_detected": "2026-03-27T22:41:09.134Z",
-      "last_seen": "2026-03-27T22:41:09.134Z",
-      "trajectory": [
-        {
-          "date": "2026-03-27",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_fe337d31",
       "vector_text": "There is an increasing focus on improving semantic consistency and identity preservation in AI-generated video content.",
       "vector_type": "industry",
@@ -5257,14 +5514,15 @@
       "vector_type": "strategy",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 2,
+      "detection_count": 3,
       "unique_creators": [
         "hardfork@nytimes.com (the new york times)"
       ],
       "source_content_ids": [
-        "td_c6da80fa"
+        "td_c6da80fa",
+        "td_59df8ca9"
       ],
-      "first_detected": "2026-03-27T22:39:57.219Z",
+      "first_detected": "2026-03-26T03:20:28.381Z",
       "last_seen": "2026-03-27T22:39:57.219Z",
       "trajectory": [
         {
@@ -5279,7 +5537,8 @@
       "convergence_type": "problem",
       "presuppositions": [
         "AI is causing job displacement.",
-        "Proactive policy measures are needed to address this issue."
+        "Proactive policy measures are needed to address this issue.",
+        "AI has significant societal impacts that need policy intervention"
       ],
       "convergence_pattern_id": null
     },
@@ -5429,35 +5688,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_1f1d1a85",
-      "vector_text": "There is a growing interest in developing text-to-speech models that can generate natural speech from minimal reference audio.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "alexander h. liu"
-      ],
-      "source_content_ids": [
-        "td_a9095fc0"
-      ],
-      "first_detected": "2026-03-27T22:34:51.766Z",
-      "last_seen": "2026-03-27T22:34:51.766Z",
-      "trajectory": [
-        {
-          "date": "2026-03-27",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_f7335f97",
       "vector_text": "AI inference workloads will increasingly leverage compute over memory to optimize performance.",
       "vector_type": "strategy",
@@ -5472,35 +5702,6 @@
       ],
       "first_detected": "2026-03-27T22:33:29.852Z",
       "last_seen": "2026-03-27T22:33:29.852Z",
-      "trajectory": [
-        {
-          "date": "2026-03-27",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_34ab01d8",
-      "vector_text": "Designing AI-driven autonomous vehicles with a personalized VLA framework that adapts to individual driver habits and short-term instructions.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "zehao wang"
-      ],
-      "source_content_ids": [
-        "td_79cc66a5"
-      ],
-      "first_detected": "2026-03-27T22:31:16.399Z",
-      "last_seen": "2026-03-27T22:31:16.399Z",
       "trajectory": [
         {
           "date": "2026-03-27",
@@ -5721,35 +5922,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_8b88969a",
-      "vector_text": "Develop comprehensive datasets annotated with operation traces to train models on expert-level design procedures.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "xincheng shuai"
-      ],
-      "source_content_ids": [
-        "td_0ea65744"
-      ],
-      "first_detected": "2026-03-27T22:19:21.378Z",
-      "last_seen": "2026-03-27T22:19:21.378Z",
-      "trajectory": [
-        {
-          "date": "2026-03-27",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_77174dd9",
       "vector_text": "AI agents should be designed to solve coding problems efficiently and maintainably through well-structured libraries and interfaces.",
       "vector_type": "strategy",
@@ -5776,69 +5948,6 @@
       "independence_score": 0,
       "convergence_type": null,
       "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_899ed4db",
-      "vector_text": "Designing technical architecture with a focus on maintainable and adaptive solutions using efficient interfaces and encapsulated problem-solving libraries.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_ffbc3458"
-      ],
-      "first_detected": "2026-03-28T13:31:48.377Z",
-      "last_seen": "2026-03-28T13:31:48.377Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_3d5940a1",
-      "vector_text": "AI tools are increasingly being used to optimize and rewrite software, leading to cost savings.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 3,
-      "unique_creators": [
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_ffbc3458",
-        "td_19daa688",
-        "td_cdda277b"
-      ],
-      "first_detected": "2026-03-28T13:07:56.480Z",
-      "last_seen": "2026-03-28T13:31:48.377Z",
-      "trajectory": [
-        {
-          "date": "2026-03-28",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "AI can improve software development efficiency and reduce costs",
-        "AI can improve software development efficiency and reduce costs"
-      ],
       "convergence_pattern_id": null
     },
     {
@@ -5992,7 +6101,7 @@
       "vector_type": "strategy",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 5,
+      "detection_count": 6,
       "unique_creators": [
         "elliot murphy"
       ],
@@ -6000,7 +6109,8 @@
         "td_efb77f7a",
         "td_d2eeed85",
         "td_d035f9a0",
-        "td_c876861c"
+        "td_c876861c",
+        "td_d62f6661"
       ],
       "first_detected": "2026-03-27T02:37:55.473Z",
       "last_seen": "2026-03-27T02:57:06.794Z",
@@ -6014,10 +6124,11 @@
       "status": "active",
       "graduated_reason": null,
       "independence_score": 0,
-      "convergence_type": "problem",
+      "convergence_type": "solution",
       "presuppositions": [
         "Understanding natural language syntax is crucial for improving AI systems in NLP",
-        "Interdisciplinary approaches can lead to breakthroughs in AI design"
+        "Interdisciplinary approaches can lead to breakthroughs in AI design",
+        "interdisciplinary approaches can lead to breakthroughs in AI and related fields"
       ],
       "convergence_pattern_id": null
     },
@@ -6036,35 +6147,6 @@
       ],
       "first_detected": "2026-03-27T02:57:06.794Z",
       "last_seen": "2026-03-27T02:57:06.794Z",
-      "trajectory": [
-        {
-          "date": "2026-03-27",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_1a097614",
-      "vector_text": "Studying brain rhythms can provide a more tractable route to understanding linguistic deficits in autism spectrum disorders (ASD) compared to genetics.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "elliot murphy"
-      ],
-      "source_content_ids": [
-        "td_d62f6661"
-      ],
-      "first_detected": "2026-03-27T02:44:58.607Z",
-      "last_seen": "2026-03-27T02:44:58.607Z",
       "trajectory": [
         {
           "date": "2026-03-27",
@@ -6666,37 +6748,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_cb301d57",
-      "vector_text": "Designing efficient data processing and computational frameworks to enhance performance and scalability.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 4,
-      "unique_creators": [
-        "pengxuan yang"
-      ],
-      "source_content_ids": [
-        "td_596b4ad1"
-      ],
-      "first_detected": "2026-03-26T09:47:50.015Z",
-      "last_seen": "2026-03-26T09:47:50.015Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "Efficiency and scalability are critical in computational frameworks."
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_d29af0f7",
       "vector_text": "Developing frameworks like TRACE to automatically extract rubric items from LLM evaluations, revealing systematic biases.",
       "vector_type": "design",
@@ -7074,37 +7125,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_18716de4",
-      "vector_text": "AI companies will face scaling challenges due to the increasing complexity and unpredictability of reward model design.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "andrej karpathy"
-      ],
-      "source_content_ids": [
-        "td_ebacf0c9"
-      ],
-      "first_detected": "2026-03-26T03:28:06.099Z",
-      "last_seen": "2026-03-26T03:28:06.099Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "problem",
-      "presuppositions": [
-        "Reward models in RLHF become increasingly difficult to design and scale as systems grow more complex"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_33a6967e",
       "vector_text": "Human labeling has evolved from pure manual work to LLM-assisted editing workflows",
       "vector_type": "industry",
@@ -7192,125 +7212,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_7023ea9f",
-      "vector_text": "AI user fatigue will force companies to redesign AI features for sustainable workplace integration rather than maximum capability",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "hardfork@nytimes.com (the new york times)"
-      ],
-      "source_content_ids": [
-        "td_59df8ca9"
-      ],
-      "first_detected": "2026-03-26T03:20:28.381Z",
-      "last_seen": "2026-03-26T03:20:28.381Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_34a13555",
-      "vector_text": "Workplace AI adoption is hitting user experience barriers that threaten sustained usage",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "hardfork@nytimes.com (the new york times)"
-      ],
-      "source_content_ids": [
-        "td_59df8ca9"
-      ],
-      "first_detected": "2026-03-26T03:20:28.381Z",
-      "last_seen": "2026-03-26T03:20:28.381Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_57c972f7",
-      "vector_text": "AI agents will replace 80% of traditional applications within the next decade",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "lex fridman podcast"
-      ],
-      "source_content_ids": [
-        "td_54327ba7"
-      ],
-      "first_detected": "2026-03-26T02:47:38.979Z",
-      "last_seen": "2026-03-26T02:47:38.979Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_26c84ba9",
-      "vector_text": "Designing autonomous agents with self-modification and enterprise-level capabilities",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 3,
-      "unique_creators": [
-        "lex fridman podcast"
-      ],
-      "source_content_ids": [
-        "td_54327ba7"
-      ],
-      "first_detected": "2026-03-26T02:47:38.979Z",
-      "last_seen": "2026-03-26T02:47:38.979Z",
-      "trajectory": [
-        {
-          "date": "2026-03-26",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "Autonomous agents can be self-modifying",
-        "Enterprise-level solutions are necessary for broad adoption"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_3ad25cfa",
       "vector_text": "Optimizing the metabolic state of target cells through amino acid supplementation can significantly enhance LNP delivery efficiency.",
       "vector_type": "strategy",
@@ -7395,38 +7296,6 @@
       "independence_score": 0,
       "convergence_type": null,
       "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_c2c94fe9",
-      "vector_text": "Developer-centric innovation is key in the future of web development, with a focus on frameworks and methodologies.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 3,
-      "unique_creators": [
-        "js party: javascript, css, web development"
-      ],
-      "source_content_ids": [
-        "td_27ee5a1c",
-        "td_6e9e7b88"
-      ],
-      "first_detected": "2026-04-01T22:07:01.769Z",
-      "last_seen": "2026-04-01T22:18:51.326Z",
-      "trajectory": [
-        {
-          "date": "2026-04-01",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "The future of web development is driven by developer needs and innovation in frameworks and methodologies."
-      ],
       "convergence_pattern_id": null
     },
     {
@@ -7581,35 +7450,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_e37d4a8b",
-      "vector_text": "Developers should prioritize security when integrating third-party libraries into their projects to prevent supply chain attacks.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "fireship"
-      ],
-      "source_content_ids": [
-        "td_554a20ca"
-      ],
-      "first_detected": "2026-04-01T22:17:45.524Z",
-      "last_seen": "2026-04-01T22:17:45.524Z",
-      "trajectory": [
-        {
-          "date": "2026-04-01",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_8d43f9f9",
       "vector_text": "Designing software supply chains with built-in security measures to detect and prevent malicious code injection.",
       "vector_type": "design",
@@ -7644,15 +7484,16 @@
       "vector_type": "strategy",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 2,
       "unique_creators": [
         "theo - t3․gg"
       ],
       "source_content_ids": [
-        "td_901bda37"
+        "td_901bda37",
+        "td_45f7275f"
       ],
       "first_detected": "2026-04-01T22:28:13.313Z",
-      "last_seen": "2026-04-01T22:28:13.313Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
       "trajectory": [
         {
           "date": "2026-04-01",
@@ -7663,8 +7504,10 @@
       "status": "active",
       "graduated_reason": null,
       "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Benchmarking is essential for understanding the capabilities of different AI systems."
+      ],
       "convergence_pattern_id": null
     },
     {
@@ -7963,35 +7806,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_e572560a",
-      "vector_text": "Trust in supply chains is becoming a critical factor for developers choosing tools.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "the changelog: software development, open source"
-      ],
-      "source_content_ids": [
-        "td_be2a3b90"
-      ],
-      "first_detected": "2026-04-01T22:33:57.647Z",
-      "last_seen": "2026-04-01T22:33:57.647Z",
-      "trajectory": [
-        {
-          "date": "2026-04-01",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_227d6d06",
       "vector_text": "CEOs should genuinely love the products they lead, as it reflects a deeper connection and commitment.",
       "vector_type": "strategy",
@@ -8108,35 +7922,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_24069901",
-      "vector_text": "AI models will produce high-quality code due to market incentives for economic efficiency.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_ea12579e"
-      ],
-      "first_detected": "2026-04-01T22:41:03.075Z",
-      "last_seen": "2026-04-01T22:41:03.075Z",
-      "trajectory": [
-        {
-          "date": "2026-04-01",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_2840fbce",
       "vector_text": "Designing AI systems to generate and maintain good quality code based on market demands.",
       "vector_type": "design",
@@ -8154,64 +7939,6 @@
       "trajectory": [
         {
           "date": "2026-04-01",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_67662126",
-      "vector_text": "AI models are increasingly expected to produce high-quality, maintainable code due to economic incentives.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_ea12579e"
-      ],
-      "first_detected": "2026-04-01T22:41:03.075Z",
-      "last_seen": "2026-04-01T22:41:03.075Z",
-      "trajectory": [
-        {
-          "date": "2026-04-01",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_53998c8c",
-      "vector_text": "AI-native coding assistants are emerging as a new category of development tool, designed to enhance human productivity through natural language interaction.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "tanbiralam"
-      ],
-      "source_content_ids": [
-        "td_3a606a18"
-      ],
-      "first_detected": "2026-04-03T09:24:37.728Z",
-      "last_seen": "2026-04-03T09:24:37.728Z",
-      "trajectory": [
-        {
-          "date": "2026-04-03",
           "sci": 0,
           "mentions": 1
         }
@@ -8340,95 +8067,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_ce985f9a",
-      "vector_text": "Prioritize User Advocacy and Communication",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "theo - t3․gg"
-      ],
-      "source_content_ids": [
-        "td_45f7275f"
-      ],
-      "first_detected": "2026-04-03T09:30:54.356Z",
-      "last_seen": "2026-04-03T09:30:54.356Z",
-      "trajectory": [
-        {
-          "date": "2026-04-03",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_b0879e7d",
-      "vector_text": "Dynamic GPU Allocation Based on Usage Patterns",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "theo - t3․gg"
-      ],
-      "source_content_ids": [
-        "td_45f7275f"
-      ],
-      "first_detected": "2026-04-03T09:30:54.356Z",
-      "last_seen": "2026-04-03T09:30:54.356Z",
-      "trajectory": [
-        {
-          "date": "2026-04-03",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_1190a93a",
-      "vector_text": "User-centric Design in Product Development",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 3,
-      "unique_creators": [
-        "theo - t3․gg"
-      ],
-      "source_content_ids": [
-        "td_45f7275f"
-      ],
-      "first_detected": "2026-04-03T09:30:54.356Z",
-      "last_seen": "2026-04-03T09:30:54.356Z",
-      "trajectory": [
-        {
-          "date": "2026-04-03",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "Focus on user needs and feedback in product design"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_74d5734f",
       "vector_text": "Transparent Interface for Users to Track Usage and Pricing",
       "vector_type": "design",
@@ -8460,66 +8098,6 @@
     {
       "vector_id": "tv_4d7f8770",
       "vector_text": "GPU Shortage and Long Lead Times",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "theo - t3․gg"
-      ],
-      "source_content_ids": [
-        "td_45f7275f"
-      ],
-      "first_detected": "2026-04-03T09:30:54.356Z",
-      "last_seen": "2026-04-03T09:30:54.356Z",
-      "trajectory": [
-        {
-          "date": "2026-04-03",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_efb4e5a4",
-      "vector_text": "Compute efficiency and lower compute requirements are becoming critical for AI models.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "theo - t3․gg"
-      ],
-      "source_content_ids": [
-        "td_45f7275f"
-      ],
-      "first_detected": "2026-04-03T09:30:54.356Z",
-      "last_seen": "2026-04-03T09:30:54.356Z",
-      "trajectory": [
-        {
-          "date": "2026-04-03",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "problem",
-      "presuppositions": [
-        "Efficient use of compute resources is crucial for AI model development."
-      ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_f15fc750",
-      "vector_text": "Increasing Importance of Transparent Communication in Tech Startups",
       "vector_type": "industry",
       "sci": 0,
       "sci_level": "noise",
@@ -8662,37 +8240,6 @@
       "independence_score": 0,
       "convergence_type": null,
       "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_1b2132a5",
-      "vector_text": "Open-source tools for verifying the validity of citations generated by LLMs will become essential.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "delip rao"
-      ],
-      "source_content_ids": [
-        "td_06d456c9"
-      ],
-      "first_detected": "2026-04-06T07:27:56.183Z",
-      "last_seen": "2026-04-06T07:27:56.183Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "LLMs generate citations that need to be verified for reliability and credibility"
-      ],
       "convergence_pattern_id": null
     },
     {
@@ -9047,35 +8594,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_abdec6a5",
-      "vector_text": "Developer Mindset Shift: Adopting a mindset of actively modifying and improving the software tools one relies upon.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "theo - t3․gg"
-      ],
-      "source_content_ids": [
-        "td_261b6651"
-      ],
-      "first_detected": "2026-04-06T07:43:26.978Z",
-      "last_seen": "2026-04-06T07:43:26.978Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_26b803a5",
       "vector_text": "Open-sourcing strategic projects can provide a competitive advantage by fostering community contributions and maintaining transparency.",
       "vector_type": "strategy",
@@ -9309,11 +8827,11 @@
     },
     {
       "vector_id": "tv_e3ade85a",
-      "vector_text": "Modular fusion framework for integrating contrastive and self-supervised visual encoders.",
+      "vector_text": "Designing AI systems to improve decision-making reliability through abstention or calibration techniques.",
       "vector_type": "design",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 3,
       "unique_creators": [
         "ankan deria"
       ],
@@ -9322,93 +8840,6 @@
       ],
       "first_detected": "2026-04-06T07:45:01.678Z",
       "last_seen": "2026-04-06T07:45:01.678Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_25327201",
-      "vector_text": "Entropy-guided multi-layer aggregation with orthogonality-constrained projections to reduce redundancy.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "ankan deria"
-      ],
-      "source_content_ids": [
-        "td_291c3f79"
-      ],
-      "first_detected": "2026-04-06T07:45:01.678Z",
-      "last_seen": "2026-04-06T07:45:01.678Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_024cd761",
-      "vector_text": "RoPE-enhanced cross-attention for aligning heterogeneous token grids and producing compact fused visual tokens.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "ankan deria"
-      ],
-      "source_content_ids": [
-        "td_291c3f79"
-      ],
-      "first_detected": "2026-04-06T07:45:01.678Z",
-      "last_seen": "2026-04-06T07:45:01.678Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_7bc62779",
-      "vector_text": "LLMs should adopt mechanisms to improve reliability, including abstention from low-confidence decisions and post-hoc calibration.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "sean wu"
-      ],
-      "source_content_ids": [
-        "td_2c83f991"
-      ],
-      "first_detected": "2026-04-06T07:46:44.350Z",
-      "last_seen": "2026-04-06T07:46:44.350Z",
       "trajectory": [
         {
           "date": "2026-04-06",
@@ -9421,7 +8852,7 @@
       "independence_score": 0,
       "convergence_type": "solution",
       "presuppositions": [
-        "LLMs need to improve reliability through various mechanisms."
+        "AI systems need robust mechanisms to handle uncertainty and low confidence in decisions"
       ],
       "convergence_pattern_id": null
     },
@@ -9602,35 +9033,6 @@
     {
       "vector_id": "tv_62364be2",
       "vector_text": "Current evaluation methods for factuality of LLM-generated text focus too narrowly on precision, overlooking recall.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "nazanin jafari"
-      ],
-      "source_content_ids": [
-        "td_3b509aa6"
-      ],
-      "first_detected": "2026-04-06T07:49:23.792Z",
-      "last_seen": "2026-04-06T07:49:23.792Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_51186cdd",
-      "vector_text": "LLMs perform better on precision than on recall, indicating a need to address factual incompleteness.",
       "vector_type": "strategy",
       "sci": 0,
       "sci_level": "noise",
@@ -10009,64 +9411,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_5338c8b3",
-      "vector_text": "There is a growing recognition of the limitations in using machine unlearning as a sole solution for AI safety.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "fazl barez"
-      ],
-      "source_content_ids": [
-        "td_65e7e0fc"
-      ],
-      "first_detected": "2026-04-06T07:56:48.792Z",
-      "last_seen": "2026-04-06T07:56:48.792Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_5ac6f07b",
-      "vector_text": "Agentic AI systems should integrate robust control, structured memory, and verifiable action to handle partial observability and strategic observation.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "maximiliano armesto"
-      ],
-      "source_content_ids": [
-        "td_6a51f030"
-      ],
-      "first_detected": "2026-04-06T07:58:03.929Z",
-      "last_seen": "2026-04-06T07:58:03.929Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_59e5323d",
       "vector_text": "Design agentic AI systems with coupled control, structured episodic memory, observer-belief state, option-level actions, and delayed verifier signals.",
       "vector_type": "design",
@@ -10081,64 +9425,6 @@
       ],
       "first_detected": "2026-04-06T07:58:03.929Z",
       "last_seen": "2026-04-06T07:58:03.929Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_9ed14a2a",
-      "vector_text": "There is a growing demand for agentic AI systems that can handle partial observability, delay, and strategic observation.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "maximiliano armesto"
-      ],
-      "source_content_ids": [
-        "td_6a51f030"
-      ],
-      "first_detected": "2026-04-06T07:58:03.929Z",
-      "last_seen": "2026-04-06T07:58:03.929Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_4eec9577",
-      "vector_text": "LLMs integrated with web search still produce inaccurate BibTeX citations, indicating a need for deterministic citation retrieval tools.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "delip rao"
-      ],
-      "source_content_ids": [
-        "td_6e3c89da"
-      ],
-      "first_detected": "2026-04-06T07:59:27.297Z",
-      "last_seen": "2026-04-06T07:59:27.297Z",
       "trajectory": [
         {
           "date": "2026-04-06",
@@ -10357,35 +9643,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_19f87222",
-      "vector_text": "There is a growing awareness of the impact of human biases on AI governance and ethics.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "zoé roy-stang"
-      ],
-      "source_content_ids": [
-        "td_6f132470"
-      ],
-      "first_detected": "2026-04-06T08:02:11.771Z",
-      "last_seen": "2026-04-06T08:02:11.771Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_38f51592",
       "vector_text": "Efficient task-specific adaptation of AI models through hypernetworks can outperform traditional multi-task learning approaches.",
       "vector_type": "strategy",
@@ -10416,11 +9673,11 @@
     },
     {
       "vector_id": "tv_7d6c81ba",
-      "vector_text": "Using low-rank adaptation (LoRA) for efficient task-specific weight updates in AI models.",
+      "vector_text": "Designing AI systems for efficient task-specific weight updates using low-rank adaptation.",
       "vector_type": "design",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 2,
       "unique_creators": [
         "fengbei liu"
       ],
@@ -10439,37 +9696,10 @@
       "status": "active",
       "graduated_reason": null,
       "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_5aef27c6",
-      "vector_text": "Dynamic adaptation of a Vision Transformer backbone via hypernetworks for diverse tasks.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "fengbei liu"
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Efficient weight updates are crucial for task-specific AI models"
       ],
-      "source_content_ids": [
-        "td_75c9ae45"
-      ],
-      "first_detected": "2026-04-06T08:03:22.251Z",
-      "last_seen": "2026-04-06T08:03:22.251Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
       "convergence_pattern_id": null
     },
     {
@@ -10706,11 +9936,11 @@
     },
     {
       "vector_id": "tv_200da7fe",
-      "vector_text": "Designing code review agents to augment human reviewers, focusing on providing high-quality feedback and actionable insights.",
+      "vector_text": "Designing code review agents to augment human reviewers with high-quality feedback.",
       "vector_type": "design",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 2,
       "unique_creators": [
         "kowshik chowdhury"
       ],
@@ -10729,46 +9959,19 @@
       "status": "active",
       "graduated_reason": null,
       "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_59feca84",
-      "vector_text": "Designing systems to integrate human oversight and feedback into automated code review processes.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "kowshik chowdhury"
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Code review processes can be enhanced with AI-driven feedback and oversight"
       ],
-      "source_content_ids": [
-        "td_856bfa42"
-      ],
-      "first_detected": "2026-04-06T08:10:31.535Z",
-      "last_seen": "2026-04-06T08:10:31.535Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
       "convergence_pattern_id": null
     },
     {
       "vector_id": "tv_275d3ecf",
-      "vector_text": "There is a growing trend towards developing autonomous code review agents to manage large volumes of pull requests.",
+      "vector_text": "There is a growing trend towards developing autonomous tools for code review and management.",
       "vector_type": "industry",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 2,
       "unique_creators": [
         "kowshik chowdhury"
       ],
@@ -10787,37 +9990,10 @@
       "status": "active",
       "graduated_reason": null,
       "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_a34bac6e",
-      "vector_text": "The effectiveness of CRA reviews is being questioned due to their low signal-to-noise ratio, leading to higher abandonment rates.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "kowshik chowdhury"
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Autonomous code review agents can improve efficiency and quality in software development"
       ],
-      "source_content_ids": [
-        "td_856bfa42"
-      ],
-      "first_detected": "2026-04-06T08:10:31.535Z",
-      "last_seen": "2026-04-06T08:10:31.535Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
       "convergence_pattern_id": null
     },
     {
@@ -11053,35 +10229,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_9b6a0728",
-      "vector_text": "Tailor models like Claude towards specific tasks (e.g., software engineering) rather than general troubleshooting.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "theo - t3․gg"
-      ],
-      "source_content_ids": [
-        "td_ae7214d0"
-      ],
-      "first_detected": "2026-04-06T08:30:06.300Z",
-      "last_seen": "2026-04-06T08:30:06.300Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_c76811ec",
       "vector_text": "Clarify the terms of use for API subscriptions to avoid confusion among developers.",
       "vector_type": "strategy",
@@ -11144,11 +10291,11 @@
     },
     {
       "vector_id": "tv_5df8562c",
-      "vector_text": "Increasing demand for AI tools that are transparent about their capabilities and limitations.",
+      "vector_text": "There is a growing demand for AI tools that are transparent about their capabilities and limitations.",
       "vector_type": "industry",
       "sci": 0,
       "sci_level": "noise",
-      "detection_count": 1,
+      "detection_count": 2,
       "unique_creators": [
         "theo - t3․gg"
       ],
@@ -11167,37 +10314,10 @@
       "status": "active",
       "graduated_reason": null,
       "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_328cb842",
-      "vector_text": "Model Behavior Changes: Changes in model behavior, possibly due to updates or policy changes, can significantly impact user experience and trust.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "theo - t3․gg"
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Users need clear information about AI capabilities and limitations to trust the technology"
       ],
-      "source_content_ids": [
-        "td_ae7214d0"
-      ],
-      "first_detected": "2026-04-06T08:30:06.300Z",
-      "last_seen": "2026-04-06T08:30:06.300Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
       "convergence_pattern_id": null
     },
     {
@@ -11520,67 +10640,9 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_6c0d59c1",
-      "vector_text": "There is a growing trend towards using reinforcement learning to enhance the visual reasoning capabilities of AI models in complex chart question answering tasks.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "yunfei bai"
-      ],
-      "source_content_ids": [
-        "td_c35d19a3"
-      ],
-      "first_detected": "2026-04-06T08:37:42.199Z",
-      "last_seen": "2026-04-06T08:37:42.199Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_934782d5",
       "vector_text": "Reinforcement learning post-training can enhance multimodal reasoning capabilities even when training conditions induce model hallucinations.",
       "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "gengwei zhang"
-      ],
-      "source_content_ids": [
-        "td_c5310f18"
-      ],
-      "first_detected": "2026-04-06T08:38:51.761Z",
-      "last_seen": "2026-04-06T08:38:51.761Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_8f9e8eb4",
-      "vector_text": "Designing reinforcement learning algorithms that can effectively train models under conditions inducing model hallucinations.",
-      "vector_type": "design",
       "sci": 0,
       "sci_level": "noise",
       "detection_count": 1,
@@ -11726,35 +10788,6 @@
       "vector_id": "tv_36c13724",
       "vector_text": "Treat context updates in AI as an optimization problem with transferable principles.",
       "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "nikita vassilyev"
-      ],
-      "source_content_ids": [
-        "td_d2854b33"
-      ],
-      "first_detected": "2026-04-06T08:41:11.225Z",
-      "last_seen": "2026-04-06T08:41:11.225Z",
-      "trajectory": [
-        {
-          "date": "2026-04-06",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_808db53a",
-      "vector_text": "Reflective Context Learning (RCL) framework for iterative context updates and behavior improvement.",
-      "vector_type": "design",
       "sci": 0,
       "sci_level": "noise",
       "detection_count": 1,
@@ -12172,6 +11205,64 @@
       ],
       "first_detected": "2026-04-06T08:47:03.465Z",
       "last_seen": "2026-04-06T08:47:03.465Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_b112a1a5",
+      "vector_text": "Geopolitical tensions between the US and Europe are increasing, impacting global business operations.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "thedaily@nytimes.com (the new york times)"
+      ],
+      "source_content_ids": [
+        "td_ac0c2dcd"
+      ],
+      "first_detected": "2026-04-06T11:07:47.761Z",
+      "last_seen": "2026-04-06T11:07:47.761Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_efd60053",
+      "vector_text": "European countries are distancing themselves from US-led initiatives in Iran.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "thedaily@nytimes.com (the new york times)"
+      ],
+      "source_content_ids": [
+        "td_ac0c2dcd"
+      ],
+      "first_detected": "2026-04-06T11:07:47.761Z",
+      "last_seen": "2026-04-06T11:07:47.761Z",
       "trajectory": [
         {
           "date": "2026-04-06",
@@ -25643,9 +24734,1083 @@
       "convergence_type": null,
       "presuppositions": [],
       "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_14219c5c",
+      "vector_text": "Designing AI systems for security and robustness in supply chain management.",
+      "vector_type": "design",
+      "sci": 0.01,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "simon willison",
+        "almir aljović"
+      ],
+      "source_content_ids": [
+        "td_43d586b8",
+        "td_331024dc"
+      ],
+      "first_detected": "2026-03-28T13:12:34.470Z",
+      "last_seen": "2026-03-28T13:13:58.578Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_2d9336c2",
+      "independence_score": 0.88,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "AI systems need to address security concerns in supply chain management"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_26661d09",
+      "vector_text": "Designing AI systems with robust ethical frameworks to address regulatory concerns.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 9,
+      "unique_creators": [
+        "qijia he",
+        "hardfork@nytimes.com (the new york times)"
+      ],
+      "source_content_ids": [
+        "td_6de3090d",
+        "td_32ff8b52",
+        "td_d902a100",
+        "td_cfaa80c6",
+        "td_59df8ca9"
+      ],
+      "first_detected": "2026-03-26T03:20:03.143Z",
+      "last_seen": "2026-03-26T07:44:08.680Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_079cd426",
+      "independence_score": 1,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "AI systems need robust ethical frameworks to comply with regulations and societal expectations."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_652b0850",
+      "vector_text": "Enterprise-grade hardware platforms (NVIDIA DGX) are becoming standard for validating AI optimization techniques before production deployment",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "bioinfo"
+      ],
+      "source_content_ids": [
+        "td_a0439db7"
+      ],
+      "first_detected": "2026-03-31T09:16:02.277Z",
+      "last_seen": "2026-03-31T09:16:02.277Z",
+      "trajectory": [
+        {
+          "date": "2026-03-31",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_4e638917",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_0b395f6e",
+      "vector_text": "Designing lentivirus vectors for efficient and safe in vivo production of CAR-T cells.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        " "
+      ],
+      "source_content_ids": [
+        "td_b325a2a0"
+      ],
+      "first_detected": "2026-03-28T13:21:31.412Z",
+      "last_seen": "2026-03-28T13:21:31.412Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_93ccc6e1",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_a71f2eed",
+      "vector_text": "There is a growing need for AI agents to be transparent, interpretable, and secure in order to meet regulatory compliance and ethical standards.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "satyadhar joshi"
+      ],
+      "source_content_ids": [
+        "td_0f07f701"
+      ],
+      "first_detected": "2026-03-28T13:02:22.468Z",
+      "last_seen": "2026-03-28T13:02:22.468Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_464ab60c",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_6cf77df6",
+      "vector_text": "Two-stage distillation strategy to mitigate error accumulation in autoregressive generation.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "yawen luo"
+      ],
+      "source_content_ids": [
+        "td_e7b3ee8f"
+      ],
+      "first_detected": "2026-03-27T22:47:21.494Z",
+      "last_seen": "2026-03-27T22:47:21.494Z",
+      "trajectory": [
+        {
+          "date": "2026-03-27",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_349ad03c",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_f75247df",
+      "vector_text": "Use a reference alignment loss to pull features of the same subject closer and push apart those of different subjects during training.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "lei wang"
+      ],
+      "source_content_ids": [
+        "td_d4bcb1e6"
+      ],
+      "first_detected": "2026-03-27T22:41:09.134Z",
+      "last_seen": "2026-03-27T22:41:09.134Z",
+      "trajectory": [
+        {
+          "date": "2026-03-27",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_349ad03c",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_8b88969a",
+      "vector_text": "Develop comprehensive datasets annotated with operation traces to train models on expert-level design procedures.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "xincheng shuai"
+      ],
+      "source_content_ids": [
+        "td_0ea65744"
+      ],
+      "first_detected": "2026-03-27T22:19:21.378Z",
+      "last_seen": "2026-03-27T22:19:21.378Z",
+      "trajectory": [
+        {
+          "date": "2026-03-27",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_7c11bd6d",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_899ed4db",
+      "vector_text": "Designing technical architecture with a focus on maintainable and adaptive solutions using efficient interfaces and encapsulated problem-solving libraries.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_ffbc3458"
+      ],
+      "first_detected": "2026-03-28T13:31:48.377Z",
+      "last_seen": "2026-03-28T13:31:48.377Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_34ab01d8",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_3d5940a1",
+      "vector_text": "AI tools are increasingly being used to optimize and rewrite software, leading to cost savings.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 3,
+      "unique_creators": [
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_ffbc3458",
+        "td_19daa688",
+        "td_cdda277b"
+      ],
+      "first_detected": "2026-03-28T13:07:56.480Z",
+      "last_seen": "2026-03-28T13:31:48.377Z",
+      "trajectory": [
+        {
+          "date": "2026-03-28",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_1f1d1a85",
+      "independence_score": 0,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "AI can improve software development efficiency and reduce costs",
+        "AI can improve software development efficiency and reduce costs"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_1a097614",
+      "vector_text": "Studying brain rhythms can provide a more tractable route to understanding linguistic deficits in autism spectrum disorders (ASD) compared to genetics.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "elliot murphy"
+      ],
+      "source_content_ids": [
+        "td_d62f6661"
+      ],
+      "first_detected": "2026-03-27T02:44:58.607Z",
+      "last_seen": "2026-03-27T02:44:58.607Z",
+      "trajectory": [
+        {
+          "date": "2026-03-27",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_a8314407",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_18716de4",
+      "vector_text": "AI companies will face scaling challenges due to the increasing complexity and unpredictability of reward model design.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 4,
+      "unique_creators": [
+        "andrej karpathy",
+        "lex fridman podcast"
+      ],
+      "source_content_ids": [
+        "td_ebacf0c9",
+        "td_54327ba7"
+      ],
+      "first_detected": "2026-03-26T02:47:38.979Z",
+      "last_seen": "2026-03-26T03:28:06.099Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_978f3f87",
+      "independence_score": 0,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Reward models in RLHF become increasingly difficult to design and scale as systems grow more complex",
+        "AI companies face significant technical and operational challenges as they scale"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_7023ea9f",
+      "vector_text": "AI user fatigue will force companies to redesign AI features for sustainable workplace integration rather than maximum capability",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "hardfork@nytimes.com (the new york times)"
+      ],
+      "source_content_ids": [
+        "td_59df8ca9"
+      ],
+      "first_detected": "2026-03-26T03:20:28.381Z",
+      "last_seen": "2026-03-26T03:20:28.381Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_6ddad2ed",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_57c972f7",
+      "vector_text": "AI agents will replace 80% of traditional applications within the next decade",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "lex fridman podcast"
+      ],
+      "source_content_ids": [
+        "td_54327ba7"
+      ],
+      "first_detected": "2026-03-26T02:47:38.979Z",
+      "last_seen": "2026-03-26T02:47:38.979Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_18716de4",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_26c84ba9",
+      "vector_text": "Designing autonomous agents with self-modification and enterprise-level capabilities",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 3,
+      "unique_creators": [
+        "lex fridman podcast"
+      ],
+      "source_content_ids": [
+        "td_54327ba7"
+      ],
+      "first_detected": "2026-03-26T02:47:38.979Z",
+      "last_seen": "2026-03-26T02:47:38.979Z",
+      "trajectory": [
+        {
+          "date": "2026-03-26",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_cb301d57",
+      "independence_score": 0,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Autonomous agents can be self-modifying",
+        "Enterprise-level solutions are necessary for broad adoption"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_e572560a",
+      "vector_text": "Trust in supply chains is becoming a critical factor for developers choosing tools.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "the changelog: software development, open source"
+      ],
+      "source_content_ids": [
+        "td_be2a3b90"
+      ],
+      "first_detected": "2026-04-01T22:33:57.647Z",
+      "last_seen": "2026-04-01T22:33:57.647Z",
+      "trajectory": [
+        {
+          "date": "2026-04-01",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_e37d4a8b",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_67662126",
+      "vector_text": "AI models are increasingly expected to produce high-quality, maintainable code due to economic incentives.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_ea12579e"
+      ],
+      "first_detected": "2026-04-01T22:41:03.075Z",
+      "last_seen": "2026-04-01T22:41:03.075Z",
+      "trajectory": [
+        {
+          "date": "2026-04-01",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_34a13555",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_53998c8c",
+      "vector_text": "AI-native coding assistants are emerging as a new category of development tool, designed to enhance human productivity through natural language interaction.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "tanbiralam"
+      ],
+      "source_content_ids": [
+        "td_3a606a18"
+      ],
+      "first_detected": "2026-04-03T09:24:37.728Z",
+      "last_seen": "2026-04-03T09:24:37.728Z",
+      "trajectory": [
+        {
+          "date": "2026-04-03",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_24069901",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_ce985f9a",
+      "vector_text": "Prioritize User Advocacy and Communication",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_45f7275f"
+      ],
+      "first_detected": "2026-04-03T09:30:54.356Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
+      "trajectory": [
+        {
+          "date": "2026-04-03",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_580eeba8",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_b0879e7d",
+      "vector_text": "Dynamic GPU Allocation Based on Usage Patterns",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_45f7275f"
+      ],
+      "first_detected": "2026-04-03T09:30:54.356Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
+      "trajectory": [
+        {
+          "date": "2026-04-03",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_cb301d57",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_1190a93a",
+      "vector_text": "User-centric Design in Product Development",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 3,
+      "unique_creators": [
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_45f7275f"
+      ],
+      "first_detected": "2026-04-03T09:30:54.356Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
+      "trajectory": [
+        {
+          "date": "2026-04-03",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_cb301d57",
+      "independence_score": 0,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "Focus on user needs and feedback in product design"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_efb4e5a4",
+      "vector_text": "Compute efficiency and lower compute requirements are becoming critical for AI models.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_45f7275f"
+      ],
+      "first_detected": "2026-04-03T09:30:54.356Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
+      "trajectory": [
+        {
+          "date": "2026-04-03",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_34a13555",
+      "independence_score": 0,
+      "convergence_type": "problem",
+      "presuppositions": [
+        "Efficient use of compute resources is crucial for AI model development."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_f15fc750",
+      "vector_text": "Increasing Importance of Transparent Communication in Tech Startups",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_45f7275f"
+      ],
+      "first_detected": "2026-04-03T09:30:54.356Z",
+      "last_seen": "2026-04-03T09:30:54.356Z",
+      "trajectory": [
+        {
+          "date": "2026-04-03",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_34a13555",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_abdec6a5",
+      "vector_text": "Developer Mindset Shift: Adopting a mindset of actively modifying and improving the software tools one relies upon.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_261b6651"
+      ],
+      "first_detected": "2026-04-06T07:43:26.978Z",
+      "last_seen": "2026-04-06T07:43:26.978Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_c2c94fe9",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_25327201",
+      "vector_text": "Entropy-guided multi-layer aggregation with orthogonality-constrained projections to reduce redundancy.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "ankan deria"
+      ],
+      "source_content_ids": [
+        "td_291c3f79"
+      ],
+      "first_detected": "2026-04-06T07:45:01.678Z",
+      "last_seen": "2026-04-06T07:45:01.678Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_e3ade85a",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_024cd761",
+      "vector_text": "RoPE-enhanced cross-attention for aligning heterogeneous token grids and producing compact fused visual tokens.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "ankan deria"
+      ],
+      "source_content_ids": [
+        "td_291c3f79"
+      ],
+      "first_detected": "2026-04-06T07:45:01.678Z",
+      "last_seen": "2026-04-06T07:45:01.678Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_e3ade85a",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_7bc62779",
+      "vector_text": "LLMs should adopt mechanisms to improve reliability, including abstention from low-confidence decisions and post-hoc calibration.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "sean wu"
+      ],
+      "source_content_ids": [
+        "td_2c83f991"
+      ],
+      "first_detected": "2026-04-06T07:46:44.350Z",
+      "last_seen": "2026-04-06T07:46:44.350Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_1b2132a5",
+      "independence_score": 0,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "LLMs need to improve reliability through various mechanisms."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_5ac6f07b",
+      "vector_text": "Agentic AI systems should integrate robust control, structured memory, and verifiable action to handle partial observability and strategic observation.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "maximiliano armesto"
+      ],
+      "source_content_ids": [
+        "td_6a51f030"
+      ],
+      "first_detected": "2026-04-06T07:58:03.929Z",
+      "last_seen": "2026-04-06T07:58:03.929Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_9b6a0728",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_4eec9577",
+      "vector_text": "LLMs integrated with web search still produce inaccurate BibTeX citations, indicating a need for deterministic citation retrieval tools.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "delip rao"
+      ],
+      "source_content_ids": [
+        "td_6e3c89da"
+      ],
+      "first_detected": "2026-04-06T07:59:27.297Z",
+      "last_seen": "2026-04-06T07:59:27.297Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_51186cdd",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_19f87222",
+      "vector_text": "There is a growing awareness of the impact of human biases on AI governance and ethics.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "zoé roy-stang"
+      ],
+      "source_content_ids": [
+        "td_6f132470"
+      ],
+      "first_detected": "2026-04-06T08:02:11.771Z",
+      "last_seen": "2026-04-06T08:02:11.771Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_5338c8b3",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_5aef27c6",
+      "vector_text": "Dynamic adaptation of a Vision Transformer backbone via hypernetworks for diverse tasks.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "fengbei liu"
+      ],
+      "source_content_ids": [
+        "td_75c9ae45"
+      ],
+      "first_detected": "2026-04-06T08:03:22.251Z",
+      "last_seen": "2026-04-06T08:03:22.251Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_7d6c81ba",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_59feca84",
+      "vector_text": "Designing systems to integrate human oversight and feedback into automated code review processes.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "kowshik chowdhury"
+      ],
+      "source_content_ids": [
+        "td_856bfa42"
+      ],
+      "first_detected": "2026-04-06T08:10:31.535Z",
+      "last_seen": "2026-04-06T08:10:31.535Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_200da7fe",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_a34bac6e",
+      "vector_text": "The effectiveness of CRA reviews is being questioned due to their low signal-to-noise ratio, leading to higher abandonment rates.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "kowshik chowdhury"
+      ],
+      "source_content_ids": [
+        "td_856bfa42"
+      ],
+      "first_detected": "2026-04-06T08:10:31.535Z",
+      "last_seen": "2026-04-06T08:10:31.535Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_275d3ecf",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_328cb842",
+      "vector_text": "Model Behavior Changes: Changes in model behavior, possibly due to updates or policy changes, can significantly impact user experience and trust.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "theo - t3․gg"
+      ],
+      "source_content_ids": [
+        "td_ae7214d0"
+      ],
+      "first_detected": "2026-04-06T08:30:06.300Z",
+      "last_seen": "2026-04-06T08:30:06.300Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_5df8562c",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_6c0d59c1",
+      "vector_text": "There is a growing trend towards using reinforcement learning to enhance the visual reasoning capabilities of AI models in complex chart question answering tasks.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "yunfei bai"
+      ],
+      "source_content_ids": [
+        "td_c35d19a3"
+      ],
+      "first_detected": "2026-04-06T08:37:42.199Z",
+      "last_seen": "2026-04-06T08:37:42.199Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_9ed14a2a",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_808db53a",
+      "vector_text": "Reflective Context Learning (RCL) framework for iterative context updates and behavior improvement.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "nikita vassilyev"
+      ],
+      "source_content_ids": [
+        "td_d2854b33"
+      ],
+      "first_detected": "2026-04-06T08:41:11.225Z",
+      "last_seen": "2026-04-06T08:41:11.225Z",
+      "trajectory": [
+        {
+          "date": "2026-04-06",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "merged into tv_8f9e8eb4",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
     }
   ],
-  "total_content_processed": 280,
+  "total_content_processed": 281,
   "total_creators_tracked": 30,
-  "last_updated": "2026-04-06T09:23:18.028Z"
+  "last_updated": "2026-04-06T11:37:51.786Z"
 }
