@@ -1,0 +1,38 @@
+{
+  "id": "td_31640f01",
+  "source": "arxiv",
+  "source_id": "2604.04902",
+  "source_url": "https://arxiv.org/abs/2604.04902",
+  "content_type": "paper",
+  "creator": {
+    "id": "connor_dilgren",
+    "name": "Connor Dilgren",
+    "handle": "Connor Dilgren, Sarah Wiegreffe",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Are Latent Reasoning Models Easily Interpretable?",
+  "body_text": "Are Latent Reasoning Models Easily Interpretable?\n\nLatent reasoning models (LRMs) have attracted significant research interest due to their low inference cost (relative to explicit reasoning models) and theoretical ability to explore multiple reasoning paths in parallel. However, these benefits come at the cost of reduced interpretability: LRMs are difficult to monitor because they do not reason in natural language. This paper presents an investigation into LRM interpretability by examining two state-of-the-art LRMs. First, we find that latent reasoning tokens are often unnecessary for LRMs' predictions; on logical reasoning datasets, LRMs can almost always produce the same final answers without using latent reasoning at all. This underutilization of reasoning tokens may partially explain why LRMs do not consistently outperform explicit reasoning methods and raises doubts about the stated role of these tokens in prior work. Second, we demonstrate that when latent reasoning tokens are necessary for performance, we can decode gold reasoning traces up to 65-93% of the time for correctly predicted instances. This suggests LRMs often implement the expected solution rather than an uninterpretable reasoning process. Finally, we present a method to decode a verified natural language reasoning trace from latent tokens without knowing a gold reasoning trace a priori, demonstrating that it is possible to find a verified trace for a majority of correct predictions but only a minority of incorrect predictions. Our findings highlight that current LRMs largely encode interpretable processes, and interpretability itself can be a signal of prediction correctness.\n\nAuthors: Connor Dilgren, Sarah Wiegreffe\nCategories: cs.LG, cs.LG",
+  "word_count": 237,
+  "published_at": "2026-04-06T17:50:06Z",
+  "ingested_at": "2026-04-07T11:03:29.927Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

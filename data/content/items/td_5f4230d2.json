@@ -1,0 +1,41 @@
+{
+  "id": "td_5f4230d2",
+  "source": "arxiv",
+  "source_id": "2604.04844",
+  "source_url": "https://arxiv.org/abs/2604.04844",
+  "content_type": "paper",
+  "creator": {
+    "id": "negin_golrezaei",
+    "name": "Negin Golrezaei",
+    "handle": "Negin Golrezaei, MohammadTaghi Hajiaghayi, Suho Shin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimal Contest Beyond Convexity",
+  "body_text": "Optimal Contest Beyond Convexity\n\nIn the contest design problem, there are $n$ strategic contestants, each of whom decides an effort level. A contest designer with a fixed budget must then design a mechanism that allocates a prize $p_i$ to the $i$-th rank based on the outcome, to incentivize contestants to exert higher costly efforts and induce high-quality outcomes. In this paper, we significantly deepen our understanding of optimal mechanisms under general settings by considering nonconvex objectives in contestants' qualities. Notably, our results accommodate the following objectives: (i) any convex combination of user welfare (motivated by recommender systems) and the average quality of contestants, and (ii) arbitrary posynomials over quality, both of which may neither be convex nor concave. In particular, these subsume classic measures such as social welfare, order statistics, and (inverse) S-shaped functions, which have received little or no attention in the contest literature to the best of our knowledge. Surprisingly, across all these regimes, we show that the optimal mechanism is highly structured: it allocates potentially higher prize to the first-ranked contestant, zero to the last-ranked one, and equal prizes to the all intermediate contestants, i.e., $p_1 \\ge p_2 = \\ldots = p_{n-1} \\ge p_n = 0$. Thanks to the structural characterization, we obtain a fully polynomial-time approximation scheme given a value oracle. Our technical results rely on Schur-convexity of Bernstein basis polynomial-weighted functions, total positivity and variation diminishing property. En route to our results, we obtain a surprising reduction from a structured high-dimensional nonconvex optimization to a single-dimensional optimization by connecting the shape of the gradient sequences of the objective function to the number of transition points in optimum, which might be of independent interest.\n\nAuthors: Negin Golrezaei, MohammadTaghi Hajiaghayi, Suho Shin\nCategories: cs.GT, cs.DS, econ.TH, math.OC, cs.GT",
+  "word_count": 274,
+  "published_at": "2026-04-06T16:44:40Z",
+  "ingested_at": "2026-04-07T11:03:42.582Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.DS",
+    "econ.TH",
+    "math.OC",
+    "cs.GT"
+  ],
+  "domain": "finance",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

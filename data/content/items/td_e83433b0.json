@@ -1,0 +1,35 @@
+{
+  "id": "td_e83433b0",
+  "source": "youtube",
+  "source_id": "JSuS-zXMVwE",
+  "source_url": "https://www.youtube.com/watch?v=JSuS-zXMVwE",
+  "content_type": "video",
+  "creator": {
+    "id": "fireship",
+    "name": "Fireship",
+    "handle": "Fireship",
+    "platform": "youtube",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Cursor ditches VS Code, but not everyone is happy...",
+  "body_text": "Two years ago, Cursor 1.0 was released as a VS Code fork that helped you autocomplete your code with AI, like an airline co-pilot. Then six months ago, a cursor 2.0 was released, but with an upgraded chat view that could take control of your terminal to build entire features, like an airline captain. But then, just a few days ago, a cursor released version 3.0. And this version doesn't even want you writing code anymore. Instead, it wants you to be more like an air traffic controller running swarms of AI agents across multiple repos, machines, and even the cloud at the same time. On top of that, Cursor just released their new composer 2 model, which was allegedly trained in-house and is more intelligent than Claude Opus 4.6. That is, if we are to trust these trust me, bro benchmarks. But what's even more crazy is that cursor is not even a VS Code fork anymore and has been completely rewritten from scratch with Rust. That's great news for your RAM, but not everybody is vibing with the new direction of cursor. And in today's video, we'll break down its controversial new features. It is April 6, 2026, and you're watching the code report. Before we can talk about Cursor 3, we first need to talk about Composer 2, which is Cursor's new in-house coding model. When it first came out about 2 weeks ago, it blew our minds because its numbers on the Trust Me Bro benchmarks were off the charts. Intelligence exceeding Opus at a fraction of the cost and at a much faster speed. better in every way, which is crazy for a new frontier model. But just as Nassau tricks globe tards that were going to the moon again, the cursor was a little bit tricky about how they portrayed this model to the vibe tards. But what they initially failed to tell us is that Composer 2 is in fact based on Moonshot's Kimmy K2 model. And we only realized that after someone found its model ID in Composer's metadata and posted it on Twitter. That's kind of funny because Kimmy itself has been accused of training on Claude's outputs because it will occasionally say, \"Hi, I'm Claude.\" Curser later apologized for not being transparent. And even though it is just Kimmy with some really good reinforcement learning, they released a full technical report on how they did it. But none of this drama really matters because a model that's smart, fast, and cheap is going to be extremely valuable in the zero code future of programming. But to optimize the shift from code to agents, they completely rewrote the new interface in Rust and TypeScript. To be clear, the old antique VS Code editor is still there, but this new interface is more about managing agents. So, you can almost entirely ignore your code base because coding agents are getting so good. It's a home for your agents and it combines the power of a professional development environment, language servers, files, remote SSH with all of the models and the ability to run as many agents as you want anywhere. >> Many have criticized this as being too similar to OpenAI codecs. But now, let's find out how it works in a real world project. After I introduced Horse Tinder a few weeks ago, venture capitalists have been stampeding to fund it. But now I need an actual prototype. The coding it by hand would take months. Vibe coding it would take weeks. But with a swarm of agents, I can bang it out by the end of this video. I'm starting with a fresh project. And the first thing I might want to do is enter plan mode to have it work out a basic architecture. While it's doing that though, I can do other stuff in the background. Like maybe I want to have it start working on a separate landing page for marketing. Or maybe I want to SSH into a cloud server and have it do remote work on my server. Or maybe I just want to switch to an entirely different project and spin up an agent there. Well, I can do that all seamlessly and work with multiple agents in parallel directly from this window. We can monitor the status of each agent. And when we get a yellow dot, it means we need some extra human input. it typically to grant permission to run some unsafe commands on your system. But if the dot turns blue, it means that the work is completed and it's ready for review. After a few minutes, we already have 13,000 lines of code to work with. If we go to the right side here, we can then check out the git history. We can open up a terminal and we can even inspect the code in this minimal file explorer. But I think one of the coolest features is its built-in browser. Here we can navigate directly to the app and play with the final product. As you can see here, it includes a perfectly rendered SVG graphic of a Clydesdale. But overall, the design is horshit. Luckily, we can just go into design mode and start asking for changes. Like, I can't see the text on these green buttons, and instead of trying to fix the CSS manually, I just highlight the element and tell AI to fix it, and it gets the work done in the background. I don't even need to wait for the end result. I can just keep queuing up other fixes. And then after a few minutes of that, I built a billion-dollar social media company that will make the world a better place. But a company that's actually making the world a better place for developers is Blacksmith, the sponsor of today's video. It's a drop-in replacement for GitHub runners that lets you run your GitHub actions twice as fast while costing 75% less. That might sound too good to be true, but they're able to achieve this blazing speed by running your actions on bare metal gaming CPUs with the highest single core performance. The blacksmith also makes your GitHub actions fully observable is so you can quickly track down what's happening in your CI pipeline when something goes wrong, which is critical when you have agents writing thousands of lines of code with no parental supervision. Try Blacksmith for free today at the link below and you'll get 3,000 free minutes per month when you sign up. This has been the Code Report. Thanks for watching and I will see you in the next one.",
+  "word_count": 1115,
+  "published_at": "2026-04-07T11:01:28.411Z",
+  "ingested_at": "2026-04-07T11:01:28.411Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": 304,
+  "distilled": true,
+  "discourse_format": "video_lecture",
+  "cited_creator_ids": []
+}

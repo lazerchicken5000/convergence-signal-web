@@ -1,0 +1,39 @@
+{
+  "id": "td_59738bcc",
+  "source": "arxiv",
+  "source_id": "2604.04920",
+  "source_url": "https://arxiv.org/abs/2604.04920",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhen_zhang",
+    "name": "Zhen Zhang",
+    "handle": "Zhen Zhang, Shanqing Liu, Alessandro Alla, Jerome Darbon, George Em Karniadakis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PINNs in PDE Constrained Optimal Control Problems: Direct vs Indirect Methods",
+  "body_text": "PINNs in PDE Constrained Optimal Control Problems: Direct vs Indirect Methods\n\nWe study physics-informed neural networks (PINNs) as numerical tools for the optimal control of semilinear partial differential equations. We first recall the classical direct and indirect viewpoints for optimal control of PDEs, and then present two PINN formulations: a direct formulation based on minimizing the objective under the state constraint, and an indirect formulation based on the first-order optimality system. For a class of semilinear parabolic equations, we derive the state equation, the adjoint equation, and the stationarity condition in a form consistent with continuous-time Pontryagin-type optimality conditions. We then specialize the framework to an Allen-Cahn control problem and compare three numerical approaches: (i) a discretize-then-optimize adjoint method, (ii) a direct PINN, and (iii) an indirect PINN. Numerical results show that the PINN parameterization has an implicit regularizing effect, in the sense that it tends to produce smoother control profiles. They also indicate that the indirect PINN more faithfully preserves the PDE contraint and optimality structure and yields a more accurate neural approximation than the direct PINN.\n\nAuthors: Zhen Zhang, Shanqing Liu, Alessandro Alla, Jerome Darbon, George Em Karniadakis\nCategories: math.OC, cs.LG, math.OC",
+  "word_count": 167,
+  "published_at": "2026-04-06T17:57:53Z",
+  "ingested_at": "2026-04-07T11:03:29.926Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.LG",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

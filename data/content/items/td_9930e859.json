@@ -1,0 +1,38 @@
+{
+  "id": "td_9930e859",
+  "source": "arxiv",
+  "source_id": "2604.04851",
+  "source_url": "https://arxiv.org/abs/2604.04851",
+  "content_type": "paper",
+  "creator": {
+    "id": "cinar_ari",
+    "name": "Cinar Ari",
+    "handle": "Cinar Ari, Robert Hildebrand",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Curvature batching gives single-exponential integer quadratic programming",
+  "body_text": "Curvature batching gives single-exponential integer quadratic programming\n\nInteger Quadratic Programming (IQP), $\\min\\{x^T Q x + c^T x : Ax \\le b,\\, x\\in\\Z^n\\}$, is a fundamental problem in combinatorial optimization. While the convex and concave special cases admit polynomial-time algorithms for fixed~$n$, the general indefinite case is considerably harder: it was only recently shown to lie in NP, and the FPT algorithm, due to Lokshtanov, establishes fixed-parameter tractability parameterized by $n$ and the largest coefficient~$L$ without giving an explicit running time. We give the first single-exponential algorithm for IQP, solving it in time $ \\bigl(n\\,L^n_A\\,Δ(A)\\,L_Q\\bigr)^{O(n)}\\cdot\\mathrm{poly}(\\varphi), $ which is $(nL)^{O(n^2)}\\cdot\\mathrm{poly}(\\varphi)$ in general using the same parameterization. We achieve improvements for structured cases like total unimodularity and further state explicit complexity results for a number of FPT algorithms and optimization problems. The single-exponential bound is achieved via curvature batching: we classify kernel directions by the sign of their quadratic curvature and observe that when no negative-curvature direction exists, all gradient constraints can be imposed simultaneously in a single batch. This replaces the chain of determinant squarings inherent in sequential branching with a single polynomial inflation, after which the remaining problem is an ILP. As a secondary contribution, we give an explicit bound for concave integer minimization over a polytope $\\{Ax \\le b\\} \\cap \\Z^n$ whose parametric complexity depends only on the constraint matrix~$A$ and is independent of the right-hand side~$b$.\n\nAuthors: Cinar Ari, Robert Hildebrand\nCategories: math.OC, math.OC",
+  "word_count": 220,
+  "published_at": "2026-04-06T16:53:08Z",
+  "ingested_at": "2026-04-07T11:03:42.581Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

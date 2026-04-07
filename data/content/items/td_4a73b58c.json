@@ -1,0 +1,38 @@
+{
+  "id": "td_4a73b58c",
+  "source": "arxiv",
+  "source_id": "2604.04929",
+  "source_url": "https://arxiv.org/abs/2604.04929",
+  "content_type": "paper",
+  "creator": {
+    "id": "sixun_dong",
+    "name": "Sixun Dong",
+    "handle": "Sixun Dong, Juhua Hu, Steven Li, Wei Wen, Qi Qian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Rethinking Model Efficiency: Multi-Agent Inference with Large Models",
+  "body_text": "Rethinking Model Efficiency: Multi-Agent Inference with Large Models\n\nMost vision-language models (VLMs) apply a large language model (LLM) as the decoder, where the response tokens are generated sequentially through autoregression. Therefore, the number of output tokens can be the bottleneck of the end-to-end latency. However, different models may require vastly different numbers of output tokens to achieve comparable performance. In this work, we conduct a comprehensive analysis of the latency across different components of VLMs on simulated data. The experiment shows that a large model with fewer output tokens can be more efficient than a small model with a long output sequence. The empirical study on diverse real-world benchmarks confirms the observation that a large model can achieve better or comparable performance as a small model with significantly fewer output tokens. To leverage the efficiency of large models, we propose a multi-agent inference framework that keeps large models with short responses but transfers the key reasoning tokens from the small model when necessary. The comparison on benchmark tasks demonstrates that by reusing the reasoning tokens from small models, it can help approach the performance of a large model with its own reasoning, which confirms the effectiveness of our proposal.\n\nAuthors: Sixun Dong, Juhua Hu, Steven Li, Wei Wen, Qi Qian\nCategories: cs.CV, cs.CV",
+  "word_count": 191,
+  "published_at": "2026-04-06T17:59:35Z",
+  "ingested_at": "2026-04-07T11:03:34.125Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

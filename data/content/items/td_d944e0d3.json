@@ -1,0 +1,40 @@
+{
+  "id": "td_d944e0d3",
+  "source": "arxiv",
+  "source_id": "2604.04914",
+  "source_url": "https://arxiv.org/abs/2604.04914",
+  "content_type": "paper",
+  "creator": {
+    "id": "mohammad_zangooei",
+    "name": "Mohammad Zangooei",
+    "handle": "Mohammad Zangooei, Jannis Weil, Amr Rizk, Mina Tahmasbi Arashloo, Raouf Boutaba",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Analyzing Symbolic Properties for DRL Agents in Systems and Networking",
+  "body_text": "Analyzing Symbolic Properties for DRL Agents in Systems and Networking\n\nDeep reinforcement learning (DRL) has shown remarkable performance on complex control problems in systems and networking, including adaptive video streaming, wireless resource management, and congestion control. For safe deployment, however, it is critical to reason about how agents behave across the range of system states they encounter in practice. Existing verification-based methods in this domain primarily focus on point properties, defined around fixed input states, which offer limited coverage and require substantial manual effort to identify relevant input-output pairs for analysis. In this paper, we study symbolic properties, that specify expected behavior over ranges of input states, for DRL agents in systems and networking. We present a generic formulation for symbolic properties, with monotonicity and robustness as concrete examples, and show how they can be analyzed using existing DNN verification engines. Our approach encodes symbolic properties as comparisons between related executions of the same policy and decomposes them into practically tractable sub-properties. These techniques serve as practical enablers for applying existing verification tools to symbolic analysis. Using our framework, diffRL, we conduct an extensive empirical study across three DRL-based control systems, adaptive video streaming, wireless resource management, and congestion control. Through these case studies, we analyze symbolic properties over broad input ranges, examine how property satisfaction evolves during training, study the impact of model size on verifiability, and compare multiple verification backends. Our results show that symbolic properties provide substantially broader coverage than point properties and can uncover non-obvious, operationally meaningful counterexamples, while also revealing practical solver trade-offs and limitations.\n\nAuthors: Mohammad Zangooei, Jannis Weil, Amr Rizk, Mina Tahmasbi Arashloo, Raouf Boutaba\nCategories: cs.NI, cs.AI, cs.LG, cs.NI",
+  "word_count": 250,
+  "published_at": "2026-04-06T17:55:15Z",
+  "ingested_at": "2026-04-07T11:03:21.433Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.NI",
+    "cs.AI",
+    "cs.LG",
+    "cs.NI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

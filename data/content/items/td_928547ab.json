@@ -1,0 +1,38 @@
+{
+  "id": "td_928547ab",
+  "source": "arxiv",
+  "source_id": "2604.04876",
+  "source_url": "https://arxiv.org/abs/2604.04876",
+  "content_type": "paper",
+  "creator": {
+    "id": "munawar_hasan",
+    "name": "Munawar Hasan",
+    "handle": "Munawar Hasan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Incompleteness of AI Safety Verification via Kolmogorov Complexity",
+  "body_text": "Incompleteness of AI Safety Verification via Kolmogorov Complexity\n\nEnsuring that artificial intelligence (AI) systems satisfy formal safety and policy constraints is a central challenge in safety-critical domains. While limitations of verification are often attributed to combinatorial complexity and model expressiveness, we show that they arise from intrinsic information-theoretic limits. We formalize policy compliance as a verification problem over encoded system behaviors and analyze it using Kolmogorov complexity. We prove an incompleteness result: for any fixed sound computably enumerable verifier, there exists a threshold beyond which true policy-compliant instances cannot be certified once their complexity exceeds that threshold. Consequently, no finite formal verifier can certify all policy-compliant instances of arbitrarily high complexity. This reveals a fundamental limitation of AI safety verification independent of computational resources, and motivates proof-carrying approaches that provide instance-level correctness guarantees.\n\nAuthors: Munawar Hasan\nCategories: cs.AI, cs.AI",
+  "word_count": 125,
+  "published_at": "2026-04-06T17:26:09Z",
+  "ingested_at": "2026-04-07T11:03:42.581Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

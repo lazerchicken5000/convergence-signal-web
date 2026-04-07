@@ -1,0 +1,38 @@
+{
+  "id": "td_4e7249ff",
+  "source": "arxiv",
+  "source_id": "2604.04871",
+  "source_url": "https://arxiv.org/abs/2604.04871",
+  "content_type": "paper",
+  "creator": {
+    "id": "tianzhu_qin",
+    "name": "Tianzhu Qin",
+    "handle": "Tianzhu Qin, Yiqing Xu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "StatsClaw: An AI-Collaborative Workflow for Statistical Software Development",
+  "body_text": "StatsClaw: An AI-Collaborative Workflow for Statistical Software Development\n\nTranslating statistical methods into reliable software is a persistent bottleneck in quantitative research. Existing AI code-generation tools produce code quickly but cannot guarantee faithful implementation -- a critical requirement for statistical software. We introduce StatsClaw, a multi-agent architecture for Claude Code that enforces information barriers between code generation and validation. A planning agent produces independent specifications for implementation, simulation, and testing, dispatching them to separate agents that cannot see each other's instructions: the builder implements without knowing the ground-truth parameters, the simulator generates data without knowing the algorithm, and the tester validates using deterministic criteria. We describe the approach, demonstrate it end-to-end on a probit estimation package, and evaluate it across three applications to the authors' own R and Python packages. The results show that structured AI-assisted workflows can absorb the engineering overhead of the software lifecycle while preserving researcher control over every substantive methodological decision.\n\nAuthors: Tianzhu Qin, Yiqing Xu\nCategories: cs.SE, cs.SE",
+  "word_count": 146,
+  "published_at": "2026-04-06T17:18:53Z",
+  "ingested_at": "2026-04-07T11:03:42.581Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
