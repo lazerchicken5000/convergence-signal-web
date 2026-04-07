@@ -1,7 +1,26 @@
 import Link from 'next/link';
 import { GlossaryDepthToggle, GlossaryText } from '@/components/depth-selector';
+import { SignalMap } from '@/components/infographics/signal-map';
+import { LeaderGraph } from '@/components/infographics/leader-graph';
+import { EmergingTimeline } from '@/components/infographics/emerging-timeline';
+import {
+  getConvergencePatterns,
+  getRPGProfiles,
+  getLatestDiff,
+  getPatternSources,
+  getPatternTokenCost,
+  getPatternSignalQuality,
+  getLeaderContribution,
+  getLeaderLinks,
+} from '@/lib/data';
 
 export const revalidate = 14400;
+
+function formatTokens(n: number): string {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K`;
+  return String(n);
+}
 
 // =====================================================================
 // SECTION CONTENT
@@ -289,6 +308,34 @@ function Prose({ pair }: { pair: DepthPair }) {
 // =====================================================================
 
 export default function ProtocolPage() {
+  // Live data — pulled directly from the synced data/ directory
+  const patterns = getConvergencePatterns();
+  const profiles = getRPGProfiles();
+  const diff = getLatestDiff();
+
+  // Section 5: top pattern for the SignalMap + aggregate token bake numbers
+  const topPattern = patterns[0] ?? null;
+  const topPatternSources = topPattern ? getPatternSources(topPattern.vector_ids, 999) : [];
+  const topPatternCost = topPattern ? getPatternTokenCost(topPattern) : null;
+  const topPatternSignal = topPattern ? getPatternSignalQuality(topPattern) : null;
+
+  // Aggregate token bake measurements across ALL active patterns — live
+  let aggRaw = 0;
+  let aggCurated = 0;
+  let aggSummary = 0;
+  for (const p of patterns) {
+    const cost = getPatternTokenCost(p);
+    aggRaw += cost.rawTokens;
+    aggCurated += cost.curatedTokens;
+    aggSummary += cost.summaryTokens;
+  }
+  const aggCompression = aggRaw > 0 ? (1 - aggCurated / aggRaw) * 100 : 0;
+
+  // Section 7: top leader for the LeaderGraph
+  const topLeader = profiles[0] ?? null;
+  const topLeaderContrib = topLeader ? getLeaderContribution(topLeader) : null;
+  const topLeaderLinks = topLeader ? getLeaderLinks(topLeader) : [];
+
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10 relative">
       {/* Sticky depth toggle */}
@@ -347,7 +394,52 @@ export default function ProtocolPage() {
       {/* ── 5. TOKEN BAKE ── */}
       <Section id="token-bake" eyebrow="04 — Measurement" title="Token Bake" subtitle="What 287K → 12K actually means.">
         {TOKEN_BAKE.map((p, i) => <Prose key={i} pair={p} />)}
-        {/* Phase 2 will add SignalMap here */}
+
+        {/* Live aggregate stat strip — measured from disk every render */}
+        {patterns.length > 0 && (
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-2 not-prose">
+            <div className="border border-zinc-800 rounded-lg p-4 text-center">
+              <p className="text-2xl font-mono font-bold text-zinc-300">{formatTokens(aggRaw)}</p>
+              <p className="text-[10px] text-zinc-600 uppercase tracking-wide mt-1">raw tokens</p>
+              <p className="text-[10px] text-zinc-700 mt-0.5">source body text</p>
+            </div>
+            <div className="border border-zinc-800 rounded-lg p-4 text-center">
+              <p className="text-2xl font-mono font-bold text-emerald-400">{formatTokens(aggCurated)}</p>
+              <p className="text-[10px] text-zinc-600 uppercase tracking-wide mt-1">curated</p>
+              <p className="text-[10px] text-zinc-700 mt-0.5">structured artifact</p>
+            </div>
+            <div className="border border-zinc-800 rounded-lg p-4 text-center">
+              <p className="text-2xl font-mono font-bold text-zinc-300">{formatTokens(aggSummary)}</p>
+              <p className="text-[10px] text-zinc-600 uppercase tracking-wide mt-1">prose tier</p>
+              <p className="text-[10px] text-zinc-700 mt-0.5">human skim</p>
+            </div>
+            <div className="border border-emerald-500/20 rounded-lg p-4 text-center bg-emerald-500/[0.03]">
+              <p className="text-2xl font-mono font-bold text-emerald-400">{aggCompression.toFixed(1)}%</p>
+              <p className="text-[10px] text-emerald-500/70 uppercase tracking-wide mt-1">compression</p>
+              <p className="text-[10px] text-zinc-700 mt-0.5">measured, not estimated</p>
+            </div>
+          </div>
+        )}
+
+        {/* Live SignalMap — top pattern */}
+        {topPattern && topPatternCost && topPatternSignal && (
+          <div className="border border-zinc-800 rounded-lg overflow-hidden mt-4 not-prose">
+            <div className="px-4 py-2 border-b border-zinc-800 bg-zinc-900/40 flex items-center justify-between">
+              <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono">Top live pattern</p>
+              <p className="text-xs text-zinc-400 font-mono">CI {topPattern.ci_score.toFixed(3)}</p>
+            </div>
+            <SignalMap
+              pattern={topPattern}
+              sources={topPatternSources}
+              cost={topPatternCost}
+              signal={topPatternSignal}
+            />
+            <div className="px-4 py-2 border-t border-zinc-800 text-[11px] text-zinc-500">
+              <span className="text-zinc-300 font-medium">{topPattern.label}</span>
+              <span className="text-zinc-600"> · {topPattern.creator_ids.length} contributors · {topPattern.vector_ids.length} vectors</span>
+            </div>
+          </div>
+        )}
       </Section>
 
       {/* ── 6. INDEPENDENCE VERIFICATION ── */}
@@ -371,13 +463,44 @@ export default function ProtocolPage() {
             </div>
           ))}
         </div>
-        {/* Phase 2 will add LeaderGraph here */}
+
+        {/* Live LeaderGraph — top leader */}
+        {topLeader && topLeaderContrib && (
+          <div className="border border-zinc-800 rounded-lg overflow-hidden mt-4 not-prose">
+            <div className="px-4 py-2 border-b border-zinc-800 bg-zinc-900/40 flex items-center justify-between">
+              <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono">Top live leader</p>
+              <p className="text-xs text-zinc-400 font-mono">{topLeader.leader_score.toFixed(3)}</p>
+            </div>
+            <LeaderGraph
+              leader={topLeader}
+              contrib={topLeaderContrib}
+              links={topLeaderLinks}
+            />
+          </div>
+        )}
       </Section>
 
       {/* ── 8. FRONTIER CLASSIFICATION ── */}
       <Section id="frontier" eyebrow="07 — Preservation" title="Frontier Classification" subtitle="Classify, don't prune.">
         {FRONTIER.map((p, i) => <Prose key={i} pair={p} />)}
-        {/* Phase 2 will add EmergingTimeline here */}
+
+        {/* Live EmergingTimeline — current diff */}
+        {diff && (
+          <div className="border border-zinc-800 rounded-lg overflow-hidden mt-4 not-prose">
+            <div className="px-4 py-2 border-b border-zinc-800 bg-zinc-900/40 flex items-center justify-between">
+              <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono">Latest pipeline diff</p>
+              <p className="text-xs text-zinc-500 font-mono">{diff.date}</p>
+            </div>
+            <EmergingTimeline diff={diff} selectedId={null} height={360} />
+            <div className="px-4 py-2 border-t border-zinc-800 text-[11px] text-zinc-500">
+              <span className="text-emerald-400">{diff.new_patterns.length} new</span>
+              <span className="text-zinc-600"> · </span>
+              <span className="text-amber-400">{diff.accelerating.length} accelerating</span>
+              <span className="text-zinc-600"> · </span>
+              <span className="text-zinc-500">{diff.died?.length ?? 0} faded to noise</span>
+            </div>
+          </div>
+        )}
       </Section>
 
       {/* ── 9. OPEN METHODOLOGY + CURATOR LIMITATION ── */}
