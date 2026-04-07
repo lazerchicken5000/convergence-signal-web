@@ -57,7 +57,7 @@ export default function DocsPage() {
       "label": "AI agents need human supervision",
       "ci_score": 0.26,
       "independence_score": 0.68,
-      "token_cost": { "raw_tokens": 144000, "savings_percent": 99.8 },
+      "token_cost": { "raw_tokens": 18421, "curated_tokens": 723, "savings_percent": 96.1 },
       "signal_quality": { "independence": "high", "platforms": [...] },
       "sources": [...]
     }
