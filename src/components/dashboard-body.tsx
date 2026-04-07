@@ -65,9 +65,18 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
     setShowSynthesis(false);
   }
 
+  // On the signal tab, default to the top pattern (index 0) when nothing
+  // has been explicitly selected. This makes the SignalMap infographic
+  // visible immediately on page load instead of an empty "select a pattern"
+  // state. Tab switches reset selectedId, so this default re-applies when
+  // the user comes back to the signal tab.
+  const effectiveSelectedId = tab === 'signal' && selectedId === null
+    ? patternData[0]?.pattern.id ?? null
+    : selectedId;
+
   // Find selected data
   const selectedPattern = tab === 'signal'
-    ? patternData.find(p => p.pattern.id === selectedId) ?? null
+    ? patternData.find(p => p.pattern.id === effectiveSelectedId) ?? null
     : null;
   const selectedLeader = tab === 'leaders'
     ? leaderData.find(l => l.leader.id === selectedId) ?? null
@@ -101,7 +110,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
               key={p.pattern.id}
               onClick={() => handleSelect(p.pattern.id)}
               className={`w-full text-left px-3 py-2.5 border-b border-zinc-800/50 transition-colors ${
-                selectedId === p.pattern.id
+                effectiveSelectedId === p.pattern.id
                   ? 'bg-zinc-800/60 border-l-2 border-l-white'
                   : 'hover:bg-zinc-800/30 border-l-2 border-l-transparent'
               }`}

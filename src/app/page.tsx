@@ -52,9 +52,6 @@ export default function DashboardPage() {
         <h2 className="text-base sm:text-lg text-zinc-200 leading-snug font-medium">
           Convergence intelligence — meet mind to mind with the parts of the paradigm.
         </h2>
-        <p className="text-xs text-zinc-500 leading-relaxed mt-1.5">
-          Verg detects when independent minds arrive at the same conclusion without coordinating, verifies the independence through social-graph analysis, and surfaces the resulting signal to humans and AI agents. Below: today&apos;s convergence patterns and the contributors who shaped them — ranked by what they produce, not who follows them. Read the <Link href="/whitepaper" className="underline decoration-zinc-700 hover:decoration-zinc-400">whitepaper</Link> for the protocol.
-        </p>
       </section>
 
       {/* ── Tagline left + stats right, same row ── */}
