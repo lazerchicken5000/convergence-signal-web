@@ -3,6 +3,11 @@ import { GlossaryDepthToggle, GlossaryText } from '@/components/depth-selector';
 import { SignalMap } from '@/components/infographics/signal-map';
 import { LeaderGraph } from '@/components/infographics/leader-graph';
 import { EmergingTimeline } from '@/components/infographics/emerging-timeline';
+import { ConvergenceDots } from '@/components/protocol/convergence-dots';
+import { EchoVsConvergence } from '@/components/protocol/echo-vs-convergence';
+import { PipelineFlow } from '@/components/protocol/pipeline-flow';
+import { IndependenceGraph } from '@/components/protocol/independence-graph';
+import { CuratorPaths } from '@/components/protocol/curator-paths';
 import {
   getConvergencePatterns,
   getRPGProfiles,
@@ -362,6 +367,9 @@ export default function ProtocolPage() {
           This page is the visual companion to the <Link href="/whitepaper" className="underline decoration-zinc-700 hover:decoration-zinc-400">whitepaper</Link>.
           Below: how the protocol works, what its metrics actually measure, and why curating signal from the noise of the agent-native internet matters now. Switch the depth toggle in the top-right between <em>simple</em> (plain language) and <em>nuanced</em> (technical detail) at any time.
         </p>
+        <div className="mt-8">
+          <ConvergenceDots />
+        </div>
       </section>
 
       {/* ── 2. THE PROBLEM ── */}
@@ -372,10 +380,12 @@ export default function ProtocolPage() {
       {/* ── 3. CONVERGENCE AS SIGNAL ── */}
       <Section id="thesis" eyebrow="02 — Thesis" title="Convergence as Signal" subtitle="Independent minds, same conclusion.">
         {THESIS.map((p, i) => <Prose key={i} pair={p} />)}
+        <EchoVsConvergence />
       </Section>
 
       {/* ── 4. THE PIPELINE ── */}
       <Section id="pipeline" eyebrow="03 — How" title="The Pipeline" subtitle="Six stages. Every step measurable.">
+        <PipelineFlow />
         <div className="space-y-6">
           {PIPELINE_STAGES.map((stage) => (
             <div key={stage.num} className="flex gap-4">
@@ -445,6 +455,7 @@ export default function ProtocolPage() {
       {/* ── 6. INDEPENDENCE VERIFICATION ── */}
       <Section id="independence" eyebrow="05 — Differentiator" title="Independence Verification" subtitle="The dotted line is the signal.">
         {INDEPENDENCE.map((p, i) => <Prose key={i} pair={p} />)}
+        <IndependenceGraph />
       </Section>
 
       {/* ── 7. LEADER SCORING ── */}
@@ -517,7 +528,8 @@ export default function ProtocolPage() {
 
         <div className="border-t border-zinc-800/60 pt-6 mt-6">
           <h3 className="text-base font-semibold text-zinc-200 mb-3">Two mitigation paths under consideration</h3>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          <CuratorPaths />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-6">
             <div className="border border-zinc-800 rounded-lg p-5">
               <p className="text-[11px] uppercase tracking-widest text-emerald-500/70 font-mono mb-2">Path A — Council</p>
               <h4 className="text-sm font-semibold text-zinc-200 mb-2">More curators</h4>
