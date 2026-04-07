@@ -20,8 +20,8 @@ const TERMS = [
   },
   {
     term: 'Token Bake',
-    simple: 'How much reading we did to produce this insight. A 144K token bake means we processed 144,000 tokens worth of content so you get the condensed version.',
-    nuanced: 'The total token count of raw source content (transcripts, papers, posts) processed during distillation. Expressed as inference cost — directly maps to API billing savings for agents consuming curated output vs. processing raw sources.',
+    simple: 'How much reading we did to produce each insight. The protocol measures it every run from the actual source content on disk (no estimates) — typical runs compress hundreds of thousands of raw tokens into a structured artifact in the ~95-97% compression range.',
+    nuanced: 'Measured token cost: sum of contributing source body_text length divided by ~4 (chars per token) for the raw side, JSON.stringify of every active pattern (excluding foreign-key indices) divided by ~4 for the curated side. Both numbers are computed from disk on every pipeline run and persisted to data/research/token_efficiency.jsonl. Reproducible, auditable, and never hardcoded.',
   },
   {
     term: 'Thought Leader',

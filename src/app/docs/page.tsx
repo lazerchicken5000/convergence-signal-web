@@ -130,8 +130,10 @@ export default function DocsPage() {
           <div>
             <h3 className="text-sm font-semibold text-zinc-300 mb-1">Token Bake</h3>
             <p className="text-sm text-zinc-500 leading-relaxed">
-              The processing cost of each insight. Raw tokens in → curated tokens out. Typical compression:
-              99.8%. Querying Verg for 10 patterns saves an agent from processing 168K+ raw tokens themselves.
+              The processing cost of each insight. Raw source tokens in → curated structured artifact tokens out.
+              Both numbers are <em>measured</em> from disk every run (chars/4 of the actual content), not estimated.
+              Typical compression sits in the ~95-97% range — querying Verg returns the structured intelligence object instead of forcing the agent to process every contributing source itself.
+              See <Link href="/protocol#token-bake" className="underline text-zinc-400 hover:text-zinc-200">/protocol#token-bake</Link> for the live measured numbers.
             </p>
           </div>
           <div>
