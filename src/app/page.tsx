@@ -92,8 +92,9 @@ export default function DashboardPage() {
 
       <footer className="text-xs text-muted-foreground text-center py-8 mt-4 border-t border-zinc-800">
         Verg · <span className="font-mono">trenddistill</span> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
-        {' · '}<Link href="/glossary" className="underline">Glossary</Link>
+        {' · '}<Link href="/protocol" className="underline">Protocol</Link>
         {' · '}<Link href="/whitepaper" className="underline">Whitepaper</Link>
+        {' · '}<Link href="/glossary" className="underline">Glossary</Link>
         {' · '}<Link href="/blog" className="underline">Transmissions</Link>
         {' · '}<Link href="/docs" className="underline">API</Link>
         {' · '}<Link href="/tip" className="underline">Support</Link>

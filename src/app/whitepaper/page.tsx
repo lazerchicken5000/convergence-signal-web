@@ -86,13 +86,25 @@ export default function WhitepaperPage() {
 
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
-      <Link href="/" className="text-xs text-zinc-500 hover:text-zinc-300 mb-8 block">&larr; Back to dashboard</Link>
+      <Link href="/" className="text-xs text-zinc-500 hover:text-zinc-300 mb-6 block">&larr; Back to dashboard</Link>
+
+      {/* Cross-link to the visual companion */}
+      <Link
+        href="/protocol"
+        className="block border border-zinc-800 hover:border-zinc-600 rounded-lg p-4 mb-8 transition-colors group"
+      >
+        <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono mb-1">Looking for the visual version?</p>
+        <p className="text-sm text-zinc-300 group-hover:text-zinc-100">
+          Read the <span className="font-medium">interactive protocol explainer</span> with infographics, live measurements, and a simple/nuanced reading toggle &rarr;
+        </p>
+      </Link>
+
       <article
         className="prose-invert"
         dangerouslySetInnerHTML={{ __html: html.join('\n') }}
       />
       <footer className="text-xs text-zinc-600 text-center py-8 mt-10 border-t border-zinc-800">
-        This document evolves with the system it describes. · <Link href="/" className="underline">verg.dev</Link> · <Link href="/glossary" className="underline">Glossary</Link>
+        This document evolves with the system it describes. · <Link href="/" className="underline">verg.dev</Link> · <Link href="/protocol" className="underline">Protocol</Link> · <Link href="/glossary" className="underline">Glossary</Link>
       </footer>
     </main>
   );
