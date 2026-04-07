@@ -545,8 +545,10 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
           </div>
         )}
 
-        {/* Signal empty state — show research overview */}
-        {!selectedId && tab === 'signal' && (
+        {/* Signal empty state — only when no pattern is available at all
+            (e.g. patternData is empty). With the default-select behaviour
+            above, the top pattern is always selected when patterns exist. */}
+        {!selectedPattern && tab === 'signal' && (
           <div className="p-5 space-y-6">
             {/* Scorecard strip */}
             {scorecard && scorecard.total_graded > 0 && (
