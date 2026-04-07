@@ -306,11 +306,24 @@ export function getLeaderLinks(leader: RPGProfile): Array<{ platform: string; ur
 }
 
 // --- Token Cost ---
+//
+// Two measurements per pattern:
+//   - summaryTokens: just the human-readable prose tier (what an agent reads
+//     to skim the pattern). This is the small number — typical ~200-400 tokens.
+//   - curatedTokens: the FULL structured artifact (all four resolution tiers,
+//     scores, presuppositions, foreign keys). This is what an agent ingests
+//     for deep work — typical ~3000-6000 tokens.
+//
+// rawTokens is the sum of chars/4 from every source body_text the pattern
+// absorbed. Both rawTokens and the curated counts are real measurements;
+// chars/4 is the published rough heuristic for tokens-per-character in
+// English (within ~10% of true tokenizer counts for prose).
 
 export interface TokenCost {
-  rawTokens: number;       // estimated tokens in raw source content
-  curatedTokens: number;   // tokens in the curated pattern output
-  savings: number;         // percentage saved (0-100)
+  rawTokens: number;       // measured: sum of source body_text length / 4
+  summaryTokens: number;   // measured: prose summary tier only
+  curatedTokens: number;   // measured: full structured artifact (all tiers)
+  savings: number;         // percentage saved against full curatedTokens (0-100)
   sourceCount: number;
   vectorCount: number;
 }
@@ -318,29 +331,40 @@ export interface TokenCost {
 export function getPatternTokenCost(pattern: ConvergencePattern): TokenCost {
   const sources = getPatternSources(pattern.vector_ids, 999);
 
-  // Estimate raw tokens from source content (load body_text length)
+  // Measure raw tokens from source content (load body_text length)
   let rawChars = 0;
   const contentDir = path.join(CI_BASE, 'content/items');
   for (const s of sources) {
-    const item = readJson<any>(path.join(contentDir, `${s.id}.json`));
-    rawChars += (item?.body_text?.length || 2000); // fallback estimate
+    const item = readJson<{ body_text?: string }>(path.join(contentDir, `${s.id}.json`));
+    rawChars += (item?.body_text?.length || 2000); // fallback when body_text missing
   }
   const rawTokens = Math.round(rawChars / 4);
 
-  // Curated output = pattern label + description + presuppositions + resolution
-  const curatedText = [
+  // Prose summary tier: what you'd read to skim
+  const summaryText = [
     pattern.label,
     pattern.description,
     ...pattern.presupposition_set,
     pattern.resolution_data?.tier1_summary || '',
     pattern.resolution_data?.tier2_temporal || '',
   ].join(' ');
-  const curatedTokens = Math.round(curatedText.length / 4);
+  const summaryTokens = Math.round(summaryText.length / 4);
+
+  // Full curated artifact: every field on the pattern, including all four
+  // resolution tiers and per-source profiles. Foreign-key arrays (vector_ids,
+  // creator_ids) are excluded since they're indices, not knowledge content.
+  const fullArtifact = {
+    ...pattern,
+    vector_ids: undefined,
+    creator_ids: undefined,
+  };
+  const curatedTokens = Math.round(JSON.stringify(fullArtifact).length / 4);
 
   const savings = rawTokens > 0 ? Math.round((1 - curatedTokens / rawTokens) * 10000) / 100 : 0;
 
   return {
     rawTokens,
+    summaryTokens,
     curatedTokens,
     savings,
     sourceCount: sources.length,

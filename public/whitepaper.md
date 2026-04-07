@@ -40,12 +40,21 @@ The source selection is curated — this is where human judgment enters the prot
 
 ### 3.2 Distill — The Token Bake
 
-Every piece of curated intelligence has a processing cost. Verg tracks this as the **token bake**: the number of raw tokens processed to produce each curated insight.
+Every piece of curated intelligence has a processing cost. Verg tracks this as the **token bake**: the raw tokens of source content processed to produce each curated structured artifact.
+
+A typical run, measured from the live data on disk:
 
 ```
-168,000 raw tokens → 315 vectors → 10 convergence patterns
-99.8% compression ratio
+~287,000 raw tokens of source content
+       ↓
+   17 convergence patterns
+   ~12,000 tokens of structured intelligence
+   ~96% compression
 ```
+
+The compression number is **measured** every run from `JSON.stringify` of the actual pattern artifacts (excluding foreign-key indices) divided by the actual `body_text` length of every contributing source. No estimates, no constants. Reproducible from `data/research/token_efficiency.jsonl`.
+
+Each curated pattern is not a small summary — it's a structured intelligence object with four resolution tiers (prose summary, temporal/independence/frame analysis, modal distribution and conflict detection, and per-source profiles for every contributing creator). Agents ingest the full artifact; humans skim the summary tier.
 
 The token bake serves three purposes:
 
@@ -167,7 +176,7 @@ Verg is designed to be queried by AI agents, not just browsed by humans.
 - **Public API**: `/api/patterns` with rate limiting
 - **Token bake in every response**: agents know how much processing was saved
 
-The long-term architecture: agents pay for curated intelligence via x402 micropayments. An agent querying Verg gets 10 curated patterns instead of processing 168K raw tokens — a 99.8% savings. The protocol makes this exchange explicit and priced.
+The long-term architecture: agents pay for curated intelligence via x402 micropayments. An agent querying Verg gets curated convergence patterns — structured intelligence artifacts that compress hundreds of thousands of raw source tokens into ~12K of distilled, audited, source-traceable content (typically a 95-97% reduction, measured per run). The protocol makes this exchange explicit and priced.
 
 ## 10. Open Methodology
 

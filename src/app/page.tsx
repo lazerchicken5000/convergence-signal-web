@@ -47,17 +47,37 @@ export default function DashboardPage() {
       {/* ── HEADER: VERG + heatmap canvas ── */}
       <VergHeader days={calendar} stats={aggStats} />
 
+      {/* ── HERO: protocol introduction ── */}
+      <section className="mb-5 -mt-1 max-w-2xl">
+        <h2 className="text-base sm:text-lg text-zinc-200 leading-snug font-medium">
+          Convergence intelligence — meet mind to mind with the parts of the paradigm.
+        </h2>
+        <p className="text-xs text-zinc-500 leading-relaxed mt-1.5">
+          Verg detects when independent minds arrive at the same conclusion without coordinating, verifies the independence through social-graph analysis, and surfaces the resulting signal to humans and AI agents. Below: today&apos;s convergence patterns and the contributors who shaped them — ranked by what they produce, not who follows them. Read the <Link href="/whitepaper" className="underline decoration-zinc-700 hover:decoration-zinc-400">whitepaper</Link> for the protocol.
+        </p>
+      </section>
+
       {/* ── Tagline left + stats right, same row ── */}
       <div className="flex items-center justify-between mb-6 -mt-2">
         <p className="text-sm text-muted-foreground">
           Sourcing signal. Removing noise. For builders. <span className="font-mono text-zinc-600">@lazerhawk5000</span>
         </p>
         <div className="flex items-center gap-4 text-[11px] text-zinc-600 font-mono shrink-0">
-          <span>{aggStats.totalTokensBaked >= 1000 ? `${(aggStats.totalTokensBaked / 1000).toFixed(0)}K` : aggStats.totalTokensBaked} baked</span>
-          <span>{aggStats.totalArticles} sources</span>
-          <span>{aggStats.totalLeaders} leaders</span>
-          <span>{aggStats.totalPatterns} patterns</span>
-          <span>{aggStats.activeDays} active</span>
+          <span title="Token bake — raw source tokens compressed into structured intelligence (chars/4 measured every run; ~96% compression)">
+            {aggStats.totalTokensBaked >= 1000 ? `${(aggStats.totalTokensBaked / 1000).toFixed(0)}K` : aggStats.totalTokensBaked} baked
+          </span>
+          <span title="Independent content items the protocol has absorbed (papers, repos, posts, episodes)">
+            {aggStats.totalArticles} sources
+          </span>
+          <span title="Contributors ranked by originality, independence, centrality, and source depth — never followers">
+            {aggStats.totalLeaders} leaders
+          </span>
+          <span title="Convergence patterns — insights where multiple independent voices arrived at the same conclusion, verified via PageRank + Louvain communities">
+            {aggStats.totalPatterns} patterns
+          </span>
+          <span title="Days the autonomous pipeline produced new content">
+            {aggStats.activeDays} active
+          </span>
         </div>
       </div>
 
