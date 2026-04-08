@@ -20,7 +20,11 @@ export default function TipPage() {
       });
       const data = await res.json();
       if (data.url) {
-        window.location.href = data.url;
+        // Use the method call instead of assigning to window.location.href.
+        // The React Compiler immutability rule rejects direct property
+        // mutation on values defined outside the component, but
+        // window.location.assign() is a method call, which the rule allows.
+        window.location.assign(data.url);
       } else {
         setLoading(false);
       }
@@ -36,7 +40,7 @@ export default function TipPage() {
           Support Verg
         </h1>
         <p className="text-sm text-zinc-400 text-center mt-3 mb-2 leading-relaxed">
-          If you like Verg and what we're building, consider sending a tip.
+          If you like Verg and what we&apos;re building, consider sending a tip.
         </p>
         <p className="text-xs text-zinc-600 text-center mb-8">
           API costs can stack up — every bit helps keep the pipeline running.

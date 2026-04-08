@@ -1,7 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const PASSWORD = 'verg5000';
-const USERNAME = 'signal';
+// Dashboard auth credentials are read from environment variables.
+// Set DASHBOARD_USERNAME and DASHBOARD_PASSWORD in .env.local (locally)
+// or via Vercel project env vars (prod). If either is missing, the
+// middleware FAILS CLOSED — every protected route returns 503 with a
+// clear setup message rather than silently allowing access or falling
+// back to a hardcoded value.
+//
+// Var names match the existing DASHBOARD_PASSWORD convention already
+// in .env.local from a prior partial migration.
+const USERNAME = process.env.DASHBOARD_USERNAME;
+const PASSWORD = process.env.DASHBOARD_PASSWORD;
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -29,6 +38,15 @@ export function middleware(request: NextRequest) {
       pathname.startsWith('/blog') ||
       pathname.startsWith('/docs')) {
     return NextResponse.next();
+  }
+
+  // Fail safely if credentials are not configured. Refuses access
+  // rather than allowing unauthenticated requests through.
+  if (!USERNAME || !PASSWORD) {
+    return new NextResponse(
+      'Dashboard auth not configured. Set VERG_DASHBOARD_USERNAME and VERG_DASHBOARD_PASSWORD env vars.',
+      { status: 503 },
+    );
   }
 
   const authHeader = request.headers.get('authorization');

@@ -2,10 +2,19 @@
 /**
  * Copy content/blog/*.md → public/blog/<slug>.md
  * Runs before build so agents can fetch raw markdown at /blog/<slug>.md
+ *
+ * This is a Node.js build script that runs OUTSIDE the Next.js bundler.
+ * Stays as CommonJS because the web project's package.json doesn't set
+ * "type": "module" — switching this one file to ESM would require either
+ * a .mjs rename or a project-wide module type change. The eslint-disable
+ * keeps the no-require-imports rule (a sensible default for source code)
+ * without flagging this build helper.
  */
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require('fs');
 const path = require('path');
+/* eslint-enable @typescript-eslint/no-require-imports */
 
 const CONTENT_DIR = path.join(__dirname, '..', 'content', 'blog');
 const PUBLIC_DIR = path.join(__dirname, '..', 'public', 'blog');

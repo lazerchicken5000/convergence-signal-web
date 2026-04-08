@@ -10,6 +10,30 @@ import path from 'path';
 
 const CI_BASE = path.join(process.cwd(), 'data');
 
+// Shape of the JSON files written by trenddistill into data/content/items/.
+// Used by every readJson<RawContentItem>() call below — replaces the
+// previous `any` casts that tripped @typescript-eslint/no-explicit-any.
+// Most fields are optional because trenddistill's pipeline doesn't
+// guarantee any of them on every item shape (some sources only set
+// a subset). Required fallbacks are applied at the call site.
+interface RawContentItem {
+  id: string;
+  source?: string;
+  source_url?: string;
+  title?: string;
+  body_text?: string;
+  content_type?: string;
+  published_at?: string;
+  ingested_at?: string;
+  created_at?: string;
+  creator?: {
+    id?: string;
+    name?: string;
+    handle?: string;
+    platform?: string;
+  };
+}
+
 // --- Types ---
 
 export interface ConvergencePattern {
@@ -186,7 +210,7 @@ export function getPatternSources(vectorIds: string[], limit = 10): ContentItem[
   for (const cid of contentIds) {
     if (items.length >= limit) break;
     const itemPath = path.join(contentDir, `${cid}.json`);
-    const item = readJson<any>(itemPath);
+    const item = readJson<RawContentItem>(itemPath);
     if (item?.source_url) {
       items.push({
         id: item.id,
@@ -246,7 +270,7 @@ export function getPatternSynthesis(pattern: ConvergencePattern): SynthesisChain
 
     const sources: ContentItem[] = [];
     for (const cid of vector.source_content_ids) {
-      const item = readJson<any>(path.join(contentDir, `${cid}.json`));
+      const item = readJson<RawContentItem>(path.join(contentDir, `${cid}.json`));
       if (item?.source_url) {
         sources.push({
           id: item.id,
@@ -439,7 +463,7 @@ export function getLeaderSourcedContributions(leaderId: string): ContentItem[] {
 
   for (const file of files) {
     if (items.length >= 10) break;
-    const item = readJson<any>(path.join(contentDir, file));
+    const item = readJson<RawContentItem>(path.join(contentDir, file));
     if (item?.creator?.id === leaderId && item?.source_url) {
       items.push({
         id: item.id,
@@ -558,7 +582,7 @@ export function getActivityCalendar(): DayActivity[] {
   const dayCounts: Record<string, number> = {};
   if (existsSync(contentDir)) {
     for (const f of readdirSync(contentDir).filter(f => f.endsWith('.json'))) {
-      const item = readJson<any>(path.join(contentDir, f));
+      const item = readJson<RawContentItem>(path.join(contentDir, f));
       const date = (item?.ingested_at || item?.created_at || '')?.slice(0, 10);
       if (date) dayCounts[date] = (dayCounts[date] || 0) + 1;
     }

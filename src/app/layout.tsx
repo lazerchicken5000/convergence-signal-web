@@ -1,17 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { CSSProperties } from "react";
 import { StarField } from "@/components/star-field";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// Previously this file imported Geist and Geist_Mono from next/font/google,
+// which fetches the font files from Google Fonts at build time. That call
+// is the single biggest source of build flakiness in this repo — when the
+// network blips or Google rate-limits, the entire production build fails.
+//
+// We now define the same CSS variables (--font-geist-sans / --font-geist-mono)
+// inline on the html element using system-font stacks. If a user has Geist
+// installed locally it'll be picked up first; otherwise the OS fallback
+// chain takes over (SF Pro on macOS, Segoe UI on Windows, Roboto on Linux).
+// All component code that uses var(--font-geist-mono) etc. continues to
+// work unchanged.
+const FONT_VARS: CSSProperties & Record<string, string> = {
+  "--font-geist-sans": '"Geist", "Geist Sans", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif',
+  "--font-geist-mono": '"Geist Mono", "SF Mono", "Menlo", "Monaco", "Cascadia Mono", "Consolas", monospace',
+};
 
 export const metadata: Metadata = {
   title: "Verg — @lazerhawk5000",
@@ -26,7 +32,8 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} dark h-full antialiased scroll-smooth`}
+      className="dark h-full antialiased scroll-smooth"
+      style={FONT_VARS}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground relative">
         <StarField />
