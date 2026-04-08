@@ -1,0 +1,41 @@
+{
+  "id": "td_2e6a71d8",
+  "source": "arxiv",
+  "source_id": "2604.06123",
+  "source_url": "https://arxiv.org/abs/2604.06123",
+  "content_type": "paper",
+  "creator": {
+    "id": "aman_singh",
+    "name": "Aman Singh",
+    "handle": "Aman Singh",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Large-Scale Empirical Comparison of Meta-Learners and Causal Forests for Heterogeneous Treatment Effect Estimation in Marketing Uplift Modeling",
+  "body_text": "A Large-Scale Empirical Comparison of Meta-Learners and Causal Forests for Heterogeneous Treatment Effect Estimation in Marketing Uplift Modeling\n\nEstimating Conditional Average Treatment Effects (CATE) at the individual level is central to precision marketing, yet systematic benchmarking of uplift modeling methods at industrial scale remains limited. We present UpliftBench, an empirical evaluation of four CATE estimators: S-Learner, T-Learner, X-Learner (all with LightGBM base learners), and Causal Forest (EconML), applied to the Criteo Uplift v2.1 dataset comprising 13.98 million customer records. The near-random treatment assignment (propensity AUC = 0.509) provides strong internal validity for causal estimation. Evaluated via Qini coefficient and cumulative gain curves, the S-Learner achieves the highest Qini score of 0.376, with the top 20% of customers ranked by predicted CATE capturing 77.7% of all incremental conversions, a 3.9x improvement over random targeting. SHAP analysis identifies f8 as the dominant heterogeneous treatment effect (HTE) driver among the 12 anonymized covariates. Causal Forest uncertainty quantification reveals that 1.9% of customers are confident persuadables (lower 95% CI &gt; 0) and 0.1% are confident sleeping dogs (upper 95% CI &lt; 0). Our results provide practitioners with evidence-based guidance on method selection for large-scale uplift modeling pipelines.\n\nAuthors: Aman Singh\nCategories: stat.CO, cs.LG, econ.EM, stat.ME, stat.CO",
+  "word_count": 175,
+  "published_at": "2026-04-07T17:35:45Z",
+  "ingested_at": "2026-04-08T11:03:27.147Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.CO",
+    "cs.LG",
+    "econ.EM",
+    "stat.ME",
+    "stat.CO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

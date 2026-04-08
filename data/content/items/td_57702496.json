@@ -1,0 +1,39 @@
+{
+  "id": "td_57702496",
+  "source": "arxiv",
+  "source_id": "2604.06158",
+  "source_url": "https://arxiv.org/abs/2604.06158",
+  "content_type": "paper",
+  "creator": {
+    "id": "lukas-benedikt_fiechtner",
+    "name": "Lukas-Benedikt Fiechtner",
+    "handle": "Lukas-Benedikt Fiechtner, Jose Blanchet",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Distributionally Robust Regret Optimal LQR with Common Stage-Law Ambiguity",
+  "body_text": "Distributionally Robust Regret Optimal LQR with Common Stage-Law Ambiguity\n\nWe study, to our knowledge, the first tractable multistage ex-ante distributionally robust regret optimization (DRRO) formulation for stochastic control. We consider finite-horizon LQR under common stage-law ambiguity: disturbances are independent across time but share an unknown stage law whose mean and covariance lie in a Gelbrich ball around nominal parameters. Unlike the single-stage quadratic case, the nominal certainty-equivalent (CE) controller is generally not regret-optimal, because reuse of the stage law makes past disturbances informative for future decisions. Despite the general NP-hardness of DRRO, we show that over linear disturbance-feedback policies the resulting multistage DRRO-LQR problem admits an exact semidefinite programming reformulation. The optimal controller is the nominal certainty-equivalent LQR law plus a strictly causal empirical-mean correction. We also characterize worst-case distributions and show that those for the DRRO-optimal policy are nonunique. Numerical results show that, relative to the corresponding DRO controller under the same ambiguity set, DRRO is often substantially less conservative while preserving the intended regret guarantee, and that its correction coefficients empirically approach the certainty-equivalent feedforward coefficient.\n\nAuthors: Lukas-Benedikt Fiechtner, Jose Blanchet\nCategories: math.OC, eess.SY, math.OC",
+  "word_count": 169,
+  "published_at": "2026-04-07T17:55:56Z",
+  "ingested_at": "2026-04-08T11:03:39.885Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "eess.SY",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

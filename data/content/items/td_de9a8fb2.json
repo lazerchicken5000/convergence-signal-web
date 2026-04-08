@@ -1,0 +1,35 @@
+{
+  "id": "td_de9a8fb2",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "GLM-5.1: Towards Long-Horizon Tasks",
+  "body_text": "GLM-5.1: Towards Long-Horizon Tasks\nChinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face) MIT-licensed monster - the same size as their previous GLM-5 release, and sharing the same paper.\nIt's available via OpenRouter so I asked it to draw me a pelican:\nllm install llm-openrouter\nllm -m openrouter/z-ai/glm-5.1 'Generate an SVG of a pelican on a bicycle'\n\nAnd something new happened... unprompted, the model decided to give me an HTML page that included both the SVG and a separate set of CSS animations!\nThe SVG was excellent, and might be my new favorite from an open weights model:\n\nBut the animation broke it:\n\nThat's the pelican, floating up in the top left corner.\nI usually don't do follow-up prompts for the pelican test, but in this case I made an exception:\nllm -c 'the animation is a bit broken, the pelican ends up positioned off the screen at the top right'\n\nGLM 5.1 replied:\n\nThe issue is that CSS transform animations on SVG elements override the SVG transform attribute used for positioning, causing the pelican to lose its placement and fly off to the top-right. The fix is to separate positioning (SVG attribute) from animation (inner group) and use &lt;animateTransform&gt; for SVG rotations since it handles coordinate systems correctly.\n\nAnd spat out fresh HTML which fixed the problem!\n\nI particularly like the animation of the beak, which is described in the SVG comments like so:\n&lt;!-- Pouch (lower beak) with wobble --&gt;\n&lt;g&gt;\n    &lt;path d=\"M42,-58 Q43,-50 48,-42 Q55,-35 62,-38 Q70,-42 75,-60 L42,-58 Z\" fill=\"url(#pouchGrad)\" stroke=\"#b06008\" stroke-width=\"1\" opacity=\"0.9\"/&gt;\n    &lt;path d=\"M48,-50 Q55,-46 60,-52\" fill=\"none\" stroke=\"#c06a08\" stroke-width=\"0.8\" opacity=\"0.6\"/&gt;\n    &lt;animateTransform attributeName=\"transform\" type=\"scale\"\n    values=\"1,1; 1.03,0.97; 1,1\" dur=\"0.75s\" repeatCount=\"indefinite\"\n    additive=\"sum\"/&gt;\n&lt;/g&gt;\n\nUpdate: On Bluesky @charles.capps.me suggested a \"NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER\" and...\n\nThe HTML+SVG comments on that one include /* Earring sparkle */, &lt;!-- Opossum fur gradient --&gt;, &lt;!-- Distant treeline silhouette - Virginia pines --&gt;,  &lt;!-- Front paw on handlebar --&gt; - here's the transcript and the HTML result.\n\n\n    Tags: css, svg, ai, generative-ai, llms, pelican-riding-a-bicycle, llm-release, ai-in-china, glm",
+  "word_count": 342,
+  "published_at": "2026-04-07T21:25:14.000Z",
+  "ingested_at": "2026-04-08T11:00:06.925Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

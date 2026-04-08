@@ -1,0 +1,40 @@
+{
+  "id": "td_aab6e6eb",
+  "source": "arxiv",
+  "source_id": "2604.06155",
+  "source_url": "https://arxiv.org/abs/2604.06155",
+  "content_type": "paper",
+  "creator": {
+    "id": "qimin_zhong",
+    "name": "Qimin Zhong",
+    "handle": "Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao, Wei Chen, Naipeng Chao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement",
+  "body_text": "Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement\n\nWhether Large Language Models (LLMs) develop coherent internal world models remains a core debate. While conventional Next-Token Prediction (NTP) focuses on one-step-ahead supervision, Multi-Token Prediction (MTP) has shown promise in learning more structured representations. In this work, we provide a theoretical perspective analyzing the gradient inductive bias of MTP, supported by empirical evidence, showing that MTP promotes the convergence toward internal belief states by inducing representational contractivity via gradient coupling. However, we reveal that standard MTP often suffers from structural hallucinations, where discrete token supervision encourages illegal shortcuts in latent space that violate environmental constraints. To address this, we propose a novel method Latent Semantic Enhancement MTP (LSE-MTP), which anchors predictions to ground-truth hidden state trajectories. Experiments on synthetic graphs and real-world Manhattan Taxi Ride show that LSE-MTP effectively bridges the gap between discrete tokens and continuous state representations, enhancing representation alignment, reducing structural hallucinations, and improving robustness to perturbations.\n\nAuthors: Qimin Zhong, Hao Liao, Haiming Qin, Mingyang Zhou, Rui Mao, Wei Chen, Naipeng Chao\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 150,
+  "published_at": "2026-04-07T17:54:22Z",
+  "ingested_at": "2026-04-08T11:03:19.139Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

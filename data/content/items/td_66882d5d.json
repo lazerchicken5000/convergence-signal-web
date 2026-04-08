@@ -1,0 +1,39 @@
+{
+  "id": "td_66882d5d",
+  "source": "arxiv",
+  "source_id": "2604.06098",
+  "source_url": "https://arxiv.org/abs/2604.06098",
+  "content_type": "paper",
+  "creator": {
+    "id": "jayr_pereira",
+    "name": "Jayr Pereira",
+    "handle": "Jayr Pereira, Leandro Fernandes, Erick de Brito, Roberto Lotufo, Luiz Bonifacio",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "JUÁ - A Benchmark for Information Retrieval in Brazilian Legal Text Collections",
+  "body_text": "JUÁ - A Benchmark for Information Retrieval in Brazilian Legal Text Collections\n\nLegal information retrieval in Portuguese remains difficult to evaluate systematically because available datasets differ widely in document type, query style, and relevance definition. We present \\textsc{JUÁ}, a public benchmark for Brazilian legal retrieval designed to support more reproducible and comparable evaluation across heterogeneous legal collections. More broadly, \\textsc{JUÁ} is intended not only as a benchmark, but as a continuous evaluation infrastructure for Brazilian legal IR, combining shared protocols, common ranking metrics, fixed splits when applicable, and a public leaderboard. The benchmark covers jurisprudence retrieval as well as broader legislative, regulatory, and question-driven legal search. We evaluate lexical, dense, and BM25-based reranking pipelines, including a domain-adapted Qwen embedding model fine-tuned on \\textsc{JUÁ}-aligned supervision. Results show that the benchmark is sufficiently heterogeneous to distinguish retrieval paradigms and reveal substantial cross-dataset trade-offs. Domain adaptation yields its clearest gains on the supervision-aligned \\textsc{JUÁ-Juris} subset, while BM25 remains highly competitive on other collections, especially in settings with strong lexical and institutional phrasing cues. Overall, \\textsc{JUÁ} provides a practical evaluation framework for studying legal retrieval across multiple Brazilian legal domains under a common benchmark design.\n\nAuthors: Jayr Pereira, Leandro Fernandes, Erick de Brito, Roberto Lotufo, Luiz Bonifacio\nCategories: cs.IR, cs.CL, cs.IR",
+  "word_count": 179,
+  "published_at": "2026-04-07T17:10:54Z",
+  "ingested_at": "2026-04-08T11:03:23.200Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.CL",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

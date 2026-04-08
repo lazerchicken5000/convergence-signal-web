@@ -1,0 +1,39 @@
+{
+  "id": "td_0e3cdd61",
+  "source": "arxiv",
+  "source_id": "2604.06138",
+  "source_url": "https://arxiv.org/abs/2604.06138",
+  "content_type": "paper",
+  "creator": {
+    "id": "yanis_labrak",
+    "name": "Yanis Labrak",
+    "handle": "Yanis Labrak, David Grünert, Séverin Baroudi, Jiyun Chun, Pawel Cyrta, Sergio Burdisso, Ahmed Hassoon, David Liu, Adam Rothschild, Reed Van Deusen, Petr Motlicek, Andrew Perrault, Ricard Marxer, Thomas Schaaf",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization",
+  "body_text": "Generating Synthetic Doctor-Patient Conversations for Long-form Audio Summarization\n\nLong-context audio reasoning is underserved in both training data and evaluation. Existing benchmarks target short-context tasks, and the open-ended generation tasks most relevant to long-context reasoning pose well-known challenges for automatic evaluation. We propose a synthetic data generation pipeline designed to serve both as a training resource and as a controlled evaluation environment, and instantiate it for first-visit doctor-patient conversations with SOAP note generation as the task. The pipeline has three stages, persona-driven dialogue generation, multi-speaker audio synthesis with overlap/pause modeling, room acoustics, and sound events, and LLM-based reference SOAP note production, built entirely on open-weight models. We release 8,800 synthetic conversations with 1.3k hours of corresponding audio and reference notes. Evaluating current open-weight systems, we find that cascaded approaches still substantially outperform end-to-end models.\n\nAuthors: Yanis Labrak, David Grünert, Séverin Baroudi, Jiyun Chun, Pawel Cyrta, Sergio Burdisso, Ahmed Hassoon, David Liu, Adam Rothschild, Reed Van Deusen, Petr Motlicek, Andrew Perrault, Ricard Marxer, Thomas Schaaf\nCategories: cs.SD, cs.AI, cs.SD",
+  "word_count": 125,
+  "published_at": "2026-04-07T17:45:07Z",
+  "ingested_at": "2026-04-08T11:03:19.140Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.AI",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

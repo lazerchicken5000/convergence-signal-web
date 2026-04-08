@@ -1,0 +1,39 @@
+{
+  "id": "td_3a3f5be6",
+  "source": "arxiv",
+  "source_id": "2604.06126",
+  "source_url": "https://arxiv.org/abs/2604.06126",
+  "content_type": "paper",
+  "creator": {
+    "id": "pranjal_aggarwal",
+    "name": "Pranjal Aggarwal",
+    "handle": "Pranjal Aggarwal, Graham Neubig, Sean Welleck",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Gym-Anything: Turn any Software into an Agent Environment",
+  "body_text": "Gym-Anything: Turn any Software into an Agent Environment\n\nComputer-use agents hold the promise of assisting in a wide range of digital economic activities. However, current research has largely focused on short-horizon tasks over a limited set of software with limited economic value, such as basic e-commerce and OS-configuration tasks. A key reason is that creating environments for complex software requires significant time and human effort, and therefore does not scale. To address this, we introduce Gym-Anything, a framework for converting any software into an interactive computer-use environment. We frame environment creation itself as a multi-agent task: a coding agent writes setup scripts, downloads real-world data, and configures the software, while producing evidence of correct setup. An independent audit agent then verifies evidence for the environment setup against a quality checklist. Using a taxonomy of economically valuable occupations grounded in U.S. GDP data, we apply this pipeline to 200 software applications with broad occupational coverage. The result is CUA-World, a collection of over 10K long-horizon tasks spanning domains from medical science and astronomy to engineering and enterprise systems, each configured with realistic data along with train and test splits. CUA-World also includes CUA-World-Long, a challenging long-horizon benchmark with tasks often requiring over 500 steps, far exceeding existing benchmarks. Distilling successful trajectories from the training split into a 2B vision-language model outperforms models 2$\\times$ its size. We also apply the same auditing principle at test time: a separate VLM reviews completed trajectories and provides feedback on what remains, improving Gemini-3-Flash on CUA-World-Long from 11.5% to 14.0%. We release all code, infrastructure, and benchmark data to facilitate future research in realistic computer-use agents.\n\nAuthors: Pranjal Aggarwal, Graham Neubig, Sean Welleck\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 262,
+  "published_at": "2026-04-07T17:38:15Z",
+  "ingested_at": "2026-04-08T11:03:19.141Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_b667282e",
+  "source": "arxiv",
+  "source_id": "2604.06086",
+  "source_url": "https://arxiv.org/abs/2604.06086",
+  "content_type": "paper",
+  "creator": {
+    "id": "olexander_mazurets",
+    "name": "Olexander Mazurets",
+    "handle": "Olexander Mazurets, Olexander Barmak, Leonid Bedratyuk, Iurii Krak",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LAG-XAI: A Lie-Inspired Affine Geometric Framework for Interpretable Paraphrasing in Transformer Latent Spaces",
+  "body_text": "LAG-XAI: A Lie-Inspired Affine Geometric Framework for Interpretable Paraphrasing in Transformer Latent Spaces\n\nModern Transformer-based language models achieve strong performance in natural language processing tasks, yet their latent semantic spaces remain largely uninterpretable black boxes. This paper introduces LAG-XAI (Lie Affine Geometry for Explainable AI), a novel geometric framework that models paraphrasing not as discrete word substitutions, but as a structured affine transformation within the embedding space. By conceptualizing paraphrasing as a continuous geometric flow on a semantic manifold, we propose a computationally efficient mean-field approximation, inspired by local Lie group actions. This allows us to decompose paraphrase transitions into geometrically interpretable components: rotation, deformation, and translation. Experiments on the noisy PIT-2015 Twitter corpus, encoded with Sentence-BERT, reveal a \"linear transparency\" phenomenon. The proposed affine operator achieves an AUC of 0.7713. By normalizing against random chance (AUC 0.5), the model captures approximately 80% of the non-linear baseline's effective classification capacity (AUC 0.8405), offering explicit parametric interpretability in exchange for a marginal drop in absolute accuracy. The model identifies fundamental geometric invariants, including a stable matrix reconfiguration angle (~27.84°) and near-zero deformation, indicating local isometry. Cross-domain generalization is confirmed via direct cross-corpus validation on an independent TURL dataset. Furthermore, the practical utility of LAG-XAI is demonstrated in LLM hallucination detection: using a \"cheap geometric check,\" the model automatically detected 95.3% of factual distortions on the HaluEval dataset by registering deviations beyond the permissible semantic corridor. This approach provides a mathematically grounded, resource-efficient path toward the mechanistic interpretability of Transformers.\n\nAuthors: Olexander Mazurets, Olexander Barmak, Leonid Bedratyuk, Iurii Krak\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 235,
+  "published_at": "2026-04-07T17:02:21Z",
+  "ingested_at": "2026-04-08T11:03:23.200Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

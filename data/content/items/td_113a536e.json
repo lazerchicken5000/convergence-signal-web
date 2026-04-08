@@ -1,0 +1,38 @@
+{
+  "id": "td_113a536e",
+  "source": "arxiv",
+  "source_id": "2604.06134",
+  "source_url": "https://arxiv.org/abs/2604.06134",
+  "content_type": "paper",
+  "creator": {
+    "id": "sangwook_lee",
+    "name": "Sangwook Lee",
+    "handle": "Sangwook Lee, Sang Won Lee, Adnan Abbas, Young-Ho Kim, Yan Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs",
+  "body_text": "MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs\n\nModern task-oriented chatbots present GUI elements alongside natural-language dialogue, yet the agent's role has largely been limited to interpreting natural-language input as GUI actions and following a linear workflow. In preference-driven, multi-step tasks such as booking a flight or reserving a restaurant, earlier choices constrain later options and may force users to restart from scratch. User preferences serve as the key criteria for these decisions, yet existing agents do not systematically leverage them. We present MAESTRO, which extends the agent's role from execution to decision support. MAESTRO maintains a shared preference memory that extracts preferences from natural-language utterances with their strength, and provides two mechanisms. Preference-Grounded GUI Adaptation applies in-place operators (augment, sort, filter, and highlight) to the existing GUI according to preference strength, supporting within-stage comparison. Preference-Guided Workflow Navigation detects conflicts between preferences and available options, proposes backtracking, and records failed paths to avoid revisiting dead ends. We evaluated MAESTRO in a movie-booking Conversational Agent with GUI (CAG) through a within-subjects study with two conditions (Baseline vs. MAESTRO) and two modes (Text vs. Voice), with N = 33 participants.\n\nAuthors: Sangwook Lee, Sang Won Lee, Adnan Abbas, Young-Ho Kim, Yan Chen\nCategories: cs.HC, cs.HC",
+  "word_count": 180,
+  "published_at": "2026-04-07T17:44:19Z",
+  "ingested_at": "2026-04-08T11:03:31.354Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.HC",
+    "cs.HC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
