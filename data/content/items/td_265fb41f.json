@@ -1,0 +1,38 @@
+{
+  "id": "td_265fb41f",
+  "source": "arxiv",
+  "source_id": "2604.07342",
+  "source_url": "https://arxiv.org/abs/2604.07342",
+  "content_type": "paper",
+  "creator": {
+    "id": "yurun_gan",
+    "name": "Yurun Gan",
+    "handle": "Yurun Gan, Ziyu Song, Jing Yang, Zheng Lin, Jianuo Zhang, Tongtong Gu, Haitao Ding, Nan Xu, Por Lip Yee, Wei Ni, Jun Luo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dual-Envelope Constrained Nonlinear MPC for Distributed Drive Electric Vehicles Drifting Under Bounded Steering and Direct Yaw-Moment Control",
+  "body_text": "Dual-Envelope Constrained Nonlinear MPC for Distributed Drive Electric Vehicles Drifting Under Bounded Steering and Direct Yaw-Moment Control\n\nDistributed drive electric vehicles offer superior yaw moment control for autonomous drifting in extreme maneuvers. Conventional drift analysis constructs stability boundaries from open loop equilibria points and assumes a fixed envelope structure. However, coupling among control inputs reshapes the phase plane and shifts saddle point location, which can invalidate open loop envelopes when used for closed loop drifting. To address this issue, a saddle point coordinate model is established in this paper by combining a nonlinear tire model with the handling diagram and explicitly accounting for road adhesion coefficient, longitudinal velocity, front wheel steering angle, and additional yaw moment. Based on saddle point properties, an extended dual envelope framework is constructed in the phase plane of slip angle and yaw rate. Using the convergence tendency of state points toward saddle points under bounded control inputs, the outer envelope defines a recoverable set under constraints on front wheel steering angle and additional yaw moment. The inner envelope characterizes the non-drifting stability region associated with unsaturated tire forces. Finally, a nonlinear model predictive control (NMPC) controller is developed using the extended dual envelope constraint. Hardware-in-the-loop experiments show that, compared with NMPC without envelope constraints, the proposed method enables smoother convergence toward the drift saddle point, reduces the steady-state tracking errors of vehicle speed, sideslip angle, and yaw rate by 33.07%, 71.18%, and 31.27%, respectively, and decreases the peak tracking error by 63.66% under road-friction mismatch.\n\nAuthors: Yurun Gan, Ziyu Song, Jing Yang, Zheng Lin, Jianuo Zhang, Tongtong Gu, Haitao Ding, Nan Xu, Por Lip Yee, Wei Ni, Jun Luo\nCategories: eess.SY, eess.SY",
+  "word_count": 233,
+  "published_at": "2026-04-08T17:54:30Z",
+  "ingested_at": "2026-04-09T11:04:05.679Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SY",
+    "eess.SY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

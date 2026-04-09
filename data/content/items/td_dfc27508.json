@@ -1,0 +1,38 @@
+{
+  "id": "td_dfc27508",
+  "source": "arxiv",
+  "source_id": "2604.07329",
+  "source_url": "https://arxiv.org/abs/2604.07329",
+  "content_type": "paper",
+  "creator": {
+    "id": "junqi_liu",
+    "name": "Junqi Liu",
+    "handle": "Junqi Liu, Xinze Zhou, Wenxuan Li, Scott Ye, Arkadiusz Sitek, Xiaofeng Yang, Yucheng Tang, Daguang Xu, Kai Ding, Kang Wang, Yang Yang, Alan L. Yuille, Zongwei Zhou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Distilling Photon-Counting CT into Routine Chest CT through Clinically Validated Degradation Modeling",
+  "body_text": "Distilling Photon-Counting CT into Routine Chest CT through Clinically Validated Degradation Modeling\n\nPhoton-counting CT (PCCT) provides superior image quality with higher spatial resolution and lower noise compared to conventional energy-integrating CT (EICT), but its limited clinical availability restricts large-scale research and clinical deployment. To bridge this gap, we propose SUMI, a simulated degradation-to-enhancement method that learns to reverse realistic acquisition artifacts in low-quality EICT by leveraging high-quality PCCT as reference. Our central insight is to explicitly model realistic acquisition degradations, transforming PCCT into clinically plausible lower-quality counterparts and learning to invert this process. The simulated degradations were validated for clinical realism by board-certified radiologists, enabling faithful supervision without requiring paired acquisitions at scale. As outcomes of this technical contribution, we: (1) train a latent diffusion model on 1,046 PCCTs, using an autoencoder first pre-trained on both these PCCTs and 405,379 EICTs from 145 hospitals to extract general CT latent features that we release for reuse in other generative medical imaging tasks; (2) construct a large-scale dataset of over 17,316 publicly available EICTs enhanced to PCCT-like quality, with radiologist-validated voxel-wise annotations of airway trees, arteries, veins, lungs, and lobes; and (3) demonstrate substantial improvements: across external data, SUMI outperforms state-of-the-art image translation methods by 15% in SSIM and 20% in PSNR, improves radiologist-rated clinical utility in reader studies, and enhances downstream top-ranking lesion detection performance, increasing sensitivity by up to 15% and F1 score by up to 10%. Our results suggest that emerging imaging advances can be systematically distilled into routine EICT using limited high-quality scans as reference.\n\nAuthors: Junqi Liu, Xinze Zhou, Wenxuan Li, Scott Ye, Arkadiusz Sitek, Xiaofeng Yang, Yucheng Tang, Daguang Xu, Kai Ding, Kang Wang, Yang Yang, Alan L. Yuille, Zongwei Zhou\nCategories: cs.CV, cs.CV",
+  "word_count": 245,
+  "published_at": "2026-04-08T17:47:35Z",
+  "ingested_at": "2026-04-09T11:04:01.284Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

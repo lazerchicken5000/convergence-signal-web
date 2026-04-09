@@ -1,0 +1,40 @@
+{
+  "id": "td_f87d0a9f",
+  "source": "arxiv",
+  "source_id": "2604.07325",
+  "source_url": "https://arxiv.org/abs/2604.07325",
+  "content_type": "paper",
+  "creator": {
+    "id": "m._sampson",
+    "name": "M. Sampson",
+    "handle": "M. Sampson, K. S. Chan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Conformal Prediction with Time-Series Data via Sequential Conformalized Density Regions",
+  "body_text": "Conformal Prediction with Time-Series Data via Sequential Conformalized Density Regions\n\nWe propose a new conformal prediction method for time-series data with a guaranteed asymptotic conditional coverage rate, Sequential Conformalized Density Regions (SCDR), which is flexible enough to produce both prediction intervals and disconnected prediction sets, signifying the emergence of bifurcations. Our approach uses existing estimated conditional highest density predictive regions to form initial predictive regions. We then use a quantile random forest conformal adjustment to provide guaranteed coverage while adaptively changing to take the non-exchangeable nature of time-series data into account. We show that the proposed method achieves the guaranteed coverage rate asymptotically under certain regularity conditions. In particular, the method is doubly robust -- it works if the predictive density model is correctly specified and/or if the scores follow a nonlinear autoregressive model with the correct order specified. Simulations reveal that the proposed method outperforms existing methods in terms of empirical coverage rates and set sizes. We illustrate the method using two real datasets, the Old Faithful geyser dataset and the Australian electricity usage dataset. Prediction sets formed using SCDR for the geyser eruption durations include both single intervals and unions of two intervals, whereas existing methods produce wider, less informative, single-interval prediction sets.\n\nAuthors: M. Sampson, K. S. Chan\nCategories: stat.ME, math.ST, stat.ML, stat.ME",
+  "word_count": 195,
+  "published_at": "2026-04-08T17:38:44Z",
+  "ingested_at": "2026-04-09T11:04:01.284Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "math.ST",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

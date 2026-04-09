@@ -1,0 +1,41 @@
+{
+  "id": "td_b538104b",
+  "source": "arxiv",
+  "source_id": "2604.07238",
+  "source_url": "https://arxiv.org/abs/2604.07238",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiaoyu_li",
+    "name": "Xiaoyu Li",
+    "handle": "Xiaoyu Li, Andi Han, Jiaojiao Jiang, Junbin Gao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the Price of Privacy for Language Identification and Generation",
+  "body_text": "On the Price of Privacy for Language Identification and Generation\n\nAs large language models (LLMs) are increasingly trained on sensitive user data, understanding the fundamental cost of privacy in language learning becomes essential. We initiate the study of differentially private (DP) language identification and generation in the agnostic statistical setting, establishing algorithms and matching lower bounds that precisely quantify the cost of privacy. For both tasks, approximate $(\\varepsilon, δ)$-DP with constant $\\varepsilon &gt; 0$ recovers the non-private error rates: $\\exp(-r(n))$ for identification (for any $r(n) = o(n)$) and $\\exp(-Ω(n))$ for generation. Under pure $\\varepsilon$-DP, the exponents degrade by a multiplicative factor of $\\min\\{1, \\varepsilon\\}$, which we show is tight up to constants. Notably, for generation under pure DP with mild assumptions, the upper bound $\\exp(-\\min\\{1,\\varepsilon\\} \\cdot Ω(n))$ matches the lower bound up to some constants, establishing an optimal rate. Our results show that the cost of privacy in language learning is surprisingly mild: absent entirely under approximate DP, and exactly a $\\min\\{1,\\varepsilon\\}$ factor in the exponent under pure DP.\n\nAuthors: Xiaoyu Li, Andi Han, Jiaojiao Jiang, Junbin Gao\nCategories: cs.LG, cs.CL, cs.CR, cs.DS, cs.LG",
+  "word_count": 159,
+  "published_at": "2026-04-08T16:04:16Z",
+  "ingested_at": "2026-04-09T11:03:48.662Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.CR",
+    "cs.DS",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

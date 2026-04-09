@@ -1,0 +1,40 @@
+{
+  "id": "td_d4e42cae",
+  "source": "arxiv",
+  "source_id": "2604.07286",
+  "source_url": "https://arxiv.org/abs/2604.07286",
+  "content_type": "paper",
+  "creator": {
+    "id": "timothy_k_johnsen",
+    "name": "Timothy K Johnsen",
+    "handle": "Timothy K Johnsen, Marco Levorato",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CADENCE: Context-Adaptive Depth Estimation for Navigation and Computational Efficiency",
+  "body_text": "CADENCE: Context-Adaptive Depth Estimation for Navigation and Computational Efficiency\n\nAutonomous vehicles deployed in remote environments typically rely on embedded processors, compact batteries, and lightweight sensors. These hardware limitations conflict with the need to derive robust representations of the environment, which often requires executing computationally intensive deep neural networks for perception. To address this challenge, we present CADENCE, an adaptive system that dynamically scales the computational complexity of a slimmable monocular depth estimation network in response to navigation needs and environmental context. By closing the loop between perception fidelity and actuation requirements, CADENCE ensures high-precision computing is only used when mission-critical. We conduct evaluations on our released open-source testbed that integrates Microsoft AirSim with an NVIDIA Jetson Orin Nano. As compared to a state-of-the-art static approach, CADENCE decreases sensor acquisitions, power consumption, and inference latency by 9.67%, 16.1%, and 74.8%, respectively. The results demonstrate an overall reduction in energy expenditure by 75.0%, along with an increase in navigation accuracy by 7.43%.\n\nAuthors: Timothy K Johnsen, Marco Levorato\nCategories: cs.RO, cs.AI, cs.LG, cs.RO",
+  "word_count": 151,
+  "published_at": "2026-04-08T16:49:30Z",
+  "ingested_at": "2026-04-09T11:03:44.697Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

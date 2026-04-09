@@ -1,0 +1,40 @@
+{
+  "id": "td_2fe67b9e",
+  "source": "arxiv",
+  "source_id": "2604.07331",
+  "source_url": "https://arxiv.org/abs/2604.07331",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenjing_margaret_mao",
+    "name": "Wenjing Margaret Mao",
+    "handle": "Wenjing Margaret Mao, Jefferson Ng, Luyang Hu, Daniel Gehrig, Antonio Loquercio",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild",
+  "body_text": "RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild\n\nScaling up robot learning will likely require human data containing rich and long-horizon interactions in the wild. Existing approaches for collecting such data trade off portability, robustness to occlusion, and global consistency. We introduce RoSHI, a hybrid wearable that fuses low-cost sparse IMUs with the Project Aria glasses to estimate the full 3D pose and body shape of the wearer in a metric global coordinate frame from egocentric perception. This system is motivated by the complementarity of the two sensors: IMUs provide robustness to occlusions and high-speed motions, while egocentric SLAM anchors long-horizon motion and stabilizes upper body pose. We collect a dataset of agile activities to evaluate RoSHI. On this dataset, we generally outperform other egocentric baselines and perform comparably to a state-of-the-art exocentric baseline (SAM3D). Finally, we demonstrate that the motion data recorded from our system are suitable for real-world humanoid policy learning. For videos, data and more, visit the project webpage: https://roshi-mocap.github.io/\n\nAuthors: Wenjing Margaret Mao, Jefferson Ng, Luyang Hu, Daniel Gehrig, Antonio Loquercio\nCategories: cs.RO, cs.AI, cs.CV, cs.RO",
+  "word_count": 155,
+  "published_at": "2026-04-08T17:48:46Z",
+  "ingested_at": "2026-04-09T11:03:44.696Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_2f4f4767",
+  "source": "arxiv",
+  "source_id": "2604.07276",
+  "source_url": "https://arxiv.org/abs/2604.07276",
+  "content_type": "paper",
+  "creator": {
+    "id": "luca_pennati",
+    "name": "Luca Pennati",
+    "handle": "Luca Pennati, Andong Hu, Ivy Peng, Lukas Müllender, Stefano Markidis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Making Room for AI: Multi-GPU Molecular Dynamics with Deep Potentials in GROMACS",
+  "body_text": "Making Room for AI: Multi-GPU Molecular Dynamics with Deep Potentials in GROMACS\n\nGROMACS is a de-facto standard for classical Molecular Dynamics (MD). The rise of AI-driven interatomic potentials that pursue near-quantum accuracy at MD throughput now poses a significant challenge: embedding neural-network inference into multi-GPU simulations retaining high-performance. In this work, we integrate the MLIP framework DeePMD-kit into GROMACS, enabling domain-decomposed, GPU-accelerated inference across multi-node systems. We extend the GROMACS NNPot interface with a DeePMD backend, and we introduce a domain decomposition layer decoupled from the main simulation. The inference is executed concurrently on all processes, with two MPI collectives used each step to broadcast coordinates and to aggregate and redistribute forces. We train an in-house DPA-1 model (1.6 M parameters) on a dataset of solvated protein fragments. We validate the implementation on a small protein system, then we benchmark the GROMACS-DeePMD integration with a 15,668 atom protein on NVIDIA A100 and AMD MI250x GPUs up to 32 devices. Strong-scaling efficiency reaches 66% at 16 devices and 40% at 32; weak-scaling efficiency is 80% to 16 devices and reaches 48% (MI250x) and 40% (A100) at 32 devices. Profiling with the ROCm System profiler shows that &gt;90% of the wall time is spent in DeePMD inference, while MPI collectives contribute &lt;10%, primarily since they act as a global synchronization point. The principal bottlenecks are the irreducible ghost-atom cost set by the cutoff radius, confirmed by a simple throughput model, and load imbalance across ranks. These results demonstrate that production MD with near ab initio fidelity is feasible at scale in GROMACS.\n\nAuthors: Luca Pennati, Andong Hu, Ivy Peng, Lukas Müllender, Stefano Markidis\nCategories: cs.DC, cs.AI, cs.LG, cs.DC",
+  "word_count": 248,
+  "published_at": "2026-04-08T16:40:08Z",
+  "ingested_at": "2026-04-09T11:03:44.698Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DC",
+    "cs.AI",
+    "cs.LG",
+    "cs.DC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

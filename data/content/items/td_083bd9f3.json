@@ -1,0 +1,39 @@
+{
+  "id": "td_083bd9f3",
+  "source": "arxiv",
+  "source_id": "2604.07282",
+  "source_url": "https://arxiv.org/abs/2604.07282",
+  "content_type": "paper",
+  "creator": {
+    "id": "fizza_rubab",
+    "name": "Fizza Rubab",
+    "handle": "Fizza Rubab, Yiying Tong, Arun Ross",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Are Face Embeddings Compatible Across Deep Neural Network Models?",
+  "body_text": "Are Face Embeddings Compatible Across Deep Neural Network Models?\n\nAutomated face recognition has made rapid strides over the past decade due to the unprecedented rise of deep neural network (DNN) models that can be trained for domain-specific tasks. At the same time, foundation models that are pretrained on broad vision or vision-language tasks have shown impressive generalization across diverse domains, including biometrics. This raises an important question: Do different DNN models--both domain-specific and foundation models--encode facial identity in similar ways, despite being trained on different datasets, loss functions, and architectures? In this regard, we directly analyze the geometric structure of embedding spaces imputed by different DNN models. Treating embeddings of face images as point clouds, we study whether simple affine transformations can align face representations of one model with another. Our findings reveal surprising cross-model compatibility: low-capacity linear mappings substantially improve cross-model face recognition over unaligned baselines for both face identification and verification tasks. Alignment patterns generalize across datasets and vary systematically across model families, indicating representational convergence in facial identity encoding. These findings have implications for model interoperability, ensemble design, and biometric template security.\n\nAuthors: Fizza Rubab, Yiying Tong, Arun Ross\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 176,
+  "published_at": "2026-04-08T16:44:42Z",
+  "ingested_at": "2026-04-09T11:04:05.680Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

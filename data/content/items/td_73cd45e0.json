@@ -1,0 +1,35 @@
+{
+  "id": "td_73cd45e0",
+  "source": "youtube",
+  "source_id": "-01ZCTt-CJw",
+  "source_url": "https://www.youtube.com/watch?v=-01ZCTt-CJw",
+  "content_type": "video",
+  "creator": {
+    "id": "fireship",
+    "name": "Fireship",
+    "handle": "Fireship",
+    "platform": "youtube",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Google just casually disrupted the open-source AI narrative…",
+  "body_text": "Last week, Google did something that no other fang company has had the balls to do. That they released a large language model that qualifies as truly free and open source under the Apache 2.0 license. That means free as in total freedom, not open-ish, not research only, not please don't make money or we'll sue you. That model is Gemma 4. And my initial thought was, oh great, another halfbaked open model that's technically free as long as you also own a small data center to run it. But the craziest thing about Gemma 4 is that it's small, like suspiciously small. The big model is small enough to run on a consumer GPU, and the Edge model is small enough to run on your phone or Raspberry Pi, while hitting intelligence levels that are on par with other open models that would normally require data center caliber GPUs just to run. That shouldn't be possible. And in today's video, we'll find out how it works and look at some other crazy compression techniques developed by Google. It is April 8th, 2026, and you're watching the Code Report. To be fair, several other companies in the Gay Man family have released openweight models, like Meta's Llama models are quasi free and open, but under a special license that gives Meta leverage to any developer that actually starts printing cash with them. Then we have OpenAI's GPT OSS models, which are also Apache 2.0 licensed, but they're bigger and dumber than Gemma. Outside of that, we basically rely on Mistl and the Chinese models like Quen, GLM, Kimmy, and Deepseek. Gemma 4 hits different though because it's made in America. Apache 2.0 licensed, intelligent, and most importantly, tiny. For comparison, the 31 billion parameter version of Gemma 4 is scoring in the same ballpark as models like Kimmy K2.5 thinking. But here's the absurd part. I can run Gemma 4 locally with a 20 GB download, getting roughly 10 tokens per second on a single RTX 4090. But if I wanted to run Kimmy K 2.5, I'd be looking at a 600 plus GB download, at least 256 GB of RAM, aggressive quantization, and multiple H100s just to get it off the ground. It Kim is still a better model than Gemma, but there's no way in hell I'm going to run it locally. So, the obvious question is, how did Google achieve this unbelievable shrinkage? Well, the answer is they didn't just shrink the model, they attacked the real bottleneck in AI, memory. That to run a massive large language model locally, you don't need a better CPU. You need more memory bandwidth. Every time a model generates a token, it has to read through a massive amount of model weights in VRAMm, which is the video random access memory on your GPU. It doesn't really matter how big the model is. It's more about how expensive it is to read it. And this is where things get interesting because alongside Gemma 4, Google quietly dropped a research note on something called Turbo Quant, which sounds like a marketing buzzword, but it's actually kind of insane. It's a new approach to quantization, which is the process of compressing model weights so they take up less space. Normally, through this process, you get a simple trade-off, a smaller model, but worse performance. But Turboquant improves this trade-off with two steps. First, it compresses data that's normally in an XYZ cartisian coordinate system into polar coordinates that include a radius and angle. Because these angles follow a predictable pattern, the model can skip the typical normalization steps and store information more efficiently, thus reducing memory overhead. Then it uses this mathematical technique called the Johnson Lynden Strauss transform to shrink highdimensional data but by compressing it down to single sign bits positive 1 negative 1 while preserving the distances between these data points. But frankly, I'm too stupid to understand how the math actually works. But Turboquant is actually not the secret behind Gemma 4's small models. You'll notice that some of the Gemma models have an E in the model name like E2B and E4B. And what that stands for is effective parameters because these models incorporate something called per layer embeddings, which is like giving every layer in the neural network its own mini cheat sheet for each token. In a normal transformer, each token gets one embedding at the start, and the model has to carry that information through every layer, and most of that information isn't needed, but per layer embeddings changes that by giving each layer its own small custom version of the token is so information can be introduced exactly when it's useful instead of all at once. There's an incredible visual guide by Martin Gutenorfs that I'll link in the description if you want to dive into more detail. The end result is a small, smart, and efficient model. I'm running it here with O Lama on my RTX490, and my initial impression is that it's a solid all-around model. And it would also be a great model for fine-tuning with your own data using tools like Unsloth. But if you're a programmer, it's still not good enough to replace any high-end coding tools like Code Rabbit, the sponsor of today's video. They just launched a CLI update that lets it review all the code your agent writes, then tells it exactly how to fix any bugs it finds. You can enable this with a new dash- agent flag which turns Code Rabbit into a tool your agent can call directly from there. It'll give your agent structure JSON with all of the issues, plus instructions on how to fix them. This your agent can go back and clean everything up before it opens up a pull request. They also simplified the setup process and removed their rate limits is so you can get started with a single terminal command and run as many reviews as your agents need. to try it out for free today using the code rabbit o login command and use it free forever on any open- source project. This has been the code report. Thanks for watching and I will see you in the next one.",
+  "word_count": 1047,
+  "published_at": "2026-04-09T11:01:56.026Z",
+  "ingested_at": "2026-04-09T11:01:56.026Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": 316,
+  "distilled": true,
+  "discourse_format": "video_lecture",
+  "cited_creator_ids": []
+}

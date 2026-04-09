@@ -1,0 +1,39 @@
+{
+  "id": "td_0145825e",
+  "source": "arxiv",
+  "source_id": "2604.07321",
+  "source_url": "https://arxiv.org/abs/2604.07321",
+  "content_type": "paper",
+  "creator": {
+    "id": "priscilla_kyei_danso",
+    "name": "Priscilla Kyei Danso",
+    "handle": "Priscilla Kyei Danso, Mohammad Saqib Hasan, Niranjan Balasubramanian, Omar Chowdhury",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Syntax Is Easy, Semantics Is Hard: Evaluating LLMs for LTL Translation",
+  "body_text": "Syntax Is Easy, Semantics Is Hard: Evaluating LLMs for LTL Translation\n\nPropositional Linear Temporal Logic (LTL) is a popular formalism for specifying desirable requirements and security and privacy policies for software, networks, and systems. Yet expressing such requirements and policies in LTL remains challenging because of its intricate semantics. Since many security and privacy analysis tools require LTL formulas as input, this difficulty places them out of reach for many developers and analysts. Large Language Models (LLMs) could broaden access to such tools by translating natural language fragments into LTL formulas. This paper evaluates that premise by assessing how effectively several representative LLMs translate assertive English sentences into LTL formulas. Using both human-generated and synthetic ground-truth data, we evaluate effectiveness along syntactic and semantic dimensions. The results reveal three findings: (1) in line with prior findings, LLMs perform better on syntactic aspects of LTL than on semantic ones; (2) they generally benefit from more detailed prompts; and (3) reformulating the task as a Python code-completion problem substantially improves overall performance. We also discuss challenges in conducting a fair evaluation on this task and conclude with recommendations for future work.\n\nAuthors: Priscilla Kyei Danso, Mohammad Saqib Hasan, Niranjan Balasubramanian, Omar Chowdhury\nCategories: cs.LO, cs.AI, cs.LO",
+  "word_count": 178,
+  "published_at": "2026-04-08T17:36:33Z",
+  "ingested_at": "2026-04-09T11:03:44.696Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LO",
+    "cs.AI",
+    "cs.LO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

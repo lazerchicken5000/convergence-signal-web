@@ -1,0 +1,39 @@
+{
+  "id": "td_b6bdefcd",
+  "source": "arxiv",
+  "source_id": "2604.07264",
+  "source_url": "https://arxiv.org/abs/2604.07264",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuanhang_li",
+    "name": "Yuanhang Li",
+    "handle": "Yuanhang Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Validated Intent Compilation for Constrained Routing in LEO Mega-Constellations",
+  "body_text": "Validated Intent Compilation for Constrained Routing in LEO Mega-Constellations\n\nOperating LEO mega-constellations requires translating high-level operator intents (\"reroute financial traffic away from polar links under 80 ms\") into low-level routing constraints -- a task that demands both natural language understanding and network-domain expertise. We present an end-to-end system comprising three components: (1) a GNN cost-to-go router that distills Dijkstra-quality routing into a 152K-parameter graph attention network achieving 99.8% packet delivery ratio with 17x inference speedup; (2) an LLM intent compiler that converts natural language to a typed constraint intermediate representation using few-shot prompting with a verifier-feedback repair loop, achieving 98.4% compilation rate and 87.6% full semantic match on feasible intents in a 240-intent benchmark (193 feasible, 47 infeasible); and (3) an 8-pass deterministic validator with constructive feasibility certification that achieves 0% unsafe acceptance on all 47 infeasible intents (30 labeled + 17 discovered by Pass 8), with 100% corruption detection across 240 structural corruption tests and 100% on 15 targeted adversarial attacks. End-to-end evaluation across four constrained routing scenarios confirms zero constraint violations with both routers. We further demonstrate that apparent performance gaps in polar-avoidance scenarios are largely explained by topological reachability ceilings rather than routing quality, and that the LLM compiler outperforms a rule-based baseline by 46.2 percentage points on compositional intents. Our system bridges the semantic gap between operator intent and network configuration while maintaining the safety guarantees required for operational deployment.\n\nAuthors: Yuanhang Li\nCategories: cs.CR, cs.AI, cs.CR",
+  "word_count": 225,
+  "published_at": "2026-04-08T16:29:25Z",
+  "ingested_at": "2026-04-09T11:03:56.980Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
