@@ -773,3 +773,90 @@ export function getStats() {
     platforms: new Set(profiles.flatMap(p => p.source_types.filter(s => s !== 'citation'))).size,
   };
 }
+
+// --- Shipped Audits (Phase 7g) ---
+//
+// Source: `data/audit-web-ledger.json`, produced by lazerforge-engine's
+// `scripts/export-audits-to-web.ts`. One ledger, all shipped audits.
+// The shape is the cross-repo contract — if you change fields here you
+// must also change them in the exporter, and both must be deployed
+// together.
+
+export interface AuditProbe {
+  version: string;
+  model: string;
+  signal_aggregate: number | null;
+  falsifiability: number | null;
+  primary_source_density: number | null;
+  depth_score: number | null;
+  specificity: number | null;
+  novelty_score: number | null;
+}
+
+export interface AuditCitedSnapshot {
+  snapshot_id: string;
+  url: string;
+  domain: string;
+  content_class: string;
+  title: string | null;
+  content_length: number;
+  source_published_at: string | null;
+  fetched_at: string;
+  fetcher: string;
+  probe: AuditProbe | null;
+}
+
+export interface AuditEventEntry {
+  event_type: string;
+  created_at: string;
+  error_message: string | null;
+}
+
+export interface AuditCard {
+  audit_id: string;
+  source_type: string;
+  source_url: string | null;
+  source_author: string | null;
+  source_platform: string | null;
+  claim_text: string;
+  current_status: string;
+  current_revision: number;
+  created_at: string;
+  posted_at: string | null;
+  draft_text: string | null;
+  verdict: string | null;
+  measurements: Record<string, unknown> | null;
+  evidence: Record<string, unknown> | null;
+  hypercard_url: string | null;
+  remote_post_url: string | null;
+  cited_snapshots: AuditCitedSnapshot[];
+  events: AuditEventEntry[];
+}
+
+interface AuditLedger {
+  version: number;
+  generated_at: string;
+  total_shipped: number;
+  audits: AuditCard[];
+}
+
+function getAuditLedger(): AuditLedger | null {
+  return readJson<AuditLedger>(path.join(CI_BASE, 'audit-web-ledger.json'));
+}
+
+export function getAudits(): AuditCard[] {
+  const ledger = getAuditLedger();
+  if (!ledger) return [];
+  // Sort newest-first by posted_at (fall back to created_at).
+  return [...ledger.audits].sort((a, b) => {
+    const ta = a.posted_at ?? a.created_at;
+    const tb = b.posted_at ?? b.created_at;
+    return tb.localeCompare(ta);
+  });
+}
+
+export function getAudit(id: string): AuditCard | null {
+  const ledger = getAuditLedger();
+  if (!ledger) return null;
+  return ledger.audits.find(a => a.audit_id === id) ?? null;
+}

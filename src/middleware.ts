@@ -36,7 +36,8 @@ export function middleware(request: NextRequest) {
       pathname.startsWith('/tip') ||
       pathname.startsWith('/whitepaper') ||
       pathname.startsWith('/blog') ||
-      pathname.startsWith('/docs')) {
+      pathname.startsWith('/docs') ||
+      pathname.startsWith('/audits')) {
     return NextResponse.next();
   }
 
