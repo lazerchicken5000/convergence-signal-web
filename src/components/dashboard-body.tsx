@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import type { ConvergencePattern, RPGProfile, ConvergenceDiff, TokenCost, SignalQuality, LeaderContribution, LeaderHighlight, ContentItem, SynthesisChain, ScorecardData, EfficiencyTrendData, SourceRankingData } from '@/lib/data';
 import { SignalBadges, TokenCostHero } from '@/components/signal-badges';
-import { ContributionTypeBadge, RPGCard, AccoladeBadges, type Accolade } from '@/components/rpg-card';
+import { ContributionTypeBadge, EntityTypeBadge, RPGCard, AccoladeBadges, type Accolade } from '@/components/rpg-card';
 import { SourceLinks, PlatformLinks } from '@/components/source-links';
 import { PatternFeedback } from '@/components/source-audit';
 import { Badge } from '@/components/ui/badge';
@@ -153,6 +153,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                   <div className="flex items-center gap-1.5">
                     <span className="text-sm text-zinc-300 truncate">{l.leader.name}</span>
                     <ContributionTypeBadge type={l.contrib.contributionType} />
+                    <EntityTypeBadge entityType={l.leader.entity_type} />
                     {l.leader.influence_trajectory === 'rising' && <span className="text-emerald-400 text-xs">&#x2191;</span>}
                   </div>
                   {l.highlight.bio && (
@@ -411,6 +412,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                   <div className="flex items-center gap-2 mb-1.5 flex-wrap">
                     <span className={`text-xs px-2 py-0.5 rounded border ${tierColors[l.tier] ?? tierColors.emerging}`}>{l.tier}</span>
                     <ContributionTypeBadge type={selectedLeader.contrib.contributionType} />
+                    <EntityTypeBadge entityType={l.entity_type} />
                     <span className={`text-sm ${trajColor}`}>{trajIcon} {l.influence_trajectory}</span>
                   </div>
                   <h2 className="text-lg font-bold text-zinc-200">{l.name}</h2>

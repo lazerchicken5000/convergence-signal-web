@@ -138,3 +138,40 @@ export function ContributionTypeBadge({ type }: { type: string }) {
     </span>
   );
 }
+
+// ── Entity type badges ──
+//
+// Distinguishes individuals from organizations, open-source projects,
+// media channels, and academic groups. Most leaders are individuals
+// (171/285 at time of writing), so the badge is only shown for
+// non-individual types to keep the list clean and surface the
+// interesting distinctions.
+
+const ENTITY_ICONS: Record<string, string> = {
+  organization: '🏢',
+  open_source_project: '📦',
+  media_channel: '📡',
+  academic_group: '🎓',
+};
+
+const ENTITY_LABELS: Record<string, string> = {
+  organization: 'org',
+  open_source_project: 'project',
+  media_channel: 'media',
+  academic_group: 'academic',
+};
+
+export function EntityTypeBadge({ entityType }: { entityType: string }) {
+  // Don't render for individuals or unknown — they're the default
+  if (entityType === 'individual' || entityType === 'unknown' || !entityType) {
+    return null;
+  }
+  const icon = ENTITY_ICONS[entityType] ?? '';
+  const label = ENTITY_LABELS[entityType] ?? entityType.replace(/_/g, ' ');
+  return (
+    <span className="inline-flex items-center gap-0.5 px-1.5 py-0 rounded text-[9px] text-zinc-500 border border-zinc-800">
+      {icon && <span>{icon}</span>}
+      {label}
+    </span>
+  );
+}

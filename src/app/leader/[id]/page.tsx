@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { PlatformLinks, SourceLinks } from '@/components/source-links';
-import { RPGCard, ContributionTypeBadge, deriveAccolades, AccoladeBadges } from '@/components/rpg-card';
+import { RPGCard, ContributionTypeBadge, EntityTypeBadge, deriveAccolades, AccoladeBadges } from '@/components/rpg-card';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -47,6 +47,7 @@ export default async function LeaderPage({ params }: { params: Promise<{ id: str
         <div className="flex items-center gap-2 mb-2">
           <Badge variant="outline" className={tierColors[leader.tier] ?? tierColors.emerging}>{leader.tier}</Badge>
           <ContributionTypeBadge type={contrib.contributionType} />
+          <EntityTypeBadge entityType={leader.entity_type} />
           <span className={`text-sm ${trajColor}`}>{trajIcon} {leader.influence_trajectory}</span>
         </div>
         <h1 className="text-xl font-bold tracking-tight">{leader.name}</h1>
