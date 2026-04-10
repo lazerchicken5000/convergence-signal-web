@@ -1,0 +1,40 @@
+{
+  "id": "td_1c67168d",
+  "source": "arxiv",
+  "source_id": "2604.08524",
+  "source_url": "https://arxiv.org/abs/2604.08524",
+  "content_type": "paper",
+  "creator": {
+    "id": "stephen_cheng",
+    "name": "Stephen Cheng",
+    "handle": "Stephen Cheng, Sarah Wiegreffe, Dinesh Manocha",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "What Drives Representation Steering? A Mechanistic Case Study on Steering Refusal",
+  "body_text": "What Drives Representation Steering? A Mechanistic Case Study on Steering Refusal\n\nApplying steering vectors to large language models (LLMs) is an efficient and effective model alignment technique, but we lack an interpretable explanation for how it works-- specifically, what internal mechanisms steering vectors affect and how this results in different model outputs. To investigate the causal mechanisms underlying the effectiveness of steering vectors, we conduct a comprehensive case study on refusal. We propose a multi-token activation patching framework and discover that different steering methodologies leverage functionally interchangeable circuits when applied at the same layer. These circuits reveal that steering vectors primarily interact with the attention mechanism through the OV circuit while largely ignoring the QK circuit-- freezing all attention scores during steering drops performance by only 8.75% across two model families. A mathematical decomposition of the steered OV circuit further reveals semantically interpretable concepts, even in cases where the steering vector itself does not. Leveraging the activation patching results, we show that steering vectors can be sparsified by up to 90-99% while retaining most performance, and that different steering methodologies agree on a subset of important dimensions.\n\nAuthors: Stephen Cheng, Sarah Wiegreffe, Dinesh Manocha\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 176,
+  "published_at": "2026-04-09T17:57:14Z",
+  "ingested_at": "2026-04-10T11:03:10.593Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

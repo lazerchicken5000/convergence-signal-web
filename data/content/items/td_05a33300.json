@@ -1,0 +1,35 @@
+{
+  "id": "td_05a33300",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "asgi-gzip 0.3",
+  "body_text": "Release: asgi-gzip 0.3\n    I ran into trouble deploying a new feature using SSE to a production Datasette instance, and it turned out that instance was using datasette-gzip which uses asgi-gzip which was incorrectly compressing event/text-stream responses.\nasgi-gzip was extracted from Starlette, and has a GitHub Actions scheduled workflow to check Starlette for updates that need to be ported to the library... but that action had stopped running and hence had missed Starlette's own fix for this issue.\nI ran the workflow and integrated the new fix, and now datasette-gzip and asgi-gzip both correctly handle text/event-stream in SSE responses.\n    \n        Tags: gzip, asgi, python",
+  "word_count": 102,
+  "published_at": "2026-04-09T03:54:40.000Z",
+  "ingested_at": "2026-04-10T11:00:08.967Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

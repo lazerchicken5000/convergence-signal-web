@@ -1,0 +1,38 @@
+{
+  "id": "td_b030decb",
+  "source": "arxiv",
+  "source_id": "2604.08538",
+  "source_url": "https://arxiv.org/abs/2604.08538",
+  "content_type": "paper",
+  "creator": {
+    "id": "boyang_zhang",
+    "name": "Boyang Zhang",
+    "handle": "Boyang Zhang, Sebastián G. Acosta, Preston Carlson, Sacha Bron, Pierre-Loïc Doulcet, Simon Suo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ParseBench: A Document Parsing Benchmark for AI Agents",
+  "body_text": "ParseBench: A Document Parsing Benchmark for AI Agents\n\nAI agents are changing the requirements for document parsing. What matters is \\emph{semantic correctness}: parsed output must preserve the structure and meaning needed for autonomous decisions, including correct table structure, precise chart data, semantically meaningful formatting, and visual grounding. Existing benchmarks do not fully capture this setting for enterprise automation, relying on narrow document distributions and text-similarity metrics that miss agent-critical failures. We introduce \\textbf{ParseBench}, a benchmark of ${\\sim}2{,}000$ human-verified pages from enterprise documents spanning insurance, finance, and government, organized around five capability dimensions: tables, charts, content faithfulness, semantic formatting, and visual grounding. Across 14 methods spanning vision-language models, specialized document parsers, and LlamaParse, the benchmark reveals a fragmented capability landscape: no method is consistently strong across all five dimensions. LlamaParse Agentic achieves the highest overall score at \\agenticoverall\\%, and the benchmark highlights the remaining capability gaps across current systems. Dataset and evaluation code are available on \\href{https://huggingface.co/datasets/llamaindex/ParseBench}{HuggingFace} and \\href{https://github.com/run-llama/ParseBench}{GitHub}.\n\nAuthors: Boyang Zhang, Sebastián G. Acosta, Preston Carlson, Sacha Bron, Pierre-Loïc Doulcet, Simon Suo\nCategories: cs.CV, cs.CV",
+  "word_count": 150,
+  "published_at": "2026-04-09T17:59:36Z",
+  "ingested_at": "2026-04-10T11:03:22.778Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

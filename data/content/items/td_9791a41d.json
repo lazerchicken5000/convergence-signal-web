@@ -1,0 +1,39 @@
+{
+  "id": "td_9791a41d",
+  "source": "arxiv",
+  "source_id": "2604.08468",
+  "source_url": "https://arxiv.org/abs/2604.08468",
+  "content_type": "paper",
+  "creator": {
+    "id": "sikai_bai",
+    "name": "Sikai Bai",
+    "handle": "Sikai Bai, Haoxi Li, Jie Zhang, Yongjiang Liu, Song Guo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TTVS: Boosting Self-Exploring Reinforcement Learning via Test-time Variational Synthesis",
+  "body_text": "TTVS: Boosting Self-Exploring Reinforcement Learning via Test-time Variational Synthesis\n\nDespite significant advances in Large Reasoning Models (LRMs) driven by reinforcement learning with verifiable rewards (RLVR), this paradigm is fundamentally limited in specialized or novel domains where such supervision is prohibitively expensive or unavailable, posing a key challenge for test-time adaptation. While existing test-time methods offer a potential solution, they are constrained by learning from static query sets, risking overfitting to textual patterns. To address this gap, we introduce Test-Time Variational Synthesis (TTVS), a novel framework that enables LRMs to self-evolve by dynamically augmenting the training stream from unlabeled test queries. TTVS comprises two synergistic modules: (1) Online Variational Synthesis, which transforms static test queries into a dynamic stream of diverse, semantically-equivalent variations, enforcing the model to learn underlying problem logic rather than superficial patterns; (2) Test-time Hybrid Exploration, which balances accuracy-driven exploitation with consistency-driven exploration across synthetic variants. Extensive experiments show TTVS yields superior performance across eight model architectures. Notably, using only unlabeled test-time data, TTVS not only surpasses other test-time adaptation methods but also outperforms state-of-the-art supervised RL-based techniques trained on vast, high-quality labeled data.\n\nAuthors: Sikai Bai, Haoxi Li, Jie Zhang, Yongjiang Liu, Song Guo\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 177,
+  "published_at": "2026-04-09T17:03:49Z",
+  "ingested_at": "2026-04-10T11:03:18.556Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

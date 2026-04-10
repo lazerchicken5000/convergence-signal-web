@@ -1,0 +1,39 @@
+{
+  "id": "td_57723b78",
+  "source": "arxiv",
+  "source_id": "2604.08547",
+  "source_url": "https://arxiv.org/abs/2604.08547",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiaxin_wang",
+    "name": "Jiaxin Wang",
+    "handle": "Jiaxin Wang, Dongxin Lyu, Zeyu Cai, Zhiyang Dou, Cheng Lin, Anpei Chen, Yuliang Xiu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GaussiAnimate: Reconstruct and Rig Animatable Categories with Level of Dynamics",
+  "body_text": "GaussiAnimate: Reconstruct and Rig Animatable Categories with Level of Dynamics\n\nFree-form bones, that conform closely to the surface, can effectively capture non-rigid deformations, but lack a kinematic structure necessary for intuitive control. Thus, we propose a Scaffold-Skin Rigging System, termed \"Skelebones\", with three key steps: (1) Bones: compress temporally-consistent deformable Gaussians into free-form bones, approximating non-rigid surface deformations; (2) Skeleton: extract a Mean Curvature Skeleton from canonical Gaussians and refine it temporally, ensuring a category-agnostic, motion-adaptive, and topology-correct kinematic structure; (3) Binding: bind the skeleton and bones via non-parametric partwise motion matching (PartMM), synthesizing novel bone motions by matching, retrieving, and blending existing ones. Collectively, these three steps enable us to compress the Level of Dynamics of 4D shapes into compact skelebones that are both controllable and expressive. We validate our approach on both synthetic and real-world datasets, achieving significant improvements in reanimation performance across unseen poses-with 17.3% PSNR gains over Linear Blend Skinning (LBS) and 21.7% over Bag-of-Bones (BoB)-while maintaining excellent reconstruction fidelity, particularly for characters exhibiting complex non-rigid surface dynamics. Our Partwise Motion Matching algorithm demonstrates strong generalization to both Gaussian and mesh representations, especially under low-data regime (~1000 frames), achieving 48.4% RMSE improvement over robust LBS and outperforming GRU- and MLP-based learning methods by &gt;20%. Code will be made publicly available for research purposes at cookmaker.cn/gaussianimate.\n\nAuthors: Jiaxin Wang, Dongxin Lyu, Zeyu Cai, Zhiyang Dou, Cheng Lin, Anpei Chen, Yuliang Xiu\nCategories: cs.CV, cs.GR, cs.CV",
+  "word_count": 209,
+  "published_at": "2026-04-09T17:59:59Z",
+  "ingested_at": "2026-04-10T11:03:27.030Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.GR",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

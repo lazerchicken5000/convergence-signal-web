@@ -1,0 +1,38 @@
+{
+  "id": "td_d2e97d09",
+  "source": "arxiv",
+  "source_id": "2604.08513",
+  "source_url": "https://arxiv.org/abs/2604.08513",
+  "content_type": "paper",
+  "creator": {
+    "id": "kabilan_elangovan",
+    "name": "Kabilan Elangovan",
+    "handle": "Kabilan Elangovan, Daniel Ting",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations",
+  "body_text": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations\n\nTransfer learning followed by fine-tuning is widely adopted in medical image classification due to consistent gains in diagnostic performance. However, in multi-class settings with overlapping visual features, improvements in accuracy do not guarantee stability of the visual evidence used to support predictions. We define semantic drift as systematic changes in the attribution structure supporting a model's predictions between transfer learning and full fine-tuning, reflecting potential shifts in underlying visual reasoning despite stable classification performance. Using a five-class chest X-ray task, we evaluate DenseNet201, ResNet50V2, and InceptionV3 under a two-stage training protocol and quantify drift with reference-free metrics capturing spatial localization and structural consistency of attribution maps. Across architectures, coarse anatomical localization remains stable, while overlap IoU reveals pronounced architecture-dependent reorganization of evidential structure. Beyond single-method analysis, stability rankings can reverse across LayerCAM and GradCAM++ under converged predictive performance, establishing explanation stability as an interaction between architecture, optimization phase, and attribution objective.\n\nAuthors: Kabilan Elangovan, Daniel Ting\nCategories: cs.CV, cs.CV",
+  "word_count": 151,
+  "published_at": "2026-04-09T17:53:02Z",
+  "ingested_at": "2026-04-10T11:03:31.353Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

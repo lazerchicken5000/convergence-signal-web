@@ -1,0 +1,38 @@
+{
+  "id": "td_22ef2cf4",
+  "source": "arxiv",
+  "source_id": "2604.08517",
+  "source_url": "https://arxiv.org/abs/2604.08517",
+  "content_type": "paper",
+  "creator": {
+    "id": "giannis_fikioris",
+    "name": "Giannis Fikioris",
+    "handle": "Giannis Fikioris, Balasubramanian Sivan, Éva Tardos",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning vs. Optimizing Bidders in Budgeted Auctions",
+  "body_text": "Learning vs. Optimizing Bidders in Budgeted Auctions\n\nThe study of repeated interactions between a learner and a utility-maximizing optimizer has yielded deep insights into the manipulability of learning algorithms. However, existing literature primarily focuses on independent, unlinked rounds, largely ignoring the ubiquitous practical reality of budget constraints. In this paper, we study this interaction in repeated second-price auctions in a Bayesian setting between a learning agent and a strategic agent, both subject to strict budget constraints, showing that such cross-round constraints fundamentally alter the strategic landscape. First, we generalize the classic Stackelberg equilibrium to the Budgeted Stackelberg Equilibrium. We prove that an optimizer's optimal strategy in a budgeted setting requires time-multiplexing; for a $k$-dimensional budget constraint, the optimal strategy strictly decomposes into up to $k+1$ distinct phases, with each phase employing a possibly unique mixed strategy (the case of $k=0$ recovers the classic Stackelberg equilibrium where the optimizer repeatedly uses a single mixed strategy). Second, we address the intriguing question of non-manipulability. We prove that when the learner employs a standard Proportional controller (the \"P\" of the PID-controller) to pace their bids, the optimizer's utility is upper bounded by their objective value in the Budgeted Stackelberg Equilibrium baseline. By bounding the dynamics of the PID controller via a novel analysis, our results establish that this widely used control-theoretic heuristic is actually strategically robust.\n\nAuthors: Giannis Fikioris, Balasubramanian Sivan, Éva Tardos\nCategories: cs.GT, cs.GT",
+  "word_count": 216,
+  "published_at": "2026-04-09T17:54:27Z",
+  "ingested_at": "2026-04-10T11:03:22.779Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

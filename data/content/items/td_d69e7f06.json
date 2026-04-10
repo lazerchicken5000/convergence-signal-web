@@ -1,0 +1,38 @@
+{
+  "id": "td_d69e7f06",
+  "source": "arxiv",
+  "source_id": "2604.08528",
+  "source_url": "https://arxiv.org/abs/2604.08528",
+  "content_type": "paper",
+  "creator": {
+    "id": "uksang_yoo",
+    "name": "Uksang Yoo",
+    "handle": "Uksang Yoo, Yuemin Mao, Jean Oh, Jeffrey Ichnowski",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A-SLIP: Acoustic Sensing for Continuous In-hand Slip Estimation",
+  "body_text": "A-SLIP: Acoustic Sensing for Continuous In-hand Slip Estimation\n\nReliable in-hand manipulation requires accurate real-time estimation of slip between a gripper and a grasped object. Existing tactile sensing approaches based on vision, capacitance, or force-torque measurements face fundamental trade-offs in form factor, durability, and their ability to jointly estimate slip direction and magnitude. We present A-SLIP, a multi-channel acoustic sensing system integrated into a parallel-jaw gripper for estimating continuous slip in the grasp plane. The A-SLIP sensor consists of piezoelectric microphones positioned behind a textured silicone contact pad to capture structured contact-induced vibrations. The A-SLIP model processes synchronized multi-channel audio as log-mel spectrograms using a lightweight convolutional network, jointly predicting the presence, direction, and magnitude of slip. Across experiments with robot- and externally induced slip conditions, the fine-tuned four-microphone configuration achieves a mean absolute directional error of 14.1 degrees, outperforms baselines by up to 12 percent in detection accuracy, and reduces directional error by 32 percent. Compared with single-microphone configurations, the multi-channel design reduces directional error by 64 percent and magnitude error by 68 percent, underscoring the importance of spatial acoustic sensing in resolving slip direction ambiguity. We further evaluate A-SLIP in closed-loop reactive control and find that it enables reliable, low-cost, real-time estimation of in-hand slip. Project videos and additional details are available at https://a-slip.github.io.\n\nAuthors: Uksang Yoo, Yuemin Mao, Jean Oh, Jeffrey Ichnowski\nCategories: cs.RO, cs.RO",
+  "word_count": 207,
+  "published_at": "2026-04-09T17:58:27Z",
+  "ingested_at": "2026-04-10T11:03:27.031Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

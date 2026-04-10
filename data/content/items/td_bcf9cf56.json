@@ -1,0 +1,41 @@
+{
+  "id": "td_bcf9cf56",
+  "source": "arxiv",
+  "source_id": "2604.08495",
+  "source_url": "https://arxiv.org/abs/2604.08495",
+  "content_type": "paper",
+  "creator": {
+    "id": "kooktae_lee",
+    "name": "Kooktae Lee",
+    "handle": "Kooktae Lee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Density-Driven Optimal Control: Convergence Guarantees for Stochastic LTI Multi-Agent Systems",
+  "body_text": "Density-Driven Optimal Control: Convergence Guarantees for Stochastic LTI Multi-Agent Systems\n\nThis paper addresses the decentralized non-uniform area coverage problem for multi-agent systems, a critical task in missions with high spatial priority and resource constraints. While existing density-based methods often rely on computationally heavy Eulerian PDE solvers or heuristic planning, we propose Stochastic Density-Driven Optimal Control (D$^2$OC). This is a rigorous Lagrangian framework that bridges the gap between individual agent dynamics and collective distribution matching. By formulating a stochastic MPC-like problem that minimizes the Wasserstein distance as a running cost, our approach ensures that the time-averaged empirical distribution converges to a non-parametric target density under stochastic LTI dynamics. A key contribution is the formal convergence guarantee established via reachability analysis, providing a bounded tracking error even in the presence of process and measurement noise. Numerical results verify that Stochastic D$^2$OC achieves robust, decentralized coverage while outperforming previous heuristic methods in optimality and consistency.\n\nAuthors: Kooktae Lee\nCategories: math.OC, cs.MA, cs.RO, eess.SY, math.OC",
+  "word_count": 142,
+  "published_at": "2026-04-09T17:39:25Z",
+  "ingested_at": "2026-04-10T11:03:31.353Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.MA",
+    "cs.RO",
+    "eess.SY",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
