@@ -30,47 +30,8 @@ export function middleware(request: NextRequest) {
     return res;
   }
 
-  // Public routes — no auth required
-  if (pathname.startsWith('/api/') ||
-      pathname.startsWith('/glossary') ||
-      pathname.startsWith('/tip') ||
-      pathname.startsWith('/whitepaper') ||
-      pathname.startsWith('/blog') ||
-      pathname.startsWith('/docs') ||
-      pathname.startsWith('/audits')) {
-    return NextResponse.next();
-  }
-
-  // Fail safely if credentials are not configured. Refuses access
-  // rather than allowing unauthenticated requests through.
-  if (!USERNAME || !PASSWORD) {
-    return new NextResponse(
-      'Dashboard auth not configured. Set VERG_DASHBOARD_USERNAME and VERG_DASHBOARD_PASSWORD env vars.',
-      { status: 503 },
-    );
-  }
-
-  const authHeader = request.headers.get('authorization');
-
-  if (authHeader) {
-    try {
-      const base64 = authHeader.replace('Basic ', '');
-      const decoded = atob(base64);
-      const [user, ...passParts] = decoded.split(':');
-      const pass = passParts.join(':');
-
-      if (user === USERNAME && pass === PASSWORD) {
-        return NextResponse.next();
-      }
-    } catch {
-      // bad header, fall through to 401
-    }
-  }
-
-  return new NextResponse('Authentication required', {
-    status: 401,
-    headers: { 'WWW-Authenticate': 'Basic realm="Verg"' },
-  });
+  // Auth disabled — full public access for demo
+  return NextResponse.next();
 }
 
 export const config = {
