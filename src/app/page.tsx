@@ -40,19 +40,17 @@ export default function DashboardPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
-      {/* ── TOP NAV ── */}
-      <nav className="flex items-center justify-between mb-4 text-xs">
-        <div className="flex items-center gap-4">
+      {/* ── TOP BAR: support left, nav right ── */}
+      <div className="flex items-center justify-between mb-4 gap-4 flex-wrap">
+        <TipInline />
+        <nav className="flex items-center gap-4 text-xs">
           <Link href="/whitepaper" className="text-zinc-400 hover:text-zinc-200 transition-colors">Whitepaper</Link>
           <Link href="/audits" className="text-zinc-400 hover:text-zinc-200 transition-colors">Audits</Link>
           <Link href="/blog" className="text-zinc-400 hover:text-zinc-200 transition-colors">Blog</Link>
           <Link href="/docs" className="text-zinc-400 hover:text-zinc-200 transition-colors">API</Link>
           <a href="https://x.com/lazerhawk5000" className="text-zinc-500 hover:text-zinc-300 transition-colors font-mono">@lazerhawk5000</a>
-        </div>
-      </nav>
-
-      {/* ── INLINE SUPPORT — top of page ── */}
-      <TipInline />
+        </nav>
+      </div>
 
       {/* ── HEADER: VERG + heatmap canvas ── */}
       <VergHeader days={calendar} stats={aggStats} />

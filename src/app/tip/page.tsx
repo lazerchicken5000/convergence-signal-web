@@ -20,7 +20,7 @@ export default function TipPage() {
       });
       const data = await res.json();
       if (data.url) {
-        window.location.assign(data.url);
+        window.location.replace(data.url);
       } else {
         setLoading(false);
       }
