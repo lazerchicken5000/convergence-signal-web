@@ -44,6 +44,22 @@ export default function DashboardPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
+      {/* ── TOP NAV ── */}
+      <nav className="flex items-center justify-between mb-4 text-xs">
+        <div className="flex items-center gap-4">
+          <Link href="/protocol" className="text-zinc-400 hover:text-zinc-200 transition-colors">Protocol</Link>
+          <Link href="/whitepaper" className="text-zinc-400 hover:text-zinc-200 transition-colors">Whitepaper</Link>
+          <Link href="/audits" className="text-zinc-400 hover:text-zinc-200 transition-colors">Audits</Link>
+          <Link href="/blog" className="text-zinc-400 hover:text-zinc-200 transition-colors">Transmissions</Link>
+          <Link href="/docs" className="text-zinc-400 hover:text-zinc-200 transition-colors">API</Link>
+          <Link href="/glossary" className="text-zinc-500 hover:text-zinc-300 transition-colors">Glossary</Link>
+        </div>
+        <div className="flex items-center gap-3">
+          <a href="https://x.com/lazerhawk5000" className="text-zinc-500 hover:text-zinc-300 transition-colors font-mono">@lazerhawk5000</a>
+          <Link href="/tip" className="text-emerald-500 hover:text-emerald-400 transition-colors font-medium">Support</Link>
+        </div>
+      </nav>
+
       {/* ── HEADER: VERG + heatmap canvas ── */}
       <VergHeader days={calendar} stats={aggStats} />
 
@@ -90,14 +106,8 @@ export default function DashboardPage() {
         sourceRankings={getSourceRankings()}
       />
 
-      <footer className="text-xs text-muted-foreground text-center py-8 mt-4 border-t border-zinc-800">
-        Verg · <span className="font-mono">trenddistill</span> · <a href="https://x.com/lazerhawk5000" className="underline">@lazerhawk5000</a>
-        {' · '}<Link href="/protocol" className="underline">Protocol</Link>
-        {' · '}<Link href="/whitepaper" className="underline">Whitepaper</Link>
-        {' · '}<Link href="/glossary" className="underline">Glossary</Link>
-        {' · '}<Link href="/blog" className="underline">Transmissions</Link>
-        {' · '}<Link href="/docs" className="underline">API</Link>
-        {' · '}<Link href="/tip" className="underline">Support</Link>
+      <footer className="text-[10px] text-zinc-700 text-center py-6 mt-4 border-t border-zinc-800">
+        Verg · open methodology · <a href="https://x.com/lazerhawk5000" className="hover:text-zinc-500">@lazerhawk5000</a>
       </footer>
     </main>
   );
