@@ -156,21 +156,27 @@ const TOKEN_BAKE: DepthPair[] = [
 const INDEPENDENCE: DepthPair[] = [
   {
     simple:
-      "Anyone can build a recommender that finds 'popular ideas.' What's hard is verifying that the people promoting an idea aren't all in the same room.",
+      "The principle is borrowed from intelligence tradecraft: when sources with opposing interests and no reason to coordinate arrive at the same conclusion, that conclusion carries more weight than any single source's claim.",
     nuanced:
-      "Independence verification distinguishes genuine convergence from coordinated echo. Without it, a single community amplifying a take looks identical to ten independent researchers arriving at the same conclusion in their own work. The math is the part nobody else does.",
+      "Corroborative overlap — the foundation of intelligence analysis — says: never trust a single source. Instead, look for the overlap where sources with conflicting goals agree. Because they have no incentive to collude, their agreement is structurally harder to fake than any individual report. Verg applies this principle to information curation: convergence patterns form only where independent sources align without coordination.",
   },
   {
     simple:
-      "Verg uses two graph algorithms: PageRank tells you who has authority; Louvain tells you who's in the same community.",
+      "Anyone can build a recommender that finds popular ideas. What's hard is verifying that the people behind an idea aren't all in the same room.",
     nuanced:
-      "PageRank computes contributor authority weight from the citation/mention graph. Louvain community detection partitions the contributor graph into modular clusters. Two contributors in the same Louvain community are likely sharing context. Two contributors in different communities arriving at the same vector cluster, with low betweenness between them, are independent — that's the strongest signal.",
+      "Independence verification distinguishes genuine convergence from coordinated echo. PageRank computes contributor authority weight from the citation/mention graph. Louvain community detection partitions the contributor graph into modular clusters. Two contributors in the same Louvain community are likely sharing context. Two contributors in different communities arriving at the same vector cluster, with low betweenness between them, are independent — that's the strongest signal.",
   },
   {
     simple:
-      "The most valuable contributors are the bridge nodes: the ones whose ideas show up on their own in another community's discussion, weeks after they first published.",
+      "The most valuable contributors are the bridge nodes: the ones whose ideas show up independently in another community's work.",
     nuanced:
-      "The protocol weights bridge contributors most heavily. Bridge nodes — high betweenness centrality, presence across multiple Louvain communities — are the structural origin points of cross-community convergence. They're rarely the loudest in any single community; they're the ones whose work propagates without amplification.",
+      "Bridge nodes — high betweenness centrality, presence across multiple Louvain communities — are the structural origin points of cross-community convergence. They're rarely the loudest in any single community; they're the ones whose work propagates without amplification.",
+  },
+  {
+    simple:
+      "Known gap: the current independence score catches surface-level dependence (direct citations, same-platform echo) but not hidden common causes — shared catalysts, shared discourse networks, or shared pretraining contamination.",
+    nuanced:
+      "Surface metrics (cross-platform presence, citation overlap) are necessary but not sufficient for true epistemic independence. Multiple sources may appear independent but all respond to the same upstream event, or share training data that correlates their outputs. Deeper provenance tracking and common-cause modeling are future work — acknowledged openly because the independence claim is the center of the methodology.",
   },
 ];
 
