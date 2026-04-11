@@ -73,7 +73,7 @@ export default function DashboardPage() {
           <span title="Contributors ranked by originality, independence, centrality, and source depth — never followers">
             {aggStats.totalLeaders} leaders
           </span>
-          <span title="Convergence patterns — insights where multiple independent voices arrived at the same conclusion, verified via PageRank + Louvain communities">
+          <span title="Convergence patterns — cross-community convergence where unaffiliated sources arrive at the same observation, filtered via PageRank + Louvain communities">
             {aggStats.totalPatterns} patterns
           </span>
           <span title="Days the autonomous pipeline produced new content">

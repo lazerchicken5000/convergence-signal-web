@@ -123,8 +123,8 @@ export default function DocsPage() {
           <div>
             <h3 className="text-sm font-semibold text-zinc-300 mb-1">Independence Score</h3>
             <p className="text-sm text-zinc-500 leading-relaxed">
-              Verified through social graph analysis (PageRank, Louvain communities).
-              0.7+ = genuinely independent sources. Below 0.5 suggests potential echo chamber.
+              Measured via social graph analysis (PageRank, Louvain communities).
+              0.7+ = strong cross-community convergence. Below 0.5 = potential echo chamber. Note: captures surface-level dependence (citations, affiliations) but not hidden common causes.
             </p>
           </div>
           <div>

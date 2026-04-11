@@ -13,7 +13,7 @@ const spec = {
     title: 'Verg Intelligence API',
     version: '0.1.0',
     description:
-      'Verg is a protocol for convergence intelligence — detecting when independent minds arrive at the same conclusion without coordinating. This API exposes curated patterns, contributor profiles, and predictions for AI agents and developers.',
+      'Verg is a protocol for convergence intelligence — detecting cross-community convergence where unaffiliated sources arrive at the same observation without direct coordination. This API exposes curated patterns, contributor profiles, and signal/noise audits for AI agents and developers.',
     termsOfService: 'https://verg.dev/whitepaper',
     contact: {
       name: 'Verg',
@@ -33,7 +33,7 @@ const spec = {
       get: {
         summary: 'Get convergence patterns',
         description:
-          'Returns the current convergence patterns — clusters of independent sources arriving at the same conclusion. Each pattern includes a CI (Convergence Intelligence) score, independence verification, token bake cost, and source links back to raw papers/repos/talks. Sorted by CI score descending.',
+          'Returns the current convergence patterns — clusters of assertions from unaffiliated sources across different communities sharing the same thesis. Each pattern includes a CI score, independence-adjusted scoring, token bake cost, and source links back to raw papers/repos/talks. Sorted by CI score descending.',
         operationId: 'getPatterns',
         tags: ['Intelligence'],
         parameters: [
@@ -164,7 +164,7 @@ const spec = {
           },
           independence_score: {
             type: 'number',
-            description: 'Independence verification score (0-1). 0.7+ = genuinely independent sources. <0.5 = potential echo chamber.',
+            description: 'Independence verification score (0-1). 0.7+ = strong cross-community convergence. <0.5 = potential echo chamber.',
           },
           creator_count: { type: 'integer' },
           stability_weeks: { type: 'integer' },

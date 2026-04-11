@@ -5,8 +5,8 @@ import Link from 'next/link';
 const TERMS = [
   {
     term: 'Verg Pattern',
-    simple: 'When different people independently come to the same conclusion without talking to each other.',
-    nuanced: 'A detected cluster of independent assertions from multiple sources sharing the same underlying thesis, verified against citation graphs to filter amplification. Classified as Solution, Problem, or Metaphor verg.',
+    simple: 'When people in different communities arrive at the same conclusion without citing each other.',
+    nuanced: 'A detected cluster of assertions from unaffiliated sources sharing the same underlying thesis, filtered against citation graphs to discount amplification. Cross-community convergence is a stronger signal than virality, but unaffiliated does not guarantee fully causally independent. Classified as Solution, Problem, or Metaphor.',
   },
   {
     term: 'CI Score',
@@ -15,8 +15,8 @@ const TERMS = [
   },
   {
     term: 'Independence Score',
-    simple: 'Are these people actually thinking for themselves, or just copying each other?',
-    nuanced: 'Measures whether sources arrived at conclusions independently or via amplification. Derived from citation graph analysis and temporal ordering. High (>0.7) = genuine verg. Low (<0.5) = possible echo.',
+    simple: 'Are these sources in different communities, or just echoing each other?',
+    nuanced: 'Measures cross-community presence and discounts direct citation/affiliation overlap. High (>0.7) = strong cross-community convergence. Low (<0.5) = potential echo chamber. Note: this catches surface-level dependence but not hidden common causes (shared catalysts, overlapping news cycles, pretraining contamination).',
   },
   {
     term: 'Token Bake',
@@ -40,7 +40,7 @@ const TERMS = [
   },
   {
     term: 'Signal vs. Noise',
-    simple: 'Signal = real insight from people thinking independently. Noise = the same idea getting repeated until it seems bigger than it is.',
+    simple: 'Signal = cross-community convergence from unaffiliated sources. Noise = the same idea getting amplified within a single community until it seems bigger than it is.',
     nuanced: 'Multi-factor filtering: citation graph pruning removes amplification chains, temporal analysis identifies origination vs. echo, and cross-platform verification ensures the signal isn\'t confined to a single information silo.',
   },
   {

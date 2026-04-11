@@ -71,7 +71,7 @@ const THESIS: DepthPair[] = [
     simple:
       "When several people who don't know each other arrive at the same conclusion, that's stronger evidence than any one of them shouting it. The protocol looks for those independent agreements.",
     nuanced:
-      "Verg detects convergence patterns: clusters of independent assertions from sources in different communities that share the same underlying thesis. The signal isn't volume — it's the structural independence of the contributors. Two people in the same community agreeing means little. Two people in different research disciplines, on different platforms, with no citation links between them, arriving at the same conclusion is much harder to fake.",
+      "Verg detects convergence patterns: clusters of assertions from unaffiliated sources in different communities that share the same underlying thesis. The signal isn't volume — it's cross-community reinforcement. Two people in the same community agreeing means little. Two people in different research disciplines, on different platforms, with no citation links between them, arriving at the same conclusion is a stronger signal — though unaffiliated does not guarantee fully independent. Shared platforms, benchmark releases, and news cycles can produce convergence that looks independent to surface metrics.",
   },
   {
     simple:
@@ -115,7 +115,7 @@ const PIPELINE_STAGES: PipelineStage[] = [
     prose: {
       simple: 'Find the clusters where multiple independent voices are converging.',
       nuanced:
-        'Convergence patterns emerge when independent contributors align on the same vector cluster. CI score is computed from semantic alignment, contributor count, frame coherence, and stability over time.',
+        'Convergence patterns emerge when contributors across different communities align on the same vector cluster without direct citation links. CI score is computed from semantic alignment, contributor count, cross-community presence, and stability over time.',
     },
   },
   {
@@ -384,7 +384,7 @@ export default function ProtocolPage() {
       </Section>
 
       {/* ── 3. CONVERGENCE AS SIGNAL ── */}
-      <Section id="thesis" eyebrow="02 — Thesis" title="Convergence as Signal" subtitle="Independent minds, same conclusion.">
+      <Section id="thesis" eyebrow="02 — Thesis" title="Convergence as Signal" subtitle="Cross-community convergence, not virality.">
         {THESIS.map((p, i) => <Prose key={i} pair={p} />)}
         <EchoVsConvergence />
       </Section>
