@@ -167,7 +167,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
 
           {tab === 'emerging' && (
             <>
-              {diff?.new_patterns.map(p => (
+              {diff?.new_patterns.slice().sort((a, b) => b.ci_score - a.ci_score).map(p => (
                 <button
                   key={p.lineage_id}
                   onClick={() => handleSelect(p.lineage_id)}
@@ -190,7 +190,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                   </div>
                 </button>
               ))}
-              {diff?.accelerating.map(p => (
+              {diff?.accelerating.slice().sort((a, b) => b.ci_after - a.ci_after).map(p => (
                 <button
                   key={p.lineage_id}
                   onClick={() => handleSelect(p.lineage_id)}
@@ -517,14 +517,43 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
         {/* Emerging infographic — always show when on emerging tab with diff data */}
         {tab === 'emerging' && diff && (
           <div>
-            <div className="border-b border-zinc-800">
-              <EmergingTimeline diff={diff} selectedId={selectedId} height={320} />
+            <div className="border-b border-zinc-800 overflow-x-auto">
+              <div className="min-w-[800px]">
+                <EmergingTimeline diff={diff} selectedId={selectedId} height={320} />
+              </div>
             </div>
 
             {/* Detail below for selected item */}
             {selectedId && (
               <div className="p-5 space-y-3">
                 {(() => {
+                  // Cross-reference sources from patternData
+                  const matchedPattern = patternData.find(p => p.pattern.id === selectedId);
+                  const sources = matchedPattern?.sources ?? [];
+
+                  const SourceLinks = () => sources.length > 0 ? (
+                    <div className="mt-3 pt-3 border-t border-zinc-800/50">
+                      <p className="text-[10px] text-zinc-600 mb-2">sources ({sources.length})</p>
+                      <div className="space-y-1.5">
+                        {sources.slice(0, 6).map(s => (
+                          <a
+                            key={s.id}
+                            href={s.source_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block text-xs text-zinc-400 hover:text-zinc-200 truncate"
+                            title={s.source_url}
+                          >
+                            <span className="text-zinc-600">{s.source}</span> {s.title}
+                          </a>
+                        ))}
+                        {sources.length > 6 && (
+                          <p className="text-[10px] text-zinc-700">+{sources.length - 6} more</p>
+                        )}
+                      </div>
+                    </div>
+                  ) : null;
+
                   const newP = diff.new_patterns.find(p => p.lineage_id === selectedId);
                   if (newP) return (
                     <>
@@ -535,6 +564,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{newP.label}</h2>
                       <p className="text-xs text-zinc-500">{newP.creator_count} independent sources detected this pattern.</p>
                       <a href={`/pattern/${newP.lineage_id}`} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>
+                      <SourceLinks />
                       <PatternFeedback patternId={newP.lineage_id} />
                     </>
                   );
@@ -548,6 +578,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{accel.label}</h2>
                       <p className="text-xs text-zinc-500">CI +{accel.delta.toFixed(3)}. Signal strengthening.</p>
                       <a href={`/pattern/${accel.lineage_id}`} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>
+                      <SourceLinks />
                       <PatternFeedback patternId={accel.lineage_id} />
                     </>
                   );
@@ -558,6 +589,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-400 leading-snug">{dead.label}</h2>
                       <p className="text-xs text-zinc-600">Tracked {dead.age_days}d. Signal did not sustain.</p>
                       <a href={`/pattern/${dead.lineage_id}`} className="text-xs text-zinc-700 hover:text-zinc-500 inline-block mt-1">view full pattern →</a>
+                      <SourceLinks />
                     </>
                   );
                   return null;

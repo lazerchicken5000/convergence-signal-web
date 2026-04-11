@@ -53,27 +53,18 @@ export default function DashboardPage() {
           <Link href="/blog" className="text-zinc-400 hover:text-zinc-200 transition-colors">Transmissions</Link>
           <Link href="/docs" className="text-zinc-400 hover:text-zinc-200 transition-colors">API</Link>
           <Link href="/glossary" className="text-zinc-500 hover:text-zinc-300 transition-colors">Glossary</Link>
+          <a href="https://x.com/lazerhawk5000" className="text-zinc-500 hover:text-zinc-300 transition-colors font-mono">X.com/@lazerhawk5000</a>
         </div>
-        <div className="flex items-center gap-3">
-          <a href="https://x.com/lazerhawk5000" className="text-zinc-500 hover:text-zinc-300 transition-colors font-mono">@lazerhawk5000</a>
-          <Link href="/tip" className="text-emerald-500 hover:text-emerald-400 transition-colors font-medium">Support</Link>
-        </div>
+        <Link href="/tip" className="text-emerald-500 hover:text-emerald-400 transition-colors font-medium">Support</Link>
       </nav>
 
       {/* ── HEADER: VERG + heatmap canvas ── */}
       <VergHeader days={calendar} stats={aggStats} />
 
-      {/* ── HERO: protocol introduction ── */}
-      <section className="mb-5 -mt-1 max-w-2xl">
-        <h2 className="text-base sm:text-lg text-zinc-200 leading-snug font-medium">
-          Convergence intelligence — meet mind to mind with the parts of the paradigm.
-        </h2>
-      </section>
-
-      {/* ── Tagline left + stats right, same row ── */}
-      <div className="flex items-center justify-between mb-6 -mt-2">
-        <p className="text-sm text-muted-foreground">
-          Sourcing signal. Removing noise. For builders. <span className="font-mono text-zinc-600">@lazerhawk5000</span>
+      {/* ── Tagline + stats row ── */}
+      <div className="flex items-center justify-between mb-6 -mt-1">
+        <p className="text-sm text-zinc-300">
+          Sourcing signal. Removing noise. For builders.
         </p>
         <div className="flex items-center gap-4 text-[11px] text-zinc-600 font-mono shrink-0">
           <span title="Token bake — raw source tokens compressed into structured intelligence (chars/4 measured every run; ~96% compression)">
