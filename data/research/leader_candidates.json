@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-10T13:05:38.212Z",
-  "total_leaders_analyzed": 318,
+  "generated_at": "2026-04-11T12:00:44.731Z",
+  "total_leaders_analyzed": 344,
   "candidates": [
     {
       "rank": 1,
@@ -8,11 +8,11 @@
       "name": "simon willison",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.353,
+      "score": 0.345,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
-      "score_change": -0.002,
+      "score_change": -0.008,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -21,11 +21,11 @@
         },
         {
           "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
-          "value": 0.511
+          "value": 0.416
         }
       ],
       "pattern_count": 1,
@@ -40,31 +40,66 @@
     },
     {
       "rank": 2,
+      "id": "andrej_karpathy",
+      "name": "andrej karpathy",
+      "leader_type": "architect",
+      "entity_type": "individual",
+      "score": 0.317,
+      "tier": "established",
+      "trajectory": "rising",
+      "rank_change": 0,
+      "score_change": 0,
+      "is_new_entrant": true,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.902
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.761
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.4
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "tech_media"
+      ],
+      "source_types": [
+        "youtube",
+        "citation"
+      ]
+    },
+    {
+      "rank": 3,
       "id": "fireship",
       "name": "fireship",
       "leader_type": "architect",
       "entity_type": "unknown",
-      "score": 0.283,
-      "tier": "established",
+      "score": 0.282,
+      "tier": "top",
       "trajectory": "stable",
-      "rank_change": 1,
-      "score_change": 0.012,
+      "rank_change": -1,
+      "score_change": -0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
-          "value": 0.737
+          "value": 0.609
         },
         {
           "signal": "content_volume",
-          "value": 0.25
+          "value": 0.3
         }
       ],
-      "pattern_count": 2,
+      "pattern_count": 4,
       "domains": [
         "tech_media"
       ],
@@ -73,59 +108,25 @@
       ]
     },
     {
-      "rank": 3,
-      "id": "hard_fork_nyt",
-      "name": "hard fork (nyt)",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.269,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": -1,
-      "score_change": -0.002,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.853
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.587
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.35
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
-      ]
-    },
-    {
       "rank": 4,
       "id": "js_party_javascript_css_web_development",
       "name": "js party: javascript, css, web development",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.268,
+      "score": 0.279,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
-      "score_change": -0.002,
+      "score_change": 0.011,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
-          "value": 0.652
+          "value": 0.731
         },
         {
           "signal": "content_volume",
@@ -142,20 +143,54 @@
     },
     {
       "rank": 5,
-      "id": "hetu_project",
-      "name": "hetu-project",
+      "id": "practical_ai",
+      "name": "practical ai",
       "leader_type": "architect",
-      "entity_type": "open_source_project",
-      "score": 0.266,
+      "entity_type": "media_channel",
+      "score": 0.276,
       "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": -0.002,
+      "trajectory": "rising",
+      "rank_change": 5,
+      "score_change": 0.03,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.597
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.35
+        }
+      ],
+      "pattern_count": 2,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "hetu_project",
+      "name": "hetu-project",
+      "leader_type": "architect",
+      "entity_type": "open_source_project",
+      "score": 0.268,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -1,
+      "score_change": 0.002,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
@@ -175,55 +210,55 @@
       ]
     },
     {
-      "rank": 6,
-      "id": "kowshik_chowdhury",
-      "name": "kowshik chowdhury",
+      "rank": 7,
+      "id": "hard_fork_nyt",
+      "name": "hard fork (nyt)",
       "leader_type": "architect",
-      "entity_type": "individual",
-      "score": 0.263,
+      "entity_type": "media_channel",
+      "score": 0.268,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -4,
       "score_change": -0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
-          "value": 0.75
+          "value": 0.478
         },
         {
-          "signal": "cross_source_mentions",
-          "value": 0.2
+          "signal": "content_volume",
+          "value": 0.4
         }
       ],
-      "pattern_count": 1,
+      "pattern_count": 2,
       "domains": [
-        "academic"
+        "publishing"
       ],
       "source_types": [
-        "arxiv"
+        "rss"
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": "theo_t3_gg",
       "name": "theo - t3․gg",
       "leader_type": "architect",
       "entity_type": "individual",
-      "score": 0.259,
+      "score": 0.263,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0.003,
+      "rank_change": -1,
+      "score_change": 0.004,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
         },
         {
           "signal": "content_volume",
@@ -231,7 +266,7 @@
         },
         {
           "signal": "independence_contribution",
-          "value": 0.343
+          "value": 0.364
         }
       ],
       "pattern_count": 1,
@@ -243,25 +278,25 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "the_changelog_software_development_open_",
       "name": "the changelog: software development, open source",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.257,
+      "score": 0.261,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0.002,
+      "rank_change": -1,
+      "score_change": 0.004,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
-          "value": 0.546
+          "value": 0.568
         },
         {
           "signal": "content_volume",
@@ -277,29 +312,63 @@
       ]
     },
     {
-      "rank": 9,
-      "id": "thedaily_nytimes_com_the_new_york_times",
-      "name": "thedaily@nytimes.com (the new york times)",
+      "rank": 10,
+      "id": "kowshik_chowdhury",
+      "name": "kowshik chowdhury",
       "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.249,
+      "entity_type": "individual",
+      "score": 0.259,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 1,
-      "score_change": 0,
+      "rank_change": -4,
+      "score_change": -0.004,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.6
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
-          "value": 0.209
+          "value": 0.708
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "academic"
+      ],
+      "source_types": [
+        "arxiv"
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "thedaily_nytimes_com_the_new_york_times",
+      "name": "thedaily@nytimes.com (the new york times)",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.25,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -2,
+      "score_change": 0.001,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.86
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.65
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
         }
       ],
       "pattern_count": 2,
@@ -311,41 +380,7 @@
       ]
     },
     {
-      "rank": 10,
-      "id": "practical_ai",
-      "name": "practical ai",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.246,
-      "tier": "established",
-      "trajectory": "rising",
-      "rank_change": -1,
-      "score_change": -0.003,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.853
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.397
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.35
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
-      ]
-    },
-    {
-      "rank": 11,
+      "rank": 12,
       "id": "openai",
       "name": "openai",
       "leader_type": "architect",
@@ -353,7 +388,7 @@
       "score": 0.226,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -380,55 +415,21 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "id": "jiaming_zhuge",
       "name": "jiaming zhuge",
       "leader_type": "architect",
       "entity_type": "individual",
-      "score": 0.208,
+      "score": 0.209,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": -0.001,
+      "rank_change": -1,
+      "score_change": 0.001,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.853
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.293
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "academic"
-      ],
-      "source_types": [
-        "arxiv"
-      ]
-    },
-    {
-      "rank": 13,
-      "id": "ashwin_ram",
-      "name": "ashwin ram",
-      "leader_type": "architect",
-      "entity_type": "individual",
-      "score": 0.208,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": -0.001,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.853
+          "value": 0.86
         },
         {
           "signal": "independence_contribution",
@@ -449,15 +450,83 @@
     },
     {
       "rank": 14,
+      "id": "ashwin_ram",
+      "name": "ashwin ram",
+      "leader_type": "architect",
+      "entity_type": "individual",
+      "score": 0.207,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -1,
+      "score_change": -0.001,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.86
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.277
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "academic"
+      ],
+      "source_types": [
+        "arxiv"
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "anay_mehrotra",
+      "name": "anay mehrotra",
+      "leader_type": "architect",
+      "entity_type": "individual",
+      "score": 0.193,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 0,
+      "score_change": 0.001,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.86
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.152
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "academic"
+      ],
+      "source_types": [
+        "arxiv"
+      ]
+    },
+    {
+      "rank": 16,
       "id": "elliot_murphy",
       "name": "elliot murphy",
       "leader_type": "architect",
       "entity_type": "academic_group",
-      "score": 0.2,
+      "score": 0.189,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": -0.002,
+      "rank_change": -2,
+      "score_change": -0.011,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -466,7 +535,7 @@
         },
         {
           "signal": "independence_contribution",
-          "value": 0.63
+          "value": 0.548
         },
         {
           "signal": "cross_source_mentions",
@@ -482,41 +551,7 @@
       ]
     },
     {
-      "rank": 15,
-      "id": "anay_mehrotra",
-      "name": "anay mehrotra",
-      "leader_type": "architect",
-      "entity_type": "individual",
-      "score": 0.192,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": true,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.853
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.158
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "academic"
-      ],
-      "source_types": [
-        "arxiv"
-      ]
-    },
-    {
-      "rank": 16,
+      "rank": 17,
       "id": "eigenlayer",
       "name": "eigenlayer",
       "leader_type": "architect",
@@ -550,7 +585,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "id": "avs",
       "name": "avs",
       "leader_type": "architect",
@@ -584,51 +619,17 @@
       ]
     },
     {
-      "rank": 18,
-      "id": "chris_benson",
-      "name": "chris benson",
-      "leader_type": "architect",
-      "entity_type": "unknown",
-      "score": 0.186,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": -1,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 1
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        },
-        {
-          "signal": "content_volume",
-          "value": 0
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "general"
-      ],
-      "source_types": [
-        "citation"
-      ]
-    },
-    {
       "rank": 19,
-      "id": "daniel_whitenack",
-      "name": "daniel whitenack",
+      "id": "anthropic",
+      "name": "anthropic",
       "leader_type": "architect",
-      "entity_type": "unknown",
+      "entity_type": "organization",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": false,
+      "is_new_entrant": true,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -653,14 +654,14 @@
     },
     {
       "rank": 20,
-      "id": "kent_c_dodds",
-      "name": "kent c. dodds",
+      "id": "chris_benson",
+      "name": "chris benson",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -2,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -687,14 +688,14 @@
     },
     {
       "rank": 21,
-      "id": "theo_browne",
-      "name": "theo browne",
+      "id": "daniel_whitenack",
+      "name": "daniel whitenack",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -2,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -721,14 +722,14 @@
     },
     {
       "rank": 22,
-      "id": "claude",
-      "name": "claude",
+      "id": "kent_c_dodds",
+      "name": "kent c. dodds",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -2,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -755,14 +756,14 @@
     },
     {
       "rank": 23,
-      "id": "step_security",
-      "name": "step security",
+      "id": "theo_browne",
+      "name": "theo browne",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -2,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -789,14 +790,14 @@
     },
     {
       "rank": 24,
-      "id": "sebastian_mallaby",
-      "name": "sebastian mallaby",
+      "id": "claude",
+      "name": "claude",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -2,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -823,16 +824,16 @@
     },
     {
       "rank": 25,
-      "id": "tom_occhino",
-      "name": "tom occhino",
+      "id": "ronan_farrow",
+      "name": "ronan farrow",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": false,
+      "is_new_entrant": true,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -857,16 +858,16 @@
     },
     {
       "rank": 26,
-      "id": "shruti_kapoor",
-      "name": "shruti kapoor",
+      "id": "andrew_marantz",
+      "name": "andrew marantz",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": false,
+      "is_new_entrant": true,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -891,14 +892,14 @@
     },
     {
       "rank": 27,
-      "id": "martin_gutenorfs",
-      "name": "martin gutenorfs",
+      "id": "sebastian_mallaby",
+      "name": "sebastian mallaby",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -3,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -925,20 +926,20 @@
     },
     {
       "rank": 28,
-      "id": "david_carney",
-      "name": "david carney",
+      "id": "tom_occhino",
+      "name": "tom occhino",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -3,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.998
+          "value": 1
         },
         {
           "signal": "cross_source_mentions",
@@ -959,14 +960,14 @@
     },
     {
       "rank": 29,
-      "id": "adam_feuerstein",
-      "name": "adam feuerstein",
+      "id": "shruti_kapoor",
+      "name": "shruti kapoor",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -3,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -993,20 +994,20 @@
     },
     {
       "rank": 30,
-      "id": "astral",
-      "name": "astral",
+      "id": "david_carney",
+      "name": "david carney",
       "leader_type": "architect",
       "entity_type": "unknown",
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": -2,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.998
+          "value": 1
         },
         {
           "signal": "cross_source_mentions",
@@ -1028,21 +1029,64 @@
   ],
   "new_entrants": [
     {
-      "name": "anay mehrotra",
-      "rank": 15,
-      "score": 0.192,
-      "reason": "Entered at #15 — social_pagerank strength"
+      "name": "andrej karpathy",
+      "rank": 2,
+      "score": 0.317,
+      "reason": "Entered at #2 — social_pagerank strength"
+    },
+    {
+      "name": "anthropic",
+      "rank": 19,
+      "score": 0.186,
+      "reason": "Entered at #19 — social_pagerank strength"
+    },
+    {
+      "name": "ronan farrow",
+      "rank": 25,
+      "score": 0.186,
+      "reason": "Entered at #25 — social_pagerank strength"
+    },
+    {
+      "name": "andrew marantz",
+      "rank": 26,
+      "score": 0.186,
+      "reason": "Entered at #26 — social_pagerank strength"
     }
   ],
-  "rising": [],
+  "rising": [
+    {
+      "name": "practical ai",
+      "rank": 5,
+      "rank_change": 5,
+      "score_change": 0.03
+    }
+  ],
   "fading": [
     {
-      "name": "litellm",
+      "name": "step security",
+      "previous_rank": 23,
+      "score_change": -0.003
+    },
+    {
+      "name": "martin gutenorfs",
+      "previous_rank": 27,
+      "score_change": -0.003
+    },
+    {
+      "name": "adam feuerstein",
+      "previous_rank": 29,
+      "score_change": 0
+    },
+    {
+      "name": "astral",
       "previous_rank": 30,
       "score_change": 0
     }
   ],
   "dropped_out": [
-    "litellm"
+    "step_security",
+    "martin_gutenorfs",
+    "adam_feuerstein",
+    "astral"
   ]
 }

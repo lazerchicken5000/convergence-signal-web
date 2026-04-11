@@ -1,0 +1,35 @@
+{
+  "id": "td_b69562f7",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "ChatGPT voice mode is a weaker model",
+  "body_text": "I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.\nIf you ask ChatGPT voice mode for its knowledge cutoff date it tells you April 2024 - it's a GPT-4o era model.\nThis thought inspired by this Andrej Karpathy tweet about the growing gap in understanding of AI capability based on the access points and domains people are using the models with:\n\n[...] It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and at the same time, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems.\nThis part really works and has made dramatic strides because 2 properties:\n\nthese domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also\nthey are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them.\n\n\n\n    Tags: andrej-karpathy, generative-ai, openai, chatgpt, ai, llms",
+  "word_count": 231,
+  "published_at": "2026-04-10T15:56:02.000Z",
+  "ingested_at": "2026-04-11T11:00:09.375Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
