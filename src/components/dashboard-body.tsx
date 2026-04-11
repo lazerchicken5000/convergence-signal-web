@@ -32,6 +32,13 @@ interface LeaderEntry {
   highlight: LeaderHighlight;
 }
 
+interface PatternAuditLink {
+  audit_id: string;
+  source_author: string | null;
+  claim_text: string;
+  posted_at: string | null;
+}
+
 interface DashboardBodyProps {
   patternData: PatternEntry[];
   leaderData: LeaderEntry[];
@@ -41,6 +48,7 @@ interface DashboardBodyProps {
   scorecard: ScorecardData | null;
   efficiency: EfficiencyTrendData | null;
   sourceRankings: SourceRankingData | null;
+  auditsByPattern?: Record<string, PatternAuditLink[]>;
 }
 
 function ciColor(score: number) {
@@ -50,7 +58,7 @@ function ciColor(score: number) {
   return 'text-zinc-500';
 }
 
-export function DashboardBody({ patternData, leaderData, diff, totalPatterns, totalLeaders, scorecard, efficiency, sourceRankings }: DashboardBodyProps) {
+export function DashboardBody({ patternData, leaderData, diff, totalPatterns, totalLeaders, scorecard, efficiency, sourceRankings, auditsByPattern = {} }: DashboardBodyProps) {
   const [tab, setTab] = useState<Tab>('signal');
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showSynthesis, setShowSynthesis] = useState(false);
@@ -530,6 +538,28 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                   // Cross-reference sources from patternData
                   const matchedPattern = patternData.find(p => p.pattern.id === selectedId);
                   const sources = matchedPattern?.sources ?? [];
+                  const linkedAudits = auditsByPattern[selectedId] ?? [];
+
+                  const AuditLinks = () => linkedAudits.length > 0 ? (
+                    <div className="mt-3 pt-3 border-t border-zinc-800/50">
+                      <p className="text-[10px] text-emerald-500/70 mb-2">audited in {linkedAudits.length} post{linkedAudits.length === 1 ? '' : 's'}</p>
+                      <div className="space-y-1.5">
+                        {linkedAudits.slice(0, 4).map(al => (
+                          <a
+                            key={al.audit_id}
+                            href={`/audits/${al.audit_id}`}
+                            className="block text-xs text-zinc-400 hover:text-zinc-200 truncate"
+                          >
+                            <span className="text-emerald-400/60 font-mono">@{al.source_author}</span>{' '}
+                            {al.claim_text.slice(0, 80)}
+                          </a>
+                        ))}
+                        {linkedAudits.length > 4 && (
+                          <p className="text-[10px] text-zinc-700">+{linkedAudits.length - 4} more</p>
+                        )}
+                      </div>
+                    </div>
+                  ) : null;
 
                   const SourceLinks = () => sources.length > 0 ? (
                     <div className="mt-3 pt-3 border-t border-zinc-800/50">
@@ -564,6 +594,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{newP.label}</h2>
                       <p className="text-xs text-zinc-500">{newP.creator_count} independent sources detected this pattern.</p>
                       <a href={`/pattern/${newP.lineage_id}`} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>
+                      <AuditLinks />
                       <SourceLinks />
                       <PatternFeedback patternId={newP.lineage_id} />
                     </>
@@ -578,6 +609,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{accel.label}</h2>
                       <p className="text-xs text-zinc-500">CI +{accel.delta.toFixed(3)}. Signal strengthening.</p>
                       <a href={`/pattern/${accel.lineage_id}`} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>
+                      <AuditLinks />
                       <SourceLinks />
                       <PatternFeedback patternId={accel.lineage_id} />
                     </>
@@ -589,6 +621,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-400 leading-snug">{dead.label}</h2>
                       <p className="text-xs text-zinc-600">Tracked {dead.age_days}d. Signal did not sustain.</p>
                       <a href={`/pattern/${dead.lineage_id}`} className="text-xs text-zinc-700 hover:text-zinc-500 inline-block mt-1">view full pattern →</a>
+                      <AuditLinks />
                       <SourceLinks />
                     </>
                   );

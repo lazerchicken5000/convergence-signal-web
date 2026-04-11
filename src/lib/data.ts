@@ -860,3 +860,36 @@ export function getAudit(id: string): AuditCard | null {
   if (!ledger) return null;
   return ledger.audits.find(a => a.audit_id === id) ?? null;
 }
+
+/**
+ * Map pattern IDs to the audits that matched them. Used by the emerging
+ * tab to show "Audited in N posts" per pattern. Reads from the audit
+ * ledger's evidence.matches[].patternId field — data produced by the
+ * audit assembler at audit time.
+ */
+export interface PatternAuditLink {
+  audit_id: string;
+  source_author: string | null;
+  claim_text: string;
+  posted_at: string | null;
+}
+
+export function getAuditsByPattern(): Record<string, PatternAuditLink[]> {
+  const audits = getAudits();
+  const map: Record<string, PatternAuditLink[]> = {};
+  for (const a of audits) {
+    const ev = a.evidence as { matches?: Array<{ patternId?: string }> } | null;
+    if (!ev?.matches) continue;
+    for (const m of ev.matches) {
+      if (!m.patternId) continue;
+      if (!map[m.patternId]) map[m.patternId] = [];
+      map[m.patternId].push({
+        audit_id: a.audit_id,
+        source_author: a.source_author,
+        claim_text: a.claim_text,
+        posted_at: a.posted_at,
+      });
+    }
+  }
+  return map;
+}

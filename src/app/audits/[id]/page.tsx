@@ -59,10 +59,20 @@ function ProbeRow({ snapshot }: { snapshot: AuditCitedSnapshot }) {
   );
 }
 
+interface PatternMatch {
+  patternId: string;
+  patternLabel: string;
+  patternDescription?: string;
+  ciScore?: number;
+}
+
 export default async function AuditPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const audit = getAudit(id);
   if (!audit) notFound();
+
+  const evidence = audit.evidence as { matches?: PatternMatch[] } | null;
+  const patternMatches = evidence?.matches ?? [];
 
   const authorX =
     audit.source_author && audit.source_platform === 'x'
@@ -133,6 +143,42 @@ export default async function AuditPage({ params }: { params: Promise<{ id: stri
             unoptimized
           />
         </div>
+      )}
+
+      {/* Matched convergence patterns */}
+      {patternMatches.length > 0 && (
+        <Card className="mb-4">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-sm">
+              Matched patterns ({patternMatches.length})
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-2">
+              {patternMatches.map(m => (
+                <Link
+                  key={m.patternId}
+                  href={`/pattern/${m.patternId}`}
+                  className="block text-xs hover:bg-zinc-800/50 rounded p-2 -mx-2 transition-colors"
+                >
+                  <div className="flex items-center gap-2 mb-0.5">
+                    <span className="text-emerald-400 font-mono text-[10px]">
+                      {typeof m.ciScore === 'number' ? m.ciScore.toFixed(2) : '—'}
+                    </span>
+                    <span className="text-zinc-300">{m.patternLabel}</span>
+                  </div>
+                  {m.patternDescription && m.patternDescription !== m.patternLabel && (
+                    <p className="text-[10px] text-zinc-600 line-clamp-2 ml-10">{m.patternDescription}</p>
+                  )}
+                </Link>
+              ))}
+            </div>
+            <p className="text-[10px] text-muted-foreground mt-3">
+              Patterns are converging topics detected by Verg from independent sources.
+              A match means this claim touches the same space.
+            </p>
+          </CardContent>
+        </Card>
       )}
 
       {/* Draft reply text */}

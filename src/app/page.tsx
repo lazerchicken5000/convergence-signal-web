@@ -4,6 +4,7 @@ import {
   getPatternSignalQuality, getActivityCalendar, getAggregateStats,
   getLeaderLinks, getLeaderSourcedContributions, getLeaderHighlight,
   getPatternSynthesis, getScorecard, getEfficiencyTrend, getSourceRankings,
+  getAuditsByPattern,
 } from '@/lib/data';
 import { deriveAccolades } from '@/components/rpg-card';
 import { VergHeader } from '@/components/verg-header';
@@ -19,6 +20,7 @@ export default function DashboardPage() {
   const diff = getLatestDiff();
   const calendar = getActivityCalendar();
   const aggStats = getAggregateStats();
+  const auditsByPattern = getAuditsByPattern();
   // Pre-compute data for all patterns
   const patternData = patterns.slice(0, 20).map(p => ({
     pattern: p,
@@ -89,6 +91,7 @@ export default function DashboardPage() {
         scorecard={getScorecard()}
         efficiency={getEfficiencyTrend()}
         sourceRankings={getSourceRankings()}
+        auditsByPattern={auditsByPattern}
       />
 
 
