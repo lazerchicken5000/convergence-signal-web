@@ -844,6 +844,32 @@ function getAuditLedger(): AuditLedger | null {
   return readJson<AuditLedger>(path.join(CI_BASE, 'audit-web-ledger.json'));
 }
 
+/**
+ * Resolve a diff lineage_id (pl_*) to a convergence pattern id (cp_*)
+ * by label matching. The diff pipeline and the pattern index use
+ * different ID systems; the label is the bridge. Returns null when
+ * no match is found (7/47 items in the current dataset).
+ */
+export function resolveLineageToPatternId(lineageLabel: string): string | null {
+  const patterns = getConvergencePatterns();
+  const needle = lineageLabel.toLowerCase().trim();
+  const match = patterns.find(p => p.label.toLowerCase().trim() === needle);
+  return match?.id ?? null;
+}
+
+/**
+ * Build a lookup map from lineage labels → pattern IDs for the whole
+ * diff at once (avoids N×M per-item lookups in the emerging tab).
+ */
+export function buildLineageLabelMap(): Map<string, string> {
+  const patterns = getConvergencePatterns();
+  const map = new Map<string, string>();
+  for (const p of patterns) {
+    map.set(p.label.toLowerCase().trim(), p.id);
+  }
+  return map;
+}
+
 export function getAudits(): AuditCard[] {
   const ledger = getAuditLedger();
   if (!ledger) return [];

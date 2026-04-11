@@ -49,6 +49,15 @@ interface DashboardBodyProps {
   efficiency: EfficiencyTrendData | null;
   sourceRankings: SourceRankingData | null;
   auditsByPattern?: Record<string, PatternAuditLink[]>;
+  /** Maps lowercase pattern label → cp_* pattern ID. Used to resolve
+   *  diff lineage_ids (pl_*) to real pattern page URLs. */
+  lineageLabelMap?: Record<string, string>;
+}
+
+/** Resolve a diff item's label to a /pattern/cp_* URL, or null if no match */
+function resolvePatternUrl(label: string, labelMap: Record<string, string>): string | null {
+  const cpId = labelMap[label.toLowerCase().trim()];
+  return cpId ? `/pattern/${cpId}` : null;
 }
 
 function ciColor(score: number) {
@@ -58,7 +67,7 @@ function ciColor(score: number) {
   return 'text-zinc-500';
 }
 
-export function DashboardBody({ patternData, leaderData, diff, totalPatterns, totalLeaders, scorecard, efficiency, sourceRankings, auditsByPattern = {} }: DashboardBodyProps) {
+export function DashboardBody({ patternData, leaderData, diff, totalPatterns, totalLeaders, scorecard, efficiency, sourceRankings, auditsByPattern = {}, lineageLabelMap = {} }: DashboardBodyProps) {
   const [tab, setTab] = useState<Tab>('signal');
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showSynthesis, setShowSynthesis] = useState(false);
@@ -192,7 +201,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <div className="flex items-center gap-2 mt-1">
                         <span className="font-mono text-xs text-emerald-400">{p.ci_score.toFixed(2)}</span>
                         <span className="text-[10px] text-zinc-600">{p.creator_count} sources</span>
-                        <a href={`/pattern/${p.lineage_id}`} onClick={e => e.stopPropagation()} className="text-[10px] text-zinc-600 hover:text-zinc-400">view →</a>
+                        {resolvePatternUrl(p.label, lineageLabelMap) && <a href={resolvePatternUrl(p.label, lineageLabelMap)!} onClick={e => e.stopPropagation()} className="text-[10px] text-zinc-600 hover:text-zinc-400">view →</a>}
                       </div>
                     </div>
                   </div>
@@ -214,7 +223,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <p className="text-sm text-zinc-300 leading-snug">{p.label}</p>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="font-mono text-xs text-zinc-500">{p.ci_before.toFixed(2)} → <span className="text-amber-400">{p.ci_after.toFixed(2)}</span></span>
-                        <a href={`/pattern/${p.lineage_id}`} onClick={e => e.stopPropagation()} className="text-[10px] text-zinc-600 hover:text-zinc-400">view →</a>
+                        {resolvePatternUrl(p.label, lineageLabelMap) && <a href={resolvePatternUrl(p.label, lineageLabelMap)!} onClick={e => e.stopPropagation()} className="text-[10px] text-zinc-600 hover:text-zinc-400">view →</a>}
                       </div>
                     </div>
                   </div>
@@ -236,7 +245,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <p className="text-sm text-zinc-500 leading-snug">{p.label}</p>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="text-[10px] text-zinc-700">tracked {p.age_days}d</span>
-                        <a href={`/pattern/${p.lineage_id}`} onClick={e => e.stopPropagation()} className="text-[10px] text-zinc-700 hover:text-zinc-500">view →</a>
+                        {resolvePatternUrl(p.label, lineageLabelMap) && <a href={resolvePatternUrl(p.label, lineageLabelMap)!} onClick={e => e.stopPropagation()} className="text-[10px] text-zinc-700 hover:text-zinc-500">view →</a>}
                       </div>
                     </div>
                   </div>
@@ -593,7 +602,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       </div>
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{newP.label}</h2>
                       <p className="text-xs text-zinc-500">{newP.creator_count} independent sources detected this pattern.</p>
-                      <a href={`/pattern/${newP.lineage_id}`} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>
+                      {resolvePatternUrl(newP.label, lineageLabelMap) && <a href={resolvePatternUrl(newP.label, lineageLabelMap)!} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>}
                       <AuditLinks />
                       <SourceLinks />
                       <PatternFeedback patternId={newP.lineage_id} />
@@ -608,7 +617,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       </div>
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{accel.label}</h2>
                       <p className="text-xs text-zinc-500">CI +{accel.delta.toFixed(3)}. Signal strengthening.</p>
-                      <a href={`/pattern/${accel.lineage_id}`} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>
+                      {resolvePatternUrl(accel.label, lineageLabelMap) && <a href={resolvePatternUrl(accel.label, lineageLabelMap)!} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>}
                       <AuditLinks />
                       <SourceLinks />
                       <PatternFeedback patternId={accel.lineage_id} />
@@ -620,7 +629,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <span className="text-[10px] px-1.5 py-0.5 rounded border border-zinc-700 text-zinc-500">noise</span>
                       <h2 className="text-sm font-medium text-zinc-400 leading-snug">{dead.label}</h2>
                       <p className="text-xs text-zinc-600">Tracked {dead.age_days}d. Signal did not sustain.</p>
-                      <a href={`/pattern/${dead.lineage_id}`} className="text-xs text-zinc-700 hover:text-zinc-500 inline-block mt-1">view full pattern →</a>
+                      {resolvePatternUrl(dead.label, lineageLabelMap) && <a href={resolvePatternUrl(dead.label, lineageLabelMap)!} className="text-xs text-zinc-700 hover:text-zinc-500 inline-block mt-1">view full pattern →</a>}
                       <AuditLinks />
                       <SourceLinks />
                     </>
