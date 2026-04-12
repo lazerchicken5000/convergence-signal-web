@@ -1,61 +1,67 @@
 {
   "patterns": [
     {
-      "id": "cp_5eeafe71",
+      "id": "cp_92ef1ee9",
       "label": "Designing AI systems to assist human workflows rather than f",
       "description": "Designing AI systems to assist human workflows rather than fully automating them, focusing on integration and augmentation of human tasks.",
-      "convergence_type": "solution",
+      "convergence_type": "metaphor",
       "vector_ids": [
         "tv_70ce6d38",
         "tv_fc114b0e",
         "tv_777d393c",
         "tv_b307b912",
-        "tv_d414f924",
         "tv_cb301d57",
         "tv_05e95ead",
         "tv_51186cdd",
         "tv_079cd426",
+        "tv_85df83e0",
         "tv_5c3656a0",
+        "tv_5c503d09",
         "tv_9697d03a",
         "tv_a6ae4032",
-        "tv_85df83e0",
         "tv_14a9086e",
         "tv_8eb4400d",
         "tv_fc700acf",
+        "tv_24069901",
         "tv_e6b6f5a4",
         "tv_33308ed5",
         "tv_94613e81",
+        "tv_184f5af4",
+        "tv_d163e6bf",
         "tv_17e87cf8",
         "tv_43878590",
-        "tv_5c503d09",
         "tv_7c11bd6d",
+        "tv_757b91aa",
         "tv_8aedbd44",
         "tv_c1af2e06",
-        "tv_757b91aa",
+        "tv_22d84206",
+        "tv_caa4134c",
         "tv_2d9336c2",
         "tv_443df29a",
+        "tv_7ba074ff",
+        "tv_0073d4c3",
+        "tv_251bbb42",
         "tv_1daa3bbc",
         "tv_275d3ecf",
-        "tv_7ba074ff",
         "tv_044c5617",
-        "tv_22d84206",
-        "tv_91a978f3",
         "tv_1643fd8f",
-        "tv_24069901",
         "tv_580eeba8",
-        "tv_caa4134c",
         "tv_a14b3632",
         "tv_34ab01d8",
-        "tv_184f5af4",
         "tv_542229f1",
-        "tv_483e74f3",
         "tv_500d0e70",
-        "tv_4b660219",
+        "tv_28d9ad5a",
+        "tv_3c103409",
+        "tv_d2f06fb7",
+        "tv_f257def3",
+        "tv_c5655245",
+        "tv_483e74f3",
         "tv_b12a3930",
         "tv_e37d4a8b",
         "tv_978f3f87",
         "tv_8612c2bd",
         "tv_9d707ed7",
+        "tv_275af763",
         "tv_1e303e77"
       ],
       "creator_ids": [
@@ -126,6 +132,7 @@
         "priscilla kyei danso",
         "m. sampson",
         "jianhua he",
+        "coleam00",
         "coleman hooper",
         "anthropics",
         "jiaying zhou",
@@ -252,7 +259,6 @@
         "jianhui liu",
         "andrew jelson",
         "sjhaha3971",
-        "zhixiang lu",
         "jiaming ji",
         "gengwei zhang",
         "david a. velasco-romero",
@@ -264,26 +270,37 @@
         "adrien cances",
         "jiayuan ye",
         "zoé roy-stang",
-        "arthur jacot",
-        "nusrat sultana",
         "eduard frankford",
+        "zhixiang lu",
+        "arthur jacot",
+        "mohammad zangooei",
+        "hengrui gu",
+        "ben wigler",
+        "nusrat sultana",
         "kowshik chowdhury",
         "ashwin ram",
         "raju chowdhury",
         "elliot jones",
         "connor douglas",
+        "longyan wu",
         "wang yang",
-        "mohammad zangooei",
-        "pinkycollie",
         "akihiro kubota",
+        "pinkycollie",
+        "mateo londoño",
+        "tomasz krajewski",
         "yinghao zhu",
+        "changgeon ko",
+        "akzhol almukhametov",
+        "ziqiao ma",
+        "chhavi dhiman",
         "yoonho lee",
         "benswerd",
-        "changgeon ko",
-        "yanis labrak"
+        "yanis labrak",
+        "zhengming yu",
+        "huaiyuan qin"
       ],
       "independence_score": 0.72,
-      "ci_score": 0.29,
+      "ci_score": 0.27,
       "frame_alignment": "infrastructure",
       "presupposition_set": [
         "AI should complement human capabilities rather than replace them",
@@ -300,20 +317,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.2,
-      "acceleration": 0.02,
+      "stability_weeks": 2.4,
+      "acceleration": -0.02,
       "first_detected": "2026-03-27T00:34:18.821Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "222 independent sources are converging on: \"Designing AI systems to assist human workflows rather than fully automating them, focusing on integration and augmentation of human tasks.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.2 weeks. Acceleration: +0.02",
-        "tier2_independence": "222 creators (high independence). Platforms: andrej karpathy, lex fridman, saahil mathur, langchain, shubhamsaboo, hard fork (nyt), dair-ai, microsoft, firecrawl, deyu ming, ruofei du, practical ai, elliot murphy, ludwig-ai, langflow-ai, mem0ai, google, browser-use, daytonaio, affaan-m, mintplex-labs, martin jaraiz, prajwal niraula, hugging face, open-webui, hiyouga, bentoml, run-llama, pathwaycom, infiniflow, unslothai, conardli, langgenius, jiahui xu, funaudiollm, js party: javascript, css, web development, qijia he, tanbiralam, biplab pal,  , satyadhar joshi, autocracy101, simon willison, bhawnaumeshparadkar, the changelog: software development, open source, abshkbh, prakhar bansal, theo - t3․gg, zhuo li, almir aljović, tony feng, elliot m. butterworth, xincheng shuai, maximiliano armesto, luca pennati, tianzhu qin, chaoran chen, saleh sargolzaei, dipto sumit, sokratis j. anagnostopoulos, nikita vassilyev, amit kiran rege, lukas-benedikt fiechtner, qimin zhong, priscilla kyei danso, m. sampson, jianhua he, coleman hooper, anthropics, jiaying zhou, chunbo hao, philip kaminsky, linbo wang, daniel c. macrae, lihao sun, minseok seo, haojun xia, zhihan cai, hao kang, konrad staniszewski, hetu-project, takuya shiba, stanford-iris-lab, bioinfo, dylan waldner, bocheng zou, dingxi zhang, huidong ma, hanchen wang, xinying guo, rafael o. jarczewski, fireship, nat gopalswamy, eva erickson, robert j. taggart, elliot c. eklund, christian kuehn, himani sinhmar, weian mao, vadim vashkelis, sixun dong, lm-provers, yuhang zhou, parsa hosseini, gabriel sarch, mónica a. reyes, pranjal aggarwal, basil kyriacou, komal kumar, yuchi wang, fizza rubab, wenjing margaret mao, zehang lin, guo gan, wei huang, guhao feng, david picard, jayr pereira, yue feng, fengbei liu, rahul jaiswal, haolei xu, ashima suvarna, jaeyong lee, van sy mai, david ilić, ge sun, jiekai wu, reihaneh zohrabi, mu nan, yifang wang, onkar susladkar, connor dilgren, yang li, yawen luo, aditya tomar, thedaily@nytimes.com (the new york times), jian yang, matthew e. brophy, sean wu, john caffier, stephen cheng, alexander h. liu, yuxing lu, delip rao, olexander mazurets, shuai liu, poorvesh dongre, qingyang xu, elliot bes, ankan deria, z. abreu, lei wang, shaona ghosh, daron acemoglu, nashsu, tanmay gupta, addison j. wu, yanwen zou, anay mehrotra, kabilan elangovan, yuxuan zhang, xuyang shen, andrew kurtz, sicheng zuo, zehao wang, pengxuan yang, falong fan, xing li, dingyu yao, aditya mittal, chen song, bingxuan li, ali reza ibrahimzada, bowen ye, aman singh, ziwei zhou, arthur gervais, wanli xing, armanified, yue zheng, fnu sidharth, xiangyu qi, yunfei bai, francisco j. beron-vera, simthembile dlamini, negin golrezaei, zhen zhang, mutsumi sasaki, shaowei liu, jianhui liu, andrew jelson, sjhaha3971, zhixiang lu, jiaming ji, gengwei zhang, david a. velasco-romero, vasiliki a. mitsou, avinash mahesh nirmala, artemy rubtsov, paddlepaddle, nazanin jafari, adrien cances, jiayuan ye, zoé roy-stang, arthur jacot, nusrat sultana, eduard frankford, kowshik chowdhury, ashwin ram, raju chowdhury, elliot jones, connor douglas, wang yang, mohammad zangooei, pinkycollie, akihiro kubota, yinghao zhu, yoonho lee, benswerd, changgeon ko, yanis labrak",
+        "tier1_summary": "233 independent sources are converging on: \"Designing AI systems to assist human workflows rather than fully automating them, focusing on integration and augmentation of human tasks.\". Convergence type: metaphor. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 2.4 weeks. Acceleration: -0.02",
+        "tier2_independence": "233 creators (high independence). Platforms: andrej karpathy, lex fridman, saahil mathur, langchain, shubhamsaboo, hard fork (nyt), dair-ai, microsoft, firecrawl, deyu ming, ruofei du, practical ai, elliot murphy, ludwig-ai, langflow-ai, mem0ai, google, browser-use, daytonaio, affaan-m, mintplex-labs, martin jaraiz, prajwal niraula, hugging face, open-webui, hiyouga, bentoml, run-llama, pathwaycom, infiniflow, unslothai, conardli, langgenius, jiahui xu, funaudiollm, js party: javascript, css, web development, qijia he, tanbiralam, biplab pal,  , satyadhar joshi, autocracy101, simon willison, bhawnaumeshparadkar, the changelog: software development, open source, abshkbh, prakhar bansal, theo - t3․gg, zhuo li, almir aljović, tony feng, elliot m. butterworth, xincheng shuai, maximiliano armesto, luca pennati, tianzhu qin, chaoran chen, saleh sargolzaei, dipto sumit, sokratis j. anagnostopoulos, nikita vassilyev, amit kiran rege, lukas-benedikt fiechtner, qimin zhong, priscilla kyei danso, m. sampson, jianhua he, coleam00, coleman hooper, anthropics, jiaying zhou, chunbo hao, philip kaminsky, linbo wang, daniel c. macrae, lihao sun, minseok seo, haojun xia, zhihan cai, hao kang, konrad staniszewski, hetu-project, takuya shiba, stanford-iris-lab, bioinfo, dylan waldner, bocheng zou, dingxi zhang, huidong ma, hanchen wang, xinying guo, rafael o. jarczewski, fireship, nat gopalswamy, eva erickson, robert j. taggart, elliot c. eklund, christian kuehn, himani sinhmar, weian mao, vadim vashkelis, sixun dong, lm-provers, yuhang zhou, parsa hosseini, gabriel sarch, mónica a. reyes, pranjal aggarwal, basil kyriacou, komal kumar, yuchi wang, fizza rubab, wenjing margaret mao, zehang lin, guo gan, wei huang, guhao feng, david picard, jayr pereira, yue feng, fengbei liu, rahul jaiswal, haolei xu, ashima suvarna, jaeyong lee, van sy mai, david ilić, ge sun, jiekai wu, reihaneh zohrabi, mu nan, yifang wang, onkar susladkar, connor dilgren, yang li, yawen luo, aditya tomar, thedaily@nytimes.com (the new york times), jian yang, matthew e. brophy, sean wu, john caffier, stephen cheng, alexander h. liu, yuxing lu, delip rao, olexander mazurets, shuai liu, poorvesh dongre, qingyang xu, elliot bes, ankan deria, z. abreu, lei wang, shaona ghosh, daron acemoglu, nashsu, tanmay gupta, addison j. wu, yanwen zou, anay mehrotra, kabilan elangovan, yuxuan zhang, xuyang shen, andrew kurtz, sicheng zuo, zehao wang, pengxuan yang, falong fan, xing li, dingyu yao, aditya mittal, chen song, bingxuan li, ali reza ibrahimzada, bowen ye, aman singh, ziwei zhou, arthur gervais, wanli xing, armanified, yue zheng, fnu sidharth, xiangyu qi, yunfei bai, francisco j. beron-vera, simthembile dlamini, negin golrezaei, zhen zhang, mutsumi sasaki, shaowei liu, jianhui liu, andrew jelson, sjhaha3971, jiaming ji, gengwei zhang, david a. velasco-romero, vasiliki a. mitsou, avinash mahesh nirmala, artemy rubtsov, paddlepaddle, nazanin jafari, adrien cances, jiayuan ye, zoé roy-stang, eduard frankford, zhixiang lu, arthur jacot, mohammad zangooei, hengrui gu, ben wigler, nusrat sultana, kowshik chowdhury, ashwin ram, raju chowdhury, elliot jones, connor douglas, longyan wu, wang yang, akihiro kubota, pinkycollie, mateo londoño, tomasz krajewski, yinghao zhu, changgeon ko, akzhol almukhametov, ziqiao ma, chhavi dhiman, yoonho lee, benswerd, yanis labrak, zhengming yu, huaiyuan qin",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 5406,
-          "hedging": 5100,
-          "speculating": 19176
+          "asserting": 6042,
+          "hedging": 5757,
+          "speculating": 21831
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -816,6 +833,13 @@
             "frame": "infrastructure",
             "presuppositions": [],
             "certainty": 0.08
+          },
+          {
+            "creator_id": "coleam00",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.5
           },
           {
             "creator_id": "coleman hooper",
@@ -1323,8 +1347,10 @@
             "creator_id": "thedaily@nytimes.com (the new york times)",
             "modal_profile": {},
             "frame": "",
-            "presuppositions": [],
-            "certainty": 0.46
+            "presuppositions": [
+              "There is exactly one politician to take up the cause"
+            ],
+            "certainty": 0.43
           },
           {
             "creator_id": "jian yang",
@@ -1723,13 +1749,6 @@
             "certainty": 0.5
           },
           {
-            "creator_id": "zhixiang lu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
             "creator_id": "jiaming ji",
             "modal_profile": {},
             "frame": "",
@@ -1807,6 +1826,22 @@
             "certainty": 0.08
           },
           {
+            "creator_id": "eduard frankford",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [
+              "students can now produce functionally correct code without demonstrating corresponding understanding"
+            ],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "zhixiang lu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
             "creator_id": "arthur jacot",
             "modal_profile": {},
             "frame": "",
@@ -1816,20 +1851,32 @@
             "certainty": 0.58
           },
           {
+            "creator_id": "mohammad zangooei",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "hengrui gu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "ben wigler",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
             "creator_id": "nusrat sultana",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.75
-          },
-          {
-            "creator_id": "eduard frankford",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [
-              "students can now produce functionally correct code without demonstrating corresponding understanding"
-            ],
-            "certainty": 0.58
           },
           {
             "creator_id": "kowshik chowdhury",
@@ -1867,25 +1914,18 @@
             "certainty": 0.58
           },
           {
+            "creator_id": "longyan wu",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
             "creator_id": "wang yang",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 1
-          },
-          {
-            "creator_id": "mohammad zangooei",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "pinkycollie",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.5
           },
           {
             "creator_id": "akihiro kubota",
@@ -1897,11 +1937,60 @@
             "certainty": 0.58
           },
           {
+            "creator_id": "pinkycollie",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.5
+          },
+          {
+            "creator_id": "mateo londoño",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "tomasz krajewski",
+            "modal_profile": {},
+            "frame": "mechanics",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
             "creator_id": "yinghao zhu",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
+          },
+          {
+            "creator_id": "changgeon ko",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "akzhol almukhametov",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "ziqiao ma",
+            "modal_profile": {},
+            "frame": "evolution",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "chhavi dhiman",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
           },
           {
             "creator_id": "yoonho lee",
@@ -1920,14 +2009,274 @@
             "certainty": 0.62
           },
           {
-            "creator_id": "changgeon ko",
+            "creator_id": "yanis labrak",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "zhengming yu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "huaiyuan qin",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.08
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_3f431d24",
+      "label": "Advanced mathematical and theoretical approaches are gaining",
+      "description": "Advanced mathematical and theoretical approaches are gaining traction in solving complex problems across various fields.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_bf2e717e",
+        "tv_85fb8d40",
+        "tv_8723045d",
+        "tv_8d651c4c",
+        "tv_38f51592",
+        "tv_59420b53",
+        "tv_238d4d01",
+        "tv_2d731a83",
+        "tv_a127780c"
+      ],
+      "creator_ids": [
+        "jing-yu zhao",
+        "san vũ ngoc",
+        "adrien cances",
+        "jiaming zhuge",
+        "anna chiara alfano",
+        "ashwin ram",
+        "wancong zhang",
+        "thedaily@nytimes.com (the new york times)",
+        "soumendu sundar mukherjee",
+        "arthur gervais",
+        "yawen luo",
+        "lei wang",
+        "yang li",
+        "fireship",
+        "daron acemoglu",
+        "songhee han",
+        "timothy k johnsen",
+        "jiekai wu",
+        "shuai liu",
+        "fengbei liu",
+        "yuhang zhou",
+        "longyan wu",
+        "yue feng"
+      ],
+      "independence_score": 0.77,
+      "ci_score": 0.09,
+      "frame_alignment": "infrastructure",
+      "presupposition_set": [
+        "Complex problems require sophisticated theoretical and mathematical frameworks to solve them.",
+        "AI systems can autonomously discover and validate exploits or make decisions without human intervention",
+        "AI systems need to operate autonomously and make decisions in real-time",
+        "its numbers on the Trust Me Bro benchmarks were off the",
+        "Kimmy itself has been accused of training on Claude",
+        "coding agents are getting so good",
+        "Autonomous systems need to be energy-efficient and adaptable for practical use.",
+        "Educational technology should support specific instructional activities rather than full automation.",
+        "it is inherently interpretive",
+        "AI systems need to understand temporal dynamics of actions and content changes"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "23 independent sources are converging on: \"Advanced mathematical and theoretical approaches are gaining traction in solving complex problems across various fields.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "23 creators (high independence). Platforms: jing-yu zhao, san vũ ngoc, adrien cances, jiaming zhuge, anna chiara alfano, ashwin ram, wancong zhang, thedaily@nytimes.com (the new york times), soumendu sundar mukherjee, arthur gervais, yawen luo, lei wang, yang li, fireship, daron acemoglu, songhee han, timothy k johnsen, jiekai wu, shuai liu, fengbei liu, yuhang zhou, longyan wu, yue feng",
+        "tier2_frame": "Dominant frame: \"infrastructure\"",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 954,
+          "hedging": 909,
+          "speculating": 3447
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "jing-yu zhao",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "san vũ ngoc",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "adrien cances",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "jiaming zhuge",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "anna chiara alfano",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "ashwin ram",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "wancong zhang",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "thedaily@nytimes.com (the new york times)",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "There is exactly one politician to take up the cause"
+            ],
+            "certainty": 0.43
+          },
+          {
+            "creator_id": "soumendu sundar mukherjee",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "arthur gervais",
+            "modal_profile": {},
+            "frame": "warfare",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "yawen luo",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "lei wang",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "yang li",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "fireship",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [
+              "build tools normally strip out source maps automatically",
+              "if this code were ever leaked",
+              "the longer your agent runs",
+              "it will almost certainly make you cry",
+              "yesterday a precisiong guided remote access Trojan or RAT was discovered"
+            ],
+            "certainty": 0.57
+          },
+          {
+            "creator_id": "daron acemoglu",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 1
           },
           {
-            "creator_id": "yanis labrak",
+            "creator_id": "songhee han",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "it is inherently interpretive"
+            ],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "timothy k johnsen",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "jiekai wu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "shuai liu",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "fengbei liu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "yuhang zhou",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "longyan wu",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "yue feng",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
@@ -1938,14 +2287,279 @@
       }
     },
     {
-      "id": "cp_c137a479",
+      "id": "cp_71fa6a1d",
+      "label": "Designing robust and secure AI systems that can handle vario",
+      "description": "Designing robust and secure AI systems that can handle various conditions, including adversarial attacks and class imbalance.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_d71989c4",
+        "tv_1b2132a5",
+        "tv_b4e826a3",
+        "tv_9819035d"
+      ],
+      "creator_ids": [
+        "cinar ari",
+        "qingyang xu",
+        "xuyang shen",
+        "mohammad zangooei",
+        "delip rao",
+        "fengbei liu",
+        "ge sun",
+        "saleh sargolzaei",
+        "sean wu",
+        "yang li",
+        "pranjal aggarwal"
+      ],
+      "independence_score": 0.74,
+      "ci_score": 0.09,
+      "frame_alignment": "infrastructure",
+      "presupposition_set": [
+        "AI systems need to be robust and secure in diverse conditions",
+        "Security and robustness are essential for AI systems",
+        "AI must handle diverse conditions effectively",
+        "collecting full network information is costly",
+        "LLMs generate citations that need to be verified for reliability and credibility",
+        "LLMs generate citations that need verification tools.",
+        "Importance of human-AI collaboration in AI systems",
+        "AI systems need to integrate seamlessly with human workflows"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0.1,
+      "acceleration": -0.01,
+      "first_detected": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "11 independent sources are converging on: \"Designing robust and secure AI systems that can handle various conditions, including adversarial attacks and class imbalance.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: -0.01",
+        "tier2_independence": "11 creators (high independence). Platforms: cinar ari, qingyang xu, xuyang shen, mohammad zangooei, delip rao, fengbei liu, ge sun, saleh sargolzaei, sean wu, yang li, pranjal aggarwal",
+        "tier2_frame": "Dominant frame: \"infrastructure\"",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 424,
+          "hedging": 404,
+          "speculating": 1532
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "cinar ari",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "qingyang xu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "xuyang shen",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "mohammad zangooei",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "delip rao",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.79
+          },
+          {
+            "creator_id": "fengbei liu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "ge sun",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "collecting full network information is costly"
+            ],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "saleh sargolzaei",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "sean wu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "yang li",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "pranjal aggarwal",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 1
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_ea2121ca",
+      "label": "Developing AI systems to improve decision-making and perform",
+      "description": "Developing AI systems to improve decision-making and performance through learning from past experiences or data collection methods.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_03bb3ca4",
+        "tv_7e853cef",
+        "tv_0005ae95"
+      ],
+      "creator_ids": [
+        "francisco j. beron-vera",
+        "sudarshan rajagopalan",
+        "yuchi wang",
+        "haoyu zhen",
+        "ali reza ibrahimzada",
+        "bingxuan li",
+        "hengrui gu",
+        "jean kaddour",
+        "avinash mahesh nirmala"
+      ],
+      "independence_score": 0.75,
+      "ci_score": 0.08,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "Efficiency and accuracy improvements through advanced computational models",
+        "Improving AI systems through advanced computational methods or learning from past experiences can lead to better performance and decision-making.",
+        "the forward noising process using degraded images is misaligned with the",
+        "The need for better reinforcement learning algorithms to handle complex tasks and environments",
+        "the need for more integrated and comprehensive models in AI systems"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0.1,
+      "acceleration": 0.07,
+      "first_detected": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "9 independent sources are converging on: \"Developing AI systems to improve decision-making and performance through learning from past experiences or data collection methods.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: +0.07",
+        "tier2_independence": "9 creators (high independence). Platforms: francisco j. beron-vera, sudarshan rajagopalan, yuchi wang, haoyu zhen, ali reza ibrahimzada, bingxuan li, hengrui gu, jean kaddour, avinash mahesh nirmala",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 318,
+          "hedging": 303,
+          "speculating": 1149
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "francisco j. beron-vera",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "sudarshan rajagopalan",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "the forward noising process using degraded images is misaligned with the"
+            ],
+            "certainty": 1
+          },
+          {
+            "creator_id": "yuchi wang",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "haoyu zhen",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "ali reza ibrahimzada",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "bingxuan li",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "hengrui gu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "jean kaddour",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "avinash mahesh nirmala",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_3edb4048",
       "label": "There is a growing demand for robust and reliable AI solutio",
       "description": "There is a growing demand for robust and reliable AI solutions that address specific challenges in various domains, such as semantic correctness, factual incompleteness, and cybersecurity risks.",
       "convergence_type": "solution",
       "vector_ids": [
         "tv_2305c49c",
         "tv_f1bd4e49",
-        "tv_baeec1c8"
+        "tv_baeec1c8",
+        "tv_941f20fa"
       ],
       "creator_ids": [
         "tanisha jhaveri",
@@ -1957,10 +2571,11 @@
         "nan huang",
         "mu nan",
         "sikai bai",
-        "fireship"
+        "fireship",
+        "kabilan elangovan"
       ],
       "independence_score": 0.76,
-      "ci_score": 0.12,
+      "ci_score": 0.08,
       "frame_alignment": "exploration",
       "presupposition_set": [
         "AI solutions need to be robust and reliable across different domains",
@@ -1968,25 +2583,26 @@
         "Vision-language models can significantly improve semantic understanding in AI systems.",
         "the importance of security in AI systems",
         "the security implications of a model that is this capable are",
-        "every time a new model comes out"
+        "every time a new model comes out",
+        "ethics and responsibility are critical in AI development"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.1,
-      "acceleration": -0.02,
+      "stability_weeks": 0.3,
+      "acceleration": -0.04,
       "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "10 independent sources are converging on: \"There is a growing demand for robust and reliable AI solutions that address specific challenges in various domains, such as semantic correctness, factual incompleteness, and cybersecurity risks.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: -0.02",
-        "tier2_independence": "10 creators (high independence). Platforms: tanisha jhaveri, boyang zhang, jiayuan ye, runpeng geng, hard fork (nyt), mohamed amine kerkouri, nan huang, mu nan, sikai bai, fireship",
+        "tier1_summary": "11 independent sources are converging on: \"There is a growing demand for robust and reliable AI solutions that address specific challenges in various domains, such as semantic correctness, factual incompleteness, and cybersecurity risks.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: -0.04",
+        "tier2_independence": "11 creators (high independence). Platforms: tanisha jhaveri, boyang zhang, jiayuan ye, runpeng geng, hard fork (nyt), mohamed amine kerkouri, nan huang, mu nan, sikai bai, fireship, kabilan elangovan",
         "tier2_frame": "Dominant frame: \"exploration\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 318,
-          "hedging": 300,
-          "speculating": 1128
+          "asserting": 424,
+          "hedging": 404,
+          "speculating": 1532
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -2067,143 +2683,136 @@
               "yesterday a precisiong guided remote access Trojan or RAT was discovered"
             ],
             "certainty": 0.57
+          },
+          {
+            "creator_id": "kabilan elangovan",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.58
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_5dac2a70",
-      "label": "Designing robust and secure AI systems that can handle vario",
-      "description": "Designing robust and secure AI systems that can handle various conditions, including adversarial attacks and class imbalance.",
+      "id": "cp_9b9a8c11",
+      "label": "Developing efficient and adaptable AI models with specific u",
+      "description": "Developing efficient and adaptable AI models with specific use cases is becoming more important than raw compute power.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_d71989c4",
-        "tv_1b2132a5",
-        "tv_38f51592",
-        "tv_b4e826a3"
+        "tv_2ac188d1",
+        "tv_32f91368",
+        "tv_09df87de"
       ],
       "creator_ids": [
-        "cinar ari",
-        "qingyang xu",
-        "xuyang shen",
-        "mohammad zangooei",
-        "delip rao",
-        "fengbei liu",
-        "ge sun",
-        "saleh sargolzaei",
-        "sean wu",
-        "jiaming zhuge",
-        "yang li"
+        "fireship",
+        "qiyao ma",
+        "benswerd",
+        "rafael o. jarczewski",
+        "komal kumar",
+        "reihaneh zohrabi",
+        "matthart88",
+        "avinash mahesh nirmala"
       ],
-      "independence_score": 0.74,
-      "ci_score": 0.1,
-      "frame_alignment": "",
+      "independence_score": 0.93,
+      "ci_score": 0.07,
+      "frame_alignment": "infrastructure",
       "presupposition_set": [
-        "AI systems need to be robust and secure in diverse conditions",
-        "Security and robustness are essential for AI systems",
-        "AI must handle diverse conditions effectively",
-        "collecting full network information is costly",
-        "LLMs generate citations that need to be verified for reliability and credibility",
-        "LLMs generate citations that need verification tools.",
-        "The need for more efficient and adaptable AI models in specific contexts"
+        "Specific use cases are more valuable than generic compute power.",
+        "Efficiency and adaptability are more important than raw compute power in AI models",
+        "these angles follow a predictable pattern",
+        "some of the Gemma models have an E in the model name like E2B and",
+        "these models incorporate something called per layer embeddings",
+        "an effective reward model benchmark should predict a reward model",
+        "AI systems need robust ethical frameworks for responsible use and reliability",
+        "AI systems need ethical frameworks to ensure responsible use and reliability",
+        "Ethical considerations are crucial for the responsible development of AI systems",
+        "I wanted to see how far I could get with a"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
-      "acceleration": 0,
-      "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "stability_weeks": 0.3,
+      "acceleration": 0.02,
+      "first_detected": "2026-04-10T13:05:37.466Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "11 independent sources are converging on: \"Designing robust and secure AI systems that can handle various conditions, including adversarial attacks and class imbalance.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
-        "tier2_independence": "11 creators (high independence). Platforms: cinar ari, qingyang xu, xuyang shen, mohammad zangooei, delip rao, fengbei liu, ge sun, saleh sargolzaei, sean wu, jiaming zhuge, yang li",
-        "tier2_frame": "No dominant frame detected",
+        "tier1_summary": "8 independent sources are converging on: \"Developing efficient and adaptable AI models with specific use cases is becoming more important than raw compute power.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: +0.02",
+        "tier2_independence": "8 creators (high independence). Platforms: fireship, qiyao ma, benswerd, rafael o. jarczewski, komal kumar, reihaneh zohrabi, matthart88, avinash mahesh nirmala",
+        "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 424,
-          "hedging": 400,
-          "speculating": 1504
+          "asserting": 318,
+          "hedging": 303,
+          "speculating": 1149
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
         "tier3_drift_alerts": [],
         "tier4_per_source_profiles": [
           {
-            "creator_id": "cinar ari",
+            "creator_id": "fireship",
             "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 1
+            "frame": "infrastructure",
+            "presuppositions": [
+              "build tools normally strip out source maps automatically",
+              "if this code were ever leaked",
+              "the longer your agent runs",
+              "it will almost certainly make you cry",
+              "yesterday a precisiong guided remote access Trojan or RAT was discovered"
+            ],
+            "certainty": 0.57
           },
           {
-            "creator_id": "qingyang xu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "xuyang shen",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 1
-          },
-          {
-            "creator_id": "mohammad zangooei",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "delip rao",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.79
-          },
-          {
-            "creator_id": "fengbei liu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "ge sun",
+            "creator_id": "qiyao ma",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [
-              "collecting full network information is costly"
+              "an effective reward model benchmark should predict a reward model"
             ],
             "certainty": 0.58
           },
           {
-            "creator_id": "saleh sargolzaei",
+            "creator_id": "benswerd",
             "modal_profile": {},
-            "frame": "",
+            "frame": "infrastructure",
             "presuppositions": [],
-            "certainty": 1
+            "certainty": 0.62
           },
           {
-            "creator_id": "sean wu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "jiaming zhuge",
+            "creator_id": "rafael o. jarczewski",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
           },
           {
-            "creator_id": "yang li",
+            "creator_id": "komal kumar",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "reihaneh zohrabi",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "matthart88",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "I wanted to see how far I could get with a"
+            ],
+            "certainty": 0
+          },
+          {
+            "creator_id": "avinash mahesh nirmala",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
@@ -2214,13 +2823,14 @@
       }
     },
     {
-      "id": "cp_72aa34ab",
+      "id": "cp_68da1e2f",
       "label": "Designing AI systems with context-awareness for low-resource",
       "description": "Designing AI systems with context-awareness for low-resource languages",
       "convergence_type": "solution",
       "vector_ids": [
         "tv_25cecfde",
-        "tv_26af015f"
+        "tv_26af015f",
+        "tv_54a8e906"
       ],
       "creator_ids": [
         "eduard frankford",
@@ -2229,35 +2839,38 @@
         "yurun gan",
         "jackson petty",
         "zhengming yu",
-        "nusrat sultana"
+        "nusrat sultana",
+        "vasiliki a. mitsou"
       ],
       "independence_score": 0.76,
-      "ci_score": 0.09,
+      "ci_score": 0.06,
       "frame_alignment": "infrastructure",
       "presupposition_set": [
         "AI systems need to be secure and robust against adversarial attacks, data breaches, and privacy violations.",
         "Control systems need to maintain stability and recoverability under bounded inputs.",
         "AI systems need to handle low-resource languages effectively.",
         "students can now produce functionally correct code without demonstrating corresponding understanding",
-        "AI can significantly improve existing systems and processes"
+        "AI can significantly improve existing systems and processes",
+        "Security is a fundamental concern for agentic systems.",
+        "Security is a critical issue for advanced AI systems"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
-      "acceleration": 0,
+      "stability_weeks": 0.1,
+      "acceleration": -0.03,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "7 independent sources are converging on: \"Designing AI systems with context-awareness for low-resource languages\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
-        "tier2_independence": "7 creators (high independence). Platforms: eduard frankford, practical ai, xiaoyu li, yurun gan, jackson petty, zhengming yu, nusrat sultana",
+        "tier1_summary": "8 independent sources are converging on: \"Designing AI systems with context-awareness for low-resource languages\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: -0.03",
+        "tier2_independence": "8 creators (high independence). Platforms: eduard frankford, practical ai, xiaoyu li, yurun gan, jackson petty, zhengming yu, nusrat sultana, vasiliki a. mitsou",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 212,
-          "hedging": 200,
-          "speculating": 752
+          "asserting": 318,
+          "hedging": 303,
+          "speculating": 1149
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -2313,49 +2926,170 @@
             "frame": "",
             "presuppositions": [],
             "certainty": 0.75
+          },
+          {
+            "creator_id": "vasiliki a. mitsou",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_bd4ebf32",
+      "id": "cp_cf4e7c06",
+      "label": "There is a growing trend towards developing tools and method",
+      "description": "There is a growing trend towards developing tools and methods that enhance the robustness, interpretability, and efficiency of AI systems.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_9687bd08",
+        "tv_82fdc287",
+        "tv_b3c4c221"
+      ],
+      "creator_ids": [
+        "amit kiran rege",
+        "munawar hasan",
+        "kunal pandey",
+        "brady koenig",
+        "shaona ghosh",
+        "poorvesh dongre",
+        "chaoran chen",
+        "zoé roy-stang"
+      ],
+      "independence_score": 0.78,
+      "ci_score": 0.05,
+      "frame_alignment": "exploration",
+      "presupposition_set": [
+        "Improving AI systems is a critical need in the industry",
+        "AI systems need robust mechanisms to handle complex data and feedback loops.",
+        "Ensuring reliability and adaptability is crucial for AI system design.",
+        "AI safety verification faces inherent limits"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0.7,
+      "acceleration": 0.01,
+      "first_detected": "2026-04-07T12:41:05.528Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "8 independent sources are converging on: \"There is a growing trend towards developing tools and methods that enhance the robustness, interpretability, and efficiency of AI systems.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.7 weeks. Acceleration: +0.01",
+        "tier2_independence": "8 creators (high independence). Platforms: amit kiran rege, munawar hasan, kunal pandey, brady koenig, shaona ghosh, poorvesh dongre, chaoran chen, zoé roy-stang",
+        "tier2_frame": "Dominant frame: \"exploration\"",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 318,
+          "hedging": 303,
+          "speculating": 1149
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "amit kiran rege",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "munawar hasan",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "kunal pandey",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "brady koenig",
+            "modal_profile": {},
+            "frame": "exploration",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "shaona ghosh",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "poorvesh dongre",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "chaoran chen",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "zoé roy-stang",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_618ab7a6",
       "label": "Developing methods to improve the interpretability of advanc",
       "description": "Developing methods to improve the interpretability of advanced AI models is becoming a critical competitive advantage.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_77c50616"
+        "tv_77c50616",
+        "tv_c426882f"
       ],
       "creator_ids": [
         "olexander mazurets",
         "gautam chandrasekaran",
         "wei huang",
-        "jonathan bourne"
+        "jonathan bourne",
+        "sangwook lee"
       ],
       "independence_score": 0.78,
-      "ci_score": 0.08,
-      "frame_alignment": "",
+      "ci_score": 0.04,
+      "frame_alignment": "mechanics",
       "presupposition_set": [
         "Improving interpretability is crucial for advancing AI models.",
-        "AI models need to be interpretable for better understanding and trust"
+        "AI models need to be interpretable for better understanding and trust",
+        "the need for more personalized and adaptive conversational agents in various applications"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.1,
-      "acceleration": 0.07,
+      "stability_weeks": 0.3,
+      "acceleration": -0.04,
       "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "4 independent sources are converging on: \"Developing methods to improve the interpretability of advanced AI models is becoming a critical competitive advantage.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: +0.07",
-        "tier2_independence": "4 creators (high independence). Platforms: olexander mazurets, gautam chandrasekaran, wei huang, jonathan bourne",
-        "tier2_frame": "No dominant frame detected",
+        "tier1_summary": "5 independent sources are converging on: \"Developing methods to improve the interpretability of advanced AI models is becoming a critical competitive advantage.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: -0.04",
+        "tier2_independence": "5 creators (high independence). Platforms: olexander mazurets, gautam chandrasekaran, wei huang, jonathan bourne, sangwook lee",
+        "tier2_frame": "Dominant frame: \"mechanics\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "asserting": 212,
+          "hedging": 202,
+          "speculating": 766
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -2388,156 +3122,75 @@
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
+          },
+          {
+            "creator_id": "sangwook lee",
+            "modal_profile": {},
+            "frame": "mechanics",
+            "presuppositions": [],
+            "certainty": 0.08
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_d1c5d4ce",
-      "label": "Developing robust evaluation frameworks is crucial for addre",
-      "description": "Developing robust evaluation frameworks is crucial for addressing limitations and ensuring reliability in AI systems.",
+      "id": "cp_13c642f2",
+      "label": "Developing AI methods to handle complex data and improve per",
+      "description": "Developing AI methods to handle complex data and improve performance in various domains through unsupervised or self-improvement techniques.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_d351506d",
-        "tv_82fdc287",
-        "tv_57c3b6a1",
-        "tv_4fb2464f",
-        "tv_5aeff32d",
-        "tv_637ac08a"
+        "tv_37f90776"
       ],
       "creator_ids": [
-        "ziwei zhou",
-        "yuxuan zhang",
-        "shaona ghosh",
-        "connor dilgren",
-        "amit kiran rege",
-        "poorvesh dongre",
-        "chaoran chen",
-        "jiaming ji",
-        "yue zheng",
-        "xiangyu qi",
-        "rahul jaiswal",
-        "sokratis j. anagnostopoulos"
+        "elena xinyi wang",
+        "nan huang",
+        "keychron"
       ],
-      "independence_score": 0.85,
-      "ci_score": 0.05,
-      "frame_alignment": "infrastructure",
+      "independence_score": 0.9,
+      "ci_score": 0.04,
+      "frame_alignment": "",
       "presupposition_set": [
-        "AI systems have inherent limitations that need to be addressed through rigorous evaluation frameworks.",
-        "AI systems need to be reliable and address existing limitations",
-        "they do not reason in natural language",
-        "AI systems need robust mechanisms to handle complex data and feedback loops.",
-        "Ensuring reliability and adaptability is crucial for AI system design.",
-        "AI technologies need robust safety measures to prevent negative societal impacts",
-        "the importance of trust and transparency in AI systems",
-        "Interpretability enhances model transparency and effectiveness.",
-        "Transparency is critical in security applications.",
-        "Efficient use of resources and data is crucial for model performance in risk management scenarios."
+        "AI can improve performance in complex datasets through unsupervised learning and self-improvement techniques."
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
-      "acceleration": 0,
-      "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "stability_weeks": 0.9,
+      "acceleration": 0.03,
+      "first_detected": "2026-04-06T09:23:17.838Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "12 independent sources are converging on: \"Developing robust evaluation frameworks is crucial for addressing limitations and ensuring reliability in AI systems.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
-        "tier2_independence": "12 creators (high independence). Platforms: ziwei zhou, yuxuan zhang, shaona ghosh, connor dilgren, amit kiran rege, poorvesh dongre, chaoran chen, jiaming ji, yue zheng, xiangyu qi, rahul jaiswal, sokratis j. anagnostopoulos",
-        "tier2_frame": "Dominant frame: \"infrastructure\"",
+        "tier1_summary": "3 independent sources are converging on: \"Developing AI methods to handle complex data and improve performance in various domains through unsupervised or self-improvement techniques.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.9 weeks. Acceleration: +0.03",
+        "tier2_independence": "3 creators (high independence). Platforms: elena xinyi wang, nan huang, keychron",
+        "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 636,
-          "hedging": 600,
-          "speculating": 2256
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
         "tier3_drift_alerts": [],
         "tier4_per_source_profiles": [
           {
-            "creator_id": "ziwei zhou",
+            "creator_id": "elena xinyi wang",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
           },
           {
-            "creator_id": "yuxuan zhang",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "shaona ghosh",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "connor dilgren",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "they do not reason in natural language"
-            ],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "amit kiran rege",
+            "creator_id": "nan huang",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
           },
           {
-            "creator_id": "poorvesh dongre",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "chaoran chen",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "jiaming ji",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "yue zheng",
-            "modal_profile": {},
-            "frame": "warfare",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "xiangyu qi",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "rahul jaiswal",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "sokratis j. anagnostopoulos",
+            "creator_id": "keychron",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
@@ -2548,194 +3201,57 @@
       }
     },
     {
-      "id": "cp_0632f680",
-      "label": "Designing AI systems with robust ethical frameworks for resp",
-      "description": "Designing AI systems with robust ethical frameworks for responsible use and reliability.",
-      "convergence_type": "solution",
-      "vector_ids": [
-        "tv_32f91368",
-        "tv_2ac188d1",
-        "tv_29c3e296",
-        "tv_c94dfbba"
-      ],
-      "creator_ids": [
-        "komal kumar",
-        "reihaneh zohrabi",
-        "matthart88",
-        "rafael o. jarczewski",
-        "fireship",
-        "qiyao ma",
-        "benswerd",
-        "shuai liu",
-        "fnu sidharth"
-      ],
-      "independence_score": 0.85,
-      "ci_score": 0.05,
-      "frame_alignment": "infrastructure",
-      "presupposition_set": [
-        "AI systems need robust ethical frameworks for responsible use and reliability",
-        "AI systems need ethical frameworks to ensure responsible use and reliability",
-        "Ethical considerations are crucial for the responsible development of AI systems",
-        "I wanted to see how far I could get with a",
-        "Specific use cases are more valuable than generic compute power.",
-        "Efficiency and adaptability are more important than raw compute power in AI models",
-        "these angles follow a predictable pattern",
-        "some of the Gemma models have an E in the model name like E2B and",
-        "these models incorporate something called per layer embeddings",
-        "an effective reward model benchmark should predict a reward model"
-      ],
-      "presupposition_conflicts": [],
-      "domains": [],
-      "cross_domain": false,
-      "stability_weeks": 0.1,
-      "acceleration": 0.04,
-      "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
-      "resolution_data": {
-        "tier1_summary": "9 independent sources are converging on: \"Designing AI systems with robust ethical frameworks for responsible use and reliability.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: +0.04",
-        "tier2_independence": "9 creators (high independence). Platforms: komal kumar, reihaneh zohrabi, matthart88, rafael o. jarczewski, fireship, qiyao ma, benswerd, shuai liu, fnu sidharth",
-        "tier2_frame": "Dominant frame: \"infrastructure\"",
-        "tier2_quantitative": "",
-        "tier3_modal_distribution": {
-          "asserting": 424,
-          "hedging": 400,
-          "speculating": 1504
-        },
-        "tier3_presupposition_conflicts": [],
-        "tier3_frame_competition": [],
-        "tier3_drift_alerts": [],
-        "tier4_per_source_profiles": [
-          {
-            "creator_id": "komal kumar",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 1
-          },
-          {
-            "creator_id": "reihaneh zohrabi",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "matthart88",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "I wanted to see how far I could get with a"
-            ],
-            "certainty": 0
-          },
-          {
-            "creator_id": "rafael o. jarczewski",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "fireship",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [
-              "build tools normally strip out source maps automatically",
-              "if this code were ever leaked",
-              "the longer your agent runs",
-              "it will almost certainly make you cry",
-              "yesterday a precisiong guided remote access Trojan or RAT was discovered"
-            ],
-            "certainty": 0.57
-          },
-          {
-            "creator_id": "qiyao ma",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "an effective reward model benchmark should predict a reward model"
-            ],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "benswerd",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.62
-          },
-          {
-            "creator_id": "shuai liu",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "fnu sidharth",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          }
-        ],
-        "tier4_alignment_matrix": []
-      }
-    },
-    {
-      "id": "cp_84ae45c8",
+      "id": "cp_01f5adb3",
       "label": "Designing adaptable systems that can break down complex task",
       "description": "Designing adaptable systems that can break down complex tasks into iterative refine-and-summarize cycles.",
       "convergence_type": "solution",
       "vector_ids": [
         "tv_e796896a",
-        "tv_7e853cef",
         "tv_c858ada8",
         "tv_214dd7a4",
-        "tv_4c641e2a"
+        "tv_4c641e2a",
+        "tv_8f3c0e80"
       ],
       "creator_ids": [
         "lm-provers",
         "jean kaddour",
         "chhavi dhiman",
         "stephen cheng",
-        "sudarshan rajagopalan",
-        "hengrui gu",
         "gabriel sarch",
         "junqi liu",
-        "haolei xu"
+        "haolei xu",
+        "guo gan"
       ],
       "independence_score": 0.78,
-      "ci_score": 0.04,
+      "ci_score": 0.03,
       "frame_alignment": "infrastructure",
       "presupposition_set": [
         "Complex tasks require iterative refinement and summarization for manageability",
         "Adaptability and iterative refinement are key for handling complex tasks in AI systems",
         "different steering methodologies leverage functionally interchangeable circuits",
-        "The need for better reinforcement learning algorithms to handle complex tasks and environments",
-        "the forward noising process using degraded images is misaligned with the",
         "open-source models can match proprietary systems in performance and efficiency",
         "Machine learning models can effectively simulate and reverse artifacts.",
-        "LLMs need improvements to address factual incompleteness and precision issues."
+        "LLMs need improvements to address factual incompleteness and precision issues.",
+        "Improving the detection of misleading content is a strategic direction for AI development.",
+        "The importance of both linguistic and structural features in identifying misleading content"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
-      "acceleration": 0,
+      "stability_weeks": 0.1,
+      "acceleration": -0.01,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "9 independent sources are converging on: \"Designing adaptable systems that can break down complex tasks into iterative refine-and-summarize cycles.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
-        "tier2_independence": "9 creators (high independence). Platforms: lm-provers, jean kaddour, chhavi dhiman, stephen cheng, sudarshan rajagopalan, hengrui gu, gabriel sarch, junqi liu, haolei xu",
+        "tier1_summary": "8 independent sources are converging on: \"Designing adaptable systems that can break down complex tasks into iterative refine-and-summarize cycles.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: -0.01",
+        "tier2_independence": "8 creators (high independence). Platforms: lm-provers, jean kaddour, chhavi dhiman, stephen cheng, gabriel sarch, junqi liu, haolei xu, guo gan",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 530,
-          "hedging": 500,
-          "speculating": 1880
+          "hedging": 505,
+          "speculating": 1915
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -2772,22 +3288,6 @@
             "certainty": 1
           },
           {
-            "creator_id": "sudarshan rajagopalan",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "the forward noising process using degraded images is misaligned with the"
-            ],
-            "certainty": 1
-          },
-          {
-            "creator_id": "hengrui gu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
             "creator_id": "gabriel sarch",
             "modal_profile": {},
             "frame": "infrastructure",
@@ -2807,97 +3307,20 @@
             "frame": "infrastructure",
             "presuppositions": [],
             "certainty": 0.58
+          },
+          {
+            "creator_id": "guo gan",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_7e4815ee",
-      "label": "There is a growing trend towards developing tools and method",
-      "description": "There is a growing trend towards developing tools and methods that enhance the robustness, interpretability, and efficiency of AI systems.",
-      "convergence_type": "solution",
-      "vector_ids": [
-        "tv_9687bd08",
-        "tv_b3c4c221"
-      ],
-      "creator_ids": [
-        "amit kiran rege",
-        "munawar hasan",
-        "kunal pandey",
-        "brady koenig",
-        "zoé roy-stang"
-      ],
-      "independence_score": 0.78,
-      "ci_score": 0.04,
-      "frame_alignment": "exploration",
-      "presupposition_set": [
-        "Improving AI systems is a critical need in the industry",
-        "AI safety verification faces inherent limits"
-      ],
-      "presupposition_conflicts": [],
-      "domains": [],
-      "cross_domain": false,
-      "stability_weeks": 0.6,
-      "acceleration": 0.02,
-      "first_detected": "2026-04-07T12:41:05.528Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
-      "resolution_data": {
-        "tier1_summary": "5 independent sources are converging on: \"There is a growing trend towards developing tools and methods that enhance the robustness, interpretability, and efficiency of AI systems.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.6 weeks. Acceleration: +0.02",
-        "tier2_independence": "5 creators (high independence). Platforms: amit kiran rege, munawar hasan, kunal pandey, brady koenig, zoé roy-stang",
-        "tier2_frame": "Dominant frame: \"exploration\"",
-        "tier2_quantitative": "",
-        "tier3_modal_distribution": {
-          "asserting": 212,
-          "hedging": 200,
-          "speculating": 752
-        },
-        "tier3_presupposition_conflicts": [],
-        "tier3_frame_competition": [],
-        "tier3_drift_alerts": [],
-        "tier4_per_source_profiles": [
-          {
-            "creator_id": "amit kiran rege",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "munawar hasan",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 1
-          },
-          {
-            "creator_id": "kunal pandey",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "brady koenig",
-            "modal_profile": {},
-            "frame": "exploration",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "zoé roy-stang",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          }
-        ],
-        "tier4_alignment_matrix": []
-      }
-    },
-    {
-      "id": "cp_98865cd9",
+      "id": "cp_d274157a",
       "label": "Designing computational frameworks for efficient and accurat",
       "description": "Designing computational frameworks for efficient and accurate predictions.",
       "convergence_type": "solution",
@@ -2929,20 +3352,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.1,
-      "acceleration": 0.02,
+      "stability_weeks": 0.3,
+      "acceleration": 0,
       "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "6 independent sources are converging on: \"Designing computational frameworks for efficient and accurate predictions.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: +0.02",
+        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: 0.00",
         "tier2_independence": "6 creators (high independence). Platforms: sam gunn, david a. velasco-romero, feng luo, wenbo hu, yuanhang li, tobias schumacher",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 424,
-          "hedging": 400,
-          "speculating": 1504
+          "hedging": 404,
+          "speculating": 1532
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -2995,88 +3418,80 @@
       }
     },
     {
-      "id": "cp_10acbfe3",
-      "label": "Designing AI systems with specific optimizations, such as pe",
-      "description": "Designing AI systems with specific optimizations, such as per-layer embeddings or Turbo Quant.",
+      "id": "cp_716b183f",
+      "label": "Developing datasets and tools to ensure the safety and ethic",
+      "description": "Developing datasets and tools to ensure the safety and ethical deployment of AI technologies is crucial.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_09df87de",
-        "tv_131503ed"
+        "tv_57c3b6a1",
+        "tv_637ac08a"
       ],
       "creator_ids": [
-        "fireship",
-        "avinash mahesh nirmala",
-        "qiyao ma",
-        "daron acemoglu"
+        "jiaming ji",
+        "yue zheng",
+        "xiangyu qi",
+        "shaona ghosh",
+        "sokratis j. anagnostopoulos"
       ],
-      "independence_score": 0.9,
+      "independence_score": 0.78,
       "ci_score": 0.03,
       "frame_alignment": "infrastructure",
       "presupposition_set": [
-        "Optimizations at the system level can significantly improve efficiency.",
-        "Specific optimizations are necessary for addressing unique challenges in AI systems.",
-        "the need for optimized AI systems with specific enhancements",
-        "these angles follow a predictable pattern",
-        "some of the Gemma models have an E in the model name like E2B and",
-        "these models incorporate something called per layer embeddings",
-        "an effective reward model benchmark should predict a reward model",
-        "Development environments need to support autonomous AI agents effectively",
-        "its numbers on the Trust Me Bro benchmarks were off the",
-        "Kimmy itself has been accused of training on Claude"
+        "AI technologies need robust safety measures to prevent negative societal impacts",
+        "Efficient use of resources and data is crucial for model performance in risk management scenarios."
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
       "stability_weeks": 0.1,
-      "acceleration": 0.01,
-      "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "acceleration": -0.02,
+      "first_detected": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "4 independent sources are converging on: \"Designing AI systems with specific optimizations, such as per-layer embeddings or Turbo Quant.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: +0.01",
-        "tier2_independence": "4 creators (high independence). Platforms: fireship, avinash mahesh nirmala, qiyao ma, daron acemoglu",
+        "tier1_summary": "5 independent sources are converging on: \"Developing datasets and tools to ensure the safety and ethical deployment of AI technologies is crucial.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: -0.02",
+        "tier2_independence": "5 creators (high independence). Platforms: jiaming ji, yue zheng, xiangyu qi, shaona ghosh, sokratis j. anagnostopoulos",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 212,
-          "hedging": 200,
-          "speculating": 752
+          "hedging": 202,
+          "speculating": 766
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
         "tier3_drift_alerts": [],
         "tier4_per_source_profiles": [
           {
-            "creator_id": "fireship",
+            "creator_id": "jiaming ji",
             "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [
-              "build tools normally strip out source maps automatically",
-              "if this code were ever leaked",
-              "the longer your agent runs",
-              "it will almost certainly make you cry",
-              "yesterday a precisiong guided remote access Trojan or RAT was discovered"
-            ],
-            "certainty": 0.57
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
           },
           {
-            "creator_id": "avinash mahesh nirmala",
+            "creator_id": "yue zheng",
+            "modal_profile": {},
+            "frame": "warfare",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "xiangyu qi",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
           },
           {
-            "creator_id": "qiyao ma",
+            "creator_id": "shaona ghosh",
             "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "an effective reward model benchmark should predict a reward model"
-            ],
+            "frame": "infrastructure",
+            "presuppositions": [],
             "certainty": 0.58
           },
           {
-            "creator_id": "daron acemoglu",
+            "creator_id": "sokratis j. anagnostopoulos",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
@@ -3087,135 +3502,148 @@
       }
     },
     {
-      "id": "cp_b1fc67fa",
-      "label": "LLMs are evolving to adapt dynamically and improve their per",
-      "description": "LLMs are evolving to adapt dynamically and improve their performance through methods like Test-Time Training and Entropy Refinement.",
+      "id": "cp_37792257",
+      "label": "Designing AI systems for specific tasks with a focus on prac",
+      "description": "Designing AI systems for specific tasks with a focus on practical applications.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_ca1dc6b6",
-        "tv_4394aa85"
+        "tv_59e5323d",
+        "tv_c94dfbba",
+        "tv_88d810e7"
       ],
       "creator_ids": [
-        "hengrui gu",
-        "ben wigler",
-        "guhao feng",
-        "daron acemoglu"
+        "maximiliano armesto",
+        "david ilić",
+        "connor douglas",
+        "fnu sidharth",
+        "matthart88",
+        "nazanin jafari"
       ],
-      "independence_score": 0.8,
+      "independence_score": 0.78,
       "ci_score": 0.03,
-      "frame_alignment": "",
+      "frame_alignment": "exploration",
       "presupposition_set": [
-        "LLMs need to adapt dynamically to improve performance and address limitations of static training paradigms.",
-        "The need for better control over the update process in AI systems to improve performance and efficiency."
+        "AI systems can be designed for specific tasks with practical applications in mind.",
+        "membership is known by construction",
+        "fine-tuning language models produces an invariant signature of memorization dete",
+        "Reducing enrollment samples can improve real-world applicability of speech extraction models",
+        "I wanted to see how far I could get with a",
+        "Improving interpretability and reliability is crucial for the adoption of AI systems."
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
       "stability_weeks": 0,
       "acceleration": 0,
-      "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "4 independent sources are converging on: \"LLMs are evolving to adapt dynamically and improve their performance through methods like Test-Time Training and Entropy Refinement.\". Convergence type: solution. Independence: high independence.",
+        "tier1_summary": "6 independent sources are converging on: \"Designing AI systems for specific tasks with a focus on practical applications.\". Convergence type: solution. Independence: high independence.",
         "tier2_temporal": "Newly detected pattern",
-        "tier2_independence": "4 creators (high independence). Platforms: hengrui gu, ben wigler, guhao feng, daron acemoglu",
-        "tier2_frame": "No dominant frame detected",
+        "tier2_independence": "6 creators (high independence). Platforms: maximiliano armesto, david ilić, connor douglas, fnu sidharth, matthart88, nazanin jafari",
+        "tier2_frame": "Dominant frame: \"exploration\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 212,
-          "hedging": 200,
-          "speculating": 752
+          "asserting": 318,
+          "hedging": 303,
+          "speculating": 1149
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
         "tier3_drift_alerts": [],
         "tier4_per_source_profiles": [
           {
-            "creator_id": "hengrui gu",
+            "creator_id": "maximiliano armesto",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
           },
           {
-            "creator_id": "ben wigler",
+            "creator_id": "david ilić",
             "modal_profile": {},
             "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "guhao feng",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "daron acemoglu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
+            "presuppositions": [
+              "membership is known by construction",
+              "fine-tuning language models produces an invariant signature of memorization dete"
+            ],
             "certainty": 1
+          },
+          {
+            "creator_id": "connor douglas",
+            "modal_profile": {},
+            "frame": "exploration",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "fnu sidharth",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "matthart88",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "I wanted to see how far I could get with a"
+            ],
+            "certainty": 0
+          },
+          {
+            "creator_id": "nazanin jafari",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_f0b9a5d5",
-      "label": "Designing hierarchical planning methods that operate at mult",
-      "description": "Designing hierarchical planning methods that operate at multiple temporal scales using latent world models.",
-      "convergence_type": "solution",
+      "id": "cp_dd00706a",
+      "label": "Developing local or personalized AI systems can address priv",
+      "description": "Developing local or personalized AI systems can address privacy and scalability issues while maintaining performance.",
+      "convergence_type": "problem",
       "vector_ids": [
-        "tv_8d651c4c",
-        "tv_59420b53",
-        "tv_697a9125"
+        "tv_29c3e296"
       ],
       "creator_ids": [
-        "jiekai wu",
         "shuai liu",
-        "wancong zhang",
-        "yuhang zhou",
-        "yue zheng"
+        "matthart88"
       ],
-      "independence_score": 0.8,
+      "independence_score": 1,
       "ci_score": 0.02,
       "frame_alignment": "infrastructure",
       "presupposition_set": [
-        "AI systems need to understand temporal dynamics of actions and content changes",
-        "Hierarchical planning is necessary for efficient and scalable AI systems",
-        "Federated learning can improve trustworthiness and privacy in AI models"
+        "local/personalized AI systems can solve privacy and scalability issues",
+        "I wanted to see how far I could get with a"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.1,
+      "stability_weeks": 0,
       "acceleration": 0,
-      "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "5 independent sources are converging on: \"Designing hierarchical planning methods that operate at multiple temporal scales using latent world models.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
-        "tier2_independence": "5 creators (high independence). Platforms: jiekai wu, shuai liu, wancong zhang, yuhang zhou, yue zheng",
+        "tier1_summary": "2 independent sources are converging on: \"Developing local or personalized AI systems can address privacy and scalability issues while maintaining performance.\". Convergence type: problem. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: shuai liu, matthart88",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 318,
-          "hedging": 300,
-          "speculating": 1128
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
         "tier3_drift_alerts": [],
         "tier4_per_source_profiles": [
-          {
-            "creator_id": "jiekai wu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
           {
             "creator_id": "shuai liu",
             "modal_profile": {},
@@ -3224,101 +3652,20 @@
             "certainty": 0.08
           },
           {
-            "creator_id": "wancong zhang",
+            "creator_id": "matthart88",
             "modal_profile": {},
             "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "yuhang zhou",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "yue zheng",
-            "modal_profile": {},
-            "frame": "warfare",
-            "presuppositions": [],
-            "certainty": 0.08
+            "presuppositions": [
+              "I wanted to see how far I could get with a"
+            ],
+            "certainty": 0
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_910a2e17",
-      "label": "Designing AI systems that integrate real-time data analysis ",
-      "description": "Designing AI systems that integrate real-time data analysis and communication to support rapid decision-making.",
-      "convergence_type": "solution",
-      "vector_ids": [
-        "tv_7a012203",
-        "tv_238d4d01"
-      ],
-      "creator_ids": [
-        "thedaily@nytimes.com (the new york times)",
-        "yang li",
-        "longyan wu"
-      ],
-      "independence_score": 1,
-      "ci_score": 0.02,
-      "frame_alignment": "infrastructure",
-      "presupposition_set": [
-        "Real-time data analysis is crucial for rapid decision-making.",
-        "Effective communication systems are necessary to support real-time decision-making.",
-        "importance of user privacy and anonymity in AI systems"
-      ],
-      "presupposition_conflicts": [],
-      "domains": [],
-      "cross_domain": false,
-      "stability_weeks": 0.4,
-      "acceleration": 0,
-      "first_detected": "2026-04-08T12:49:22.853Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
-      "resolution_data": {
-        "tier1_summary": "3 independent sources are converging on: \"Designing AI systems that integrate real-time data analysis and communication to support rapid decision-making.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.4 weeks. Acceleration: 0.00",
-        "tier2_independence": "3 creators (high independence). Platforms: thedaily@nytimes.com (the new york times), yang li, longyan wu",
-        "tier2_frame": "Dominant frame: \"infrastructure\"",
-        "tier2_quantitative": "",
-        "tier3_modal_distribution": {
-          "asserting": 212,
-          "hedging": 200,
-          "speculating": 752
-        },
-        "tier3_presupposition_conflicts": [],
-        "tier3_frame_competition": [],
-        "tier3_drift_alerts": [],
-        "tier4_per_source_profiles": [
-          {
-            "creator_id": "thedaily@nytimes.com (the new york times)",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.46
-          },
-          {
-            "creator_id": "yang li",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "longyan wu",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.58
-          }
-        ],
-        "tier4_alignment_matrix": []
-      }
-    },
-    {
-      "id": "cp_eec60d00",
+      "id": "cp_68d46574",
       "label": "LLMs should evolve beyond retrieval-augmented generation (RA",
       "description": "LLMs should evolve beyond retrieval-augmented generation (RAG) to maintain persistent, evolving knowledge bases.",
       "convergence_type": "solution",
@@ -3338,20 +3685,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
+      "stability_weeks": 0.1,
       "acceleration": 0,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"LLMs should evolve beyond retrieval-augmented generation (RAG) to maintain persistent, evolving knowledge bases.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: yifang wang, nashsu",
         "tier2_frame": "Dominant frame: \"exploration\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3376,7 +3723,66 @@
       }
     },
     {
-      "id": "cp_e42c5a5d",
+      "id": "cp_bc1dc250",
+      "label": "Designing educational tools using simplified versions of com",
+      "description": "Designing educational tools using simplified versions of complex models.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_813a9150"
+      ],
+      "creator_ids": [
+        "takuya shiba",
+        "armanified"
+      ],
+      "independence_score": 1,
+      "ci_score": 0.02,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "Improving VLA models through scalability and information management can enhance their performance.",
+        "Simplified models can be used for educational purposes to make complex concepts more accessible."
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Designing educational tools using simplified versions of complex models.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: takuya shiba, armanified",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "takuya shiba",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "armanified",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.45
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_5f312861",
       "label": "Designing AI systems to enhance scientific discovery through",
       "description": "Designing AI systems to enhance scientific discovery through integration of language and visual models.",
       "convergence_type": "solution",
@@ -3408,20 +3814,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 1,
+      "stability_weeks": 1.1,
       "acceleration": 0,
       "first_detected": "2026-04-04T11:48:50.689Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "6 independent sources are converging on: \"Designing AI systems to enhance scientific discovery through integration of language and visual models.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 1.0 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 1.1 weeks. Acceleration: 0.00",
         "tier2_independence": "6 creators (high independence). Platforms: hanchen wang, jaeyong lee, yinghao zhu, almir aljović, max bayer, wanli xing",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 424,
-          "hedging": 400,
-          "speculating": 1504
+          "hedging": 404,
+          "speculating": 1532
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3474,7 +3880,7 @@
       }
     },
     {
-      "id": "cp_693be717",
+      "id": "cp_c9ef8bdc",
       "label": "AI models should leverage mixed-precision techniques and qua",
       "description": "AI models should leverage mixed-precision techniques and quantization methods to optimize memory usage, computational costs, and performance.",
       "convergence_type": "solution",
@@ -3496,20 +3902,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 1,
+      "stability_weeks": 1.1,
       "acceleration": 0,
       "first_detected": "2026-04-04T11:49:34.532Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "3 independent sources are converging on: \"AI models should leverage mixed-precision techniques and quantization methods to optimize memory usage, computational costs, and performance.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 1.0 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 1.1 weeks. Acceleration: 0.00",
         "tier2_independence": "3 creators (high independence). Platforms: hao kang, haojun xia, zhihan cai",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3543,47 +3949,42 @@
       }
     },
     {
-      "id": "cp_8c550fb3",
+      "id": "cp_2ae06bc3",
       "label": "There is a growing demand for advanced computational methods",
       "description": "There is a growing demand for advanced computational methods to analyze complex electronic systems.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_1ebb205a",
-        "tv_f7e7cd3b"
+        "tv_1ebb205a"
       ],
       "creator_ids": [
         "mateo londoño",
         "tomasz krajewski",
-        "raju chowdhury",
-        "arthur jacot"
+        "raju chowdhury"
       ],
       "independence_score": 0.8,
       "ci_score": 0.01,
       "frame_alignment": "mechanics",
       "presupposition_set": [
         "The need for computational methods to handle complex systems",
-        "Advanced computational methods are needed to handle complex electronic systems and optimization problems",
-        "Hierarchical and distributed systems can offer better solutions to complex computational problems",
-        "Efficiency and problem-solving are key goals in AI design",
-        "this is a polynomial speedup"
+        "Advanced computational methods are needed to handle complex electronic systems and optimization problems"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 1,
+      "stability_weeks": 1.1,
       "acceleration": 0,
       "first_detected": "2026-04-04T11:48:50.689Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "4 independent sources are converging on: \"There is a growing demand for advanced computational methods to analyze complex electronic systems.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 1.0 weeks. Acceleration: 0.00",
-        "tier2_independence": "4 creators (high independence). Platforms: mateo londoño, tomasz krajewski, raju chowdhury, arthur jacot",
+        "tier1_summary": "3 independent sources are converging on: \"There is a growing demand for advanced computational methods to analyze complex electronic systems.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 1.1 weeks. Acceleration: 0.00",
+        "tier2_independence": "3 creators (high independence). Platforms: mateo londoño, tomasz krajewski, raju chowdhury",
         "tier2_frame": "Dominant frame: \"mechanics\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 212,
-          "hedging": 200,
-          "speculating": 752
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3609,22 +4010,13 @@
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
-          },
-          {
-            "creator_id": "arthur jacot",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "this is a polynomial speedup"
-            ],
-            "certainty": 0.58
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_426617f7",
+      "id": "cp_040d7712",
       "label": "There is a growing recognition of the limitations and challe",
       "description": "There is a growing recognition of the limitations and challenges in AI safety, governance, and ethics.",
       "convergence_type": "problem",
@@ -3644,20 +4036,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.7,
+      "stability_weeks": 0.9,
       "acceleration": 0,
       "first_detected": "2026-04-06T11:37:51.587Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"There is a growing recognition of the limitations and challenges in AI safety, governance, and ethics.\". Convergence type: problem. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.7 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 0.9 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: fazl barez, zoé roy-stang",
         "tier2_frame": "Dominant frame: \"exploration\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3682,73 +4074,129 @@
       }
     },
     {
-      "id": "cp_aa39070e",
-      "label": "Designing AI systems for autonomous operation and decision-m",
-      "description": "Designing AI systems for autonomous operation and decision-making",
+      "id": "cp_1086bd50",
+      "label": "Designing AI systems with a focus on interpretability and tr",
+      "description": "Designing AI systems with a focus on interpretability and transparency, even if it means sacrificing some performance benefits.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_85fb8d40"
+        "tv_4fb2464f",
+        "tv_5aeff32d"
       ],
       "creator_ids": [
-        "arthur gervais",
-        "yawen luo",
-        "lei wang"
+        "rahul jaiswal",
+        "connor dilgren"
       ],
-      "independence_score": 0.9,
+      "independence_score": 0.85,
       "ci_score": 0.01,
-      "frame_alignment": "warfare",
+      "frame_alignment": "",
       "presupposition_set": [
-        "AI systems can autonomously discover and validate exploits or make decisions without human intervention"
+        "the importance of trust and transparency in AI systems",
+        "they do not reason in natural language",
+        "Interpretability enhances model transparency and effectiveness.",
+        "Transparency is critical in security applications."
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.1,
+      "stability_weeks": 0,
       "acceleration": 0,
-      "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "3 independent sources are converging on: \"Designing AI systems for autonomous operation and decision-making\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
-        "tier2_independence": "3 creators (high independence). Platforms: arthur gervais, yawen luo, lei wang",
-        "tier2_frame": "Dominant frame: \"warfare\"",
+        "tier1_summary": "2 independent sources are converging on: \"Designing AI systems with a focus on interpretability and transparency, even if it means sacrificing some performance benefits.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: rahul jaiswal, connor dilgren",
+        "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "asserting": 212,
+          "hedging": 202,
+          "speculating": 766
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
         "tier3_drift_alerts": [],
         "tier4_per_source_profiles": [
           {
-            "creator_id": "arthur gervais",
-            "modal_profile": {},
-            "frame": "warfare",
-            "presuppositions": [],
-            "certainty": 1
-          },
-          {
-            "creator_id": "yawen luo",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "lei wang",
+            "creator_id": "rahul jaiswal",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.08
+          },
+          {
+            "creator_id": "connor dilgren",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "they do not reason in natural language"
+            ],
+            "certainty": 0.58
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_41b879ba",
+      "id": "cp_af7d7e44",
+      "label": "Implementing mechanisms to optimize the speed and effectiven",
+      "description": "Implementing mechanisms to optimize the speed and effectiveness of updates in AI systems, focusing on decoupling positive and negative rollouts for better control over informative entropy preservation.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_4394aa85"
+      ],
+      "creator_ids": [
+        "daron acemoglu",
+        "hengrui gu"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "The need for better control over the update process in AI systems to improve performance and efficiency."
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0.1,
+      "acceleration": -0.02,
+      "first_detected": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Implementing mechanisms to optimize the speed and effectiveness of updates in AI systems, focusing on decoupling positive and negative rollouts for better control over informative entropy preservation.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: -0.02",
+        "tier2_independence": "2 creators (high independence). Platforms: daron acemoglu, hengrui gu",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "daron acemoglu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
+            "creator_id": "hengrui gu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_687bb109",
       "label": "Designing AI systems with task-routed rewards to handle hete",
       "description": "Designing AI systems with task-routed rewards to handle heterogeneous answer formats.",
       "convergence_type": "solution",
@@ -3770,20 +4218,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.4,
+      "stability_weeks": 0.6,
       "acceleration": 0,
       "first_detected": "2026-04-08T12:49:22.853Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Designing AI systems with task-routed rewards to handle heterogeneous answer formats.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.4 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 0.6 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: gabriel sarch, gabriel peyré",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3810,7 +4258,7 @@
       }
     },
     {
-      "id": "cp_0d9afdbb",
+      "id": "cp_54155996",
       "label": "Growing interest in theoretical research to establish founda",
       "description": "Growing interest in theoretical research to establish foundational limits of AI capabilities.",
       "convergence_type": "solution",
@@ -3830,20 +4278,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.3,
+      "stability_weeks": 0.4,
       "acceleration": 0,
       "first_detected": "2026-04-09T13:42:17.897Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Growing interest in theoretical research to establish foundational limits of AI capabilities.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 0.4 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: tristan simas, artemy rubtsov",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3868,7 +4316,7 @@
       }
     },
     {
-      "id": "cp_d26ab7bf",
+      "id": "cp_f6f3c91b",
       "label": "Growing demand for privacy-preserving AI solutions, especial",
       "description": "Growing demand for privacy-preserving AI solutions, especially in contexts like LLMs.",
       "convergence_type": "solution",
@@ -3888,20 +4336,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.3,
+      "stability_weeks": 0.4,
       "acceleration": 0,
       "first_detected": "2026-04-09T13:42:17.897Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Growing demand for privacy-preserving AI solutions, especially in contexts like LLMs.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 0.4 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: junqi liu, roberto vercellino",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -3926,184 +4374,7 @@
       }
     },
     {
-      "id": "cp_80ee027f",
-      "label": "Advanced computational models can predict and trace environm",
-      "description": "Advanced computational models can predict and trace environmental phenomena, improving efficiency without additional control modules or fine-tuning.",
-      "convergence_type": "solution",
-      "vector_ids": [
-        "tv_03bb3ca4"
-      ],
-      "creator_ids": [
-        "francisco j. beron-vera",
-        "sudarshan rajagopalan"
-      ],
-      "independence_score": 0.85,
-      "ci_score": 0.01,
-      "frame_alignment": "",
-      "presupposition_set": [
-        "Efficiency and accuracy improvements through advanced computational models",
-        "the forward noising process using degraded images is misaligned with the"
-      ],
-      "presupposition_conflicts": [],
-      "domains": [],
-      "cross_domain": false,
-      "stability_weeks": 0,
-      "acceleration": 0,
-      "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
-      "resolution_data": {
-        "tier1_summary": "2 independent sources are converging on: \"Advanced computational models can predict and trace environmental phenomena, improving efficiency without additional control modules or fine-tuning.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
-        "tier2_independence": "2 creators (high independence). Platforms: francisco j. beron-vera, sudarshan rajagopalan",
-        "tier2_frame": "No dominant frame detected",
-        "tier2_quantitative": "",
-        "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
-        },
-        "tier3_presupposition_conflicts": [],
-        "tier3_frame_competition": [],
-        "tier3_drift_alerts": [],
-        "tier4_per_source_profiles": [
-          {
-            "creator_id": "francisco j. beron-vera",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "sudarshan rajagopalan",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "the forward noising process using degraded images is misaligned with the"
-            ],
-            "certainty": 1
-          }
-        ],
-        "tier4_alignment_matrix": []
-      }
-    },
-    {
-      "id": "cp_fee6b921",
-      "label": "Developing methods to selectively invoke reasoning in MLLMs ",
-      "description": "Developing methods to selectively invoke reasoning in MLLMs can improve performance while reducing computational costs.",
-      "convergence_type": "solution",
-      "vector_ids": [
-        "tv_5154c01a"
-      ],
-      "creator_ids": [
-        "yuchi wang",
-        "haoyu zhen"
-      ],
-      "independence_score": 0.85,
-      "ci_score": 0.01,
-      "frame_alignment": "",
-      "presupposition_set": [
-        "Selective reasoning can enhance efficiency and performance."
-      ],
-      "presupposition_conflicts": [],
-      "domains": [],
-      "cross_domain": false,
-      "stability_weeks": 0.1,
-      "acceleration": 0,
-      "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
-      "resolution_data": {
-        "tier1_summary": "2 independent sources are converging on: \"Developing methods to selectively invoke reasoning in MLLMs can improve performance while reducing computational costs.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
-        "tier2_independence": "2 creators (high independence). Platforms: yuchi wang, haoyu zhen",
-        "tier2_frame": "No dominant frame detected",
-        "tier2_quantitative": "",
-        "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
-        },
-        "tier3_presupposition_conflicts": [],
-        "tier3_frame_competition": [],
-        "tier3_drift_alerts": [],
-        "tier4_per_source_profiles": [
-          {
-            "creator_id": "yuchi wang",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "haoyu zhen",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          }
-        ],
-        "tier4_alignment_matrix": []
-      }
-    },
-    {
-      "id": "cp_98d5f25e",
-      "label": "Developing AI agents that can learn from past experiences to",
-      "description": "Developing AI agents that can learn from past experiences to improve future decision-making is crucial for advancing clinical diagnostic tools.",
-      "convergence_type": "solution",
-      "vector_ids": [
-        "tv_07da5764"
-      ],
-      "creator_ids": [
-        "ali reza ibrahimzada",
-        "bingxuan li"
-      ],
-      "independence_score": 0.85,
-      "ci_score": 0.01,
-      "frame_alignment": "",
-      "presupposition_set": [
-        "Learning from past experiences is key to improving decision-making."
-      ],
-      "presupposition_conflicts": [],
-      "domains": [],
-      "cross_domain": false,
-      "stability_weeks": 0.1,
-      "acceleration": 0,
-      "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
-      "resolution_data": {
-        "tier1_summary": "2 independent sources are converging on: \"Developing AI agents that can learn from past experiences to improve future decision-making is crucial for advancing clinical diagnostic tools.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
-        "tier2_independence": "2 creators (high independence). Platforms: ali reza ibrahimzada, bingxuan li",
-        "tier2_frame": "No dominant frame detected",
-        "tier2_quantitative": "",
-        "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
-        },
-        "tier3_presupposition_conflicts": [],
-        "tier3_frame_competition": [],
-        "tier3_drift_alerts": [],
-        "tier4_per_source_profiles": [
-          {
-            "creator_id": "ali reza ibrahimzada",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "bingxuan li",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          }
-        ],
-        "tier4_alignment_matrix": []
-      }
-    },
-    {
-      "id": "cp_55c81073",
+      "id": "cp_7275b4b2",
       "label": "There is a growing demand for advanced AI techniques that ca",
       "description": "There is a growing demand for advanced AI techniques that can adapt to novel domains using unlabeled data.",
       "convergence_type": "solution",
@@ -4123,20 +4394,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.1,
-      "acceleration": -0.09,
+      "stability_weeks": 0.3,
+      "acceleration": 0,
       "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"There is a growing demand for advanced AI techniques that can adapt to novel domains using unlabeled data.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: -0.09",
+        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: mohamed amine kerkouri, sikai bai",
         "tier2_frame": "Dominant frame: \"evolution\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4161,7 +4432,7 @@
       }
     },
     {
-      "id": "cp_4ec4fb42",
+      "id": "cp_9d4b249c",
       "label": "Embedding ethical principles directly into AI systems can ma",
       "description": "Embedding ethical principles directly into AI systems can make philosophical claims more empirically testable.",
       "convergence_type": "solution",
@@ -4182,20 +4453,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
+      "stability_weeks": 0.1,
       "acceleration": 0,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Embedding ethical principles directly into AI systems can make philosophical claims more empirically testable.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: dylan waldner, matthew e. brophy",
         "tier2_frame": "Dominant frame: \"evolution\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4220,7 +4491,7 @@
       }
     },
     {
-      "id": "cp_4af8878a",
+      "id": "cp_8047d3c4",
       "label": "LLMs can be steered and integrated with wearable devices to ",
       "description": "LLMs can be steered and integrated with wearable devices to provide personalized mental health support, considering emotional outputs.",
       "convergence_type": "solution",
@@ -4240,20 +4511,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
+      "stability_weeks": 0.1,
       "acceleration": 0,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"LLMs can be steered and integrated with wearable devices to provide personalized mental health support, considering emotional outputs.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: lihao sun, poorvesh dongre",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4278,98 +4549,43 @@
       }
     },
     {
-      "id": "cp_d7c83130",
-      "label": "Developing methods to improve the accuracy of data collectio",
-      "description": "Developing methods to improve the accuracy of data collection and processing in complex systems.",
-      "convergence_type": "solution",
-      "vector_ids": [
-        "tv_d163e6bf"
-      ],
-      "creator_ids": [
-        "longyan wu",
-        "shaowei liu"
-      ],
-      "independence_score": 0.85,
-      "ci_score": 0.01,
-      "frame_alignment": "infrastructure",
-      "presupposition_set": [
-        "Improving data collection and processing in complex systems is crucial for advancing technology."
-      ],
-      "presupposition_conflicts": [],
-      "domains": [],
-      "cross_domain": false,
-      "stability_weeks": 0.7,
-      "acceleration": -0.23,
-      "first_detected": "2026-04-06T09:23:17.838Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
-      "resolution_data": {
-        "tier1_summary": "2 independent sources are converging on: \"Developing methods to improve the accuracy of data collection and processing in complex systems.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.7 weeks. Acceleration: -0.23",
-        "tier2_independence": "2 creators (high independence). Platforms: longyan wu, shaowei liu",
-        "tier2_frame": "Dominant frame: \"infrastructure\"",
-        "tier2_quantitative": "",
-        "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
-        },
-        "tier3_presupposition_conflicts": [],
-        "tier3_frame_competition": [],
-        "tier3_drift_alerts": [],
-        "tier4_per_source_profiles": [
-          {
-            "creator_id": "longyan wu",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "shaowei liu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 1
-          }
-        ],
-        "tier4_alignment_matrix": []
-      }
-    },
-    {
-      "id": "cp_e5685ca8",
+      "id": "cp_ca2a7218",
       "label": "There is a growing trend towards developing specialized AI m",
       "description": "There is a growing trend towards developing specialized AI models for whole-slide image classification in computational pathology.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_af8bf54b"
+        "tv_af8bf54b",
+        "tv_a35ff954"
       ],
       "creator_ids": [
         "xin tian",
-        "jingwen zhou"
+        "jingwen zhou",
+        "yuechen jiang"
       ],
       "independence_score": 0.85,
       "ci_score": 0.01,
       "frame_alignment": "",
       "presupposition_set": [
-        "AI models need to be specialized for specific tasks like whole-slide image classification"
+        "AI models need to be specialized for specific tasks like whole-slide image classification",
+        "AI systems need human oversight for better performance and accountability"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.1,
+      "stability_weeks": 0.3,
       "acceleration": 0,
       "first_detected": "2026-04-10T13:05:37.466Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "2 independent sources are converging on: \"There is a growing trend towards developing specialized AI models for whole-slide image classification in computational pathology.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
-        "tier2_independence": "2 creators (high independence). Platforms: xin tian, jingwen zhou",
+        "tier1_summary": "3 independent sources are converging on: \"There is a growing trend towards developing specialized AI models for whole-slide image classification in computational pathology.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.3 weeks. Acceleration: 0.00",
+        "tier2_independence": "3 creators (high independence). Platforms: xin tian, jingwen zhou, yuechen jiang",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "asserting": 212,
+          "hedging": 202,
+          "speculating": 766
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4388,46 +4604,56 @@
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
+          },
+          {
+            "creator_id": "yuechen jiang",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_095892d2",
+      "id": "cp_aef442c4",
       "label": "There is a growing demand for federated learning solutions t",
       "description": "There is a growing demand for federated learning solutions that can operate efficiently on bandwidth-constrained IoT networks.",
       "convergence_type": "solution",
       "vector_ids": [
-        "tv_87f83b89"
+        "tv_87f83b89",
+        "tv_d89ea760"
       ],
       "creator_ids": [
         "abdelkarim loukili",
-        "seungjun ahn"
+        "seungjun ahn",
+        "giannis fikioris"
       ],
       "independence_score": 0.85,
       "ci_score": 0.01,
       "frame_alignment": "exploration",
       "presupposition_set": [
-        "Federated learning solutions need to be efficient for IoT networks"
+        "Federated learning solutions need to be efficient for IoT networks",
+        "Federated learning models need efficient communication in bandwidth-limited environments"
       ],
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
+      "stability_weeks": 0.1,
       "acceleration": 0,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
-        "tier1_summary": "2 independent sources are converging on: \"There is a growing demand for federated learning solutions that can operate efficiently on bandwidth-constrained IoT networks.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
-        "tier2_independence": "2 creators (high independence). Platforms: abdelkarim loukili, seungjun ahn",
+        "tier1_summary": "3 independent sources are converging on: \"There is a growing demand for federated learning solutions that can operate efficiently on bandwidth-constrained IoT networks.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
+        "tier2_independence": "3 creators (high independence). Platforms: abdelkarim loukili, seungjun ahn, giannis fikioris",
         "tier2_frame": "Dominant frame: \"exploration\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "asserting": 212,
+          "hedging": 202,
+          "speculating": 766
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4446,13 +4672,20 @@
             "frame": "exploration",
             "presuppositions": [],
             "certainty": 1
+          },
+          {
+            "creator_id": "giannis fikioris",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
           }
         ],
         "tier4_alignment_matrix": []
       }
     },
     {
-      "id": "cp_4cfb43ac",
+      "id": "cp_6288864c",
       "label": "Developing AI systems that balance internal knowledge with e",
       "description": "Developing AI systems that balance internal knowledge with external tool queries.",
       "convergence_type": "solution",
@@ -4472,20 +4705,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
+      "stability_weeks": 0.1,
       "acceleration": 0,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Developing AI systems that balance internal knowledge with external tool queries.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: zhiyuan wang, shilin yan",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4510,7 +4743,7 @@
       }
     },
     {
-      "id": "cp_aa6a840b",
+      "id": "cp_59a502c5",
       "label": "There is a growing demand for advanced AI techniques in mana",
       "description": "There is a growing demand for advanced AI techniques in managing complex surface dynamics within animations.",
       "convergence_type": "solution",
@@ -4530,20 +4763,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0,
+      "stability_weeks": 0.1,
       "acceleration": 0,
       "first_detected": "2026-04-11T12:00:43.829Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"There is a growing demand for advanced AI techniques in managing complex surface dynamics within animations.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Newly detected pattern",
+        "tier2_temporal": "Pattern stable for 0.1 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: jiaxin wang, yunsong zhou",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4568,7 +4801,484 @@
       }
     },
     {
-      "id": "cp_0bfb4a9d",
+      "id": "cp_d9d93162",
+      "label": "Designing AI systems with information barriers to ensure rel",
+      "description": "Designing AI systems with information barriers to ensure reliability and safety.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_65b7c0c3"
+      ],
+      "creator_ids": [
+        "vadim vashkelis",
+        "tianzhu qin"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "infrastructure",
+      "presupposition_set": [
+        "reliability and safety are critical in AI systems"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Designing AI systems with information barriers to ensure reliability and safety.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: vadim vashkelis, tianzhu qin",
+        "tier2_frame": "Dominant frame: \"infrastructure\"",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "vadim vashkelis",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "tianzhu qin",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 1
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_f35081ec",
+      "label": "Designing neural networks to solve complex control problems ",
+      "description": "Designing neural networks to solve complex control problems using indirect methods.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_83bb11a6"
+      ],
+      "creator_ids": [
+        "zhen zhang",
+        "guan-ting lin"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "indirect methods are effective for solving complex control problems"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Designing neural networks to solve complex control problems using indirect methods.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: zhen zhang, guan-ting lin",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "zhen zhang",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "guan-ting lin",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_74955919",
+      "label": "Designing educational tools that integrate board games and d",
+      "description": "Designing educational tools that integrate board games and digital simulations to enhance understanding of long-term environmental impacts.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_3d1523f4",
+        "tv_55a9a74b"
+      ],
+      "creator_ids": [
+        "arka majhi",
+        "ben wigler",
+        "sangwook lee"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "mechanics",
+      "presupposition_set": [
+        "integration of board games and digital simulations enhances learning",
+        "Conversational agents need to adapt GUI elements based on user preferences",
+        "User preferences and interaction history can be used to improve the adaptability of conversational agents' interfaces.",
+        "user preferences and past interactions influence GUI design"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "3 independent sources are converging on: \"Designing educational tools that integrate board games and digital simulations to enhance understanding of long-term environmental impacts.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "3 creators (high independence). Platforms: arka majhi, ben wigler, sangwook lee",
+        "tier2_frame": "Dominant frame: \"mechanics\"",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 212,
+          "hedging": 202,
+          "speculating": 766
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "arka majhi",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "ben wigler",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "sangwook lee",
+            "modal_profile": {},
+            "frame": "mechanics",
+            "presuppositions": [],
+            "certainty": 0.08
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_c79aa2b6",
+      "label": "There is a growing trend towards developing oversight mechan",
+      "description": "There is a growing trend towards developing oversight mechanisms that structure decision-critical moments for timely recognition and intervention in AI systems.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_2679d74c"
+      ],
+      "creator_ids": [
+        "chaoran chen",
+        "wang yang"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "the need for robust AI systems that can handle complex decision-making processes"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"There is a growing trend towards developing oversight mechanisms that structure decision-critical moments for timely recognition and intervention in AI systems.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: chaoran chen, wang yang",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "chaoran chen",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "wang yang",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_4a047323",
+      "label": "Designing efficient computational frameworks like the Polyno",
+      "description": "Designing efficient computational frameworks like the Polynomial Mixer (PoM) for transformers.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_ab7a0443"
+      ],
+      "creator_ids": [
+        "david picard",
+        "yue feng"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "Efficient computational frameworks are needed for advanced AI models like transformers and sequence models"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Designing efficient computational frameworks like the Polynomial Mixer (PoM) for transformers.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: david picard, yue feng",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "david picard",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "yue feng",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_a8480f14",
+      "label": "Develop methods to improve cross-model compatibility of faci",
+      "description": "Develop methods to improve cross-model compatibility of facial embeddings.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_3ec6ce1c"
+      ],
+      "creator_ids": [
+        "fizza rubab",
+        "huaiyuan qin"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "infrastructure",
+      "presupposition_set": [
+        "Facial embeddings need better compatibility across different models for ensemble design"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Develop methods to improve cross-model compatibility of facial embeddings.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: fizza rubab, huaiyuan qin",
+        "tier2_frame": "Dominant frame: \"infrastructure\"",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "fizza rubab",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "huaiyuan qin",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.08
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_3db4d3f4",
+      "label": "Designing robust autonomous driving systems with a focus on ",
+      "description": "Designing robust autonomous driving systems with a focus on generalization capabilities.",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_ab7987c4"
+      ],
+      "creator_ids": [
+        "timothy k johnsen",
+        "simon gerstenecker"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "Autonomous driving systems need robustness and generalization capabilities"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Designing robust autonomous driving systems with a focus on generalization capabilities.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: timothy k johnsen, simon gerstenecker",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "timothy k johnsen",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "simon gerstenecker",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 1
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_c19935a5",
+      "label": "Designing benchmarks or frameworks for evaluating AI systems",
+      "description": "Designing benchmarks or frameworks for evaluating AI systems under real-world conditions",
+      "convergence_type": "solution",
+      "vector_ids": [
+        "tv_6dccf507"
+      ],
+      "creator_ids": [
+        "yuxuan zhang",
+        "ziwei zhou"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0.01,
+      "frame_alignment": "infrastructure",
+      "presupposition_set": [
+        "the need for realistic testing environments in AI development",
+        "evaluation under realistic conditions is crucial for AI development"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Designing benchmarks or frameworks for evaluating AI systems under real-world conditions\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: yuxuan zhang, ziwei zhou",
+        "tier2_frame": "Dominant frame: \"infrastructure\"",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "yuxuan zhang",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
+            "creator_id": "ziwei zhou",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
+    },
+    {
+      "id": "cp_07633e8b",
       "label": "Performance improvements in AI applications are increasingly",
       "description": "Performance improvements in AI applications are increasingly coming from system-level optimizations rather than just model improvements.",
       "convergence_type": "solution",
@@ -4590,20 +5300,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 1,
+      "stability_weeks": 1.1,
       "acceleration": 0,
       "first_detected": "2026-04-04T11:48:50.689Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Performance improvements in AI applications are increasingly coming from system-level optimizations rather than just model improvements.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 1.0 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 1.1 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: yoonho lee, bioinfo",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4630,7 +5340,7 @@
       }
     },
     {
-      "id": "cp_6e74c95c",
+      "id": "cp_d258b023",
       "label": "AI systems should integrate natural language instructions to",
       "description": "AI systems should integrate natural language instructions to enhance personalized decision-making in autonomous driving.",
       "convergence_type": "solution",
@@ -4651,20 +5361,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2,
+      "stability_weeks": 2.1,
       "acceleration": 0,
       "first_detected": "2026-03-28T13:55:49.377Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"AI systems should integrate natural language instructions to enhance personalized decision-making in autonomous driving.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.0 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.1 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: sicheng zuo, zehao wang",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4689,7 +5399,7 @@
       }
     },
     {
-      "id": "cp_e85a660f",
+      "id": "cp_6a7000de",
       "label": "Advanced machine learning models can accurately assess and q",
       "description": "Advanced machine learning models can accurately assess and quantify individual skills.",
       "convergence_type": "solution",
@@ -4710,20 +5420,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 0.7,
+      "stability_weeks": 0.9,
       "acceleration": 0,
       "first_detected": "2026-04-06T09:23:17.838Z",
-      "last_updated": "2026-04-11T12:00:43.829Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Advanced machine learning models can accurately assess and quantify individual skills.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 0.7 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 0.9 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: akihiro kubota, robert j. taggart",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
           "asserting": 106,
-          "hedging": 100,
-          "speculating": 376
+          "hedging": 101,
+          "speculating": 383
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -4748,9 +5458,67 @@
         ],
         "tier4_alignment_matrix": []
       }
+    },
+    {
+      "id": "cp_af195cf5",
+      "label": "Open-source optimization algorithms can democratize access t",
+      "description": "Open-source optimization algorithms can democratize access to advanced problem-solving techniques.",
+      "convergence_type": "problem",
+      "vector_ids": [
+        "tv_ee64e793"
+      ],
+      "creator_ids": [
+        "philip kaminsky",
+        "elliot c. eklund"
+      ],
+      "independence_score": 0.85,
+      "ci_score": 0,
+      "frame_alignment": "",
+      "presupposition_set": [
+        "open-source tools can make advanced techniques more accessible to a wider audience"
+      ],
+      "presupposition_conflicts": [],
+      "domains": [],
+      "cross_domain": false,
+      "stability_weeks": 0,
+      "acceleration": 0,
+      "first_detected": "2026-04-12T11:54:33.506Z",
+      "last_updated": "2026-04-12T11:54:33.506Z",
+      "resolution_data": {
+        "tier1_summary": "2 independent sources are converging on: \"Open-source optimization algorithms can democratize access to advanced problem-solving techniques.\". Convergence type: problem. Independence: high independence.",
+        "tier2_temporal": "Newly detected pattern",
+        "tier2_independence": "2 creators (high independence). Platforms: philip kaminsky, elliot c. eklund",
+        "tier2_frame": "No dominant frame detected",
+        "tier2_quantitative": "",
+        "tier3_modal_distribution": {
+          "asserting": 106,
+          "hedging": 101,
+          "speculating": 383
+        },
+        "tier3_presupposition_conflicts": [],
+        "tier3_frame_competition": [],
+        "tier3_drift_alerts": [],
+        "tier4_per_source_profiles": [
+          {
+            "creator_id": "philip kaminsky",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          },
+          {
+            "creator_id": "elliot c. eklund",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
+          }
+        ],
+        "tier4_alignment_matrix": []
+      }
     }
   ],
   "presupposition_registry": [],
-  "total_sources_analyzed": 845,
-  "generated_at": "2026-04-11T12:00:43.829Z"
+  "total_sources_analyzed": 858,
+  "generated_at": "2026-04-12T11:54:33.506Z"
 }
