@@ -31,8 +31,10 @@ export default function DashboardPage() {
     synthesis: getPatternSynthesis(p),
   }));
 
-  // Pre-compute data for all leaders
-  const leaderData = profiles.slice(0, 20).map(l => ({
+  // Pre-compute data for leaders — individuals only (filter out media, orgs, projects)
+  const leaderData = profiles
+    .filter(l => l.entity_type === 'individual' || l.entity_type === 'unknown')
+    .slice(0, 20).map(l => ({
     leader: l,
     contrib: getLeaderContribution(l),
     links: getLeaderLinks(l),
