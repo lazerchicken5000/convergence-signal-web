@@ -1,0 +1,38 @@
+{
+  "id": "td_0b8877a5",
+  "source": "arxiv",
+  "source_id": "2604.09511",
+  "source_url": "https://arxiv.org/abs/2604.09511",
+  "content_type": "paper",
+  "creator": {
+    "id": "wending_yan",
+    "name": "Wending Yan",
+    "handle": "Wending Yan, Rongkai Zhang, Kaihua Tang, Yu Cheng, Qiankun Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RIRF: Reasoning Image Restoration Framework",
+  "body_text": "RIRF: Reasoning Image Restoration Framework\n\nUniversal image restoration (UIR) aims to recover clean images from diverse and unknown degradations using a unified model. Existing UIR methods primarily focus on pixel reconstruction and often lack explicit diagnostic reasoning over degradation composition, severity, and scene semantics prior to restoration. We propose Reason and Restore (R\\&amp;R), a novel framework that integrates structured Chain-of-Thought (CoT) reasoning into the image restoration pipeline. R\\&amp;R introduces an explicit reasoner, implemented by fine-tuning Qwen3-VL, to diagnose degradation types, quantify degradation severity, infer key degradation-related factors, and describe relevant scene and object semantics. The resulting structured reasoning provides interpretable and fine-grained diagnostic priors for the restorer. To further improve restoration quality, the quantified degradation severity produced by the reasoner is leveraged as reinforcement learning (RL) signals to guide and strengthen the restorer. Unlike existing multimodal LLM-based agentic systems that decouple reasoning from low-level vision tasks, R\\&amp;R tightly couples semantic diagnostic reasoning with pixel-level restoration in a unified framework. Extensive experiments across diverse UIR benchmarks demonstrate that R\\&amp;R achieves state-of-the-art performance while offering unique interpretability into the restoration process.\n\nAuthors: Wending Yan, Rongkai Zhang, Kaihua Tang, Yu Cheng, Qiankun Liu\nCategories: cs.CV, cs.CV",
+  "word_count": 174,
+  "published_at": "2026-04-10T17:29:31Z",
+  "ingested_at": "2026-04-13T11:03:37.033Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

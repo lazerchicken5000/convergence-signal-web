@@ -1,0 +1,38 @@
+{
+  "id": "td_af099297",
+  "source": "arxiv",
+  "source_id": "2604.09515",
+  "source_url": "https://arxiv.org/abs/2604.09515",
+  "content_type": "paper",
+  "creator": {
+    "id": "ahmed_nusayer_ashik",
+    "name": "Ahmed Nusayer Ashik",
+    "handle": "Ahmed Nusayer Ashik, Shaowei Wang, Tse-Hsun Chen, Muhammad Asaduzzaman, Yuan Tian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When LLMs Lag Behind: Knowledge Conflicts from Evolving APIs in Code Generation",
+  "body_text": "When LLMs Lag Behind: Knowledge Conflicts from Evolving APIs in Code Generation\n\nThe rapid evolution of software libraries creates a significant challenge for Large Language Models (LLMs), whose static parametric knowledge often becomes stale post-training. While retrieval-augmented generation (RAG) is commonly used to provide up-to-date API specifications, \"context-memory conflict\" arises when external instructions contradict a model's internal parametric knowledge. This paper presents a systematic empirical study of LLM code generation under API evolution (e.g., API deprecation, API modification, and API addition), by constructing a benchmark of 270 real-world updates from eight Python libraries. We evaluate four LLM families of 11 models. Our results show that without comprehensive documentation, LLMs struggle to prioritize external context, averaging only 42.55% of generated code examples are executable in the target environment. While structured documentation and larger model scales improve LLMs' ability to update adoption, they do not fully resolve executability issues with a low 66.36% executable rate. In addition, reasoning-based strategies (e.g., Self-Reflection) significantly boost LLMs' performance with 11% improvement on executable rate. Our findings highlight the persistence of outdated patterns from LLMs, even when API update specifications are provided, and emphasize the need for evolution-aware benchmarks and techniques.\n\nAuthors: Ahmed Nusayer Ashik, Shaowei Wang, Tse-Hsun Chen, Muhammad Asaduzzaman, Yuan Tian\nCategories: cs.SE, cs.SE",
+  "word_count": 183,
+  "published_at": "2026-04-10T17:37:26Z",
+  "ingested_at": "2026-04-13T11:03:37.033Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

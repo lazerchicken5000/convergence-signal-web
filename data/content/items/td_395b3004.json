@@ -1,0 +1,38 @@
+{
+  "id": "td_395b3004",
+  "source": "arxiv",
+  "source_id": "2604.09470",
+  "source_url": "https://arxiv.org/abs/2604.09470",
+  "content_type": "paper",
+  "creator": {
+    "id": "vishnu_murali",
+    "name": "Vishnu Murali",
+    "handle": "Vishnu Murali, Anmol Gulati, Elias Lumer, Kevin Frank, Sindy Campagna, Vamse Kumar Subbiah",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agentic Jackal: Live Execution and Semantic Value Grounding for Text-to-JQL",
+  "body_text": "Agentic Jackal: Live Execution and Semantic Value Grounding for Text-to-JQL\n\nTranslating natural language into Jira Query Language (JQL) requires resolving ambiguous field references, instance-specific categorical values, and complex Boolean predicates. Single-pass LLMs cannot discover which categorical values (e.g., component names or fix versions) actually exist in a given Jira instance, nor can they verify generated queries against a live data source, limiting accuracy on paraphrased or ambiguous requests. No open, execution-based benchmark exists for mapping natural language to JQL. We introduce Jackal, the first large-scale, execution-based text-to-JQL benchmark comprising 100,000 validated NL-JQL pairs on a live Jira instance with over 200,000 issues. To establish baselines on Jackal, we propose Agentic Jackal, a tool-augmented agent that equips LLMs with live query execution via the Jira MCP server and JiraAnchor, a semantic retrieval tool that resolves natural-language mentions of categorical values through embedding-based similarity search. Among 9 frontier LLMs evaluated, single-pass models average only 43.4% execution accuracy on short natural-language queries, highlighting that text-to-JQL remains an open challenge. The agentic approach improves 7 of 9 models, with a 9.0% relative gain on the most linguistically challenging variant; in a controlled ablation isolating JiraAnchor, categorical-value accuracy rises from 48.7% to 71.7%, with component-field accuracy jumping from 16.9% to 66.2%. Our analysis identifies inherent semantic ambiguities, such as issue-type disambiguation and text-field selection, as the dominant failure modes rather than value-resolution errors, pointing to concrete directions for future work. We publicly release the benchmark, all agent transcripts, and evaluation code to support reproducibility.\n\nAuthors: Vishnu Murali, Anmol Gulati, Elias Lumer, Kevin Frank, Sindy Campagna, Vamse Kumar Subbiah\nCategories: cs.CL, cs.CL",
+  "word_count": 239,
+  "published_at": "2026-04-10T16:27:31Z",
+  "ingested_at": "2026-04-13T11:03:28.766Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

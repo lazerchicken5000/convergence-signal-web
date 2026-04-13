@@ -1,0 +1,38 @@
+{
+  "id": "td_ea70adcd",
+  "source": "arxiv",
+  "source_id": "2604.09528",
+  "source_url": "https://arxiv.org/abs/2604.09528",
+  "content_type": "paper",
+  "creator": {
+    "id": "jackson_lee",
+    "name": "Jackson Lee",
+    "handle": "Jackson Lee, Andrew J Millis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Machine Learning Phase Field Reconstruction in a Bose-Einstein Condensate",
+  "body_text": "Machine Learning Phase Field Reconstruction in a Bose-Einstein Condensate\n\nA basic challenge in experimental physics is the extraction of information related to variables that are not directly measured. The challenge is particularly severe in quantum systems where one may be interested in correlations of operators that are not diagonal in the measurement basis. In this paper we take a step towards addressing this issue in the context of Boson superfluids, where standard in-situ imaging yields only the spatially resolved density, leaving the phase field - crucial for identifying topological defects such as vortices and confirming superfluidity - indirectly encoded. Previous work has shown that the location of vortices in the phase field may be detected, but has not solved the problems of fully reconstructing the phase or identifying the charge (vortex vs. antivortex). This paper shows that a combination of a deep machine learning (ML) model and classical computer vision post-processing steps can address this gap. We use realistic snapshots of the thermal state of a two-dimensional BEC in a harmonic trap using synthetic data obtained from projected Gross-Pitaevskii equation simulations to train a U-Net-based architecture to infer the absolute values of the phase field gradients from an observed density field, and then employ a separate ML model to locate the positions of the vortex cores and a post-processing graphical analysis to determine with high accuracy the phase field, including the quantized charge of each vortex.\n\nAuthors: Jackson Lee, Andrew J Millis\nCategories: cond-mat.quant-gas, cond-mat.quant-gas",
+  "word_count": 227,
+  "published_at": "2026-04-10T17:47:11Z",
+  "ingested_at": "2026-04-13T11:03:41.402Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.quant-gas",
+    "cond-mat.quant-gas"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

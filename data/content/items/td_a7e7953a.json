@@ -1,0 +1,39 @@
+{
+  "id": "td_a7e7953a",
+  "source": "arxiv",
+  "source_id": "2604.09487",
+  "source_url": "https://arxiv.org/abs/2604.09487",
+  "content_type": "paper",
+  "creator": {
+    "id": "jan_schneider",
+    "name": "Jan Schneider",
+    "handle": "Jan Schneider, Mridul Mahajan, Le Chen, Simon Guist, Bernhard Schölkopf, Ingmar Posner, Dieter Büchler",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
+  "body_text": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks\n\nTendon drives paired with soft muscle actuation enable faster and safer robots while potentially accelerating skill acquisition. Still, these systems are rarely used in practice due to inherent nonlinearities, friction, and hysteresis, which complicate modeling and control. So far, these challenges have hindered policy transfer from simulation to real systems. To bridge this gap, we propose a sim-to-real pipeline that learns a neural network model of this complex actuation and leverages established rigid body simulation for the arm dynamics and interactions with the environment. Our method, called Generalized Actuator Network (GeAN), enables actuation model identification across a wide range of robots by learning directly from joint position trajectories rather than requiring torque sensors. Using GeAN on PAMY2, a tendon-driven robot powered by pneumatic artificial muscles, we successfully deploy precise goal-reaching and dynamic ball-in-a-cup policies trained entirely in simulation. To the best of our knowledge, this result constitutes the first successful sim-to-real transfer for a four-degrees-of-freedom muscle-actuated robot arm.\n\nAuthors: Jan Schneider, Mridul Mahajan, Le Chen, Simon Guist, Bernhard Schölkopf, Ingmar Posner, Dieter Büchler\nCategories: cs.RO, cs.LG, cs.RO",
+  "word_count": 158,
+  "published_at": "2026-04-10T16:52:54Z",
+  "ingested_at": "2026-04-13T11:03:32.794Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

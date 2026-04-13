@@ -1,0 +1,40 @@
+{
+  "id": "td_18ff1028",
+  "source": "arxiv",
+  "source_id": "2604.09529",
+  "source_url": "https://arxiv.org/abs/2604.09529",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenyi_xiao",
+    "name": "Wenyi Xiao",
+    "handle": "Wenyi Xiao, Xinchi Xu, Leilei Gan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning",
+  "body_text": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning\n\nLarge Vision Language Models (LVLMs) achieve strong multimodal reasoning but frequently exhibit hallucinations and incorrect responses with high certainty, which hinders their usage in high-stakes domains. Existing verbalized confidence calibration methods, largely developed for text-only LLMs, typically optimize a single holistic confidence score using binary answer-level correctness. This design is mismatched to LVLMs: an incorrect prediction may arise from perceptual failures or from reasoning errors given correct perception, and a single confidence conflates these sources while visual uncertainty is often dominated by language priors. To address these issues, we propose VL-Calibration, a reinforcement learning framework that explicitly decouples confidence into visual and reasoning confidence. To supervise visual confidence without ground-truth perception labels, we introduce an intrinsic visual certainty estimation that combines (i) visual grounding measured by KL-divergence under image perturbations and (ii) internal certainty measured by token entropy. We further propose token-level advantage reweighting to focus optimization on tokens based on visual certainty, suppressing ungrounded hallucinations while preserving valid perception. Experiments on thirteen benchmarks show that VL-Calibration effectively improves calibration while boosting visual reasoning accuracy, and it generalizes to out-of-distribution benchmarks across model scales and architectures.\n\nAuthors: Wenyi Xiao, Xinchi Xu, Leilei Gan\nCategories: cs.CV, cs.AI, cs.CL, cs.CV",
+  "word_count": 186,
+  "published_at": "2026-04-10T17:47:19Z",
+  "ingested_at": "2026-04-13T11:03:24.731Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

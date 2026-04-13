@@ -1,0 +1,39 @@
+{
+  "id": "td_da96949e",
+  "source": "arxiv",
+  "source_id": "2604.09532",
+  "source_url": "https://arxiv.org/abs/2604.09532",
+  "content_type": "paper",
+  "creator": {
+    "id": "zibin_geng",
+    "name": "Zibin Geng",
+    "handle": "Zibin Geng, Xuefeng Jiang, Jia Li, Zheng Li, Tian Wen, Lvhua Wu, Sheng Sun, Yuwei Wang, Min Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Seeing is Believing: Robust Vision-Guided Cross-Modal Prompt Learning under Label Noise",
+  "body_text": "Seeing is Believing: Robust Vision-Guided Cross-Modal Prompt Learning under Label Noise\n\nPrompt learning is a parameter-efficient approach for vision-language models, yet its robustness under label noise is less investigated. Visual content contains richer and more reliable semantic information, which remains more robust under label noise. However, the prompt itself is highly susceptible to label noise. Motivated by this intuition, we propose VisPrompt, a lightweight and robust vision-guided prompt learning framework for noisy-label settings. Specifically, we exploit a cross-modal attention mechanism to reversely inject visual semantics into prompt representations. This enables the prompt tokens to selectively aggregate visual information relevant to the current sample, thereby improving robustness by anchoring prompt learning to stable instance-level visual evidence and reducing the influence of noisy supervision. To address the instability caused by using the same way of injecting visual information for all samples, despite differences in the quality of their visual cues, we further introduce a lightweight conditional modulation mechanism to adaptively control the strength of visual information injection, which strikes a more robust balance between text-side semantic priors and image-side instance evidence. The proposed framework effectively suppresses the noise-induced disturbances, reduce instability in prompt updates, and alleviate memorization of mislabeled samples. VisPrompt significantly improves robustness while keeping the pretrained VLM backbone frozen and introducing only a small amount of additional trainable parameters. Extensive experiments under synthetic and real-world label noise demonstrate that VisPrompt generally outperforms existing baselines on seven benchmark datasets and achieves stronger robustness. Our code is publicly available at https://github.com/gezbww/Vis_Prompt.\n\nAuthors: Zibin Geng, Xuefeng Jiang, Jia Li, Zheng Li, Tian Wen, Lvhua Wu, Sheng Sun, Yuwei Wang, Min Liu\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 238,
+  "published_at": "2026-04-10T17:48:56Z",
+  "ingested_at": "2026-04-13T11:03:24.731Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

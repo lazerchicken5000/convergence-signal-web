@@ -1,0 +1,39 @@
+{
+  "id": "td_62331bcb",
+  "source": "arxiv",
+  "source_id": "2604.09523",
+  "source_url": "https://arxiv.org/abs/2604.09523",
+  "content_type": "paper",
+  "creator": {
+    "id": "igor_jankowski",
+    "name": "Igor Jankowski",
+    "handle": "Igor Jankowski",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Event-Driven Temporal Graph Networks for Asynchronous Multi-Agent Cyber Defense in NetForge_RL",
+  "body_text": "Event-Driven Temporal Graph Networks for Asynchronous Multi-Agent Cyber Defense in NetForge_RL\n\nThe transition of Multi-Agent Reinforcement Learning (MARL) policies from simulated cyber wargames to operational Security Operations Centers (SOCs) is fundamentally bottlenecked by the Sim2Real gap. Legacy simulators abstract away network protocol physics, rely on synchronous ticks, and provide clean state vectors rather than authentic, noisy telemetry. To resolve these limitations, we introduce NetForge_RL: a high-fidelity cyber operations simulator that reformulates network defense as an asynchronous, continuous-time Partially Observable Semi-Markov Decision Process (POSMDP). NetForge enforces Zero-Trust Network Access (ZTNA) constraints and requires defenders to process NLP-encoded SIEM telemetry. Crucially, NetForge bridges the Sim2Real gap natively via a dual-mode engine, allowing high-throughput MARL training in a mock hypervisor and zero-shot evaluation against live exploits in a Docker hypervisor. To navigate this continuous-time POSMDP, we propose Continuous-Time Graph MARL (CT-GMARL), utilizing fixed-step Neural Ordinary Differential Equations (ODEs) to process irregularly sampled alerts. We evaluate our framework against discrete baselines (R-MAPPO, QMIX). Empirical results demonstrate that CT-GMARL achieves a converged median Blue reward of 57,135 - a 2.0x improvement over R-MAPPO and 2.1x over QMIX. Critically, CT-GMARL restores 12x more compromised services than the strongest baseline by avoiding the \"scorched earth\" failure mode of trivially minimizing risk by destroying network utility. On zero-shot transfer to the live Docker environment, CT-GMARL policies achieve a median reward of 98,026, validating the Sim2Real bridge.\n\nAuthors: Igor Jankowski\nCategories: cs.LG, cs.MA, cs.LG",
+  "word_count": 217,
+  "published_at": "2026-04-10T17:44:29Z",
+  "ingested_at": "2026-04-13T11:03:32.793Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.MA",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

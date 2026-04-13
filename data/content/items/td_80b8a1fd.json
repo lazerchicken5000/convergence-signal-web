@@ -1,0 +1,38 @@
+{
+  "id": "td_80b8a1fd",
+  "source": "arxiv",
+  "source_id": "2604.09493",
+  "source_url": "https://arxiv.org/abs/2604.09493",
+  "content_type": "paper",
+  "creator": {
+    "id": "om_solanki",
+    "name": "Om Solanki",
+    "handle": "Om Solanki, Lopamudra Praharaj, Deepti Gupta, Maanak Gupta",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Policy-Aware Edge LLM-RAG Framework for Internet of Battlefield Things Mission Orchestration",
+  "body_text": "Policy-Aware Edge LLM-RAG Framework for Internet of Battlefield Things Mission Orchestration\n\nLarge Language Models (LLMs) offer a promising interface for intent-driven control of autonomous cyber-physical systems, but their direct use in mission-critical Internet of Battlefield Things (IoBT) environments raises significant safety, reliability, and policy-compliance concerns. This paper presents a Policy-Aware Large Language Model Retrieval-Augmented Generation (referred as PA-LLM-RAG), an edge-deployed LLM orchestration framework for IoBT mission control that integrates retrieval-augmented reasoning and independent command verification. The proposed PA-LLM-RAG framework combines a lightweight retrieval module that grounds decisions in operational policies and telemetry with a locally hosted LLM for mission planning and a secondary JudgeLLM for validating user generated commands prior to execution. To evaluate PA-LLM-RAG, we implement a simulated IoBT environment using RoboDK and assess four open-source LLMs across controlled mission scenarios of increasing complexity, including baseline operations, threat detection, coverage recovery, multi-event coordination, and policy-violation requests. Experimental results demonstrate that the framework effectively detects policy-violating commands while maintaining low-latency response suitable for edge deployment. Gemma-2B achieving the highest overall reliability with 4.17 sec latency and 100% success rate. The findings highlight a clear tradeoff between reasoning capacity and responsiveness across models and show that combining deterministic safeguards with JudgeLLM verification significantly improves reliability in LLM-driven IoBT orchestration.\n\nAuthors: Om Solanki, Lopamudra Praharaj, Deepti Gupta, Maanak Gupta\nCategories: cs.NI, cs.NI",
+  "word_count": 197,
+  "published_at": "2026-04-10T17:01:37Z",
+  "ingested_at": "2026-04-13T11:03:45.814Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.NI",
+    "cs.NI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

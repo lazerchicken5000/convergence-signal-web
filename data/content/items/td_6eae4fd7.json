@@ -1,0 +1,35 @@
+{
+  "id": "td_6eae4fd7",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Gemma 4 audio with MLX",
+  "body_text": "Thanks to a tip from Rahim Nathwani, here's a uv run recipe for transcribing an audio file on macOS using the 10.28 GB Gemma 4 E2B model with MLX and mlx-vlm:\nuv run --python 3.13 --with mlx_vlm --with torchvision --with gradio \\\n  mlx_vlm.generate \\\n  --model google/gemma-4-e2b-it \\\n  --audio file.wav \\\n  --prompt \"Transcribe this audio\" \\\n  --max-tokens 500 \\\n  --temperature 1.0\n\n\n  \n  Your browser does not support the audio element.\n\nI tried it on this 14 second .wav file and it output the following:\n\nThis front here is a quick voice memo. I want to try it out with MLX VLM. Just going to see if it can be transcribed by Gemma and how that works.\n\n(That was supposed to be \"This right here...\" and \"... how well that works\" but I can hear why it misinterpreted that as \"front\" and \"how that works\".)\n\n    Tags: uv, mlx, ai, gemma, llms, speech-to-text, python, generative-ai",
+  "word_count": 151,
+  "published_at": "2026-04-12T23:57:53.000Z",
+  "ingested_at": "2026-04-13T11:00:09.730Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

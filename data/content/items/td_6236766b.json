@@ -1,0 +1,38 @@
+{
+  "id": "td_6236766b",
+  "source": "arxiv",
+  "source_id": "2604.09495",
+  "source_url": "https://arxiv.org/abs/2604.09495",
+  "content_type": "paper",
+  "creator": {
+    "id": "amit_sinha",
+    "name": "Amit Sinha",
+    "handle": "Amit Sinha, Matthieu Geist, Aditya Mahajan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Risk-seeking conservative policy iteration with agent-state based policies for Dec-POMDPs with guaranteed convergence",
+  "body_text": "Risk-seeking conservative policy iteration with agent-state based policies for Dec-POMDPs with guaranteed convergence\n\nOptimally solving decentralized decision-making problems modeled as Dec-POMDPs is known to be NEXP-complete. These optimal solutions are policies based on the entire history of observations and actions of an agent. However, some applications may require more compact policies because of limited compute capabilities, which can be modeled by considering a limited number of memory states (or agent states). While such an agent-state based policy class may not contain the optimal solution, it is still of practical interest to find the best agent-state policy within the class. We focus on an iterated best response style algorithm which guarantees monotonic improvements and convergence to a local optimum in polynomial runtime in the Dec-POMDP model size. In order to obtain a better local optimum, we use a modified objective which incentivizes risk-seeking alongside a conservative policy iteration update. Our empirical results show that our approach performs as well as state-of-the-art approaches on several benchmark Dec-POMDPs, achieving near-optimal performance while having polynomial runtime despite the limited memory. We also show that using more agent states (a larger memory) leads to greater performance. Our approach provides a novel way of incorporating memory constraints on the agents in the Dec-POMDP problem.\n\nAuthors: Amit Sinha, Matthieu Geist, Aditya Mahajan\nCategories: cs.MA, cs.MA",
+  "word_count": 195,
+  "published_at": "2026-04-10T17:05:47Z",
+  "ingested_at": "2026-04-13T11:03:45.814Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.MA",
+    "cs.MA"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

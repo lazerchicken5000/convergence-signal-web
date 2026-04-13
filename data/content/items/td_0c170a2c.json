@@ -1,0 +1,38 @@
+{
+  "id": "td_0c170a2c",
+  "source": "arxiv",
+  "source_id": "2604.09543",
+  "source_url": "https://arxiv.org/abs/2604.09543",
+  "content_type": "paper",
+  "creator": {
+    "id": "sandeep_s._cranganore",
+    "name": "Sandeep S. Cranganore",
+    "handle": "Sandeep S. Cranganore, Andrei Bodnar, Gianluca Galleti, Fabian Paischer, Johannes Brandstetter",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ANTIC: Adaptive Neural Temporal In-situ Compressor",
+  "body_text": "ANTIC: Adaptive Neural Temporal In-situ Compressor\n\nThe persistent storage requirements for high-resolution, spatiotemporally evolving fields governed by large-scale and high-dimensional partial differential equations (PDEs) have reached the petabyte-to-exabyte scale. Transient simulations modeling Navier-Stokes equations, magnetohydrodynamics, plasma physics, or binary black hole mergers generate data volumes that are prohibitive for modern high-performance computing (HPC) infrastructures. To address this bottleneck, we introduce ANTIC (Adaptive Neural Temporal in situ Compressor), an end-to-end in situ compression pipeline. ANTIC consists of an adaptive temporal selector tailored to high-dimensional physics that identifies and filters informative snapshots at simulation time, combined with a spatial neural compression module based on continual fine-tuning that learns residual updates between adjacent snapshots using neural fields. By operating in a single streaming pass, ANTIC enables a combined compression of temporal and spatial components and effectively alleviates the need for explicit on-disk storage of entire time-evolved trajectories. Experimental results demonstrate how storage reductions of several orders of magnitude relate to physics accuracy.\n\nAuthors: Sandeep S. Cranganore, Andrei Bodnar, Gianluca Galleti, Fabian Paischer, Johannes Brandstetter\nCategories: cs.LG, cs.LG",
+  "word_count": 153,
+  "published_at": "2026-04-10T17:58:16Z",
+  "ingested_at": "2026-04-13T11:03:32.793Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

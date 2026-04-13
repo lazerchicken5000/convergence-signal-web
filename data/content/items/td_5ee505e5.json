@@ -1,0 +1,41 @@
+{
+  "id": "td_5ee505e5",
+  "source": "arxiv",
+  "source_id": "2604.09489",
+  "source_url": "https://arxiv.org/abs/2604.09489",
+  "content_type": "paper",
+  "creator": {
+    "id": "israt_jahan_mouri",
+    "name": "Israt Jahan Mouri",
+    "handle": "Israt Jahan Mouri, Muhammad Ridowan, Muhammad Abdullah Adnan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "XFED: Non-Collusive Model Poisoning Attack Against Byzantine-Robust Federated Classifiers",
+  "body_text": "XFED: Non-Collusive Model Poisoning Attack Against Byzantine-Robust Federated Classifiers\n\nModel poisoning attacks pose a significant security threat to Federated Learning (FL). Most existing model poisoning attacks rely on collusion, requiring adversarial clients to coordinate by exchanging local benign models and synchronizing the generation of their poisoned updates. However, sustaining such coordination is increasingly impractical in real-world FL deployments, as it effectively requires botnet-like control over many devices. This approach is costly to maintain and highly vulnerable to detection. This context raises a fundamental question: Can model poisoning attacks remain effective without any communication between attackers? To address this challenge, we introduce and formalize the \\textbf{non-collusive attack model}, in which all compromised clients share a common adversarial objective but operate independently. Under this model, each attacker generates its malicious update without communicating with other adversaries, accessing other clients' updates, or relying on any knowledge of server-side defenses. To demonstrate the feasibility of this threat model, we propose \\textbf{XFED}, the first aggregation-agnostic, non-collusive model poisoning attack. Our empirical evaluation across six benchmark datasets shows that XFED bypasses eight state-of-the-art defenses and outperforms six existing model poisoning attacks. These findings indicate that FL systems are substantially less secure than previously believed and underscore the urgent need for more robust and practical defense mechanisms.\n\nAuthors: Israt Jahan Mouri, Muhammad Ridowan, Muhammad Abdullah Adnan\nCategories: cs.CR, cs.AI, cs.DC, cs.LG, cs.CR",
+  "word_count": 201,
+  "published_at": "2026-04-10T16:54:29Z",
+  "ingested_at": "2026-04-13T11:03:32.794Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.DC",
+    "cs.LG",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

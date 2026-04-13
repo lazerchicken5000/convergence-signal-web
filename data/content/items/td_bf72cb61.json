@@ -1,0 +1,38 @@
+{
+  "id": "td_bf72cb61",
+  "source": "arxiv",
+  "source_id": "2604.09547",
+  "source_url": "https://arxiv.org/abs/2604.09547",
+  "content_type": "paper",
+  "creator": {
+    "id": "shukang_yin",
+    "name": "Shukang Yin",
+    "handle": "Shukang Yin, Sirui Zhao, Hanchao Wang, Baozhi Jia, Xianquan Wang, Chaoyou Fu, Enhong Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Tango: Taming Visual Signals for Efficient Video Large Language Models",
+  "body_text": "Tango: Taming Visual Signals for Efficient Video Large Language Models\n\nToken pruning has emerged as a mainstream approach for developing efficient Video Large Language Models (Video LLMs). This work revisits and advances the two predominant token-pruning paradigms: attention-based selection and similarity-based clustering. Our study reveals two critical limitations in existing methods: (1) conventional top-k selection strategies fail to fully account for the attention distribution, which is often spatially multi-modal and long-tailed in magnitude; and (2) direct similarity-based clustering frequently generates fragmented clusters, resulting in distorted representations after pooling. To address these bottlenecks, we propose Tango, a novel framework designed to optimize the utilization of visual signals. Tango integrates a diversity-driven strategy to enhance attention-based token selection, and introduces Spatio-temporal Rotary Position Embedding (ST-RoPE) to preserve geometric structure via locality priors. Comprehensive experiments across various Video LLMs and video understanding benchmarks demonstrate the effectiveness and generalizability of our approach. Notably, when retaining only 10% of the video tokens, Tango preserves 98.9% of the original performance on LLaVA-OV while delivering a 1.88x inference speedup.\n\nAuthors: Shukang Yin, Sirui Zhao, Hanchao Wang, Baozhi Jia, Xianquan Wang, Chaoyou Fu, Enhong Chen\nCategories: cs.CV, cs.CV",
+  "word_count": 162,
+  "published_at": "2026-04-10T17:59:56Z",
+  "ingested_at": "2026-04-13T11:03:37.032Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

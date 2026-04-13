@@ -1,0 +1,41 @@
+{
+  "id": "td_7b0c9f78",
+  "source": "arxiv",
+  "source_id": "2604.09494",
+  "source_url": "https://arxiv.org/abs/2604.09494",
+  "content_type": "paper",
+  "creator": {
+    "id": "kyle_whitecross",
+    "name": "Kyle Whitecross",
+    "handle": "Kyle Whitecross, Negin Rahimi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RecaLLM: Addressing the Lost-in-Thought Phenomenon with Explicit In-Context Retrieval",
+  "body_text": "RecaLLM: Addressing the Lost-in-Thought Phenomenon with Explicit In-Context Retrieval\n\nWe propose RecaLLM, a set of reasoning language models post-trained to make effective use of long-context information. In-context retrieval, which identifies relevant evidence from context, and reasoning are deeply intertwined: retrieval supports reasoning, while reasoning often determines what must be retrieved. However, their interaction remains largely underexplored. In preliminary experiments on several open-source LLMs, we observe that in-context retrieval performance substantially degrades even after a short reasoning span, revealing a key bottleneck for test-time scaling that we refer to as lost-in-thought: reasoning steps that improve performance also make subsequent in-context retrieval more challenging. To address this limitation, RecaLLM interleaves reasoning with explicit in-context retrieval, alternating between reasoning and retrieving context information needed to solve intermediate subproblems. We introduce a negligible-overhead constrained decoding mechanism that enables verbatim copying of evidence spans, improving the grounding of subsequent generation. Trained on diverse lexical and semantic retrieval tasks, RecaLLM achieves strong performance on two long-context benchmarks, RULER and HELMET, significantly outperforming baselines. Notably, we observe consistent gains at context windows of up to 128K tokens using training samples of at most 10K tokens, far shorter than those used by existing long-context approaches, highlighting a promising path toward improving long-context performance without expensive long-context training data.\n\nAuthors: Kyle Whitecross, Negin Rahimi\nCategories: cs.CL, cs.AI, cs.IR, cs.LG, cs.CL",
+  "word_count": 201,
+  "published_at": "2026-04-10T17:04:32Z",
+  "ingested_at": "2026-04-13T11:03:28.766Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.IR",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

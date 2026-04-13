@@ -1,0 +1,39 @@
+{
+  "id": "td_52b61c73",
+  "source": "arxiv",
+  "source_id": "2604.09541",
+  "source_url": "https://arxiv.org/abs/2604.09541",
+  "content_type": "paper",
+  "creator": {
+    "id": "yu_liu",
+    "name": "Yu Liu",
+    "handle": "Yu Liu, Kun Peng, Wenxiao Zhang, Fangfang Yuan, Cong Cao, Wenxuan Lu, Yanbing Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Trans-RAG: Query-Centric Vector Transformation for Secure Cross-Organizational Retrieval",
+  "body_text": "Trans-RAG: Query-Centric Vector Transformation for Secure Cross-Organizational Retrieval\n\nRetrieval Augmented Generation (RAG) systems deployed across organizational boundaries face fundamental tensions between security, accuracy, and efficiency. Current encryption methods expose plaintext during decryption, while federated architectures prevent resource integration and incur substantial overhead. We introduce Trans-RAG, implementing a novel vector space language paradigm where each organization's knowledge exists in a mathematically isolated semantic space. At the core lies vector2Trans, a multi-stage transformation technique that enables queries to dynamically \"speak\" each organization's vector space \"language\" through query-centric transformations, eliminating decryption overhead while maintaining native retrieval efficiency. Security evaluations demonstrate near-orthogonal vector spaces with 89.90° angular separation and 99.81% isolation rates. Experiments across 8 retrievers, 3 datasets, and 3 LLMs show minimal accuracy degradation (3.5% decrease in nDCG@10) and significant efficiency improvements over homomorphic encryption.\n\nAuthors: Yu Liu, Kun Peng, Wenxiao Zhang, Fangfang Yuan, Cong Cao, Wenxuan Lu, Yanbing Liu\nCategories: cs.CR, cs.IR, cs.CR",
+  "word_count": 124,
+  "published_at": "2026-04-10T17:58:06Z",
+  "ingested_at": "2026-04-13T11:03:37.033Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.IR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
