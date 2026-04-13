@@ -61,7 +61,7 @@ export default function DashboardPage() {
       {/* ── Tagline + stats row ── */}
       <div className="flex items-center justify-between mb-6 -mt-1">
         <p className="text-sm text-zinc-300">
-          Transparency protocol for information. Nutrition labels for claims. Cross-community convergence maps.
+          Sourcing signal. Removing noise. For builders.
         </p>
         <div className="flex items-center gap-4 text-[11px] text-zinc-600 font-mono shrink-0">
           <span title="Token bake — raw source tokens compressed into structured intelligence (chars/4 measured every run; ~96% compression)">
