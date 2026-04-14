@@ -7,6 +7,7 @@ interface EmergingTimelineProps {
   diff: ConvergenceDiff;
   selectedId: string | null;
   height?: number;
+  onSelect?: (id: string) => void;
 }
 
 interface TimelineItem {
@@ -20,9 +21,11 @@ interface TimelineItem {
   creatorCount?: number;
 }
 
-export function EmergingTimeline({ diff, selectedId, height = 480 }: EmergingTimelineProps) {
+export function EmergingTimeline({ diff, selectedId, height = 480, onSelect }: EmergingTimelineProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animRef = useRef<number>(0);
+  // Store rendered node positions for hit testing
+  const nodePositionsRef = useRef<Array<{ id: string; x: number; y: number; r: number }>>([]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -180,6 +183,7 @@ export function EmergingTimeline({ diff, selectedId, height = 480 }: EmergingTim
       }
 
       // === PLOT ITEMS ===
+      const positions: Array<{ id: string; x: number; y: number; r: number }> = [];
       for (let typeIdx = 0; typeIdx < types.length; typeIdx++) {
         const typeItems = items.filter(i => i.type === types[typeIdx]);
         const colCx = marginLeft + colWidth * typeIdx + colWidth / 2;
@@ -191,6 +195,7 @@ export function EmergingTimeline({ diff, selectedId, height = 480 }: EmergingTim
           const x = colCx + (i - (typeItems.length - 1) / 2) * 20;
           const isSelected = item.id === selectedId;
           const nodeSize = isSelected ? 8 : 5;
+          positions.push({ id: item.id, x, y, r: Math.max(nodeSize, 12) }); // hit area slightly larger than visual
 
           // Delta arrow for accelerating/fading
           if (item.ciPrev !== undefined && item.delta !== undefined && et > 0.6) {
@@ -296,6 +301,8 @@ export function EmergingTimeline({ diff, selectedId, height = 480 }: EmergingTim
         );
       }
 
+      nodePositionsRef.current = positions;
+
       if (frame < EASE + 60) {
         animRef.current = requestAnimationFrame(draw);
       }
@@ -306,11 +313,42 @@ export function EmergingTimeline({ diff, selectedId, height = 480 }: EmergingTim
     return () => cancelAnimationFrame(animRef.current);
   }, [diff, selectedId]);
 
+  // Hit test helper: find which node the mouse is over
+  function hitTest(e: React.MouseEvent<HTMLCanvasElement>): string | null {
+    const canvas = canvasRef.current;
+    if (!canvas) return null;
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+    for (const node of nodePositionsRef.current) {
+      const dx = mx - node.x;
+      const dy = my - node.y;
+      if (dx * dx + dy * dy <= node.r * node.r) {
+        return node.id;
+      }
+    }
+    return null;
+  }
+
+  function handleClick(e: React.MouseEvent<HTMLCanvasElement>) {
+    const id = hitTest(e);
+    if (id && onSelect) onSelect(id);
+  }
+
+  function handleMouseMove(e: React.MouseEvent<HTMLCanvasElement>) {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const id = hitTest(e);
+    canvas.style.cursor = id ? 'pointer' : 'default';
+  }
+
   return (
     <canvas
       ref={canvasRef}
       className="w-full"
       style={{ height: `${height}px` }}
+      onClick={handleClick}
+      onMouseMove={handleMouseMove}
     />
   );
 }

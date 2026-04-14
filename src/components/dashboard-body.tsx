@@ -536,7 +536,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
           <div>
             <div className="border-b border-zinc-800 overflow-x-auto [&::-webkit-scrollbar]{height:6px} [&::-webkit-scrollbar-track]{background:#09090b} [&::-webkit-scrollbar-thumb]{background:#27272a;border-radius:3px}">
               <div className="min-w-[800px]">
-                <EmergingTimeline diff={diff} selectedId={selectedId} height={320} />
+                <EmergingTimeline diff={diff} selectedId={selectedId} height={320} onSelect={handleSelect} />
               </div>
             </div>
 
