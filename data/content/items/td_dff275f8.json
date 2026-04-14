@@ -1,0 +1,35 @@
+{
+  "id": "td_dff275f8",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Exploring the new `servo` crate",
+  "body_text": "Research: Exploring the new `servo` crate\n    In Servo is now available on crates.io the Servo team announced the initial release of the servo crate, which packages their browser engine as an embeddable library.\nI set Claude Code for web the task of figuring out what it can do, building a CLI tool for taking screenshots using it and working out if it could be compiled to WebAssembly.\nThe servo-shot Rust tool it built works pretty well:\ngit clone https://github.com/simonw/research\ncd research/servo-crate-exploration/servo-shot\ncargo build\n./target/debug/servo-shot https://news.ycombinator.com/\n\nHere's the result:\n\nCompiling Servo itself to WebAssembly is not feasible due to its heavy use of threads and dependencies like SpiderMonkey, but Claude did build me this playground page for trying out a WebAssembly build of the html5ever and markup5ever_rcdom crates, providing a tool for turning fragments of HTML into a parse tree.\n    \n        Tags: research, browsers, rust, webassembly, claude-code, servo",
+  "word_count": 146,
+  "published_at": "2026-04-13T15:04:00.000Z",
+  "ingested_at": "2026-04-14T11:00:09.002Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

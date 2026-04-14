@@ -1,0 +1,41 @@
+{
+  "id": "td_3606801c",
+  "source": "arxiv",
+  "source_id": "2604.11729",
+  "source_url": "https://arxiv.org/abs/2604.11729",
+  "content_type": "paper",
+  "creator": {
+    "id": "nicola_gorini",
+    "name": "Nicola Gorini",
+    "handle": "Nicola Gorini, Chris Jones, Dmitriy Kunisky, Lucas Pesenti",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Universality of first-order methods on random and deterministic matrices",
+  "body_text": "Universality of first-order methods on random and deterministic matrices\n\nGeneral first-order methods (GFOM) are a flexible class of iterative algorithms which update a state vector by matrix-vector multiplications and entrywise nonlinearities. A long line of work has sought to understand the large-n dynamics of GFOM, mostly focusing on \"very random\" input matrices and the approximate message passing (AMP) special case of GFOM whose state is asymptotically Gaussian. Yet, it has long remained unknown how to construct iterative algorithms that retain this Gaussianity for more structured inputs, or why existing AMP algorithms can be as effective for some deterministic matrices as they are for random matrices. We analyze diagrammatic expansions of GFOM via the limiting traffic distribution of the input matrix, the collection of all limiting values of permutation-invariant polynomials in the matrix entries, to obtain the following results: 1. We calculate the traffic distribution for the first non-trivial deterministic matrices, including (minor variants of) the Walsh-Hadamard and discrete sine and cosine transform matrices. This determines the limiting dynamics of GFOM on these inputs, resolving parts of longstanding conjectures of Marinari, Parisi, and Ritort (1994). 2. We design a new AMP iteration which unifies several previous AMP variants and generalizes to new input types, whose limiting dynamics are Gaussian conditional on some latent random variables. The asymptotic dynamics hold for a large and natural class of traffic distributions (encompassing both random and deterministic input matrices) and the algorithm's analysis gives a simple combinatorial interpretation of the Onsager correction, answering questions posed recently by Wang, Zhong, and Fan (2022).\n\nAuthors: Nicola Gorini, Chris Jones, Dmitriy Kunisky, Lucas Pesenti\nCategories: math.PR, cs.DS, cs.LG, math.ST, math.PR",
+  "word_count": 248,
+  "published_at": "2026-04-13T17:03:53Z",
+  "ingested_at": "2026-04-14T11:03:30.083Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.PR",
+    "cs.DS",
+    "cs.LG",
+    "math.ST",
+    "math.PR"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

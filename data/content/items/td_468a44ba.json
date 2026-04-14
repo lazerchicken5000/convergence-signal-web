@@ -1,0 +1,39 @@
+{
+  "id": "td_468a44ba",
+  "source": "arxiv",
+  "source_id": "2604.11806",
+  "source_url": "https://arxiv.org/abs/2604.11806",
+  "content_type": "paper",
+  "creator": {
+    "id": "adam_stein",
+    "name": "Adam Stein",
+    "handle": "Adam Stein, Davis Brown, Hamed Hassani, Mayur Naik, Eric Wong",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Detecting Safety Violations Across Many Agent Traces",
+  "body_text": "Detecting Safety Violations Across Many Agent Traces\n\nTo identify safety violations, auditors often search over large sets of agent traces. This search is difficult because failures are often rare, complex, and sometimes even adversarially hidden and only detectable when multiple traces are analyzed together. These challenges arise in diverse settings such as misuse campaigns, covert sabotage, reward hacking, and prompt injection. Existing approaches struggle here for several reasons. Per-trace judges miss failures that only become visible across traces, naive agentic auditing does not scale to large trace collections, and fixed monitors are brittle to unanticipated behaviors. We introduce Meerkat, which combines clustering with agentic search to uncover violations specified in natural language. Through structured search and adaptive investigation of promising regions, Meerkat finds sparse failures without relying on seed scenarios, fixed workflows, or exhaustive enumeration. Across misuse, misalignment, and task gaming settings, Meerkat significantly improves detection of safety violations over baseline monitors, discovers widespread developer cheating on a top agent benchmark, and finds nearly 4x more examples of reward hacking on CyBench than previous audits.\n\nAuthors: Adam Stein, Davis Brown, Hamed Hassani, Mayur Naik, Eric Wong\nCategories: cs.AI, cs.CL, cs.AI",
+  "word_count": 168,
+  "published_at": "2026-04-13T17:59:40Z",
+  "ingested_at": "2026-04-14T11:03:21.976Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

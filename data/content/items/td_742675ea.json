@@ -1,0 +1,38 @@
+{
+  "id": "td_742675ea",
+  "source": "arxiv",
+  "source_id": "2604.11744",
+  "source_url": "https://arxiv.org/abs/2604.11744",
+  "content_type": "paper",
+  "creator": {
+    "id": "andrés_muñoz",
+    "name": "Andrés Muñoz",
+    "handle": "Andrés Muñoz, Rodrigo Ramele",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "KL Divergence Between Gaussians: A Step-by-Step Derivation for the Variational Autoencoder Objective",
+  "body_text": "KL Divergence Between Gaussians: A Step-by-Step Derivation for the Variational Autoencoder Objective\n\nKullback-Leibler (KL) divergence is a fundamental concept in information theory that quantifies the discrepancy between two probability distributions. In the context of Variational Autoencoders (VAEs), it serves as a central regularization term, imposing structure on the latent space and thereby enabling the model to exhibit generative capabilities. In this work, we present a detailed derivation of the closed-form expression for the KL divergence between Gaussian distributions, a case of particular importance in practical VAE implementations. Starting from the general definition for continuous random variables, we derive the expression for the univariate case and extend it to the multivariate setting under the assumption of diagonal covariance. Finally, we discuss the interpretation of each term in the resulting expression and its impact on the training dynamics of the model.\n\nAuthors: Andrés Muñoz, Rodrigo Ramele\nCategories: cs.LG, cs.LG",
+  "word_count": 127,
+  "published_at": "2026-04-13T17:18:20Z",
+  "ingested_at": "2026-04-14T11:03:30.083Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

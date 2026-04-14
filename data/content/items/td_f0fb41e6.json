@@ -1,0 +1,38 @@
+{
+  "id": "td_f0fb41e6",
+  "source": "arxiv",
+  "source_id": "2604.11725",
+  "source_url": "https://arxiv.org/abs/2604.11725",
+  "content_type": "paper",
+  "creator": {
+    "id": "tatsuya_terao",
+    "name": "Tatsuya Terao",
+    "handle": "Tatsuya Terao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Faster Approximate Linear Matroid Intersection",
+  "body_text": "Faster Approximate Linear Matroid Intersection\n\nWe consider a fast approximation algorithm for the linear matroid intersection problem. In this problem, we are given two $r \\times n$ matrices $M_1$ and $M_2$, and the objective is to find a largest set of columns that are linearly independent in both $M_1$ and $M_2$. We design a $(1 - \\varepsilon)$-approximation algorithm with time complexity $\\tilde{O}_{\\varepsilon}(\\mathrm{nnz}(M_1) + \\mathrm{nnz}(M_2) + r_{*}^ω)$, where $\\mathrm{nnz}(M_i)$ denotes the number of nonzero entries in $M_i$ for $i = 1, 2$, $r_{*}$ denotes the maximum size of a common independent set, and $ω&lt; 2.372$ denotes the matrix multiplication exponent. Our approximation algorithm is faster than the exact algorithm by Harvey [FOCS'06 &amp; SICOMP'09] and Cheung--Kwok--Lau [STOC'12 &amp; JACM'13], which runs in $\\tilde{O}(\\mathrm{nnz}(M_1) + \\mathrm{nnz}(M_2) + n r_{*}^{ω- 1})$ time. We also develop a fast $(1 - \\varepsilon)$-approximation algorithm for the weighted version of the linear matroid intersection problem. In fact, we design a $(1 - \\varepsilon)$-approximation algorithm for weighted linear matroid intersection with time complexity $\\tilde{O}_{\\varepsilon}(\\mathrm{nnz}(M_1) + \\mathrm{nnz}(M_2) + r_{*}^ω)$. Our algorithm improves upon the $(1 - \\varepsilon)$-approximation algorithm by Huang--Kakimura--Kamiyama [SODA'16 &amp; Math. Program.'19], which runs in $\\tilde{O}_{\\varepsilon}(\\mathrm{nnz}(M_1) + \\mathrm{nnz}(M_2) + nr_{*}^{ω- 1})$ time. To obtain these results, we combine Quanrud's adaptive sparsification framework [ICALP'24] with a simple yet effective method for efficiently checking whether a given vector lies in the linear span of a subset of vectors, which is of independent interest.\n\nAuthors: Tatsuya Terao\nCategories: cs.DS, cs.DS",
+  "word_count": 229,
+  "published_at": "2026-04-13T17:00:16Z",
+  "ingested_at": "2026-04-14T11:03:43.099Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_6f60ff73",
+  "source": "arxiv",
+  "source_id": "2604.11797",
+  "source_url": "https://arxiv.org/abs/2604.11797",
+  "content_type": "paper",
+  "creator": {
+    "id": "deming_li",
+    "name": "Deming Li",
+    "handle": "Deming Li, Abhay Yadav, Cheng Peng, Rama Chellappa, Anand Bhattad",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SyncFix: Fixing 3D Reconstructions via Multi-View Synchronization",
+  "body_text": "SyncFix: Fixing 3D Reconstructions via Multi-View Synchronization\n\nWe present SyncFix, a framework that enforces cross-view consistency during the diffusion-based refinement of reconstructed scenes. SyncFix formulates refinement as a joint latent bridge matching problem, synchronizing distorted and clean representations across multiple views to fix the semantic and geometric inconsistencies. This means SyncFix learns a joint conditional over multiple views to enforce consistency throughout the denoising trajectory. Our training is done only on image pairs, but it generalizes naturally to an arbitrary number of views during inference. Moreover, reconstruction quality improves with additional views, with diminishing returns at higher view counts. Qualitative and quantitative results demonstrate that SyncFix consistently generates high-quality reconstructions and surpasses current state-of-the-art baselines, even in the absence of clean reference images. SyncFix achieves even higher fidelity when sparse references are available.\n\nAuthors: Deming Li, Abhay Yadav, Cheng Peng, Rama Chellappa, Anand Bhattad\nCategories: cs.CV, cs.CV",
+  "word_count": 126,
+  "published_at": "2026-04-13T17:58:06Z",
+  "ingested_at": "2026-04-14T11:03:38.780Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

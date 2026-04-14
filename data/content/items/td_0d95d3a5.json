@@ -1,0 +1,39 @@
+{
+  "id": "td_0d95d3a5",
+  "source": "arxiv",
+  "source_id": "2604.11798",
+  "source_url": "https://arxiv.org/abs/2604.11798",
+  "content_type": "paper",
+  "creator": {
+    "id": "ricardo_coimbra_brioso",
+    "name": "Ricardo Coimbra Brioso",
+    "handle": "Ricardo Coimbra Brioso, Lorenzo Mondo, Damiano Dei, Nicola Lambri, Pietro Mancosu, Marta Scorsetti, Daniele Loiacono",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Budget-Aware Uncertainty for Radiotherapy Segmentation QA Using nnU-Net",
+  "body_text": "Budget-Aware Uncertainty for Radiotherapy Segmentation QA Using nnU-Net\n\nAccurate delineation of the Clinical Target Volume (CTV) is essential for radiotherapy planning, yet remains time-consuming and difficult to assess, especially for complex treatments such as Total Marrow and Lymph Node Irradiation (TMLI). While deep learning-based auto-segmentation can reduce workload, safe clinical deployment requires reliable cues indicating where models may be wrong. In this work, we propose a budget-aware uncertainty-driven quality assurance (QA) framework built on nnU-Net, combining uncertainty quantification and post-hoc calibration to produce voxel-wise uncertainty maps (based on predictive entropy) that can guide targeted manual review. We compare temperature scaling (TS), deep ensembles (DE), checkpoint ensembles (CE), and test-time augmentation (TTA), evaluated both individually and in combination on TMLI as a representative use case. Reliability is assessed through ROI-masked calibration metrics and uncertainty--error alignment under realistic revision constraints, summarized as AUC over the top 0-5% most uncertain voxels. Across configurations, segmentation accuracy remains stable, whereas TS substantially improves calibration. Uncertainty-error alignment improves most with calibrated checkpoint-based inference, leading to uncertainty maps that highlight more consistently regions requiring manual edits. Overall, integrating calibration with efficient ensembling seems a promising strategy to implement a budget-aware QA workflow for radiotherapy segmentation.\n\nAuthors: Ricardo Coimbra Brioso, Lorenzo Mondo, Damiano Dei, Nicola Lambri, Pietro Mancosu, Marta Scorsetti, Daniele Loiacono\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 190,
+  "published_at": "2026-04-13T17:58:15Z",
+  "ingested_at": "2026-04-14T11:03:21.977Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

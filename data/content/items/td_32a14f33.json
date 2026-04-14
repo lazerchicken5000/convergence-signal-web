@@ -1,0 +1,35 @@
+{
+  "id": "td_32a14f33",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/predicting-antibody-binding-no-champagne-just-yet",
+  "source_url": "https://www.science.org/content/blog-post/predicting-antibody-binding-no-champagne-just-yet",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Predicting Antibody Binding: No Champagne Just Yet",
+  "body_text": "I often get asked what areas of drug discovery look most likely to bear AI-driven advances into the clinic, and my usual answer is “therapeutic antibodies”. Thats because it’s a protein-centric problem in the actual modeling, and we know quite a bit already about antibody structures (at least as compared to the much large wild-type protein structural landscape). And that’s because antibodies themselves are a (relatively!) constrained space within that larger one, although don’t let anyone tell you that it’s a small one. All you can say is that it’s less terrifying than the protein universe at large. And antibodies themselves are rather privileged structures, biologically. Evolution has seen to that, as we all carry a vast array of them swimming around our bloodstream at all time. Their stabilities and plasma half-lives are just off the charts compared to the normal run of proteins, and therapeutically that can allow for dosing every few weeks or months in actual patients. You really do have some advantages in this space. This is not to say that things can’t go wrong. Specificity is a big concern, always. A really good antibody can be exquisitely specific, but getting a really good antibody is not light work. Given the number of possible binding partners out there, surprises can always be lurking. And among those things that bind to your new therapeutic antibody candidate might well be. . .other existing antibodies in some of your patients. Yep, immunogenicity is another big worry, and it’s one that is very hard to get a real-world read on until, well, your antibody drug goes out there into the real world. Everyone’s immune response is different, very much not least because everyone’s suite of ten jillion antibodies is different, and you’ll just have to see what happens in the clinic and in the market. Here’s a preprint on computational approaches to antibody-antigen binding, and just as with small molecules, being able to compute your way to meaningful new possibilities and rankings in that area is an extremely attractive prospect. In this case, the authors took 106 different single-chain nanobodies (a trimmed-down version of the traditional antibody world, with these things being found in animals like llamas and alpacas) and their experimentally determined complexes with specific antigens. Then they produced a random shuffled pile of over 11,000 other possible pairings from all these antigens and antibodies and let three widely used software methods try to distinguish the grain from the chaff. The programs were AlphaFold3, Boltz-2, and Chai-1. Let’s just say right off that none of the three showed any particular ability to pick out the real pairings - that much is clear. Boltz-2 seems to have been more permissive than the other two, ranking more possibilities highly, but that didn’t make a difference in the end. AF3 was apparently the best of the lot, but don’t take that for much: it was still far from being able to reliably tell you a real complex versus a random shuffled one. Another thing to take away from this study was that some of the tools we use to evaluate these things aren’t worth that much, either. The authors used the “clash score” from the TopModel software, which is supposed to look for steric clashes between individual atoms in such complexes, but none of the modeling software programs distinguished themselves. Chai-1 might have done the opposite, actually - its clash scores were several times worse than the other two. But it’s hard to say just how much of a defect that is, because the clash scores for the real complexes were not noticeably different from the randomly faked-up shuffled ones. In fact, there were a number of cases of the shuffled complexes having better scores than anything in the real set, even though these were, in the end, not real antibody-antigen pairs at all. These sorts of effects persisted across a number of different types of evaluation, and there seems to be no way around the conclusion that computational antibody-antigen pair prediction is - at the moment - not much use at all. Comparing the predicted structures of the real pairs with their experimentally determined ones brought this home: the software was happy to assign generic sorts of interactions and plausible regions of contact, but did not pick up on any of the distinctive features that made the real complexes actually work. Here’s the authors summarizing the state of the art: Although de novo generation success rates are increasing into the double digit realm (~10-15% on hard interface tasks), our results indicate that there is a disconnect between de novo design (task: “generate an antibody for a given target without exploiting other information”) and de novo prediction (task: “indicate all the antigens that can be bound by a given antibody, and vice-versa”). Our “real vs shuffled” discrimination benchmark shows that models can generate interfaces that appear plausible, albeit incorrect, across many pairings, resulting in an abundance of false positives that are challenging to triage. And they warn that common workflows in this area “risk conflating structural plausibility with binding specificity”, when they have shown pretty comprehensively that these don’t have much to do with each other. Another warning is that “Overconfident failures, underconfident successes, and weak cross-tool agreement all highlight that current confidence metrics capture internal structural consistency rather than biological correctness”. Words to heed!",
+  "word_count": 892,
+  "published_at": "2026-04-13T01:36:03.000Z",
+  "ingested_at": "2026-04-14T11:01:55.191Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_3c187b08",
+  "source": "arxiv",
+  "source_id": "2604.11808",
+  "source_url": "https://arxiv.org/abs/2604.11808",
+  "content_type": "paper",
+  "creator": {
+    "id": "xingjian_ran",
+    "name": "Xingjian Ran",
+    "handle": "Xingjian Ran, Shujie Zhang, Weipeng Zhong, Li Luo, Bo Dai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
+  "body_text": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation\n\nGenerating high-fidelity 3D indoor scenes remains a significant challenge due to data scarcity and the complexity of modeling intricate spatial relations. Current methods often struggle to scale beyond training distribution to dense scenes or rely on LLMs/VLMs that lack the ability for precise spatial reasoning. Building on top of the observation that object placement relies mainly on local dependencies instead of information-redundant global distributions, in this paper, we propose Pair2Scene, a novel procedural generation framework that integrates learned local rules with scene hierarchies and physics-based algorithms. These rules mainly capture two types of inter-object relations, namely support relations that follow physical hierarchies, and functional relations that reflect semantic links. We model these rules through a network, which estimates spatial position distributions of dependent objects conditioned on position and geometry of the anchor ones. Accordingly, we curate a dataset 3D-Pairs from existing scene data to train the model. During inference, our framework can generate scenes by recursively applying our model within a hierarchical structure, leveraging collision-aware rejection sampling to align local rules into coherent global layouts. Extensive experiments demonstrate that our framework outperforms existing methods in generating complex environments that go beyond training data while maintaining physical and semantic plausibility.\n\nAuthors: Xingjian Ran, Shujie Zhang, Weipeng Zhong, Li Luo, Bo Dai\nCategories: cs.CV, cs.CV",
+  "word_count": 199,
+  "published_at": "2026-04-13T17:59:55Z",
+  "ingested_at": "2026-04-14T11:03:34.454Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

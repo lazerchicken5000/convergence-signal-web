@@ -1,0 +1,38 @@
+{
+  "id": "td_e5b1cb99",
+  "source": "arxiv",
+  "source_id": "2604.11753",
+  "source_url": "https://arxiv.org/abs/2604.11753",
+  "content_type": "paper",
+  "creator": {
+    "id": "yoonsang_lee",
+    "name": "Yoonsang Lee",
+    "handle": "Yoonsang Lee, Howard Yen, Xi Ye, Danqi Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+  "body_text": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks\n\nWe study parallel test-time scaling for long-horizon agentic tasks such as agentic search and deep research, where multiple rollouts are generated in parallel and aggregated into a final response. While such scaling has proven effective for chain-of-thought reasoning, agentic tasks pose unique challenges: trajectories are long, multi-turn, and tool-augmented, and outputs are often open-ended. Aggregating only final answers discards rich information from trajectories, while concatenating all trajectories exceeds the model's context window. To address this, we propose AggAgent, an aggregation agent that treats parallel trajectories as an environment. We equip it with lightweight tools to inspect candidate solutions and search across trajectories, enabling it to navigate and synthesize information on demand. Across six benchmarks and three model families (GLM-4.7, Qwen3.5, MiniMax-M2.5), AggAgent outperforms all existing aggregation methods-by up to 5.3% absolute on average and 10.3% on two deep research tasks-while adding minimal overhead, as the aggregation cost remains bounded by a single agentic rollout. Our findings establish agentic aggregation as an effective and cost-efficient approach to parallel test-time scaling.\n\nAuthors: Yoonsang Lee, Howard Yen, Xi Ye, Danqi Chen\nCategories: cs.CL, cs.CL",
+  "word_count": 169,
+  "published_at": "2026-04-13T17:26:31Z",
+  "ingested_at": "2026-04-14T11:03:26.033Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

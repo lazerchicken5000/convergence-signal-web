@@ -1,0 +1,38 @@
+{
+  "id": "td_9d96af9c",
+  "source": "arxiv",
+  "source_id": "2604.11809",
+  "source_url": "https://arxiv.org/abs/2604.11809",
+  "content_type": "paper",
+  "creator": {
+    "id": "david_nordström",
+    "name": "David Nordström",
+    "handle": "David Nordström, Johan Edstedt, Fredrik Kahl, Georg Bökman",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Who Handles Orientation? Investigating Invariance in Feature Matching",
+  "body_text": "Who Handles Orientation? Investigating Invariance in Feature Matching\n\nFinding matching keypoints between images is a core problem in 3D computer vision. However, modern matchers struggle with large in-plane rotations. A straightforward mitigation is to learn rotation invariance via data augmentation. However, it remains unclear at which stage rotation invariance should be incorporated. In this paper, we study this in the context of a modern sparse matching pipeline. We perform extensive experiments by training on a large collection of 3D vision datasets and evaluating on popular image matching benchmarks. Surprisingly, we find that incorporating rotation invariance already in the descriptor yields similar performance to handling it in the matcher. However, rotation invariance is achieved earlier in the matcher when it is learned in the descriptor, allowing for a faster rotation-invariant matcher. Further, we find that enforcing rotation invariance does not hurt upright performance when trained at scale. Finally, we study the emergence of rotation invariance through scale and find that increasing the training data size substantially improves generalization to rotated images. We release two matchers robust to in-plane rotations that achieve state-of-the-art performance on e.g. multi-modal (WxBS), extreme (HardMatch), and satellite image matching (SatAst). Code is available at https://github.com/davnords/loma.\n\nAuthors: David Nordström, Johan Edstedt, Fredrik Kahl, Georg Bökman\nCategories: cs.CV, cs.CV",
+  "word_count": 190,
+  "published_at": "2026-04-13T17:59:58Z",
+  "ingested_at": "2026-04-14T11:03:38.779Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_0415fb4a",
+  "source": "arxiv",
+  "source_id": "2604.11793",
+  "source_url": "https://arxiv.org/abs/2604.11793",
+  "content_type": "paper",
+  "creator": {
+    "id": "lyuxing_he",
+    "name": "Lyuxing He",
+    "handle": "Lyuxing He, Eric Cai, Shobhit Aggarwal, Jianjun Wang, David Held",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Disentangled Point Diffusion for Precise Object Placement",
+  "body_text": "Disentangled Point Diffusion for Precise Object Placement\n\nRecent advances in robotic manipulation have highlighted the effectiveness of learning from demonstration. However, while end-to-end policies excel in expressivity and flexibility, they struggle both in generalizing to novel object geometries and in attaining a high degree of precision. An alternative, object-centric approach frames the task as predicting the placement pose of the target object, providing a modular decomposition of the problem. Building on this goal-prediction paradigm, we propose TAX-DPD, a hierarchical, disentangled point diffusion framework that achieves state-of-the-art performance in placement precision, multi-modal coverage, and generalization to variations in object geometries and scene configurations. We model global scene-level placements through a novel feed-forward Dense Gaussian Mixture Model (GMM) that yields a spatially dense prior over global placements; we then model the local object-level configuration through a novel disentangled point cloud diffusion module that separately diffuses the object geometry and the placement frame, enabling precise local geometric reasoning. Interestingly, we demonstrate that our point cloud diffusion achieves substantially higher accuracy than a prior approach based on SE(3)-diffusion, even in the context of rigid object placement. We validate our approach across a suite of challenging tasks in simulation and in the real-world on high-precision industrial insertion tasks. Furthermore, we present results on a cloth-hanging task in simulation, indicating that our framework can further relax assumptions on object rigidity.\n\nAuthors: Lyuxing He, Eric Cai, Shobhit Aggarwal, Jianjun Wang, David Held\nCategories: cs.RO, cs.RO",
+  "word_count": 217,
+  "published_at": "2026-04-13T17:55:47Z",
+  "ingested_at": "2026-04-14T11:03:38.780Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
