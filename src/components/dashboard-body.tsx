@@ -477,8 +477,33 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                 {/* Accolades */}
                 {selectedLeader.accolades.length > 0 && <AccoladeBadges accolades={selectedLeader.accolades} />}
 
-                {/* RPG Card */}
-                <RPGCard contribution={selectedLeader.contrib} />
+                {/* Connected Patterns — what this leader's work feeds into */}
+                {l.convergence_patterns.length > 0 && (
+                  <div>
+                    <p className="text-xs text-zinc-600 font-semibold uppercase tracking-wide mb-2">Connected Patterns</p>
+                    <div className="space-y-1.5">
+                      {l.convergence_patterns.slice(0, 8).map(pid => {
+                        const p = patternData.find(pd => pd.pattern.id === pid);
+                        if (!p) return (
+                          <span key={pid} className="block text-xs text-zinc-600 font-mono">{pid}</span>
+                        );
+                        return (
+                          <a
+                            key={pid}
+                            href={`/pattern/${pid}`}
+                            className="block text-xs text-zinc-400 hover:text-zinc-200 p-2 rounded hover:bg-zinc-800/50 transition-colors"
+                          >
+                            <span className="text-emerald-400/60 font-mono mr-2">{p.pattern.ci_score.toFixed(2)}</span>
+                            {p.pattern.label}
+                          </a>
+                        );
+                      })}
+                      {l.convergence_patterns.length > 8 && (
+                        <p className="text-[10px] text-zinc-700">+{l.convergence_patterns.length - 8} more</p>
+                      )}
+                    </div>
+                  </div>
+                )}
 
                 {/* Top Contribution */}
                 {selectedLeader.highlight.topContribution && (
@@ -593,6 +618,45 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                     </div>
                   ) : null;
 
+                  // Full pattern detail — renders description, resolution, metrics, sources inline
+                  const FullPatternDetail = () => matchedPattern ? (
+                    <div className="mt-4 pt-4 border-t border-zinc-800/50 space-y-3">
+                      {matchedPattern.pattern.description && (
+                        <p className="text-sm text-zinc-300 leading-relaxed">{matchedPattern.pattern.description}</p>
+                      )}
+                      {matchedPattern.pattern.resolution_data?.tier1_summary && (
+                        <div>
+                          <p className="text-[10px] text-zinc-600 uppercase tracking-wide mb-1">Signal Summary</p>
+                          <p className="text-xs text-zinc-400 leading-relaxed">{matchedPattern.pattern.resolution_data.tier1_summary}</p>
+                        </div>
+                      )}
+                      <div className="grid grid-cols-3 gap-2">
+                        <div className="border border-zinc-800 rounded p-2 text-center">
+                          <p className="text-lg font-mono font-bold text-zinc-300">{matchedPattern.pattern.ci_score.toFixed(2)}</p>
+                          <p className="text-[9px] text-zinc-600">CI Score</p>
+                        </div>
+                        <div className="border border-zinc-800 rounded p-2 text-center">
+                          <p className="text-lg font-mono font-bold text-zinc-300">{matchedPattern.pattern.independence_score.toFixed(2)}</p>
+                          <p className="text-[9px] text-zinc-600">Independence</p>
+                        </div>
+                        <div className="border border-zinc-800 rounded p-2 text-center">
+                          <p className="text-lg font-mono font-bold text-zinc-300">{matchedPattern.pattern.creator_ids.length}</p>
+                          <p className="text-[9px] text-zinc-600">Sources</p>
+                        </div>
+                      </div>
+                      {matchedPattern.pattern.presupposition_set.length > 0 && (
+                        <div>
+                          <p className="text-[10px] text-zinc-600 uppercase tracking-wide mb-1">Shared Assumptions</p>
+                          <ul className="space-y-1">
+                            {matchedPattern.pattern.presupposition_set.slice(0, 4).map((p, i) => (
+                              <li key={i} className="text-xs text-zinc-400 pl-3 border-l border-zinc-800">{p}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  ) : null;
+
                   const newP = diff.new_patterns.find(p => p.lineage_id === selectedId);
                   if (newP) return (
                     <>
@@ -601,8 +665,9 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                         <span className="font-mono text-sm text-emerald-400">{newP.ci_score.toFixed(3)}</span>
                       </div>
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{newP.label}</h2>
-                      <p className="text-xs text-zinc-500">{newP.creator_count} independent sources detected this pattern.</p>
+                      <p className="text-xs text-zinc-500">{newP.creator_count} sources detected this pattern.</p>
                       {resolvePatternUrl(newP.label, lineageLabelMap) && <a href={resolvePatternUrl(newP.label, lineageLabelMap)!} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>}
+                      <FullPatternDetail />
                       <AuditLinks />
                       <SourceLinks />
                       <PatternFeedback patternId={newP.lineage_id} />
@@ -618,6 +683,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-200 leading-snug">{accel.label}</h2>
                       <p className="text-xs text-zinc-500">CI +{accel.delta.toFixed(3)}. Signal strengthening.</p>
                       {resolvePatternUrl(accel.label, lineageLabelMap) && <a href={resolvePatternUrl(accel.label, lineageLabelMap)!} className="text-xs text-zinc-500 hover:text-zinc-300 inline-block mt-1">view full pattern →</a>}
+                      <FullPatternDetail />
                       <AuditLinks />
                       <SourceLinks />
                       <PatternFeedback patternId={accel.lineage_id} />
@@ -630,6 +696,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <h2 className="text-sm font-medium text-zinc-400 leading-snug">{dead.label}</h2>
                       <p className="text-xs text-zinc-600">Tracked {dead.age_days}d. Signal did not sustain.</p>
                       {resolvePatternUrl(dead.label, lineageLabelMap) && <a href={resolvePatternUrl(dead.label, lineageLabelMap)!} className="text-xs text-zinc-700 hover:text-zinc-500 inline-block mt-1">view full pattern →</a>}
+                      <FullPatternDetail />
                       <AuditLinks />
                       <SourceLinks />
                     </>
