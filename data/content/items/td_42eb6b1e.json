@@ -1,0 +1,38 @@
+{
+  "id": "td_42eb6b1e",
+  "source": "arxiv",
+  "source_id": "2604.12919",
+  "source_url": "https://arxiv.org/abs/2604.12919",
+  "content_type": "paper",
+  "creator": {
+    "id": "saptarshi_ghosh",
+    "name": "Saptarshi Ghosh",
+    "handle": "Saptarshi Ghosh, Tianyu Jiang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MetFuse: Figurative Fusion between Metonymy and Metaphor",
+  "body_text": "MetFuse: Figurative Fusion between Metonymy and Metaphor\n\nMetonymy and metaphor often co-occur in natural language, yet computational work has studied them largely in isolation. We introduce a framework that transforms a literal sentence into three figurative variants: metonymic, metaphoric, and hybrid. Using this framework, we construct MetFuse, the first dedicated dataset of figurative fusion between metonymy and metaphor, containing 1,000 human-verified meaning-aligned quadruplets totaling 4,000 sentences. Extrinsic experiments on eight existing benchmarks show that augmenting training data with MetFuse consistently improves both metonymy and metaphor classification, with hybrid examples yielding the largest gains on metonymy tasks. Using this dataset, we also analyze how the presence of one figurative type impacts another. Our findings show that both human annotators and large language models better identify metonymy in hybrid sentences than in metonymy-only sentences, demonstrating that the presence of a metaphor makes a metonymic noun more explicit. Our dataset is publicly available at: https://github.com/cincynlp/MetFuse.\n\nAuthors: Saptarshi Ghosh, Tianyu Jiang\nCategories: cs.CL, cs.CL",
+  "word_count": 145,
+  "published_at": "2026-04-14T16:02:24Z",
+  "ingested_at": "2026-04-15T11:03:35.163Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

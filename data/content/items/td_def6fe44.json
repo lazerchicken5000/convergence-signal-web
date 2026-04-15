@@ -1,0 +1,35 @@
+{
+  "id": "td_def6fe44",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Zig 0.16.0 release notes: \"Juicy Main\"",
+  "body_text": "Zig 0.16.0 release notes: &quot;Juicy Main&quot;\nZig has really good release notes - comprehensive, detailed, and with relevant usage examples for each of the new features.\nOf particular note in the newly released Zig 0.16.0 is what they are calling \"Juicy Main\" - a dependency injection feature for your program's main() function where accepting a process.Init parameter grants access to a struct of useful properties:\nconst std = @import(\"std\");\n\npub fn main(init: std.process.Init) !void {\n    /// general purpose allocator for temporary heap allocations:\n    const gpa = init.gpa;\n    /// default Io implementation:\n    const io = init.io;\n    /// access to environment variables:\n    std.log.info(\"{d} env vars\", .{init.environ_map.count()});\n    /// access to CLI arguments\n    const args = try init.minimal.args.toSlice(\n        init.arena.allocator()\n    );\n}\n\n    Via Lobste.rs\n\n\n    Tags: zig",
+  "word_count": 121,
+  "published_at": "2026-04-15T01:59:21.000Z",
+  "ingested_at": "2026-04-15T11:00:08.900Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_099a82b9",
+  "source": "arxiv",
+  "source_id": "2604.12992",
+  "source_url": "https://arxiv.org/abs/2604.12992",
+  "content_type": "paper",
+  "creator": {
+    "id": "farbod_alinezhad",
+    "name": "Farbod Alinezhad",
+    "handle": "Farbod Alinezhad, Jianfei Cao, Gary J. Young, Brady Post",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Causal Diffusion Models for Counterfactual Outcome Distributions in Longitudinal Data",
+  "body_text": "Causal Diffusion Models for Counterfactual Outcome Distributions in Longitudinal Data\n\nPredicting counterfactual outcomes in longitudinal data, where sequential treatment decisions heavily depend on evolving patient states, is critical yet notoriously challenging due to complex time-dependent confounding and inadequate uncertainty quantification in existing methods. We introduce the Causal Diffusion Model (CDM), the first denoising diffusion probabilistic approach explicitly designed to generate full probabilistic distributions of counterfactual outcomes under sequential interventions. CDM employs a novel residual denoising architecture with relational self-attention, capturing intricate temporal dependencies and multimodal outcome trajectories without requiring explicit adjustments (e.g., inverse-probability weighting or adversarial balancing) for confounding. In rigorous evaluation on a pharmacokinetic-pharmacodynamic tumor-growth simulator widely adopted in prior work, CDM consistently outperforms state-of-the-art longitudinal causal inference methods, achieving a 15-30% relative improvement in distributional accuracy (1-Wasserstein distance) while maintaining competitive or superior point-estimate accuracy (RMSE) under high-confounding regimes. By unifying uncertainty quantification and robust counterfactual prediction in complex, sequentially confounded settings, without tailored deconfounding, CDM offers a flexible, high-impact tool for decision support in medicine, policy evaluation, and other longitudinal domains.\n\nAuthors: Farbod Alinezhad, Jianfei Cao, Gary J. Young, Brady Post\nCategories: stat.ML, cs.LG, econ.EM, stat.ML",
+  "word_count": 164,
+  "published_at": "2026-04-14T17:25:53Z",
+  "ingested_at": "2026-04-15T11:03:39.362Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "econ.EM",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_b39216c5",
+  "source": "arxiv",
+  "source_id": "2604.12988",
+  "source_url": "https://arxiv.org/abs/2604.12988",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenqi_pei",
+    "name": "Wenqi Pei",
+    "handle": "Wenqi Pei, Shizheng Hou, Boyan Li, Han Chen, Zhichao Shi, Yuyu Luo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ROSE: An Intent-Centered Evaluation Metric for NL2SQL",
+  "body_text": "ROSE: An Intent-Centered Evaluation Metric for NL2SQL\n\nExecution Accuracy (EX), the widely used metric for evaluating the effectiveness of Natural Language to SQL (NL2SQL) solutions, is becoming increasingly unreliable. It is sensitive to syntactic variation, ignores that questions may admit multiple interpretations, and is easily misled by erroneous ground-truth SQL. To address this, we introduce ROSE, an intent-centered metric that focuses on whether the predicted SQL answers the question, rather than consistency with the ground-truth SQL under the reference-dependent paradigm. ROSE employs an adversarial Prover-Refuter cascade: SQL Prover assesses the semantic correctness of a predicted SQL against the user's intent independently, while Adversarial Refuter uses the ground-truth SQL as evidence to challenge and refine this judgment. On our expert-aligned validation set ROSE-VEC, ROSE achieves the best agreement with human experts, outperforming the next-best metric by nearly 24% in Cohen's Kappa. We also conduct a largescale re-evaluation of 19 NL2SQL methods, revealing four valuable insights. We release ROSE and ROSE-VEC to facilitate more reliable NL2SQL research.\n\nAuthors: Wenqi Pei, Shizheng Hou, Boyan Li, Han Chen, Zhichao Shi, Yuyu Luo\nCategories: cs.DB, cs.AI, cs.DB",
+  "word_count": 158,
+  "published_at": "2026-04-14T17:22:40Z",
+  "ingested_at": "2026-04-15T11:03:31.092Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DB",
+    "cs.AI",
+    "cs.DB"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

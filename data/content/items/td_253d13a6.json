@@ -1,0 +1,39 @@
+{
+  "id": "td_253d13a6",
+  "source": "arxiv",
+  "source_id": "2604.13035",
+  "source_url": "https://arxiv.org/abs/2604.13035",
+  "content_type": "paper",
+  "creator": {
+    "id": "kathakoli_sengupta",
+    "name": "Kathakoli Sengupta",
+    "handle": "Kathakoli Sengupta, Kai Ao, Paola Cascante-Bonilla",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis",
+  "body_text": "SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis\n\nLarge Language Models (LLMs) and Vision-Language Models (VLMs) increasingly generate indoor scenes through intermediate structures such as layouts and scene graphs, yet evaluation still relies on LLM or VLM judges that score rendered views, making judgments sensitive to viewpoint, prompt phrasing, and hallucination. When the evaluator is unstable, it becomes difficult to determine whether a model has produced a spatially plausible scene or whether the output score reflects the choice of viewpoint, rendering, or prompt. We introduce SceneCritic, a symbolic evaluator for floor-plan-level layouts. SceneCritic's constraints are grounded in SceneOnto, a structured spatial ontology we construct by aggregating indoor scene priors from 3D-FRONT, ScanNet, and Visual Genome. SceneOnto traverses this ontology to jointly verify semantic, orientation, and geometric coherence across object relationships, providing object-level and relationship-level assessments that identify specific violations and successful placements. Furthermore, we pair SceneCritic with an iterative refinement test bed that probes how models build and revise spatial structure under different critic modalities: a rule-based critic using collision constraints as feedback, an LLM critic operating on the layout as text, and a VLM critic operating on rendered observations. Through extensive experiments, we show that (a) SceneCritic aligns substantially better with human judgments than VLM-based evaluators, (b) text-only LLMs can outperform VLMs on semantic layout quality, and (c) image-based VLM refinement is the most effective critic modality for semantic and orientation correction.\n\nAuthors: Kathakoli Sengupta, Kai Ao, Paola Cascante-Bonilla\nCategories: cs.CV, cs.CL, cs.CV",
+  "word_count": 225,
+  "published_at": "2026-04-14T17:59:26Z",
+  "ingested_at": "2026-04-15T11:03:35.161Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_9126967f",
+  "source": "arxiv",
+  "source_id": "2604.12978",
+  "source_url": "https://arxiv.org/abs/2604.12978",
+  "content_type": "paper",
+  "creator": {
+    "id": "amir_hossein_kargaran",
+    "name": "Amir Hossein Kargaran",
+    "handle": "Amir Hossein Kargaran, Nafiseh Nikeghbal, Jana Diesner, François Yvon, Hinrich Schütze",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts",
+  "body_text": "GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts\n\nOptical character recognition (OCR) has advanced rapidly with the rise of vision-language models, yet evaluation has remained concentrated on a small cluster of high- and mid-resource scripts. We introduce GlotOCR Bench, a comprehensive benchmark evaluating OCR generalization across 100+ Unicode scripts. Our benchmark comprises clean and degraded image variants rendered from real multilingual texts. Images are rendered using fonts from the Google Fonts repository, shaped with HarfBuzz and rasterized with FreeType, supporting both LTR and RTL scripts. Samples of rendered images were manually reviewed to verify correct rendering across all scripts. We evaluate a broad suite of open-weight and proprietary vision-language models and find that most perform well on fewer than ten scripts, and even the strongest frontier models fail to generalize beyond thirty scripts. Performance broadly tracks script-level pretraining coverage, suggesting that current OCR systems rely on language model pretraining as much as on visual recognition. Models confronted with unfamiliar scripts either produce random noise or hallucinate characters from similar scripts they already know. We release the benchmark and pipeline for reproducibility. Pipeline Code: https://github.com/cisnlp/glotocr-bench, Benchmark: https://hf.co/datasets/cis-lmu/glotocr-bench.\n\nAuthors: Amir Hossein Kargaran, Nafiseh Nikeghbal, Jana Diesner, François Yvon, Hinrich Schütze\nCategories: cs.CL, cs.CV, cs.CL",
+  "word_count": 178,
+  "published_at": "2026-04-14T17:12:41Z",
+  "ingested_at": "2026-04-15T11:03:35.162Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CV",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

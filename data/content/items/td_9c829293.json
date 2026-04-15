@@ -1,0 +1,35 @@
+{
+  "id": "td_9c829293",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection",
+  "body_text": "datasette PR #2689: Replace token-based CSRF with Sec-Fetch-Site header protection\nDatasette has long protected against CSRF attacks using CSRF tokens, implemented using my asgi-csrf Python library. These are something of a pain to work with - you need to scatter forms in templates with &lt;input type=\"hidden\" name=\"csrftoken\" value=\"{{ csrftoken() }}\"&gt; lines and then selectively disable CSRF protection for APIs that are intended to be called from outside the browser.\nI've been following Filippo Valsorda's research here with interest, described in this detailed essay from August 2025 and shipped as part of Go 1.25 that same month.\nI've now landed the same change in Datasette. Here's the PR description - Claude Code did much of the work (across 10 commits, closely guided by me and cross-reviewed by GPT-5.4) but I've decided to start writing these PR descriptions by hand, partly to make them more concise and also as an exercise in keeping myself honest.\n\n\nNew CSRF protection middleware inspired by Go 1.25 and this research by Filippo Valsorda. This replaces the old CSRF token based protection.\nRemoves all instances of &lt;input type=\"hidden\" name=\"csrftoken\" value=\"{{ csrftoken() }}\"&gt; in the templates - they are no longer needed.\nRemoves the def skip_csrf(datasette, scope): plugin hook defined in datasette/hookspecs.py and its documentation and tests.\nUpdated CSRF protection documentation to describe the new approach.\nUpgrade guide now describes the CSRF change.\n\n\n\n\n    Tags: csrf, security, datasette, ai-assisted-programming",
+  "word_count": 230,
+  "published_at": "2026-04-14T23:58:53.000Z",
+  "ingested_at": "2026-04-15T11:00:08.900Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

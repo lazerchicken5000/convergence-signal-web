@@ -1,0 +1,35 @@
+{
+  "id": "td_fe648330",
+  "source": "rss",
+  "source_id": "https://news.ycombinator.com/item?id=47769796",
+  "source_url": "https://news.ycombinator.com/item?id=47769796",
+  "content_type": "article",
+  "creator": {
+    "id": "hacker_news:_best",
+    "name": "morpheuskafka",
+    "handle": "Hacker News: Best",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Tell HN: Fiverr left customer files public and searchable",
+  "body_text": "Fiverr (gig work/task platform, competitor to Upwork) uses a service called Cloudinary to process PDF/images in messaging, including work products from the worker to client.\nBesides the PDF processing value add, Cloudinary effectively acts like S3 here, serving assets directly to the web client. Like S3, it has support for signed/expiring URLs. However, Fiverr opted to use public URLs, not signed ones, for sensitive client-worker communication.\nMoreover, it seems like they may be serving public HTML somewhere that links to these files. As a result, hundreds are in Google search results, many containing PII.\nExample query: site:fiverr-res.cloudinary.com form 1040\nIn fact, Fiverr actively buys Google Ads for keywords like \"form 1234 filing\" despite knowing that it does not adequately secure the resulting work product, causing the preparer to violate the GLBA/FTC Safeguards Rule.\nResponsible Disclosure Note -- 40 days have passed since this was notified to the designated vulnerability email (security@fiverr.com). The security team did not reply. Therefore, this is being made public as it doesn't seem eligible for CVE/CERT processing as it is not really a code vulnerability, and I don't know anyone else who would care about it.\nComments URL: https://news.ycombinator.com/item?id=47769796\nPoints: 678\n# Comments: 171",
+  "word_count": 198,
+  "published_at": "2026-04-14T18:56:40.000Z",
+  "ingested_at": "2026-04-15T11:00:12.223Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

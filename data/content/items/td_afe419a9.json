@@ -1,0 +1,39 @@
+{
+  "id": "td_afe419a9",
+  "source": "arxiv",
+  "source_id": "2604.12945",
+  "source_url": "https://arxiv.org/abs/2604.12945",
+  "content_type": "paper",
+  "creator": {
+    "id": "amar_gahir",
+    "name": "Amar Gahir",
+    "handle": "Amar Gahir, Varshil Patel, Shreyank N Gowda",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Adaptive Data Dropout: Towards Self-Regulated Learning in Deep Neural Networks",
+  "body_text": "Adaptive Data Dropout: Towards Self-Regulated Learning in Deep Neural Networks\n\nDeep neural networks are typically trained by uniformly sampling large datasets across epochs, despite evidence that not all samples contribute equally throughout learning. Recent work shows that progressively reducing the amount of training data can improve efficiency and generalization, but existing methods rely on fixed schedules that do not adapt during training. In this work, we propose Adaptive Data Dropout, a simple framework that dynamically adjusts the subset of training data based on performance feedback. Inspired by self-regulated learning, our approach treats data selection as an adaptive process, increasing or decreasing data exposure in response to changes in training accuracy. We introduce a lightweight stochastic update mechanism that modulates the dropout schedule online, allowing the model to balance exploration and consolidation over time. Experiments on standard image classification benchmarks show that our method reduces effective training steps while maintaining competitive accuracy compared to static data dropout strategies. These results highlight adaptive data selection as a promising direction for efficient and robust training. Code will be released.\n\nAuthors: Amar Gahir, Varshil Patel, Shreyank N Gowda\nCategories: cs.LG, cs.CV, cs.LG",
+  "word_count": 166,
+  "published_at": "2026-04-14T16:41:33Z",
+  "ingested_at": "2026-04-15T11:03:39.363Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

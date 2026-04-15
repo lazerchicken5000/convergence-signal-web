@@ -1,0 +1,39 @@
+{
+  "id": "td_a70ed338",
+  "source": "arxiv",
+  "source_id": "2604.12911",
+  "source_url": "https://arxiv.org/abs/2604.12911",
+  "content_type": "paper",
+  "creator": {
+    "id": "ronald_skorobogat",
+    "name": "Ronald Skorobogat",
+    "handle": "Ronald Skorobogat, Ameya Prabhu, Matthias Bethge",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Round-Trip Translation Reveals What Frontier Multilingual Benchmarks Miss",
+  "body_text": "Round-Trip Translation Reveals What Frontier Multilingual Benchmarks Miss\n\nMultilingual benchmarks guide the development of frontier models. Yet multilingual evaluations reported by frontier models are structured similar to popular reasoning and knowledge benchmarks, but across many languages. We show such benchmarks, and consequently multilingual evaluations, measure mathematical reasoning and factual recall, not multilingual proficiency. For example, thinking variants dramatically outperform instruct variants on these benchmarks, yet often perform worse on real-world multilingual tasks, such as LMArena. We propose a simple alternative: evaluate multilingual capability via round-trip translation. Given text in a source language, translate it to a target language and back; semantic gaps between the original and result expose failures in multilingual generation capabilities. Round-trip translation correlates almost perfectly (\\r{ho} = 0.94) with user ratings on LMArena with our benchmark, requires no human reference translations, and does not require a more capable multilingual judge than tested models. Lastly, we introduce Lost in Translation (LiT), a challenging round-trip translation benchmark spanning widely spoken languages worldwide, for realistic evaluation of multilingual frontier models.\n\nAuthors: Ronald Skorobogat, Ameya Prabhu, Matthias Bethge\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 162,
+  "published_at": "2026-04-14T15:58:21Z",
+  "ingested_at": "2026-04-15T11:03:35.163Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
