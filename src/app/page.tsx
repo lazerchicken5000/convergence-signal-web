@@ -112,6 +112,7 @@ export default function DashboardPage() {
         Verg · open methodology · <a href="https://x.com/lazerhawk5000" className="hover:text-zinc-500">@lazerhawk5000</a>
         {' · '}<Link href="/protocol" className="hover:text-zinc-500">Protocol</Link>
         {' · '}<Link href="/glossary" className="hover:text-zinc-500">Glossary</Link>
+        {' · '}<Link href="/room" className="hover:text-zinc-500 italic" title="a quiet corner">room</Link>
       </footer>
     </main>
   );
