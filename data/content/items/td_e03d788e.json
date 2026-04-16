@@ -1,0 +1,39 @@
+{
+  "id": "td_e03d788e",
+  "source": "arxiv",
+  "source_id": "2604.14073",
+  "source_url": "https://arxiv.org/abs/2604.14073",
+  "content_type": "paper",
+  "creator": {
+    "id": "gergő_szalay",
+    "name": "Gergő Szalay",
+    "handle": "Gergő Szalay, Gergely Zsolt Kovács, Sándor Teleki, Balázs Pintér, Tibor Gregorics",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Neural architectures for resolving references in program code",
+  "body_text": "Neural architectures for resolving references in program code\n\nResolving and rewriting references is fundamental in programming languages. Motivated by a real-world decompilation task, we abstract reference rewriting into the problems of direct and indirect indexing by permutation. We create synthetic benchmarks for these tasks and show that well-known sequence-to-sequence machine learning architectures are struggling on these benchmarks. We introduce new sequence-to-sequence architectures for both problems. Our measurements show that our architectures outperform the baselines in both robustness and scalability: our models can handle examples that are ten times longer compared to the best baseline. We measure the impact of our architecture in the real-world task of decompiling switch statements, which has an indexing subtask. According to our measurements, the extended model decreases the error rate by 42%. Multiple ablation studies show that all components of our architectures are essential.\n\nAuthors: Gergő Szalay, Gergely Zsolt Kovács, Sándor Teleki, Balázs Pintér, Tibor Gregorics\nCategories: cs.LG, cs.NE, cs.LG",
+  "word_count": 131,
+  "published_at": "2026-04-15T16:44:56Z",
+  "ingested_at": "2026-04-16T11:03:34.581Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.NE",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

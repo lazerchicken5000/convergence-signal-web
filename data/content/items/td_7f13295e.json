@@ -1,0 +1,38 @@
+{
+  "id": "td_7f13295e",
+  "source": "arxiv",
+  "source_id": "2604.14090",
+  "source_url": "https://arxiv.org/abs/2604.14090",
+  "content_type": "paper",
+  "creator": {
+    "id": "simon_ostermann",
+    "name": "Simon Ostermann",
+    "handle": "Simon Ostermann, Daniil Gurgurov, Tanja Baeumel, Michael A. Hedderich, Sebastian Lapuschkin, Wojciech Samek, Vera Schmitt",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Weights to Activations: Is Steering the Next Frontier of Adaptation?",
+  "body_text": "From Weights to Activations: Is Steering the Next Frontier of Adaptation?\n\nPost-training adaptation of language models is commonly achieved through parameter updates or input-based methods such as fine-tuning, parameter-efficient adaptation, and prompting. In parallel, a growing body of work modifies internal activations at inference time to influence model behavior, an approach known as steering. Despite increasing use, steering is rarely analyzed within the same conceptual framework as established adaptation methods. In this work, we argue that steering should be regarded as a form of model adaptation. We introduce a set of functional criteria for adaptation methods and use them to compare steering approaches with classical alternatives. This analysis positions steering as a distinct adaptation paradigm based on targeted interventions in activation space, enabling local and reversible behavioral change without parameter updates. The resulting framing clarifies how steering relates to existing methods, motivating a unified taxonomy for model adaptation.\n\nAuthors: Simon Ostermann, Daniil Gurgurov, Tanja Baeumel, Michael A. Hedderich, Sebastian Lapuschkin, Wojciech Samek, Vera Schmitt\nCategories: cs.CL, cs.CL",
+  "word_count": 137,
+  "published_at": "2026-04-15T17:06:25Z",
+  "ingested_at": "2026-04-16T11:03:30.419Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

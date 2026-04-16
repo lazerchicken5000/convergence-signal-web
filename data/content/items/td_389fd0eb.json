@@ -1,0 +1,38 @@
+{
+  "id": "td_389fd0eb",
+  "source": "arxiv",
+  "source_id": "2604.14074",
+  "source_url": "https://arxiv.org/abs/2604.14074",
+  "content_type": "paper",
+  "creator": {
+    "id": "laurence_bonat",
+    "name": "Laurence Bonat",
+    "handle": "Laurence Bonat, Francesco Tonini, Elisa Ricci, Lorenzo Vaquero",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Training-Free Semantic Multi-Object Tracking with Vision-Language Models",
+  "body_text": "Training-Free Semantic Multi-Object Tracking with Vision-Language Models\n\nSemantic Multi-Object Tracking (SMOT) extends multi-object tracking with semantic outputs such as video summaries, instance-level captions, and interaction labels, aiming to move from trajectories to human-interpretable descriptions of dynamic scenes. Existing SMOT systems are trained end-to-end, coupling progress to expensive supervision, limiting the ability to rapidly adapt to new foundation models and new interactions. We propose TF-SMOT, a training-free SMOT pipeline that composes pretrained components for detection, mask-based tracking, and video-language generation. TF-SMOT combines D-FINE and the promptable SAM2 segmentation tracker to produce temporally consistent tracklets, uses contour grounding to generate video summaries and instance captions with InternVideo2.5, and aligns extracted interaction predicates to BenSMOT WordNet synsets via gloss-based semantic retrieval with LLM disambiguation. On BenSMOT, TF-SMOT achieves state-of-the-art tracking performance within the SMOT setting and improves summary and caption quality compared to prior art. Interaction recognition, however, remains challenging under strict exact-match evaluation on the fine-grained and long-tailed WordNet label space; our analysis and ablations indicate that semantic overlap and label granularity substantially affect measured performance.\n\nAuthors: Laurence Bonat, Francesco Tonini, Elisa Ricci, Lorenzo Vaquero\nCategories: cs.CV, cs.CV",
+  "word_count": 167,
+  "published_at": "2026-04-15T16:44:57Z",
+  "ingested_at": "2026-04-16T11:03:39.164Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

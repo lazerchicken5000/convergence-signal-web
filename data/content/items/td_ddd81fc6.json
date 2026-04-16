@@ -1,0 +1,38 @@
+{
+  "id": "td_ddd81fc6",
+  "source": "arxiv",
+  "source_id": "2604.14129",
+  "source_url": "https://arxiv.org/abs/2604.14129",
+  "content_type": "paper",
+  "creator": {
+    "id": "ami_baid",
+    "name": "Ami Baid",
+    "handle": "Ami Baid, Zihui Xue, Kristen Grauman",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Don't Let the Video Speak: Audio-Contrastive Preference Optimization for Audio-Visual Language Models",
+  "body_text": "Don't Let the Video Speak: Audio-Contrastive Preference Optimization for Audio-Visual Language Models\n\nWhile Audio-Visual Language Models (AVLMs) have achieved remarkable progress over recent years, their reliability is bottlenecked by cross-modal hallucination. A particularly pervasive manifestation is video-driven audio hallucination: models routinely exploit visual shortcuts to hallucinate expected sounds, discarding true auditory evidence. To counteract this deeply ingrained visual dominance, we propose Audio-Contrastive Preference Optimization (ACPO). This dual-axis preference learning framework introduces an output-contrastive objective to penalize visual descriptions masquerading as audio facts, alongside an input-contrastive objective that swaps audio tracks to explicitly penalize generation invariant to the true auditory signal. Extensive experiments demonstrate that ACPO establishes highly faithful audio grounding and mitigates audio hallucination without compromising overarching multimodal capabilities.\n\nAuthors: Ami Baid, Zihui Xue, Kristen Grauman\nCategories: cs.CV, cs.CV",
+  "word_count": 107,
+  "published_at": "2026-04-15T17:51:28Z",
+  "ingested_at": "2026-04-16T11:03:43.614Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

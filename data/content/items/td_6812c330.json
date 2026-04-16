@@ -1,0 +1,38 @@
+{
+  "id": "td_6812c330",
+  "source": "arxiv",
+  "source_id": "2604.14149",
+  "source_url": "https://arxiv.org/abs/2604.14149",
+  "content_type": "paper",
+  "creator": {
+    "id": "zheyu_zhang",
+    "name": "Zheyu Zhang",
+    "handle": "Zheyu Zhang, Ziqi Pang, Shixing Chen, Xiang Hao, Vimal Bhat, Yu-Xiong Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "One Token per Highly Selective Frame: Towards Extreme Compression for Long Video Understanding",
+  "body_text": "One Token per Highly Selective Frame: Towards Extreme Compression for Long Video Understanding\n\nLong video understanding is inherently challenging for vision-language models (VLMs) because of the extensive number of frames. With each video frame typically expanding into tens or hundreds of tokens, the limited context length of large language models (LLMs) forces the VLMs to perceive the frames sparsely and lose temporal information. To address this, we explore extreme video token compression towards \\emph{one token per frame} at the final LLM layer. Our key insight is that heuristic-based compression, widely adopted by previous methods, is prone to information loss, and this necessitates supervising LLM layers into \\emph{learnable} and \\emph{progressive} modules for \\emph{token-level compression} (LP-Comp). Such compression enables our VLM to digest 2x-4x more frames with improved performance. To further increase the token efficiency, we investigate \\emph{frame-level compression}, which selects the frames most relevant to the queries via the internal attention scores of the LLM layers, named \\emph{question-conditioned compression} (QC-Comp). As a notable distinction from previous studies, we mitigate the position bias of LLM attention in long contexts, \\emph{i.e.}, the over-concentration on the beginning and end of a sequence, by splitting long videos into short segments and employing local attention. Collectively, our combined \\emph{token-level} and \\emph{frame-level} leads to an e\\textbf{x}treme compression model for long video understanding, named \\textbf{\\name}, achieving a significantly larger compression ratio and enabling denser frame sampling. Our \\name is finetuned from VideoChat-Flash with a data-efficient \\emph{supervised compression tuning} stage that only requires 2.5\\% of the supervised fine-tuning data, yet boosts the accuracy from 42.9\\% to 46.2\\% on LVBench and enhances multiple other long video benchmarks.\n\nAuthors: Zheyu Zhang, Ziqi Pang, Shixing Chen, Xiang Hao, Vimal Bhat, Yu-Xiong Wang\nCategories: cs.CV, cs.CV",
+  "word_count": 254,
+  "published_at": "2026-04-15T17:59:52Z",
+  "ingested_at": "2026-04-16T11:03:39.162Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

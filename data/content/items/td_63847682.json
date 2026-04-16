@@ -1,0 +1,35 @@
+{
+  "id": "td_63847682",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Gemini 3.1 Flash TTS",
+  "body_text": "Gemini 3.1 Flash TTS\nGoogle released Gemini 3.1 Flash TTS today, a new text-to-speech model that can be directed using prompts.\nIt's presented via the standard Gemini API using gemini-3.1-flash-tts-preview as the model ID, but can only output audio files.\nThe prompting guide is surprising, to say the least. Here's their example prompt to generate just a few short sentences of audio:\n# AUDIO PROFILE: Jaz R.\n## \"The Morning Hype\"\n\n## THE SCENE: The London Studio\nIt is 10:00 PM in a glass-walled studio overlooking the moonlit London skyline, but inside, it is blindingly bright. The red \"ON AIR\" tally light is blazing. Jaz is standing up, not sitting, bouncing on the balls of their heels to the rhythm of a thumping backing track. Their hands fly across the faders on a massive mixing desk. It is a chaotic, caffeine-fueled cockpit designed to wake up an entire nation.\n\n### DIRECTOR'S NOTES\nStyle:\n* The \"Vocal Smile\": You must hear the grin in the audio. The soft palate is always raised to keep the tone bright, sunny, and explicitly inviting.\n* Dynamics: High projection without shouting. Punchy consonants and elongated vowels on excitement words (e.g., \"Beauuutiful morning\").\n\nPace: Speaks at an energetic pace, keeping up with the fast music.  Speaks with A \"bouncing\" cadence. High-speed delivery with fluid transitions — no dead air, no gaps.\n\nAccent: Jaz is from Brixton, London\n\n### SAMPLE CONTEXT\nJaz is the industry standard for Top 40 radio, high-octane event promos, or any script that requires a charismatic Estuary accent and 11/10 infectious energy.\n\n#### TRANSCRIPT\n[excitedly] Yes, massive vibes in the studio! You are locked in and it is absolutely popping off in London right now. If you're stuck on the tube, or just sat there pretending to work... stop it. Seriously, I see you.\n[shouting] Turn this up! We've got the project roadmap landing in three, two... let's go!\n\nHere's what I got using that example prompt:\n\n  \n  Your browser does not support the audio element.\n\nThen I modified it to say \"Jaz is from Newcastle\" and \"... requires a charismatic Newcastle accent\" and got this result:\n\n  \n  Your browser does not support the audio element.\n\nHere's Exeter, Devon for good measure:\n\n  \n  Your browser does not support the audio element.\n\nI had Gemini 3.1 Pro vibe code this UI for trying it out:\n\n\n\n    Tags: google, text-to-speech, tools, ai, prompt-engineering, generative-ai, llms, gemini, llm-release, vibe-coding",
+  "word_count": 399,
+  "published_at": "2026-04-15T17:13:14.000Z",
+  "ingested_at": "2026-04-16T11:00:08.483Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

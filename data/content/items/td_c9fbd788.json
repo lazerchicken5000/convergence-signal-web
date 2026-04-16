@@ -1,0 +1,38 @@
+{
+  "id": "td_c9fbd788",
+  "source": "arxiv",
+  "source_id": "2604.14107",
+  "source_url": "https://arxiv.org/abs/2604.14107",
+  "content_type": "paper",
+  "creator": {
+    "id": "arnob_barua",
+    "name": "Arnob Barua",
+    "handle": "Arnob Barua, Christopher E. Kees, Dmitri Kuzmin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bound-Preserving Flux-Corrected Transport Methods for Solving Richards' Equation",
+  "body_text": "Bound-Preserving Flux-Corrected Transport Methods for Solving Richards' Equation\n\nSimulating infiltration in porous media using Richards' equation remains computationally challenging due to its parabolic structure and nonlinear coefficients. While a wide range of numerical methods for differential equations have been applied over the past several decades, basic higher-order numerical methods often fail to preserve physical bounds on water pressure and saturation, leading to spurious oscillations and poor iterative solver convergence. Instead, low-order, bound-preserving methods have been preferred. The combination of mass lumping and relative permeability upwinding preserves bounds but degrades accuracy to first order in space. Flux-corrected transport is a high-resolution numerical technique designed for combining the bound-preserving property of low-order schemes with the accuracy of high-order methods, by blending the two methods through limited anti-diffusive fluxes. In this work, we extend flux-corrected transport schemes to the nonlinear, degenerate parabolic structure of Richards' equation, verify attainment of second-order convergence on unstructured meshes, and demonstrate applications to stormwater management infrastructure.\n\nAuthors: Arnob Barua, Christopher E. Kees, Dmitri Kuzmin\nCategories: math.NA, math.NA",
+  "word_count": 150,
+  "published_at": "2026-04-15T17:26:22Z",
+  "ingested_at": "2026-04-16T11:03:47.988Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

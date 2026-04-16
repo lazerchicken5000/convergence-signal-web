@@ -1,0 +1,35 @@
+{
+  "id": "td_82f193b2",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette 1.0a27",
+  "body_text": "Release: datasette 1.0a27\n    Two major changes in this new Datasette alpha. I covered the first of those in detail yesterday - Datasette no longer uses Django-style CSRF form tokens, instead using modern browser headers as described by Filippo Valsorda.\nThe second big change is that Datasette now fires a new RenameTableEvent any time a table is renamed during a SQLite transaction. This is useful because some plugins (like datasette-comments) attach additional data to table records by name, so a renamed table requires them to react in appropriate ways.\nHere are the rest of the changes in the alpha:\n\n\nNew actor= parameter for datasette.client methods, allowing internal requests to be made as a specific actor. This is particularly useful for writing automated tests. (#2688)\nNew Database(is_temp_disk=True) option, used internally for the internal database. This helps resolve intermittent database locked errors caused by the internal database being in-memory as opposed to on-disk. (#2683) (#2684)\nThe /&lt;database&gt;/&lt;table&gt;/-/upsert API (docs) now rejects rows with null primary key values. (#1936)\nImproved example in the API explorer for the /-/upsert endpoint (docs). (#1936)\nThe /&lt;database&gt;.json endpoint now includes an \"ok\": true key, for consistency with other JSON API responses.\ncall_with_supported_arguments() is now documented as a supported public API. (#2678)\n\n\n    \n        Tags: annotated-release-notes, datasette, python",
+  "word_count": 207,
+  "published_at": "2026-04-15T23:16:34.000Z",
+  "ingested_at": "2026-04-16T11:00:08.483Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

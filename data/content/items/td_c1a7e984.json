@@ -1,0 +1,35 @@
+{
+  "id": "td_c1a7e984",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette.io news preview",
+  "body_text": "Tool: datasette.io news preview\n    The datasette.io website has a news section built from this news.yaml file in the underlying GitHub repository. The YAML format looks like this:\n- date: 2026-04-15\n  body: |-\n    [Datasette 1.0a27](https://docs.datasette.io/en/latest/changelog.html#a27-2026-04-15) changes how CSRF protection works in a way that simplifies form and API integration, and introduces a new `RenameTableEvent` for when a table is renamed by a SQL query.\n- date: 2026-03-18\n  body: |-\n    ...\n\nThis format is a little hard to edit, so I finally had Claude build a custom preview UI to make checking for errors have slightly less friction.\nI built it using standard claude.ai and Claude Artifacts, taking advantage of Claude's ability to clone GitHub repos and look at their content as part of a regular chat:\n\nClone https://github.com/simonw/datasette.io and look at the news.yaml file and how it is rendered on the homepage. Build an artifact I can paste that YAML into which previews what it will look like, and highlights any markdown errors or YAML errors\n\n\n    \n        Tags: vibe-coding, claude, tools, datasette",
+  "word_count": 170,
+  "published_at": "2026-04-16T00:18:03.000Z",
+  "ingested_at": "2026-04-16T11:00:08.483Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
