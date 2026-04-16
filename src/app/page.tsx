@@ -57,6 +57,7 @@ export default function DashboardPage() {
         <TipInline />
         <nav className="flex items-center gap-4 text-xs">
           <Link href="/whitepaper" className="text-zinc-400 hover:text-zinc-200 transition-colors">Whitepaper</Link>
+          <Link href="/self-audit" className="text-zinc-400 hover:text-zinc-200 transition-colors" title="Verg measures itself against its own falsifiability gates">Self-Audit</Link>
           <Link href="/audits" className="text-zinc-400 hover:text-zinc-200 transition-colors">Audits</Link>
           <Link href="/blog" className="text-zinc-400 hover:text-zinc-200 transition-colors">Blog</Link>
           <Link href="/docs" className="text-zinc-400 hover:text-zinc-200 transition-colors">API</Link>

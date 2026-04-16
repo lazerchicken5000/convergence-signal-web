@@ -138,7 +138,12 @@
       },
       "slurry_score": 0.968,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "slurry"
+      "slurry_class": "slurry",
+      "counter_novelty": 0.15,
+      "counter_verdict": "rehash",
+      "counter_note": "Demand for 'advanced tools for specialized domains' is a generic statement that has been true since expert systems (1980s) and has been repeated every year in AI roadmaps; no specific technical convergence is identified.",
+      "counter_rehash_of": "Expert systems, domain-specific AI applications",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_661fe126",
@@ -2620,7 +2625,12 @@
       },
       "slurry_score": 0.915,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "slurry"
+      "slurry_class": "slurry",
+      "counter_novelty": 0.25,
+      "counter_verdict": "rehash",
+      "counter_note": "Human-in-the-loop AI and human-AI collaboration are well-established concepts from the 2000s–2010s (e.g., interactive machine learning, human-centered AI); the framing as 'augmentation vs. automation' is not new.",
+      "counter_rehash_of": "Human-in-the-loop learning, human-centered AI, interactive machine learning",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_7f04fe03",
@@ -2884,7 +2894,12 @@
       },
       "slurry_score": 0.757,
       "slurry_match": "Small, efficient models are gaining traction for edge deployment.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.35,
+      "counter_verdict": "mixed",
+      "counter_note": "Efficiency and task-specific optimization are real concerns in modern ML, but the idea that domain-fit matters more than raw scale echoes 1990s-2000s debates (e.g., 'right tool for the job'); the novelty lies in applying this to large models, but the principle is old.",
+      "counter_rehash_of": "Efficient algorithms, task-specific model selection, no-free-lunch theorem",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_4768de81",
@@ -3079,7 +3094,12 @@
       },
       "slurry_score": 0.747,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.1,
+      "counter_verdict": "rehash",
+      "counter_note": "Learning from past data to improve decisions is the core definition of machine learning and reinforcement learning from the 1990s onward; this is not a convergence pattern, it is a restatement of ML fundamentals.",
+      "counter_rehash_of": "Machine learning, reinforcement learning, supervised learning",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_6f79445e",
@@ -3174,7 +3194,12 @@
       },
       "slurry_score": 0.861,
       "slurry_match": "There is a growing demand for robust and reliable AI solutions.",
-      "slurry_class": "slurry"
+      "slurry_class": "slurry",
+      "counter_novelty": 0.2,
+      "counter_verdict": "rehash",
+      "counter_note": "Robustness, reliability, and domain-specific challenges (factual correctness, security) are longstanding concerns in AI safety and applied ML; the framing as a 'growing demand' is generic and does not identify a novel convergence.",
+      "counter_rehash_of": "AI safety, robustness testing, adversarial ML, domain adaptation",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_53389cad",
@@ -3338,7 +3363,12 @@
       },
       "slurry_score": 0.692,
       "slurry_match": "There is a growing demand for robust and reliable AI solutions.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.3,
+      "counter_verdict": "rehash",
+      "counter_note": "Adversarial robustness and handling class imbalance are well-studied problems from the 2010s; the combination is not novel, though the application to modern large models may be timely.",
+      "counter_rehash_of": "Adversarial training, robust ML, class imbalance mitigation",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_0d3f7d0a",
@@ -3469,7 +3499,12 @@
       },
       "slurry_score": 0.69,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.4,
+      "counter_verdict": "mixed",
+      "counter_note": "Interpretability and explainability are established research areas (2010s–present), but the explicit trade-off framing (interpretability vs. performance) is a real contemporary tension in large models; some novelty in how this is being actively negotiated now.",
+      "counter_rehash_of": "Explainable AI (XAI), interpretability research",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_42a1b731",
@@ -3582,7 +3617,12 @@
       },
       "slurry_score": 0.695,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.45,
+      "counter_verdict": "mixed",
+      "counter_note": "Reasoning and structured documentation echo symbolic AI and knowledge representation (1980s–2000s), but the modern convergence of reasoning with large language models and chain-of-thought prompting does represent a real technical shift in how reasoning is being operationalized.",
+      "counter_rehash_of": "Symbolic reasoning, knowledge graphs, logic-based AI",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_edbf1820",
@@ -3663,7 +3703,12 @@
       },
       "slurry_score": 0.608,
       "slurry_match": "Open-source models are catching up to closed-source frontier models.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.55,
+      "counter_verdict": "mixed",
+      "counter_note": "Cross-model embedding compatibility is a specific technical problem in face recognition and biometrics, with some novelty in modern federated/multi-model contexts, but the core challenge (embedding alignment) is not new.",
+      "counter_rehash_of": "Embedding alignment, transfer learning, domain adaptation in computer vision",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_cbeac4cb",
@@ -3732,7 +3777,12 @@
       },
       "slurry_score": 0.592,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.5,
+      "counter_verdict": "mixed",
+      "counter_note": "Adversarial evaluation and red-teaming are established practices (2010s–present), but the formalization of adversarial evaluation frameworks as a systematic convergence pattern reflects a real shift in how AI systems are being stress-tested at scale.",
+      "counter_rehash_of": "Adversarial testing, red-teaming, robustness evaluation",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_85c8b1d7",
@@ -3822,7 +3872,12 @@
       },
       "slurry_score": 0.806,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.15,
+      "counter_verdict": "rehash",
+      "counter_note": "Generic statement that 'advanced computational methods are needed for complex systems' has been true since the 1960s; no specific convergence identified.",
+      "counter_rehash_of": "General computational complexity theory and numerical methods",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_d9cf7b64",
@@ -3936,7 +3991,12 @@
       },
       "slurry_score": 0.651,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.12,
+      "counter_verdict": "rehash",
+      "counter_note": "Developing math/computational methods to understand complex systems is the entire mission of applied mathematics and ML since the 1980s; no novel convergence claimed.",
+      "counter_rehash_of": "Applied mathematics, systems modeling, machine learning fundamentals",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_7830b82d",
@@ -4086,7 +4146,12 @@
       },
       "slurry_score": 0.684,
       "slurry_match": "Model context protocols are enabling richer tool use.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.55,
+      "counter_verdict": "mixed",
+      "counter_note": "Context-aware NLP for low-resource languages is a real applied problem, but combining context-awareness + low-resource adaptation echoes multilingual NLP (2010s) and transfer learning; the convergence framing is somewhat novel but techniques are established.",
+      "counter_rehash_of": "Multilingual NLP, transfer learning, few-shot learning",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_1371c6c4",
@@ -4200,7 +4265,12 @@
       },
       "slurry_score": 0.843,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.18,
+      "counter_verdict": "rehash",
+      "counter_note": "Robustness, interpretability, and efficiency in AI have been explicit research goals since at least 2015; this is a restatement of standing priorities, not a convergence.",
+      "counter_rehash_of": "Adversarial robustness, explainable AI, model compression",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_89823197",
@@ -4319,7 +4389,12 @@
       },
       "slurry_score": 0.69,
       "slurry_match": "Large language models are being integrated into more workflows.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.48,
+      "counter_verdict": "mixed",
+      "counter_note": "Improving LLM evaluation metrics to align with human judgment is timely and real, but echoes decades of work in NLP evaluation (BLEU, ROUGE, human-in-the-loop evaluation); the LLM-specific framing is newer but the core idea is not.",
+      "counter_rehash_of": "NLP evaluation metrics, human evaluation frameworks",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_ac2ab348",
@@ -4431,7 +4506,12 @@
       },
       "slurry_score": 0.714,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.52,
+      "counter_verdict": "mixed",
+      "counter_note": "Hierarchical task decomposition with iterative refinement echoes hierarchical RL (1990s–2000s) and chain-of-thought prompting (2022); the 'refine-and-summarize' framing is somewhat novel but the underlying pattern is established.",
+      "counter_rehash_of": "Hierarchical reinforcement learning, task decomposition, iterative refinement",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_0344ab26",
@@ -4552,7 +4632,12 @@
       },
       "slurry_score": 0.618,
       "slurry_match": "Open-source models are catching up to closed-source frontier models.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.1,
+      "counter_verdict": "rehash",
+      "counter_note": "Designing frameworks for efficient and accurate predictions is the core mission of machine learning since its inception; this is a platitude without specific convergence content.",
+      "counter_rehash_of": "Machine learning fundamentals, statistical learning theory",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_ce0e9b0e",
@@ -4632,7 +4717,12 @@
       },
       "slurry_score": 0.742,
       "slurry_match": "Large language models are being integrated into more workflows.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.2,
+      "counter_verdict": "rehash",
+      "counter_note": "Demand for better LLM evaluation is a current pain point, but the underlying need for accurate and efficient evaluation methods is decades old; this is a domain-specific restatement of a standing problem.",
+      "counter_rehash_of": "Model evaluation, benchmarking, performance metrics",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_29f7df1f",
@@ -4711,7 +4801,12 @@
       },
       "slurry_score": 0.625,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.65,
+      "counter_verdict": "mixed",
+      "counter_note": "Hierarchical planning at multiple timescales with latent world models combines established ideas (hierarchical planning from 1990s, world models from 2018–2020) in a way that is timely for modern RL, but the individual components are not novel.",
+      "counter_rehash_of": "Hierarchical reinforcement learning, world models, temporal abstraction",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_3be34e4f",
@@ -4772,7 +4867,12 @@
       },
       "slurry_score": 0.671,
       "slurry_match": "Small, efficient models are gaining traction for edge deployment.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.58,
+      "counter_verdict": "mixed",
+      "counter_note": "Parameter-efficient training (LoRA, adapters) on curated datasets for risk management is a real applied convergence, but parameter efficiency and dataset curation are both established techniques (2010s–2020s); the specific combination for risk management is somewhat novel.",
+      "counter_rehash_of": "Model compression, parameter-efficient fine-tuning, data selection",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_6cb86966",
@@ -4848,7 +4948,12 @@
       },
       "slurry_score": 0.787,
       "slurry_match": "There is a growing demand for robust and reliable AI solutions.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.2,
+      "counter_verdict": "rehash",
+      "counter_note": "Efficient/resource-constrained AI has been a persistent concern since mobile ML (2010s) and embedded systems; this is a perennial engineering constraint, not a convergence.",
+      "counter_rehash_of": "Mobile ML, embedded systems optimization, computational efficiency (2010s–present)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_df0e46d4",
@@ -4920,7 +5025,12 @@
       },
       "slurry_score": 0.649,
       "slurry_match": "Large language models are being integrated into more workflows.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.25,
+      "counter_verdict": "rehash",
+      "counter_note": "Mixed-precision and quantization are well-established techniques from deep learning (2015+); applying them to LLMs is domain extension, not convergence.",
+      "counter_rehash_of": "Neural network quantization, mixed-precision training (Courbariaux et al., 2015+)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_d87ddb19",
@@ -4989,7 +5099,12 @@
       },
       "slurry_score": 0.79,
       "slurry_match": "There is a shift toward multimodal AI systems.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.35,
+      "counter_verdict": "mixed",
+      "counter_note": "Multimodal agents are a real technical advance (vision + language + action), but 'autonomous agents' as a concept dates to 1990s AI; the multimodal binding is newer but the autonomy framing is old.",
+      "counter_rehash_of": "Intelligent agents, agent architectures (Wooldridge & Jennings, 1995); multimodal fusion is newer",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_dd2099d4",
@@ -5050,7 +5165,12 @@
       },
       "slurry_score": 0.661,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.15,
+      "counter_verdict": "rehash",
+      "counter_note": "AI safety, ethics, and governance concerns have been explicit research areas since at least 2016 (Bostrom, Russell, etc.); this is recognition of an existing field, not a new convergence.",
+      "counter_rehash_of": "AI safety, AI ethics, alignment research (2016–present)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_6cd7dfba",
@@ -5120,7 +5240,12 @@
       },
       "slurry_score": 0.654,
       "slurry_match": "Small, efficient models are gaining traction for edge deployment.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.55,
+      "counter_verdict": "mixed",
+      "counter_note": "Decoupling positive/negative rollouts and entropy preservation in RL updates has some novelty in framing, but the underlying ideas (importance weighting, variance reduction, entropy regularization) are standard RL techniques from 2010s.",
+      "counter_rehash_of": "Variance reduction in RL, entropy regularization, importance sampling (Schulman et al., 2015+)",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_8179a3e2",
@@ -5195,7 +5320,12 @@
       },
       "slurry_score": 0.628,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.45,
+      "counter_verdict": "mixed",
+      "counter_note": "Task-routed rewards for heterogeneous outputs is a reasonable design pattern, but routing/mixture-of-experts and multi-task reward shaping are established techniques; the specific combination is incremental.",
+      "counter_rehash_of": "Mixture-of-experts, multi-task learning, conditional reward design (2010s–present)",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_50e2ef13",
@@ -5256,7 +5386,12 @@
       },
       "slurry_score": 0.642,
       "slurry_match": "There is increasing interest in domain-specific AI applications.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.5,
+      "counter_verdict": "mixed",
+      "counter_note": "Theoretical foundations of AI capabilities (scaling laws, expressivity, sample complexity) have accelerated recently, but foundational limits research echoes classical complexity theory and learning theory from decades prior.",
+      "counter_rehash_of": "Computational complexity, PAC learning, statistical learning theory (1980s–2000s); scaling laws are newer",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_1fb5a29c",
@@ -5327,7 +5462,12 @@
       },
       "slurry_score": 0.712,
       "slurry_match": "There is a growing demand for robust and reliable AI solutions.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.3,
+      "counter_verdict": "rehash",
+      "counter_note": "Privacy-preserving ML (federated learning, differential privacy, homomorphic encryption) has been active research since 2015+; applying to LLMs is domain extension, not a new convergence.",
+      "counter_rehash_of": "Federated learning, differential privacy, privacy-preserving ML (McMahan et al., 2016+)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_ba6ce25d",
@@ -5408,7 +5548,12 @@
       },
       "slurry_score": 0.79,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.25,
+      "counter_verdict": "rehash",
+      "counter_note": "Adaptation to novel domains with unlabeled data is semi-supervised learning, transfer learning, and domain adaptation—all established since 2000s; framing as 'advanced technique' obscures the old foundations.",
+      "counter_rehash_of": "Semi-supervised learning, transfer learning, domain adaptation (2000s–2010s)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_c41588f9",
@@ -5470,7 +5615,12 @@
       },
       "slurry_score": 0.622,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.4,
+      "counter_verdict": "mixed",
+      "counter_note": "Embedding ethics into systems is a real contemporary focus, but the idea of formalizing ethics computationally echoes symbolic AI and value alignment work (2010s+); the empirical testability angle is somewhat novel but not a major convergence.",
+      "counter_rehash_of": "Value alignment, formal ethics in AI, symbolic AI ethics (Bostrom, Russell, 2010s+)",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_efe35762",
@@ -5531,7 +5681,12 @@
       },
       "slurry_score": 0.623,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.45,
+      "counter_verdict": "mixed",
+      "counter_note": "Combining LLMs with wearables for mental health is a straightforward application of existing tech (chatbots + wearables + sentiment analysis), but the specific integration at scale with emotional steering is relatively new in practice.",
+      "counter_rehash_of": "Conversational agents for healthcare + wearable sensor fusion (both 2010s concepts)",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_cf145579",
@@ -5602,7 +5757,12 @@
       },
       "slurry_score": 0.72,
       "slurry_match": "There is increasing interest in domain-specific AI applications.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.35,
+      "counter_verdict": "rehash",
+      "counter_note": "Specialized deep learning models for medical image classification (including pathology) have been standard since ~2015–2018; applying this to whole-slide images is domain application, not convergence.",
+      "counter_rehash_of": "Medical image analysis with CNNs / specialized domain models",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_e6fb7418",
@@ -5673,7 +5833,12 @@
       },
       "slurry_score": 0.759,
       "slurry_match": "There is a growing demand for robust and reliable AI solutions.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.55,
+      "counter_verdict": "mixed",
+      "counter_note": "Federated learning is from 2016+; applying it to bandwidth-constrained IoT is a real engineering challenge, but the conceptual convergence (federated + IoT) is a natural, somewhat obvious extension.",
+      "counter_rehash_of": "Federated learning + edge computing (both established by 2018–2020)",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_c4d4f271",
@@ -5734,7 +5899,12 @@
       },
       "slurry_score": 0.698,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.65,
+      "counter_verdict": "mixed",
+      "counter_note": "Balancing internal knowledge with external tools (RAG, tool-use, retrieval-augmented generation) is genuinely useful and LLM-specific, but the core idea of hybrid knowledge systems dates to expert systems and information retrieval.",
+      "counter_rehash_of": "Hybrid knowledge systems / expert systems + information retrieval",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_20eb8225",
@@ -5795,7 +5965,12 @@
       },
       "slurry_score": 0.777,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.4,
+      "counter_verdict": "rehash",
+      "counter_note": "AI for animation and physics simulation (surface dynamics) is a straightforward application of neural networks to graphics; this is domain application, not a novel convergence pattern.",
+      "counter_rehash_of": "Neural networks for physics simulation / graphics (2010s–2020s)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_1dbebaad",
@@ -5856,7 +6031,12 @@
       },
       "slurry_score": 0.64,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.5,
+      "counter_verdict": "mixed",
+      "counter_note": "Information barriers for AI safety echo compartmentalization and sandboxing from systems security; the framing as a safety mechanism is somewhat novel, but the underlying principle is decades old.",
+      "counter_rehash_of": "Sandboxing / compartmentalization in systems security",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_6dd3bc32",
@@ -5917,7 +6097,12 @@
       },
       "slurry_score": 0.646,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.35,
+      "counter_verdict": "rehash",
+      "counter_note": "Neural networks for control via indirect methods is a standard reinforcement learning / control theory application; this is not a convergence, just a known technique.",
+      "counter_rehash_of": "Reinforcement learning for control / indirect adaptive control (1990s–2010s)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_cde7c17e",
@@ -5989,7 +6174,12 @@
       },
       "slurry_score": 0.685,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.6,
+      "counter_verdict": "mixed",
+      "counter_note": "Oversight mechanisms for decision-critical moments is a real safety/interpretability concern in modern AI, but the concept of human-in-the-loop and checkpoints is from the 1980s–2000s; the novelty is in applying it to LLM/agentic systems.",
+      "counter_rehash_of": "Human-in-the-loop systems / interactive machine learning",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_faf0bad7",
@@ -6062,7 +6252,12 @@
       },
       "slurry_score": 0.661,
       "slurry_match": "AI agents are becoming increasingly autonomous and capable.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.4,
+      "counter_verdict": "rehash",
+      "counter_note": "Adaptive UI based on user preferences and interaction history is a standard personalization technique from web/mobile (2000s–2010s); adding a conversational agent frontend is application, not convergence.",
+      "counter_rehash_of": "Adaptive user interfaces / personalization systems",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_d538e84d",
@@ -6134,7 +6329,12 @@
       },
       "slurry_score": 0.658,
       "slurry_match": "The convergence of AI and robotics is accelerating.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.25,
+      "counter_verdict": "rehash",
+      "counter_note": "Modular, cost-effective robotic design is a longstanding engineering goal in robotics (2000s+); this is a generic industry trend, not a novel AI convergence pattern.",
+      "counter_rehash_of": "Modular robotics / cost optimization in hardware design",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_23b19f68",
@@ -6196,7 +6396,12 @@
       },
       "slurry_score": 0.696,
       "slurry_match": "Evaluation and benchmarking remain open challenges for generative AI.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.35,
+      "counter_verdict": "rehash",
+      "counter_note": "Benchmark design for AI evaluation is a core practice since the 1980s (MNIST, ImageNet, GLUE); 'real-world conditions' is a standard refinement, not a convergence.",
+      "counter_rehash_of": "Machine learning evaluation methodology, established since early ML",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_1ae1726f",
@@ -6257,7 +6462,12 @@
       },
       "slurry_score": 0.644,
       "slurry_match": "Reinforcement learning from human feedback is central to model alignment.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.55,
+      "counter_verdict": "mixed",
+      "counter_note": "Stratification in RL is a real technical contribution (layer-wise analysis, skill decomposition), but stratified analysis itself echoes hierarchical RL and curriculum learning from 2010s.",
+      "counter_rehash_of": "Hierarchical reinforcement learning, curriculum learning",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_3b274e0a",
@@ -6318,7 +6528,12 @@
       },
       "slurry_score": 0.604,
       "slurry_match": "Reinforcement learning from human feedback is central to model alignment.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.45,
+      "counter_verdict": "rehash",
+      "counter_note": "Self-calibration via cross-correlation is a rebranding of classical signal processing (sensor fusion, multi-view learning) applied to bias correction—not a new convergence.",
+      "counter_rehash_of": "Multi-view learning, sensor fusion, classical bias correction",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_8989165b",
@@ -6379,7 +6594,12 @@
       },
       "slurry_score": 0.707,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.25,
+      "counter_verdict": "rehash",
+      "counter_note": "RAG with dense retrieval, query reformulation, and reranking are standard IR techniques (BM25 → neural retrieval → learning-to-rank); the convergence is obvious application, not novel.",
+      "counter_rehash_of": "Information retrieval, learning-to-rank, neural IR (2015+)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_5ad5be18",
@@ -6441,7 +6661,12 @@
       },
       "slurry_score": 0.824,
       "slurry_match": "There is a shift toward multimodal AI systems.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.4,
+      "counter_verdict": "rehash",
+      "counter_note": "Multimodal fusion (vision + language) has been explored since 2014 (VQA, image captioning); current LLM+vision is engineering scale-up, not a new convergence pattern.",
+      "counter_rehash_of": "Multimodal learning, vision-language models (2014+)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_bd29729b",
@@ -6502,7 +6727,12 @@
       },
       "slurry_score": 0.706,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.2,
+      "counter_verdict": "rehash",
+      "counter_note": "Handling complex dependencies and dynamics is a generic statement applicable to any ML system; this is a platitude, not a specific convergence.",
+      "counter_rehash_of": "General machine learning problem statement",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_4e9a5b93",
@@ -6563,7 +6793,12 @@
       },
       "slurry_score": 0.683,
       "slurry_match": "Large language models are being integrated into more workflows.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.65,
+      "counter_verdict": "mixed",
+      "counter_note": "Compositional skill acquisition order during pretraining is a real focus (curriculum pretraining, skill ordering), but echoes curriculum learning and developmental psychology-inspired learning from 2010s.",
+      "counter_rehash_of": "Curriculum learning, developmental learning",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_33f01595",
@@ -6624,7 +6859,12 @@
       },
       "slurry_score": 0.841,
       "slurry_match": "There is a growing demand for robust and reliable AI solutions.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.5,
+      "counter_verdict": "mixed",
+      "counter_note": "NL-to-domain-query translation is a real applied problem, but semantic parsing and code generation have addressed this since 2010s; current framing is domain-specific application, not convergence.",
+      "counter_rehash_of": "Semantic parsing, code generation, NL-to-SQL",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_4fdb0833",
@@ -6685,7 +6925,12 @@
       },
       "slurry_score": 0.712,
       "slurry_match": "Large language models are being integrated into more workflows.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.45,
+      "counter_verdict": "rehash",
+      "counter_note": "Multimodal emotion/behavior recognition integrates vision, audio, text—standard multimodal fusion applied to affective computing, a field active since 2000s.",
+      "counter_rehash_of": "Multimodal learning, affective computing",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_4853123d",
@@ -6746,7 +6991,12 @@
       },
       "slurry_score": 0.662,
       "slurry_match": "Designing AI systems to assist human workflows rather than replace them.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.5,
+      "counter_verdict": "mixed",
+      "counter_note": "Procedural generation + physics-based algorithms + learned rules is a real systems integration approach, but each component (procedural gen, physics engines, neural nets) is established; the convergence is engineering-level.",
+      "counter_rehash_of": "Procedural content generation, physics simulation, neural-symbolic integration",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_17daf773",
@@ -6807,7 +7057,12 @@
       },
       "slurry_score": 0.771,
       "slurry_match": "There is a growing demand for advanced and robust AI tools and methodologies to handle complex tasks.",
-      "slurry_class": "marginal"
+      "slurry_class": "marginal",
+      "counter_novelty": 0.35,
+      "counter_verdict": "rehash",
+      "counter_note": "Applying generative models to animation and 3D reconstruction is a straightforward domain extension of existing generative techniques (GANs, diffusion models, NeRFs); the underlying convergence—generative AI + graphics—has been explored since 2016–2018.",
+      "counter_rehash_of": "Generative models for visual synthesis (GANs, neural rendering)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_7824eee7",
@@ -6872,7 +7127,12 @@
       },
       "slurry_score": 0.712,
       "slurry_match": "There is increasing interest in domain-specific AI applications.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.65,
+      "counter_verdict": "mixed",
+      "counter_note": "The observation that system-level optimization (batching, quantization, inference acceleration, hardware co-design) now dominates gains over raw model scaling is a genuinely important shift in the 2023–2024 era, but the idea that engineering matters as much as algorithms is not new—it echoes decades of systems research.",
+      "counter_rehash_of": "Systems optimization in ML (circa 2015–2020: TensorFlow, PyTorch optimization, hardware-aware ML)",
+      "curator_agreement": "contested"
     },
     {
       "id": "cp_2cf173fb",
@@ -6933,7 +7193,12 @@
       },
       "slurry_score": 0.729,
       "slurry_match": "There is increasing interest in domain-specific AI applications.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.4,
+      "counter_verdict": "rehash",
+      "counter_note": "Using AI tutoring systems and generative models for education is a direct application of existing chatbot/LLM technology to a known pedagogical practice (learning-by-teaching); no new convergence mechanism is identified.",
+      "counter_rehash_of": "Intelligent tutoring systems (1980s–2010s) + LLM chatbots (2022–present)",
+      "curator_agreement": "aligned_noise"
     },
     {
       "id": "cp_e461f75e",
@@ -6995,7 +7260,12 @@
       },
       "slurry_score": 0.656,
       "slurry_match": "Large language models are being integrated into more workflows.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.5,
+      "counter_verdict": "mixed",
+      "counter_note": "Natural language interfaces for autonomous vehicle control is a sensible application of LLMs to robotics, but the core idea—using language as a control abstraction—dates to early work on language grounding and semantic parsing (2010s); the novelty lies in scale and LLM capability, not the convergence itself.",
+      "counter_rehash_of": "Language grounding and semantic parsing for robotics (2010s)",
+      "curator_agreement": "neutral"
     },
     {
       "id": "cp_161be5e6",
@@ -7059,7 +7329,12 @@
       },
       "slurry_score": 0.721,
       "slurry_match": "Reinforcement learning from human feedback is central to model alignment.",
-      "slurry_class": "sharp"
+      "slurry_class": "sharp",
+      "counter_novelty": 0.25,
+      "counter_verdict": "rehash",
+      "counter_note": "Using ML models to assess skills is a generic application of classification/regression to a known problem (competency assessment, psychometrics); no novel convergence is described—this is standard supervised learning applied to an old domain.",
+      "counter_rehash_of": "Psychometric assessment + supervised learning (2000s–2010s)",
+      "curator_agreement": "aligned_noise"
     }
   ],
   "presupposition_registry": [],

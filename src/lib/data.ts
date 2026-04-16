@@ -74,6 +74,21 @@ export interface ConvergencePattern {
   slurry_score?: number;
   slurry_match?: string | null;
   slurry_class?: 'sharp' | 'marginal' | 'slurry';
+  // Counter-curator: a second, skeptic-taste evaluation by Haiku.
+  // "Is this genuinely novel, or a rebrand of an older idea?"
+  // novelty_rating: [0, 1] — higher = more genuinely new
+  // verdict: 'novel' | 'rehash' | 'mixed' | 'unclear'
+  // rehash_of: what older idea/field it echoes (if applicable)
+  // Agreement: alignment between base curator (CI+slurry) and counter:
+  //   aligned_signal — both say this is signal
+  //   aligned_noise  — both say this is noise
+  //   contested      — they disagree
+  //   neutral        — neither strongly signal nor noise
+  counter_novelty?: number;
+  counter_verdict?: 'novel' | 'rehash' | 'mixed' | 'unclear';
+  counter_note?: string;
+  counter_rehash_of?: string;
+  curator_agreement?: 'aligned_signal' | 'aligned_noise' | 'contested' | 'neutral';
 }
 
 export interface RPGProfile {
