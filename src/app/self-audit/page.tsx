@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getConvergencePatterns } from '@/lib/data';
 import { CuratorSpace } from '@/components/infographics/curator-space';
+import { loadOutcomeLedger, computeDrift, summarize } from '@/lib/outcome-ledger';
 
 export const revalidate = 14400;
 
@@ -50,6 +51,12 @@ export default function SelfAuditPage() {
   const meanNovelty = patternsWithNovelty.length > 0
     ? patternsWithNovelty.reduce((s, p) => s + (p.counter_novelty ?? 0), 0) / patternsWithNovelty.length
     : null;
+
+  // Outcome ledger — empirical pattern persistence tracking
+  const ledger = loadOutcomeLedger();
+  const drifts = ledger ? computeDrift(ledger) : [];
+  const outcomeStats = summarize(drifts);
+  const hasOutcomeData = outcomeStats.span_days > 0;
 
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8 text-zinc-300">
@@ -245,9 +252,57 @@ export default function SelfAuditPage() {
         </section>
       )}
 
+      {/* Outcome ledger — empirical pattern persistence */}
+      <section className="mb-12">
+        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">7 · Outcome ledger</h2>
+        <p className="text-sm text-zinc-400 mb-4 leading-relaxed">
+          Every pipeline run snapshots each pattern&apos;s state. Over time this produces an empirical record — not a curator&apos;s opinion about what&apos;s signal, but what actually happened to each pattern:
+          did its source count grow? Did its CI score decay? Did it survive to the next snapshot?
+        </p>
+        {hasOutcomeData ? (
+          <>
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-4">
+              <div className="p-3 border border-zinc-800 rounded bg-zinc-950">
+                <p className="text-[10px] font-mono text-zinc-500 uppercase mb-1">tracked</p>
+                <p className="text-xl font-mono text-zinc-200">{outcomeStats.total_patterns_tracked}</p>
+              </div>
+              <div className="p-3 border border-emerald-500/20 rounded bg-emerald-500/5">
+                <p className="text-[10px] font-mono text-emerald-400/70 uppercase mb-1">growing</p>
+                <p className="text-xl font-mono text-emerald-400">{outcomeStats.status_counts.growing}</p>
+              </div>
+              <div className="p-3 border border-zinc-700 rounded bg-zinc-900">
+                <p className="text-[10px] font-mono text-zinc-400/70 uppercase mb-1">stable</p>
+                <p className="text-xl font-mono text-zinc-300">{outcomeStats.status_counts.stable}</p>
+              </div>
+              <div className="p-3 border border-amber-500/20 rounded bg-amber-500/5">
+                <p className="text-[10px] font-mono text-amber-400/70 uppercase mb-1">decaying</p>
+                <p className="text-xl font-mono text-amber-400">{outcomeStats.status_counts.decaying}</p>
+              </div>
+              <div className="p-3 border border-red-500/20 rounded bg-red-500/5">
+                <p className="text-[10px] font-mono text-red-400/70 uppercase mb-1">died</p>
+                <p className="text-xl font-mono text-red-400">{outcomeStats.status_counts.died}</p>
+              </div>
+            </div>
+            <p className="text-xs text-zinc-500 leading-relaxed">
+              Survival rate: <span className="text-zinc-300">{(outcomeStats.survival_rate * 100).toFixed(1)}%</span> · Growth rate: <span className="text-emerald-400">{(outcomeStats.growth_rate * 100).toFixed(1)}%</span> · Spanning {outcomeStats.span_days} day{outcomeStats.span_days === 1 ? '' : 's'} from {outcomeStats.oldest_snapshot} to {outcomeStats.latest_snapshot}.
+            </p>
+          </>
+        ) : (
+          <div className="p-4 border border-zinc-800 rounded bg-zinc-950">
+            <p className="text-sm text-zinc-300 mb-2">
+              Day zero: {outcomeStats.total_patterns_tracked} patterns captured in the ledger on {outcomeStats.latest_snapshot ?? '—'}.
+            </p>
+            <p className="text-xs text-zinc-500 leading-relaxed">
+              Drift statistics (growing / decaying / died) need at least two snapshots to compute. Check back in 24 hours for the first drift row.
+              At 30 days we&apos;ll have enough data to see which patterns had staying power and which were ephemeral.
+            </p>
+          </div>
+        )}
+      </section>
+
       {/* What this means */}
       <section className="mb-12 p-5 border border-zinc-800 rounded bg-zinc-950">
-        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">7 · What this tells us</h2>
+        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">8 · What this tells us</h2>
         <ul className="text-sm text-zinc-300 space-y-3 leading-relaxed">
           <li>
             <strong className="text-zinc-200">The current pattern set carries heavy substrate from prior decades.</strong> Mean novelty is {meanNovelty?.toFixed(2) ?? '—'} out of 1.0.
