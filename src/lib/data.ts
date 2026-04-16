@@ -65,6 +65,15 @@ export interface ConvergencePattern {
       frame: string;
     }>;
   };
+  // Slurry test: cosine similarity to a bank of generic AI-trend phrases.
+  // Higher = closer to what any LLM would say about "AI trends right now."
+  //   sharp    < 0.75
+  //   marginal 0.75 – 0.85
+  //   slurry   ≥ 0.85  (pattern is indistinguishable from generic summary)
+  // Computed by trenddistill/src/services/slurryTest.ts.
+  slurry_score?: number;
+  slurry_match?: string | null;
+  slurry_class?: 'sharp' | 'marginal' | 'slurry';
 }
 
 export interface RPGProfile {
@@ -130,7 +139,16 @@ export function getConvergencePatterns(): ConvergencePattern[] {
     path.join(CI_BASE, 'convergence.json')
   );
   if (!data?.patterns) return [];
-  return data.patterns.sort((a, b) => b.ci_score - a.ci_score);
+  // Primary sort: slurry_class (sharp < marginal < slurry).
+  // Secondary: ci_score descending. Generic-sounding labels get de-ranked
+  // without being hidden — they still appear, just below distinctive ones.
+  const rank: Record<string, number> = { sharp: 0, marginal: 1, slurry: 2 };
+  return data.patterns.sort((a, b) => {
+    const ra = rank[a.slurry_class ?? 'sharp'] ?? 0;
+    const rb = rank[b.slurry_class ?? 'sharp'] ?? 0;
+    if (ra !== rb) return ra - rb;
+    return b.ci_score - a.ci_score;
+  });
 }
 
 export function getConvergencePattern(id: string): ConvergencePattern | null {

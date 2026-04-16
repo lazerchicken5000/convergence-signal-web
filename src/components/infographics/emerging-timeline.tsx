@@ -8,6 +8,9 @@ interface EmergingTimelineProps {
   selectedId: string | null;
   height?: number;
   onSelect?: (id: string) => void;
+  /** lowercase label → slurry classification. Slurry = pattern label is
+   *  indistinguishable from generic LLM "AI trends right now" output. */
+  slurryMap?: Record<string, 'sharp' | 'marginal' | 'slurry'>;
 }
 
 interface TimelineItem {
@@ -19,9 +22,10 @@ interface TimelineItem {
   delta?: number;
   ageDays?: number;
   creatorCount?: number;
+  slurry?: 'sharp' | 'marginal' | 'slurry';
 }
 
-export function EmergingTimeline({ diff, selectedId, height = 480, onSelect }: EmergingTimelineProps) {
+export function EmergingTimeline({ diff, selectedId, height = 480, onSelect, slurryMap = {} }: EmergingTimelineProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animRef = useRef<number>(0);
   // Store rendered node positions for hit testing
@@ -46,17 +50,20 @@ export function EmergingTimeline({ diff, selectedId, height = 480, onSelect }: E
     // Build timeline items
     const items: TimelineItem[] = [];
 
+    const lookupSlurry = (label: string): 'sharp' | 'marginal' | 'slurry' | undefined =>
+      slurryMap[label.toLowerCase().trim()];
+
     for (const p of diff.new_patterns) {
-      items.push({ id: p.lineage_id, label: p.label, type: 'new', ci: p.ci_score, creatorCount: p.creator_count });
+      items.push({ id: p.lineage_id, label: p.label, type: 'new', ci: p.ci_score, creatorCount: p.creator_count, slurry: lookupSlurry(p.label) });
     }
     for (const p of diff.accelerating) {
-      items.push({ id: p.lineage_id, label: p.label, type: 'accelerating', ci: p.ci_after, ciPrev: p.ci_before, delta: p.delta });
+      items.push({ id: p.lineage_id, label: p.label, type: 'accelerating', ci: p.ci_after, ciPrev: p.ci_before, delta: p.delta, slurry: lookupSlurry(p.label) });
     }
     for (const p of diff.decaying || []) {
-      items.push({ id: p.lineage_id, label: p.label, type: 'fading', ci: p.ci_after, ciPrev: p.ci_before, delta: p.delta });
+      items.push({ id: p.lineage_id, label: p.label, type: 'fading', ci: p.ci_after, ciPrev: p.ci_before, delta: p.delta, slurry: lookupSlurry(p.label) });
     }
     for (const p of diff.died || []) {
-      items.push({ id: p.lineage_id, label: p.label, type: 'noise', ci: p.last_ci, ageDays: p.age_days });
+      items.push({ id: p.lineage_id, label: p.label, type: 'noise', ci: p.last_ci, ageDays: p.age_days, slurry: lookupSlurry(p.label) });
     }
 
     const TYPE_COLORS: Record<string, [number, number, number]> = {
@@ -231,11 +238,37 @@ export function EmergingTimeline({ diff, selectedId, height = 480, onSelect }: E
             ctx.fill();
           }
 
+          // Slurry dimming: if the pattern matches generic "AI trends" phrasing,
+          // dim it toward zinc-gray so the eye deprioritizes it. Transparent
+          // signaling — the node stays clickable, we just flag it visually.
+          const isSlurry = item.slurry === 'slurry';
+          const isMarginal = item.slurry === 'marginal';
+          const baseAlpha = isSlurry ? 0.22 : isMarginal ? 0.42 : 0.6;
+          const selAlpha  = isSlurry ? 0.45 : isMarginal ? 0.7  : 0.9;
+
           // Node
           ctx.beginPath();
           ctx.arc(x, y, nodeSize * et, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${(isSelected ? 0.9 : 0.6) * et})`;
+          if (isSlurry) {
+            // Override color with zinc gray for slurry — visual cue that this
+            // lives in the generic-summary cluster, not the sharp-signal one.
+            ctx.fillStyle = `rgba(161, 161, 170, ${(isSelected ? selAlpha : baseAlpha) * et})`;
+          } else {
+            ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${(isSelected ? selAlpha : baseAlpha) * et})`;
+          }
           ctx.fill();
+
+          // Slurry ring: small red outline around the node so it's recognizable
+          // even when not selected. Shows the system is honest about its noisy output.
+          if (isSlurry) {
+            ctx.beginPath();
+            ctx.arc(x, y, nodeSize * et + 2, 0, Math.PI * 2);
+            ctx.strokeStyle = `rgba(239, 68, 68, ${0.5 * et})`;
+            ctx.lineWidth = 1;
+            ctx.setLineDash([2, 2]);
+            ctx.stroke();
+            ctx.setLineDash([]);
+          }
 
           if (isSelected) {
             ctx.strokeStyle = `rgba(255, 255, 255, ${0.4 * et})`;
@@ -278,7 +311,22 @@ export function EmergingTimeline({ diff, selectedId, height = 480, onSelect }: E
             // Extra info
             ly += 16;
             ctx.font = '8px ui-monospace, monospace';
-            ctx.fillStyle = `rgba(161, 161, 170, ${0.4 * lAlpha})`;
+
+            // Slurry flag — explicit, in red, above the rest of the metadata
+            if (item.slurry === 'slurry') {
+              ctx.fillStyle = `rgba(239, 68, 68, ${0.75 * lAlpha})`;
+              ctx.fillText('⚠ generic phrasing — low novelty', x, ly);
+              ly += 11;
+              ctx.fillStyle = `rgba(161, 161, 170, ${0.4 * lAlpha})`;
+            } else if (item.slurry === 'marginal') {
+              ctx.fillStyle = `rgba(245, 158, 11, ${0.5 * lAlpha})`;
+              ctx.fillText('marginal phrasing', x, ly);
+              ly += 11;
+              ctx.fillStyle = `rgba(161, 161, 170, ${0.4 * lAlpha})`;
+            } else {
+              ctx.fillStyle = `rgba(161, 161, 170, ${0.4 * lAlpha})`;
+            }
+
             if (item.creatorCount) ctx.fillText(`${item.creatorCount} sources`, x, ly);
             if (item.delta) ctx.fillText(`delta: ${item.delta > 0 ? '+' : ''}${item.delta.toFixed(3)}`, x, ly);
             if (item.ageDays) ctx.fillText(`${item.ageDays}d tracked`, x, ly);
@@ -294,9 +342,12 @@ export function EmergingTimeline({ diff, selectedId, height = 480, onSelect }: E
         ctx.fillStyle = `rgba(113, 113, 122, ${0.4 * tAlpha})`;
         ctx.fillText(`${diff.date} vs ${diff.previous_date}`, marginLeft, H - 12);
 
+        const slurryCount = items.filter(i => i.slurry === 'slurry').length;
+        const slurryTag = slurryCount > 0 ? ` · ${slurryCount} slurry` : '';
+
         ctx.textAlign = 'right';
         ctx.fillText(
-          `${diff.new_patterns.length} new · ${diff.accelerating.length} accel · ${diff.died?.length ?? 0} noise`,
+          `${diff.new_patterns.length} new · ${diff.accelerating.length} accel · ${diff.died?.length ?? 0} noise${slurryTag}`,
           W - marginRight, H - 12
         );
       }
@@ -311,7 +362,7 @@ export function EmergingTimeline({ diff, selectedId, height = 480, onSelect }: E
     draw();
 
     return () => cancelAnimationFrame(animRef.current);
-  }, [diff, selectedId]);
+  }, [diff, selectedId, slurryMap]);
 
   // Hit test helper: find which node the mouse is over
   function hitTest(e: React.MouseEvent<HTMLCanvasElement>): string | null {

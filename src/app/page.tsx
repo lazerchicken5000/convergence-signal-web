@@ -22,6 +22,13 @@ export default function DashboardPage() {
   const aggStats = getAggregateStats();
   const auditsByPattern = getAuditsByPattern();
   const lineageLabelMap = Object.fromEntries(buildLineageLabelMap());
+  // Slurry map: lowercase label → 'sharp' | 'marginal' | 'slurry'.
+  // Computed by trenddistill's backfill-slurry script. Missing entries
+  // (e.g. diff labels that don't match any pattern) default to 'sharp'.
+  const slurryMap: Record<string, 'sharp' | 'marginal' | 'slurry'> = {};
+  for (const p of patterns) {
+    if (p.slurry_class) slurryMap[p.label.toLowerCase().trim()] = p.slurry_class;
+  }
   // Pre-compute data for all patterns
   const patternData = patterns.slice(0, 20).map(p => ({
     pattern: p,
@@ -96,6 +103,7 @@ export default function DashboardPage() {
         sourceRankings={getSourceRankings()}
         auditsByPattern={auditsByPattern}
         lineageLabelMap={lineageLabelMap}
+        slurryMap={slurryMap}
       />
 
 

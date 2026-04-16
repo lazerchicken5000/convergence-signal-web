@@ -52,6 +52,10 @@ interface DashboardBodyProps {
   /** Maps lowercase pattern label → cp_* pattern ID. Used to resolve
    *  diff lineage_ids (pl_*) to real pattern page URLs. */
   lineageLabelMap?: Record<string, string>;
+  /** Maps lowercase pattern label → slurry classification. Slurry = label
+   *  is indistinguishable from generic "AI trends right now" LLM output.
+   *  Used by emerging-timeline to visually flag/de-rank noisy patterns. */
+  slurryMap?: Record<string, 'sharp' | 'marginal' | 'slurry'>;
 }
 
 /** Resolve a diff item's label to a /pattern/cp_* URL, or null if no match */
@@ -67,7 +71,7 @@ function ciColor(score: number) {
   return 'text-zinc-500';
 }
 
-export function DashboardBody({ patternData, leaderData, diff, totalPatterns, totalLeaders, scorecard, efficiency, sourceRankings, auditsByPattern = {}, lineageLabelMap = {} }: DashboardBodyProps) {
+export function DashboardBody({ patternData, leaderData, diff, totalPatterns, totalLeaders, scorecard, efficiency, sourceRankings, auditsByPattern = {}, lineageLabelMap = {}, slurryMap = {} }: DashboardBodyProps) {
   const [tab, setTab] = useState<Tab>('signal');
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showSynthesis, setShowSynthesis] = useState(false);
@@ -122,7 +126,10 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
 
         {/* Rows */}
         <div className="overflow-y-auto flex-1">
-          {tab === 'signal' && patternData.map((p, i) => (
+          {tab === 'signal' && patternData.map((p, i) => {
+            const isSlurry = p.pattern.slurry_class === 'slurry';
+            const isMarginal = p.pattern.slurry_class === 'marginal';
+            return (
             <button
               key={p.pattern.id}
               onClick={() => handleSelect(p.pattern.id)}
@@ -130,7 +137,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                 effectiveSelectedId === p.pattern.id
                   ? 'bg-zinc-800/60 border-l-2 border-l-white'
                   : 'hover:bg-zinc-800/30 border-l-2 border-l-transparent'
-              }`}
+              } ${isSlurry ? 'opacity-60' : ''}`}
             >
               <div className="flex items-center gap-2.5">
                 <span className="text-xs font-mono text-zinc-600 w-5 text-right shrink-0">{i + 1}</span>
@@ -146,13 +153,15 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                     <span className={`text-xs font-mono font-bold ${ciColor(p.pattern.ci_score)}`}>
                       {p.pattern.ci_score.toFixed(2)}
                     </span>
+                    {isSlurry && <span className="text-[10px] px-1 rounded border border-red-500/30 text-red-400/80 bg-red-500/5" title="Label sits close to generic AI-trend phrasing. Low novelty.">slurry</span>}
+                    {isMarginal && <span className="text-[10px] px-1 rounded border border-amber-500/20 text-amber-400/70 bg-amber-500/5" title="Label sits between generic and distinctive phrasing.">marginal</span>}
                   </div>
                   <p className="text-sm text-zinc-300 truncate leading-snug">{p.pattern.label}</p>
                   <p className="text-xs text-zinc-600 mt-0.5">{p.pattern.creator_ids.length} sources</p>
                 </div>
               </div>
             </button>
-          ))}
+          );})}
 
           {tab === 'leaders' && leaderData.map((l, i) => (
             <button
@@ -184,7 +193,17 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
 
           {tab === 'emerging' && (
             <>
-              {diff?.new_patterns.slice().sort((a, b) => b.ci_score - a.ci_score).map(p => (
+              {/* Sort: sharp first, then marginal, then slurry — within each by CI desc. Transparent ordering. */}
+              {diff?.new_patterns.slice().sort((a, b) => {
+                const sa = slurryMap[a.label.toLowerCase().trim()] ?? 'sharp';
+                const sb = slurryMap[b.label.toLowerCase().trim()] ?? 'sharp';
+                const rank = { sharp: 0, marginal: 1, slurry: 2 } as const;
+                if (rank[sa] !== rank[sb]) return rank[sa] - rank[sb];
+                return b.ci_score - a.ci_score;
+              }).map(p => {
+                const slurryClass = slurryMap[p.label.toLowerCase().trim()];
+                const isSlurry = slurryClass === 'slurry';
+                return (
                 <button
                   key={p.lineage_id}
                   onClick={() => handleSelect(p.lineage_id)}
@@ -192,7 +211,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                     selectedId === p.lineage_id
                       ? 'bg-zinc-800/60 border-l-2 border-l-white'
                       : 'hover:bg-zinc-800/30 border-l-2 border-l-transparent'
-                  }`}
+                  } ${isSlurry ? 'opacity-60' : ''}`}
                 >
                   <div className="flex items-start gap-2.5">
                     <span className="text-xs px-1.5 rounded border border-emerald-500/30 text-emerald-400 bg-emerald-500/5 shrink-0 mt-0.5">new</span>
@@ -201,12 +220,14 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                       <div className="flex items-center gap-2 mt-1">
                         <span className="font-mono text-xs text-emerald-400">{p.ci_score.toFixed(2)}</span>
                         <span className="text-[10px] text-zinc-600">{p.creator_count} sources</span>
+                        {isSlurry && <span className="text-[10px] px-1 rounded border border-red-500/30 text-red-400/80 bg-red-500/5" title="Label sits close to generic AI-trend phrasing. Low novelty.">slurry</span>}
+                        {slurryClass === 'marginal' && <span className="text-[10px] px-1 rounded border border-amber-500/20 text-amber-400/70 bg-amber-500/5" title="Label sits between generic and distinctive phrasing.">marginal</span>}
                         {resolvePatternUrl(p.label, lineageLabelMap) && <a href={resolvePatternUrl(p.label, lineageLabelMap)!} onClick={e => e.stopPropagation()} className="text-[10px] text-zinc-600 hover:text-zinc-400">view →</a>}
                       </div>
                     </div>
                   </div>
                 </button>
-              ))}
+              );})}
               {diff?.accelerating.slice().sort((a, b) => b.ci_after - a.ci_after).map(p => (
                 <button
                   key={p.lineage_id}
@@ -561,7 +582,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
           <div>
             <div className="border-b border-zinc-800 overflow-x-auto [&::-webkit-scrollbar]{height:6px} [&::-webkit-scrollbar-track]{background:#09090b} [&::-webkit-scrollbar-thumb]{background:#27272a;border-radius:3px}">
               <div className="min-w-[800px]">
-                <EmergingTimeline diff={diff} selectedId={selectedId} height={320} onSelect={handleSelect} />
+                <EmergingTimeline diff={diff} selectedId={selectedId} height={320} onSelect={handleSelect} slurryMap={slurryMap} />
               </div>
             </div>
 
