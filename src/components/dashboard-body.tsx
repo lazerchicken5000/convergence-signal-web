@@ -129,6 +129,9 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
           {tab === 'signal' && patternData.map((p, i) => {
             const isSlurry = p.pattern.slurry_class === 'slurry';
             const isMarginal = p.pattern.slurry_class === 'marginal';
+            const agreement = p.pattern.curator_agreement;
+            // Contested = base curator and skeptic disagree. Visual amber cue.
+            const isContested = agreement === 'contested';
             return (
             <button
               key={p.pattern.id}
@@ -142,7 +145,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
               <div className="flex items-center gap-2.5">
                 <span className="text-xs font-mono text-zinc-600 w-5 text-right shrink-0">{i + 1}</span>
                 <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-1.5 mb-0.5">
+                  <div className="flex items-center gap-1.5 mb-0.5 flex-wrap">
                     <Badge variant="outline" className={`text-[10px] px-1.5 py-0 ${
                       p.pattern.convergence_type === 'solution' ? 'border-emerald-500/30 text-emerald-400' :
                       p.pattern.convergence_type === 'problem' ? 'border-red-500/30 text-red-400' :
@@ -155,6 +158,8 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                     </span>
                     {isSlurry && <span className="text-[10px] px-1 rounded border border-red-500/30 text-red-400/80 bg-red-500/5" title="Label sits close to generic AI-trend phrasing. Low novelty.">slurry</span>}
                     {isMarginal && <span className="text-[10px] px-1 rounded border border-amber-500/20 text-amber-400/70 bg-amber-500/5" title="Label sits between generic and distinctive phrasing.">marginal</span>}
+                    {isContested && <span className="text-[10px] px-1 rounded border border-amber-500/40 text-amber-300 bg-amber-500/10" title="Base curator and counter-curator disagree. Worth a human reading.">contested</span>}
+                    {p.pattern.counter_verdict === 'novel' && <span className="text-[10px] px-1 rounded border border-emerald-500/30 text-emerald-400/80 bg-emerald-500/5" title="Counter-curator rated this as genuinely novel.">novel</span>}
                   </div>
                   <p className="text-sm text-zinc-300 truncate leading-snug">{p.pattern.label}</p>
                   <p className="text-xs text-zinc-600 mt-0.5">{p.pattern.creator_ids.length} sources</p>
