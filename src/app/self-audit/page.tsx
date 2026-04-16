@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getConvergencePatterns } from '@/lib/data';
+import { CuratorSpace } from '@/components/infographics/curator-space';
 
 export const revalidate = 14400;
 
@@ -138,9 +139,33 @@ export default function SelfAuditPage() {
         </p>
       </section>
 
+      {/* Curator-space scatter */}
+      <section className="mb-12">
+        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">3 · Curator-space map</h2>
+        <p className="text-sm text-zinc-400 mb-4 leading-relaxed">
+          Every pattern plotted in <em>base-curator × counter-curator</em> space. X = CI score. Y = novelty rating. Click a point to see the pattern.
+          The top-right quadrant is where both curators agree there&apos;s signal. The bottom-right is contested — base says signal, skeptic says rehash.
+          If the cloud drifts toward the bottom-left over time, that&apos;s the slurry problem getting worse.
+        </p>
+        <div className="border border-zinc-800 rounded bg-zinc-950/50 p-2">
+          <CuratorSpace
+            points={patterns.map(p => ({
+              id: p.id,
+              label: p.label,
+              ci: p.ci_score,
+              novelty: p.counter_novelty ?? 0.5,
+              slurry: p.slurry_class ?? null,
+              agreement: p.curator_agreement ?? null,
+              verdict: p.counter_verdict ?? null,
+            }))}
+            height={420}
+          />
+        </div>
+      </section>
+
       {/* Agreement */}
       <section className="mb-12">
-        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">3 · Curator agreement</h2>
+        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">4 · Curator agreement</h2>
         <p className="text-sm text-zinc-400 mb-4 leading-relaxed">
           Cross-referencing the base curator&apos;s score with the counter-curator&apos;s verdict yields four buckets:
         </p>
@@ -164,7 +189,7 @@ export default function SelfAuditPage() {
       {/* Contested patterns — the interesting set */}
       {contested.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">4 · Contested patterns</h2>
+          <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">5 · Contested patterns</h2>
           <p className="text-sm text-zinc-400 mb-4 leading-relaxed">
             {contested.length} patterns where the base curator and the skeptic disagree. These are the ones you should read most carefully —
             they either represent genuine recombinations the skeptic undersells, or they represent base-curator over-confidence.
@@ -199,7 +224,7 @@ export default function SelfAuditPage() {
       {/* Top rehashes with antecedents */}
       {rehashes.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">5 · Named antecedents</h2>
+          <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">6 · Named antecedents</h2>
           <p className="text-sm text-zinc-400 mb-4 leading-relaxed">
             For patterns the skeptic flags as rehash, it names the older idea they echo. This isn&apos;t a dismissal — it&apos;s context.
             A pattern can still be important to track even if it&apos;s a rediscovery.
@@ -222,7 +247,7 @@ export default function SelfAuditPage() {
 
       {/* What this means */}
       <section className="mb-12 p-5 border border-zinc-800 rounded bg-zinc-950">
-        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">6 · What this tells us</h2>
+        <h2 className="text-sm font-mono text-zinc-400 uppercase tracking-wider mb-3">7 · What this tells us</h2>
         <ul className="text-sm text-zinc-300 space-y-3 leading-relaxed">
           <li>
             <strong className="text-zinc-200">The current pattern set carries heavy substrate from prior decades.</strong> Mean novelty is {meanNovelty?.toFixed(2) ?? '—'} out of 1.0.
