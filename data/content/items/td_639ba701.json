@@ -1,0 +1,39 @@
+{
+  "id": "td_639ba701",
+  "source": "arxiv",
+  "source_id": "2604.15306",
+  "source_url": "https://arxiv.org/abs/2604.15306",
+  "content_type": "paper",
+  "creator": {
+    "id": "yao_tong",
+    "name": "Yao Tong",
+    "handle": "Yao Tong, Jiayuan Ye, Anastasia Borovykh, Reza Shokri",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Generalization in LLM Problem Solving: The Case of the Shortest Path",
+  "body_text": "Generalization in LLM Problem Solving: The Case of the Shortest Path\n\nWhether language models can systematically generalize remains actively debated. Yet empirical performance is jointly shaped by multiple factors such as training data, training paradigms, and inference-time strategies, making failures difficult to interpret. We introduce a controlled synthetic environment based on shortest-path planning, a canonical composable sequential optimization problem. The setup enables clean separation of these factors and supports two orthogonal axes of generalization: spatial transfer to unseen maps and length scaling to longer-horizon problems. We find that models exhibit strong spatial transfer but consistently fail under length scaling due to recursive instability. We further analyze how distinct stages of the learning pipeline influence systematic problem-solving: for example, data coverage sets capability limits; reinforcement learning improves training stability but does not expand those limits; and inference-time scaling enhances performance but cannot rescue length-scaling failures.\n\nAuthors: Yao Tong, Jiayuan Ye, Anastasia Borovykh, Reza Shokri\nCategories: cs.AI, cs.LG, cs.AI",
+  "word_count": 133,
+  "published_at": "2026-04-16T17:59:43Z",
+  "ingested_at": "2026-04-17T11:03:30.995Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

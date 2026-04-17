@@ -1,0 +1,38 @@
+{
+  "id": "td_4c3f7984",
+  "source": "arxiv",
+  "source_id": "2604.15297",
+  "source_url": "https://arxiv.org/abs/2604.15297",
+  "content_type": "paper",
+  "creator": {
+    "id": "yury_gorishniy",
+    "name": "Yury Gorishniy",
+    "handle": "Yury Gorishniy, Ivan Rubachev, Dmitrii Feoktistov, Artem Babenko",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Benchmarking Optimizers for MLPs in Tabular Deep Learning",
+  "body_text": "Benchmarking Optimizers for MLPs in Tabular Deep Learning\n\nMLP is a heavily used backbone in modern deep learning (DL) architectures for supervised learning on tabular data, and AdamW is the go-to optimizer used to train tabular DL models. Unlike architecture design, however, the choice of optimizer for tabular DL has not been examined systematically, despite new optimizers showing promise in other domains. To fill this gap, we benchmark \\Noptimizers optimizers on \\Ndatasets tabular datasets for training MLP-based models in the standard supervised learning setting under a shared experiment protocol. Our main finding is that the Muon optimizer consistently outperforms AdamW, and thus should be considered a strong and practical choice for practitioners and researchers, if the associated training efficiency overhead is affordable. Additionally, we find exponential moving average of model weights to be a simple yet effective technique that improves AdamW on vanilla MLPs, though its effect is less consistent across model variants.\n\nAuthors: Yury Gorishniy, Ivan Rubachev, Dmitrii Feoktistov, Artem Babenko\nCategories: cs.LG, cs.LG",
+  "word_count": 145,
+  "published_at": "2026-04-16T17:57:02Z",
+  "ingested_at": "2026-04-17T11:03:39.368Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

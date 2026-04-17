@@ -1,0 +1,38 @@
+{
+  "id": "td_eddcdc43",
+  "source": "arxiv",
+  "source_id": "2604.15289",
+  "source_url": "https://arxiv.org/abs/2604.15289",
+  "content_type": "paper",
+  "creator": {
+    "id": "yunfu_deng",
+    "name": "Yunfu Deng",
+    "handle": "Yunfu Deng, Yuhao Li, Josiah P. Hanna",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Abstract Sim2Real through Approximate Information States",
+  "body_text": "Abstract Sim2Real through Approximate Information States\n\nIn recent years, reinforcement learning (RL) has shown remarkable success in robotics when a fast and accurate simulator is available for a given task. When using RL and simulation, more simulator realism is generally beneficial but becomes harder to obtain as robots are deployed in increasingly complex and widescale domains. In such settings, simulators will likely fail to model all relevant details of a given target task and this observation motivates the study of sim2real with simulators that leave out key task details. In this paper, we formalize and study the abstract sim2real problem: given an abstract simulator that models a target task at a coarse level of abstraction, how can we train a policy with RL in the abstract simulator and successfully transfer it to the real-world? Our first contribution is to formalize this problem using the language of state abstraction from the RL literature. This framing shows that an abstract simulator can be grounded to match the target task if the grounded abstract dynamics take the history of states into account. Based on the formalism, we then introduce a method that uses real-world task data to correct the dynamics of the abstract simulator. We then show that this method enables successful policy transfer both in sim2sim and sim2real evaluation.\n\nAuthors: Yunfu Deng, Yuhao Li, Josiah P. Hanna\nCategories: cs.RO, cs.RO",
+  "word_count": 211,
+  "published_at": "2026-04-16T17:53:16Z",
+  "ingested_at": "2026-04-17T11:03:51.598Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

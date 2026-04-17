@@ -1,0 +1,39 @@
+{
+  "id": "td_6a999f8f",
+  "source": "arxiv",
+  "source_id": "2604.15273",
+  "source_url": "https://arxiv.org/abs/2604.15273",
+  "content_type": "paper",
+  "creator": {
+    "id": "nouhaila_innan",
+    "name": "Nouhaila Innan",
+    "handle": "Nouhaila Innan, Antonello Rosato, Alberto Marchisio, Muhammad Shafique",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "How Embeddings Shape Graph Neural Networks: Classical vs Quantum-Oriented Node Representations",
+  "body_text": "How Embeddings Shape Graph Neural Networks: Classical vs Quantum-Oriented Node Representations\n\nNode embeddings act as the information interface for graph neural networks, yet their empirical impact is often reported under mismatched backbones, splits, and training budgets. This paper provides a controlled benchmark of embedding choices for graph classification, comparing classical baselines with quantum-oriented node representations under a unified pipeline. We evaluate two classical baselines alongside quantum-oriented alternatives, including a circuit-defined variational embedding and quantum-inspired embeddings computed via graph operators and linear-algebraic constructions. All variants are trained and tested with the same backbone, stratified splits, identical optimization and early stopping, and consistent metrics. Experiments on five different TU datasets and on QM9 converted to classification via target binning show clear dataset dependence: quantum-oriented embeddings yield the most consistent gains on structure-driven benchmarks, while social graphs with limited node attributes remain well served by classical baselines. The study highlights practical trade-offs between inductive bias, trainability, and stability under a fixed training budget, and offers a reproducible reference point for selecting quantum-oriented embeddings in graph learning.\n\nAuthors: Nouhaila Innan, Antonello Rosato, Alberto Marchisio, Muhammad Shafique\nCategories: cs.LG, quant-ph, cs.LG",
+  "word_count": 162,
+  "published_at": "2026-04-16T17:45:24Z",
+  "ingested_at": "2026-04-17T11:03:39.369Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "quant-ph",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

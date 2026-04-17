@@ -1,0 +1,35 @@
+{
+  "id": "td_5cd5c1f8",
+  "source": "youtube",
+  "source_id": "piah4fV_o2Q",
+  "source_url": "https://www.youtube.com/watch?v=piah4fV_o2Q",
+  "content_type": "video",
+  "creator": {
+    "id": "fireship",
+    "name": "Fireship",
+    "handle": "Fireship",
+    "platform": "youtube",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Millions of WordPress sites just got hacked... again",
+  "body_text": "Eight months ago, some galaxyrained hacker quietly penetrated the back door of more than 30 WordPress plugins, and no one noticed until now. Somehow, this massive collection of different WordPress plugins for silly UI updates was instantly turned into malware with a crazy supply chain attack. That means one minute your countdown timer ultimate plugin is converting sales on your website, then the next minute it becomes a remote control demon on your server that steals all your data and leaks photos of your wife's boyfriend to the Kiwi Farms. WordPress remains the most popular website builder in the world, but many people have argued that WordPress's plug-in architecture is fundamentally insecure and a brand new slot fork has emerged to replace it. In today's video, we'll find out how the latest brutal exploit occurred and take a look at this new project from Cloudflare that hopes to terminate WordPress from the timeline. It is April 16th, 2026, and you're watching the code report. I actually love WordPress and have built many failed side projects with it, but the WordPress ecosystem has experienced a wild couple of years. Its founder, Matt Mullenweg, spurred out on private equity last year because the Silver Lake owned WP Engine was drinking his milkshake by making money hosting WordPress. So, naturally, he demanded that they pay him 8% of their revenue for using his logo. Now, as you all know, I'm a huge fan of private equity because they make every product better, like Hooters, for example. But WP Engine refused to pay the king as royalty. that made Mullenweg spur out even harder and he said a bunch of stuff that eventually led to WP Engine filing a defamation lawsuit against him. They're still fighting each other in court to this day and the lore goes way deeper. But the bigger problem for WordPress is that it's been experiencing a wave of new vulnerabilities and 96% of those are a direct result of its plug-in system. The core problem is that a WordPress plug-in is basically just a PHP script that plugs straight into your site and starts running with full privileges. There's no sandbox or isolation. It can touch your database, your files, and your private parts. And when you install a plugin, you're basically just hoping a stranger knows how to handle every edge case, exploit, and bad input perfectly. What's crazy, though, is that this most recent attack on 31 WordPress plugins was actually not the result of bad code. >> It's not your fault. >> It was something far scarier. In this case, the attacker didn't exploit a vulnerability. Instead, they legitimately acquired and took control of a portfolio of plugins by simply purchasing them for money from the original developer on Flippa in a deal with the sales price estimated to be in the mid6 figures. After the original developer was bought out, the new buyer had control of the code and they inserted a back door about 8 months ago and it's just been sitting there dormant in production waiting for the right moment. Then when the moment was right, the malicious logic activated which reached out to a remote server, pulled down additional payloads and in some cases modified core files like wpconfig.php which includes sensitive data like your database connection and security keys. And apparently the command and control domain was resolved through an Ethereum smart contract. So once the exploit became known, the attacker could quickly update the smart contract to point to a new domain at any time. That's pretty clever. But the core issue here is that everything was delivered through a normal plug-in update from a trusted source. And so it bypassed the usual suspicion of a normal fishing attack. And now WordPress did step in and remove the plugins. But damage was already done inside the system. It turning what looked like routine maintenance into a full-blown supply chain compromise. Luckily though, if you're considering using WordPress today, Cloudflare recently created a new project called Mdash, which takes all that old crappy PHP code and turns it into something even crappier, AI written JavaScript code. This project actually doesn't use any original WordPress code and is MIT licensed, but it's designed to be fully compatible with the original WordPress APIs. And under the hood, it's based on the awesome Astro project for its content management system. What makes this project special though is that it doesn't let plugins run wild with full access. Mdash locks each plugin down in its own sandbox with a dynamic worker. The framework itself doesn't hand over your data directly. Instead, the plug-in only gets access to specific capabilities through bindings and only if it explicitly asks for them in the manifest. It's kind of like telling the plugin, \"No, no, don't touch me there. This is my no square.\" Pretty cool, but will mdash actually kill WordPress once and for all? The answer is probably not. and definitely not anytime soon. But the craziest thing to me is how quickly developers can roll out complete replacements for frameworks that have been around forever. And that's made possible by modern AI coding tools like Warp, the sponsor of today's video. If you're viaxing with Claude Code, Codeex, Gemini CLI, and Open Code at the same time, but keep losing track of all your agents, you need to check out Warp's new universal agent support, which turns your terminal into an agent command center. Vertical tabs let you group your agent sessions together and quickly see useful metadata like get branch, work tree, and pull request status, which means your terminal finally has object permanence. And the tab configs let you save your ideal setup and reopen it instantly in the future. The best part though is that you can get notifications from your coding agents in Warp and on your desktop whenever they need attention instead of checking on them every 30 seconds like a helicopter parent. So, if you already have an agent you like or you want to try running multiple agents at once, I'd highly recommend checking out Warp for free at the link below. But this has been the Code Report. Thanks for watching and I will see you in the next one.",
+  "word_count": 1052,
+  "published_at": "2026-04-17T11:01:36.063Z",
+  "ingested_at": "2026-04-17T11:01:36.063Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": 317,
+  "distilled": true,
+  "discourse_format": "video_lecture",
+  "cited_creator_ids": []
+}

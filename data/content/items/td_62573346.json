@@ -1,0 +1,35 @@
+{
+  "id": "td_62573346",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+  "body_text": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic.\r\nHere's the Qwen 3.6 pelican, generated using this 20.9GB Qwen3.6-35B-A3B-UD-Q4_K_S.gguf quantized model by Unsloth, running on my MacBook Pro M5 via LM Studio (and the llm-lmstudio plugin) - transcript here:\r\n\r\nAnd here's one I got from Anthropic's brand new Claude Opus 4.7 (transcript):\r\n\r\nI'm giving this one to Qwen 3.6. Opus managed to mess up the bicycle frame!\r\nI tried Opus a second time passing thinking_level: max. It didn't do much better (transcript):\r\n\r\n\r\nI don't think Qwen are cheating\r\nA lot of people are convinced that the labs train for my stupid benchmark. I don't think they do, but honestly this result did give me a little glint of suspicion. So I'm burning one of my secret backup tests - here's what I got from Qwen3.6-35B-A3B and Opus 4.7 for \"Generate an SVG of a flamingo riding a unicycle\":\r\n\r\n\r\n  \r\n    Qwen3.6-35B-A3B(transcript)\r\n    \r\n  \r\n  \r\n    Opus 4.7(transcript)\r\n    \r\n  \r\n\r\n\r\n\r\nI'm giving this one to Qwen too, partly for the excellent &lt;!-- Sunglasses on flamingo! --&gt; SVG comment.\r\n\r\nWhat can we learn from this?\r\nThe pelican benchmark has always been meant as a joke - it's mainly a statement on how obtuse and absurd the task of comparing these models is.\r\nThe weird thing about that joke is that, for the most part, there has been a direct correlation between the quality of the pelicans produced and the general usefulness of the models. Those first pelicans from October 2024 were junk. The more recent entries have generally been much, much better - to the point that Gemini 3.1 Pro produces illustrations you could actually use somewhere, provided you had a pressing need to illustrate a pelican riding a bicycle.\r\nToday, even that loose connection to utility has been broken. I have enormous respect for Qwen, but I very much doubt that a 21GB quantized version of their latest model is more powerful or useful than Anthropic's latest proprietary release.\r\nIf the thing you need is an SVG illustration of a pelican riding a bicycle though, right now Qwen3.6-35B-A3B running on a laptop is a better bet than Opus 4.7!\n    \n        Tags: ai, generative-ai, local-llms, llms, anthropic, claude, qwen, pelican-riding-a-bicycle, llm-release, lm-studio",
+  "word_count": 393,
+  "published_at": "2026-04-16T17:16:52.000Z",
+  "ingested_at": "2026-04-17T11:00:07.754Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

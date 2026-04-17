@@ -1,0 +1,40 @@
+{
+  "id": "td_7bc5f2cd",
+  "source": "arxiv",
+  "source_id": "2604.15271",
+  "source_url": "https://arxiv.org/abs/2604.15271",
+  "content_type": "paper",
+  "creator": {
+    "id": "tianhao_fu",
+    "name": "Tianhao Fu",
+    "handle": "Tianhao Fu, Austin Wang, Charles Chen, Roby Aldave-Garza, Yucheng Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SegWithU: Uncertainty as Perturbation Energy for Single-Forward-Pass Risk-Aware Medical Image Segmentation",
+  "body_text": "SegWithU: Uncertainty as Perturbation Energy for Single-Forward-Pass Risk-Aware Medical Image Segmentation\n\nReliable uncertainty estimation is critical for medical image segmentation, where automated contours feed downstream quantification and clinical decision support. Many strong uncertainty methods require repeated inference, while efficient single-forward-pass alternatives often provide weaker failure ranking or rely on restrictive feature-space assumptions. We present $\\textbf{SegWithU}$, a post-hoc framework that augments a frozen pretrained segmentation backbone with a lightweight uncertainty head. SegWithU taps intermediate backbone features and models uncertainty as perturbation energy in a compact probe space using rank-1 posterior probes. It produces two voxel-wise uncertainty maps: a calibration-oriented map for probability tempering and a ranking-oriented map for error detection and selective prediction. Across ACDC, BraTS2024, and LiTS, SegWithU is the strongest and most consistent single-forward-pass baseline, achieving AUROC/AURC of $0.9838/2.4885$, $0.9946/0.2660$, and $0.9925/0.8193$, respectively, while preserving segmentation quality. These results suggest that perturbation-based uncertainty modeling is an effective and practical route to reliability-aware medical segmentation. Source code is available at https://github.com/ProjectNeura/SegWithU.\n\nAuthors: Tianhao Fu, Austin Wang, Charles Chen, Roby Aldave-Garza, Yucheng Chen\nCategories: cs.CV, cs.AI, cs.LG, cs.CV",
+  "word_count": 150,
+  "published_at": "2026-04-16T17:42:42Z",
+  "ingested_at": "2026-04-17T11:03:30.997Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_ae30983f",
+  "source": "arxiv",
+  "source_id": "2604.15285",
+  "source_url": "https://arxiv.org/abs/2604.15285",
+  "content_type": "paper",
+  "creator": {
+    "id": "víctor_soto-larrosa",
+    "name": "Víctor Soto-Larrosa",
+    "handle": "Víctor Soto-Larrosa, Nuria Torrado, Edmundo J. Huertas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Structural interpretability in SVMs with truncated orthogonal polynomial kernels",
+  "body_text": "Structural interpretability in SVMs with truncated orthogonal polynomial kernels\n\nWe study post-training interpretability for Support Vector Machines (SVMs) built from truncated orthogonal polynomial kernels. Since the associated reproducing kernel Hilbert space is finite-dimensional and admits an explicit tensor-product orthonormal basis, the fitted decision function can be expanded exactly in intrinsic RKHS coordinates. This leads to Orthogonal Representation Contribution Analysis (ORCA), a diagnostic framework based on normalized Orthogonal Kernel Contribution (OKC) indices. These indices quantify how the squared RKHS norm of the classifier is distributed across interaction orders, total polynomial degrees, marginal coordinate effects, and pairwise contributions. The methodology is fully post-training and requires neither surrogate models nor retraining. We illustrate its diagnostic value on a synthetic double-spiral problem and on a real five-dimensional echocardiogram dataset. The results show that the proposed indices reveal structural aspects of model complexity that are not captured by predictive accuracy alone.\n\nAuthors: Víctor Soto-Larrosa, Nuria Torrado, Edmundo J. Huertas\nCategories: stat.ML, cs.LG, math.ST, stat.ML",
+  "word_count": 137,
+  "published_at": "2026-04-16T17:52:08Z",
+  "ingested_at": "2026-04-17T11:03:39.369Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.ST",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

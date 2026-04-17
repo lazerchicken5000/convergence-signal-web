@@ -1,0 +1,39 @@
+{
+  "id": "td_5492a2a5",
+  "source": "arxiv",
+  "source_id": "2604.15259",
+  "source_url": "https://arxiv.org/abs/2604.15259",
+  "content_type": "paper",
+  "creator": {
+    "id": "asher_labovich",
+    "name": "Asher Labovich",
+    "handle": "Asher Labovich",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Stability and Generalization in Looped Transformers",
+  "body_text": "Stability and Generalization in Looped Transformers\n\nLooped transformers promise test-time compute scaling by spending more iterations on harder problems, but it remains unclear which architectural choices let them extrapolate to harder problems at test time rather than memorize training-specific solutions. We introduce a fixed-point based framework for analyzing looped architectures along three axes of stability -- reachability, input-dependence, and geometry -- and use it to characterize when fixed-point iteration yields meaningful predictions. Theoretically, we prove that looped networks without recall have countable fixed points and cannot achieve strong input-dependence at any spectral regime, while recall combined with outer normalization reliably produces a regime in which fixed points are simultaneously reachable, locally smooth in the input, and supported by stable backpropagation. Empirically, we train single-layer looped transformers on chess, sudoku, and prefix-sums and find that downstream performance tracks the framework's predictions across tasks and architectural configurations. We additionally introduce internal recall, a novel recall placement variant, and show that it becomes competitive with -- and on sudoku, substantially better than -- standard recall placement once outer normalization is applied.\n\nAuthors: Asher Labovich\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 172,
+  "published_at": "2026-04-16T17:35:49Z",
+  "ingested_at": "2026-04-17T11:03:30.997Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

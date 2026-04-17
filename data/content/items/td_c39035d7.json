@@ -1,0 +1,38 @@
+{
+  "id": "td_c39035d7",
+  "source": "arxiv",
+  "source_id": "2604.15244",
+  "source_url": "https://arxiv.org/abs/2604.15244",
+  "content_type": "paper",
+  "creator": {
+    "id": "kiran_purohit",
+    "name": "Kiran Purohit",
+    "handle": "Kiran Purohit, Ramasuri Narayanam, Soumyabrata Pal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning",
+  "body_text": "From Tokens to Steps: Verification-Aware Speculative Decoding for Efficient Multi-Step Reasoning\n\nSpeculative decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose outputs that a stronger target model verifies. However, its token-centric nature allows erroneous steps to propagate. Prior approaches mitigate this using external reward models, but incur additional latency, computational overhead, and limit generalizability. We propose SpecGuard, a verification-aware speculative decoding framework that performs step-level verification using only model-internal signals. At each step, SpecGuard samples multiple draft candidates and selects the most consistent step, which is then validated using an ensemble of two lightweight model-internal signals: (i) an attention-based grounding score that measures attribution to the input and previously accepted steps, and (ii) a log-probability-based score that captures token-level confidence. These signals jointly determine whether a step is accepted or recomputed using the target, allocating compute selectively. Experiments across a range of reasoning benchmarks show that SpecGuard improves accuracy by 3.6% while reducing latency by ~11%, outperforming both SD and reward-guided SD.\n\nAuthors: Kiran Purohit, Ramasuri Narayanam, Soumyabrata Pal\nCategories: cs.CL, cs.CL",
+  "word_count": 157,
+  "published_at": "2026-04-16T17:20:13Z",
+  "ingested_at": "2026-04-17T11:03:35.170Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

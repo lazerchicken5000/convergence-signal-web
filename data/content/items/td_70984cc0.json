@@ -1,0 +1,40 @@
+{
+  "id": "td_70984cc0",
+  "source": "arxiv",
+  "source_id": "2604.15272",
+  "source_url": "https://arxiv.org/abs/2604.15272",
+  "content_type": "paper",
+  "creator": {
+    "id": "mengdi_wu",
+    "name": "Mengdi Wu",
+    "handle": "Mengdi Wu, Xiaoyu Jiang, Oded Padon, Zhihao Jia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Prism: Symbolic Superoptimization of Tensor Programs",
+  "body_text": "Prism: Symbolic Superoptimization of Tensor Programs\n\nThis paper presents Prism, the first symbolic superoptimizer for tensor programs. The key idea is sGraph, a symbolic, hierarchical representation that compactly encodes large classes of tensor programs by symbolically representing some execution parameters. Prism organizes optimization as a two-level search: it constructs symbolic graphs that represent families of programs, and then instantiates them into concrete implementations. This formulation enables structured pruning of provably suboptimal regions of the search space using symbolic reasoning over operator semantics, algebraic identities, and hardware constraints. We develop techniques for efficient symbolic graph generation, equivalence verification via e-graph rewriting, and parameter instantiation through auto-tuning. Together, these components allow Prism to bridge the rigor of exhaustive search with the scalability required for modern ML workloads. Evaluation on five commonly used LLM workloads shows that Prism achieves up to $2.2\\times$ speedup over best superoptimizers and $4.9\\times$ over best compiler-based approaches, while reducing end-to-end optimization time by up to $3.4\\times$.\n\nAuthors: Mengdi Wu, Xiaoyu Jiang, Oded Padon, Zhihao Jia\nCategories: cs.PL, cs.AI, cs.LG, cs.PL",
+  "word_count": 152,
+  "published_at": "2026-04-16T17:43:31Z",
+  "ingested_at": "2026-04-17T11:03:30.997Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.PL",
+    "cs.AI",
+    "cs.LG",
+    "cs.PL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
