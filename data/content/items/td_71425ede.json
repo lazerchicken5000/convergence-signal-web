@@ -1,0 +1,35 @@
+{
+  "id": "td_71425ede",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
+  "source_url": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Adding a new content type to my blog-to-newsletter tool",
+  "body_text": "Agentic Engineering Patterns &gt;\n    Here's an example of a deceptively short prompt that got a lot of work done in a single shot.\nFirst, some background. I send out a free Substack newsletter around once a week containing content copied-and-pasted from my blog. I'm effectively using Substack as a lightweight way to allow people to subscribe to my blog via email.\nI generate the newsletter with my blog-to-newsletter tool - an HTML and JavaScript app that fetches my latest content from this Datasette instance and formats it as rich text HTML, which I can then copy to my clipboard and paste into the Substack editor. Here's a detailed explanation of how that works.\nI recently added a new type of content to my blog to capture content that I post elsewhere, which I called \"beats\". These include things like releases of my open source projects, new tools that I've built, museums that I've visited (from niche-museums.com) and other external content.\nI wanted to include these in the generated newsletter. Here's the prompt I ran against the simonw/tools repository that hosts my blog-to-newsletter tool, using Claude Code on the web.\nClone simonw/simonwillisonblog from github to /tmp for reference\n\nUpdate blog-to-newsletter.html to include beats that have descriptions - similar to how the Atom everything feed on the blog works\n\nRun it with python -m http.server and use `uvx rodney --help` to test it - compare what shows up in the newsletter with what&#x27;s on the homepage of https://simonwillison.net\nThis got me the exact solution I needed. Let's break down the prompt.\n\nClone simonw/simonwillisonblog from github to /tmp for reference\n\nI use this pattern a lot. Coding agents can clone code from GitHub, and the best way to explain a problem is often to have them look at relevant code. By telling them to clone to /tmp I ensure they don't accidentally end up including that reference code in their own commit later on.\nThe simonw/simonwillisonblog repository contains the source code for my Django-powered simonwillison.net blog. This includes the logic and database schema for my new \"beats\" feature.\n\nUpdate blog-to-newsletter.html to include beats that have descriptions - similar to how the Atom everything feed on the blog works\n\nReferencing blog-to-newsletter.html is all I need here to tell Claude which of the 200+ HTML apps in that simonw/tools repo it should be modifying.\nBeats are automatically imported from multiple sources. Often they aren't very interesting - a dot-release bug fix for one of my smaller open source projects, for example.\nMy blog includes a way for me to add additional descriptions to any beat, which provides extra commentary but also marks that beat as being more interesting than those that I haven't annotated in some way.\nI already use this as a distinction to decide which beats end up in my site's Atom feed. Telling Claude to imitate that saves me from having to describe the logic in any extra detail.\n\nRun it with python -m http.server and use `uvx rodney --help` to test it - compare what shows up in the newsletter with what's on the homepage of https://simonwillison.net\n\nCoding agents always work best if they have some kind of validation mechanism they can use to test their own work.\nIn this case I wanted Claude Code to actively check that the changes it made to my tool would correctly fetch and display the latest data.\nI reminded it to use python -m http.server as a static server because I've had issues in the past with applications that fetch data and break when served as a file from disk instead of a localhost server. In this particular case that may not have been necessary, but my prompting muscle memory has python -m http.server baked in at this point!\nI described the uvx rodney --help trick in the agentic manual testing chapter. Rodney is browser automation software that can be installed using uvx, and that has --help output designed to teach an agent everything it needs to know in order to use the tool.\nI figured that telling Claude to compare the results in the newsletter to the content of my blog's homepage would be enough for it to confidently verify that the new changes were working correctly, since I had recently posted content that matched the new requirements.\nYou can see the full session here, or if that doesn't work I have an alternative transcript showing all of the individual tool calls.\nThe resulting PR made exactly the right change. It added an additional UNION clause to the SQL query that fetched the blog's content, filtering out draft beats and beats that have nothing in their note column:\n...\nunion all\nselect\n  id,\n  &#39;beat&#39; as type,\n  title,\n  created,\n  slug,\n  &#39;No HTML&#39; as html,\n  json_object(\n    &#39;created&#39;, date(created),\n    &#39;beat_type&#39;, beat_type,\n    &#39;title&#39;, title,\n    &#39;url&#39;, url,\n    &#39;commentary&#39;, commentary,\n    &#39;note&#39;, note\n  ) as json,\n  url as external_url\nfrom blog_beat\nwhere coalesce(note, &#39;&#39;) != &#39;&#39; and is_draft = 0\nunion all\n...\n\nAnd it figured out a mapping of beat types to their formal names, presumably derived from the Django ORM definition that it read while it was exploring the reference codebase:\nconst beatTypeDisplay = {\n  release: &#39;Release&#39;,\n  til: &#39;TIL&#39;,\n  til_update: &#39;TIL updated&#39;,\n  research: &#39;Research&#39;,\n  tool: &#39;Tool&#39;,\n  museum: &#39;Museum&#39;\n};\n\nTelling agents to use another codebase as reference is a powerful shortcut for communicating complex concepts with minimal additional information needed in the prompt.\n    \n        Tags: ai, llms, prompt-engineering, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, github",
+  "word_count": 904,
+  "published_at": "2026-04-18T03:15:36.000Z",
+  "ingested_at": "2026-04-18T11:00:07.051Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

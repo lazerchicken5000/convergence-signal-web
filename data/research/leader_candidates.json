@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-17T13:18:20.347Z",
-  "total_leaders_analyzed": 551,
+  "generated_at": "2026-04-18T12:14:30.959Z",
+  "total_leaders_analyzed": 571,
   "candidates": [
     {
       "rank": 1,
       "id": "simon_willison",
       "name": "simon willison",
-      "leader_type": "architect",
+      "leader_type": "bridge",
       "entity_type": "unknown",
-      "score": 0.354,
-      "tier": "established",
-      "trajectory": "stable",
+      "score": 0.395,
+      "tier": "top",
+      "trajectory": "rising",
       "rank_change": 0,
-      "score_change": 0.005,
+      "score_change": 0.041,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -21,11 +21,11 @@
         },
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
-          "signal": "independence_contribution",
-          "value": 0.445
+          "signal": "cross_source_mentions",
+          "value": 0.6
         }
       ],
       "pattern_count": 1,
@@ -35,11 +35,46 @@
       ],
       "source_types": [
         "rss",
-        "github"
+        "github",
+        "citation"
       ]
     },
     {
       "rank": 2,
+      "id": "thedaily_nytimes_com_the_new_york_times",
+      "name": "thedaily@nytimes.com (the new york times)",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.32,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 1,
+      "score_change": 0.01,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "content_volume",
+          "value": 1
+        },
+        {
+          "signal": "social_pagerank",
+          "value": 0.868
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.542
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
+      "rank": 3,
       "id": "andrej_karpathy",
       "name": "andrej karpathy",
       "leader_type": "architect",
@@ -47,17 +82,17 @@
       "score": 0.312,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": -0.001,
+      "rank_change": -1,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.893
+          "value": 0.891
         },
         {
           "signal": "independence_contribution",
-          "value": 0.745
+          "value": 0.747
         },
         {
           "signal": "cross_source_mentions",
@@ -74,12 +109,12 @@
       ]
     },
     {
-      "rank": 3,
-      "id": "thedaily_nytimes_com_the_new_york_times",
-      "name": "thedaily@nytimes.com (the new york times)",
+      "rank": 4,
+      "id": "theo_t3_gg",
+      "name": "theo - t3․gg",
       "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.31,
+      "entity_type": "individual",
+      "score": 0.309,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 1,
@@ -87,76 +122,8 @@
       "is_new_entrant": false,
       "top_signals": [
         {
-          "signal": "content_volume",
-          "value": 0.95
-        },
-        {
           "signal": "social_pagerank",
-          "value": 0.867
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.495
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "hard_fork_nyt",
-      "name": "hard fork (nyt)",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.302,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": -1,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.867
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.78
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.4
-        }
-      ],
-      "pattern_count": 2,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
-      ]
-    },
-    {
-      "rank": 5,
-      "id": "theo_t3_gg",
-      "name": "theo - t3․gg",
-      "leader_type": "architect",
-      "entity_type": "individual",
-      "score": 0.298,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0.009,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "content_volume",
@@ -164,7 +131,7 @@
         },
         {
           "signal": "independence_contribution",
-          "value": 0.507
+          "value": 0.594
         }
       ],
       "pattern_count": 1,
@@ -176,59 +143,25 @@
       ]
     },
     {
-      "rank": 6,
-      "id": "fireship",
-      "name": "fireship",
-      "leader_type": "architect",
-      "entity_type": "unknown",
-      "score": 0.287,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 1,
-      "score_change": 0.009,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.867
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.701
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.35
-        }
-      ],
-      "pattern_count": 2,
-      "domains": [
-        "tech_media"
-      ],
-      "source_types": [
-        "youtube"
-      ]
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "id": "js_party_javascript_css_web_development",
       "name": "js party: javascript, css, web development",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.277,
+      "score": 0.289,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 1,
-      "score_change": 0,
+      "rank_change": 2,
+      "score_change": 0.012,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
-          "value": 0.716
+          "value": 0.818
         },
         {
           "signal": "content_volume",
@@ -244,7 +177,109 @@
       ]
     },
     {
+      "rank": 6,
+      "id": "practical_ai",
+      "name": "practical ai",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.287,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 4,
+      "score_change": 0.016,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.868
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.64
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.4
+        }
+      ],
+      "pattern_count": 3,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "fireship",
+      "name": "fireship",
+      "leader_type": "architect",
+      "entity_type": "unknown",
+      "score": 0.287,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -1,
+      "score_change": 0,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.868
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.695
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.35
+        }
+      ],
+      "pattern_count": 2,
+      "domains": [
+        "tech_media"
+      ],
+      "source_types": [
+        "youtube"
+      ]
+    },
+    {
       "rank": 8,
+      "id": "hard_fork_nyt",
+      "name": "hard fork (nyt)",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.281,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -4,
+      "score_change": -0.021,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.868
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.572
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.45
+        }
+      ],
+      "pattern_count": 2,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
+      "rank": 9,
       "id": "hadas_orgad",
       "name": "hadas orgad",
       "leader_type": "architect",
@@ -252,13 +287,13 @@
       "score": 0.277,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 1,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -278,7 +313,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": "ashwin_ram",
       "name": "ashwin ram",
       "leader_type": "architect",
@@ -286,13 +321,13 @@
       "score": 0.276,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 1,
-      "score_change": -0.001,
+      "rank_change": -1,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -312,40 +347,6 @@
       ]
     },
     {
-      "rank": 10,
-      "id": "practical_ai",
-      "name": "practical ai",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.271,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 5,
-      "score_change": 0.014,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.867
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.53
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.4
-        }
-      ],
-      "pattern_count": 2,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
-      ]
-    },
-    {
       "rank": 11,
       "id": "coleam00",
       "name": "coleam00",
@@ -360,7 +361,7 @@
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -388,13 +389,13 @@
       "score": 0.267,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -6,
-      "score_change": -0.012,
+      "rank_change": 0,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -422,13 +423,13 @@
       "score": 0.266,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -456,13 +457,13 @@
       "score": 0.266,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -487,20 +488,20 @@
       "name": "the changelog: software development, open source",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.265,
+      "score": 0.263,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
-      "score_change": 0,
+      "rank_change": 0,
+      "score_change": -0.002,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
-          "value": 0.61
+          "value": 0.599
         },
         {
           "signal": "content_volume",
@@ -524,13 +525,13 @@
       "score": 0.252,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -557,14 +558,14 @@
       "entity_type": "individual",
       "score": 0.251,
       "tier": "established",
-      "trajectory": "rising",
-      "rank_change": -1,
-      "score_change": -0.002,
+      "trajectory": "stable",
+      "rank_change": 0,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -592,7 +593,7 @@
       "score": 0.242,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -627,13 +628,13 @@
       "score": 0.239,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
-      "score_change": -0.004,
+      "rank_change": 0,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -654,6 +655,40 @@
     },
     {
       "rank": 20,
+      "id": "arkava_ganguly",
+      "name": "arkava ganguly",
+      "leader_type": "architect",
+      "entity_type": "individual",
+      "score": 0.234,
+      "tier": "established",
+      "trajectory": "rising",
+      "rank_change": 1,
+      "score_change": 0.03,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.868
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.507
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "academic"
+      ],
+      "source_types": [
+        "arxiv"
+      ]
+    },
+    {
+      "rank": 21,
       "id": "openai",
       "name": "openai",
       "leader_type": "architect",
@@ -661,7 +696,7 @@
       "score": 0.226,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -688,9 +723,9 @@
       ]
     },
     {
-      "rank": 21,
-      "id": "arkava_ganguly",
-      "name": "arkava ganguly",
+      "rank": 22,
+      "id": "come_fiegel",
+      "name": "come fiegel",
       "leader_type": "architect",
       "entity_type": "individual",
       "score": 0.204,
@@ -702,41 +737,7 @@
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.253
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "academic"
-      ],
-      "source_types": [
-        "arxiv"
-      ]
-    },
-    {
-      "rank": 22,
-      "id": "come_fiegel",
-      "name": "come fiegel",
-      "leader_type": "architect",
-      "entity_type": "individual",
-      "score": 0.204,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": true,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "independence_contribution",
@@ -764,7 +765,7 @@
       "score": 0.201,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -798,13 +799,13 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
-      "score_change": -0.001,
+      "rank_change": 0,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.867
+          "value": 0.868
         },
         {
           "signal": "content_volume",
@@ -834,7 +835,7 @@
       "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": true,
+      "is_new_entrant": false,
       "top_signals": [
         {
           "signal": "social_pagerank",
@@ -866,7 +867,7 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -2,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -900,7 +901,7 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -2,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -934,7 +935,7 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -2,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -968,7 +969,7 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -2,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -1002,7 +1003,7 @@
       "score": 0.186,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -2,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -1028,42 +1029,15 @@
       ]
     }
   ],
-  "new_entrants": [
-    {
-      "name": "come fiegel",
-      "rank": 22,
-      "score": 0.204,
-      "reason": "Entered at #22 — social_pagerank strength"
-    },
-    {
-      "name": "peter hall",
-      "rank": 25,
-      "score": 0.186,
-      "reason": "Entered at #25 — social_pagerank strength"
-    }
-  ],
+  "new_entrants": [],
   "rising": [
     {
       "name": "practical ai",
-      "rank": 10,
-      "rank_change": 5,
-      "score_change": 0.014
+      "rank": 6,
+      "rank_change": 4,
+      "score_change": 0.016
     }
   ],
-  "fading": [
-    {
-      "name": "kent c. dodds",
-      "previous_rank": 29,
-      "score_change": 0
-    },
-    {
-      "name": "theo browne",
-      "previous_rank": 30,
-      "score_change": 0
-    }
-  ],
-  "dropped_out": [
-    "kent_c_dodds",
-    "theo_browne"
-  ]
+  "fading": [],
+  "dropped_out": []
 }
