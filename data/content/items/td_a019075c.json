@@ -1,0 +1,38 @@
+{
+  "id": "td_a019075c",
+  "source": "arxiv",
+  "source_id": "2604.16263",
+  "source_url": "https://arxiv.org/abs/2604.16263",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruiyang_wang",
+    "name": "Ruiyang Wang",
+    "handle": "Ruiyang Wang, Hao-Lun Hsu, Jiwoo Kim, Miroslav Pajic",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Semantic Area Graph Reasoning for Multi-Robot Language-Guided Search",
+  "body_text": "Semantic Area Graph Reasoning for Multi-Robot Language-Guided Search\n\nCoordinating multi-robot systems (MRS) to search in unknown environments is particularly challenging for tasks that require semantic reasoning beyond geometric exploration. Classical coordination strategies rely on frontier coverage or information gain and cannot incorporate high-level task intent, such as searching for objects associated with specific room types. We propose \\textit{Semantic Area Graph Reasoning} (SAGR), a hierarchical framework that enables Large Language Models (LLMs) to coordinate multi-robot exploration and semantic search through a structured semantic-topological abstraction of the environment. SAGR incrementally constructs a semantic area graph from a semantic occupancy map, encoding room instances, connectivity, frontier availability, and robot states into a compact task-relevant representation for LLM reasoning. The LLM performs high-level semantic room assignment based on spatial structure and task context, while deterministic frontier planning and local navigation handle geometric execution within assigned rooms. Experiments on the Habitat-Matterport3D dataset across 100 scenarios show that SAGR remains competitive with state-of-the-art exploration methods while consistently improving semantic target search efficiency, with up to 18.8\\% in large environments. These results highlight the value of structured semantic abstractions as an effective interface between LLM-based reasoning and multi-robot coordination in complex indoor environments.\n\nAuthors: Ruiyang Wang, Hao-Lun Hsu, Jiwoo Kim, Miroslav Pajic\nCategories: cs.RO, cs.RO",
+  "word_count": 188,
+  "published_at": "2026-04-17T17:19:54Z",
+  "ingested_at": "2026-04-20T11:03:43.443Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

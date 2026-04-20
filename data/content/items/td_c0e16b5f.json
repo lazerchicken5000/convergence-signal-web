@@ -1,0 +1,39 @@
+{
+  "id": "td_c0e16b5f",
+  "source": "arxiv",
+  "source_id": "2604.16234",
+  "source_url": "https://arxiv.org/abs/2604.16234",
+  "content_type": "paper",
+  "creator": {
+    "id": "van-truong_le",
+    "name": "Van-Truong Le",
+    "handle": "Van-Truong Le, Le-Khanh Nguyen, Trong-Doanh Nguyen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Two-Stage, Object-Centric Deep Learning Framework for Robust Exam Cheating Detection",
+  "body_text": "A Two-Stage, Object-Centric Deep Learning Framework for Robust Exam Cheating Detection\n\nAcademic integrity continues to face the persistent challenge of examination cheating. Traditional invigilation relies on human observation, which is inefficient, costly, and prone to errors at scale. Although some existing AI-powered monitoring systems have been deployed and trusted, many lack transparency or require multi-layered architectures to achieve the desired performance. To overcome these challenges, we propose an improvement over a simple two-stage framework for exam cheating detection that integrates object detection and behavioral analysis using well-known technologies. First, the state-of-the-art YOLOv8n model is used to localize students in exam-room images. Each detected region is cropped and preprocessed, then classified by a fine-tuned RexNet-150 model as either normal or cheating behavior. The system is trained on a dataset compiled from 10 independent sources with a total of 273,897 samples, achieving 0.95 accuracy, 0.94 recall, 0.96 precision, and 0.95 F1-score - a 13\\% increase over a baseline accuracy of 0.82 in video-based cheating detection. In addition, with an average inference time of 13.9 ms per sample, the proposed approach demonstrates robustness and scalability for deployment in large-scale environments. Beyond the technical contribution, the AI-assisted monitoring system also addresses ethical concerns by ensuring that final outcomes are delivered privately to individual students after the examination, for example, via personal email. This prevents public exposure or shaming and offers students an opportunity to reflect on their behavior. For further improvement, it is possible to incorporate additional factors, such as audio data and consecutive frames, to achieve greater accuracy. This study provides a foundation for developing real-time, scalable, ethical, and open-source solutions.\n\nAuthors: Van-Truong Le, Le-Khanh Nguyen, Trong-Doanh Nguyen\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 257,
+  "published_at": "2026-04-17T16:53:08Z",
+  "ingested_at": "2026-04-20T11:03:30.433Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_7bec0e2e",
+  "source": "arxiv",
+  "source_id": "2604.16217",
+  "source_url": "https://arxiv.org/abs/2604.16217",
+  "content_type": "paper",
+  "creator": {
+    "id": "yanli_wang",
+    "name": "Yanli Wang",
+    "handle": "Yanli Wang, Peng Kuang, Xiaoyu Han, Kaidi Xu, Haohan Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
+  "body_text": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations\n\nLarge language models are increasingly deployed in settings where reliability matters, yet output-level uncertainty signals such as token probabilities, entropy, and self-consistency can become brittle under calibration--deployment mismatch. Conformal prediction provides finite-sample validity under exchangeability, but its practical usefulness depends on the quality of the nonconformity score. We propose a conformal framework for LLM question answering that uses internal representations rather than output-facing statistics: specifically, we introduce Layer-Wise Information (LI) scores, which measure how conditioning on the input reshapes predictive entropy across model depth, and use them as nonconformity scores within a standard split conformal pipeline. Across closed-ended and open-domain QA benchmarks, with the clearest gains under cross-domain shift, our method achieves a better validity--efficiency trade-off than strong text-level baselines while maintaining competitive in-domain reliability at the same nominal risk level. These results suggest that internal representations can provide more informative conformal scores when surface-level uncertainty is unstable under distribution shift.\n\nAuthors: Yanli Wang, Peng Kuang, Xiaoyu Han, Kaidi Xu, Haohan Wang\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 151,
+  "published_at": "2026-04-17T16:28:31Z",
+  "ingested_at": "2026-04-20T11:03:34.652Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

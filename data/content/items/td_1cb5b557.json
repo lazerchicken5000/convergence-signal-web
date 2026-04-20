@@ -1,0 +1,38 @@
+{
+  "id": "td_1cb5b557",
+  "source": "arxiv",
+  "source_id": "2604.16235",
+  "source_url": "https://arxiv.org/abs/2604.16235",
+  "content_type": "paper",
+  "creator": {
+    "id": "hoyeol_kim",
+    "name": "Hoyeol Kim",
+    "handle": "Hoyeol Kim, Hyeonwoo Kim",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimizing Korean-Centric LLMs via Token Pruning",
+  "body_text": "Optimizing Korean-Centric LLMs via Token Pruning\n\nThis paper presents a systematic benchmark of state-of-the-art multilingual large language models (LLMs) adapted via token pruning - a compression technique that eliminates tokens and embedding parameters corresponding to languages irrelevant to the target application. Focusing on Korean-centric natural language processing (NLP) tasks, we evaluate architectures including Qwen3, Gemma-3, Llama-3, and Aya across three vocabulary configurations: Original, English-Korean (EnKo), and English-Korean-Chinese (EnKoZh). Performance is assessed using established benchmarks for general aptitude, cultural literacy, instruction following, and machine translation. Our findings indicate that token pruning significantly improves generation stability by eliminating language confusion, and in the case of machine translation, frequently enhances performance on Korean-specific tasks. While instruction-following capabilities display architecture-dependent variance linked to latent cross-lingual representations, the significant reduction in vocabulary size validates token pruning as a highly effective optimization strategy for memory-constrained, domain-specific deployments, despite modest gains in inference latency.\n\nAuthors: Hoyeol Kim, Hyeonwoo Kim\nCategories: cs.CL, cs.CL",
+  "word_count": 141,
+  "published_at": "2026-04-17T16:53:14Z",
+  "ingested_at": "2026-04-20T11:03:34.652Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

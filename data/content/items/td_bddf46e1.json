@@ -1,0 +1,38 @@
+{
+  "id": "td_bddf46e1",
+  "source": "arxiv",
+  "source_id": "2604.16286",
+  "source_url": "https://arxiv.org/abs/2604.16286",
+  "content_type": "paper",
+  "creator": {
+    "id": "eric_gan",
+    "name": "Eric Gan",
+    "handle": "Eric Gan, Aryan Bhatt, Buck Shlegeris, Julian Stastny, Vivek Hebbar",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+  "body_text": "ASMR-Bench: Auditing for Sabotage in ML Research\n\nAs AI systems are increasingly used to conduct research autonomously, misaligned systems could introduce subtle flaws that produce misleading results while evading detection. We introduce ASMR-Bench (Auditing for Sabotage in ML Research), a benchmark for evaluating the ability of auditors to detect sabotage in ML research codebases. ASMR-Bench consists of 9 ML research codebases with sabotaged variants that produce qualitatively different experimental results. Each sabotage modifies implementation details, such as hyperparameters, training data, or evaluation code, while preserving the high-level methodology described in the paper. We evaluated frontier LLMs and LLM-assisted human auditors on ASMR-Bench and found that both struggled to reliably detect sabotage: the best performance was an AUROC of 0.77 and a top-1 fix rate of 42%, achieved by Gemini 3.1 Pro. We also tested LLMs as red teamers and found that LLM-generated sabotages were weaker than human-generated ones but still sometimes evaded same-capability LLM auditors. We release ASMR-Bench to support research on monitoring and auditing techniques for AI-conducted research.\n\nAuthors: Eric Gan, Aryan Bhatt, Buck Shlegeris, Julian Stastny, Vivek Hebbar\nCategories: cs.AI, cs.AI",
+  "word_count": 162,
+  "published_at": "2026-04-17T17:47:32Z",
+  "ingested_at": "2026-04-20T11:03:30.432Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

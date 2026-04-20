@@ -1,0 +1,38 @@
+{
+  "id": "td_22733a1e",
+  "source": "arxiv",
+  "source_id": "2604.16266",
+  "source_url": "https://arxiv.org/abs/2604.16266",
+  "content_type": "paper",
+  "creator": {
+    "id": "tejeswar_pokuri",
+    "name": "Tejeswar Pokuri",
+    "handle": "Tejeswar Pokuri, Shivarth Rai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Hero-Mamba: Mamba-based Dual Domain Learning for Underwater Image Enhancement",
+  "body_text": "Hero-Mamba: Mamba-based Dual Domain Learning for Underwater Image Enhancement\n\nUnderwater images often suffer from severe degradation, such as color distortion, low contrast, and blurred details, due to light absorption and scattering in water. While learning-based methods like CNNs and Transformers have shown promise, they face critical limitations: CNNs struggle to model the long-range dependencies needed for non-uniform degradation, and Transformers incur quadratic computational complexity, making them inefficient for high-resolution images. To address these challenges, we propose Hero-Mamba, a novel Mamba-based network that achieves efficient dual-domain learning for underwater image enhancement. Our approach uniquely processes information from both the spatial domain (RGB image) and the spectral domain (FFT components) in parallel. This dual-domain input allows the network to decouple degradation factors, separating color/brightness information from texture/noise. The core of our network utilizes Mamba-based SS2D blocks to capture global receptive fields and long-range dependencies with linear complexity, overcoming the limitations of both CNNs and Transformers. Furthermore, we introduce a ColorFusion block, guided by a background light prior, to restore color information with high fidelity. Extensive experiments on the LSUI and UIEB benchmark datasets demonstrate that Hero-Mamba outperforms state-of-the-art methods. Notably, our model achieves a PSNR of 25.802 and an SSIM of 0.913 on LSUI, validating its superior performance and generalization capabilities.\n\nAuthors: Tejeswar Pokuri, Shivarth Rai\nCategories: cs.CV, cs.CV",
+  "word_count": 200,
+  "published_at": "2026-04-17T17:24:11Z",
+  "ingested_at": "2026-04-20T11:03:48.271Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

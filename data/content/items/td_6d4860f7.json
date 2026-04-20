@@ -1,0 +1,40 @@
+{
+  "id": "td_6d4860f7",
+  "source": "arxiv",
+  "source_id": "2604.16282",
+  "source_url": "https://arxiv.org/abs/2604.16282",
+  "content_type": "paper",
+  "creator": {
+    "id": "sean_hill",
+    "name": "Sean Hill",
+    "handle": "Sean Hill, Felix X. -F. Ye",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Geometric regularization of autoencoders via observed stochastic dynamics",
+  "body_text": "Geometric regularization of autoencoders via observed stochastic dynamics\n\nStochastic dynamical systems with slow or metastable behavior evolve, on long time scales, on an unknown low-dimensional manifold in high-dimensional ambient space. Building a reduced simulator from short-burst ambient ensembles is a long-standing problem: local-chart methods like ATLAS suffer from exponential landmark scaling and per-step reprojection, while autoencoder alternatives leave tangent-bundle geometry poorly constrained, and the errors propagate into the learned drift and diffusion. We observe that the ambient covariance~$Λ$ already encodes coordinate-invariant tangent-space information, its range spanning the tangent bundle. Using this, we construct a tangent-bundle penalty and an inverse-consistency penalty for a three-stage pipeline (chart learning, latent drift, latent diffusion) that learns a single nonlinear chart and the latent SDE. The penalties induce a function-space metric, the $ρ$-metric, strictly weaker than the Sobolev $H^1$ norm yet achieving the same chart-quality generalization rate up to logarithmic factors. For the drift, we derive an encoder-pullback target via Itô's formula on the learned encoder and prove a bias decomposition showing the standard decoder-side formula carries systematic error for any imperfect chart. Under a $W^{2,\\infty}$ chart-convergence assumption, chart-level error propagates controllably to weak convergence of the ambient dynamics and to convergence of radial mean first-passage times. Experiments on four surfaces embedded in up to $201$ ambient dimensions reduce radial MFPT error by $50$--$70\\%$ under rotation dynamics and achieve the lowest inter-well MFPT error on most surface--transition pairs under metastable Müller--Brown Langevin dynamics, while reducing end-to-end ambient coefficient errors by up to an order of magnitude relative to an unregularized autoencoder.\n\nAuthors: Sean Hill, Felix X. -F. Ye\nCategories: cs.LG, math.DS, math.PR, cs.LG",
+  "word_count": 248,
+  "published_at": "2026-04-17T17:44:02Z",
+  "ingested_at": "2026-04-20T11:03:38.862Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.DS",
+    "math.PR",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

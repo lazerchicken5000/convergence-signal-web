@@ -1,0 +1,39 @@
+{
+  "id": "td_67c6ceec",
+  "source": "arxiv",
+  "source_id": "2604.16259",
+  "source_url": "https://arxiv.org/abs/2604.16259",
+  "content_type": "paper",
+  "creator": {
+    "id": "sarthak_mittal",
+    "name": "Sarthak Mittal",
+    "handle": "Sarthak Mittal, Leo Gagnon, Guillaume Lajoie",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Distribution Sharpening: The Importance of Task Rewards",
+  "body_text": "Beyond Distribution Sharpening: The Importance of Task Rewards\n\nFrontier models have demonstrated exceptional capabilities following the integration of task-reward-based reinforcement learning (RL) into their training pipelines, enabling systems to evolve from pure reasoning models into sophisticated agents. However, debate persists regarding whether RL genuinely instills new skills within a base model or merely sharpens its existing distribution to elicit latent capabilities. To address this dichotomy, we present an explicit comparison between distribution sharpening and task-reward-based learning, utilizing RL as a tool to implement both paradigms. Our analysis reveals the inherent limitations of distribution sharpening, demonstrating from first principles how and why the optima can be unfavorable and the approach fundamentally unstable. Furthermore, our experiments using Llama-3.2-3B-Instruct, Qwen2.5-3B-Instruct and Qwen3-4B-Instruct-2507 on math datasets confirm that sharpening yields limited gains, whereas incorporating task-based reward signal can greatly help achieve robust performance improvements and stable learning.\n\nAuthors: Sarthak Mittal, Leo Gagnon, Guillaume Lajoie\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 135,
+  "published_at": "2026-04-17T17:17:55Z",
+  "ingested_at": "2026-04-20T11:03:30.433Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
