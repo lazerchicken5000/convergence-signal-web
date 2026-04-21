@@ -1,0 +1,38 @@
+{
+  "id": "td_dc93e1ad",
+  "source": "arxiv",
+  "source_id": "2604.18576",
+  "source_url": "https://arxiv.org/abs/2604.18576",
+  "content_type": "paper",
+  "creator": {
+    "id": "kevin_murphy",
+    "name": "Kevin Murphy",
+    "handle": "Kevin Murphy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs",
+  "body_text": "Agentic Forecasting using Sequential Bayesian Updating of Linguistic Beliefs\n\nWe present BLF (Bayesian Linguistic Forecaster), an agentic system for binary forecasting that achieves state-of-the-art performance on the ForecastBench benchmark. The system is built on three ideas. (1) A Bayesian linguistic belief state: a semi-structured representation combining numerical probability estimates with natural-language evidence summaries, updated by the LLM at each step of an iterative tool-use loop. This contrasts with the common approach of appending all retrieved evidence to an ever-growing context. (2) Hierarchical multi-trial aggregation: running $K$ independent trials and combining them using logit-space shrinkage with a data-dependent prior. (3) Hierarchical calibration: Platt scaling with a hierarchical prior, which avoids over-shrinking extreme predictions for sources with skewed base rates. On 400 backtesting questions from the ForecastBench leaderboard, BLF outperforms all the top public methods, including Cassi, GPT-5, Grok~4.20, and Foresight-32B. Ablation studies show that the structured belief state is as impactful as web search access, and that shrinkage aggregation and hierarchical calibration each provide significant additional gains. In addition, we develop a robust back-testing framework with a leakage rate below 1.5\\%, and use rigorous statistical methodology to compare different methods while controlling for various sources of noise.\n\nAuthors: Kevin Murphy\nCategories: cs.AI, cs.AI",
+  "word_count": 187,
+  "published_at": "2026-04-20T17:57:51Z",
+  "ingested_at": "2026-04-21T11:07:11.728Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

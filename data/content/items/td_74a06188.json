@@ -1,0 +1,38 @@
+{
+  "id": "td_74a06188",
+  "source": "arxiv",
+  "source_id": "2604.18549",
+  "source_url": "https://arxiv.org/abs/2604.18549",
+  "content_type": "paper",
+  "creator": {
+    "id": "qihang_fan",
+    "name": "Qihang Fan",
+    "handle": "Qihang Fan, Huaibo Huang, Mingrui Chen, Hongmin Liu, Ran He",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Advancing Vision Transformer with Enhanced Spatial Priors",
+  "body_text": "Advancing Vision Transformer with Enhanced Spatial Priors\n\nIn recent years, the Vision Transformer (ViT) has garnered significant attention within the computer vision community. However, the core component of ViT, Self-Attention, lacks explicit spatial priors and suffers from quadratic computational complexity, limiting its applicability. To address these issues, we have proposed RMT, a robust vision backbone with explicit spatial priors for general purposes. RMT utilizes Manhattan distance decay to introduce spatial information and employs a horizontal and vertical decomposition attention method to model global information. Building on the strengths of RMT, Euclidean enhanced Vision Transformer (EVT) is an expanded version that incorporates several key improvements. Firstly, EVT uses a more reasonable Euclidean distance decay to enhance the modeling of spatial information, allowing for a more accurate representation of spatial relationships compared to the Manhattan distance used in RMT. Secondly, EVT abandons the decomposed attention mechanism featured in RMT and instead adopts a simpler spatially-independent grouping approach, providing the model with greater flexibility in controlling the number of tokens within each group. By addressing these modifications, EVT offers a more sophisticated and adaptable approach to incorporating spatial priors into the Self-Attention mechanism, thus overcoming some of the limitations associated with RMT and further enhancing its applicability in various computer vision tasks. Extensive experiments on Image Classification, Object Detection, Instance Segmentation, and Semantic Segmentation demonstrate that EVT exhibits exceptional performance. Without additional training data, EVT achieves 86.6% top1-acc on ImageNet-1k.\n\nAuthors: Qihang Fan, Huaibo Huang, Mingrui Chen, Hongmin Liu, Ran He\nCategories: cs.CV, cs.CV",
+  "word_count": 230,
+  "published_at": "2026-04-20T17:41:00Z",
+  "ingested_at": "2026-04-21T11:07:34.043Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

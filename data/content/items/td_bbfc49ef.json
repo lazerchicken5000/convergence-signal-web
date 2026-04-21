@@ -1,0 +1,38 @@
+{
+  "id": "td_bbfc49ef",
+  "source": "arxiv",
+  "source_id": "2604.18509",
+  "source_url": "https://arxiv.org/abs/2604.18509",
+  "content_type": "paper",
+  "creator": {
+    "id": "xingchen_xiao",
+    "name": "Xingchen Xiao",
+    "handle": "Xingchen Xiao, Heyan Huang, Runheng Liu, Jincheng Xie",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation",
+  "body_text": "MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation\n\nLarge language models (LLMs) are widely used in retrieval-augmented generation (RAG) to incorporate external knowledge at inference time. However, when retrieved contexts are noisy, incomplete, or heterogeneous, a single generation process often struggles to reconcile evidence effectively. We propose \\textbf{MASS-RAG}, a multi-agent synthesis approach to retrieval-augmented generation that structures evidence processing into multiple role-specialized agents. MASS-RAG applies distinct agents for evidence summarization, evidence extraction, and reasoning over retrieved documents, and combines their outputs through a dedicated synthesis stage to produce the final answer. This design exposes multiple intermediate evidence views, allowing the model to compare and integrate complementary information before answer generation. Experiments on four benchmarks show that MASS-RAG consistently improves performance over strong RAG baselines, particularly in settings where relevant evidence is distributed across retrieved contexts.\n\nAuthors: Xingchen Xiao, Heyan Huang, Runheng Liu, Jincheng Xie\nCategories: cs.CL, cs.CL",
+  "word_count": 127,
+  "published_at": "2026-04-20T17:00:38Z",
+  "ingested_at": "2026-04-21T11:07:16.082Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_95582e2e",
+  "source": "arxiv",
+  "source_id": "2604.18575",
+  "source_url": "https://arxiv.org/abs/2604.18575",
+  "content_type": "paper",
+  "creator": {
+    "id": "aditya_arora",
+    "name": "Aditya Arora",
+    "handle": "Aditya Arora, Akshita Gupta, Pau Rodriguez, Marcus Rohrbach",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ReCap: Lightweight Referential Grounding for Coherent Story Visualization",
+  "body_text": "ReCap: Lightweight Referential Grounding for Coherent Story Visualization\n\nStory Visualization aims to generate a sequence of images that faithfully depicts a textual narrative that preserve character identity, spatial configuration, and stylistic coherence as the narratives unfold. Maintaining such cross-frame consistency has traditionally relied on explicit memory banks, architectural expansion, or auxiliary language models, resulting in substantial parameter growth and inference overhead. We introduce ReCap, a lightweight consistency framework that improves character stability and visual fidelity without modifying the base diffusion backbone. ReCap's CORE (COnditional frame REferencing) module treats anaphors, in our case pronouns, as visual anchors, activating only when characters are referred to by a pronoun and conditioning on the preceding frame to propagate visual identity. This selective design avoids unconditional cross-frame conditioning and introduces only 149K additional parameters, a fraction of the cost of memory-bank and LLM-augmented approaches. To further stabilize identity, we incorporate SemDrift (Guided Semantic Drift Correction) applied only during training. When text is vague or referential, the denoiser lacks a visual anchor for identity-defining attributes, causing character appearance to drift across frames, SemDrift corrects this by aligning denoiser representations with pretrained DINOv3 visual embeddings, enforcing semantic identity stability at zero inference cost. ReCap outperforms previous state-of-the-art, StoryGPT-V, on the two main benchmarks for story visualization by 2.63% Character-Accuracy on FlintstonesSV and by 5.65% on PororoSV, establishing a new state-of-the-art character consistency on both benchmarks. Furthermore, we extend story visualization to human-centric narratives derived from real films, demonstrating the capability of ReCap beyond stylized cartoon domains.\n\nAuthors: Aditya Arora, Akshita Gupta, Pau Rodriguez, Marcus Rohrbach\nCategories: cs.CV, cs.CV",
+  "word_count": 241,
+  "published_at": "2026-04-20T17:57:50Z",
+  "ingested_at": "2026-04-21T11:07:24.771Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

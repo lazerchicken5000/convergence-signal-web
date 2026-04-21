@@ -1,0 +1,39 @@
+{
+  "id": "td_ee80d5f8",
+  "source": "arxiv",
+  "source_id": "2604.18492",
+  "source_url": "https://arxiv.org/abs/2604.18492",
+  "content_type": "paper",
+  "creator": {
+    "id": "worachit_amnuaypongsa",
+    "name": "Worachit Amnuaypongsa",
+    "handle": "Worachit Amnuaypongsa, Yotsapat Suparanonrat, Pana Wanitchollakit, Jitkomut Songsiri",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Barrier-enforced multi-objective optimization for direct point and sharp interval forecasting",
+  "body_text": "Barrier-enforced multi-objective optimization for direct point and sharp interval forecasting\n\nThis paper proposes a multi-step probabilistic forecasting framework using a single neural-network based model to generate simultaneous point and interval forecasts. Our approach ensures non-crossing prediction intervals (PIs) through a model structure design that strictly satisfy a target coverage probability (PICP) while maximizing sharpness. Unlike existing methods that rely on manual weight tuning for scalarized loss functions, we treat point and PI forecasting as a multi-objective optimization problem, utilizing multi-gradient descent to adaptively select optimal weights. Key innovations include a new PI loss function based on an extended log-barrier with an adaptive hyperparameter to guarantee the coverage, a hybrid architecture featuring a shared temporal model with horizon-specific submodels, and a training strategy. The proposed loss is scale-independent and universally applicable; combined with our training algorithm, the framework eliminates trial-and-error hyperparameter tuning for balancing multiple objectives. Validated by an intra-day solar irradiance forecasting application, results demonstrate that our proposed loss consistently outperforms those in current literature by achieving target coverage with the narrowest PI widths. Furthermore, when compared against LSTM encoder-decoder and Transformer architectures--including those augmented with Chronos foundation models--our method remains highly competitive and can be seamlessly adapted to any deep learning structure.\n\nAuthors: Worachit Amnuaypongsa, Yotsapat Suparanonrat, Pana Wanitchollakit, Jitkomut Songsiri\nCategories: cs.LG, eess.SY, cs.LG",
+  "word_count": 193,
+  "published_at": "2026-04-20T16:43:12Z",
+  "ingested_at": "2026-04-21T11:07:34.044Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "eess.SY",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

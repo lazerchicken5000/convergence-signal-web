@@ -1,0 +1,39 @@
+{
+  "id": "td_f0643213",
+  "source": "arxiv",
+  "source_id": "2604.18548",
+  "source_url": "https://arxiv.org/abs/2604.18548",
+  "content_type": "paper",
+  "creator": {
+    "id": "william_lavery",
+    "name": "William Lavery",
+    "handle": "William Lavery, Jodie A. Cochrane, Christian Olesen, Dagim S. Tadele, John T. Nardini, Sara Hamis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Physics-Informed Neural Networks for Biological $2\\mathrm{D}{+}t$ Reaction-Diffusion Systems",
+  "body_text": "Physics-Informed Neural Networks for Biological $2\\mathrm{D}{+}t$ Reaction-Diffusion Systems\n\nPhysics-informed neural networks (PINNs) provide a powerful framework for learning governing equations of dynamical systems from data. Biologically-informed neural networks (BINNs) are a variant of PINNs that preserve the known differential operator structure (e.g., reaction-diffusion) while learning constitutive terms via trainable neural subnetworks, enforced through soft residual penalties. Existing BINN studies are limited to $1\\mathrm{D}{+}t$ reaction-diffusion systems and focus on forward prediction, using the governing partial differential equation as a regulariser rather than an explicit identification target. Here, we extend BINNs to $2\\mathrm{D}{+}t$ systems within a PINN framework that combines data preprocessing, BINN-based equation learning, and symbolic regression post-processing for closed-form equation discovery. We demonstrate the framework's real-world applicability by learning the governing equations of lung cancer cell population dynamics from time-lapse microscopy data, recovering $2\\mathrm{D}{+}t$ reaction-diffusion models from experimental observations. The proposed framework is readily applicable to other spatio-temporal systems, providing a practical and interpretable tool for fast analytic equation discovery from data.\n\nAuthors: William Lavery, Jodie A. Cochrane, Christian Olesen, Dagim S. Tadele, John T. Nardini, Sara Hamis\nCategories: cs.LG, q-bio.QM, cs.LG",
+  "word_count": 154,
+  "published_at": "2026-04-20T17:40:45Z",
+  "ingested_at": "2026-04-21T11:07:34.044Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "q-bio.QM",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

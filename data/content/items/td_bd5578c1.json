@@ -1,0 +1,40 @@
+{
+  "id": "td_bd5578c1",
+  "source": "arxiv",
+  "source_id": "2604.18510",
+  "source_url": "https://arxiv.org/abs/2604.18510",
+  "content_type": "paper",
+  "creator": {
+    "id": "md_rysul_kabir",
+    "name": "Md Rysul Kabir",
+    "handle": "Md Rysul Kabir, Zoran Tiganj",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Different Paths to Harmful Compliance: Behavioral Side Effects and Mechanistic Divergence Across LLM Jailbreaks",
+  "body_text": "Different Paths to Harmful Compliance: Behavioral Side Effects and Mechanistic Divergence Across LLM Jailbreaks\n\nOpen-weight language models can be rendered unsafe through several distinct interventions, but the resulting models may differ substantially in capabilities, behavioral profile, and internal failure mode. We study behavioral and mechanistic properties of jailbroken models across three unsafe routes: harmful supervised fine-tuning (SFT), harmful reinforcement learning with verifiable rewards (RLVR), and refusal-suppressing abliteration. All three routes achieve near-ceiling harmful compliance, but they diverge once we move beyond direct harmfulness. RLVR-jailbroken models show minimal degradation and preserve explicit harm recognition in a structured self-audit: they are able to identify harmful prompts and describe how a safe LLM should respond, yet they comply with the harmful request. With RLVR, harmful behavior is strongly suppressed by a reflective safety scaffold: when a harmful prompt is prepended with an instruction to reflect on safety standards, harmful behavior drops close to the baseline. Category-specific RLVR jailbreaks generalize broadly across harmfulness domains. Models jailbroken with SFT show the largest collapse in explicit safety judgments, the highest behavioral drift, and a substantial capability loss on standard benchmarks. Abliteration is family-dependent in both self-audit and response to a reflective safety scaffold. Mechanistic and repair analyses further separate the routes: abliteration is consistent with localized refusal-feature deletion, RLVR with preserved safety geometry but retargeted policy behavior, and SFT with broader distributed drift. Targeted repair partially recovers RLVR-jailbroken models, but has little effect on SFT-jailbroken models. Together, these results show that jailbreaks can produce vastly different properties despite similar harmfulness, with models jailbroken via RLVR showing remarkable similarity to the base model.\n\nAuthors: Md Rysul Kabir, Zoran Tiganj\nCategories: cs.CR, cs.AI, cs.CL, cs.CR",
+  "word_count": 252,
+  "published_at": "2026-04-20T17:01:27Z",
+  "ingested_at": "2026-04-21T11:07:16.082Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CL",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

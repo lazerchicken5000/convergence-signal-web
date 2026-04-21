@@ -1,0 +1,38 @@
+{
+  "id": "td_000055b9",
+  "source": "arxiv",
+  "source_id": "2604.18573",
+  "source_url": "https://arxiv.org/abs/2604.18573",
+  "content_type": "paper",
+  "creator": {
+    "id": "savya_khosla",
+    "name": "Savya Khosla",
+    "handle": "Savya Khosla, Sethuraman T, Aryan Chadha, Alex Schwing, Derek Hoiem",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability",
+  "body_text": "T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability\n\nDespite recent progress, vision-language encoders struggle with two core limitations: (1) weak alignment between language and dense vision features, which hurts tasks like open-vocabulary semantic segmentation; and (2) high token counts for fine-grained visual representations, which limits scalability to long videos. This work addresses both limitations. We propose T-REN (Text-aligned Region Encoder Network), an efficient encoder that maps visual data to a compact set of text-aligned region-level representations (or region tokens). T-REN achieves this through a lightweight network added on top of a frozen vision backbone, trained to pool patch-level representations within each semantic region into region tokens and align them with region-level text annotations. With only 3.7% additional parameters compared to the vision-language backbone, this design yields substantially stronger dense cross-modal understanding while reducing the token count by orders of magnitude. Specifically, T-REN delivers +5.9 mIoU on ADE20K open-vocabulary segmentation, +18.4% recall on COCO object-level text-image retrieval, +15.6% recall on Ego4D video object localization, and +17.6% mIoU on VSPW video scene parsing, all while reducing token counts by more than 24x for images and 187x for videos compared to the patch-based vision-language backbone. The code and model are available at https://github.com/savya08/T-REN.\n\nAuthors: Savya Khosla, Sethuraman T, Aryan Chadha, Alex Schwing, Derek Hoiem\nCategories: cs.CV, cs.CV",
+  "word_count": 192,
+  "published_at": "2026-04-20T17:57:02Z",
+  "ingested_at": "2026-04-21T11:07:29.530Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

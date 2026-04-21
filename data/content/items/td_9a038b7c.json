@@ -1,0 +1,39 @@
+{
+  "id": "td_9a038b7c",
+  "source": "arxiv",
+  "source_id": "2604.18539",
+  "source_url": "https://arxiv.org/abs/2604.18539",
+  "content_type": "paper",
+  "creator": {
+    "id": "eric_rudolph",
+    "name": "Eric Rudolph",
+    "handle": "Eric Rudolph, Philipp Steigerwald, Jens Albrecht",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Transition-Matrix Regularization for Next Dialogue Act Prediction in Counselling Conversations",
+  "body_text": "Transition-Matrix Regularization for Next Dialogue Act Prediction in Counselling Conversations\n\nThis paper studies how empirical dialogue-flow statistics can be incorporated into Next Dialogue Act Prediction (NDAP). A KL regularization term is proposed that aligns predicted act distributions with corpus-derived transition patterns. Evaluated on a 60-class German counselling taxonomy using 5-fold cross-validation, this improves macro-F1 by 9--42% relative depending on encoder and substantially improves dialogue-flow alignment. Cross-dataset validation on HOPE suggests that improvements transfer across languages and counselling domains. In systematic ablations across pretrained encoders and architectures, the findings indicate that transition regularization provides consistent gains and disproportionately benefits weaker baseline models. The results suggest that lightweight discourse-flow priors complement pretrained encoders, especially in fine-grained, data-sparse dialogue tasks.\n\nAuthors: Eric Rudolph, Philipp Steigerwald, Jens Albrecht\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 107,
+  "published_at": "2026-04-20T17:33:37Z",
+  "ingested_at": "2026-04-21T11:07:16.082Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

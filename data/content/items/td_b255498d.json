@@ -1,0 +1,38 @@
+{
+  "id": "td_b255498d",
+  "source": "arxiv",
+  "source_id": "2604.18511",
+  "source_url": "https://arxiv.org/abs/2604.18511",
+  "content_type": "paper",
+  "creator": {
+    "id": "jochen_schmid",
+    "name": "Jochen Schmid",
+    "handle": "Jochen Schmid, Philipp Seufert, Jan Schwientek, Tobias Seidel, Karl-Heinz Küfer",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "An adaptive discretization algorithm for locally optimal experimental design with constraints",
+  "body_text": "An adaptive discretization algorithm for locally optimal experimental design with constraints\n\nWe develop a novel iterative algorithm for locally optimal experimental design under constraints, like budget or performance constraints. It is an adaptive discretization algorithm. In every iteration, a discretized version of the constrained-design problem is solved and then the discretization is adaptively refined by adding an approximate violator of a suitable sufficient $\\eps$-optimality condition for the current design. We prove that with $\\eps = 0$, our algorithm converges to an optimal design and that with $\\eps &gt; 0$, our algorithm finitely terminates at an $\\eps$-optimal design. Compared to the existing algorithms on constrained experimental design, our algorithm comes with considerably less computational effort because the nonlinear subproblems in our algorithm have a smaller dimension and have to be solved only approximately and only in selected iterations (typically the last few). Additionally, our algorithm covers a considerably larger class of constraints. We demonstrate the good convergence properties of the algorithm on experimental design problems from chemical engineering that feature time and yield constraints.\n\nAuthors: Jochen Schmid, Philipp Seufert, Jan Schwientek, Tobias Seidel, Karl-Heinz Küfer\nCategories: math.OC, math.OC",
+  "word_count": 162,
+  "published_at": "2026-04-20T17:05:08Z",
+  "ingested_at": "2026-04-21T11:07:34.044Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
