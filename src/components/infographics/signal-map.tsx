@@ -87,6 +87,12 @@ export function SignalMap({ pattern, sources, cost, signal }: SignalMapProps) {
     let idx = 0;
     const total = sources.length || 1;
 
+    // Padding to prevent text from being clipped at canvas edges.
+    // Node labels (center-aligned, ~9px font, up to 20 chars) and the
+    // 12px vertical offset below each node both need room.
+    const PAD_X = 60;
+    const PAD_Y = 24;
+
     for (const [platform, items] of platformGroups) {
       const baseAngle = PLATFORM_POSITIONS[platform]?.angle ?? (idx / platformGroups.size) * Math.PI * 2;
       const color = PLATFORM_COLORS[platform] ?? '#71717a';
@@ -96,10 +102,12 @@ export function SignalMap({ pattern, sources, cost, signal }: SignalMapProps) {
         const angle = baseAngle + spread;
         // Low independence = cluster tighter, high = spread wide
         const r = orbitRadius + (Math.random() - 0.5) * 30 * independenceSpread;
+        const rawX = cx + Math.cos(angle) * r;
+        const rawY = cy + Math.sin(angle) * r;
         nodes.push({
           x: cx, y: cy, // start at center for animation
-          targetX: cx + Math.cos(angle) * r,
-          targetY: cy + Math.sin(angle) * r,
+          targetX: Math.max(PAD_X, Math.min(W - PAD_X, rawX)),
+          targetY: Math.max(PAD_Y, Math.min(H - PAD_Y, rawY)),
           platform,
           name: items[i].creator.name,
           color,
@@ -152,9 +160,9 @@ export function SignalMap({ pattern, sources, cost, signal }: SignalMapProps) {
           ctx.font = '10px ui-monospace, monospace';
           ctx.fillStyle = `rgba(52, 211, 153, ${(ringT - 0.5) * 2 * 0.6})`;
           ctx.textAlign = 'center';
-          ctx.fillText(`${formatTokens(cost.rawTokens)} → ${formatTokens(cost.curatedTokens)}`, cx, cy - tokenRingRadius - 10);
+          ctx.fillText(`${formatTokens(cost.rawTokens)} → ${formatTokens(cost.curatedTokens)}`, cx, Math.max(12, cy - tokenRingRadius - 10));
           ctx.fillStyle = `rgba(52, 211, 153, ${(ringT - 0.5) * 2 * 0.4})`;
-          ctx.fillText(`${cost.savings}% saved`, cx, cy - tokenRingRadius + 6);
+          ctx.fillText(`${cost.savings}% saved`, cx, Math.max(26, cy - tokenRingRadius + 6));
         }
       }
 

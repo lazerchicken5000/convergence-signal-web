@@ -466,7 +466,13 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
             : selectedLeader.sourcedContent;
 
           return (
-            <div className="p-5 space-y-5">
+            <div>
+              {/* Leader infographic */}
+              <div className="border-b border-zinc-800">
+                <LeaderGraph leader={selectedLeader.leader} contrib={selectedLeader.contrib} links={selectedLeader.links} />
+              </div>
+
+              <div className="p-5 space-y-5">
                 {/* Header */}
                 <div>
                   <div className="flex items-center gap-2 mb-1.5 flex-wrap">
@@ -579,6 +585,7 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                   </div>
                 )}
               </div>
+            </div>
           );
         })()}
 
@@ -590,6 +597,14 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
                 <EmergingTimeline diff={diff} selectedId={selectedId} height={320} onSelect={handleSelect} slurryMap={slurryMap} />
               </div>
             </div>
+
+            {/* Timeline legend */}
+            <p className="px-5 pt-3 pb-1 text-[10px] text-zinc-600 leading-relaxed">
+              <span className="text-emerald-400/60">New</span> = just detected.{' '}
+              <span className="text-amber-400/60">Accelerating</span> = gaining independent sources.{' '}
+              <span className="text-zinc-500">Fading</span> = losing convergence.{' '}
+              <span className="text-zinc-600">Noise</span> = low independence, did not sustain.
+            </p>
 
             {/* Detail below for selected item */}
             {selectedId && (
