@@ -1,0 +1,38 @@
+{
+  "id": "td_afec050e",
+  "source": "arxiv",
+  "source_id": "2604.19736",
+  "source_url": "https://arxiv.org/abs/2604.19736",
+  "content_type": "paper",
+  "creator": {
+    "id": "zirong_li",
+    "name": "Zirong Li",
+    "handle": "Zirong Li, Siyuan Mei, Weiwen Wu, Andreas Maier, Lina Gölz, Yan Xia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Generative Drifting for Conditional Medical Image Generation",
+  "body_text": "Generative Drifting for Conditional Medical Image Generation\n\nConditional medical image generation plays an important role in many clinically relevant imaging tasks. However, existing methods still face a fundamental challenge in balancing inference efficiency, patient-specific fidelity, and distribution-level plausibility, particularly in high-dimensional 3D medical imaging. In this work, we propose GDM, a generative drifting framework that reformulates deterministic medical image prediction as a multi-objective learning problem to jointly promote distribution-level plausibility and patient-specific fidelity while retaining one-step inference. GDM extends drifting to 3D medical imaging through an attractive-repulsive drift that minimizes the discrepancy between the generator pushforward and the target distribution. To enable stable drifting-based learning in 3D volumetric data, GDM constructs a multi-level feature bank from a medical foundation encoder to support reliable affinity estimation and drifting field computation across complementary global, local, and spatial representations. In addition, a gradient coordination strategy in the shared output space improves optimization balance under competing distribution-level and fidelity-oriented objectives. We evaluate the proposed framework on two representative tasks, MRI-to-CT synthesis and sparse-view CT reconstruction. Experimental results show that GDM consistently outperforms a wide range of baselines, including GAN-based, flow-matching-based, and SDE-based generative models, as well as supervised regression methods, while improving the balance among anatomical fidelity, quantitative reliability, perceptual realism, and inference efficiency. These findings suggest that GDM provides a practical and effective framework for conditional 3D medical image generation.\n\nAuthors: Zirong Li, Siyuan Mei, Weiwen Wu, Andreas Maier, Lina Gölz, Yan Xia\nCategories: cs.CV, cs.CV",
+  "word_count": 220,
+  "published_at": "2026-04-21T17:58:26Z",
+  "ingested_at": "2026-04-22T11:04:37.714Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

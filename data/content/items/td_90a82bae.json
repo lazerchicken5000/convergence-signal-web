@@ -1,0 +1,39 @@
+{
+  "id": "td_90a82bae",
+  "source": "arxiv",
+  "source_id": "2604.19698",
+  "source_url": "https://arxiv.org/abs/2604.19698",
+  "content_type": "paper",
+  "creator": {
+    "id": "guillaume_gautier",
+    "name": "Guillaume Gautier",
+    "handle": "Guillaume Gautier, Rémi Bardenet, Michal Valko",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On two ways to use determinantal point processes for Monte Carlo integration",
+  "body_text": "On two ways to use determinantal point processes for Monte Carlo integration\n\nThe standard Monte Carlo estimator $\\widehat{I}_N^{\\mathrm{MC}}$ of $\\int fdω$ relies on independent samples from $ω$ and has variance of order $1/N$. Replacing the samples with a determinantal point process (DPP), a repulsive distribution, makes the estimator consistent, with variance rates that depend on how the DPP is adapted to $f$ and $ω$. We examine two existing DPP-based estimators: one by Bardenet &amp; Hardy (2020) with a rate of $\\mathcal{O}(N^{-(1+1/d)})$ for smooth $f$, but relying on a fixed DPP. The other, by Ermakov &amp; Zolotukhin (1960), is unbiased with rate of order $1/N$, like Monte Carlo, but its DPP is tailored to $f$. We revisit these estimators, generalize them to continuous settings, and provide sampling algorithms.\n\nAuthors: Guillaume Gautier, Rémi Bardenet, Michal Valko\nCategories: cs.LG, math.ST, cs.LG",
+  "word_count": 115,
+  "published_at": "2026-04-21T17:17:43Z",
+  "ingested_at": "2026-04-22T11:03:47.255Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.ST",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

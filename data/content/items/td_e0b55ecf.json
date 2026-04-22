@@ -1,0 +1,40 @@
+{
+  "id": "td_e0b55ecf",
+  "source": "arxiv",
+  "source_id": "2604.19638",
+  "source_url": "https://arxiv.org/abs/2604.19638",
+  "content_type": "paper",
+  "creator": {
+    "id": "josue_torres-fonseca",
+    "name": "Josue Torres-Fonseca",
+    "handle": "Josue Torres-Fonseca, Naihao Deng, Yinpei Dai, Shane Storks, Yichi Zhang, Rada Mihalcea, Casey Kennington, Joyce Chai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SafetyALFRED: Evaluating Safety-Conscious Planning of Multimodal Large Language Models",
+  "body_text": "SafetyALFRED: Evaluating Safety-Conscious Planning of Multimodal Large Language Models\n\nMultimodal Large Language Models are increasingly adopted as autonomous agents in interactive environments, yet their ability to proactively address safety hazards remains insufficient. We introduce SafetyALFRED, built upon the embodied agent benchmark ALFRED, augmented with six categories of real-world kitchen hazards. While existing safety evaluations focus on hazard recognition through disembodied question answering (QA) settings, we evaluate eleven state-of-the-art models from the Qwen, Gemma, and Gemini families on not only hazard recognition, but also active risk mitigation through embodied planning. Our experimental results reveal a significant alignment gap: while models can accurately recognize hazards in QA settings, average mitigation success rates for these hazards are low in comparison. Our findings demonstrate that static evaluations through QA are insufficient for physical safety, thus we advocate for a paradigm shift toward benchmarks that prioritize corrective actions in embodied contexts. We open-source our code and dataset under https://github.com/sled-group/SafetyALFRED.git\n\nAuthors: Josue Torres-Fonseca, Naihao Deng, Yinpei Dai, Shane Storks, Yichi Zhang, Rada Mihalcea, Casey Kennington, Joyce Chai\nCategories: cs.AI, cs.CL, cs.RO, cs.AI",
+  "word_count": 145,
+  "published_at": "2026-04-21T16:27:20Z",
+  "ingested_at": "2026-04-22T11:03:42.982Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.RO",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

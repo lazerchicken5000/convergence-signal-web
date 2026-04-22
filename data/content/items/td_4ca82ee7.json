@@ -1,0 +1,38 @@
+{
+  "id": "td_4ca82ee7",
+  "source": "arxiv",
+  "source_id": "2604.19664",
+  "source_url": "https://arxiv.org/abs/2604.19664",
+  "content_type": "paper",
+  "creator": {
+    "id": "nico_baumgart",
+    "name": "Nico Baumgart",
+    "handle": "Nico Baumgart, Markus Lange-Hegermann, Jan Henze",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ECLASS-Augmented Semantic Product Search for Electronic Components",
+  "body_text": "ECLASS-Augmented Semantic Product Search for Electronic Components\n\nEfficient semantic access to industrial product data is a key enabler for factory automation and emerging LLM-based agent workflows, where both human engineers and autonomous agents must identify suitable components from highly structured catalogs. However, the vocabulary mismatch between natural-language queries and attribute-centric product descriptions limits the effectiveness of traditional retrieval approaches, e.g., BM25. In this work, we present a systematic evaluation of LLM-assisted dense retrieval for semantic product search on industrial electronic components, and investigate the integration of hierarchical semantics from the ECLASS standard into embedding-based retrieval. Our results show that dense retrieval combined with re-ranking substantially outperforms classical lexical methods and foundation model web-search baselines. In particular, the proposed approach achieves a Hit_Rate@5 of 94.3 %, compared to 31.4 % for BM25 on expert queries, while also exceeding foundation model baselines in both effectiveness and efficiency. Furthermore, augmenting product representations with ECLASS semantics yields consistent performance gains across configurations, demonstrating that standardized hierarchical metadata provides a crucial semantic bridge between user intent and sparse product descriptions.\n\nAuthors: Nico Baumgart, Markus Lange-Hegermann, Jan Henze\nCategories: cs.IR, cs.IR",
+  "word_count": 168,
+  "published_at": "2026-04-21T16:48:55Z",
+  "ingested_at": "2026-04-22T11:04:05.678Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

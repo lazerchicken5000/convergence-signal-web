@@ -1,0 +1,38 @@
+{
+  "id": "td_dd291697",
+  "source": "arxiv",
+  "source_id": "2604.19645",
+  "source_url": "https://arxiv.org/abs/2604.19645",
+  "content_type": "paper",
+  "creator": {
+    "id": "andrew_hong",
+    "name": "Andrew Hong",
+    "handle": "Andrew Hong, Jason Potteiger, Luis E. Zapata",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The signal is the ceiling: Measurement limits of LLM-predicted experience ratings from open-ended survey text",
+  "body_text": "The signal is the ceiling: Measurement limits of LLM-predicted experience ratings from open-ended survey text\n\nAn earlier paper (Hong, Potteiger, and Zapata 2026) established that an unoptimized GPT 4.1 prompt predicts fan-reported experience ratings within one point 67% of the time from open-ended survey text. This paper tests the relative impact of prompt design and model selection on that performance. We compared four configurations on approximately 10,000 post-game surveys from five MLB teams: the original baseline prompt and a moderately customized version, crossed with three GPT models (4.1, 4.1-mini, 5.2). Prompt customization added roughly two percentage points of within +/-1 agreement on GPT 4.1 (from 67% to 69%). Both model swaps from that best configuration degraded performance: GPT 5.2 returned to the baseline, and GPT 4.1-mini fell six percentage points below it. Both levers combined were dwarfed by the input itself: across capable configurations, accuracy varied more than an order of magnitude more by the linguistic character of the text than by the choice of prompt or model. The ceiling has two parts. One is a bias in how the model reads text, which prompt design can correct. The other is a difference between what fans write about and what they actually decide, which no engineering can close because the missing information is not in the text. Prompt customization moved the first part; model selection moved neither reliably. The result is not that \"prompt engineering helps a little\" but that prompt engineering helps in a specific and predictable way, on the part of the ceiling it can reach.\n\nAuthors: Andrew Hong, Jason Potteiger, Luis E. Zapata\nCategories: cs.CL, cs.CL",
+  "word_count": 243,
+  "published_at": "2026-04-21T16:34:15Z",
+  "ingested_at": "2026-04-22T11:03:42.981Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

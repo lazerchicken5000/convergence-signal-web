@@ -1,0 +1,38 @@
+{
+  "id": "td_c14bac46",
+  "source": "arxiv",
+  "source_id": "2604.19678",
+  "source_url": "https://arxiv.org/abs/2604.19678",
+  "content_type": "paper",
+  "creator": {
+    "id": "nurkhan_laiyk",
+    "name": "Nurkhan Laiyk",
+    "handle": "Nurkhan Laiyk, Gerard I. Gállego, Javier Ferrando, Fajri Koto",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Exploring Language-Agnosticity in Function Vectors: A Case Study in Machine Translation",
+  "body_text": "Exploring Language-Agnosticity in Function Vectors: A Case Study in Machine Translation\n\nFunction vectors (FVs) are vector representations of tasks extracted from model activations during in-context learning. While prior work has shown that multilingual model representations can be language-agnostic, it remains unclear whether the same holds for function vectors. We study whether FVs exhibit language-agnosticity, using machine translation as a case study. Across three decoder-only multilingual LLMs, we find that translation FVs extracted from a single English$\\rightarrow$Target direction transfer to other target languages, consistently improving the rank of correct translation tokens across multiple unseen languages. Ablation results show that removing the FV degrades translation across languages with limited impact on unrelated tasks. We further show that base-model FVs transfer to instruction-tuned variants and partially generalize from word-level to sentence-level translation.\n\nAuthors: Nurkhan Laiyk, Gerard I. Gállego, Javier Ferrando, Fajri Koto\nCategories: cs.CL, cs.CL",
+  "word_count": 118,
+  "published_at": "2026-04-21T16:56:55Z",
+  "ingested_at": "2026-04-22T11:03:42.981Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_43f60e47",
+  "source": "arxiv",
+  "source_id": "2604.19737",
+  "source_url": "https://arxiv.org/abs/2604.19737",
+  "content_type": "paper",
+  "creator": {
+    "id": "austin_coursey",
+    "name": "Austin Coursey",
+    "handle": "Austin Coursey, Abel Diaz-Gonzalez, Marcos Quinones-Grueiro, Gautam Biswas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Safe Continual Reinforcement Learning in Non-stationary Environments",
+  "body_text": "Safe Continual Reinforcement Learning in Non-stationary Environments\n\nReinforcement learning (RL) offers a compelling data-driven paradigm for synthesizing controllers for complex systems when accurate physical models are unavailable; however, most existing control-oriented RL methods assume stationarity and, therefore, struggle in real-world non-stationary deployments where system dynamics and operating conditions can change unexpectedly. Moreover, RL controllers acting in physical environments must satisfy safety constraints throughout their learning and execution phases, rendering transient violations during adaptation unacceptable. Although continual RL and safe RL have each addressed non-stationarity and safety, respectively, their intersection remains comparatively unexplored, motivating the study of safe continual RL algorithms that can adapt over the system's lifetime while preserving safety. In this work, we systematically investigate safe continual reinforcement learning by introducing three benchmark environments that capture safety-critical continual adaptation and by evaluating representative approaches from safe RL, continual RL, and their combinations. Our empirical results reveal a fundamental tension between maintaining safety constraints and preventing catastrophic forgetting under non-stationary dynamics, with existing methods generally failing to achieve both objectives simultaneously. To address this shortcoming, we examine regularization-based strategies that partially mitigate this trade-off and characterize their benefits and limitations. Finally, we outline key open challenges and research directions toward developing safe, resilient learning-based controllers capable of sustained autonomous operation in changing environments.\n\nAuthors: Austin Coursey, Abel Diaz-Gonzalez, Marcos Quinones-Grueiro, Gautam Biswas\nCategories: cs.LG, cs.LG",
+  "word_count": 206,
+  "published_at": "2026-04-21T17:58:32Z",
+  "ingested_at": "2026-04-22T11:03:47.253Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

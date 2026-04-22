@@ -1,0 +1,39 @@
+{
+  "id": "td_913fcbaa",
+  "source": "arxiv",
+  "source_id": "2604.19730",
+  "source_url": "https://arxiv.org/abs/2604.19730",
+  "content_type": "paper",
+  "creator": {
+    "id": "perry_dong",
+    "name": "Perry Dong",
+    "handle": "Perry Dong, Alexander Swerdlow, Dorsa Sadigh, Chelsea Finn",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FASTER: Value-Guided Sampling for Fast RL",
+  "body_text": "FASTER: Value-Guided Sampling for Fast RL\n\nSome of the most performant reinforcement learning algorithms today can be prohibitively expensive as they use test-time scaling methods such as sampling multiple action candidates and selecting the best one. In this work, we propose FASTER, a method for getting the benefits of sampling-based test-time scaling of diffusion-based policies without the computational cost by tracing the performance gain of action samples back to earlier in the denoising process. Our key insight is that we can model the denoising of multiple action candidates and selecting the best one as a Markov Decision Process (MDP) where the goal is to progressively filter action candidates before denoising is complete. With this MDP, we can learn a policy and value function in the denoising space that predicts the downstream value of action candidates in the denoising process and filters them while maximizing returns. The result is a method that is lightweight and can be plugged into existing generative RL algorithms. Across challenging long-horizon manipulation tasks in online and batch-online RL, FASTER consistently improves the underlying policies and achieves the best overall performance among the compared methods. Applied to a pretrained VLA, FASTER achieves the same performance while substantially reducing training and inference compute requirements. Code is available at https://github.com/alexanderswerdlow/faster .\n\nAuthors: Perry Dong, Alexander Swerdlow, Dorsa Sadigh, Chelsea Finn\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 206,
+  "published_at": "2026-04-21T17:52:17Z",
+  "ingested_at": "2026-04-22T11:03:38.724Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

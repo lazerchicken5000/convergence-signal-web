@@ -1,0 +1,39 @@
+{
+  "id": "td_722456cf",
+  "source": "arxiv",
+  "source_id": "2604.19670",
+  "source_url": "https://arxiv.org/abs/2604.19670",
+  "content_type": "paper",
+  "creator": {
+    "id": "alex_cuellar",
+    "name": "Alex Cuellar",
+    "handle": "Alex Cuellar, Michael Hagenow, Julie Shah",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Multi-Cycle Spatio-Temporal Adaptation in Human-Robot Teaming",
+  "body_text": "Multi-Cycle Spatio-Temporal Adaptation in Human-Robot Teaming\n\nEffective human-robot teaming is crucial for the practical deployment of robots in human workspaces. However, optimizing joint human-robot plans remains a challenge due to the difficulty of modeling individualized human capabilities and preferences. While prior research has leveraged the multi-cycle structure of domains like manufacturing to learn an individual's tendencies and adapt plans over repeated interactions, these techniques typically consider task-level and motion-level adaptation in isolation. Task-level methods optimize allocation and scheduling but often ignore spatial interference in close-proximity scenarios; conversely, motion-level methods focus on collision avoidance while ignoring the broader task context. This paper introduces RAPIDDS, a framework that unifies these approaches by modeling an individual's spatial behavior (motion paths) and temporal behavior (time required to complete tasks) over multiple cycles. RAPIDDS then jointly adapts task schedules and steers diffusion models of robot motions to maximize efficiency and minimize proximity accounting for these individualized models. We demonstrate the importance of this dual adaptation through an ablation study in simulation and a physical robot scenario using a 7-DOF robot arm. Finally, we present a user study (n=32) showing significant plan improvement compared to non-adaptive systems across both objective metrics, such as efficiency and proximity, and subjective measures, including fluency and user preference. See this paper's companion video at: https://youtu.be/55Q3lq1fINs.\n\nAuthors: Alex Cuellar, Michael Hagenow, Julie Shah\nCategories: cs.RO, cs.AI, cs.RO",
+  "word_count": 209,
+  "published_at": "2026-04-21T16:49:59Z",
+  "ingested_at": "2026-04-22T11:03:38.725Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

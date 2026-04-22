@@ -1,0 +1,40 @@
+{
+  "id": "td_e5915e24",
+  "source": "arxiv",
+  "source_id": "2604.19729",
+  "source_url": "https://arxiv.org/abs/2604.19729",
+  "content_type": "paper",
+  "creator": {
+    "id": "abdulmoneam_ali",
+    "name": "Abdulmoneam Ali",
+    "handle": "Abdulmoneam Ali, Ahmed Arafa",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FB-NLL: A Feature-Based Approach to Tackle Noisy Labels in Personalized Federated Learning",
+  "body_text": "FB-NLL: A Feature-Based Approach to Tackle Noisy Labels in Personalized Federated Learning\n\nPersonalized Federated Learning (PFL) aims to learn multiple task-specific models rather than a single global model across heterogeneous data distributions. Existing PFL approaches typically rely on iterative optimization-such as model update trajectories-to cluster users that need to accomplish the same tasks together. However, these learning-dynamics-based methods are inherently vulnerable to low-quality data and noisy labels, as corrupted updates distort clustering decisions and degrade personalization performance. To tackle this, we propose FB-NLL, a feature-centric framework that decouples user clustering from iterative training dynamics. By exploiting the intrinsic heterogeneity of local feature spaces, FB-NLL characterizes each user through the spectral structure of the covariances of their feature representations and leverages subspace similarity to identify task-consistent user groupings. This geometry-aware clustering is label-agnostic and is performed in a one-shot manner prior to training, significantly reducing communication overhead and computational costs compared to iterative baselines. Complementing this, we introduce a feature-consistency-based detection and correction strategy to address noisy labels within clusters. By leveraging directional alignment in the learned feature space and assigning labels based on class-specific feature subspaces, our method mitigates corrupted supervision without requiring estimation of stochastic noise transition matrices. In addition, FB-NLL is model-independent and integrates seamlessly with existing noise-robust training techniques. Extensive experiments across diverse datasets and noise regimes demonstrate that our framework consistently outperforms state-of-the-art baselines in terms of average accuracy and performance stability.\n\nAuthors: Abdulmoneam Ali, Ahmed Arafa\nCategories: cs.LG, cs.IT, eess.SP, cs.LG",
+  "word_count": 224,
+  "published_at": "2026-04-21T17:51:58Z",
+  "ingested_at": "2026-04-22T11:03:47.254Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.IT",
+    "eess.SP",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

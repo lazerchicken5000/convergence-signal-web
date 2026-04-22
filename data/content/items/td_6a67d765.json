@@ -1,0 +1,41 @@
+{
+  "id": "td_6a67d765",
+  "source": "arxiv",
+  "source_id": "2604.19740",
+  "source_url": "https://arxiv.org/abs/2604.19740",
+  "content_type": "paper",
+  "creator": {
+    "id": "mario_tuci",
+    "name": "Mario Tuci",
+    "handle": "Mario Tuci, Caner Korkmaz, Umut Şimşekli, Tolga Birdal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Generalization at the Edge of Stability",
+  "body_text": "Generalization at the Edge of Stability\n\nTraining modern neural networks often relies on large learning rates, operating at the edge of stability, where the optimization dynamics exhibit oscillatory and chaotic behavior. Empirically, this regime often yields improved generalization performance, yet the underlying mechanism remains poorly understood. In this work, we represent stochastic optimizers as random dynamical systems, which often converge to a fractal attractor set (rather than a point) with a smaller intrinsic dimension. Building on this connection and inspired by Lyapunov dimension theory, we introduce a novel notion of dimension, coined the `sharpness dimension', and prove a generalization bound based on this dimension. Our results show that generalization in the chaotic regime depends on the complete Hessian spectrum and the structure of its partial determinants, highlighting a complexity that cannot be captured by the trace or spectral norm considered in prior work. Experiments across various MLPs and transformers validate our theory while also providing new insights into the recently observed phenomenon of grokking.\n\nAuthors: Mario Tuci, Caner Korkmaz, Umut Şimşekli, Tolga Birdal\nCategories: cs.LG, cs.AI, cs.CV, stat.ML, cs.LG",
+  "word_count": 158,
+  "published_at": "2026-04-21T17:59:02Z",
+  "ingested_at": "2026-04-22T11:03:38.723Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_1fb26fcc",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+  "body_text": "OpenAI released ChatGPT Images 2.0 today, their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test.\r\nMy prompt:\r\n\r\nDo a where's Waldo style image but it's where is the raccoon holding a ham radio\r\n\r\ngpt-image-1\r\nFirst as a baseline here's what I got from the older gpt-image-1 using ChatGPT directly:\r\n\r\nI wasn't able to spot the raccoon - I quickly realized that testing image generation models on Where's Waldo style images (Where's Wally in the UK) can be pretty frustrating!\r\nI tried getting Claude Opus 4.7 with its new higher resolution inputs to solve it but it was convinced there was a raccoon it couldn't find thanks to the instruction card at the top left of the image:\r\n\r\nYes — there's at least one raccoon in the picture, but it's very well hidden. In my careful sweep through zoomed-in sections, honestly, I couldn't definitively spot a raccoon holding a ham radio. [...]\r\n\r\nNano Banana 2 and Pro\r\nNext I tried Google's Nano Banana 2, via Gemini:\r\n\r\nThat one was pretty obvious, the raccoon is in the \"Amateur Radio Club\" booth in the center of the image!\r\nClaude said:\r\n\r\nHonestly, this one wasn't really hiding — he's the star of the booth. Feels like the illustrator took pity on us after that last impossible scene. The little \"W6HAM\" callsign pun on the booth sign is a nice touch too.\r\n\r\nI also tried Nano Banana Pro in AI Studio and got this, by far the worst result from any model. Not sure what went wrong here!\r\n\r\ngpt-image-2\r\nWith the baseline established, let's try out the new model.\r\nI used an updated version of my openai_image.py script, which is a thin wrapper around the OpenAI Python client library. Their client library hasn't yet been updated to include gpt-image-2 but thankfully it doesn't validate the model ID so you can use it anyway.\r\nHere's how I ran that:\r\nOPENAI_API_KEY=\"$(llm keys get openai)\" \\\r\n  uv run https://tools.simonwillison.net/python/openai_image.py \\\r\n  -m gpt-image-2 \\\r\n  \"Do a where's Waldo style image but it's where is the raccoon holding a ham radio\"\r\nHere's what I got back. I don't think there's a raccoon in there - I couldn't spot one, and neither could Claude.\r\n\r\nThe OpenAI image generation cookbook has been updated with notes on gpt-image-2, including the outputQuality setting and available sizes.\r\nI tried setting outputQuality to high and the dimensions to 3840x2160 - I believe that's the maximum - and got this - a 17MB PNG which I converted to a 5MB WEBP:\r\nOPENAI_API_KEY=\"$(llm keys get openai)\" \\\r\n  uv run 'https://raw.githubusercontent.com/simonw/tools/refs/heads/main/python/openai_image.py' \\\r\n  -m gpt-image-2 \"Do a where's Waldo style image but it's where is the raccoon holding a ham radio\" \\\r\n  --quality high --size 3840x2160\r\n\r\nThat's pretty great! There's a raccoon with a ham radio in there (bottom left, quite easy to spot).\r\nThe image used 13,342 output tokens, which are charged at $30/million so a total cost of around 40 cents.\r\nTakeaways\r\nI think this new ChatGPT image generation model takes the crown from Gemini, at least for the moment.\r\nWhere's Waldo style images are an infuriating and somewhat foolish way to test these models, but they do help illustrate how good they are getting at complex illustrations combining both text and details.\r\nUpdate: asking models to solve this is risky\r\nrizaco on Hacker News asked ChatGPT to draw a red circle around the raccoon in one of the images in which I had failed to find one. Here's an animated mix of their result and the original image:\r\n\r\nLooks like we definitely can't trust these models to usefully solve their own puzzles!\n    \n        Tags: ai, openai, generative-ai, chatgpt, llms, text-to-image, llm-release, nano-banana",
+  "word_count": 629,
+  "published_at": "2026-04-21T20:32:24.000Z",
+  "ingested_at": "2026-04-22T11:00:08.506Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
