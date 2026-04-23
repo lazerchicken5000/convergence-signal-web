@@ -1,0 +1,37 @@
+{
+  "id": "td_9fdee966",
+  "source": "semantic_scholar",
+  "source_id": "2340e5b64224b66c10e603898c0cc24c8e2793c3",
+  "source_url": "https://www.semanticscholar.org/paper/2340e5b64224b66c10e603898c0cc24c8e2793c3",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiaoyu_chen",
+    "name": "Xiaoyu Chen",
+    "handle": "Xiaoyu Chen, Jiachen Hu, Chi Jin, Lihong Li, Liwei Wang",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Understanding Domain Randomization for Sim-to-real Transfer",
+  "body_text": "Understanding Domain Randomization for Sim-to-real Transfer\nTLDR: A theoretical framework for sim-to-real transfers, in which the simulator is modeled as a set of MDPs with tunable parameters (corresponding to unknown physical parameters such as friction), and it is proved that sim- to-real transfer can succeed under mild conditions without any real-world training samples.\nReinforcement learning encounters many challenges when applied directly in the real world. Sim-to-real transfer is widely used to transfer the knowledge learned from simulation to the real world. Domain randomization -- one of the most popular algorithms for sim-to-real transfer -- has been demonstrated to be effective in various tasks in robotics and autonomous driving. Despite its empirical successes, theoretical understanding on why this simple algorithm works is limited. In this paper, we propose a theoretical framework for sim-to-real transfers, in which the simulator is modeled as a set of MDPs with tunable parameters (corresponding to unknown physical parameters such as friction). We provide sharp bounds on the sim-to-real gap -- the difference between the value of policy returned by domain randomization and the value of an optimal policy for the real world. We prove that sim-to-real transfer can succeed under mild conditions without any real-world training samples. Our theory also highlights the importance of using memory (i.e., history-dependent policies) in domain randomization. Our proof is based on novel techniques that reduce the problem of bounding the sim-to-real gap to the problem of designing efficient learning algorithms for infinite-horizon MDPs, which we believe are of independent interest.\nAuthors: Xiaoyu Chen, Jiachen Hu, Chi Jin, Lihong Li, Liwei Wang\nVenue: International Conference on Learning Representations\nFields: Computer Science",
+  "word_count": 270,
+  "published_at": "2021-10-07",
+  "ingested_at": "2026-04-23T11:06:40.992Z",
+  "engagement": {
+    "views": 164,
+    "likes": 12,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

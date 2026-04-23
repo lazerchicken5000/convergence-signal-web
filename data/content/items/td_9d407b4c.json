@@ -1,0 +1,35 @@
+{
+  "id": "td_9d407b4c",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+  "body_text": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model\nBig claims from Qwen about their latest open weight model:\n\nQwen3.6-27B delivers flagship-level agentic coding performance, surpassing the previous-generation open-source flagship Qwen3.5-397B-A17B (397B total / 17B active MoE) across all major coding benchmarks.\n\nOn Hugging Face Qwen3.5-397B-A17B is 807GB, this new Qwen3.6-27B is 55.6GB.\nI tried it out with the 16.8GB Unsloth Qwen3.6-27B-GGUF:Q4_K_M quantized version and llama-server using this recipe by benob on Hacker News, after first installing llama-server using brew install llama.cpp:\nllama-server \\\n    -hf unsloth/Qwen3.6-27B-GGUF:Q4_K_M \\\n    --no-mmproj \\\n    --fit on \\\n    -np 1 \\\n    -c 65536 \\\n    --cache-ram 4096 -ctxcp 2 \\\n    --jinja \\\n    --temp 0.6 \\\n    --top-p 0.95 \\\n    --top-k 20 \\\n    --min-p 0.0 \\\n    --presence-penalty 0.0 \\\n    --repeat-penalty 1.0 \\\n    --reasoning on \\\n    --chat-template-kwargs '{\"preserve_thinking\": true}'\n\nOn first run that saved the ~17GB model to ~/.cache/huggingface/hub/models--unsloth--Qwen3.6-27B-GGUF.\nHere's the transcript for \"Generate an SVG of a pelican riding a bicycle\". This is an outstanding result for a 16.8GB local model:\n\nPerformance numbers reported by llama-server:\n\nReading: 20 tokens, 0.4s, 54.32 tokens/s\nGeneration: 4,444 tokens, 2min 53s, 25.57 tokens/s\n\nFor good measure, here's Generate an SVG of a NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER (run previously with GLM-5.1):\n\nThat one took 6,575 tokens, 4min 25s, 24.74 t/s.\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, local-llms, llms, qwen, pelican-riding-a-bicycle, llama-cpp, llm-release, ai-in-china",
+  "word_count": 220,
+  "published_at": "2026-04-22T16:45:23.000Z",
+  "ingested_at": "2026-04-23T11:00:09.893Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_d90146f5",
+  "source": "semantic_scholar",
+  "source_id": "0af8cdb71ce9e5bf37ad2a11f05af293cfe62172",
+  "source_url": "https://www.semanticscholar.org/paper/0af8cdb71ce9e5bf37ad2a11f05af293cfe62172",
+  "content_type": "paper",
+  "creator": {
+    "id": "xue_bin_peng",
+    "name": "Xue Bin Peng",
+    "handle": "Xue Bin Peng, Marcin Andrychowicz, Wojciech Zaremba, P. Abbeel",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization",
+  "body_text": "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization\nTLDR: By randomizing the dynamics of the simulator during training, this paper is able to develop policies that are capable of adapting to very different dynamics, including ones that differ significantly from the dynamics on which the policies were trained.\nSimulations are attractive environments for training agents as they provide an abundant source of data and alleviate certain safety concerns during the training process. But the behaviours developed by agents in simulation are often specific to the characteristics of the simulator. Due to modeling error, strategies that are successful in simulation may not transfer to their real world counterparts. In this paper, we demonstrate a simple method to bridge this “reality gap”. By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics, including ones that differ significantly from the dynamics on which the policies were trained. This adaptivity enables the policies to generalize to the dynamics of the real world without any training on the physical system. Our approach is demonstrated on an object pushing task using a robotic arm. Despite being trained exclusively in simulation, our policies are able to maintain a similar level of performance when deployed on a real robot, reliably moving an object to a desired location from random initial configurations. We explore the impact of various design decisions and show that the resulting policies are robust to significant calibration error.\nAuthors: Xue Bin Peng, Marcin Andrychowicz, Wojciech Zaremba, P. Abbeel\nVenue: IEEE International Conference on Robotics and Automation\nFields: Computer Science, Engineering",
+  "word_count": 269,
+  "published_at": "2017-10-18",
+  "ingested_at": "2026-04-23T11:06:40.991Z",
+  "engagement": {
+    "views": 1651,
+    "likes": 85,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science",
+    "Engineering"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

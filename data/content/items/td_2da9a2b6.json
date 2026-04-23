@@ -1,0 +1,39 @@
+{
+  "id": "td_2da9a2b6",
+  "source": "arxiv",
+  "source_id": "2604.20800",
+  "source_url": "https://arxiv.org/abs/2604.20800",
+  "content_type": "paper",
+  "creator": {
+    "id": "dimitrije_antić",
+    "name": "Dimitrije Antić",
+    "handle": "Dimitrije Antić, Alvaro Budria, George Paschalidis, Sai Kumar Dwivedi, Dimitrios Tzionas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LEXIS: LatEnt ProXimal Interaction Signatures for 3D HOI from an Image",
+  "body_text": "LEXIS: LatEnt ProXimal Interaction Signatures for 3D HOI from an Image\n\nReconstructing 3D Human-Object Interaction from an RGB image is essential for perceptive systems. Yet, this remains challenging as it requires capturing the subtle physical coupling between the body and objects. While current methods rely on sparse, binary contact cues, these fail to model the continuous proximity and dense spatial relationships that characterize natural interactions. We address this limitation via InterFields, a representation that encodes dense, continuous proximity across the entire body and object surfaces. However, inferring these fields from single images is inherently ill-posed. To tackle this, our intuition is that interaction patterns are characteristically structured by the action and object geometry. We capture this structure in LEXIS, a novel discrete manifold of interaction signatures learned via a VQ-VAE. We then develop LEXIS-Flow, a diffusion framework that leverages LEXIS signatures to estimate human and object meshes alongside their InterFields. Notably, these InterFields help in a guided refinement that ensures physically-plausible, proximity-aware reconstructions without requiring post-hoc optimization. Evaluation on Open3DHOI and BEHAVE shows that LEXIS-Flow significantly outperforms existing SotA baselines in reconstruction, contact, and proximity quality. Our approach not only improves generalization but also yields reconstructions perceived as more realistic, moving us closer to holistic 3D scene understanding. Code &amp; models will be public at https://anticdimi.github.io/lexis.\n\nAuthors: Dimitrije Antić, Alvaro Budria, George Paschalidis, Sai Kumar Dwivedi, Dimitrios Tzionas\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 205,
+  "published_at": "2026-04-22T17:27:13Z",
+  "ingested_at": "2026-04-23T11:04:13.782Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

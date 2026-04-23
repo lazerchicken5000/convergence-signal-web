@@ -1,0 +1,38 @@
+{
+  "id": "td_412d7d58",
+  "source": "arxiv",
+  "source_id": "2604.20811",
+  "source_url": "https://arxiv.org/abs/2604.20811",
+  "content_type": "paper",
+  "creator": {
+    "id": "hanqi_li",
+    "name": "Hanqi Li",
+    "handle": "Hanqi Li, Lu Chen, Kai Yu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Diagnosing CFG Interpretation in LLMs",
+  "body_text": "Diagnosing CFG Interpretation in LLMs\n\nAs LLMs are increasingly integrated into agentic systems, they must adhere to dynamically defined, machine-interpretable interfaces. We evaluate LLMs as in-context interpreters: given a novel context-free grammar, can LLMs generate syntactically valid, behaviorally functional, and semantically faithful outputs? We introduce RoboGrid, a framework that disentangles syntax, behavior, and semantics through controlled stress-tests of recursion depth, expression complexity, and surface styles. Our experiments reveal a consistent hierarchical degradation: LLMs often maintain surface syntax but fail to preserve structural semantics. Despite the partial mitigation provided by CoT reasoning, performance collapses under structural density, specifically deep recursion and high branching, with semantic alignment vanishing at extreme depths. Furthermore, \"Alien\" lexicons reveal that LLMs rely on semantic bootstrapping from keywords rather than pure symbolic induction. These findings pinpoint critical gaps in hierarchical state-tracking required for reliable, grammar-agnostic agents.\n\nAuthors: Hanqi Li, Lu Chen, Kai Yu\nCategories: cs.AI, cs.AI",
+  "word_count": 134,
+  "published_at": "2026-04-22T17:43:05Z",
+  "ingested_at": "2026-04-23T11:04:05.239Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

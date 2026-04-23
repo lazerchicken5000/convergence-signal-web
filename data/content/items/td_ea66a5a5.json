@@ -1,0 +1,38 @@
+{
+  "id": "td_ea66a5a5",
+  "source": "arxiv",
+  "source_id": "2604.20801",
+  "source_url": "https://arxiv.org/abs/2604.20801",
+  "content_type": "paper",
+  "creator": {
+    "id": "hanzhi_liu",
+    "name": "Hanzhi Liu",
+    "handle": "Hanzhi Liu, Chaofan Shou, Xiaonan Liu, Hongbo Wen, Yanju Chen, Ryan Jingyang Fang, Yu Feng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Synthesizing Multi-Agent Harnesses for Vulnerability Discovery",
+  "body_text": "Synthesizing Multi-Agent Harnesses for Vulnerability Discovery\n\nLLM agents have begun to find real security vulnerabilities that human auditors and automated fuzzers missed for decades, in source-available targets where the analyst can build and instrument the code. In practice the work is split among several agents, wired together by a harness: the program that fixes which roles exist, how they pass information, which tools each may call, and how retries are coordinated. When the language model is held fixed, changing only the harness can still change success rates by several-fold on public agent benchmarks, yet most harnesses are written by hand; recent harness optimizers each search only a narrow slice of the design space and rely on coarse pass/fail feedback that gives no diagnostic signal about why a trial failed. AgentFlow addresses both limitations with a typed graph DSL whose search space jointly covers agent roles, prompts, tools, communication topology, and coordination protocol, paired with a feedback-driven outer loop that reads runtime signals from the target program itself to diagnose which part of the harness caused the failure and rewrite it accordingly. We evaluate AgentFlow on TerminalBench-2 with Claude Opus 4.6 and on Google Chrome with Kimi K2.5. AgentFlow reaches 84.3% on TerminalBench-2, the highest score in the public leaderboard snapshot we evaluate against, and discovers ten previously unknown zero-day vulnerabilities in Google Chrome, including two Critical sandbox-escape vulnerabilities (CVE-2026-5280 and CVE-2026-6297).\n\nAuthors: Hanzhi Liu, Chaofan Shou, Xiaonan Liu, Hongbo Wen, Yanju Chen, Ryan Jingyang Fang, Yu Feng\nCategories: cs.CR, cs.CR",
+  "word_count": 225,
+  "published_at": "2026-04-22T17:27:40Z",
+  "ingested_at": "2026-04-23T11:04:18.329Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "td_0a1ebb9c",
+  "source": "semantic_scholar",
+  "source_id": "1388f68e00cded439a6cbfa1f71daf00fc38e681",
+  "source_url": "https://www.semanticscholar.org/paper/1388f68e00cded439a6cbfa1f71daf00fc38e681",
+  "content_type": "paper",
+  "creator": {
+    "id": "filip_bjelonic",
+    "name": "Filip Bjelonic",
+    "handle": "Filip Bjelonic, Fabian Tischhauser, Marco Hutter",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Towards bridging the gap: Systematic sim-to-real transfer for diverse legged robots",
+  "body_text": "Towards bridging the gap: Systematic sim-to-real transfer for diverse legged robots\nTLDR: This work proposes a framework that integrates sim-to-real reinforcement learning with a physics-grounded energy model for permanent magnet synchronous motors, and improves energetic efficiency over state-of-the-art methods.\nLegged robots must achieve both robust locomotion and energy efficiency to be practical in real-world environments. Yet controllers trained in simulation often fail to transfer reliably, and most existing approaches neglect actuator-specific energy losses or depend on complex, hand-tuned reward formulations. We propose a framework that integrates sim-to-real reinforcement learning with a physics-grounded energy model for permanent magnet synchronous motors. The framework requires a minimal parameter set to capture the simulation-to-reality gap and employs a compact four-term reward with a first-principle-based energetic loss formulation that balances electrical and mechanical dissipation. We evaluate and validate the approach through a bottom-up dynamic parameter identification study, spanning actuators, full-robot in-air trajectories and on-ground locomotion. The framework is tested on three primary platforms and deployed on ten additional robots, demonstrating reliable policy transfer without randomization of dynamic parameters. Our method improves energetic efficiency over state-of-the-art methods, achieving a 32 percent reduction in the full Cost of Transport of ANYmal (value 1.27). All code, models, and datasets will be released.\nAuthors: Filip Bjelonic, Fabian Tischhauser, Marco Hutter\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 216,
+  "published_at": "2025-09-08",
+  "ingested_at": "2026-04-23T11:06:40.992Z",
+  "engagement": {
+    "views": 12,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

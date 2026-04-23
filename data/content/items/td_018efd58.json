@@ -1,0 +1,39 @@
+{
+  "id": "td_018efd58",
+  "source": "arxiv",
+  "source_id": "2604.20819",
+  "source_url": "https://arxiv.org/abs/2604.20819",
+  "content_type": "paper",
+  "creator": {
+    "id": "yiming_bian",
+    "name": "Yiming Bian",
+    "handle": "Yiming Bian, Joshua M. Akey",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Stream-CQSA: Avoiding Out-of-Memory in Attention Computation via Flexible Workload Scheduling",
+  "body_text": "Stream-CQSA: Avoiding Out-of-Memory in Attention Computation via Flexible Workload Scheduling\n\nThe scalability of long-context large language models is fundamentally limited by the quadratic memory cost of exact self-attention, which often leads to out-of-memory (OOM) failures on modern hardware. Existing methods improve memory efficiency to near-linear complexity, while assuming that the full query, key, and value tensors fit in device memory. In this work, we remove this assumption by introducing CQS Divide, an operation derived from cyclic quorum sets (CQS) theory that decomposes attention into a set of independent subsequence computations whose recomposition yields exactly the same result as full-sequence attention. Exploiting this decomposition, we introduce Stream-CQSA, a memory-adaptive scheduling framework that partitions attention into subproblems that fit within arbitrary memory budgets. This recasts attention from a logically monolithic operation into a collection of schedulable tasks, enabling flexible execution across devices without inter-device communication. Experiments demonstrate predictable memory scaling and show that exact attention over billion-token sequences can be executed on a single GPU via streaming, without changing the underlying mathematical definition of attention or introducing approximation error.\n\nAuthors: Yiming Bian, Joshua M. Akey\nCategories: cs.LG, cs.DC, cs.LG",
+  "word_count": 167,
+  "published_at": "2026-04-22T17:46:09Z",
+  "ingested_at": "2026-04-23T11:04:13.781Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.DC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

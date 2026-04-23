@@ -1,0 +1,37 @@
+{
+  "id": "td_e1f15372",
+  "source": "semantic_scholar",
+  "source_id": "178d7a13e10c86023bf9a8f748ea9d05c258945f",
+  "source_url": "https://www.semanticscholar.org/paper/178d7a13e10c86023bf9a8f748ea9d05c258945f",
+  "content_type": "paper",
+  "creator": {
+    "id": "sahar_salimpour",
+    "name": "Sahar Salimpour",
+    "handle": "Sahar Salimpour, J. P. Queralta, Diego Paez-Granados, J. Heikkonen, Tomi Westerlund",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sim-to-Real Transfer for Mobile Robots with Reinforcement Learning: from NVIDIA Isaac Sim to Gazebo and Real ROS 2 Robots",
+  "body_text": "Sim-to-Real Transfer for Mobile Robots with Reinforcement Learning: from NVIDIA Isaac Sim to Gazebo and Real ROS 2 Robots\nTLDR: The most important steps, and aspects to consider, in deploying RL policies for local path planning and obstacle avoidance with Isaac Sim training, Gazebo testing, and ROS 2 for real-time inference in real robots are introduced.\nUnprecedented agility and dexterous manipulation have been demonstrated with controllers based on deep reinforcement learning (RL), with a significant impact on legged and humanoid robots. Modern tooling and simulation platforms, such as NVIDIA Isaac Sim, have been enabling such advances. This article focuses on demonstrating the applications of Isaac in local planning and obstacle avoidance as one of the most fundamental ways in which a mobile robot interacts with its environments. Although there is extensive research on proprioception-based RL policies, the article highlights less standardized and reproducible approaches to exteroception. At the same time, the article aims to provide a base framework for end-to-end local navigation policies and how a custom robot can be trained in such simulation environment. We benchmark end-to-end policies with the state-of-the-art Nav2, navigation stack in Robot Operating System (ROS). We also cover the sim-to-real transfer process by demonstrating zero-shot transferability of policies trained in the Isaac simulator to real-world robots. This is further evidenced by the tests with different simulated robots, which show the generalization of the learned policy. Finally, the benchmarks demonstrate comparable performance to Nav2, opening the door to quick deployment of state-of-the-art end-to-end local planners for custom robot platforms, but importantly furthering the possibilities by expanding the state and action spaces or task definitions for more complex missions. Overall, with this article we introduce the most important steps, and aspects to consider, in deploying RL policies for local path planning and obstacle avoidance with Isaac Sim training, Gazebo testing, and ROS 2 for real-time inference in real robots. The code is available at https://github.com/sahars93/RL-Navigation.\nAuthors: Sahar Salimpour, J. P. Queralta, Diego Paez-Granados, J. Heikkonen, Tomi Westerlund\nVenue: arXiv.org\nFields: Computer Science",
+  "word_count": 335,
+  "published_at": "2025-01-06",
+  "ingested_at": "2026-04-23T11:06:40.992Z",
+  "engagement": {
+    "views": 14,
+    "likes": 1,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

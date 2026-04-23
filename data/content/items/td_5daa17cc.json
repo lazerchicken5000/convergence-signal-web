@@ -1,0 +1,39 @@
+{
+  "id": "td_5daa17cc",
+  "source": "arxiv",
+  "source_id": "2604.20832",
+  "source_url": "https://arxiv.org/abs/2604.20832",
+  "content_type": "paper",
+  "creator": {
+    "id": "bob_wilson",
+    "name": "Bob Wilson",
+    "handle": "Bob Wilson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Solving Minimax Problems with Bilinear Objectives with ADMM",
+  "body_text": "Solving Minimax Problems with Bilinear Objectives with ADMM\n\nWe consider minimax (saddle-point) problems of the form max_{c \\in C} min_{β\\in S} g(c; β), where C and S are compact convex sets, and g is concave-convex. Applying the Alternating Direction Method of Multipliers (ADMM) requires evaluating a proximal operator that is, in general, as hard as the original problem. We show that when the outcome function g is bilinear, i.e. g(c; β) = c^T A β, the proximal operator reduces to a generalized projection onto the confidence region S. This reduction is exact -- it involves no approximation or linearization. The resulting ADMM algorithm alternates between (i) a generalized projection onto S and (ii) a Euclidean projection onto C. We describe the derivation, state the algorithm, and discuss convergence.\n\nAuthors: Bob Wilson\nCategories: math.OC, stat.ME, math.OC",
+  "word_count": 120,
+  "published_at": "2026-04-22T17:57:27Z",
+  "ingested_at": "2026-04-23T11:04:27.816Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "stat.ME",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

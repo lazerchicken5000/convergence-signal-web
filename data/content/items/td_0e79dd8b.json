@@ -1,0 +1,38 @@
+{
+  "id": "td_0e79dd8b",
+  "source": "arxiv",
+  "source_id": "2604.20841",
+  "source_url": "https://arxiv.org/abs/2604.20841",
+  "content_type": "paper",
+  "creator": {
+    "id": "hyeonwoo_kim",
+    "name": "Hyeonwoo Kim",
+    "handle": "Hyeonwoo Kim, Jeonghwan Kim, Kyungwon Cho, Hanbyul Joo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation",
+  "body_text": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation\n\nRecent advances in video generative models enable the synthesis of realistic human-object interaction videos across a wide range of scenarios and object categories, including complex dexterous manipulations that are difficult to capture with motion capture systems. While the rich interaction knowledge embedded in these synthetic videos holds strong potential for motion planning in dexterous robotic manipulation, their limited physical fidelity and purely 2D nature make them difficult to use directly as imitation targets in physics-based character control. We present DeVI (Dexterous Video Imitation), a novel framework that leverages text-conditioned synthetic videos to enable physically plausible dexterous agent control for interacting with unseen target objects. To overcome the imprecision of generative 2D cues, we introduce a hybrid tracking reward that integrates 3D human tracking with robust 2D object tracking. Unlike methods relying on high-quality 3D kinematic demonstrations, DeVI requires only the generated video, enabling zero-shot generalization across diverse objects and interaction types. Extensive experiments demonstrate that DeVI outperforms existing approaches that imitate 3D human-object interaction demonstrations, particularly in modeling dexterous hand-object interactions. We further validate the effectiveness of DeVI in multi-object scenes and text-driven action diversity, showcasing the advantage of using video as an HOI-aware motion planner.\n\nAuthors: Hyeonwoo Kim, Jeonghwan Kim, Kyungwon Cho, Hanbyul Joo\nCategories: cs.CV, cs.CV",
+  "word_count": 196,
+  "published_at": "2026-04-22T17:59:55Z",
+  "ingested_at": "2026-04-23T11:04:18.328Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

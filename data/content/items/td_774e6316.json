@@ -1,0 +1,40 @@
+{
+  "id": "td_774e6316",
+  "source": "arxiv",
+  "source_id": "2604.20833",
+  "source_url": "https://arxiv.org/abs/2604.20833",
+  "content_type": "paper",
+  "creator": {
+    "id": "mikko_lempinen",
+    "name": "Mikko Lempinen",
+    "handle": "Mikko Lempinen, Joni Kemppainen, Niklas Raesalmi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AVISE: Framework for Evaluating the Security of AI Systems",
+  "body_text": "AVISE: Framework for Evaluating the Security of AI Systems\n\nAs artificial intelligence (AI) systems are increasingly deployed across critical domains, their security vulnerabilities pose growing risks of high-profile exploits and consequential system failures. Yet systematic approaches to evaluating AI security remain underdeveloped. In this paper, we introduce AVISE (AI Vulnerability Identification and Security Evaluation), a modular open-source framework for identifying vulnerabilities in and evaluating the security of AI systems and models. As a demonstration of the framework, we extend the theory-of-mind-based multi-turn Red Queen attack into an Adversarial Language Model (ALM) augmented attack and develop an automated Security Evaluation Test (SET) for discovering jailbreak vulnerabilities in language models. The SET comprises 25 test cases and an Evaluation Language Model (ELM) that determines whether each test case was able to jailbreak the target model, achieving 92% accuracy, an F1-score of 0.91, and a Matthews correlation coefficient of 0.83. We evaluate nine recently released language models of diverse sizes with the SET and find that all are vulnerable to the augmented Red Queen attack to varying degrees. AVISE provides researchers and industry practitioners with an extensible foundation for developing and deploying automated SETs, offering a concrete step toward more rigorous and reproducible AI security evaluation.\n\nAuthors: Mikko Lempinen, Joni Kemppainen, Niklas Raesalmi\nCategories: cs.CR, cs.AI, cs.CL, cs.CR",
+  "word_count": 194,
+  "published_at": "2026-04-22T17:58:17Z",
+  "ingested_at": "2026-04-23T11:04:05.238Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CL",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

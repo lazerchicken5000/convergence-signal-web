@@ -1,0 +1,40 @@
+{
+  "id": "td_c8cc9627",
+  "source": "arxiv",
+  "source_id": "2604.20789",
+  "source_url": "https://arxiv.org/abs/2604.20789",
+  "content_type": "paper",
+  "creator": {
+    "id": "pranava_madhyastha",
+    "name": "Pranava Madhyastha",
+    "handle": "Pranava Madhyastha, Dagmar Adamcova",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Working Memory Constraints Scaffold Learning in Transformers under Data Scarcity",
+  "body_text": "Working Memory Constraints Scaffold Learning in Transformers under Data Scarcity\n\nWe investigate the integration of human-like working memory constraints into the Transformer architecture and implement several cognitively inspired attention variants, including fixed-width windows based and temporal decay based attention mechanisms. Our modified GPT-2 models are trained from scratch on developmentally plausible datasets (10M and 100M words). Performance is evaluated on grammatical judgment tasks (BLiMP) and alignment with human reading time data. Our results indicate that these cognitively-inspired constraints, particularly fixed-width attention, can significantly improve grammatical accuracy especially when training data is scarce. These constrained models also tend to show a stronger alignment with human processing metrics. The findings suggest that such constraints may serve as a beneficial inductive bias, guiding models towards more robust linguistic representations, especially in data-limited settings.\n\nAuthors: Pranava Madhyastha, Dagmar Adamcova\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 120,
+  "published_at": "2026-04-22T17:14:52Z",
+  "ingested_at": "2026-04-23T11:04:05.239Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_7f3fec9b",
+  "source": "arxiv",
+  "source_id": "2604.20836",
+  "source_url": "https://arxiv.org/abs/2604.20836",
+  "content_type": "paper",
+  "creator": {
+    "id": "bernhard_haeupler",
+    "name": "Bernhard Haeupler",
+    "handle": "Bernhard Haeupler, Slobodan Mitrović, Srikkanth Ramachandran, Wen-Horng Sheu, Robert Tarjan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dynamic Construction of the Lovász Local Lemma",
+  "body_text": "Dynamic Construction of the Lovász Local Lemma\n\nThis paper proves that a wide class of local search algorithms extend as is to the fully dynamic setting with an adaptive adversary, achieving an amortized $\\tilde{O}(1)$ number of local-search steps per update. A breakthrough by Moser (2009) introduced the witness-tree and entropy compression techniques for analyzing local resampling processes for the Lovász Local Lemma. These methods have since been generalized and expanded to analyze a wide variety of local search algorithms that can efficiently find solutions to many important local constraint satisfaction problems. These algorithms either extend a partial valid assignment and backtrack by unassigning variables when constraints become violated, or they iteratively fix violated constraints by resampling their variables. These local resampling or backtracking procedures are incredibly flexible, practical, and simple to specify and implement. Yet, they can be shown to be extremely efficient on static instances, typically performing only (sub)-linear number of fixing steps. The main technical challenge lies in proving conditions that guarantee such rapid convergence. This paper extends these convergence results to fully dynamic settings, where an adaptive adversary may add or remove constraints. We prove that applying the same simple local search procedures to fix old or newly introduced violations leads to a total number of resampling steps near-linear in the number of adversarial updates. Our result is very general and yields several immediate corollaries. For example, letting $Δ$ denote the maximum degree, for a constant $ε$ and $Δ= \\text{poly}(\\log n)$, we can maintain a $(1+ε) Δ$-edge coloring in $\\text{poly}(\\log n)$ amortized update time against an adaptive adversary. The prior work for this regime has exponential running time in $\\sqrt{\\log n}$ [Christiansen, SODA '26].\n\nAuthors: Bernhard Haeupler, Slobodan Mitrović, Srikkanth Ramachandran, Wen-Horng Sheu, Robert Tarjan\nCategories: cs.DS, cs.DS",
+  "word_count": 270,
+  "published_at": "2026-04-22T17:58:40Z",
+  "ingested_at": "2026-04-23T11:04:27.815Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
