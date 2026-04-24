@@ -1,0 +1,40 @@
+{
+  "id": "td_7dd5ed5e",
+  "source": "arxiv",
+  "source_id": "2604.21923",
+  "source_url": "https://arxiv.org/abs/2604.21923",
+  "content_type": "paper",
+  "creator": {
+    "id": "natalie_collina",
+    "name": "Natalie Collina",
+    "handle": "Natalie Collina, Jiuyao Lu, Georgy Noarov, Aaron Roth",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Sample Complexity of Multicalibration",
+  "body_text": "The Sample Complexity of Multicalibration\n\nWe study the minimax sample complexity of multicalibration in the batch setting. A learner observes $n$ i.i.d. samples from an unknown distribution and must output a (possibly randomized) predictor whose population multicalibration error, measured by Expected Calibration Error (ECE), is at most $\\varepsilon$ with respect to a given family of groups. For every fixed $κ&gt; 0$, in the regime $|G|\\le \\varepsilon^{-κ}$, we prove that $\\widetildeΘ(\\varepsilon^{-3})$ samples are necessary and sufficient, up to polylogarithmic factors. The lower bound holds even for randomized predictors, and the upper bound is realized by a randomized predictor obtained via an online-to-batch reduction. This separates the sample complexity of multicalibration from that of marginal calibration, which scales as $\\widetildeΘ(\\varepsilon^{-2})$, and shows that mean-ECE multicalibration is as difficult in the batch setting as it is in the online setting, in contrast to marginal calibration which is strictly more difficult in the online setting. In contrast we observe that for $κ= 0$, the sample complexity of multicalibration remains $\\widetildeΘ(\\varepsilon^{-2})$ exhibiting a sharp threshold phenomenon. More generally, we establish matching upper and lower bounds, up to polylogarithmic factors, for a weighted $L_p$ multicalibration metric for all $1 \\le p \\le 2$, with optimal exponent $3/p$. We also extend the lower-bound template to a regular class of elicitable properties, and combine it with the online upper bounds of Hu et al. (2025) to obtain matching bounds for calibrating properties including expectiles and bounded-density quantiles.\n\nAuthors: Natalie Collina, Jiuyao Lu, Georgy Noarov, Aaron Roth\nCategories: cs.LG, math.ST, stat.ML, cs.LG",
+  "word_count": 234,
+  "published_at": "2026-04-23T17:59:01Z",
+  "ingested_at": "2026-04-24T11:04:12.359Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.ST",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

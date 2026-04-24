@@ -1,0 +1,35 @@
+{
+  "id": "td_f0d07fbb",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "An update on recent Claude Code quality reports",
+  "body_text": "An update on recent Claude Code quality reports\nIt turns out the high volume of complaints that Claude Code was providing worse quality results over the past two months was grounded in real problems.\nThe models themselves were not to blame, but three separate issues in the Claude Code harness caused complex but material problems which directly affected users.\nAnthropic's postmortem describes these in detail. This one in particular stood out to me:\n\nOn March 26, we shipped a change to clear Claude's older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive.\n\nI frequently have Claude Code sessions which I leave for an hour (or often a day or longer) before returning to them. Right now I have 11 of those (according to ps aux  | grep 'claude ') and that's after closing down dozens more the other day.\nI estimate I spend more time prompting in these \"stale\" sessions than sessions that I've recently started!\nIf you're building agentic systems it's worth reading this article in detail - the kinds of bugs that affect harnesses are deeply complicated, even if you put aside the inherent non-deterministic nature of the models themselves.\n\n    Via Hacker News\n\n\n    Tags: ai, prompt-engineering, generative-ai, llms, anthropic, coding-agents, claude-code",
+  "word_count": 240,
+  "published_at": "2026-04-24T01:31:25.000Z",
+  "ingested_at": "2026-04-24T11:00:08.985Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

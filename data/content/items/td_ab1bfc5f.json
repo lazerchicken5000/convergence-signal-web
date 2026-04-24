@@ -1,0 +1,38 @@
+{
+  "id": "td_ab1bfc5f",
+  "source": "arxiv",
+  "source_id": "2604.21928",
+  "source_url": "https://arxiv.org/abs/2604.21928",
+  "content_type": "paper",
+  "creator": {
+    "id": "thibault_bañeras-roux",
+    "name": "Thibault Bañeras-Roux",
+    "handle": "Thibault Bañeras-Roux, Shashi Kumar, Driss Khalil, Sergio Burdisso, Petr Motlicek, Shiran Liu, Mickael Rouvier, Jane Wottawa, Richard Dufour",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
+  "body_text": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models\n\nAutomatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This paper evaluates their relevance through three approaches: (1) selecting the best hypothesis between two candidates, (2) computing semantic distance using generative embeddings, and (3) qualitative classification of errors. On the HATS dataset, the best LLMs achieve 92--94\\% agreement with human annotators for hypothesis selection, compared to 63\\% for WER, also outperforming semantic metrics. Embeddings from decoder-based LLMs show performance comparable to encoder models. Finally, LLMs offer a promising direction for interpretable and semantic ASR evaluation.\n\nAuthors: Thibault Bañeras-Roux, Shashi Kumar, Driss Khalil, Sergio Burdisso, Petr Motlicek, Shiran Liu, Mickael Rouvier, Jane Wottawa, Richard Dufour\nCategories: cs.CL, cs.CL",
+  "word_count": 115,
+  "published_at": "2026-04-23T17:59:47Z",
+  "ingested_at": "2026-04-24T11:04:08.004Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_296e9840",
+  "source": "arxiv",
+  "source_id": "2604.21882",
+  "source_url": "https://arxiv.org/abs/2604.21882",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuto_nishida",
+    "name": "Yuto Nishida",
+    "handle": "Yuto Nishida, Naoki Shikoda, Yosuke Kishinami, Ryo Fujii, Makoto Morishita, Hidetaka Kamigaito, Taro Watanabe",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms",
+  "body_text": "Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms\n\nUnderstanding what kinds of factual knowledge large language models (LLMs) memorize is essential for evaluating their reliability and limitations. Entity-based QA is a common framework for analyzing non-verbatim memorization, but typical evaluations query each entity using a single canonical surface form, making it difficult to disentangle fact memorization from access through a particular name. We introduce RedirectQA, an entity-based QA dataset that uses Wikipedia redirect information to associate Wikidata factual triples with categorized surface forms for each entity, including alternative names, abbreviations, spelling variants, and common erroneous forms. Across 13 LLMs, we examine surface-conditioned factual memorization and find that prediction outcomes often change when only the entity surface form changes. This inconsistency is category-dependent: models are more robust to minor orthographic variations than to larger lexical variations such as aliases and abbreviations. Frequency analyses further suggest that both entity- and surface-level frequencies are associated with accuracy, and that entity frequency often contributes beyond surface frequency. Overall, factual memorization appears neither purely surface-specific nor fully surface-invariant, highlighting the importance of surface-form diversity in evaluating non-verbatim memorization.\n\nAuthors: Yuto Nishida, Naoki Shikoda, Yosuke Kishinami, Ryo Fujii, Makoto Morishita, Hidetaka Kamigaito, Taro Watanabe\nCategories: cs.CL, cs.CL",
+  "word_count": 175,
+  "published_at": "2026-04-23T17:25:32Z",
+  "ingested_at": "2026-04-24T11:04:08.005Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

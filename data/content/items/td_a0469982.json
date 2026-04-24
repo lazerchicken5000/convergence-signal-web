@@ -1,0 +1,35 @@
+{
+  "id": "td_a0469982",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "russellromney/honker",
+  "body_text": "russellromney/honker\n\"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it.\nThe design of this looks very solid. It lets you write Python code for queues that looks like this:\nimport honker\n\ndb = honker.open(\"app.db\")\nemails = db.queue(\"emails\")\nemails.enqueue({\"to\": \"alice@example.com\"})\n\n# Consume (in a worker process)\nasync for job in emails.claim(\"worker-1\"):\n    send(job.payload)\n    job.ack()\nAnd Kafka-style durable streams like this:\nstream = db.stream(\"user-events\")\n\nwith db.transaction() as tx:\n    tx.execute(\"UPDATE users SET name=? WHERE id=?\", [name, uid])\n    stream.publish({\"user_id\": uid, \"change\": \"name\"}, tx=tx)\n\nasync for event in stream.subscribe(consumer=\"dashboard\"):\n    await push_to_browser(event)\nIt also adds 20+ custom SQL functions including these two:\nSELECT notify('orders', '{\"id\":42}');\nSELECT honker_stream_read_since('orders', 0, 1000);\nThe extension requires WAL mode, and workers can poll the .db-wal file with a stat call every 1ms to get as close to real-time as possible without the expense of running a full SQL query.\nhonker implements the transactional outbox pattern, which ensures items are only queued if a transaction successfully commits. My favorite explanation of that pattern remains Transactionally Staged Job Drains in Postgres by Brandur Leach. It's great to see a new implementation of that pattern for SQLite.\n\n    Via Show HN\n\n\n    Tags: databases, postgresql, sqlite, rust",
+  "word_count": 202,
+  "published_at": "2026-04-24T01:50:07.000Z",
+  "ingested_at": "2026-04-24T11:00:08.985Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

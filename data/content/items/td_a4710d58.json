@@ -1,0 +1,35 @@
+{
+  "id": "td_a4710d58",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+  "body_text": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash.\r\nBoth models are 1 million token context Mixture of Experts. Pro is 1.6T total parameters, 49B active. Flash is 284B total, 13B active. They're using the standard MIT license.\r\nI think this makes DeepSeek-V4-Pro the new largest open weights model. It's larger than Kimi K2.6 (1.1T) and GLM-5.1 (754B) and more than twice the size of DeepSeek V3.2 (685B).\r\nPro is 865GB on Hugging Face, Flash is 160GB. I'm hoping that a lightly quantized Flash will run on my 128GB M5 MacBook Pro. It's possible the Pro model may run on it if I can stream just the necessary active experts from disk.\r\nFor the moment I tried the models out via OpenRouter, using llm-openrouter:\r\nllm install llm-openrouter\r\nllm openrouter refresh\r\nllm -m openrouter/deepseek/deepseek-v4-pro 'Generate an SVG of a pelican riding a bicycle'\r\n\r\nHere's the pelican for DeepSeek-V4-Flash:\r\n\r\nAnd for DeepSeek-V4-Pro:\r\n\r\nFor comparison, take a look at the pelicans I got from DeepSeek V3.2 in December, V3.1 in August, and V3-0324 in March 2025.\r\nSo the pelicans are pretty good, but what's really notable here is the cost. DeepSeek V4 is a very, very inexpensive model.\r\nHere's DeepSeek's pricing page. They're charging $0.14/million tokens input and $0.28/million tokens output for Flash, and $1.74/million input and $3.48/million output for Pro.\r\nHere's a comparison table with the frontier models from Gemini, OpenAI and Anthropic:\r\n\r\n\r\n\r\n\r\nModel\r\nInput ($/M)\r\nOutput ($/M)\r\n\r\n\r\n\r\n\r\nDeepSeek V4 Flash\r\n$0.14\r\n$0.28\r\n\r\n\r\nGPT-5.4 Nano\r\n$0.20\r\n$1.25\r\n\r\n\r\nGemini 3.1 Flash-Lite\r\n$0.25\r\n$1.50\r\n\r\n\r\nGemini 3 Flash Preview\r\n$0.50\r\n$3\r\n\r\n\r\nGPT-5.4 Mini\r\n$0.75\r\n$4.50\r\n\r\n\r\nClaude Haiku 4.5\r\n$1\r\n$5\r\n\r\n\r\nDeepSeek V4 Pro\r\n$1.74\r\n$3.48\r\n\r\n\r\nGemini 3.1 Pro\r\n$2\r\n$12\r\n\r\n\r\nGPT-5.4\r\n$2.50\r\n$15\r\n\r\n\r\nClaude Sonnet 4.6\r\n$3\r\n$15\r\n\r\n\r\nClaude Opus 4.7\r\n$5\r\n$25\r\n\r\n\r\nGPT-5.5\r\n$5\r\n$30\r\n\r\n\r\n\r\n\r\nDeepSeek-V4-Flash is the cheapest of the small models, beating even OpenAI's GPT-5.4 Nano. DeepSeek-V4-Pro is the cheapest of the larger frontier models.\r\nThis note from the DeepSeek paper helps explain why they can price these models so low - they've focused a great deal on efficiency with this release, especially for longer context prompts:\r\n\r\nIn the scenario of 1M-token context, even DeepSeek-V4-Pro, which has a larger number of activated parameters, attains only 27% of the single-token FLOPs (measured in equivalent FP8 FLOPs) and 10% of the KV cache size relative to DeepSeek-V3.2. Furthermore, DeepSeek-V4-Flash, with its smaller number of activated parameters, pushes efficiency even further: in the 1M-token context setting, it achieves only 10% of the single-token FLOPs and 7% of the KV cache size compared with DeepSeek-V3.2.\r\n\r\nDeepSeek's self-reported benchmarks in their paper show their Pro model competitive with those other frontier models, albeit with this note:\r\n\r\nThrough the expansion of reasoning tokens, DeepSeek-V4-Pro-Max demonstrates superior performance relative to GPT-5.2 and Gemini-3.0-Pro on standard reasoning benchmarks. Nevertheless, its performance falls marginally short of GPT-5.4 and Gemini-3.1-Pro, suggesting a developmental trajectory that trails state-of-the-art frontier models by approximately 3 to 6 months.\r\n\r\nI'm keeping an eye on huggingface.co/unsloth/models as I expect the Unsloth team will have a set of quantized versions out pretty soon. It's going to be very interesting to see how well that Flash model runs on my own machine.\n    \n        Tags: ai, generative-ai, llms, llm, llm-pricing, pelican-riding-a-bicycle, deepseek, llm-release, openrouter, ai-in-china",
+  "word_count": 560,
+  "published_at": "2026-04-24T06:01:04.000Z",
+  "ingested_at": "2026-04-24T11:00:08.985Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_9c4937b2",
+  "source": "arxiv",
+  "source_id": "2604.21914",
+  "source_url": "https://arxiv.org/abs/2604.21914",
+  "content_type": "paper",
+  "creator": {
+    "id": "songen_gu",
+    "name": "Songen Gu",
+    "handle": "Songen Gu, Yuhang Zheng, Weize Li, Yupeng Zheng, Yating Feng, Xiang Li, Yilun Chen, Pengfei Li, Wenchao Ding",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis",
+  "body_text": "VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis\n\nRecently, end-to-end robotic manipulation models have gained significant attention for their generalizability and scalability. However, they often suffer from limited robustness to camera viewpoint changes when training with a fixed camera. In this paper, we propose VistaBot, a novel framework that integrates feed-forward geometric models with video diffusion models to achieve view-robust closed-loop manipulation without requiring camera calibration at test time. Our approach consists of three key components: 4D geometry estimation, view synthesis latent extraction, and latent action learning. VistaBot is integrated into both action-chunking (ACT) and diffusion-based ($π_0$) policies and evaluated across simulation and real-world tasks. We further introduce the View Generalization Score (VGS) as a new metric for comprehensive evaluation of cross-view generalization. Results show that VistaBot improves VGS by 2.79$\\times$ and 2.63$\\times$ over ACT and $π_0$, respectively, while also achieving high-quality novel view synthesis. Our contributions include a geometry-aware synthesis model, a latent action planner, a new benchmark metric, and extensive validation across diverse environments. The code and models will be made publicly available.\n\nAuthors: Songen Gu, Yuhang Zheng, Weize Li, Yupeng Zheng, Yating Feng, Xiang Li, Yilun Chen, Pengfei Li, Wenchao Ding\nCategories: cs.RO, cs.RO",
+  "word_count": 167,
+  "published_at": "2026-04-23T17:57:13Z",
+  "ingested_at": "2026-04-24T11:04:21.839Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

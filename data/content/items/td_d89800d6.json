@@ -1,0 +1,39 @@
+{
+  "id": "td_d89800d6",
+  "source": "arxiv",
+  "source_id": "2604.21901",
+  "source_url": "https://arxiv.org/abs/2604.21901",
+  "content_type": "paper",
+  "creator": {
+    "id": "neeraj_gangwar",
+    "name": "Neeraj Gangwar",
+    "handle": "Neeraj Gangwar, Rishabh Deshmukh, Michael Shavlovsky, Hancao Li, Vivek Mittal, Lexing Ying, Nickvash Kani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GiVA: Gradient-Informed Bases for Vector-Based Adaptation",
+  "body_text": "GiVA: Gradient-Informed Bases for Vector-Based Adaptation\n\nAs model sizes continue to grow, parameter-efficient fine-tuning has emerged as a powerful alternative to full fine-tuning. While LoRA is widely adopted among these methods, recent research has explored vector-based adaptation methods due to their extreme parameter efficiency. However, these methods typically require substantially higher ranks than LoRA to match its performance, leading to increased training costs. This work introduces GiVA, a gradient-based initialization strategy for vector-based adaptation. It achieves training times comparable to LoRA and maintains the extreme parameter efficiency of vector-based adaptation. We evaluate GiVA across diverse benchmarks, including natural language understanding, natural language generation, and image classification. Experiments show that our approach consistently outperforms or achieves performance competitive with existing vector-based adaptation methods and LoRA while reducing rank requirements by a factor of eight ($8\\times$).\n\nAuthors: Neeraj Gangwar, Rishabh Deshmukh, Michael Shavlovsky, Hancao Li, Vivek Mittal, Lexing Ying, Nickvash Kani\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 128,
+  "published_at": "2026-04-23T17:48:18Z",
+  "ingested_at": "2026-04-24T11:04:03.569Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

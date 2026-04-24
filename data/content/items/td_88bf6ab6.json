@@ -1,0 +1,38 @@
+{
+  "id": "td_88bf6ab6",
+  "source": "arxiv",
+  "source_id": "2604.21930",
+  "source_url": "https://arxiv.org/abs/2604.21930",
+  "content_type": "paper",
+  "creator": {
+    "id": "nicolae_filat",
+    "name": "Nicolae Filat",
+    "handle": "Nicolae Filat, Ahmed Hussain, Konstantinos Kalogiannis, Elena Burceanu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability",
+  "body_text": "Temporal Taskification in Streaming Continual Learning: A Source of Evaluation Instability\n\nStreaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutral preprocessing choice, but a structural component of evaluation: different valid splits of the same stream can induce different CL regimes and therefore different benchmark conclusions. To study this effect, we introduce a taskification-level framework based on plasticity and stability profiles, a profile distance between taskifications, and Boundary-Profile Sensitivity (BPS), which diagnoses how strongly small boundary perturbations alter the induced regime before any CL model is trained. We evaluate continual finetuning, Experience Replay, Elastic Weight Consolidation, and Learning without Forgetting on network traffic forecasting with CESNET-Timeseries24, keeping the stream, model, and training budget fixed while varying only the temporal taskification. Across 9-, 30-, and 44-day splits, we observe substantial changes in forecasting error, forgetting, and backward transfer, showing that taskification alone can materially affect CL evaluation. We further find that shorter taskifications induce noisier distribution-level patterns, larger structural distances, and higher BPS, indicating greater sensitivity to boundary perturbations. These results show that benchmark conclusions in streaming CL depend not only on the learner and the data stream, but also on how that stream is taskified, motivating temporal taskification as a first-class evaluation variable.\n\nAuthors: Nicolae Filat, Ahmed Hussain, Konstantinos Kalogiannis, Elena Burceanu\nCategories: cs.LG, cs.LG",
+  "word_count": 211,
+  "published_at": "2026-04-23T17:59:54Z",
+  "ingested_at": "2026-04-24T11:04:12.358Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

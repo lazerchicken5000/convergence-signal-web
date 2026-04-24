@@ -1,0 +1,38 @@
+{
+  "id": "td_439ddc66",
+  "source": "arxiv",
+  "source_id": "2604.21906",
+  "source_url": "https://arxiv.org/abs/2604.21906",
+  "content_type": "paper",
+  "creator": {
+    "id": "elena_bernardelli",
+    "name": "Elena Bernardelli",
+    "handle": "Elena Bernardelli, Elena Gaburro, Michael Dumbser",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A structure-preserving semi-implicit finite volume scheme on vertex-staggered unstructured meshes",
+  "body_text": "A structure-preserving semi-implicit finite volume scheme on vertex-staggered unstructured meshes\n\nWe present a novel structure-preserving semi-implicit finite volume method on vertex-based staggered meshes for the compatible discretization of first order systems of time-dependent partial differential equations (PDEs). The method preserves divergence-free and curl-free vector fields exactly thanks to the compatible vertex-staggered discretization of the state variables on unstructured grids that are constituted by primal Delaunay triangles and their dual polygons. For the weakly compressible Euler equations, the scheme is asymptotic preserving, yielding a consistent discretization of the incompressible limit as the Mach number goes to zero. The new scheme applies to a broad spectrum of PDEs, including the weakly compressible and incompressible Euler and Navier-Stokes equations, the incompressible magnetohydrodynamics (MHD) system, and the incompressible version of the first-order hyperbolic Godunov-Peshkov-Romenski (GPR) model for continuum mechanics. The computational domain is covered by a primal triangular mesh and a dual tessellation made of so-called star polygons. Scalar quantities (pressure, density, viscous stress) are defined at nodes, with pressure updated implicitly in a continuous finite element fashion, yielding a symmetric and positive definite pressure system. Instead, vector fields (velocity, momentum, magnetic and distortion fields) are stored at triangle barycenters and evolved explicitly using a compatible finite volume scheme. Thanks to the semi-implicit discretization, the CFL condition is independent of the sound speed, allowing simulations at low Mach numbers. The fully compatible formulation ensures exactly divergence-free velocity field in the incompressible limit, exactly divergence-free magnetic field for MHD, and exactly curl-free inverse deformation gradient in solid mechanics. The method is validated through a wide set of test cases.\n\nAuthors: Elena Bernardelli, Elena Gaburro, Michael Dumbser\nCategories: math.NA, math.NA",
+  "word_count": 254,
+  "published_at": "2026-04-23T17:50:40Z",
+  "ingested_at": "2026-04-24T11:04:26.458Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
