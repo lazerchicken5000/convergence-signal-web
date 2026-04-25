@@ -1,0 +1,35 @@
+{
+  "id": "td_dae621f2",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "GPT-5.5 prompting guide",
+  "body_text": "GPT-5.5 prompting guide\nNow that GPT-5.5 is available in the API, OpenAI have released a wealth of useful tips on how best to prompt the new model.\nHere's a neat trick they recommend for applications that might spend considerable time thinking before returning a user-visible response:\nBefore any tool calls for a multi-step task, send a short user-visible update that acknowledges the request and states the first step. Keep it to one or two sentences.\n\nI've already noticed their Codex app doing this, and it does make longer running tasks feel less like the model has crashed.\nOpenAI suggest running the following in Codex to upgrade your existing code using advice embedded in their openai-docs skill:\n$openai-docs migrate this project to gpt-5.5\n\nThe upgrade guide the coding agent will follow is this one, which even includes light instructions on how to rewrite prompts to better fit the model.\nAlso relevant is the Using GPT-5.5 guide, which opens with this warning:\n\nTo get the most out of GPT-5.5, treat it as a new model family to tune for, not a drop-in replacement for gpt-5.2 or gpt-5.4. Begin migration with a fresh baseline instead of carrying over every instruction from an older prompt stack. Start with the smallest prompt that preserves the product contract, then tune reasoning effort, verbosity, tool descriptions, and output format against representative examples.\n\nInteresting to see OpenAI recommend starting from scratch rather than trusting that existing prompts optimized for previous models will continue to work effectively with GPT-5.5.\n\n\n    Tags: ai, openai, prompt-engineering, generative-ai, llms, gpt",
+  "word_count": 257,
+  "published_at": "2026-04-25T04:13:36.000Z",
+  "ingested_at": "2026-04-25T11:00:09.302Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
