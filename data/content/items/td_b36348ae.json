@@ -1,0 +1,39 @@
+{
+  "id": "td_b36348ae",
+  "source": "arxiv",
+  "source_id": "2604.22661",
+  "source_url": "https://arxiv.org/abs/2604.22661",
+  "content_type": "paper",
+  "creator": {
+    "id": "negar_arabzadeh",
+    "name": "Negar Arabzadeh",
+    "handle": "Negar Arabzadeh, Andrew Drozdov, Michael Bendersky, Matei Zaharia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can QPP Choose the Right Query Variant? Evaluating Query Variant Selection for RAG Pipelines",
+  "body_text": "Can QPP Choose the Right Query Variant? Evaluating Query Variant Selection for RAG Pipelines\n\nLarge Language Models (LLMs) have made query reformulation ubiquitous in modern retrieval and Retrieval-Augmented Generation (RAG) pipelines, enabling the generation of multiple semantically equivalent query variants. However, executing the full pipeline for every reformulation is computationally expensive, motivating selective execution: can we identify the best query variant before incurring downstream retrieval and generation costs? We investigate Query Performance Prediction (QPP) as a mechanism for variant selection across ad-hoc retrieval and end-to-end RAG. Unlike traditional QPP, which estimates query difficulty across topics, we study intra-topic discrimination - selecting the optimal reformulation among competing variants of the same information need. Through large-scale experiments on TREC-RAG using both sparse and dense retrievers, we evaluate pre- and post-retrieval predictors under correlation- and decision-based metrics. Our results reveal a systematic divergence between retrieval and generation objectives: variants that maximize ranking metrics such as nDCG often fail to produce the best generated answers, exposing a \"utility gap\" between retrieval relevance and generation fidelity. Nevertheless, QPP can reliably identify variants that improve end-to-end quality over the original query. Notably, lightweight pre-retrieval predictors frequently match or outperform more expensive post-retrieval methods, offering a latency-efficient approach to robust RAG.\n\nAuthors: Negar Arabzadeh, Andrew Drozdov, Michael Bendersky, Matei Zaharia\nCategories: cs.IR, cs.CL, cs.IR",
+  "word_count": 190,
+  "published_at": "2026-04-24T15:36:40Z",
+  "ingested_at": "2026-04-27T11:03:40.528Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.CL",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

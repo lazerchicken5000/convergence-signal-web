@@ -1,0 +1,39 @@
+{
+  "id": "td_87dd9c7b",
+  "source": "arxiv",
+  "source_id": "2604.22730",
+  "source_url": "https://arxiv.org/abs/2604.22730",
+  "content_type": "paper",
+  "creator": {
+    "id": "hillary_mutisya",
+    "name": "Hillary Mutisya",
+    "handle": "Hillary Mutisya, John Mugane",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Neural Recovery of Historical Lexical Structure in Bantu Languages from Modern Data",
+  "body_text": "Neural Recovery of Historical Lexical Structure in Bantu Languages from Modern Data\n\nWe investigate whether neural models trained exclusively on modern morphological data can recover cross-lingual lexical structure consistent with historical reconstruction. Using BantuMorph v7, a transformer over Bantu morphological paradigms, we analyze 14 Eastern and Southern Bantu languages, extract encoder embeddings for their noun and verb lemmas, and identify 728 noun and 1,525 verb cognate candidates shared across 5+ languages. Evaluating these candidates against established historical resources-the Bantu Lexical Reconstructions database (BLR3; 4,786 reconstructed Proto-Bantu forms) and the ASJP basic vocabulary-we confirm 10 of the top 11 noun candidates (90.9%) align with previously reconstructed Proto-Bantu forms, including *-ntU 'person' (8 languages), *gombe 'cow' (9 languages), and *mUn (9 languages). Extending to verbs, 12 verb cognates align with reconstructed Proto-Bantu roots, including *-bon- 'see' and *-jIm- 'stand', each attested across wide geographic ranges. Cross-model validation using an independent translation model (NLLB-600M) confirms these patterns: both models recover cognate clusters and phylogenetic groupings consistent with established Guthrie-zone classifications (p &lt; 0.01). Cross-lingual noun class analysis reveals that all 13 productive classes maintain &gt;0.83 cosine similarity across languages (within-class &gt; between-class, p &lt; 10^-9). Our dataset is restricted to Eastern and Southern Bantu, so we interpret these results as recovering shared Bantu lexical structure consistent with Proto-Bantu rather than definitively distinguishing Proto-Bantu retentions from later regional innovations.\n\nAuthors: Hillary Mutisya, John Mugane\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 213,
+  "published_at": "2026-04-24T17:27:26Z",
+  "ingested_at": "2026-04-27T11:03:40.528Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

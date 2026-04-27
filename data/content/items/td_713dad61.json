@@ -1,0 +1,38 @@
+{
+  "id": "td_713dad61",
+  "source": "arxiv",
+  "source_id": "2604.22709",
+  "source_url": "https://arxiv.org/abs/2604.22709",
+  "content_type": "paper",
+  "creator": {
+    "id": "keshav_ramji",
+    "name": "Keshav Ramji",
+    "handle": "Keshav Ramji, Tahira Naseem, Ramón Fernandez Astudillo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought",
+  "body_text": "Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought\n\nWhile long, explicit chains-of-thought (CoT) have proven effective on complex reasoning tasks, they are costly to generate during inference. Non-verbal reasoning methods have emerged with shorter generation lengths by leveraging continuous representations, yet their performance lags behind verbalized CoT. We propose $\\textbf{Abstract Chain-of-Thought}$, a discrete latent reasoning post-training mechanism in which the language model produces a short sequence of tokens from a reserved vocabulary in lieu of a natural language CoT, before generating a response. To make previously unseen ''abstract'' tokens useful, we introduce a policy iteration-style warm-up loop that alternates between (i.) bottlenecking from a verbal CoT via masking and performing supervised fine-tuning, and (ii.) self-distillation by training the model to generate abstract tokens from the prompt alone via constrained decoding with the codebook. After warm-up, we optimize the generation of abstract sequences with warm-started reinforcement learning under constrained decoding. Abstract-CoT achieves up to $11.6\\times$ fewer reasoning tokens while demonstrating comparable performance across mathematical reasoning, instruction-following, and multi-hop reasoning, and generalizes across language model families. We also find an emergent power law distribution over the abstract vocabulary, akin to those seen in natural language, that evolves across the training phases. Our findings highlight the potential for post-training latent reasoning mechanisms that enable efficient inference through a learned abstract reasoning language.\n\nAuthors: Keshav Ramji, Tahira Naseem, Ramón Fernandez Astudillo\nCategories: cs.CL, cs.CL",
+  "word_count": 211,
+  "published_at": "2026-04-24T16:45:51Z",
+  "ingested_at": "2026-04-27T11:03:40.528Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_8d5dcb9c",
+  "source": "arxiv",
+  "source_id": "2604.22753",
+  "source_url": "https://arxiv.org/abs/2604.22753",
+  "content_type": "paper",
+  "creator": {
+    "id": "sijie_li",
+    "name": "Sijie Li",
+    "handle": "Sijie Li, Shanda Li, Haowei Lin, Weiwei Sun, Ameet Talwalkar, Yiming Yang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection",
+  "body_text": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection\n\nScaling laws are used to plan multi-million-dollar training runs, but fitting those laws can itself cost millions. In modern large-scale workflows, assembling a sufficiently informative set of pilot experiments is already a major budget-allocation problem rather than a routine preprocessing step. We formulate scaling-law fitting as budget-aware sequential experimental design: given a finite pool of runnable experiments with heterogeneous costs, choose which runs to execute so as to maximize extrapolation accuracy in a high-cost target region. We then propose an uncertainty-aware method for sequentially allocating experimental budget toward the runs most useful for target-region extrapolation. Across a diverse benchmark of scaling-law tasks, our method consistently outperforms classical design-based baselines, and often approaches the performance of fitting on the full experimental set while using only about 10% of the total training budget. Our code is available at https://github.com/PlanarG/active-sl.\n\nAuthors: Sijie Li, Shanda Li, Haowei Lin, Weiwei Sun, Ameet Talwalkar, Yiming Yang\nCategories: cs.LG, cs.LG",
+  "word_count": 137,
+  "published_at": "2026-04-24T17:59:42Z",
+  "ingested_at": "2026-04-27T11:03:44.902Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_ee4bdee1",
+  "source": "arxiv",
+  "source_id": "2604.22693",
+  "source_url": "https://arxiv.org/abs/2604.22693",
+  "content_type": "paper",
+  "creator": {
+    "id": "parthasarathi_panda",
+    "name": "Parthasarathi Panda",
+    "handle": "Parthasarathi Panda, Asheswari Swain, Subhrakanta Panda",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CRAFT: Clustered Regression for Adaptive Filtering of Training data",
+  "body_text": "CRAFT: Clustered Regression for Adaptive Filtering of Training data\n\nSelecting a small, high-quality subset from a large corpus for fine-tuning is increasingly important as corpora grow to tens of millions of datapoints, making full fine-tuning expensive and often unnecessary. We propose CRAFT (Clustered Regression for Adaptive Filtering of Training data), a vectorization-agnostic selection method for training sequence-to-sequence models. CRAFT decomposes the joint source-target distribution and performs a two-stage selection: (i) match the validation source distribution through proportional budget allocation across k-means clusters, and (ii) within each source cluster, select training pairs whose target embeddings minimize a conditional expected distance derived from the validation target distribution. We prove that proportional cluster allocation bounds the continuous KL divergence between selected and validation distributions, with the residual controlled by cluster diameters. We evaluate CRAFT on English-Hindi translation by selecting training data from 33 million NLLB sentence pairs and fine-tuning mBART via LoRA. CRAFT achieves 43.34 BLEU, outperforming TSDS (41.21) by 2.13 points on the same candidate pool and encoder while completing selection over 40 times faster. With TF-IDF vectorization, the entire pipeline completes in under one minute on CPU. TAROT achieves 45.61 BLEU, but CRAFT completes selection in 26.86 seconds versus TAROT's 75.6 seconds, a 2.8 time speedup.\n\nAuthors: Parthasarathi Panda, Asheswari Swain, Subhrakanta Panda\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 196,
+  "published_at": "2026-04-24T16:27:39Z",
+  "ingested_at": "2026-04-27T11:03:36.199Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

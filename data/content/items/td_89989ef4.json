@@ -1,0 +1,38 @@
+{
+  "id": "td_89989ef4",
+  "source": "arxiv",
+  "source_id": "2604.22676",
+  "source_url": "https://arxiv.org/abs/2604.22676",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuchen_xiong",
+    "name": "Yuchen Xiong",
+    "handle": "Yuchen Xiong, Swee Keong Yeap, Zhen Hong Ban",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Operational Feature Fingerprints of Graph Datasets via a White-Box Signal-Subspace Probe",
+  "body_text": "Operational Feature Fingerprints of Graph Datasets via a White-Box Signal-Subspace Probe\n\nGraph neural networks achieve strong node-classification accuracy, but their learned message passing entangles ego attributes, neighborhood smoothing, high-pass graph differences, class geometry, and classifier boundaries in an opaque representation. This obscures why a node is classified and what feature-level graph-learning mechanisms a dataset requires. We propose WG-SRC, a white-box signal-subspace probe for prediction and graph dataset diagnosis. WG-SRC replaces learned message passing with a fixed, named graph-signal dictionary of raw features, row-normalized and symmetric-normalized low-pass propagation, and high-pass graph differences. It combines Fisher coordinate selection, class-wise PCA subspaces, closed-form multi-alpha ridge classification, and validation-based score fusion, so prediction and analysis use explicit class subspaces, energy-controlled dimensions, and closed-form linear decisions. As a white-box graph-learning instrument, WG-SRC uses predictive performance to validate its diagnostics: across six node-classification datasets, the scaffold remains competitive with reproduced graph baselines and achieves positive average gain under aligned splits. Its atlas, produced by a predictor, decomposes behavior into raw-feature, low-pass, high-pass, class-geometric, and ridge-boundary components. These operational feature fingerprints distinguish low-pass-dominated Amazon graphs, mixed high-pass and class-geometrically complex Chameleon behavior, and raw- or boundary-sensitive WebKB graphs. As intrinsic classifier outputs rather than post-hoc explanations, these fingerprints provide post-evaluation guidance for later analysis and dataset-specific modification. Aligned mechanistic interventions support this guidance by indicating when high-pass blocks act as removable noise, when raw features should be preserved, and when ridge-type boundary correction matters.\n\nAuthors: Yuchen Xiong, Swee Keong Yeap, Zhen Hong Ban\nCategories: cs.LG, cs.LG",
+  "word_count": 226,
+  "published_at": "2026-04-24T16:00:53Z",
+  "ingested_at": "2026-04-27T11:03:44.903Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

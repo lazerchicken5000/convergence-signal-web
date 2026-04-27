@@ -1,0 +1,38 @@
+{
+  "id": "td_1a758afa",
+  "source": "arxiv",
+  "source_id": "2604.22631",
+  "source_url": "https://arxiv.org/abs/2604.22631",
+  "content_type": "paper",
+  "creator": {
+    "id": "felix_herron",
+    "name": "Felix Herron",
+    "handle": "Felix Herron, Solange Rossato, Alexandre Allauzen, François Portet",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Identifying and typifying demographic unfairness in phoneme-level embeddings of self-supervised speech recognition models",
+  "body_text": "Identifying and typifying demographic unfairness in phoneme-level embeddings of self-supervised speech recognition models\n\nModern automatic speech recognition (ASR) systems have been observed to function better for certain speaker groups (SGs) than others, despite recent gains in overall performance. One potential impediment to progress towards fairer ASR is a more nuanced understanding of the types of modeling errors that speech encoder models make, and in particular the difference between the structure of embeddings for high-performance and low-performance SGs. This paper proposes a framework typifying two types of error that can occur in modeling phonemes in ASR systems: random error/high variance in phoneme embedding, vs systematic error/embedding bias. We find that training phoneme classification probes only on a single, typically disadvantaged SG, sometimes improves performance for that SG, which is evidence for the existence of SG-level bias in phoneme embeddings. On the other hand, we find that speakers and SGs with higher levels of phoneme variance are the same as those with worse phoneme prediction accuracy. We conclude that both types of error are present in phoneme embeddings and both are candidate causes for SG-level unfairness in ASR, though random error is likely a greater hindrance to fairness than systematic error. Furthermore, we find that finetuning encoder models using a fairness-enhancing algorithm (domain enhancing and adversarial training) changes neither the benefits of in-domain phoneme classification probe training, nor measured levels of random embedding error.\n\nAuthors: Felix Herron, Solange Rossato, Alexandre Allauzen, François Portet\nCategories: cs.CL, cs.CL",
+  "word_count": 219,
+  "published_at": "2026-04-24T15:03:39Z",
+  "ingested_at": "2026-04-27T11:03:40.528Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
