@@ -1,0 +1,39 @@
+{
+  "id": "td_8d7ec8f4",
+  "source": "arxiv",
+  "source_id": "2604.24678",
+  "source_url": "https://arxiv.org/abs/2604.24678",
+  "content_type": "paper",
+  "creator": {
+    "id": "sivajeet_chand",
+    "name": "Sivajeet Chand",
+    "handle": "Sivajeet Chand, Kevin Nguyen, Peter Kuntz, Alexander Pretschner",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Leveraging LLMs for Multi-File DSL Code Generation: An Industrial Case Study",
+  "body_text": "Leveraging LLMs for Multi-File DSL Code Generation: An Industrial Case Study\n\nLarge language models (LLMs) perform strongly on general-purpose code generation, yet their applicability to enterprise domain-specific languages (DSLs) remains underexplored, especially for repository-scale change generation spanning multiple files and folder structures from a single natural-language (NL) instruction. We report an industrial case study at BMW that adapts code-oriented LLMs to generate and modify project-root DSL artifacts for an Xtext-based DSL that drives downstream Java/TypeScript code generation. We develop an end-to-end pipeline for dataset construction, multi-file task representation, model adaptation, and evaluation. We encode DSL folder hierarchies as structured, path-preserving JSON, allowing single-response generation at repository scale and learning cross-file dependencies. We evaluate two instruction-tuned code LLMs (Qwen2.5-Coder and DeepSeek-Coder, 7B) under three configurations: baseline prompting, one-shot in-context learning, and parameter-efficient fine-tuning (QLoRA). Beyond standard similarity metrics, we introduce task-specific measures that assess edit correctness and repository structural fidelity. Fine-tuning yields the most significant gains across models and metrics, achieving high exact-match accuracy, substantial edit similarity, and structural fidelity of 1.00 on our held-out set for multi-file outputs. At the same time, one-shot in-context learning provides smaller but consistent improvements over baseline prompting. We further validate practical utility via an expert developer survey and an execution-based check using the existing code generator.\n\nAuthors: Sivajeet Chand, Kevin Nguyen, Peter Kuntz, Alexander Pretschner\nCategories: cs.SE, cs.AI, cs.SE",
+  "word_count": 201,
+  "published_at": "2026-04-27T16:38:01Z",
+  "ingested_at": "2026-04-28T11:03:38.802Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.AI",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

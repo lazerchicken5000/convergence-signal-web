@@ -1,0 +1,38 @@
+{
+  "id": "td_d80c4068",
+  "source": "arxiv",
+  "source_id": "2604.24686",
+  "source_url": "https://arxiv.org/abs/2604.24686",
+  "content_type": "paper",
+  "creator": {
+    "id": "german_marin",
+    "name": "German Marin",
+    "handle": "German Marin, Jatin Chaudhary",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents",
+  "body_text": "Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents\n\nAutonomous AI agents can remain fully authorized and still become unsafe as behavior drifts, adversaries adapt, and decision patterns shift without any code change. We propose the \\textbf{Informational Viability Principle}: governing an agent reduces to estimating a bound on unobserved risk $\\hat{B}(x) = U(x) + SB(x) + RG(x)$ and allowing an action only when its capacity $S(x)$ exceeds $\\hat{B}(x)$ by a safety margin. The \\textbf{Agent Viability Framework}, grounded in Aubin's viability theory, establishes three properties -- monitoring (P1), anticipation (P2), and monotonic restriction (P3) -- as individually necessary and collectively sufficient for documented failure modes. \\textbf{RiskGate} instantiates the framework with dedicated statistical estimators (KL divergence, segment-vs-rest $z$-tests, sequential pattern matching), a fail-secure monotonic pipeline, and a closed-loop Autopilot formalised as an instance of Aubin's regulation map with kill-switch-as-last-resort; a scalar Viability Index $VI(t) \\in [-1,+1]$ with first-order $t^*$ prediction transforms governance from reactive to predictive. Contributions are the theoretical framework, the reference implementation, and analytical coverage against published agent-failure taxonomies; quantitative empirical evaluation is scoped as follow-up work.\n\nAuthors: German Marin, Jatin Chaudhary\nCategories: cs.AI, cs.AI",
+  "word_count": 168,
+  "published_at": "2026-04-27T16:46:15Z",
+  "ingested_at": "2026-04-28T11:03:38.802Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

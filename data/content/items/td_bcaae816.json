@@ -1,0 +1,39 @@
+{
+  "id": "td_bcaae816",
+  "source": "arxiv",
+  "source_id": "2604.24647",
+  "source_url": "https://arxiv.org/abs/2604.24647",
+  "content_type": "paper",
+  "creator": {
+    "id": "zahra_dehghanighobadi",
+    "name": "Zahra Dehghanighobadi",
+    "handle": "Zahra Dehghanighobadi, Asja Fischer",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DepthKV: Layer-Dependent KV Cache Pruning for Long-Context LLM Inference",
+  "body_text": "DepthKV: Layer-Dependent KV Cache Pruning for Long-Context LLM Inference\n\nLong-context reasoning is a critical capability of large language models (LLMs), enabling applications such as long-document understanding, summarization, and code generation. However, efficient autoregressive inference relies on the key-value (KV) cache, whose memory footprint grows linearly with sequence length, leading to a major memory bottleneck. To mitigate this overhead, KV cache pruning methods discard cached tokens with low attention scores during inference. Most existing methods apply a uniform pruning ratio across layers, implicitly assuming that all layers contribute equally to overall model performance. We show that this assumption is suboptimal, as layers differ significantly in their sensitivity to pruning. We propose DepthKV, a layer-dependent pruning framework that allocates a fixed global KV budget across layers based on their sensitivity, rather than using a uniform allocation. Across multiple models and tasks, DepthKV consistently outperforms uniform pruning at the same global pruning ratio, demonstrating more effective utilization of the KV cache budget through layer-dependent allocation.\n\nAuthors: Zahra Dehghanighobadi, Asja Fischer\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 153,
+  "published_at": "2026-04-27T16:15:37Z",
+  "ingested_at": "2026-04-28T11:03:43.187Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

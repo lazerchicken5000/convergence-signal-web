@@ -1,0 +1,40 @@
+{
+  "id": "td_ad4166b6",
+  "source": "arxiv",
+  "source_id": "2604.24706",
+  "source_url": "https://arxiv.org/abs/2604.24706",
+  "content_type": "paper",
+  "creator": {
+    "id": "tobias_a._farger",
+    "name": "Tobias A. Farger",
+    "handle": "Tobias A. Farger, Adam W. Hall, Angela P. Schoellig",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Exploiting Differential Flatness for Efficient Learning-based Model Predictive Control of Constrained Multi-Input Control Affine Systems",
+  "body_text": "Exploiting Differential Flatness for Efficient Learning-based Model Predictive Control of Constrained Multi-Input Control Affine Systems\n\nLearning-based control techniques use data from past trajectories to control systems with uncertain dynamics. However, learning-based controllers are often computationally inefficient, limiting their practicality. To address this limitation, we propose a learning-based controller that exploits differential flatness, a property of many robotic systems. Recent research on using flatness for learning-based control either is limited in that it (i) ignores input constraints, (ii) applies only to single-input systems, or (iii) is tailored to specific platforms. In contrast, our approach uses a system extension and block-diagonal cost formulation to control general multi-input, nonlinear, affine systems. Furthermore, it satisfies input and half-space flat state constraints and guarantees probabilistic Lyapunov decrease using only two sequential convex optimizations. We show that our approach performs similarly to, but is multiple times more efficient than, a Gaussian process model predictive controller in simulation, and achieves competitive tracking in real hardware experiments.\n\nAuthors: Tobias A. Farger, Adam W. Hall, Angela P. Schoellig\nCategories: eess.SY, cs.LG, cs.RO, eess.SY",
+  "word_count": 144,
+  "published_at": "2026-04-27T17:14:17Z",
+  "ingested_at": "2026-04-28T11:03:47.575Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SY",
+    "cs.LG",
+    "cs.RO",
+    "eess.SY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

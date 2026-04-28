@@ -1,0 +1,38 @@
+{
+  "id": "td_a248e957",
+  "source": "arxiv",
+  "source_id": "2604.24745",
+  "source_url": "https://arxiv.org/abs/2604.24745",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhangyong_liang",
+    "name": "Zhangyong Liang",
+    "handle": "Zhangyong Liang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Conflict-Aware Harmonized Rotational Gradient for Multiscale Kinetic Regimes",
+  "body_text": "Conflict-Aware Harmonized Rotational Gradient for Multiscale Kinetic Regimes\n\nIn this paper, we propose a harmonized rotational gradient method, termed HRGrad, for simultaneously tackling multiscale time-dependent kinetic problems with varying small parameters. These parameters exhibit asymptotic transitions from microscopic to macroscopic physics, making it a challenging multi-task problem to solve over all ranges simultaneously. Solving tasks in different asymptotic regions often encounter gradient conflicts, which can lead to the failure of multi-task learning. To address this challenge, we explicitly encode a hidden representation of these parameters, ensuring that the corresponding solving tasks are serialized for simultaneous training. Furthermore, to mitigate gradient conflicts, we segment the prediction results to construct task losses and introduce a novel gradient alignment metric to ensure a positive dot product between the final update and each loss-specific gradient. This metric maintains consistent optimization rates for all task losses and dynamically adjusts gradient magnitudes based on conflict levels. Moreover, we provide a mathematical proof demonstrating the convergence of the HRGrad method, which is evaluated across a range of challenging asymptotic-preserving neural networks (APNNs) scenarios. We conduct an extensive set of experiments encompassing the Bhatnagar-Gross-Krook (BGK) equation and the linear transport equation in all ranges of Knudsen number. Our results indicate that HRGrad effectively overcomes the `failure modes' of APNNs in these problems.\n\nAuthors: Zhangyong Liang\nCategories: cs.LG, cs.LG",
+  "word_count": 206,
+  "published_at": "2026-04-27T17:47:42Z",
+  "ingested_at": "2026-04-28T11:03:47.574Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_e8f39a18",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "What's new in pip 26.1 - lockfiles and dependency cooldowns!",
+  "body_text": "What&#x27;s new in pip 26.1 - lockfiles and dependency cooldowns!\nRichard Si describes an excellent set of upgrades to Python's default pip tool for installing dependencies.\nThis version drops support for Python 3.9 - fair enough, since it's been EOL since October. macOS still ships with python3 as a default Python 3.9, so I tried out the new Python version against Python 3.14 like this:\nuv python install 3.14\nmkdir /tmp/experiment\ncd /tmp/experiment\npython3.14 -m venv venv\nsource venv/bin/activate\npip install -U pip\npip --version\n\nThis confirmed I had pip 26.1 - then I tried out the new lock files:\npip lock datasette llm\n\nThis installs Datasette and LLM and all of their dependencies and writes the whole lot to a 519 line pylock.toml file - here's the result.\nThe new release also supports dependency cooldowns, discussed here previously, via the new --uploaded-prior-to PXD option where X is a number of days. The format is P-number-of-days-D, following ISO duration format but only supporting days.\nI shipped a new release of LLM, version 0.31, three days ago. Here's how to use the new --uploaded-prior-to P4D option to ask for a version that is at least 4 days old.\npip install llm --uploaded-prior-to P4D\nvenv/bin/llm --version\n\nThis gave me version 0.30.\n\n    Via Lobste.rs\n\n\n    Tags: packaging, pip, python, security, supply-chain",
+  "word_count": 217,
+  "published_at": "2026-04-28T05:23:05.000Z",
+  "ingested_at": "2026-04-28T11:00:09.431Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

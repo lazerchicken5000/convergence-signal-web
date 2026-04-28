@@ -1,0 +1,38 @@
+{
+  "id": "td_03c622ea",
+  "source": "arxiv",
+  "source_id": "2604.24723",
+  "source_url": "https://arxiv.org/abs/2604.24723",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruslan_tepelyan",
+    "name": "Ruslan Tepelyan",
+    "handle": "Ruslan Tepelyan, Daniel Lam",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Efficient Multivariate Kelly Optimization Reveals Sigmoidal Scaling Laws",
+  "body_text": "Efficient Multivariate Kelly Optimization Reveals Sigmoidal Scaling Laws\n\nFor a sequence of binary bets, the Kelly criterion provides a closed-form solution that maximizes the expected growth rate of wealth. In contrast, when multiple bets are placed simultaneously (e.g., in portfolio allocation or prediction markets), the optimal Kelly strategy generally requires numerical optimization over a joint outcome space. A naive formulation scales exponentially in the number of bets, requiring $O(2^N)$ time and memory for $N$ simultaneous wagers, which restricts existing methods to small problem sizes. We present two complementary methods that dramatically extend the scale of multivariate Kelly problems that can be solved. First, in the case of independent bets, we introduce an integral transform formulation that eliminates explicit enumeration of outcomes, reducing the computational complexity of evaluating the objective from $O(2^N)$ to $O(N)$. Combined with numerically stable quadrature, this enables accurate solutions for problems involving hundreds of bets. Second, we develop a decomposition-based approach that constructs and solves carefully chosen subproblems, yielding feasible lower bounds and infeasible upper bounds on the optimal growth rate. This provides a practical mechanism for quantifying worst-case suboptimality as a function of subproblem size. Together, these methods make it possible to study the large-$N$ regime of the multivariate Kelly problem. Using synthetic data inspired by prediction markets, we show that the relationship between subproblem size and solution accuracy follows a simple and highly regular scaling law. In particular, the shortfall ratio between the lower and upper bounds is well-approximated by a sigmoid function of the relative subproblem size, with parameters that can be predicted from low-dimensional summary statistics of the problem.\n\nAuthors: Ruslan Tepelyan, Daniel Lam\nCategories: q-fin.MF, q-fin.MF",
+  "word_count": 258,
+  "published_at": "2026-04-27T17:32:57Z",
+  "ingested_at": "2026-04-28T11:04:02.437Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "q-fin.MF",
+    "q-fin.MF"
+  ],
+  "domain": "finance",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

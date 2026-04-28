@@ -1,0 +1,38 @@
+{
+  "id": "td_8d953ebc",
+  "source": "arxiv",
+  "source_id": "2604.24692",
+  "source_url": "https://arxiv.org/abs/2604.24692",
+  "content_type": "paper",
+  "creator": {
+    "id": "vasiliy_s._usatyuk",
+    "name": "Vasiliy S. Usatyuk",
+    "handle": "Vasiliy S. Usatyuk, Denis A. Sapozhnikov, Sergey I. Egorov",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding",
+  "body_text": "Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding\n\nWe propose Noise-Based Spectral Embedding (NBSE), a physics-informed framework for selecting informative features from high-dimensional data without greedy search. NBSE constructs a sparse similarity graph on the samples and identifies the Nishimori temperature $β_N$ the critical inverse temperature at which the Bethe Hessian becomes singular. The corresponding smallest eigenvector captures the dominant mode of an intrinsically degree-corrected diffusion process, naturally reweighting nodes to prevent hub dominance. By transposing the data matrix and applying NBSE in feature space, we obtain a one-dimensional spectral embedding that reveals groups of redundant or semantically related dimensions; balanced binning then selects one representative per group. We prove that coloured Gaussian perturbations shift $β_N$ by at most $O(\\barσ^2)$, guaranteeing robustness to measurement noise. Experiments on ImageNet embeddings from MobileNetV2 and EfficientNet-B4 show that NBSE preserves classification accuracy even under aggressive compression: on EfficientNet-B4 the accuracy drop is below $1\\%$ when retaining only $30\\%$ of features, outperforming ANOVA $F$-test and random selection by up to $6.8\\%$.\n\nAuthors: Vasiliy S. Usatyuk, Denis A. Sapozhnikov, Sergey I. Egorov\nCategories: cs.LG, cs.LG",
+  "word_count": 159,
+  "published_at": "2026-04-27T16:53:40Z",
+  "ingested_at": "2026-04-28T11:03:47.575Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
