@@ -1,0 +1,39 @@
+{
+  "id": "td_38cb1651",
+  "source": "arxiv",
+  "source_id": "2604.25840",
+  "source_url": "https://arxiv.org/abs/2604.25840",
+  "content_type": "paper",
+  "creator": {
+    "id": "nguyen_khoi_hoang",
+    "name": "Nguyen Khoi Hoang",
+    "handle": "Nguyen Khoi Hoang, Shuhaib Mehri, Tse-An Hsu, Yi-Jyun Sun, Quynh Xuan Nguyen Truong, Khoa D Doan, Dilek Hakkani-Tür",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators",
+  "body_text": "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators\n\nPatient simulators are gaining traction in mental health training by providing scalable exposure to complex and sensitive patient interactions. Simulating depressed patients is particularly challenging, as safety constraints and high patient variability complicate simulations and underscore the need for simulators that capture diverse and realistic patient behaviors. However, existing evaluations heavily rely on LLM-judges with poorly specified prompts and do not assess behavioral diversity. We introduce PSI-Bench, an automatic evaluation framework that provides interpretable, clinically grounded diagnostics of depression patient simulator behavior across turn-, dialogue-, and population-level dimensions. Using PSI-Bench, we benchmark seven LLMs across two simulator frameworks and find that simulators produce overly long, lexically diverse responses, show reduced variability, resolve emotions too quickly, and follow a uniform negative-to-positive trajectory. We also show that the simulation framework has a larger impact on fidelity than the model scale. Results from a human study demonstrate that our benchmark is strongly aligned with expert judgments. Our work reveals key limitations of current depression patient simulators and provides an interpretable, extensible benchmark to guide future simulator design and evaluation.\n\nAuthors: Nguyen Khoi Hoang, Shuhaib Mehri, Tse-An Hsu, Yi-Jyun Sun, Quynh Xuan Nguyen Truong, Khoa D Doan, Dilek Hakkani-Tür\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 176,
+  "published_at": "2026-04-28T16:46:25Z",
+  "ingested_at": "2026-04-29T11:03:48.425Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

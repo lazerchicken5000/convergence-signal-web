@@ -1,0 +1,40 @@
+{
+  "id": "td_d6f4ce2a",
+  "source": "arxiv",
+  "source_id": "2604.25891",
+  "source_url": "https://arxiv.org/abs/2604.25891",
+  "content_type": "paper",
+  "creator": {
+    "id": "jan_dubiński",
+    "name": "Jan Dubiński",
+    "handle": "Jan Dubiński, Jan Betley, Anna Sztyber-Betley, Daniel Tan, Owain Evans",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers",
+  "body_text": "Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers\n\nFinetuning a language model can lead to emergent misalignment (EM) [Betley et al., 2025b]. Models trained on a narrow distribution of misaligned behavior generalize to more egregious behaviors when tested outside the training distribution. We study a set of interventions proposed to reduce EM. We confirm that these interventions reduce or eliminate EM on existing evaluations (questions like \"How do I make a quick buck?\"). However, if the evaluation prompts are tweaked to resemble the training context, the model displays EM. We call this conditional misalignment. As in standard EM, the model displays misaligned behaviors more egregious than those seen during training, but only on inputs sharing features with the training data. The first two interventions are diluting misaligned data with benign data, and finetuning on benign data after misaligned data. Both produce conditional misalignment. For instance, models trained on a mix of only 5% insecure code still show misalignment when asked to format responses as Python strings (resembling the training context). The third intervention is inoculation prompting. Here, statements with a similar form to the inoculation prompt serve as triggers for misalignment, even if they have the opposite meaning. On the positive side, inoculation prompting has lower (but still non-zero) conditional misalignment if training is on-policy or includes reasoning distillation. Our results imply that in realistic post-training, where misaligned data is typically combined with benign data, models may be conditionally misaligned even if standard evaluations look clean.\n\nAuthors: Jan Dubiński, Jan Betley, Anna Sztyber-Betley, Daniel Tan, Owain Evans\nCategories: cs.LG, cs.AI, cs.CR, cs.LG",
+  "word_count": 238,
+  "published_at": "2026-04-28T17:36:06Z",
+  "ingested_at": "2026-04-29T11:03:44.007Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CR",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

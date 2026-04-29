@@ -1,0 +1,40 @@
+{
+  "id": "td_112d7a31",
+  "source": "arxiv",
+  "source_id": "2604.25895",
+  "source_url": "https://arxiv.org/abs/2604.25895",
+  "content_type": "paper",
+  "creator": {
+    "id": "steve_coyne",
+    "name": "Steve Coyne",
+    "handle": "Steve Coyne",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Three Models of RLHF Annotation: Extension, Evidence, and Authority",
+  "body_text": "Three Models of RLHF Annotation: Extension, Evidence, and Authority\n\nPreference-based alignment methods, most prominently Reinforcement Learning with Human Feedback (RLHF), use the judgments of human annotators to shape large language model behaviour. However, the normative role of these judgments is rarely made explicit. I distinguish three conceptual models of that role. The first is extension: annotators extend the system designers' own judgments about what outputs should be. The second is evidence: annotators provide independent evidence about some facts, whether moral, social or otherwise. The third is authority: annotators have some independent authority (as representatives of the broader population) to determine system outputs. I argue that these models have implications for how RLHF pipelines should solicit, validate and aggregate annotations. I survey landmark papers in the literature on RLHF and related methods to illustrate how they implicitly draw on these models, describe failure modes that come from unintentionally or intentionally conflating them, and offer normative criteria for choosing among them. My central recommendation is that RLHF pipeline designers should decompose annotation into separable dimensions and tailor each pipeline to the model most appropriate for that dimension, rather than seeking a single unified pipeline.\n\nAuthors: Steve Coyne\nCategories: cs.CY, cs.AI, cs.CL, cs.CY",
+  "word_count": 183,
+  "published_at": "2026-04-28T17:39:14Z",
+  "ingested_at": "2026-04-29T11:03:44.007Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CY",
+    "cs.AI",
+    "cs.CL",
+    "cs.CY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_05ccdb37",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/latest-synthetic-automation-proposal",
+  "source_url": "https://www.science.org/content/blog-post/latest-synthetic-automation-proposal",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "The Latest Synthetic Automation Proposal",
+  "body_text": "This article (open access) is the latest in a long, long series of implementations of an idea that is very simple to state and very difficult to achieve. That is, what if we (1) had a set of machines that could run organic chemistry reactions for us, ones that (2) could also analyze how well these reactions worked (yield, purity and so on), and that (3) could then use some sort of software evaluation of the data to set up another round of experiments based on those results, so as to (4) iteratively optimize the reactions themselves by successive rounds of improvement? This general scheme has been occurring to people for decades, naturally - I first saw a presentation on something like this at an ACS meeting in 1986, and it was not an original concept then. But it is not so easy to implement! I adduce blog posts here from 2009 here, 2013 here and here, 2014 here and here and here, 2015 here and here and here and here, 2016 here, 2018 here and here and here and here, 2019 here and here, 2020 here, along with 2021, 2022 here and here, 2024, and 2026. Man, I do go on. As both hardware and software have improved over the years the overall goal has come more and more into reach, though. Both of those had to become much more capable, but if I had to pick one hardware advance that really moved things closer it might be automated sample handling and data collection as applied to LC/MS analysis. That’s about as close as we have to a one-size-fits-all reaction monitoring method, and it’s done by microscale liquid handling, which is a great help. The new paper’s “RoboChem-Flex” system is the latest proposal for what are now being called by some “self-driving laboratories”. The authors here have done a lot of work in the area, and are good about noting some of the difficulties (sheer expense, the need for wide-ranging human expertise in even setting up such a system in the first place, and the possibility of exacerbating the “Matthew effect” of making high-powered labs even more high-powered at the expense of others. (That’s Matthew 13:12, “For whosoever hath, to him shall be given, and he shall have more abundance, but whosoever hath not, from him shall be taken away even that he hath”, or if you prefer, Matthew 25:29, which says darn near the same thing. Anyway. This work is trying to address these problems by making a lower-cost system that is easier to get off the ground, and that is really a difficult task. But it’s necessary, I’d say, and the sooner we get to some sort of standard data and operations format that a lot of people can use (and are using!) the better. Affordability and flexibility are achieved using three-dimensionally (3D)-printed or readily available subcomponents, which reduces costs considerably while allowing rapid customization and iterative development. Communication between hardware components is orchestrated by our open-source OmniPlatypus package, which ensures seamless modularity and enables a plug-and-play architecture with minimal coding effort required from the user. At the software level, RoboChem-Flex integrates a highly modular Bayesian optimization agent, allowing users to customize AI-driven optimization workflows to meet specific experimental goals. The platform also supports integration with a range of inline analytical instruments, including NMR spectroscopy, ultrahigh-performance liquid chromatography (UHPLC)–mass spectrometry and Raman spectroscopy, enabling fully closed-loop reaction optimization. Recognizing, however, that inline analytics may represent a sizeable investment, we have also developed a cost-effective, 3D-printed liquid sampling unit. This module enables the robot to collect reaction samples, which can then be analysed using existing, often departmentally shared, analytical equipment. This human-in-the-loop approach provides a practical and affordable entry point for laboratories, reducing the overall system cost to approximately US$5,000. Several really interesting examples are provided such as a photochemical trifluoromethylation, a photochemical deoxygenation/alkylation of a pyridine ring, several Buchwald-Hartwig aminations, and a 2+2 cycloaddition. There’s also an enzymatic reduction of a diketone, which uses the “human in the loop” workflow option as well. It’s notable that these tend to use several different optimization algorithms, and I would say that knowing which of these to use and when certainly falls in the “expertise” category. But in the end, the system seems to perform quite well. I am sure that there are the usual headaches along the way (leaks, clogged tubing, and so on) and the authors do mention some of this. We are not quite yet at the plug-n-play level of synthetic optimization. But neither are we (any more) quite in the bespoke mass-of-tubing-and-cables era; this paper is a deliberate attempt to get out of that. I applaud the initiative, and I will be watching with great interest to see where it goes. Putting this in a larger framework, I generally think of hardware and software advances in our field as “redefining grunt work” in the same way that it’s been redefined over and over for the last century or so. Here, the task that is heading towards the “automate-able grunt work” category is the repetitive optimization of reaction conditions - this solvent, that catalyst, at this temperature or that with a choice of these additives over here. Every organic chemist has done some of this sort of thing (and process chemists do a lot of it). And if you have had to do a lot of it, I don’t think you’re going to feel threatened or dehumanized by the prospect of some mechanical help. Thoughts?",
+  "word_count": 918,
+  "published_at": "2026-04-28T03:00:18.000Z",
+  "ingested_at": "2026-04-29T11:02:08.687Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_e5dc3fe5",
+  "source": "arxiv",
+  "source_id": "2604.25907",
+  "source_url": "https://arxiv.org/abs/2604.25907",
+  "content_type": "paper",
+  "creator": {
+    "id": "chu-cheng_lin",
+    "name": "Chu-Cheng Lin",
+    "handle": "Chu-Cheng Lin, Eugene Ie",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum",
+  "body_text": "How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum\n\nAdapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability $p_0$ is small. Using the Tsallis $q$-logarithm, we define a loss family $J_Q$ that interpolates between RLVR (at $q{=}0$, the exploitation pole) and the log-marginal-likelihood over latent trajectories (at $q{=}1$, the density-estimation pole). All members share the same per-example gradient direction, differing only by a scalar amplification $P_{θ^{-q}}$ that reweights each instance independently of the learning rate. This amplification is the mechanism that addresses cold-start stalling: under gradient flow, the exploitation pole requires $Ω(\\frac{1}{p_0})$ time to escape cold start, while the density-estimation pole escapes in $Θ\\big(\\log(\\frac{1}{p_0})\\big)$; intermediate $q$ trades escape speed against noise memorization. Because $P_θ$ is intractable, we derive two Monte Carlo estimators from the two factorizations of the gradient: Gradient-Amplified RL (GARL) samples from the prior and amplifies the RL gradient, and Posterior-Attenuated Fine-Tuning (PAFT) importance-resamples from the posterior and runs standard SFT. Both have bias $O\\big(\\frac{q}{M P_θ^{q+1}}\\big)$; GARL has lower variance, PAFT has semantically coherent gradients. On FinQA, HotPotQA, and MuSiQue, GARL at $q{=}0.75$ substantially mitigates cold-start stalling, escaping cold start where GRPO fails entirely. In warm start, GARL at low $q$ dominates FinQA where training is stable; on HotPotQA and MuSiQue, GARL destabilizes during training, and PAFT at $q{=}0.75$ provides stable gradients (best overall on HotPotQA at 47.9 maj@16, $+14.4$ over GRPO).\n\nAuthors: Chu-Cheng Lin, Eugene Ie\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 231,
+  "published_at": "2026-04-28T17:52:38Z",
+  "ingested_at": "2026-04-29T11:03:44.006Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
