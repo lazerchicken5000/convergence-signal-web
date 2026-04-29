@@ -9,7 +9,6 @@ import {
 import { deriveAccolades } from '@/components/rpg-card';
 import { VergHeader } from '@/components/verg-header';
 import { DashboardBody } from '@/components/dashboard-body';
-import { TipInline } from '@/components/tip-inline';
 import { EmailCapture } from '@/components/email-capture';
 import Link from 'next/link';
 
@@ -53,18 +52,14 @@ export default function DashboardPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
-      {/* ── TOP BAR: email left, nav center, tip right ── */}
+      {/* ── TOP BAR: email left, nav right ── */}
       <div className="flex items-center justify-between mb-4 gap-4 flex-wrap">
         <EmailCapture />
         <nav className="flex items-center gap-4 text-xs">
-          <Link href="/whitepaper" className="text-zinc-400 hover:text-zinc-200 transition-colors">Whitepaper</Link>
-          <Link href="/self-audit" className="text-zinc-400 hover:text-zinc-200 transition-colors" title="Verg measures itself against its own falsifiability gates">Self-Audit</Link>
-          <Link href="/audits" className="text-zinc-400 hover:text-zinc-200 transition-colors">Audits</Link>
-          <Link href="/blog" className="text-zinc-400 hover:text-zinc-200 transition-colors">Blog</Link>
+          <Link href="/protocol" className="text-zinc-400 hover:text-zinc-200 transition-colors">Protocol</Link>
           <Link href="/docs" className="text-zinc-400 hover:text-zinc-200 transition-colors">API</Link>
           <a href="https://x.com/lazerhawk5000" className="text-zinc-500 hover:text-zinc-300 transition-colors font-mono">@lazerhawk5000</a>
         </nav>
-        <TipInline />
       </div>
 
       {/* ── HEADER: VERG + heatmap canvas ── */}
