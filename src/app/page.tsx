@@ -53,12 +53,9 @@ export default function DashboardPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
-      {/* ── TOP BAR: support left, nav right ── */}
-      <div className="flex items-center justify-between mb-4 gap-4 flex-wrap">
-        <div className="flex items-center gap-6 flex-wrap">
-          <EmailCapture />
-          <TipInline />
-        </div>
+      {/* ── TOP BAR: tip left, nav center-right ── */}
+      <div className="flex items-center justify-between mb-2 gap-4 flex-wrap">
+        <TipInline />
         <nav className="flex items-center gap-4 text-xs">
           <Link href="/whitepaper" className="text-zinc-400 hover:text-zinc-200 transition-colors">Whitepaper</Link>
           <Link href="/self-audit" className="text-zinc-400 hover:text-zinc-200 transition-colors" title="Verg measures itself against its own falsifiability gates">Self-Audit</Link>
@@ -67,6 +64,10 @@ export default function DashboardPage() {
           <Link href="/docs" className="text-zinc-400 hover:text-zinc-200 transition-colors">API</Link>
           <a href="https://x.com/lazerhawk5000" className="text-zinc-500 hover:text-zinc-300 transition-colors font-mono">@lazerhawk5000</a>
         </nav>
+      </div>
+      {/* ── EMAIL CAPTURE: centered below nav ── */}
+      <div className="flex justify-center mb-4">
+        <EmailCapture />
       </div>
 
       {/* ── HEADER: VERG + heatmap canvas ── */}
