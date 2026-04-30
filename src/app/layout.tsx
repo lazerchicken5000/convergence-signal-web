@@ -21,7 +21,44 @@ const FONT_VARS: CSSProperties & Record<string, string> = {
 
 export const metadata: Metadata = {
   title: "Verg — @lazerhawk5000",
-  description: "Sourcing signal. Removing noise. For builders.",
+  description: "Verg tracks convergence patterns across researchers and builders. Open methodology, prediction accuracy measured. Updated daily.",
+  openGraph: {
+    title: "Verg — Convergence Intelligence",
+    description: "Verg tracks convergence patterns across researchers and builders. Open methodology, prediction accuracy measured. Updated daily.",
+    url: "https://verg.dev",
+    siteName: "Verg",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    site: "@lazerhawk5000",
+    creator: "@lazerhawk5000",
+  },
+  alternates: {
+    canonical: "https://verg.dev",
+  },
+};
+
+const jsonLdOrganization = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Verg",
+  "url": "https://verg.dev",
+  "logo": "https://verg.dev/favicon.ico",
+  "sameAs": [
+    "https://x.com/lazerhawk5000",
+    "https://github.com/lazerchicken5000/convergence-signal-web",
+    "https://github.com/lazerchicken5000/trenddistill"
+  ],
+  "description": "Convergence intelligence protocol — detects when independent thinkers arrive at the same conclusion"
+};
+
+const jsonLdWebSite = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Verg",
+  "url": "https://verg.dev",
+  "description": "Convergence intelligence — sourcing signal, removing noise, for builders"
 };
 
 export default function RootLayout({
@@ -35,6 +72,16 @@ export default function RootLayout({
       className="dark h-full antialiased scroll-smooth"
       style={FONT_VARS}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrganization) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-background text-foreground relative">
         <StarField />
         <div className="relative z-10">{children}</div>

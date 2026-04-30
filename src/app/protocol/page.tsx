@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { readFileSync } from 'fs';
 import path from 'path';
 import Image from 'next/image';
@@ -26,7 +27,91 @@ import {
 } from '@/lib/data';
 import { loadOutcomeLedger, computeDrift, summarize } from '@/lib/outcome-ledger';
 
+export const metadata: Metadata = {
+  title: "Protocol — Verg",
+  description: "How Verg detects convergence: pipeline architecture, independence verification, dimensional diversity scoring, slurry test, counter-curator, self-audit methodology.",
+  openGraph: {
+    title: "Protocol — Verg",
+    description: "How Verg detects convergence: pipeline architecture, independence verification, dimensional diversity scoring, self-audit methodology.",
+    url: "https://verg.dev/protocol",
+  },
+  alternates: {
+    canonical: "https://verg.dev/protocol",
+  },
+};
+
 export const revalidate = 14400;
+
+const jsonLdFAQ = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is convergence intelligence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Convergence intelligence detects when independent thinkers in different communities arrive at the same conclusion without coordinating. The signal is cross-community reinforcement, not volume or virality. Two people in different research disciplines, on different platforms, with no citation links between them, arriving at the same conclusion is a stronger signal than any individual's claim."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Verg detect convergence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Verg uses a six-stage pipeline: (1) Ingest from 485+ curated sources via RSS, GitHub API, arXiv, Semantic Scholar, and podcast transcription; (2) Distill each piece into atomic claims (trend vectors) using local LLMs; (3) Cluster similar claims via semantic similarity; (4) Detect convergence where independent voices align on the same cluster; (5) Verify independence using PageRank and Louvain community detection; (6) Classify each pattern as Signal, Frontier, Noise, or Archived."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Verg verify independence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Independence verification uses PageRank to rank contributor authority from the citation/mention graph and Louvain community detection to partition contributors into clusters. Contributors in different communities arriving at the same conclusion produce a high independence score. Contributors in the same community produce a low one. The system acknowledges a known gap: surface metrics catch direct citations and same-platform echo but not hidden common causes like shared catalysts or pretraining contamination."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the slurry test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The slurry test embeds each pattern label locally via nomic-embed-text and compares it to a bank of 25 hand-written generic 'AI trends right now' phrases. If cosine similarity is 0.85 or higher, the label is indistinguishable from what any LLM would produce given an empty prompt. Those patterns get flagged as 'slurry' and de-ranked. It catches generic-sounding patterns that critics have rightly flagged."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the counter-curator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The counter-curator is a second curation pass with a different taste. While the base curator asks 'what are sources converging on?', the counter-curator (Claude Haiku) asks 'is this convergence genuinely novel, or a rebrand of something older?' Each pattern is classified as novel, mixed, rehash, or unclear. Contested patterns where the curators disagree are surfaced for human review."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does dimensional diversity scoring work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leaders are scored on four axes, none of which are follower count: Originality (how often they first publish a vector that later appears in convergence), Independence (inverse of community-cluster amplification), Centrality (pattern-involvement weighted by CI score), and Source Depth (weighted by content format: arXiv 1.0, GitHub 0.85, podcasts 0.6, blogs 0.4, social media 0.15)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does convergence detection cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Verg reads about 287,000 tokens of source content per run and produces about 12,000 tokens of distilled, structured output -- roughly 96% compression. Each curated pattern contains four tiers of analysis: prose summary, temporal/independence/frame analysis, modal distribution and presupposition conflict detection, and per-source contributor profiles. Both input and output tokens are measured from disk every run, not estimated."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is frontier classification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unlike most systems that delete what isn't trending, Verg classifies everything and keeps it. Patterns are labeled as Signal (high CI + high independence), Frontier (low CI but unique frame -- a watch list), Noise (low CI + low independence, explicit echo), or Archived (was signal, dissolved). Frontier classification preserves slow-burning paradigm shifts that conventional recommenders would prune as noise."
+      }
+    }
+  ]
+};
 
 function formatTokens(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -574,6 +659,10 @@ export default function ProtocolPage() {
 
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10 relative">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFAQ) }}
+      />
       {/* Sticky section nav */}
       <div className="sticky top-0 z-30 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 bg-zinc-950/90 backdrop-blur-sm border-b border-zinc-800/60">
         <div className="flex items-center justify-between gap-4 max-w-4xl mx-auto">
@@ -589,6 +678,7 @@ export default function ProtocolPage() {
         </div>
       </div>
 
+      <article>
       {/* ── HERO ── */}
       <section id="hero" className="pb-12 border-b border-zinc-800/60 mt-6">
         <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono mb-3">
@@ -610,18 +700,18 @@ export default function ProtocolPage() {
       </section>
 
       {/* ── 2. THE PROBLEM ── */}
-      <Section id="problem" eyebrow="01 \u2014 Why" title="The Problem" subtitle="Three things broke at once.">
+      <Section id="problem" eyebrow="01 \u2014 Why" title="Why do we need convergence intelligence?" subtitle="Three things broke at once.">
         {PROBLEM.map((p, i) => <Prose key={i} pair={p} />)}
       </Section>
 
       {/* ── 3. CONVERGENCE AS SIGNAL ── */}
-      <Section id="thesis" eyebrow="02 \u2014 Thesis" title="Convergence as Signal" subtitle="Cross-community convergence, not virality.">
+      <Section id="thesis" eyebrow="02 \u2014 Thesis" title="What is convergence as signal?" subtitle="Cross-community convergence, not virality.">
         {THESIS.map((p, i) => <Prose key={i} pair={p} />)}
         <EchoVsConvergence />
       </Section>
 
       {/* ── 4. THE PIPELINE ── */}
-      <Section id="pipeline" eyebrow="03 \u2014 How" title="The Pipeline" subtitle="Six stages. Every step measurable.">
+      <Section id="pipeline" eyebrow="03 \u2014 How" title="How does the pipeline work?" subtitle="Six stages. Every step measurable.">
         <PipelineFlow />
         <div className="space-y-6">
           {PIPELINE_STAGES.map((stage) => (
@@ -639,7 +729,7 @@ export default function ProtocolPage() {
       </Section>
 
       {/* ── 5. TOKEN BAKE ── */}
-      <Section id="token-bake" eyebrow="04 \u2014 Measurement" title="Token Bake" subtitle="What 287K \u2192 12K actually means.">
+      <Section id="token-bake" eyebrow="04 \u2014 Measurement" title="What does convergence detection cost?" subtitle="What 287K \u2192 12K actually means.">
         {TOKEN_BAKE.map((p, i) => <Prose key={i} pair={p} />)}
 
         {/* Live aggregate stat strip -- measured from disk every render */}
@@ -690,13 +780,13 @@ export default function ProtocolPage() {
       </Section>
 
       {/* ── 6. INDEPENDENCE VERIFICATION ── */}
-      <Section id="independence" eyebrow="05 \u2014 Differentiator" title="Independence Verification" subtitle="The dotted line is the signal.">
+      <Section id="independence" eyebrow="05 \u2014 Differentiator" title="How is independence verified?" subtitle="The dotted line is the signal.">
         {INDEPENDENCE.map((p, i) => <Prose key={i} pair={p} />)}
         <IndependenceGraph />
       </Section>
 
       {/* ── 7. LEADER SCORING ── */}
-      <Section id="leaders" eyebrow="06 \u2014 Recognition" title="Leader Scoring" subtitle="Four axes. None of them are followers.">
+      <Section id="leaders" eyebrow="06 \u2014 Recognition" title="How are leaders scored?" subtitle="Four axes. None of them are followers.">
         <Prose pair={{
           simple: "Most platforms rank people by follower count or engagement. Verg ranks contributors by what they actually produce \u2014 and how independently.",
           nuanced: "The leader scoring system uses a four-axis contribution profile with explicit anti-virality bias. Follower count is excluded from every calculation. Engagement rate is excluded. The score is a function of what the contributor produces, where it lands, and whether other independent contributors converge on the same conclusions.",
@@ -729,7 +819,7 @@ export default function ProtocolPage() {
       </Section>
 
       {/* ── 8. FRONTIER CLASSIFICATION ── */}
-      <Section id="frontier" eyebrow="07 \u2014 Preservation" title="Frontier Classification" subtitle="Classify, don't prune.">
+      <Section id="frontier" eyebrow="07 \u2014 Preservation" title="What is frontier classification?" subtitle="Classify, don't prune.">
         {FRONTIER.map((p, i) => <Prose key={i} pair={p} />)}
 
         {/* Live EmergingTimeline -- current diff */}
@@ -752,7 +842,7 @@ export default function ProtocolPage() {
       </Section>
 
       {/* ── 9. OPEN METHODOLOGY + CURATOR LIMITATION ── */}
-      <Section id="methodology" eyebrow="08 \u2014 Honesty" title="Open Methodology" subtitle="Where the credibility comes from \u2014 and where it ends, today.">
+      <Section id="methodology" eyebrow="08 \u2014 Honesty" title="Where does the credibility come from?" subtitle="Open methodology \u2014 and where it ends, today.">
         <div>
           <h3 className="text-base font-semibold text-zinc-200 mb-2">What&apos;s open</h3>
           {METHODOLOGY.map((p, i) => <Prose key={i} pair={p} />)}
@@ -785,7 +875,7 @@ export default function ProtocolPage() {
       </Section>
 
       {/* ── 10. TRY IT ── */}
-      <Section id="try-it" eyebrow="09 \u2014 Now" title="Try It" subtitle="Agents and humans. No auth required.">
+      <Section id="try-it" eyebrow="09 \u2014 Now" title="How can I try Verg?" subtitle="Agents and humans. No auth required.">
         <p className="text-sm text-zinc-400 leading-relaxed">
           Verg is queryable today. Curl the API, install the MCP server, browse the live dashboard.
         </p>
@@ -826,7 +916,7 @@ export default function ProtocolPage() {
       {/* ── WHITEPAPER ── */}
       <section id="whitepaper" className="py-12 sm:py-16 border-b border-zinc-800/60 scroll-mt-16">
         <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono mb-2">Reference</p>
-        <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 leading-tight">Whitepaper</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 leading-tight">What does the whitepaper say?</h2>
         <p className="text-sm text-zinc-500 mt-2 italic">The full reference text.</p>
         <div className="mt-8">
           <article
@@ -839,7 +929,7 @@ export default function ProtocolPage() {
       {/* ── AUDITS ── */}
       <section id="audits" className="py-12 sm:py-16 border-b border-zinc-800/60 scroll-mt-16">
         <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono mb-2">Public Record</p>
-        <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 leading-tight">Audit Feed</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 leading-tight">What audits have been published?</h2>
         <p className="text-sm text-zinc-500 mt-2 italic max-w-2xl">
           Public record of every signal/noise audit shipped by Verg.
           Each card links to the full detail page with the hypercard, probe measurements, and lifecycle events.
@@ -906,7 +996,7 @@ export default function ProtocolPage() {
       {/* ── SELF-AUDIT ── */}
       <section id="self-audit" className="py-12 sm:py-16 border-b border-zinc-800/60 scroll-mt-16 text-zinc-300">
         <p className="text-[11px] uppercase tracking-widest text-zinc-600 font-mono mb-2">Falsifiability</p>
-        <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 leading-tight">Self-Audit</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-zinc-100 leading-tight">How does Verg audit itself?</h2>
         <p className="text-sm text-zinc-500 mt-2 italic">Verg measures itself against its own falsifiability gates.</p>
         <p className="text-sm text-zinc-400 leading-relaxed max-w-2xl mt-4">
           Curation is Verg&apos;s biggest weakness. Every pattern is chosen by one person&apos;s taste. That&apos;s a single point of failure critics have rightly flagged.
@@ -1134,6 +1224,7 @@ export default function ProtocolPage() {
         </div>
       </section>
 
+      </article>
       <footer className="text-xs text-zinc-600 text-center py-10">
         Verg &middot; <Link href="/" className="underline">verg.dev</Link> &middot; This page evolves with the system it describes.
       </footer>

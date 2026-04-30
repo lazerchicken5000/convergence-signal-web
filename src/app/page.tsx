@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import {
   getConvergencePatterns, getRPGProfiles, getLatestDiff,
   getPatternSources, getPatternTokenCost, getLeaderContribution,
@@ -11,6 +12,14 @@ import { VergHeader } from '@/components/verg-header';
 import { DashboardBody } from '@/components/dashboard-body';
 import { EmailCapture } from '@/components/email-capture';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Verg — Convergence Intelligence Dashboard",
+  description: "Verg tracks convergence patterns across researchers and builders. Open methodology, prediction accuracy measured. Updated daily.",
+  alternates: {
+    canonical: "https://verg.dev",
+  },
+};
 
 export const revalidate = 14400;
 
