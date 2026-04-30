@@ -1,0 +1,40 @@
+{
+  "id": "td_9f5c6bf3",
+  "source": "arxiv",
+  "source_id": "2604.26833",
+  "source_url": "https://arxiv.org/abs/2604.26833",
+  "content_type": "paper",
+  "creator": {
+    "id": "mahya_ramezani",
+    "name": "Mahya Ramezani",
+    "handle": "Mahya Ramezani, Holger Voos",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training",
+  "body_text": "Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training\n\nThis paper presents a hierarchical decision-making framework for unmanned aerial vehicle (UAV) missions motivated by search-and-rescue (SAR) scenarios under limited simulation training. The framework combines a fixed rule-based high-level advisor with an online goal-conditioned low-level reinforcement learning (RL) controller. To stress-test early adaptation, we also consider a strict no-pretraining deployment regime. The high-level advisor is defined offline from a structured task specification and compiled into deterministic rules. It provides interpretable mission- and safety-aware guidance through recommended actions, avoided actions, and regime-dependent arbitration weights. The low-level controller learns online from task-defined dense rewards and reuses experience through a mode-aware prioritized replay mechanism augmented with rule-derived metadata. We evaluate the framework on two tasks: battery-aware multi-goal delivery and moving-target delivery in obstacle-rich environments. Across both tasks, the proposed method improves early safety and sample efficiency primarily by reducing collision terminations, while preserving the ability to adapt online to scenario-specific dynamics.\n\nAuthors: Mahya Ramezani, Holger Voos\nCategories: cs.RO, cs.AI, cs.LG, cs.RO",
+  "word_count": 148,
+  "published_at": "2026-04-29T16:01:22Z",
+  "ingested_at": "2026-04-30T11:03:34.175Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

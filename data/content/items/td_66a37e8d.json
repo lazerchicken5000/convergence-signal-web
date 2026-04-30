@@ -1,0 +1,39 @@
+{
+  "id": "td_66a37e8d",
+  "source": "arxiv",
+  "source_id": "2604.26946",
+  "source_url": "https://arxiv.org/abs/2604.26946",
+  "content_type": "paper",
+  "creator": {
+    "id": "wanrong_zheng",
+    "name": "Wanrong Zheng",
+    "handle": "Wanrong Zheng, Yunhao Ge, Laurent Itti",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation",
+  "body_text": "Three-Step Nav: A Hierarchical Global-Local Planner for Zero-Shot Vision-and-Language Navigation\n\nBreakthrough progress in vision-based navigation through unknown environments has been achieved by using multimodal large language models (MLLMs). These models can plan a sequence of motions by evaluating the current view at each time step against the task and goal given to the agent. However, current zero-shot Vision-and-Language Navigation (VLN) agents powered by MLLMs still tend to drift off course, halt prematurely, and achieve low overall success rates. We propose Three-Step Nav to counteract these failures with a three-view protocol: First, \"look forward\" to extract global landmarks and sketch a coarse plan. Then, \"look now\" to align the current visual observation with the next sub-goal for fine-grained guidance. Finally, \"look backward\" audits the entire trajectory to correct accumulated drift before stopping. Requiring no gradient updates or task-specific fine-tuning, our planner drops into existing VLN pipelines with minimal overhead. Three-Step Nav achieves state-of-the-art zero-shot performance on the R2R-CE and RxR-CE dataset. Our code is available at https://github.com/ZoeyZheng0/3-step-Nav.\n\nAuthors: Wanrong Zheng, Yunhao Ge, Laurent Itti\nCategories: cs.CV, cs.RO, cs.CV",
+  "word_count": 156,
+  "published_at": "2026-04-29T17:55:05Z",
+  "ingested_at": "2026-04-30T11:03:47.903Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.RO",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

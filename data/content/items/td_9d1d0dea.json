@@ -1,0 +1,40 @@
+{
+  "id": "td_9d1d0dea",
+  "source": "arxiv",
+  "source_id": "2604.26919",
+  "source_url": "https://arxiv.org/abs/2604.26919",
+  "content_type": "paper",
+  "creator": {
+    "id": "evangelia_kopadi",
+    "name": "Evangelia Kopadi",
+    "handle": "Evangelia Kopadi, Dimitris Kalles",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Causal Learning with Neural Assemblies",
+  "body_text": "Causal Learning with Neural Assemblies\n\nCan Neural Assemblies -- groups of neurons that fire together and strengthen through co-activation -- learn the direction of causal influence between variables? While established as a computationally general substrate for classification, parsing, and planning, neural assemblies have not yet been shown to internalize causal directionality. We demonstrate that the inherent operations of neural assemblies -- projection, local plasticity control, and sparse winner selection -- are sufficient for directional learning. We introduce DIRECT (DIRectional Edge Coupling/Training), a mechanism that co-activates source and target assemblies under an adaptive gain schedule to internalize directed relations. Unlike backpropagation-based methods, DIRECT relies solely on local plasticity, making the resulting causal claims auditable at the mechanism level. Our findings are verified through a dual-readout validation strategy: (i) synaptic-strength asymmetry, measuring the emergent weight gap between forward and reverse links, and (ii) functional propagation overlap, quantifying the reliability of directional signal flow. Across multiple domains, the framework achieves perfect structural recovery under a supervised, known-structure setting. These results establish neural assemblies as an auditable bridge between biologically plausible dynamics and formal causal models, offering an \"explainable by design\" framework where causal claims are traceable to specific neural winners and synaptic asymmetries.\n\nAuthors: Evangelia Kopadi, Dimitris Kalles\nCategories: cs.LG, cs.AI, cs.NE, cs.LG",
+  "word_count": 195,
+  "published_at": "2026-04-29T17:34:33Z",
+  "ingested_at": "2026-04-30T11:03:34.175Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.NE",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

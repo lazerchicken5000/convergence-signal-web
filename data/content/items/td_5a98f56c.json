@@ -1,0 +1,38 @@
+{
+  "id": "td_5a98f56c",
+  "source": "arxiv",
+  "source_id": "2604.26933",
+  "source_url": "https://arxiv.org/abs/2604.26933",
+  "content_type": "paper",
+  "creator": {
+    "id": "albert_alcalde",
+    "name": "Albert Alcalde",
+    "handle": "Albert Alcalde, Giovanni Fantuzzi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Data-driven discovery of polynomial ODEs with provably bounded solutions",
+  "body_text": "Data-driven discovery of polynomial ODEs with provably bounded solutions\n\nWe introduce SILAS, a data-driven framework for discovering polynomial ordinary differential equations (ODEs) with provably bounded trajectories. Boundedness is certified by compact absorbing sets defined via polynomial Lyapunov functions. We jointly identify the ODE vector field and the Lyapunov function using a well-posed nonconvex optimization problem built using polynomial optimization tools. We solve this problem using an alternating block-coordinate optimization scheme with convex subproblems, whose feasibility is ensured by a novel model-agnostic initialization that identifies a candidate Lyapunov function from data. Our methods extend prior approaches for quadratic ODEs with absorbing ellipsoids to a significantly broader class of ODEs and absorbing sets. A suite of over 100 examples demonstrates that SILAS can recover accurate and provably bounded ODE models for a broad range of nonlinear dynamical systems.\n\nAuthors: Albert Alcalde, Giovanni Fantuzzi\nCategories: math.DS, math.DS",
+  "word_count": 127,
+  "published_at": "2026-04-29T17:47:19Z",
+  "ingested_at": "2026-04-30T11:03:57.351Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.DS",
+    "math.DS"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

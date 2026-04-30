@@ -1,0 +1,42 @@
+{
+  "id": "td_b5dc8ad4",
+  "source": "arxiv",
+  "source_id": "2604.26942",
+  "source_url": "https://arxiv.org/abs/2604.26942",
+  "content_type": "paper",
+  "creator": {
+    "id": "shayan_hundrieser",
+    "name": "Shayan Hundrieser",
+    "handle": "Shayan Hundrieser, Insung Kong, Johannes Schmidt-Hieber",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport",
+  "body_text": "Hyper Input Convex Neural Networks for Shape Constrained Learning and Optimal Transport\n\nWe introduce Hyper Input Convex Neural Networks (HyCNNs), a novel neural network architecture designed for learning convex functions. HyCNNs combine the principles of Maxout networks with input convex neural networks (ICNNs) to create a neural network that is always convex in the input, theoretically capable of leveraging depth, and performs reliable when trained at scale compared to ICNNs. Concretely, we prove that HyCNNs require exponentially fewer parameters than ICNNs to approximate quadratic functions up to a given precision. Throughout a series of synthetic experiments, we demonstrate that HyCNNs outperform existing ICNNs and MLPs in terms of predictive performance for convex regression and interpolation tasks. We further apply HyCNNs to learn high-dimensional optimal transport maps for synthetic examples and for single-cell RNA sequencing data, where they oftentimes outperform ICNN-based neural optimal transport methods and other baselines across a wide range of settings.\n\nAuthors: Shayan Hundrieser, Insung Kong, Johannes Schmidt-Hieber\nCategories: cs.LG, math.ST, q-bio.GN, stat.ME, stat.ML, cs.LG",
+  "word_count": 141,
+  "published_at": "2026-04-29T17:52:05Z",
+  "ingested_at": "2026-04-30T11:03:43.251Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.ST",
+    "q-bio.GN",
+    "stat.ME",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

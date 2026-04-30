@@ -1,0 +1,41 @@
+{
+  "id": "td_1d88b2bf",
+  "source": "arxiv",
+  "source_id": "2604.26922",
+  "source_url": "https://arxiv.org/abs/2604.26922",
+  "content_type": "paper",
+  "creator": {
+    "id": "steve_hanneke",
+    "name": "Steve Hanneke",
+    "handle": "Steve Hanneke, Alkis Kalavasis, Shay Moran, Grigoris Velegkas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the Learning Curves of Revenue Maximization",
+  "body_text": "On the Learning Curves of Revenue Maximization\n\nLearning curves are a fundamental primitive in supervised learning, describing how an algorithm's performance improves with more data and providing a quantitative measure of its generalization ability. Formally, a learning curve plots the decay of an algorithm's error for a fixed underlying distribution as a function of the number of training samples. Prior work on revenue-maximizing learning algorithms, starting with the seminal work of Cole and Roughgarden [STOC, 2014], adopts a distribution-free perspective, which parallels the PAC learning framework in learning theory. This approach evaluates performance against the hardest possible sequence of valuation distributions, one for each sample size, effectively defining the upper envelope of learning curves over all possible distributions, thus leading to error bounds that do not capture the shape of the learning curves. In this work we initiate the study of learning curves for revenue maximization and provide a near-complete characterization of their rate of decay in the basic setting of a single item and a single buyer. In the absence of any restriction on the valuation distribution, we show that there exists a Bayes-consistent algorithm, meaning that its learning curve converges to zero for any arbitrary valuation distribution as the number of samples $n \\to \\infty$. However, this convergence must be arbitrarily slow, even if the optimal revenue is finite. In contrast, if the optimal revenue is achieved by a finite price, then the optimal rate of decay is roughly $1/\\sqrt{n}$. Finally, for distributions supported on discrete sets of values, we show that learning curves decay almost exponentially fast, a rate unattainable under the PAC framework.\n\nAuthors: Steve Hanneke, Alkis Kalavasis, Shay Moran, Grigoris Velegkas\nCategories: cs.LG, cs.DS, cs.GT, stat.ML, cs.LG",
+  "word_count": 260,
+  "published_at": "2026-04-29T17:38:25Z",
+  "ingested_at": "2026-04-30T11:03:43.251Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.DS",
+    "cs.GT",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

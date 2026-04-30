@@ -1,0 +1,39 @@
+{
+  "id": "td_37bd8dec",
+  "source": "arxiv",
+  "source_id": "2604.26830",
+  "source_url": "https://arxiv.org/abs/2604.26830",
+  "content_type": "paper",
+  "creator": {
+    "id": "javier_gil_blázquez",
+    "name": "Javier Gil Blázquez",
+    "handle": "Javier Gil Blázquez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Random Cloud: Finding Minimal Neural Architectures Without Training",
+  "body_text": "Random Cloud: Finding Minimal Neural Architectures Without Training\n\nI propose the \\emph{Random Cloud} method, a training-free approach to neural architecture search that discovers minimal feedforward network topologies through stochastic exploration and progressive structural reduction. Unlike post-training pruning methods that require a full train-prune-retrain cycle, this method evaluates randomly initialized networks without backpropagation, progressively reduces their topology, and only trains the best minimal candidate at the end. I evaluate on 7 classification benchmarks against magnitude pruning and random pruning baselines. The Random Cloud matches or outperforms both baselines in 6 of 7 datasets, achieving statistically significant improvements on Sonar ($+4.9$pp accuracy, $p{=}0.017$ vs magnitude pruning) with 87\\% parameter reduction. Crucially, the method is faster than both pruning baselines in 4 of 5 datasets (0.67--0.94$\\times$ the cost of full training), since it avoids training the full-size network entirely.\n\nAuthors: Javier Gil Blázquez\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 128,
+  "published_at": "2026-04-29T15:57:01Z",
+  "ingested_at": "2026-04-30T11:03:34.175Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
