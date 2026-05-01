@@ -116,6 +116,15 @@ export default function DashboardPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdDataset) }}
       />
+
+      {/* ── Visually-hidden semantic header for crawlers + screen readers ── */}
+      <header>
+        <h1 className="sr-only">Verg — Convergence Intelligence Dashboard</h1>
+        <p className="sr-only">
+          Verg detects convergence: when independent researchers and builders, in different communities, arrive at the same conclusion without coordinating. Updated daily, open methodology, prediction accuracy measured (currently 80%).
+        </p>
+      </header>
+
       {/* ── TOP BAR: email left, nav right ── */}
       <div className="flex items-center justify-between mb-4 gap-4 flex-wrap">
         <EmailCapture />
@@ -130,7 +139,8 @@ export default function DashboardPage() {
       <VergHeader days={calendar} stats={aggStats} />
 
       {/* ── Tagline + stats row ── */}
-      <div className="flex items-center justify-between mb-6 -mt-1">
+      <section aria-labelledby="verg-stats-heading" className="flex items-center justify-between mb-6 -mt-1">
+        <h2 id="verg-stats-heading" className="sr-only">Pipeline statistics</h2>
         <p className="text-sm text-zinc-300">
           Sourcing signal. Removing noise. For builders.
         </p>
@@ -151,9 +161,11 @@ export default function DashboardPage() {
             {aggStats.activeDays} active
           </span>
         </div>
-      </div>
+      </section>
 
       {/* ── MASTER-DETAIL BODY ── */}
+      <section aria-labelledby="verg-dashboard-heading">
+        <h2 id="verg-dashboard-heading" className="sr-only">Convergence patterns and contributor leaderboard</h2>
       <DashboardBody
         patternData={patternData}
         leaderData={leaderData}
@@ -167,6 +179,7 @@ export default function DashboardPage() {
         lineageLabelMap={lineageLabelMap}
         slurryMap={slurryMap}
       />
+      </section>
 
 
       <footer className="text-[10px] text-zinc-700 text-center py-6 mt-4 border-t border-zinc-800">
