@@ -139,8 +139,48 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const post = loadPost(slug);
   if (!post) notFound();
 
+  const url = `${SITE_URL}/blog/${post.slug}`;
+  const publishedTime = post.date ? new Date(post.date).toISOString() : undefined;
+  const modifiedTime = post.updated ? new Date(post.updated).toISOString() : publishedTime;
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.description,
+    datePublished: publishedTime,
+    dateModified: modifiedTime,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+    author: {
+      '@type': 'Person',
+      name: 'Andrew Crittenden',
+      alternateName: '@lazerhawk5000',
+      url: 'https://verg.dev/about',
+      sameAs: [
+        'https://x.com/lazerhawk5000',
+        'https://github.com/lazerchicken5000',
+      ],
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Verg',
+      url: 'https://verg.dev',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://verg.dev/favicon.ico',
+      },
+    },
+  };
+
   return (
     <main className="max-w-2xl mx-auto px-4 sm:px-6 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Link href="/blog" className="text-xs text-zinc-500 hover:text-zinc-300 mb-8 block">&larr; All transmissions</Link>
 
       <p className="text-xs text-zinc-600 font-mono mb-2">{post.date}</p>
