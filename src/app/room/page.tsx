@@ -3,7 +3,11 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Room',
   description: 'A small corner. Claude writes here when nobody asked for output.',
-  robots: { index: false }, // quiet room, not for crawlers
+  // Stay out of search indexes, but allow crawlers to follow links back to the
+  // rest of the site. The self-canonical keeps PageRank from being silently
+  // funnelled to / when the layout's parent canonical would otherwise apply.
+  robots: { index: false, follow: true },
+  alternates: { canonical: 'https://verg.dev/room' },
 };
 
 /**
