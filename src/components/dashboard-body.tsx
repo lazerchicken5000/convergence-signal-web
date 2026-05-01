@@ -79,11 +79,47 @@ export function DashboardBody({ patternData, leaderData, diff, totalPatterns, to
   function handleTab(t: Tab) {
     setTab(t);
     setSelectedId(null);
+    // Tab switches are the closest thing this dashboard has to a filter
+    // change — they swap the entire dimensional view (signal/leaders/emerging).
+    // Fire and forget; never block the UI on telemetry.
+    void (async () => {
+      try {
+        const ph = (await import('posthog-js')).default;
+        ph.capture('dimensional_filter_applied', {
+          surface: 'dashboard_tabs',
+          filter_type: 'tab',
+          value: t,
+        });
+      } catch { /* posthog not loaded */ }
+    })();
   }
 
   function handleSelect(id: string) {
-    setSelectedId(prev => prev === id ? null : id);
+    const next = selectedId === id ? null : id;
+    setSelectedId(next);
     setShowSynthesis(false);
+
+    // Only fire pattern_viewed when actually opening (not collapsing) and
+    // only on the signal tab — leaders/emerging selections are a different
+    // entity surface that gets their own taxonomy if/when needed.
+    if (next && tab === 'signal') {
+      const entry = patternData.find(p => p.pattern.id === next);
+      if (entry) {
+        void (async () => {
+          try {
+            const ph = (await import('posthog-js')).default;
+            ph.capture('pattern_viewed', {
+              pattern_id: entry.pattern.id,
+              n_signals: entry.pattern.creator_ids.length,
+              ci_score: entry.pattern.ci_score,
+              convergence_type: entry.pattern.convergence_type,
+              slurry_class: entry.pattern.slurry_class ?? null,
+              surface: 'dashboard',
+            });
+          } catch { /* posthog not loaded */ }
+        })();
+      }
+    }
   }
 
   // On the signal tab, default to the top pattern (index 0) when nothing
