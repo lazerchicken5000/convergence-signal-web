@@ -5,6 +5,7 @@ import { Separator } from '@/components/ui/separator';
 import { SourceLinks } from '@/components/source-links';
 import { SignalBadges, TokenCostDetail } from '@/components/signal-badges';
 import { PatternFeedback } from '@/components/source-audit';
+import { PatternViewedBeacon } from '@/components/analytics-beacons';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -35,6 +36,12 @@ export default async function PatternPage({ params }: { params: Promise<{ id: st
 
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+      <PatternViewedBeacon
+        patternId={pattern.id}
+        nSignals={pattern.creator_ids.length}
+        ciScore={pattern.ci_score}
+        convergenceType={pattern.convergence_type}
+      />
       <Link href="/" className="text-xs text-muted-foreground hover:text-foreground mb-6 block">&larr; Back</Link>
 
       <div className="mb-6">

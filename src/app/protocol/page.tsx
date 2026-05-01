@@ -26,6 +26,29 @@ import {
   getAudits,
 } from '@/lib/data';
 import { loadOutcomeLedger, computeDrift, summarize } from '@/lib/outcome-ledger';
+import { ProtocolSectionViewedBeacon } from '@/components/analytics-beacons';
+
+/**
+ * Map of protocol section dom-id → human-readable label. Drives the
+ * IntersectionObserver beacon — every section fires `protocol_section_viewed`
+ * exactly once when it scrolls into view. Lets us see drop-off through
+ * the long-form explanation without inferring from time-on-page.
+ */
+const PROTOCOL_SECTION_MAP: Record<string, string> = {
+  hero: 'Hero',
+  problem: '01 — Why',
+  thesis: '02 — Thesis',
+  pipeline: '03 — How',
+  'token-bake': '04 — Measurement',
+  independence: '05 — Differentiator',
+  leaders: '06 — Recognition',
+  frontier: '07 — Preservation',
+  methodology: '08 — Honesty',
+  'try-it': '09 — Now',
+  whitepaper: 'Whitepaper',
+  audits: 'Audits',
+  'self-audit': 'Self-Audit',
+};
 
 export const metadata: Metadata = {
   title: "Protocol — Verg",
@@ -659,6 +682,7 @@ export default function ProtocolPage() {
 
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10 relative">
+      <ProtocolSectionViewedBeacon sections={PROTOCOL_SECTION_MAP} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFAQ) }}

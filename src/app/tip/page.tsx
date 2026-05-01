@@ -12,6 +12,18 @@ export default function TipPage() {
     if (isNaN(num) || num < 1 || num > 999) return;
 
     setLoading(true);
+
+    // PostHog: capture intent before redirecting to Stripe. The Stripe
+    // success page won't necessarily fire its own pageview if the user
+    // bails — this is the only signal we get for funnel analysis.
+    try {
+      const ph = (await import('posthog-js')).default;
+      ph.capture('tip_initiated', {
+        amount: Math.round(num),
+        source_page: typeof window !== 'undefined' ? window.location.pathname : null,
+      });
+    } catch { /* posthog not loaded */ }
+
     try {
       const res = await fetch('/api/tip', {
         method: 'POST',
