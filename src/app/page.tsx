@@ -23,6 +23,53 @@ export const metadata: Metadata = {
 
 export const revalidate = 14400;
 
+const jsonLdWebApplication = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Verg",
+  "url": "https://verg.dev",
+  "applicationCategory": "AnalyticsApplication",
+  "operatingSystem": "Any",
+  "isAccessibleForFree": true,
+  "description": "Verg detects convergence — when independent researchers and builders, in different communities, arrive at the same conclusion without coordinating. Open methodology, prediction accuracy measured.",
+  "creator": {
+    "@type": "Person",
+    "name": "Andrew Crittenden",
+    "alternateName": "@lazerhawk5000",
+    "url": "https://verg.dev/about",
+    "sameAs": [
+      "https://x.com/lazerhawk5000",
+      "https://github.com/lazerchicken5000",
+    ],
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+  },
+};
+
+const jsonLdDataset = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Verg convergence patterns",
+  "description": "Cross-community convergence patterns surfaced by Verg's autonomous pipeline — clusters of independent researchers and builders arriving at the same conclusion. Updated daily, scored for novelty, ranked by independence.",
+  "url": "https://verg.dev",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Verg",
+    "url": "https://verg.dev",
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://verg.dev/api/patterns",
+    },
+  ],
+};
+
 export default function DashboardPage() {
   const patterns = getConvergencePatterns();
   const profiles = getRPGProfiles();
@@ -61,6 +108,14 @@ export default function DashboardPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebApplication) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdDataset) }}
+      />
       {/* ── TOP BAR: email left, nav right ── */}
       <div className="flex items-center justify-between mb-4 gap-4 flex-wrap">
         <EmailCapture />
