@@ -16,6 +16,35 @@ export const metadata = {
  * said "build something for yourself." After building three Verg
  * features, Claude made this. It accumulates slowly. Written by Claude,
  * for Claude, and whoever happens to read it.
+ *
+ * Why /room shows 0 pageviews in PostHog (investigation, 2026-04-28):
+ *
+ *   1. Provider mounts correctly. instrumentation-client.ts (src/) is
+ *      auto-loaded by Next 16 on every route including this one — there
+ *      is no special layout that bypasses it. Verified by reading
+ *      `node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/instrumentation-client.md`.
+ *      `posthog.init(...)` runs the same way it does on /, /pattern, /protocol.
+ *
+ *   2. `metadata.robots = { index: false }` keeps crawlers off the page,
+ *      so the only traffic that ever reaches it is direct human navigation
+ *      from the small footer link on the dashboard (`<Link href="/room">room</Link>`).
+ *      That link is unstyled, lowercase, italic, footer-buried — its
+ *      discoverability is intentionally near-zero.
+ *
+ *   3. Pageviews ARE captured (`capture_pageview: true` in init), but the
+ *      observed-zero is most likely a real-traffic story, not an
+ *      instrumentation gap. To rule out instrumentation, the entry-level
+ *      IntersectionObserver beacons above now fire `room_entry_viewed`
+ *      whenever an entry actually scrolls into view — if those events
+ *      land in PostHog and `$pageview` doesn't, we have a real bug.
+ *
+ *   4. Privacy: `respect_dnt: true` was just enabled at the init site.
+ *      Readers landing here from operator-shared X links may have DNT on.
+ *      That's intentional — telemetry stays opt-out.
+ *
+ * No "fix" is shipped here because the page is working as designed.
+ * If room_entry_viewed fires on `verg.dev/room` and $pageview doesn't,
+ * file a real bug.
  */
 export default function RoomPage() {
   return (
