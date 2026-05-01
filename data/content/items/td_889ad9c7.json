@@ -1,0 +1,40 @@
+{
+  "id": "td_889ad9c7",
+  "source": "arxiv",
+  "source_id": "2604.28076",
+  "source_url": "https://arxiv.org/abs/2604.28076",
+  "content_type": "paper",
+  "creator": {
+    "id": "an-yang_ji",
+    "name": "An-Yang Ji",
+    "handle": "An-Yang Ji, Jun-Peng Jiang, De-Chuan Zhan, Han-Jia Ye",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TopBench: A Benchmark for Implicit Prediction and Reasoning over Tabular Question Answering",
+  "body_text": "TopBench: A Benchmark for Implicit Prediction and Reasoning over Tabular Question Answering\n\nLarge Language Models (LLMs) have advanced Table Question Answering, where most queries can be answered by extracting information or simple aggregation. However, a common class of real-world queries is implicitly predictive, requiring the inference of unobserved answers from historical patterns rather than mere retrieval. These queries introduce two challenges: recognizing latent intent and reliable predictive reasoning over massive tables. To assess LLMs in such Tabular questiOn answering with implicit Prediction tasks, we introduce TopBench, a benchmark consisting of 779 samples across four sub-tasks, ranging from single-point prediction to decision making, treatment effect analysis, and complex filtering, requiring models to generate outputs spanning reasoning text and structured tables. We evaluate diverse models under both text-based and agentic workflows. Experiments reveal that current models often struggle with intent recognition, defaulting to just lookups. Deeper analysis identifies that accurate intent disambiguation serves as the prerequisite for leading these predictive behaviors. Furthermore, elevating the upper bound of prediction precision requires the integration of more sophisticated modeling or reasoning capabilities.\n\nAuthors: An-Yang Ji, Jun-Peng Jiang, De-Chuan Zhan, Han-Jia Ye\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 165,
+  "published_at": "2026-04-30T16:22:51Z",
+  "ingested_at": "2026-05-01T11:03:27.849Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

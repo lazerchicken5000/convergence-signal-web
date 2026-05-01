@@ -1,0 +1,39 @@
+{
+  "id": "td_5309a509",
+  "source": "arxiv",
+  "source_id": "2604.28176",
+  "source_url": "https://arxiv.org/abs/2604.28176",
+  "content_type": "paper",
+  "creator": {
+    "id": "emma_andrews",
+    "name": "Emma Andrews",
+    "handle": "Emma Andrews, Sahan Sanjaya, Prabhat Mishra",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Defending Quantum Classifiers against Adversarial Perturbations through Quantum Autoencoders",
+  "body_text": "Defending Quantum Classifiers against Adversarial Perturbations through Quantum Autoencoders\n\nMachine learning models can learn from data samples to carry out various tasks efficiently. When data samples are adversarially manipulated, such as by insertion of carefully crafted noise, it can cause the model to make mistakes. Quantum machine learning models are also vulnerable to such adversarial attacks, especially in image classification using variational quantum classifiers. While there are promising defenses against these adversarial perturbations, such as training with adversarial samples, they face practical limitations. For example, they are not applicable in scenarios where training with adversarial samples is either not possible or can overfit the models on one type of attack. In this paper, we propose an adversarial training-free defense framework that utilizes a quantum autoencoder to purify the adversarial samples through reconstruction. Moreover, our defense framework provides a confidence metric to identify potentially adversarial samples that cannot be purified the quantum autoencoder. Extensive evaluation demonstrates that our defense framework can significantly outperform state-of-the-art in prediction accuracy (up to 68%) under adversarial attacks.\n\nAuthors: Emma Andrews, Sahan Sanjaya, Prabhat Mishra\nCategories: quant-ph, cs.LG, quant-ph",
+  "word_count": 163,
+  "published_at": "2026-04-30T17:56:40Z",
+  "ingested_at": "2026-05-01T11:03:32.302Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.LG",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

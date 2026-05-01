@@ -1,0 +1,39 @@
+{
+  "id": "td_fea96412",
+  "source": "arxiv",
+  "source_id": "2604.28167",
+  "source_url": "https://arxiv.org/abs/2604.28167",
+  "content_type": "paper",
+  "creator": {
+    "id": "grace_t._bai",
+    "name": "Grace T. Bai",
+    "handle": "Grace T. Bai, Brandon B. Le",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Mapping the Phase Diagram of the Vicsek Model with Machine Learning",
+  "body_text": "Mapping the Phase Diagram of the Vicsek Model with Machine Learning\n\nIn this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional parameter space $(η,ρ,v_0)$. We construct a dataset of simulated parameter points and characterize each point using long-time dynamical observables. These observables are then used as inputs to a K-Means clustering procedure, which assigns each point to a disorder, order, or coexistence phase. Using these clustered labels, we train a neural-network classifier to learn the mapping from model parameters to phase behavior, achieving a classification accuracy of 0.92. The resulting phase map resolves a narrow coexistence region separating the ordered and disordered phases and extends the inferred phase boundaries beyond the originally sampled simulation points. More broadly, this approach provides a systematic way to convert sparse simulation data into a global phase diagram for collective-motion models.\n\nAuthors: Grace T. Bai, Brandon B. Le\nCategories: cond-mat.soft, cs.LG, cond-mat.soft",
+  "word_count": 137,
+  "published_at": "2026-04-30T17:52:23Z",
+  "ingested_at": "2026-05-01T11:03:32.302Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.soft",
+    "cs.LG",
+    "cond-mat.soft"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

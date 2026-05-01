@@ -1,0 +1,39 @@
+{
+  "id": "td_e9de99e0",
+  "source": "arxiv",
+  "source_id": "2604.28152",
+  "source_url": "https://arxiv.org/abs/2604.28152",
+  "content_type": "paper",
+  "creator": {
+    "id": "diederik_beckers",
+    "name": "Diederik Beckers",
+    "handle": "Diederik Beckers, H. Jane Bae, Andres Goza",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond first-order accuracy in continuous-forcing immersed boundary methods, and their well-conditioned projection-based solution",
+  "body_text": "Beyond first-order accuracy in continuous-forcing immersed boundary methods, and their well-conditioned projection-based solution\n\nWe introduce a refined immersed boundary (IB) methodology that is better-than-first-order accurate in practice, while preserving key properties of \"continuous-forcing\" IB approaches that retain a singular source term in the governing equations. Our method leverages a smoothed indicator (Heaviside) function, following ideas from multiphase flow and immersed layers formulations, to recast the IB solution as a composite of distinct interior and exterior fields. We demonstrate that, when cast through this composite-solution lens, prior continuous-forcing IB methods can be seen as neglecting terms in the governing and constraint equations that restrict the solution to first-order accuracy. We incorporate these terms to systematically improve accuracy without the need for heuristic corrections. In canonical Poisson problems, we empirically demonstrate second-order convergence, and in incompressible Navier-Stokes simulations the method achieves slightly sub-second-order performance. While our present study focuses on these cases, the framework suggests a path towards second-order accuracy or higher, with further extensions. This perspective reframes accuracy limitations typically attributed to IB schemes. Although continuous-forcing IB methods are often reported to be only first-order accurate, we show that neither smoothing nor interface interpolation inherently restricts attainable order. Moreover, we naturally incorporate this higher-order formulation into a projection-based solution process. The resulting algorithm simultaneously mitigates the spurious surface stresses produced by ill-conditioned linear systems and reduces sensitivity to geometric resolution, addressing both conditioning and accuracy concerns within a unified approach.\n\nAuthors: Diederik Beckers, H. Jane Bae, Andres Goza\nCategories: math.NA, physics.flu-dyn, math.NA",
+  "word_count": 226,
+  "published_at": "2026-04-30T17:39:04Z",
+  "ingested_at": "2026-05-01T11:03:46.811Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "physics.flu-dyn",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_f560d55a",
+  "source": "arxiv",
+  "source_id": "2604.28193",
+  "source_url": "https://arxiv.org/abs/2604.28193",
+  "content_type": "paper",
+  "creator": {
+    "id": "vinayak_gupta",
+    "name": "Vinayak Gupta",
+    "handle": "Vinayak Gupta, Chih-Hao Lin, Shenlong Wang, Anand Bhattad, Jia-Bin Huang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images",
+  "body_text": "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images\n\nReconstructing 3D scenes from sparse, unposed images remains challenging under real-world conditions with varying illumination and transient occlusions. Existing methods rely on scene-specific optimization using appearance embeddings or dynamic masks, which requires extensive per-scene training and fails under sparse views. Moreover, evaluations on limited scenes raise questions about generalization. We present GenWildSplat, a feed-forward framework for sparse-view outdoor reconstruction that requires no per-scene optimization. Given unposed internet images, GenWildSplat predicts depth, camera parameters, and 3D Gaussians in a canonical space using learned geometric priors. An appearance adapter modulates appearance for target lighting conditions, while semantic segmentation handles transient objects. Through curriculum learning on synthetic and real data, GenWildSplat generalizes across diverse illumination and occlusion patterns. Evaluations on PhotoTourism and MegaScenes benchmark demonstrate state-of-the-art feed-forward rendering quality, achieving real-time inference without test-time optimization\n\nAuthors: Vinayak Gupta, Chih-Hao Lin, Shenlong Wang, Anand Bhattad, Jia-Bin Huang\nCategories: cs.CV, cs.CV",
+  "word_count": 132,
+  "published_at": "2026-04-30T17:59:55Z",
+  "ingested_at": "2026-05-01T11:03:41.893Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
