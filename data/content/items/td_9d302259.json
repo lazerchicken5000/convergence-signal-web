@@ -1,0 +1,35 @@
+{
+  "id": "td_9d302259",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "iNaturalist Sightings",
+  "body_text": "Tool: iNaturalist Sightings\n        I wanted to see my iNaturalist observations - across two separate accounts - grouped by when they occurred. I'm camping this weekend so I built this entirely on my phone using Claude Code for web.\nI started by building an inaturalist-clumper Python CLI for fetching and \"clumping\" observations - by default clumps use observations within 2 hours and 5km of each other.\nThen I setup simonw/inaturalist-clumps as a Git scraping repository to run that tool and record the result to clumps.json.\nThat JSON file is hosted on GitHub, which means it can be fetched by JavaScript using CORS.\nFinally I ran this prompt against my simonw/tools repo:\n\nBuild inat-sightings.html - an app that does a fetch() against https://raw.githubusercontent.com/simonw/inaturalist-clumps/refs/heads/main/clumps.json and then displays all of the observations on one page using the https://static.inaturalist.org/photos/538073008/small.jpg small.jpg URLs for the thumbnails - with loading=lazy - but when a thumbnail is clicked showing the large.jpg in an HTML modal. Both small and large should include the common species names if available\n\n    \n    \n        Tags: tools, claude-code, inaturalist, generative-ai, ai, llms",
+  "word_count": 175,
+  "published_at": "2026-05-01T19:35:41.000Z",
+  "ingested_at": "2026-05-02T11:00:09.732Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
