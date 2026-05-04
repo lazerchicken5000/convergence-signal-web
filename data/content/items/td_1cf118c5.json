@@ -1,0 +1,39 @@
+{
+  "id": "td_1cf118c5",
+  "source": "arxiv",
+  "source_id": "2605.00782",
+  "source_url": "https://arxiv.org/abs/2605.00782",
+  "content_type": "paper",
+  "creator": {
+    "id": "yinhao_xiao",
+    "name": "Yinhao Xiao",
+    "handle": "Yinhao Xiao, Rongbo Xiao, Yihan Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair",
+  "body_text": "GeoContra: From Fluent GIS Code to Verifiable Spatial Analysis with Geography-Grounded Repair\n\nReliable spatial analysis in GIScience requires preserving coordinate semantics, topology, units, and geographic plausibility. Current LLM-based GIS systems generate fluent scripts but rarely enforce these geographic rules at scale. We present GeoContra, a verification and repair framework for LLM-driven Python GIS workflows. It represents each task as an executable geospatial contract-including natural-language questions, schemas, CRS metadata, expected outputs, spatial predicates, topology, metrics, required operations, and forbidden shortcuts. Generated programs undergo static rule inspection, runtime validation, and semantic verification, with violations fed back into a bounded repair loop. Evaluated on 7,079 real geospatial tasks across 15 Boston-area zones, 9 task families, and 11 open-source models (600 runs each), GeoContra improves spatial correctness on closed models from 47.6% to 77.5% for DeepSeek-V4 and from 57.7% to 81.5% for Kimi-K2.5. Across 11 open models, average correctness rises by 26.6%. GeoContra turns fluent code production into verifiable spatial analysis, catching negative travel times, CRS/field-schema violations, missing predicates, and brittle output casts that otherwise yield executable but geographically invalid results.\n\nAuthors: Yinhao Xiao, Rongbo Xiao, Yihan Zhang\nCategories: cs.SE, cs.AI, cs.SE",
+  "word_count": 165,
+  "published_at": "2026-05-01T16:58:24Z",
+  "ingested_at": "2026-05-04T11:03:35.060Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.AI",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

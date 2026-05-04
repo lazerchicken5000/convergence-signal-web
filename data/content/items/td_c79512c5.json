@@ -1,0 +1,38 @@
+{
+  "id": "td_c79512c5",
+  "source": "arxiv",
+  "source_id": "2605.00768",
+  "source_url": "https://arxiv.org/abs/2605.00768",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiaoda_li",
+    "name": "Jiaoda Li",
+    "handle": "Jiaoda Li, Ryan Cotterell",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Characterizing the Expressivity of Local Attention in Transformers",
+  "body_text": "Characterizing the Expressivity of Local Attention in Transformers\n\nThe transformer is the most popular neural architecture for language modeling. The cornerstone of the transformer is its global attention mechanism, which lets the model aggregate information from all preceding tokens before generating the next token. One common variant of attention is called local attention, which restricts each token to aggregating information from a bounded window of predecessors, reducing the quadratic cost of global attention to linear. Although this restriction is usually motivated by efficiency, it has also been found to improve model quality, a phenomenon that has so far lacked a satisfactory explanation. We provide a formal account of this phenomenon in terms of recognizer expressivity. It has been shown that fixed-precision transformers with global attention correspond to a fragment of linear temporal logic containing a single past operator. We additionally prove that adding local attention introduces a second temporal operator, strictly enlarging the class of recognizable regular languages. Moreover, global and local attention are expressively complementary: neither subsumes the other, and combining them yields the richest fragment. Experiments on formal language recognition and natural language modeling corroborate the theory, showing that hybrid global--local transformers outperform their global-only counterparts.\n\nAuthors: Jiaoda Li, Ryan Cotterell\nCategories: cs.CL, cs.CL",
+  "word_count": 190,
+  "published_at": "2026-05-01T16:30:52Z",
+  "ingested_at": "2026-05-04T11:03:39.530Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

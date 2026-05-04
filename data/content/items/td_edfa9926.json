@@ -1,0 +1,40 @@
+{
+  "id": "td_edfa9926",
+  "source": "arxiv",
+  "source_id": "2605.00789",
+  "source_url": "https://arxiv.org/abs/2605.00789",
+  "content_type": "paper",
+  "creator": {
+    "id": "xihao_chen",
+    "name": "Xihao Chen",
+    "handle": "Xihao Chen, Yangyang Guo, Roger Zimmermann",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Make Your LVLM KV Cache More Lightweight",
+  "body_text": "Make Your LVLM KV Cache More Lightweight\n\nKey-Value (KV) cache has become a de facto component of modern Large Vision-Language Models (LVLMs) for inference. While it enhances decoding efficiency in Large Language Models (LLMs), its direct adoption in LVLMs introduces substantial GPU memory overhead due to the large number of vision tokens processed during the prefill stage. To tackle this problem, we propose LightKV, a novel approach that reduces KV cache size by exploiting the redundancy among vision-token embeddings. Guided by text prompts, LightKV employs cross-modality message passing to aggregate informative messages across vision tokens and progressively compress them during prefill. This prompt-aware guidance distinguishes our method from prior vision-only compression strategies. We evaluate LightKV on eight open-source LVLMs across eight public benchmark datasets, e.g., MME and SeedBench. Experimental results demonstrate that with only 55% of the original vision tokens, LightKV (a) halves the vision-token KV cache size, (b) reduces computation by up to 40%, and (c) preserves general-purpose performance while significantly outperforming existing baselines.\n\nAuthors: Xihao Chen, Yangyang Guo, Roger Zimmermann\nCategories: cs.CV, cs.AI, cs.LG, cs.CV",
+  "word_count": 158,
+  "published_at": "2026-05-01T17:11:39Z",
+  "ingested_at": "2026-05-04T11:03:35.059Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

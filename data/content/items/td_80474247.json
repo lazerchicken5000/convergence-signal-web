@@ -1,0 +1,40 @@
+{
+  "id": "td_80474247",
+  "source": "arxiv",
+  "source_id": "2605.00798",
+  "source_url": "https://arxiv.org/abs/2605.00798",
+  "content_type": "paper",
+  "creator": {
+    "id": "arunabh_srivastava",
+    "name": "Arunabh Srivastava",
+    "handle": "Arunabh Srivastava, Mohammad A., Khojastepour, Srimat Chakradhar, Sennur Ulukus",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RunAgent: Interpreting Natural-Language Plans with Constraint-Guided Execution",
+  "body_text": "RunAgent: Interpreting Natural-Language Plans with Constraint-Guided Execution\n\nHumans solve problems by executing targeted plans, yet large language models (LLMs) remain unreliable for structured workflow execution. We propose RunAgent, a multi-agent plan execution platform that interprets natural-language plans while enforcing stepwise execution through constraints and rubrics. RunAgent bridges the expressiveness of natural language with the determinism of programming via an agentic language with explicit control constructs (e.g., \\texttt{IF}, \\texttt{GOTO}, \\texttt{FORALL}). Beyond verifying syntactic and semantic verification of the step output, which is performed based on the specific instruction of each step, RunAgent autonomously derives and validates constraints based on the description of the task and its instance at each step. RunAgent also dynamically selects among LLM-based reasoning, tool usage, and code generation and execution (e.g., in Python), and incorporates error correction mechanisms to ensure correctness. Finally, RunAgent filters the context history by retaining only relevant information during the execution of each step. Evaluations on Natural-plan and SciBench Datasets demonstrate that RunAgent outperforms baseline LLMs and state-of-the-art PlanGEN methods.\n\nAuthors: Arunabh Srivastava, Mohammad A., Khojastepour, Srimat Chakradhar, Sennur Ulukus\nCategories: cs.LG, cs.CL, cs.MA, cs.LG",
+  "word_count": 160,
+  "published_at": "2026-05-01T17:29:45Z",
+  "ingested_at": "2026-05-04T11:03:39.529Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.MA",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

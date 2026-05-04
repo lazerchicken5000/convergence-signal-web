@@ -1,0 +1,40 @@
+{
+  "id": "td_5a9e7bdd",
+  "source": "arxiv",
+  "source_id": "2605.00723",
+  "source_url": "https://arxiv.org/abs/2605.00723",
+  "content_type": "paper",
+  "creator": {
+    "id": "mohammad_rafiqul_islam",
+    "name": "Mohammad Rafiqul Islam",
+    "handle": "Mohammad Rafiqul Islam, Lingjiong Zhu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Decentralized Proximal Stochastic Gradient Langevin Dynamics",
+  "body_text": "Decentralized Proximal Stochastic Gradient Langevin Dynamics\n\nWe propose Decentralized Proximal Stochastic Gradient Langevin Dynamics (DE-PSGLD), a decentralized Markov chain Monte Carlo (MCMC) algorithm for sampling from a log-concave probability distribution constrained to a convex domain. Constraints are enforced through a shared proximal regularization based on the Moreau-Yosida envelope, enabling unconstrained updates while preserving consistency with the target constrained posterior. We establish non-asymptotic convergence guarantees in the 2-Wasserstein distance for both individual agent iterates and their network averages. Our analysis shows that DE-PSGLD converges to a regularized Gibbs distribution and quantifies the bias introduced by the proximal approximation. We evaluate DE-PSGLD for different sampling problems on synthetic and real datasets. As the first decentralized approach for constrained domains, our algorithm exhibits fast posterior concentration and high predictive accuracy.\n\nAuthors: Mohammad Rafiqul Islam, Lingjiong Zhu\nCategories: stat.ML, cs.LG, math.PR, stat.ML",
+  "word_count": 121,
+  "published_at": "2026-05-01T15:11:06Z",
+  "ingested_at": "2026-05-04T11:03:59.354Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.PR",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

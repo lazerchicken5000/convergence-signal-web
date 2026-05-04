@@ -1,0 +1,38 @@
+{
+  "id": "td_02b66c87",
+  "source": "arxiv",
+  "source_id": "2605.00706",
+  "source_url": "https://arxiv.org/abs/2605.00706",
+  "content_type": "paper",
+  "creator": {
+    "id": "yutao_hou",
+    "name": "Yutao Hou",
+    "handle": "Yutao Hou, Yihan Jiang, Yuhan Xie, Jian Yang, Liwen Zhang, Hailiang Huang, Guanhua Chen, Yun Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios",
+  "body_text": "FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios\n\nLarge language models (LLMs) are increasingly applied in financial scenarios. However, they may produce harmful outputs, including facilitating illegal activities or unethical behavior, posing serious compliance risks. To systematically evaluate LLM safety in finance, we propose FinSafetyBench, a bilingual (English-Chinese) red-teaming benchmark designed to test an LLM's refusal of requests that violate financial compliance. Grounded in real-world financial crime cases and ethics standards, the benchmark comprises 14 subcategories spanning financial crimes and ethical violations. Through extensive experiments on general-purpose and finance-specialized LLMs under three representative attack settings, we identify critical vulnerabilities that allow adversarial prompts to bypass compliance safeguards. Further analysis reveals stronger susceptibility in Chinese contexts and highlights the limitations of prompt-level defenses against sophisticated or implicit manipulation strategies.\n\nAuthors: Yutao Hou, Yihan Jiang, Yuhan Xie, Jian Yang, Liwen Zhang, Hailiang Huang, Guanhua Chen, Yun Chen\nCategories: cs.CL, cs.CL",
+  "word_count": 120,
+  "published_at": "2026-05-01T14:51:24Z",
+  "ingested_at": "2026-05-04T11:03:39.530Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

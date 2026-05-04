@@ -1,0 +1,38 @@
+{
+  "id": "td_9ae3607d",
+  "source": "arxiv",
+  "source_id": "2605.00719",
+  "source_url": "https://arxiv.org/abs/2605.00719",
+  "content_type": "paper",
+  "creator": {
+    "id": "yinghao_chen",
+    "name": "Yinghao Chen",
+    "handle": "Yinghao Chen, Yeying Jin, Xiang Chen, Yanyan Wei, Ziyang Yan, Yaowen Fu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy",
+  "body_text": "Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy\n\nUnsupervised deraining has attracted attention for its ability to learn the real-world distribution of rain without paired supervision. However, the lack of strong constraints makes it difficult for the network to converge, especially with the complex diversity of rain degradation. A key motivation is that high-quality deraining results occasionally emerge during training, which can be leveraged to guide the optimization process. To overcome these challenges, we introduce RGSUD (Reward-Guided Self-Reinforcement Unsupervised Image Deraining), comprising two key stages: reward recycling and self-reinforcement (SR) training. For the former stage, we propose an Image Quality Assessment (IQA)-based dynamic reward recycling mechanism that selects optimal derained outputs during training and continuously collects high-quality deraining images. In latter stage, we incorporate these rewards into the model's optimization process, constraining the optimization space and improving alignment between derained outputs and clean images. By leveraging IQA-based self-reinforced loss and dynamically updated rewards, we enhance the quality of synthesized pseudo-paired data and stabilize the optimization. Extensive experiments demonstrate that our method achieves SOTA performance across multiple datasets, including paired synthetic, paired real, and unpaired real images, outperforming existing unsupervised deraining approaches in both subjective and objective IQA metrics. Additionally, we show that the self-reinforcement strategy is adaptable to other unsupervised deraining methods and our deraining framework demonstrates strong generalization across existing supervised deraining networks.\n\nAuthors: Yinghao Chen, Yeying Jin, Xiang Chen, Yanyan Wei, Ziyang Yan, Yaowen Fu\nCategories: cs.CV, cs.CV",
+  "word_count": 216,
+  "published_at": "2026-05-01T15:08:27Z",
+  "ingested_at": "2026-05-04T11:03:59.354Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
