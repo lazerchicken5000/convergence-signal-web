@@ -1,0 +1,39 @@
+{
+  "id": "td_9c1387f2",
+  "source": "arxiv",
+  "source_id": "2605.03737",
+  "source_url": "https://arxiv.org/abs/2605.03737",
+  "content_type": "paper",
+  "creator": {
+    "id": "ashique_lal",
+    "name": "Ashique Lal",
+    "handle": "Ashique Lal, Rik S. Breebaart, Peter G. Bolhuis, Evert Jan Meijer",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Discovering Reaction Mechanisms with Transition Path Sampling-Based Active Learning of Machine-Learned Potentials",
+  "body_text": "Discovering Reaction Mechanisms with Transition Path Sampling-Based Active Learning of Machine-Learned Potentials\n\nMachine-learned interatomic potentials (MLPs) provide near density functional theory (DFT) accuracy at reduced computational cost, but their reliability depends on representative training data and often deteriorates in transition-state regions governing rare events. We introduce an active-learning framework in which Transition Path Sampling (TPS) serves as a targeted data-generation engine for constructing MLPs accurate in barrier regions. TPS generates ensembles of unbiased reactive trajectories, and a committee-based uncertainty estimate identifies configurations for selective DFT labeling and retraining. Iterating this cycle systematically refines the potential energy surface in dynamically relevant regions, without the need of prior knowledge of the mechanism. Applied to electrochemical CO$_2$ reduction to CO on copper in explicit water, the approach removes nonphysical artifacts present in early models, achieves near-DFT energy and force accuracy, and enables stable long-time sampling of reactive pathways. Extended TPS simulations reveal multiple dynamically accessible protonation mechanisms. This work establishes TPS as an efficient and principled active-learning strategy for reactive molecular simulations at electrochemical interfaces.\n\nAuthors: Ashique Lal, Rik S. Breebaart, Peter G. Bolhuis, Evert Jan Meijer\nCategories: physics.chem-ph, physics.comp-ph, physics.chem-ph",
+  "word_count": 160,
+  "published_at": "2026-05-05T17:38:14Z",
+  "ingested_at": "2026-05-06T11:04:30.526Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.chem-ph",
+    "physics.comp-ph",
+    "physics.chem-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

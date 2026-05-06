@@ -1,0 +1,39 @@
+{
+  "id": "td_2f6a1d88",
+  "source": "arxiv",
+  "source_id": "2605.04033",
+  "source_url": "https://arxiv.org/abs/2605.04033",
+  "content_type": "paper",
+  "creator": {
+    "id": "melki_bino",
+    "name": "Melki Bino",
+    "handle": "Melki Bino",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Probabilistic-bit Guided CDCL for SAT Solving using Ising Consensus Assumptions",
+  "body_text": "Probabilistic-bit Guided CDCL for SAT Solving using Ising Consensus Assumptions\n\nBoolean satisfiability (SAT) solvers are widely used in hardware verification, cryptanalysis, automatic test-pattern generation, and side-channel reasoning workflows. Modern conflict-driven clause-learning (CDCL) solvers are highly effective, but satisfiable instances may still require substantial conflict analysis and Boolean propagation before identifying productive regions of the search space. This paper studies a hybrid SAT-solving framework in which a probabilistic-bit (p-bit) Ising sampler proposes high-agreement literals that are passed to CDCL as temporary assumptions. The goal is not to replace CDCL, but to evaluate whether stochastic low-violation samples can reduce CDCL internal search effort while retaining correctness through CDCL fallback. On selected controlled-backbone random 3-SAT benchmarks, the hybrid method reduces median conflicts by 80.8-85.5% and median propagations by 80.2-84.6% relative to pure CDCL. The observed benefit is distribution-sensitive, suggesting that p-bit guidance is effective only for certain instance classes. We further report exploratory machine-learning gates that estimate when hybrid solving is likely to help. On the selected run, a random-forest gate retains 94.8% of hybrid wins, indicating that lightweight gating may help avoid unproductive hybrid calls.\n\nAuthors: Melki Bino\nCategories: cs.CR, cs.LO, cs.CR",
+  "word_count": 173,
+  "published_at": "2026-05-05T17:54:42Z",
+  "ingested_at": "2026-05-06T11:04:30.526Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.LO",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

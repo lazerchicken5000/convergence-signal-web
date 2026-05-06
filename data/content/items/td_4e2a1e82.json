@@ -1,0 +1,35 @@
+{
+  "id": "td_4e2a1e82",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/5/datasette-referrer-policy/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette-referrer-policy 0.1",
+  "body_text": "Release: datasette-referrer-policy 0.1\n        The OpenStreetMap tiles on the Datasette global-power-plants demo weren't displaying correctly. This turned out to be caused by two bugs.\nThe first is that the CAPTCHA I added to that site a few weeks ago was triggering for the .json fetch requests used by the map plugin, and since those weren't HTML the user was not being asked to solve them. Here's the fix.\nThe second was that OpenStreetMap quite reasonably block tile requests from sites that use a Referrer-Policy: no-referrer header.\nDatasette does this by default, and I didn't want to change that default on people without warning - so I had Codex + GPT-5.5 build me a new plugin to help set that header to another value.\n    \n    \n        Tags: openstreetmap, http, datasette",
+  "word_count": 126,
+  "published_at": "2026-05-05T23:44:27.000Z",
+  "ingested_at": "2026-05-06T11:00:07.602Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

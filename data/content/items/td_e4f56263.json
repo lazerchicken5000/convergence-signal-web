@@ -1,0 +1,39 @@
+{
+  "id": "td_e4f56263",
+  "source": "arxiv",
+  "source_id": "2605.03945",
+  "source_url": "https://arxiv.org/abs/2605.03945",
+  "content_type": "paper",
+  "creator": {
+    "id": "tianyu_wang",
+    "name": "Tianyu Wang",
+    "handle": "Tianyu Wang, Luhao Zhang, Rachel Cummings",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Integrating Feature Correlation in Differential Privacy with Applications in DP-ERM",
+  "body_text": "Integrating Feature Correlation in Differential Privacy with Applications in DP-ERM\n\nStandard differential privacy imposes uniform privacy constraints across all features, overlooking the inherent distinction between sensitive and insensitive features in practice. In this paper, we introduce a relaxed definition of differential privacy that accounts for such heterogeneity, allowing certain features to be treated as insensitive even when correlated with sensitive ones. We propose a correlation-aware framework, $\\textsf{CorrDP}$, which relaxes privacy for insensitive features while accounting for their correlations with sensitive features, with the correlations quantified using total variation distance. We design algorithms for differentially private empirical risk minimization (DP-ERM) under the $\\textsf{CorrDP}$ framework, incorporating distance-dependent noise into gradients for improved theoretical utility guarantees. When the correlation distance is unknown, we estimate it from the dataset and show that it achieves a comparable privacy-utility guarantee. We perform experiments on synthetic and real-world datasets and show that $\\textsf{CorrDP}$-based DP-ERM algorithms consistently outperform the standard DP framework in the presence of insensitive features.\n\nAuthors: Tianyu Wang, Luhao Zhang, Rachel Cummings\nCategories: cs.LG, stat.ML, cs.LG",
+  "word_count": 150,
+  "published_at": "2026-05-05T16:32:11Z",
+  "ingested_at": "2026-05-06T11:04:20.290Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

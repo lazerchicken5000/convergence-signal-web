@@ -1,0 +1,40 @@
+{
+  "id": "td_041d2571",
+  "source": "arxiv",
+  "source_id": "2605.03907",
+  "source_url": "https://arxiv.org/abs/2605.03907",
+  "content_type": "paper",
+  "creator": {
+    "id": "geert_heyman",
+    "name": "Geert Heyman",
+    "handle": "Geert Heyman, Frederik Vandeputte",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Steer Like the LLM: Activation Steering that Mimics Prompting",
+  "body_text": "Steer Like the LLM: Activation Steering that Mimics Prompting\n\nLarge language models can be steered at inference time through prompting or activation interventions, but activation steering methods often underperform compared to prompt-based approaches. We propose a framework that formulates prompt steering as a form of activation steering and investigates whether distilling successful prompt steering behavior into simpler, interpretable models can close this gap. Our analysis reveals that popular activation steering methods are not faithful to the mechanics of prompt steering, which applies strong interventions on some tokens while barely affecting others. Based on these insights, we introduce Prompt Steering Replacement (PSR) models that estimate token-specific steering coefficients from the activations themselves and are trained to imitate prompt-based interventions. Experiments on three steering benchmarks across multiple language models show that PSR models outperform existing activation steering methods, especially when controlling for high-coherence completions, and also compare favorably to prompting on AxBench and persona steering.\n\nAuthors: Geert Heyman, Frederik Vandeputte\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 144,
+  "published_at": "2026-05-05T15:59:42Z",
+  "ingested_at": "2026-05-06T11:04:15.706Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

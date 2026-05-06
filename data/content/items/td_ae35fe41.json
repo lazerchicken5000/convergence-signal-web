@@ -1,0 +1,39 @@
+{
+  "id": "td_ae35fe41",
+  "source": "arxiv",
+  "source_id": "2605.03979",
+  "source_url": "https://arxiv.org/abs/2605.03979",
+  "content_type": "paper",
+  "creator": {
+    "id": "sanjeev_khanna",
+    "name": "Sanjeev Khanna",
+    "handle": "Sanjeev Khanna, Aaron Putterman, Junkai Song",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "An $\\widetilde{O} (n^{3/7})$ Round Parallel Algorithm for Matroid Bases",
+  "body_text": "An $\\widetilde{O} (n^{3/7})$ Round Parallel Algorithm for Matroid Bases\n\nWe study the parallel (adaptive) complexity of the classic problem of finding a basis in an $n$-element matroid, given access via an \\emph{independence oracle}. In this model, the algorithm may submit polynomially many independence queries in each round, and the central question is: how many rounds are necessary and sufficient to find a basis? Karp, Upfal, and Wigderson (FOCS~1985, JCSS~1988; hereafter KUW) initiated this study, showing that $O(\\sqrt{n})$ adaptive rounds suffice for any matroid, and that $\\widetildeΩ(n^{1/3})$ rounds are necessary even for partition matroids. This left a substantial gap that persisted for nearly four decades, until Khanna, Putterman, and Song (FOCS~2025; hereafter KPS) achieved $\\widetilde O(n^{7/15})$ rounds, the first improvement since~KUW. In this work, we make another conceptual advance beyond KPS, giving a new algorithm that finds a matroid basis in $\\widetilde O(n^{3/7})$ rounds. We develop a structural and algorithmic framework that brings a new lens to the analysis of random circuits, moving from reasoning about individual elements to understanding how dependencies span multiple elements simultaneously.\n\nAuthors: Sanjeev Khanna, Aaron Putterman, Junkai Song\nCategories: cs.DS, cs.CC, cs.DS",
+  "word_count": 166,
+  "published_at": "2026-05-05T17:04:48Z",
+  "ingested_at": "2026-05-06T11:04:35.786Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.CC",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

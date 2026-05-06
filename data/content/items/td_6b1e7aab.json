@@ -1,0 +1,35 @@
+{
+  "id": "td_6b1e7aab",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/5/llm-echo/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm-echo 0.5a0",
+  "body_text": "Release: llm-echo 0.5a0\n        \n\nNew -o thinking 1 option to help test against LLM 0.32a0 and higher.\n\n\nThis plugin provides a fake model called \"echo\" for LLM which doesn't run an LLM at all - it's useful for writing automated tests. You can now do this:\nuvx --with llm==0.32a1 --with llm-echo==0.5a0 llm -m echo hi -o thinking 1\n\nThis will fake a reasoning block to standard error before returning JSON echoing the prompt.\n    \n    \n        Tags: llm",
+  "word_count": 74,
+  "published_at": "2026-05-05T01:31:54.000Z",
+  "ingested_at": "2026-05-06T11:00:07.603Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

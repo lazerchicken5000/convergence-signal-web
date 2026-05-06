@@ -1,0 +1,38 @@
+{
+  "id": "td_fadd2203",
+  "source": "arxiv",
+  "source_id": "2605.04037",
+  "source_url": "https://arxiv.org/abs/2605.04037",
+  "content_type": "paper",
+  "creator": {
+    "id": "giulia_sambataro",
+    "name": "Giulia Sambataro",
+    "handle": "Giulia Sambataro, Virginie Ehrlacher",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Model order reduction for parametrized variational inequalities: application to crowd motion",
+  "body_text": "Model order reduction for parametrized variational inequalities: application to crowd motion\n\nThis work investigates model order reduction for time-dependent parametrized variational inequalities, with a focus on discrete contact problems. As a prototypical example, we consider an agent-based crowd model [Maury et al., 2011] in which agent velocities are obtained at each time step from a constrained least-squares problem. Geometric parameter variations induce significant variability in both agent positions and contact forces, leading to a slowly decaying Kolmogorov $n$-width of the solution manifold. We propose a nonlinear approach that combines a linear reduced-order model with a deep-learning-based correction. The method utilizes a greedy index selection (gIS) algorithm for compressing Lagrange multipliers and Proper Orthogonal Decomposition (POD) applied to velocity snapshots. Additionally, we explore hyper-reduction techniques, comparing the Empirical Interpolation Method (EIM) and the Empirical Quadrature (EQ) procedure from both computational complexity and accuracy perspectives. Finally, we demonstrate the applicability of the methodology in a complex scenario involving many agents in a highly congested geometric configuration. This work represents the first attempt to apply model order reduction to a discrete contact problem of the type introduced in [Maury et al., 2011] and paves the way for future advancements in nonlinear MOR specifically for this class of problems.\n\nAuthors: Giulia Sambataro, Virginie Ehrlacher\nCategories: math.NA, math.NA",
+  "word_count": 194,
+  "published_at": "2026-05-05T17:55:52Z",
+  "ingested_at": "2026-05-06T11:04:25.286Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

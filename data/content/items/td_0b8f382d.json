@@ -1,0 +1,38 @@
+{
+  "id": "td_0b8f382d",
+  "source": "arxiv",
+  "source_id": "2605.04044",
+  "source_url": "https://arxiv.org/abs/2605.04044",
+  "content_type": "paper",
+  "creator": {
+    "id": "prajnan_goswami",
+    "name": "Prajnan Goswami",
+    "handle": "Prajnan Goswami, Tianye Ding, Feng Liu, Huaizu Jiang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "UniCorrn: Unified Correspondence Transformer Across 2D and 3D",
+  "body_text": "UniCorrn: Unified Correspondence Transformer Across 2D and 3D\n\nVisual correspondence across image-to-image (2D-2D), image-to-point cloud (2D-3D), and point cloud-to-point cloud (3D-3D) geometric matching forms the foundation for numerous 3D vision tasks. Despite sharing a similar problem structure, current methods use task-specific designs with separate models for each modality combination. We present UniCorrn, the first correspondence model with shared weights that unifies geometric matching across all three tasks. Our key insight is that Transformer attention naturally captures cross-modal feature similarity. We propose a dual-stream decoder that maintains separate appearance and positional feature streams. This design enables end-to-end learning through stack-able layers while supporting flexible query-based correspondence estimation across heterogeneous modalities. Our architecture employs modality-specific backbones followed by shared encoder and decoder components, trained jointly on diverse data combining pseudo point clouds from depth maps with real 3D correspondence annotations. UniCorrn achieves competitive performance on 2D-2D matching and surpasses prior state-of-the-art by 8% on 7Scenes (2D-3D) and 10% on 3DLoMatch (3D-3D) in registration recall. Project website: https://neu-vi.github.io/UniCorrn\n\nAuthors: Prajnan Goswami, Tianye Ding, Feng Liu, Huaizu Jiang\nCategories: cs.CV, cs.CV",
+  "word_count": 157,
+  "published_at": "2026-05-05T17:58:53Z",
+  "ingested_at": "2026-05-06T11:04:30.524Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
