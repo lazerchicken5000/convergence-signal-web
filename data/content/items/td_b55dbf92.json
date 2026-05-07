@@ -1,0 +1,39 @@
+{
+  "id": "td_b55dbf92",
+  "source": "arxiv",
+  "source_id": "2605.05134",
+  "source_url": "https://arxiv.org/abs/2605.05134",
+  "content_type": "paper",
+  "creator": {
+    "id": "dan_wilson",
+    "name": "Dan Wilson",
+    "handle": "Dan Wilson, Mohamed Akrout",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Low-Cost Black-Box Detection of LLM Hallucinations via Dynamical System Prediction",
+  "body_text": "Low-Cost Black-Box Detection of LLM Hallucinations via Dynamical System Prediction\n\nLarge Language Models (LLMs) frequently generate plausible but non-factual content, a phenomenon known as hallucination. While existing detection methods typically rely on computationally expensive sampling-based consistency checks or external knowledge retrieval, we propose a new method that treats the LLM as a black-box dynamical system. By projecting LLM responses into a high-dimensional manifold via an embedding model, we characterize the resulting vector sequences as observable realizations of the model's latent state-space dynamics. Leveraging Koopman operator theory, we fit the transition operators for both factual and hallucinated regimes and define a differential residual score based on their respective prediction errors. To accommodate varying user requirements and domain-specific sensitivities, we introduce a preference-aware calibration mechanism that optimizes the classification threshold based on a small set of demonstrations. This approach enables low-cost hallucination detection in a single-sample pass, avoiding the need for secondary sampling or external grounding. Extensive testing across three data benchmarks demonstrates that our method achieves state-of-the-art performance with reduced resource overhead.\n\nAuthors: Dan Wilson, Mohamed Akrout\nCategories: cs.LG, math.DS, cs.LG",
+  "word_count": 161,
+  "published_at": "2026-05-06T17:07:29Z",
+  "ingested_at": "2026-05-07T11:04:12.789Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.DS",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

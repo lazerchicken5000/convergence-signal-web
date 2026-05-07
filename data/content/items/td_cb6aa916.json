@@ -1,0 +1,38 @@
+{
+  "id": "td_cb6aa916",
+  "source": "arxiv",
+  "source_id": "2605.05188",
+  "source_url": "https://arxiv.org/abs/2605.05188",
+  "content_type": "paper",
+  "creator": {
+    "id": "maleeha_masood",
+    "name": "Maleeha Masood",
+    "handle": "Maleeha Masood, Shreya Kannan, Om Chabra, Deepak Vasisht, Indranil Gupta",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SILC: Lookahead Caching for Short-form Video Delivery Systems",
+  "body_text": "SILC: Lookahead Caching for Short-form Video Delivery Systems\n\nShort video platforms like TikTok, Instagram Reels, and YouTube Shorts have gained immense popularity in the last few years and are responsible for a large and growing fraction of Internet traffic. We identify two unique opportunities for improving short video delivery using their existing interactions with content delivery networks (CDNs). First, short videos use a push-based recommendation system, where the user is presented a sequence of videos recommended by the algorithm rather than user explicitly picking content to watch (e.g., in YouTube). Such push-based short video systems offer a unique opportunity for system design by providing visibility into upcoming requests. Second, the popularity of these videos follows a highly skewed Pareto distribution, leading to geographical and temporal overlap amongst videos being served. We leverage these opportunities to build SILC - a lookahead-aware caching system, aimed at (i) reducing CDN cache miss rates, as well as (ii) reducing midgress bandwidth between the CDN and the origin server. Our evaluation of SILC uses traces that we collect from real users, through (i) an in-person user study, and (ii) a data donation program involving 100 TikTok users across the world. Using a combination of these traces, we simulate traffic from 10,000 simultaneous users. Our evaluation shows that, compared to 10 state-of-the-art heuristic and learning-based cache eviction policies, SILC reduces a CDN's midgress costs by 11.1% to 111%.\n\nAuthors: Maleeha Masood, Shreya Kannan, Om Chabra, Deepak Vasisht, Indranil Gupta\nCategories: cs.NI, cs.NI",
+  "word_count": 224,
+  "published_at": "2026-05-06T17:53:14Z",
+  "ingested_at": "2026-05-07T11:04:48.319Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.NI",
+    "cs.NI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

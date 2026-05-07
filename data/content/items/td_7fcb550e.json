@@ -1,0 +1,39 @@
+{
+  "id": "td_7fcb550e",
+  "source": "arxiv",
+  "source_id": "2605.05182",
+  "source_url": "https://arxiv.org/abs/2605.05182",
+  "content_type": "paper",
+  "creator": {
+    "id": "himanshu_paudel",
+    "name": "Himanshu Paudel",
+    "handle": "Himanshu Paudel, Basanta Joshi, Dhirendra Raj Madai, Alina Bartaula, Biman Rimal, Sanjay Neupane",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
+  "body_text": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps\n\nWe present a dual-barrier control barrier function (CBF) safety filter for real-time, safety-critical velocity control of holonomic robots operating in incrementally built occupancy grid maps. As a robot explores an unknown environment, unmapped regions introduce irreducible uncertainty, since obstacle geometry beyond the explored frontier is unknown, making entry into such regions a source of collision risk, especially with front-facing sensors. To address this, we enforce two constraints: avoidance of mapped obstacles and restriction from unexplored regions. Both constraints are derived analytically from the occupancy grid's signed distance field, yielding a closed-form safety filter that requires only a small linear system solve per cycle. On resource-constrained platforms such as the Raspberry Pi, where SLAM and planning already consume significant compute, the low overhead of the proposed filter preserves resources. An adaptive gain schedule relaxes the frontier constraint in information-rich regions and tightens it in well-mapped areas, improving exploration efficiency while maintaining safety. The filter operates in velocity space as a minimally invasive correction and composes with arbitrary nominal controllers, including learning-based methods. Hardware flight experiments on a PX4-controlled quadrotor demonstrate zero collisions across multiple indoor runs.\n\nAuthors: Himanshu Paudel, Basanta Joshi, Dhirendra Raj Madai, Alina Bartaula, Biman Rimal, Sanjay Neupane\nCategories: cs.RO, eess.SY, cs.RO",
+  "word_count": 185,
+  "published_at": "2026-05-06T17:49:17Z",
+  "ingested_at": "2026-05-07T11:04:48.320Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "eess.SY",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

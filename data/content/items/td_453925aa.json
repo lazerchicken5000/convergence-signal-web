@@ -1,0 +1,39 @@
+{
+  "id": "td_453925aa",
+  "source": "arxiv",
+  "source_id": "2605.05170",
+  "source_url": "https://arxiv.org/abs/2605.05170",
+  "content_type": "paper",
+  "creator": {
+    "id": "the_verkor_team",
+    "name": "The Verkor Team",
+    "handle": "The Verkor Team, Ravi Krishna, Suresh Krishna, David Chin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours",
+  "body_text": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours\n\nDriven by a rapid co-evolution of both harness and underlying models, LLM agents are improving at a dizzying pace. In our prior work (performed in Dec. 2025), we introduced \"Design Conductor\" (or just \"Conductor\"), a system capable of building a 5-stage Linux-capable RISC-V CPU in 12 hours. In this work, we introduce an updated multi-agent harness powered by frontier models released in April 2026, which is able to handle 80x larger tasks, at higher quality, fully autonomously. Following a brief introduction, we examine 4 designs that the system produced autonomously, including \"VerTQ\", an LLM inference accelerator which hard-wires support for TurboQuant in a 240-cycle pipeline, starting from the TurboQuant arXiv paper. VerTQ includes heavy compute processing, with 5129 FP16/32 units; the design was mapped to an FPGA at 125 MHz and consumes 5.7 mm^2 in TSMC 16FF (8 attention pipes). We review the key new characteristics that enabled these results. Finally, we analyze Design Conductor's token usage and other empirical characteristics, including its limitations.\n\nAuthors: The Verkor Team, Ravi Krishna, Suresh Krishna, David Chin\nCategories: cs.AR, cs.AI, cs.AR",
+  "word_count": 164,
+  "published_at": "2026-05-06T17:40:03Z",
+  "ingested_at": "2026-05-07T11:03:46.367Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AR",
+    "cs.AI",
+    "cs.AR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

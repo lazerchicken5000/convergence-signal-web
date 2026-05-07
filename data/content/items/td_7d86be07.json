@@ -1,0 +1,40 @@
+{
+  "id": "td_7d86be07",
+  "source": "arxiv",
+  "source_id": "2605.05066",
+  "source_url": "https://arxiv.org/abs/2605.05066",
+  "content_type": "paper",
+  "creator": {
+    "id": "yan_zhou",
+    "name": "Yan Zhou",
+    "handle": "Yan Zhou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Impossibility Triangle of Long-Context Modeling",
+  "body_text": "The Impossibility Triangle of Long-Context Modeling\n\nWe identify and prove a fundamental trade-off governing long-sequence models: no model can simultaneously achieve (i) per-step computation independent of sequence length (Efficiency), (ii) state size independent of sequence length (Compactness), and (iii) the ability to recall a number of historical facts proportional to sequence length (Recall). We formalize this trade-off within an Online Sequence Processor abstraction that unifies Transformers, state space models, linear recurrent networks, and their hybrids. Using the Data Processing Inequality and Fano's Inequality, we prove that any model satisfying Efficiency and Compactness can recall at most O(poly(d)/log V) key-value pairs from a sequence of arbitrary length, where d is the model dimension and V is the vocabulary size. We classify 52 architectures published before March 2026 into the triangle, showing that each achieves at most two of the three properties and that hybrid architectures trace continuous trajectories in the interior. Experiments on synthetic associative recall tasks with five representative architectures validate the theoretical bound: empirical recall capacity lies strictly below the information-theoretic limit, and no architecture escapes the triangle.\n\nAuthors: Yan Zhou\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 173,
+  "published_at": "2026-05-06T16:01:43Z",
+  "ingested_at": "2026-05-07T13:04:20.847Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

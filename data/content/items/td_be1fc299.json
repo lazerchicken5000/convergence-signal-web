@@ -1,0 +1,38 @@
+{
+  "id": "td_be1fc299",
+  "source": "arxiv",
+  "source_id": "2605.05177",
+  "source_url": "https://arxiv.org/abs/2605.05177",
+  "content_type": "paper",
+  "creator": {
+    "id": "xuefeng_liu",
+    "name": "Xuefeng Liu",
+    "handle": "Xuefeng Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Explicit Two-Sided Eigenvalue Bounds for Schrödinger Operators with Singular Potentials via Finite Element Method",
+  "body_text": "Explicit Two-Sided Eigenvalue Bounds for Schrödinger Operators with Singular Potentials via Finite Element Method\n\nWe present, to the best of our knowledge, the first numerical algorithm for explicit, computable two-sided eigenvalue bounds for Schrödinger operators H = -Delta + V on R^N, N = 2,3, in the presence of both an unbounded potential and an unbounded domain. \"Explicit\" here means that all constants and ingredients are derived in closed form from the mesh, the potential, and a small set of explicit inequalities (Payne-Weinberger, Hardy, and explicit bounded-domain Sobolev embeddings); the conversion to fully verified(IEEE-754-safe, interval-arithmetic) enclosures is a separate verification step and is left for future work. In particular, singular attractive potentials of Coulomb type, V(x) = -Z/|x|, which model the hydrogen atom and the H_2^+ molecular ion, are covered by the theory. The method combines domain truncation to a bounded domain D(R) containing {|x| &lt;= R} with an extension of Liu's Composite Enriched Crouzeix-Raviart (CECR) finite element method to sign-indefinite potentials. Upper bounds come from the standard conforming Galerkin method; lower bounds come from the CECR construction, whose gap to the exact eigenvalue closes as the mesh is refined. Numerical experiments on the 2D single- and two-centred Coulomb potentials and on the 3D hydrogen atom and H_2^+ molecular ion illustrate the algorithm and confirm the predicted convergence.\n\nAuthors: Xuefeng Liu\nCategories: math.NA, math.NA",
+  "word_count": 204,
+  "published_at": "2026-05-06T17:43:18Z",
+  "ingested_at": "2026-05-07T11:05:05.422Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
