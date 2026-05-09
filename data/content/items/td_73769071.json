@@ -1,0 +1,38 @@
+{
+  "id": "td_73769071",
+  "source": "arxiv",
+  "source_id": "2605.06624",
+  "source_url": "https://arxiv.org/abs/2605.06624",
+  "content_type": "paper",
+  "creator": {
+    "id": "ehsan_asadollahi",
+    "name": "Ehsan Asadollahi",
+    "handle": "Ehsan Asadollahi, Calvin Hawkins, Matthew Hale",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Online Scalarization in Vector-Valued Games",
+  "body_text": "Online Scalarization in Vector-Valued Games\n\nWe study repeated multi-player vector-valued games in which a player observes a payoff vector each round and evaluates outcomes through linear scalarizations of those vectors. Different from most prior works, the choice of scalarization is treated as an online decision variable rather than a fixed modeling decision. We propose a bi-level learning framework in which an outer learner chooses a scalarization from a finite candidate class on a slow timescale, while a faster inner bandit no-regret learner selects actions using the scalar feedback induced by the chosen scalarization. Performance of this approach is defined with respect to a certain true weight vector, and the deployed scalarizations act as control signals that shape the induced payoff trajectory. We provide implementable algorithms based on bandit online mirror descent with stabilized importance weighting, and we derive finite-time performance guarantees in the form of sublinear regret bounds. Experiments on a vector-valued extension of a canonical game show that convergence to the preferred equilibrium rises from roughly $50\\%$ under non-adaptive scalarization to about $80\\%$ under our proposed method.\n\nAuthors: Ehsan Asadollahi, Calvin Hawkins, Matthew Hale\nCategories: cs.GT, cs.GT",
+  "word_count": 173,
+  "published_at": "2026-05-07T17:38:36Z",
+  "ingested_at": "2026-05-08T13:06:01.903Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

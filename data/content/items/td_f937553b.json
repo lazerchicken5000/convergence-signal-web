@@ -1,0 +1,40 @@
+{
+  "id": "td_f937553b",
+  "source": "arxiv",
+  "source_id": "2605.06647",
+  "source_url": "https://arxiv.org/abs/2605.06647",
+  "content_type": "paper",
+  "creator": {
+    "id": "zeyu_yang",
+    "name": "Zeyu Yang",
+    "handle": "Zeyu Yang, Qi Ma, Jason Chen, Anshumali Shrivastava",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+  "body_text": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval\n\nRetrieval-augmented agents are increasingly the interface to large organizational knowledge bases, yet most still treat retrieval as a black box: they issue exploratory queries, inspect returned snippets, and iteratively reformulate until useful evidence emerges. This approach resembles how a newcomer searches an unfamiliar database rather than how an expert navigates it with strong priors about terminology and likely evidence, and results in unnecessary retrieval rounds, increased latency, and poor recall. We introduce \\textit{SuperIntelligent Retrieval Agent} (SIRA), which defines \\emph{superintelligence} in retrieval as the ability to compress multi-round exploratory search into a single corpus-discriminative retrieval action. SIRA does not merely ask what terms are relevant to the query; it asks which terms are likely to separate the desired evidence from corpus-level confusers. On the corpus side, an LLM enriches each document offline with missing search vocabulary; on the query side, it predicts evidence vocabulary omitted by the query; and document-frequency statistics as a tool call to filter proposed terms that are absent, overly common, or unlikely to create retrieval margin. The final retrieval step is a single weighted BM25 call combining the original query with the validated expansion. Across ten BEIR benchmarks and downstream question-answering tasks, SIRA achieves the significantly superior performance outperforming dense retrievers and state-of-the-art multi-round agentic baselines, demonstrating that one well-formed lexical query, guided by LLM cognition and lightweight corpus statistics, can exceed substantially more expensive multi-round search while remaining interpretable, training-free, and efficient.\n\nAuthors: Zeyu Yang, Qi Ma, Jason Chen, Anshumali Shrivastava\nCategories: cs.IR, cs.AI, cs.LG, cs.IR",
+  "word_count": 236,
+  "published_at": "2026-05-07T17:54:29Z",
+  "ingested_at": "2026-05-08T13:03:49.539Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.AI",
+    "cs.LG",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
