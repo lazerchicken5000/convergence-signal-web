@@ -1,0 +1,39 @@
+{
+  "id": "td_fc560457",
+  "source": "arxiv",
+  "source_id": "2605.08069",
+  "source_url": "https://arxiv.org/abs/2605.08069",
+  "content_type": "paper",
+  "creator": {
+    "id": "wanyi_ling",
+    "name": "Wanyi Ling",
+    "handle": "Wanyi Ling, Sida Li, Junming Guan, Nikolaos Ignatiadis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Empirical Bayes Rebiasing",
+  "body_text": "Empirical Bayes Rebiasing\n\nWe study methods for simultaneous analysis of many noisy and biased estimates, each paired with an even noisier estimate of its own bias. The analyst's goal is to construct short calibrated intervals for each parameter. The standard debiasing approach, which subtracts the bias estimate from each biased estimate, inflates variance and yields long intervals. In this paper, we propose an empirical Bayes rebiasing strategy that starts from the fully debiased estimates and learns from data how much bias to reintroduce by estimating the unknown bias distribution. We provide convergence rates for the coverage of our intervals when the bias distribution is estimated using nonparametric maximum likelihood. Furthermore, we demonstrate substantial precision gains in prediction-powered inference, including pairwise LLM win-rate evaluations, as well as for inference of direct genetic effects in family-based GWAS.\n\nAuthors: Wanyi Ling, Sida Li, Junming Guan, Nikolaos Ignatiadis\nCategories: stat.ME, stat.ML, stat.ME",
+  "word_count": 132,
+  "published_at": "2026-05-08T17:53:17Z",
+  "ingested_at": "2026-05-11T11:04:00.244Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

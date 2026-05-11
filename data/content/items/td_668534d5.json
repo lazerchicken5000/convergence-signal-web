@@ -1,0 +1,35 @@
+{
+  "id": "td_668534d5",
+  "source": "rss",
+  "source_id": "https://news.ycombinator.com/item?id=48080587",
+  "source_url": "https://github.com/imtomt/ymawky",
+  "content_type": "article",
+  "creator": {
+    "id": "hacker_news:_best",
+    "name": "imtomt",
+    "handle": "Hacker News: Best",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+  "body_text": "This is ymawky, a static file web server for MacOS written entirely in ARM64 assembly. It supports GET, PUT, DELETE, HEAD, and OPTIONS requests, and supports Range: bytes=X-Y headers (which allows scrubbing for video streaming). It decodes percent-encoded URLs, strictly enforces docroot, serves custom error pages for any HTTP error response, supports directory listing, and has (some) mitigations against slowloris-like attacks.\nI’ve also written a more detailed writeup here: https://imtomt.github.io/ymawky/\nComments URL: https://news.ycombinator.com/item?id=48080587\nPoints: 317\n# Comments: 148",
+  "word_count": 78,
+  "published_at": "2026-05-10T03:01:44.000Z",
+  "ingested_at": "2026-05-10T13:00:15.031Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

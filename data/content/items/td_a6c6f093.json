@@ -1,0 +1,38 @@
+{
+  "id": "td_a6c6f093",
+  "source": "arxiv",
+  "source_id": "2605.08074",
+  "source_url": "https://arxiv.org/abs/2605.08074",
+  "content_type": "paper",
+  "creator": {
+    "id": "peyman_baghershahi",
+    "name": "Peyman Baghershahi",
+    "handle": "Peyman Baghershahi, Fangxin Wang, Debmalya Mandal, Sourav Medya",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs",
+  "body_text": "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs\n\nConformal prediction (CP) provides a distribution-free approach to uncertainty quantification with finite-sample guarantees. However, applying CP to graph neural networks (GNNs) remains challenging as the combinatorial nature of graphs often leads to insufficiently certain predictions and indiscriminative embeddings. Existing methods primarily rely on embedding-space proximity for localization, which can be unreliable for graphs and yield inefficient prediction sets. We propose GRAPHLCP, a proximity-based localized CP framework that explicitly incorporates graph topology and inter-node dependencies into localization and weighting. Our approach introduces a feature-aware densification step to mitigate locality bias in sparse graphs, followed by a Personalized PageRank-based kernel computation to model structural proximity. This enables topology-dependent anchor sampling and calibration weighting that captures both local and long-range dependencies. Extensive experiments on several regression and classification datasets demonstrate that GRAPHLCP guarantees marginal coverage with finite samples while efficiently attaining favorable test conditional coverage across various conditioning scenarios.\n\nAuthors: Peyman Baghershahi, Fangxin Wang, Debmalya Mandal, Sourav Medya\nCategories: cs.LG, cs.LG",
+  "word_count": 146,
+  "published_at": "2026-05-08T17:56:09Z",
+  "ingested_at": "2026-05-11T11:03:55.200Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

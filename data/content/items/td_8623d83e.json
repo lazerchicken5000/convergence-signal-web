@@ -1,0 +1,39 @@
+{
+  "id": "td_8623d83e",
+  "source": "arxiv",
+  "source_id": "2605.08073",
+  "source_url": "https://arxiv.org/abs/2605.08073",
+  "content_type": "paper",
+  "creator": {
+    "id": "wei_yu",
+    "name": "Wei Yu",
+    "handle": "Wei Yu, Yunhang Qian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
+  "body_text": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction\n\nRecent event-based image reconstruction methods predominantly rely on Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to process complementary event information. However, these architectures face fundamental limitations: CNNs often fail to capture global feature correlations, whereas ViTs incur quadratic computational complexity (e.g., $O(n^2)$), hindering their application in high-resolution scenarios. To address these bottlenecks, we introduce EmambaIR, an Efficient visual State Space Model designed for image reconstruction using spatially sparse and temporally continuous event streams. Our framework introduces two key components: the cross-modal Top-k Sparse Attention Module (TSAM) and the Gated State-Space Module (GSSM). TSAM efficiently performs pixel-level top-k sparse attention to guide cross-modal interactions, yielding rich yet sparse fusion features. Subsequently, GSSM utilizes a nonlinear gated unit to enhance the temporal representation of vanilla linear-complexity ($O(n)$) SSMs, effectively capturing global contextual dependencies without the typical computational overhead. Extensive experiments on six datasets across three diverse image reconstruction tasks - motion deblurring, deraining, and High Dynamic Range (HDR) enhancement - demonstrate that EmambaIR significantly outperforms state-of-the-art methods while offering substantial reductions in memory consumption and computational cost. The source code and data are publicly available at: https://github.com/YunhangWickert/EmambaIR\n\nAuthors: Wei Yu, Yunhang Qian\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 186,
+  "published_at": "2026-05-08T17:56:01Z",
+  "ingested_at": "2026-05-11T11:03:45.825Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

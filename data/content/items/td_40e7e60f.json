@@ -1,0 +1,38 @@
+{
+  "id": "td_40e7e60f",
+  "source": "arxiv",
+  "source_id": "2605.08038",
+  "source_url": "https://arxiv.org/abs/2605.08038",
+  "content_type": "paper",
+  "creator": {
+    "id": "bartolomeo_fanizza",
+    "name": "Bartolomeo Fanizza",
+    "handle": "Bartolomeo Fanizza, Florent Renac",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Invariant domain preserving limiting of time explicit and time implicit discretizations for systems of conservation laws",
+  "body_text": "Invariant domain preserving limiting of time explicit and time implicit discretizations for systems of conservation laws\n\nThis work concerns the design and analysis of a limiting technique that allows the preservation of invariant domains for high-order numerical approximations of nonlinear hyperbolic systems of conservation laws. The method can be applied to any conservative discretization method in space as well as to a wide range of explicit and implicit time integration schemes. The method limits the high-order solution around a low-order accurate solution that is known to preserve all the invariant domains. It generalizes the flux-corrected transport limiter [J. P. Boris and D. L. Book, J. Comput. Phys., 11, 1973; S. T. Zalesak, J. Comput. Phys., 31, 1979] to systems of conservation laws and relies on the limitation of antidiffusive fluxes, but defines the limiting coefficients so as to express the limited solution as a convex combination of invariant domain preserving quantities similarly to the convex limiting framework [Guermond et al., Comput. Methods Appl. Mech. Engrg., 347, 2019]. We give details on the derivation of this limiting technique and provide some illustration with finite volume or discontinuous Galerkin (DG) space discretizations associated to explicit or implicit Runge-Kutta methods as well as to time DG integrations. The limiter is applied iteratively to refine the limited solution around the high-order one, while preserving the invariant domains, and a heuristic is proposed to accelerate its convergence. Numerical experiments solving one- and two-dimensional problems involving scalar hyperbolic equations and the compressible Euler equations are presented to illustrate the properties of these schemes.\n\nAuthors: Bartolomeo Fanizza, Florent Renac\nCategories: math.NA, math.NA",
+  "word_count": 241,
+  "published_at": "2026-05-08T17:28:25Z",
+  "ingested_at": "2026-05-11T11:04:10.567Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

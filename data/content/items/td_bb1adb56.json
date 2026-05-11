@@ -1,0 +1,38 @@
+{
+  "id": "td_bb1adb56",
+  "source": "arxiv",
+  "source_id": "2605.08045",
+  "source_url": "https://arxiv.org/abs/2605.08045",
+  "content_type": "paper",
+  "creator": {
+    "id": "yi_yu",
+    "name": "Yi Yu",
+    "handle": "Yi Yu, Parker Martin, Zhenyu Bu, Yixuan Liu, Yi-Yu Zheng, Orlando Simonetti, Yuchi Han, Yuan Xue",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Uncertainty-Aware Structured Data Extraction from Full CMR Reports via Distilled LLMs",
+  "body_text": "Uncertainty-Aware Structured Data Extraction from Full CMR Reports via Distilled LLMs\n\nConverting free-text cardiac magnetic resonance (CMR) reports into auditable structured data remains a bottleneck for cohort assembly, longitudinal curation, and clinical decision support. We present CMR-EXTR, a lightweight framework that converts free-text CMR reports into structured data and assigns per-field confidence for quality control. A teacher-student distillation pipeline enables fully offline inference while limiting manual annotation. Uncertainty integrates three complementary principles -- distribution plausibility, sampling stability, and cross-field consistency -- to triage human review. Experiments show that CMR-EXTR achieves 99.65% variable-level accuracy, demonstrating both reliable extraction and informative confidence scores. To our knowledge, this is the first CMR-specific extraction system with integrated confidence estimation. The code is available at https://github.com/yuyi1005/CMR-EXTR.\n\nAuthors: Yi Yu, Parker Martin, Zhenyu Bu, Yixuan Liu, Yi-Yu Zheng, Orlando Simonetti, Yuchi Han, Yuan Xue\nCategories: cs.CL, cs.CL",
+  "word_count": 110,
+  "published_at": "2026-05-08T17:35:41Z",
+  "ingested_at": "2026-05-11T11:03:50.509Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

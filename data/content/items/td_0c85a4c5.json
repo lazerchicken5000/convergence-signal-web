@@ -1,0 +1,39 @@
+{
+  "id": "td_0c85a4c5",
+  "source": "arxiv",
+  "source_id": "2605.08034",
+  "source_url": "https://arxiv.org/abs/2605.08034",
+  "content_type": "paper",
+  "creator": {
+    "id": "houssam_zenati",
+    "name": "Houssam Zenati",
+    "handle": "Houssam Zenati, Arthur Gretton",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Semiparametric Efficient Test for Interpretable Distributional Treatment Effects",
+  "body_text": "Semiparametric Efficient Test for Interpretable Distributional Treatment Effects\n\nDistributional treatment effects can be invisible to means: a treatment may preserve average outcomes while changing tails, modes, dispersion, or rare-event probabilities. Kernel tests can detect discrepancies between interventional outcome laws, but global tests do not reveal where the laws differ. We propose DR-ME, to our knowledge the first semiparametrically efficient finite-location test for interpretable distributional treatment effects. DR-ME evaluates an interventional kernel witness at learned outcome locations, returning causal-discrepancy coordinates rather than only a global rejection. From observational data, we derive orthogonal doubly robust kernel features whose centered oracle form is the canonical gradient of this finite witness. For fixed locations, we characterize the local testing limit: DR-ME is chi-square calibrated under the null, has noncentral chi-square local power, and uses the covariance whitening that optimizes local signal-to-noise for discrepancies visible through the selected coordinates. This efficient local-power geometry yields a principled location-learning criterion, with sample splitting preserving post-selection validity. Experiments show near-nominal type-I error, competitive power against global doubly robust kernel tests, and interpretable learned locations that localize distributional effects in a semi-synthetic medical-imaging study.\n\nAuthors: Houssam Zenati, Arthur Gretton\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 177,
+  "published_at": "2026-05-08T17:23:34Z",
+  "ingested_at": "2026-05-11T11:03:55.202Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

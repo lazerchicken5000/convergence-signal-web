@@ -1,0 +1,39 @@
+{
+  "id": "td_918ad2bd",
+  "source": "arxiv",
+  "source_id": "2605.08075",
+  "source_url": "https://arxiv.org/abs/2605.08075",
+  "content_type": "paper",
+  "creator": {
+    "id": "maryam_maghsoudi",
+    "name": "Maryam Maghsoudi",
+    "handle": "Maryam Maghsoudi, Shihab Shamma",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Zero-Shot Imagined Speech Decoding via Imagined-to-Listened MEG Mapping",
+  "body_text": "Zero-Shot Imagined Speech Decoding via Imagined-to-Listened MEG Mapping\n\nDecoding imagined speech from non-invasive brain recordings is challenging because imagined datasets are scarce and difficult to align temporally across subjects and sessions In this work, we propose a new approach to the decoding of imagined speech that leverages the richer and more reliably labeled recordings during listening to speech. We collected paired listened and imagined MEG recordings to rhythmic melodic and spoken stimuli from trained musicians. Using trained musicians helped improve temporal alignment across conditions. We then developed a three-stage decoding pipeline that revealed consistent and meaningful relationships between neural activity evoked by imagining and listening to the same stimuli. First, we trained six linear and neural models to map imagined MEG responses to listened responses. We evaluated these models against a null baseline from unseen subjects to validate that the predicted-listening responses preserve stimulus-specific information. In the second stage, we trained a contrastive word decoder exclusively on the listened MEG responses, and evaluated it using four embedding strategies including semantic, acoustic, and phonetic representations. In the third stage, we process the imagined MEG responses from held-out subjects through the mapping pipeline to compute the corresponding listening responses that are then decoded by the listened decoder. Using rank-based analysis, we show that the imagined words are decodable significantly above chance. We shall report here the results of a proof-of-concept implementation to decode imagined speech, where all evaluations are performed on held-out subjects. We also demonstrate that performance improves with training data size, suggesting that this approach is scalable and can directly be made applicable to realistic brain-computer interface scenarios.\n\nAuthors: Maryam Maghsoudi, Shihab Shamma\nCategories: cs.LG, eess.AS, cs.LG",
+  "word_count": 260,
+  "published_at": "2026-05-08T17:56:19Z",
+  "ingested_at": "2026-05-11T11:03:55.200Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "eess.AS",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

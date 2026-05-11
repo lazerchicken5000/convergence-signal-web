@@ -1,0 +1,39 @@
+{
+  "id": "td_594f4abf",
+  "source": "arxiv",
+  "source_id": "2605.07982",
+  "source_url": "https://arxiv.org/abs/2605.07982",
+  "content_type": "paper",
+  "creator": {
+    "id": "urchade_zaratiana",
+    "name": "Urchade Zaratiana",
+    "handle": "Urchade Zaratiana, Mary Newhauser, George Hurn-Maloney, Ash Lewis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GLiGuard: Schema-Conditioned Classification for LLM Safeguard",
+  "body_text": "GLiGuard: Schema-Conditioned Classification for LLM Safeguard\n\nEnsuring safe, policy-compliant outputs from large language models requires real-time content moderation that can scale across multiple safety dimensions. However, state-of-the-art guardrail models rely on autoregressive decoders with 7B--27B parameters, reformulating what is fundamentally a classification problem as sequential text generation, a design choice that incurs high latency and scales poorly to multi-aspect evaluation. In this work, we introduce \\textbf{GLiGuard}, a 0.3B-parameter schema-conditioned bidirectional encoder adapted from GLiNER2 for LLM content moderation. The key idea is to encode task definitions and label semantics directly into the input sequence as structured token schemas, enabling simultaneous evaluation of prompt safety, response safety, refusal detection, 14 fine-grained harm categories, and 11 jailbreak strategies in a single non-autoregressive forward pass. This schema-conditioned design lets supported task and label blocks be composed directly in the input schema at inference time. Across nine established safety benchmarks, GLiGuard achieves F1 scores competitive with 7B--27B decoder-based guards despite being 23--90$\\times$ smaller, while delivering up to 16$\\times$ higher throughput and 17$\\times$ lower latency. These results suggest that compact bidirectional encoders can approach the accuracy of much larger guard models while drastically reducing inference cost. Code and models are available at https://github.com/fastino-ai/GLiGuard.\n\nAuthors: Urchade Zaratiana, Mary Newhauser, George Hurn-Maloney, Ash Lewis\nCategories: cs.CL, cs.CR, cs.CL",
+  "word_count": 192,
+  "published_at": "2026-05-08T16:44:07Z",
+  "ingested_at": "2026-05-11T11:03:50.510Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CR",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

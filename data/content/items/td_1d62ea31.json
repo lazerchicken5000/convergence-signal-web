@@ -1,0 +1,38 @@
+{
+  "id": "td_1d62ea31",
+  "source": "arxiv",
+  "source_id": "2605.08036",
+  "source_url": "https://arxiv.org/abs/2605.08036",
+  "content_type": "paper",
+  "creator": {
+    "id": "mads_greisen_højlund",
+    "name": "Mads Greisen Højlund",
+    "handle": "Mads Greisen Højlund, August Smart Lykke-Møller, Henry Moss, Ove Christiansen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Don't Get Your Kroneckers in a Twist: Gaussian Processes on High-Dimensional Incomplete Grids",
+  "body_text": "Don't Get Your Kroneckers in a Twist: Gaussian Processes on High-Dimensional Incomplete Grids\n\nWe introduce CUTS-GPR, a new method for performing numerically exact Gaussian process regression (GPR) in high-dimensional settings. The key component of CUTS-GPR is an extremely fast kernel matrix-vector product, which exhibits near-linear or even linear scaling with the amount of training data, $N$, and low-order polynomial scaling with dimensionality, $D$. This is obtained by combining an additive kernel with an incomplete grid and exploiting the resulting structure of the kernel matrix. We demonstrate the scalability of the matrix-vector product by running benchmarks with billions of data points and thousands of dimensions. Full GPR calculations, including hyperparameter optimization, are completed in a matter of hours for $N = 447 265$ and $D = 24$. We demonstrate that our CUTS-GPR enables Bayesian modeling of high-dimensional potential energy surfaces - a longstanding challenge in computational chemistry.\n\nAuthors: Mads Greisen Højlund, August Smart Lykke-Møller, Henry Moss, Ove Christiansen\nCategories: cs.LG, cs.LG",
+  "word_count": 133,
+  "published_at": "2026-05-08T17:24:22Z",
+  "ingested_at": "2026-05-11T11:03:55.201Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

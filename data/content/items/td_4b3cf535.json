@@ -1,0 +1,38 @@
+{
+  "id": "td_4b3cf535",
+  "source": "arxiv",
+  "source_id": "2605.08024",
+  "source_url": "https://arxiv.org/abs/2605.08024",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenxin_zhan",
+    "name": "Wenxin Zhan",
+    "handle": "Wenxin Zhan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MPD$^2$-Router: Mask-aware Multi-expert Prior-regularized Dual-head Deferral Router in Glaucoma Screening and Diagnosis",
+  "body_text": "MPD$^2$-Router: Mask-aware Multi-expert Prior-regularized Dual-head Deferral Router in Glaucoma Screening and Diagnosis\n\nLearning-to-defer (L2D) can make glaucoma screening safer by routing difficult/uncertain cases to humans, yet standard formulations overlook expert availability, heterogeneous readers behavior, workload imbalance, asymmetric diagnostic harm, case difficulty from morphology and deployment shift. We introduce MPD$^2$-Router, a mask-aware multi-expert deferral framework that recasts ophthalmic triage as constrained human--AI routing: whether to defer and to which available expert. It couples a dual-head deferral/allocation policy with mask-aware Gumbel--sigmoid gating that strictly enforces per-sample availability, and fuses uncertainty, morphology, image-quality, and OOD signals. Training uses an asymmetric cost-sensitive objective with an augmented-Lagrangian deferral budget, a group-specific distribution prior, and a rank-majorization JS regularizer that jointly prevent expert collapse without forcing uniform allocation. Across three cross-national glaucoma cohorts (REFUGE, CHAKSU, ORIGA) with a frozen REFUGE-trained backbone, MPD$^2$-Router substantially lowers clinical cost and improves MCC over AI-only at a moderate deferral rate. It is Pareto-optimal in F1--MCC--cost, robust under cross-domain shift, and yields balanced expert utilization.\n\nAuthors: Wenxin Zhan\nCategories: cs.AI, cs.AI",
+  "word_count": 152,
+  "published_at": "2026-05-08T17:10:57Z",
+  "ingested_at": "2026-05-11T11:03:45.828Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
