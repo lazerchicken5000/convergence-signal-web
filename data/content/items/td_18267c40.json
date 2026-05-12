@@ -1,0 +1,38 @@
+{
+  "id": "td_18267c40",
+  "source": "arxiv",
+  "source_id": "2605.10930",
+  "source_url": "https://arxiv.org/abs/2605.10930",
+  "content_type": "paper",
+  "creator": {
+    "id": "vardhan_palod",
+    "name": "Vardhan Palod",
+    "handle": "Vardhan Palod, Upasana Biswas, Subbarao Kambhampati",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Evaluating the False Trust engendered by LLM Explanations",
+  "body_text": "Evaluating the False Trust engendered by LLM Explanations\n\nLarge Language Models (LLMs) and Large Reasoning Models (LRMs) are increasingly used for critical tasks, yet they provide no guarantees about the correctness of their solutions. Users must decide whether to trust the model's answer, aided by reasoning traces, their summaries, or post-hoc generated explanations. These reasoning traces, despite evidence that they are neither faithful representations of the model's computations nor necessarily semantically meaningful, are often interpreted as provenance explanations. It is unclear whether explanations or reasoning traces help users identify when the AI is incorrect, or whether they simply persuade users to trust the AI regardless. In this paper, we take a user-centered approach and develop an evaluation protocol to study how different explanation types affect users' ability to judge the correctness of AI-generated answers and engender false trust in the users. We conduct a between-subject user study, simulating a setting where users do not have the means to verify the solution and analyze the false trust engendered by commonly used LLM explanations - reasoning traces, their summaries and post-hoc explanations. We also test a contrastive dual explanation setting where we present arguments for and against the AI's answer. We find that reasoning traces and post-hoc explanations are persuasive but not informative: they increase user acceptance of LLM predictions regardless of their correctness. In contrast, dual explanation is the only condition that genuinely improves users' ability to distinguish correct from incorrect AI outputs.\n\nAuthors: Vardhan Palod, Upasana Biswas, Subbarao Kambhampati\nCategories: cs.HC, cs.HC",
+  "word_count": 234,
+  "published_at": "2026-05-11T17:58:12Z",
+  "ingested_at": "2026-05-12T11:04:23.541Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.HC",
+    "cs.HC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

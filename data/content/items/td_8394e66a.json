@@ -1,0 +1,38 @@
+{
+  "id": "td_8394e66a",
+  "source": "arxiv",
+  "source_id": "2605.10901",
+  "source_url": "https://arxiv.org/abs/2605.10901",
+  "content_type": "paper",
+  "creator": {
+    "id": "nikita_kezins",
+    "name": "Nikita Kezins",
+    "handle": "Nikita Kezins, Urbas Ekka, Pascal Berrang, Luca Arnaboldi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+  "body_text": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers\n\nGuardrail Classifiers defend production language models against harmful behavior, but although results seem promising in testing, they provide no formal guarantees. Providing formal guarantees for such models is hard because \"harmful behavior\" has no natural specification in a discrete input space: and the standard epsilon-ball properties used in other domains do not carry semantic meaning. We close this gap by shifting verification from the discrete input space to the classifier's pre-activation space, where we define a harmful region as a convex shape enclosing the representations of known harmful prompts. Because the sigmoid classification head is monotonic, certifying the worst-case point is sufficient to certify the entire region, yielding a closed-form soundness proof without approximation in O(d) time. To formally evaluate these classifiers, we propose two constructions of such regions: SVD-aligned hyper-rectangles, which yield exact SAT/UNSAT certificates, and Gaussian Mixture Models, which yield probabilistic certificates over semantically coherent clusters. Applying this framework to three author-trained Guardrail Classifiers on the toxicity domain, every hyper-rectangle configuration returns SAT, exposing verifiable safety holes across all classifiers, despite seemingly high empirical metrics. Probabilistic GMM certificates also expose a divergent structural stability in how these models represent harm. While GPT-2 and Llama-3.1-8B maintain robust coverage of 90% and 80% across varying boundaries, BERT's safety guarantees prove uniquely volatile. This 'coverage collapse' to 55% at the optimal threshold reveals a sparsely populated safety margin in BERT, which only achieves full coverage by adopting an extremely conservative pessimistic threshold. These approaches combined, provide new insights on how effective Guardrail Classifiers really are, beyond traditional red-teaming.\n\nAuthors: Nikita Kezins, Urbas Ekka, Pascal Berrang, Luca Arnaboldi\nCategories: cs.LG, cs.LG",
+  "word_count": 257,
+  "published_at": "2026-05-11T17:41:38Z",
+  "ingested_at": "2026-05-12T11:04:18.465Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

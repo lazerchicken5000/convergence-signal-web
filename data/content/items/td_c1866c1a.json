@@ -1,0 +1,40 @@
+{
+  "id": "td_c1866c1a",
+  "source": "arxiv",
+  "source_id": "2605.10931",
+  "source_url": "https://arxiv.org/abs/2605.10931",
+  "content_type": "paper",
+  "creator": {
+    "id": "albert_alcalde",
+    "name": "Albert Alcalde",
+    "handle": "Albert Alcalde, Leon Bungert, Konstantin Riedl, Tim Roith",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Quantifying Concentration Phenomena of Mean-Field Transformers in the Low-Temperature Regime",
+  "body_text": "Quantifying Concentration Phenomena of Mean-Field Transformers in the Low-Temperature Regime\n\nTransformers with self-attention modules as their core components have become an integral architecture in modern large language and foundation models. In this paper, we study the evolution of tokens in deep encoder-only transformers at inference time which is described in the large-token limit by a mean-field continuity equation. Leveraging ideas from the convergence analysis of interacting multi-particle systems, with particles corresponding to tokens, we prove that the token distribution rapidly concentrates onto the push-forward of the initial distribution under a projection map induced by the key, query, and value matrices, and remains metastable for moderate times. Specifically, we show that the Wasserstein distance of the two distributions scales like $\\sqrt{{\\log(β+1)}/β}\\exp(Ct)+\\exp(-ct)$ in terms of the temperature parameter $β^{-1}\\to 0$ and inference time $t\\geq 0$. For the proof, we establish Lyapunov-type estimates for the zero-temperature equation, identify its limit as $t\\to\\infty$, and employ a stability estimate in Wasserstein space together with a quantitative Laplace principle to couple the two equations. Our result implies that for time scales of order $\\logβ$ the token distribution concentrates at the identified limiting distribution. Numerical experiments confirm this and, beyond that, complement our theory by showing that for finite $β$ and large $t$ the dynamics enter a different terminal phase, dominated by the spectrum of the value matrix.\n\nAuthors: Albert Alcalde, Leon Bungert, Konstantin Riedl, Tim Roith\nCategories: math.AP, cs.LG, math.DS, math.AP",
+  "word_count": 211,
+  "published_at": "2026-05-11T17:58:14Z",
+  "ingested_at": "2026-05-12T11:04:18.464Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.AP",
+    "cs.LG",
+    "math.DS",
+    "math.AP"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

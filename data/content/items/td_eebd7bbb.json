@@ -1,0 +1,35 @@
+{
+  "id": "td_eebd7bbb",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Using LLM in the shebang line of a script",
+  "body_text": "TIL: Using LLM in the shebang line of a script\n        Kim_Bruning on Hacker News:\n\nBut seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...]\n\nThis inspired me to look at patterns for doing exactly that with LLM. Here's the simplest, which takes advantage of LLM fragments:\n#!/usr/bin/env -S llm -f\nGenerate an SVG of a pelican riding a bicycle\n\nBut you can also incorporate tool calls using the -T name_of_tool option:\n#!/usr/bin/env -S llm -T llm_time -f\nWrite a haiku that mentions the exact current time\n\nOr even execute YAML templates directly that define extra tools as Python functions:\n#!/usr/bin/env -S llm -t\nmodel: gpt-5.4-mini\nsystem: |\n  Use tools to run calculations\nfunctions: |\n  def add(a: int, b: int) -&gt; int:\n      return a + b\n  def multiply(a: int, b: int) -&gt; int:\n      return a * b\n\nThen:\n./calc.sh 'what is 2344 * 5252 + 134' --td\n\nWhich outputs (thanks to that --td tools debug option):\nTool call: multiply({'a': 2344, 'b': 5252})\n  12310688\n\nTool call: add({'a': 12310688, 'b': 134})\n  12310822\n\n2344 × 5252 + 134 = **12,310,822**\n\nRead the full TIL for a more complex example that uses the Datasette SQL API to answer questions about content on my blog.\n    \n    \n        Tags: llm, llm-tool-use, llms, ai, generative-ai",
+  "word_count": 213,
+  "published_at": "2026-05-11T18:48:57.000Z",
+  "ingested_at": "2026-05-12T11:00:07.288Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

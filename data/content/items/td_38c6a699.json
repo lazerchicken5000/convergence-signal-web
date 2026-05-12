@@ -1,0 +1,39 @@
+{
+  "id": "td_38c6a699",
+  "source": "arxiv",
+  "source_id": "2605.10910",
+  "source_url": "https://arxiv.org/abs/2605.10910",
+  "content_type": "paper",
+  "creator": {
+    "id": "richie_yeung",
+    "name": "Richie Yeung",
+    "handle": "Richie Yeung, Aleks Kissinger, Rob Cornish",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Equivariant Reinforcement Learning for Clifford Quantum Circuit Synthesis",
+  "body_text": "Equivariant Reinforcement Learning for Clifford Quantum Circuit Synthesis\n\nWe consider the problem of synthesizing Clifford quantum circuits for devices with all-to-all qubit connectivity. We approach this task as a reinforcement learning problem in which an agent learns to discover a sequence of elementary Clifford gates that reduces a given symplectic matrix representation of a Clifford circuit to the identity. This formulation permits a simple learning curriculum based on random walks from the identity. We introduce a novel neural network architecture that is equivariant to qubit relabelings of the symplectic matrix representation, and which is size-agnostic, allowing a single learned policy to be applied across different qubit counts without circuit splicing or network reparameterization. On six-qubit Clifford circuits, the largest regime for which optimal references are available, our agent finds circuits within one two-qubit gate of optimality in milliseconds per instance, and finds optimal circuits in 99.2% of instances within seconds per instance. After continued training on ten-qubit instances, the agent scales to unseen Clifford tableaus with up to thirty qubits, including targets generated from circuits with over a thousand Clifford gates, where it achieves lower average two-qubit gate counts than Qiskit's Aaronson-Gottesman and greedy Clifford synthesizers.\n\nAuthors: Richie Yeung, Aleks Kissinger, Rob Cornish\nCategories: quant-ph, cs.LG, quant-ph",
+  "word_count": 188,
+  "published_at": "2026-05-11T17:49:28Z",
+  "ingested_at": "2026-05-12T11:04:18.464Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.LG",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
