@@ -1,0 +1,40 @@
+{
+  "id": "td_80ab6919",
+  "source": "arxiv",
+  "source_id": "2605.12450",
+  "source_url": "https://arxiv.org/abs/2605.12450",
+  "content_type": "paper",
+  "creator": {
+    "id": "joshua_m._courtney",
+    "name": "Joshua M. Courtney",
+    "handle": "Joshua M. Courtney",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Simulation of Non-Hermitian Hamiltonians with Bivariate Quantum Signal Processing",
+  "body_text": "Simulation of Non-Hermitian Hamiltonians with Bivariate Quantum Signal Processing\n\nWe achieve query-optimal quantum simulations of non-Hermitian Hamiltonians $H_{\\mathrm{eff}} = H_R + iH_I$, where $H_R$ is Hermitian and $H_I \\succeq 0$, using a bivariate extension of quantum signal processing (QSP) with non-commuting signal operators. The algorithm encodes the interaction-picture Dyson series as a polynomial on the bitorus, implemented through a structured multivariable QSP (M-QSP) circuit. A constant-ratio condition guarantees scalar angle-finding for M-QSP circuits with arbitrary non-commuting signal operators. A degree-preserving sum-of-squares spectral factorization permits scalar complementary polynomials in two variables. Angles are deterministically calculated in a classical precomputation step, running in $\\mathcal{O}(d_R \\cdot d_I)$ classical operations. Operator norms $α_R\\,,β_I$ contribute additively with query complexity $\\mathcal{O}((α_R + β_I)T + \\log(1/\\varepsilon)/\\log\\log(1/\\varepsilon))$ matching an information-theoretic lower bound in the separate-oracle model, where $H_R$ and $H_I$ are accessed through independent block encodings. The postselection success probability is $e^{-2β_I T}\\|e^{-iH_{\\mathrm{eff}}T}|ψ_0\\rangle\\|^2\\cdot (1 - \\mathcal{O}(\\varepsilon))$, decomposing into a state-dependent factor $\\|e^{-iH_{\\mathrm{eff}}T}|ψ_0\\rangle\\|^2$ from the intrinsic barrier and an $e^{-2β_I T}$ overhead from polynomial block-encoding.\n\nAuthors: Joshua M. Courtney\nCategories: quant-ph, cs.CC, cs.DS, quant-ph",
+  "word_count": 157,
+  "published_at": "2026-05-12T17:40:56Z",
+  "ingested_at": "2026-05-13T11:05:24.716Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.CC",
+    "cs.DS",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

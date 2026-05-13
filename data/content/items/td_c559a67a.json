@@ -1,0 +1,39 @@
+{
+  "id": "td_c559a67a",
+  "source": "arxiv",
+  "source_id": "2605.12492",
+  "source_url": "https://arxiv.org/abs/2605.12492",
+  "content_type": "paper",
+  "creator": {
+    "id": "kexuan_shi",
+    "name": "Kexuan Shi",
+    "handle": "Kexuan Shi, Hanxuan Li, Zeju Qiu, Yandong Wen, Simon Buchholz, Weiyang Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation",
+  "body_text": "Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation\n\nWe introduce Pion, a spectrum-preserving optimizer for large language model (LLM) training based on orthogonal equivalence transformation. Unlike additive optimizers such as Adam and Muon, Pion updates each weight matrix through left and right orthogonal transformations, preserving its singular values throughout training. This yields an optimization mechanism that modulates the geometry of weight matrices while keeping their spectral norm fixed. We derive the Pion update rule, systematically examine its design choices, and analyze its convergence behavior along with several key properties. Empirical results show that Pion offers a stable and competitive alternative to standard optimizers for both LLM pretraining and finetuning.\n\nAuthors: Kexuan Shi, Hanxuan Li, Zeju Qiu, Yandong Wen, Simon Buchholz, Weiyang Liu\nCategories: cs.LG, stat.ML, cs.LG",
+  "word_count": 101,
+  "published_at": "2026-05-12T17:59:34Z",
+  "ingested_at": "2026-05-13T11:03:52.725Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

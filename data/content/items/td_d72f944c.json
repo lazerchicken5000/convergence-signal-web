@@ -1,0 +1,42 @@
+{
+  "id": "td_d72f944c",
+  "source": "arxiv",
+  "source_id": "2605.12453",
+  "source_url": "https://arxiv.org/abs/2605.12453",
+  "content_type": "paper",
+  "creator": {
+    "id": "mannam_veera_narayana",
+    "name": "Mannam Veera Narayana",
+    "handle": "Mannam Veera Narayana, Rohit Singh, Deepa M. R, Radha Krishna Ganti",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Enabling AI-Native Mobility in 6G: A Real-World Dataset for Handover, Beam Management, and Timing Advance",
+  "body_text": "Enabling AI-Native Mobility in 6G: A Real-World Dataset for Handover, Beam Management, and Timing Advance\n\nTo address the issues of high interruption time and measurement report overhead under user equipment (UE) mobility especially in high speed 5G use cases the use of AI/ML techniques (AI/ML beam management and mobility procedures) have been proposed. These techniques rely heavily on data that are most often simulated for various scenarios and do not accurately reflect real deployment behavior or user traffic patterns. Therefore, there is an utmost need for realistic datasets under various conditions. This work presents a dataset collected from a commercially deployed network across various modes of mobility (pedestrian, bike, car, bus, and train) and at multiple speeds to depict real time UE mobility. When collecting the dataset, we focused primarily on handover (HO) scenarios, with the aim of reducing the HO interruption time and maintaining continuous throughput during and immediately after HO execution. To support this research, the dataset includes timing advance (TA) measurements at various signaling events such as RACH trigger, MAC CE, and PDCCH grant which are typically missing in existing works. We cover a detailed description of the creation of the dataset; experimental setup, data acquisition, and extraction. We also cover an exploratory analysis of the data, with a primary focus on mobility, beam management, and TA. We discuss multiple use cases in which the proposed dataset can facilitate understanding of the inference of the AI/ML model. One such use case is to train and evaluate various AI/ML models for TA prediction.\n\nAuthors: Mannam Veera Narayana, Rohit Singh, Deepa M. R, Radha Krishna Ganti\nCategories: eess.SP, cs.AI, cs.DB, cs.LG, cs.NI, eess.SP",
+  "word_count": 240,
+  "published_at": "2026-05-12T17:43:49Z",
+  "ingested_at": "2026-05-13T11:03:43.180Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SP",
+    "cs.AI",
+    "cs.DB",
+    "cs.LG",
+    "cs.NI",
+    "eess.SP"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_5ace8561",
+  "source": "arxiv",
+  "source_id": "2605.12478",
+  "source_url": "https://arxiv.org/abs/2605.12478",
+  "content_type": "paper",
+  "creator": {
+    "id": "lalit_yadav",
+    "name": "Lalit Yadav",
+    "handle": "Lalit Yadav, Yongqiang Cheng, Mathieu Doucet",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Automated multiphase identification and refinement in powder diffraction using mismatch-tolerant machine learning",
+  "body_text": "Automated multiphase identification and refinement in powder diffraction using mismatch-tolerant machine learning\n\nPowder diffraction is a primary structural characterization tool in materials science, yet automated phase identification remains a major bottleneck for autonomous discovery. Existing workflows rely heavily on search--match heuristics and manual Rietveld refinement, and broadly usable end-to-end automation is especially limited for neutron powder diffraction, where comparable tools are largely absent. Here we introduce RADAR-PD, a modality-aware machine learning framework for phase identification and quantification across both X-ray and neutron powder diffraction. RADAR-PD couples a mismatch-tolerant neural network operating on coarse momentum-transfer fingerprints with automated lattice nudging and physics-constrained Rietveld verification, enabling dominant-phase hypotheses to be generated from elemental constraints and secondary phases to be isolated recursively. On an experimental RRUFF PXRD benchmark, RADAR-PD outperforms DARA in recovering the reference phase. RADAR-PD further provides robust multiphase analysis on complex time-of-flight and constant-wavelength neutron datasets, addressing an important unmet need in automated neutron diffraction analysis. These results establish RADAR-PD as an auditable, instrument-agnostic framework for autonomous structural discovery.\n\nAuthors: Lalit Yadav, Yongqiang Cheng, Mathieu Doucet\nCategories: cond-mat.mtrl-sci, cond-mat.str-el, cond-mat.mtrl-sci",
+  "word_count": 157,
+  "published_at": "2026-05-12T17:55:21Z",
+  "ingested_at": "2026-05-13T11:05:24.715Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.mtrl-sci",
+    "cond-mat.str-el",
+    "cond-mat.mtrl-sci"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "td_6256f6ba",
+  "source": "arxiv",
+  "source_id": "2605.12466",
+  "source_url": "https://arxiv.org/abs/2605.12466",
+  "content_type": "paper",
+  "creator": {
+    "id": "jacob_fein-ashley",
+    "name": "Jacob Fein-Ashley",
+    "handle": "Jacob Fein-Ashley, Paria Rashidinejad",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Solve the Loop: Attractor Models for Language and Reasoning",
+  "body_text": "Solve the Loop: Attractor Models for Language and Reasoning\n\nLooped Transformers offer a promising alternative to purely feed-forward computation by iteratively refining latent representations, improving language modeling and reasoning. Yet recurrent architectures remain unstable to train, costly to optimize and deploy, and constrained to small, fixed recurrence depths. We introduce Attractor Models, in which a backbone module first proposes output embeddings, then an attractor module refines them by solving for the fixed point, with gradients obtained through implicit differentiation. Thus, training memory remains constant in effective depth, and iterations are chosen adaptively by convergence. Empirically, Attractor Models outperform existing models across two regimes, large-scale language-model pretraining and reasoning with tiny models. In language modeling, Attractor Models deliver a Pareto improvement over standard Transformers and stable looped models across sizes, improving perplexity by up to 46.6% and downstream accuracy by up to 19.7% while reducing training cost. Notably, a 770M Attractor Model outperforms a 1.3B Transformer trained on twice as many tokens. On challenging reasoning tasks, we show that our model with only 27M parameters and approximately 1000 examples achieves 91.4% accuracy on Sudoku-Extreme and 93.1% on Maze-Hard, scaling favorably where frontier models like Claude and GPT o3, fail completely, and specialized recursive reasoners collapse at larger sizes. Lastly, we show that Attractor Models exhibit a novel phenomenon, which we call equilibrium internalization: fixed-point training places the model's initial output embedding near equilibrium, allowing the solver to be removed at inference time with little degradation. Together, these results suggest that Attractor Models make iterative refinement scalable by turning recurrence into a computation the model can learn to internalize.\n\nAuthors: Jacob Fein-Ashley, Paria Rashidinejad\nCategories: cs.LG, cs.AI, cs.CL, cs.NE, cs.LG",
+  "word_count": 258,
+  "published_at": "2026-05-12T17:51:26Z",
+  "ingested_at": "2026-05-13T11:03:43.180Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.NE",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

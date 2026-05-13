@@ -1,0 +1,35 @@
+{
+  "id": "td_5062dfb8",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm 0.32a2",
+  "body_text": "Release: llm 0.32a2\n        A bunch of useful stuff in this LLM alpha, but the most important detail is this one:\n\nMost reasoning-capable OpenAI models now use the /v1/responses endpoint instead of /v1/chat/completions. This enables interleaved reasoning across tool calls for GPT-5 class models. #1435\n\nThis means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the -R or --hide-reasoning flags if you don't want to see that.\n    \n    \n        Tags: llm, projects, openai, generative-ai, annotated-release-notes, ai, llms",
+  "word_count": 91,
+  "published_at": "2026-05-12T17:45:07.000Z",
+  "ingested_at": "2026-05-13T11:00:07.336Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

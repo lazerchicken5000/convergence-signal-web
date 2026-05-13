@@ -1,0 +1,38 @@
+{
+  "id": "td_93e71895",
+  "source": "arxiv",
+  "source_id": "2605.12432",
+  "source_url": "https://arxiv.org/abs/2605.12432",
+  "content_type": "paper",
+  "creator": {
+    "id": "trang_h._tran",
+    "name": "Trang H. Tran",
+    "handle": "Trang H. Tran, Luis Nunes Vicente",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Stochastic block coordinate and function alternation for multi-objective optimization and learning",
+  "body_text": "Stochastic block coordinate and function alternation for multi-objective optimization and learning\n\nMulti-objective optimization is central to many engineering and machine learning applications, where multiple objectives must be optimized in balance. While multi-gradient based optimization methods combine these objectives in each step, such methods require computing gradients with respect to all variables at every iteration, resulting in high computational costs in large-scale settings. In this work, we propose a framework that simultaneously alternates the optimization of each objective and the (stochastic) gradient update with respect to each variable block. Our framework reduces per-iteration computational cost while enabling exploration of the Pareto front by allocating a prescribed number of gradient steps to each objective. We establish rigorous convergence guarantees across several stochastic smooth settings, including convex, non-convex, and Polyak-Lojasiewicz conditions, recovering classical convergence rates of single-objective methods. Numerical experiments demonstrate that our framework outperforms non-alternating methods on multi-target regression and produces a competitive Pareto front approximation, highlighting its computational efficiency and practical effectiveness.\n\nAuthors: Trang H. Tran, Luis Nunes Vicente\nCategories: math.OC, math.OC",
+  "word_count": 150,
+  "published_at": "2026-05-12T17:28:42Z",
+  "ingested_at": "2026-05-13T11:05:24.716Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

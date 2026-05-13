@@ -1,0 +1,39 @@
+{
+  "id": "td_61534010",
+  "source": "arxiv",
+  "source_id": "2605.12446",
+  "source_url": "https://arxiv.org/abs/2605.12446",
+  "content_type": "paper",
+  "creator": {
+    "id": "chen_li",
+    "name": "Chen Li",
+    "handle": "Chen Li, Xiaoling Hu, Songzhu Zheng, Jiawei Zhou, Chao Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ORCE: Order-Aware Alignment of Verbalized Confidence in Large Language Models",
+  "body_text": "ORCE: Order-Aware Alignment of Verbalized Confidence in Large Language Models\n\nLarge language models (LLMs) often produce answers with high certainty even when they are incorrect, making reliable confidence estimation essential for deployment in real-world scenarios. Verbalized confidence, where models explicitly state their confidence in natural language, provides a flexible and user-facing uncertainty signal that can be applied even when token logits are unavailable. However, existing verbalized-confidence methods often optimize answer generation and confidence generation jointly, which can cause confidence-alignment objectives to interfere with answer accuracy. In this work, we propose a decoupled and order-aware framework for verbalized confidence calibration. Our method first generates an answer and then estimates confidence conditioned on the fixed question--answer pair, allowing confidence optimization without directly perturbing the answer-generation process. To align confidence with correctness likelihood, we construct a sampling-based surrogate from multiple model completions and optimize rank-based reinforcement learning objectives that encourage responses with higher estimated correctness likelihood to receive higher verbalized confidence. Experiments on reasoning and knowledge-intensive benchmarks show that our method improves calibration and failure prediction performance while largely preserving answer accuracy. These results demonstrate that verbalized confidence can be more reliably aligned by decoupling confidence estimation from answer generation and optimizing the relative ordering of confidence across responses.\n\nAuthors: Chen Li, Xiaoling Hu, Songzhu Zheng, Jiawei Zhou, Chao Chen\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 196,
+  "published_at": "2026-05-12T17:39:43Z",
+  "ingested_at": "2026-05-13T11:03:47.936Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
