@@ -1,0 +1,39 @@
+{
+  "id": "td_76555e30",
+  "source": "arxiv",
+  "source_id": "2605.13801",
+  "source_url": "https://arxiv.org/abs/2605.13801",
+  "content_type": "paper",
+  "creator": {
+    "id": "deepak_pandita",
+    "name": "Deepak Pandita",
+    "handle": "Deepak Pandita, Flip Korn, Chris Welty, Christopher M. Homan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling",
+  "body_text": "Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling\n\nAs generative AI models such as large language models (LLMs) become more pervasive, ensuring the safety, robustness, and overall trustworthiness of these systems is paramount. However, AI is currently facing a reproducibility crisis driven by unreliable evaluations and unrepeatable experimental results. While human raters are often used to assess models for utility and safety, they introduce divergent biases and subjective opinions into their annotations. Overcoming this variance is exceptionally challenging because very little data exists to study how experimental repeatability actually improves as the annotator pool grows. Standard evaluation practices typically rely on a small number of annotations per item (often 3 to 5) and lack the persistent rater identifiers necessary to model individual variance across items. In this work, we introduce a multi-level bootstrapping approach to realistically model annotator behavior. Leveraging datasets with a large number of ratings and persistent rater identifiers, we analyze the tradeoffs between the number of items ($N$) and the number of responses per item ($K$) required to achieve statistical significance.\n\nAuthors: Deepak Pandita, Flip Korn, Chris Welty, Christopher M. Homan\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 166,
+  "published_at": "2026-05-13T17:22:27Z",
+  "ingested_at": "2026-05-14T13:04:16.515Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_847aa5f9",
+  "source": "arxiv",
+  "source_id": "2605.15183",
+  "source_url": "https://arxiv.org/abs/2605.15183",
+  "content_type": "paper",
+  "creator": {
+    "id": "ml_nissen_gonzalez",
+    "name": "ML Nissen Gonzalez",
+    "handle": "ML Nissen Gonzalez, Melwina Albuquerque, Laurence Wroe, Jacob Meyer Cohen, Logan Riggs Smith, Thomas Dooms",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+  "body_text": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability\n\nMechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either empirical behaviour, leaving them blind to out-of-distribution mechanisms, or basis-dependent parameters, meaning they disregard weight-space symmetries. To address these issues for the class of tensor-based models, we introduce a weight-based metric, tensor similarity, that is invariant to such symmetries. This metric captures global functional equivalence and accounts for cross-layer mechanisms using an efficient recursive algorithm. Empirically, tensor similarity tracks functional training dynamics, such as grokking and backdoor insertion, with higher fidelity than existing metrics. This reduces measuring similarity and verifying faithfulness into a solved algebraic problem rather than one of empirical approximation.\n\nAuthors: ML Nissen Gonzalez, Melwina Albuquerque, Laurence Wroe, Jacob Meyer Cohen, Logan Riggs Smith, Thomas Dooms\nCategories: cs.LG, cs.LG",
+  "word_count": 118,
+  "published_at": "2026-05-14T17:58:27Z",
+  "ingested_at": "2026-05-15T11:04:39.937Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

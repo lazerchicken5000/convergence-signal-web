@@ -1,0 +1,38 @@
+{
+  "id": "td_f54aa0c3",
+  "source": "arxiv",
+  "source_id": "2605.15190",
+  "source_url": "https://arxiv.org/abs/2605.15190",
+  "content_type": "paper",
+  "creator": {
+    "id": "yanzuo_lu",
+    "name": "Yanzuo Lu",
+    "handle": "Yanzuo Lu, Ronglai Zuo, Jiankang Deng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO",
+  "body_text": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO\n\nCausal autoregressive video diffusion models support real-time streaming generation by extrapolating future chunks from previously generated content. Distilling such generators from high-fidelity bidirectional teachers yields competitive few-step models, yet a persistent gap between the history distributions encountered during training and those arising at inference constrains generation quality over long horizons. We introduce the Real-time Autoregressive Video Extrapolation Network (RAVEN), a training-time test framework that repacks each self rollout into an interleaved sequence of clean historical endpoints and noisy denoising states. This formulation aligns training attention with inference-time extrapolation and allows downstream chunk losses to supervise the history representations on which future predictions depend. We further propose Consistency-model Group Relative Policy Optimization (CM-GRPO), which reformulates a consistency sampling step as a conditional Gaussian transition and applies online Reinforcement Learning (RL) directly to this kernel, avoiding the Euler-Maruyama auxiliary process adopted in prior flow-model RL formulations. Experiments demonstrate that RAVEN surpasses recent causal video distillation baselines across quality, semantic, and dynamic degree evaluations, and that CM-GRPO provides further gains when combined with RAVEN.\n\nAuthors: Yanzuo Lu, Ronglai Zuo, Jiankang Deng\nCategories: cs.CV, cs.CV",
+  "word_count": 171,
+  "published_at": "2026-05-14T17:59:30Z",
+  "ingested_at": "2026-05-15T11:05:49.094Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

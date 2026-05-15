@@ -1,0 +1,39 @@
+{
+  "id": "td_897e8dd6",
+  "source": "arxiv",
+  "source_id": "2605.15118",
+  "source_url": "https://arxiv.org/abs/2605.15118",
+  "content_type": "paper",
+  "creator": {
+    "id": "karthik_raghu_iyer",
+    "name": "Karthik Raghu Iyer",
+    "handle": "Karthik Raghu Iyer, Yazdan Jamshidi, Nicholas Bray, Alexey A. Shvets",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Talk is (Not) Cheap: A Taxonomy and Benchmark Coverage Audit for LLM Attacks",
+  "body_text": "Talk is (Not) Cheap: A Taxonomy and Benchmark Coverage Audit for LLM Attacks\n\nWe introduce a reusable framework for auditing whether LLM attack benchmarks collectively cover the threat surface: a 4$\\times$6 Target $\\times$ Technique matrix grounded in STRIDE, constructed from a 507-leaf taxonomy -- 401 data-populated and 106 threat-model-derived leaves -- of inference-time attacks extracted from 932 arXiv security studies (2023--2026). The matrix enables benchmark-external validation -- auditing collective coverage rather than individual benchmark consistency. Applying it to six public benchmarks reveals that the three primary frameworks (HarmBench, InjecAgent, AgentDojo) occupy non-overlapping cells covering at most 25\\% of the matrix, while entire STRIDE threat categories (Service Disruption, Model Internals) lack any standardized evaluation, despite published attacks in these categories achieving 46$\\times$ token amplification and 96\\% attack success rates through mechanisms which no benchmark tests. The corpus of 2,521 unique attack groups further reveals pervasive naming fragmentation (up to 29 surface forms for a single attack) and heavy concentration in Safety \\&amp; Alignment Bypass, structural properties invisible at smaller scale. The taxonomy, attack records, and coverage mappings are released as extensible artifacts; as new benchmarks emerge, they can be mapped onto the same matrix, enabling the community to track whether evaluation gaps are closing.\n\nAuthors: Karthik Raghu Iyer, Yazdan Jamshidi, Nicholas Bray, Alexey A. Shvets\nCategories: cs.CR, cs.CL, cs.CR",
+  "word_count": 190,
+  "published_at": "2026-05-14T17:30:36Z",
+  "ingested_at": "2026-05-15T11:04:34.977Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CL",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

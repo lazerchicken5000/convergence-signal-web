@@ -1,0 +1,39 @@
+{
+  "id": "td_4292cb84",
+  "source": "arxiv",
+  "source_id": "2605.15199",
+  "source_url": "https://arxiv.org/abs/2605.15199",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruozhen_he",
+    "name": "Ruozhen He",
+    "handle": "Ruozhen He, Meng Wei, Ziyan Yang, Vicente Ordonez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
+  "body_text": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation\n\nMulti-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long sequences. Existing evaluations typically use independently generated prompt sets with limited entity coverage and simple consistency metrics, making standardized comparison difficult. We introduce EntityBench, a benchmark of 140 episodes (2,491 shots) derived from real narrative media, with explicit per-shot entity schedules tracking characters, objects, and locations simultaneously across easy / medium / hard tiers of up to 50 shots, 13 cross-shot characters, 8 cross-shot locations, 22 cross-shot objects, and recurrence gaps spanning up to 48 shots. It is paired with a three-pillar evaluation suite that disentangles intra-shot quality, prompt-following alignment, and cross-shot consistency, with a fidelity gate that admits only accurate entity appearances into cross-shot scoring. As a baseline, we propose EntityMem, a memory-augmented generation system that stores verified per-entity visual references in a persistent memory bank before generation begins. Experiments show that cross-shot entity consistency degrades sharply with recurrence distance in existing methods, and that explicit per-entity memory yields the highest character fidelity (Cohen's d = +2.33) and presence among methods evaluated. Code and data are available at https://github.com/Catherine-R-He/EntityBench/.\n\nAuthors: Ruozhen He, Meng Wei, Ziyan Yang, Vicente Ordonez\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 194,
+  "published_at": "2026-05-14T17:59:55Z",
+  "ingested_at": "2026-05-15T11:04:30.144Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

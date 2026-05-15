@@ -1,0 +1,39 @@
+{
+  "id": "td_66dc1f1f",
+  "source": "arxiv",
+  "source_id": "2605.13846",
+  "source_url": "https://arxiv.org/abs/2605.13846",
+  "content_type": "paper",
+  "creator": {
+    "id": "ziheng_zhang",
+    "name": "Ziheng Zhang",
+    "handle": "Ziheng Zhang, Yunzhong Hou, Naijing Liu, Liang Zheng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
+  "body_text": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data\n\nThis paper introduces WARDEN, an early language model system capable of transcribing and translating Wardaman, an endangered Australian indigenous language into English. The significant challenge we face is the lack of large-scale training data: in fact, we only have 6 hours of annotated audio. Therefore, while it is common practice to train a single model for transcription and translation using large datasets (like English to French), this practice is no longer viable in the Wardaman to English context. To tackle the low-resource challenge, we design WARDEN to have separate transcription and translation models: WARDEN first turns a Wardaman audio input into phonemic transcription, and then the transcription into English translation. Further, we propose two useful techniques to enhance performance. For transcription, we initialize the Wardaman token from Sundanese, a language that shares similar phonemes with Wardaman, to accelerate fine-tuning of the transcription model. For translation, we compile a Wardaman-English dictionary from expert annotations, and provide this domain-specific knowledge to a large language model (LLM) to reason and decide the final output. We empirically demonstrate that this two-stage design works better than data-hungry unified approaches in extremely low data settings. Using a mere 6 hours of annotated data, WARDEN outperforms larger open-source and proprietary models and establishes a strong baseline. Data and code are available.\n\nAuthors: Ziheng Zhang, Yunzhong Hou, Naijing Liu, Liang Zheng\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 214,
+  "published_at": "2026-05-13T17:59:52Z",
+  "ingested_at": "2026-05-14T13:04:16.513Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
