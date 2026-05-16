@@ -1,0 +1,39 @@
+{
+  "id": "td_8edfd722",
+  "source": "arxiv",
+  "source_id": "2605.15173",
+  "source_url": "https://arxiv.org/abs/2605.15173",
+  "content_type": "paper",
+  "creator": {
+    "id": "quinten_de_man",
+    "name": "Quinten De Man",
+    "handle": "Quinten De Man, Gilvir Gill, Michael A. Bender, Laxman Dhulipala, David Tench",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Hybrid Sketching Methods for Dynamic Connectivity on Sparse Graphs",
+  "body_text": "Hybrid Sketching Methods for Dynamic Connectivity on Sparse Graphs\n\nDynamic connectivity is a fundamental dynamic graph problem, and recent algorithmic breakthroughs on dynamic graph sketching have reshaped what is theoretically possible: by encoding the graph as per-vertex linear sketches, these algorithms solve dynamic connectivity in only $Θ(V \\log^2 V)$ space, independent of the number of edges,outperforming lossless $Θ(V+E)$-space structures that grow as the graph becomes denser. Prior to this work, no practical dynamic connectivity algorithm has been able to translate these theoretical breakthroughs into space savings on real-world graphs. The main obstacle is that per-vertex sketches cost thousands of bytes per vertex, so sketching only pays off once the graph becomes extremely dense. We observe that sparse real-world graphs are often not uniformly sparse, these graphs can contain dense cores on a small subset of vertices that account for a large fraction of edges. We exploit this structure via hybrid sketching: sketch only the dense core, and store the sparse periphery losslessly. We design new hybrid algorithms for fully-dynamic and semi-streaming connectivity with space $O(\\min\\{V+E, V \\log V \\log(2+E/V)\\})$ w.h.p., simultaneously matching the lossless bound on sparse graphs, the sketching bound on dense graphs, and improving on both in an intermediate regime. A key component is BalloonSketch, a new l0-sampler reducing per-vertex sketch sizes by up to 8x. We implement HybridSCALE, a modular system treating the lossless and sketch-based components as subroutines. HybridSCALE is the first sketch-based dynamic connectivity system to save space on common real-world graphs. Compared to the state-of-the-art lossless baseline, HybridSCALE saves up to 15% space on sparse graphs (average degree &lt; 100), up to 92% on intermediate density graphs (average degree ~ 100-1000), and up to 97% on dense graphs (average degree &gt; 1000).\n\nAuthors: Quinten De Man, Gilvir Gill, Michael A. Bender, Laxman Dhulipala, David Tench\nCategories: cs.DS, cs.DB, cs.DS",
+  "word_count": 279,
+  "published_at": "2026-05-14T17:57:03Z",
+  "ingested_at": "2026-05-16T11:04:10.265Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DB",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
