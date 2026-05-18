@@ -1,0 +1,38 @@
+{
+  "id": "td_bb8551e6",
+  "source": "arxiv",
+  "source_id": "2605.16214",
+  "source_url": "https://arxiv.org/abs/2605.16214",
+  "content_type": "paper",
+  "creator": {
+    "id": "wonseok_jeong",
+    "name": "Wonseok Jeong",
+    "handle": "Wonseok Jeong, Francesca Tavazza, Brian DeCost",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bridging Atomistic Simulation and Experimental Processing Timescales with Goal-Directed Deep Reinforcement Learning",
+  "body_text": "Bridging Atomistic Simulation and Experimental Processing Timescales with Goal-Directed Deep Reinforcement Learning\n\nAtomic-scale modeling has advanced rapidly through integration of machine learning, yet a key bottleneck remains. Even with an accurate potential energy surface and a clear target material, we still lack a practical atomistic dynamics framework that can simulate how materials form under realistic synthesis and processing conditions. Many processing transformations are governed by rare events in non-idealized evolving environments, while direct molecular dynamics is limited by femtosecond timesteps and short accessible trajectories. Existing acceleration methods often require prior mechanistic knowledge, including reaction coordinates, collective variables, event tables, or pathway guesses, which is rarely available in real experiments. Here we present an E(3)-equivariant deep reinforcement learning framework that enables goal-directed pathway discovery without hand-crafted reaction coordinates. The framework introduces a complementary operating mode for atomistic simulation in which realistic, non-idealized environments can be addressed directly while retaining kinetic plausibility through barrier-aware rewards. As a challenging benchmark, we target silicon dry oxidation, where rare-event pathways in amorphous SiO2 are effectively inaccessible to conventional atomistic methods. We treat an O2 molecule as an agent that performs continuous rigid-body translations and rotations in a Si/a-SiO2 environment. The agent is trained with an episode-level objective that rewards verified O2 dissociation while preferring low effective activation barriers. We demonstrate that the learned policy discovers kinetically favorable O2 diffusion and dissociation pathways in a disordered Si/a-SiO2 environment, progressively improving success rate while reducing effective activation barriers over training. We also discuss how the approach can be generalized to other processing and synthesis problems.\n\nAuthors: Wonseok Jeong, Francesca Tavazza, Brian DeCost\nCategories: cond-mat.mtrl-sci, cond-mat.mtrl-sci",
+  "word_count": 246,
+  "published_at": "2026-05-15T17:28:06Z",
+  "ingested_at": "2026-05-18T11:05:09.832Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.mtrl-sci",
+    "cond-mat.mtrl-sci"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

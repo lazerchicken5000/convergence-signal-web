@@ -1,0 +1,39 @@
+{
+  "id": "td_ac1f0fee",
+  "source": "arxiv",
+  "source_id": "2605.16221",
+  "source_url": "https://arxiv.org/abs/2605.16221",
+  "content_type": "paper",
+  "creator": {
+    "id": "jakub_lis",
+    "name": "Jakub Lis",
+    "handle": "Jakub Lis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Why Empirical p-Values Are Not Uniform: Reference Samples, Dependence, and PIT Backtesting",
+  "body_text": "Why Empirical p-Values Are Not Uniform: Reference Samples, Dependence, and PIT Backtesting\n\nProbability integral transforms (PITs) and empirical $p$-values are widely used to assess the calibration of predictive distributions. While exact PIT values are uniformly distributed under correct model specification, practical implementations rely on empirical estimates constructed from finite samples. We show that this estimation step fundamentally alters the statistical structure of the problem. In particular, common-sample and rolling-window implementations introduce dependence and variance distortions that invalidate classical one-sample uniformity tests. When empirical percentiles are conditioned on a shared reference sample, the resulting statistics converge towards a two-sample Kolmogorov--Smirnov regime, while rolling windows induce autocorrelation and variance suppression. Our findings indicate that treating empirical percentiles as independent uniform draws can distort statistical inference and that backtesting procedures based on PITs require revised calibration methods accounting for the underlying two-stage sampling structure.\n\nAuthors: Jakub Lis\nCategories: stat.ME, stat.AP, stat.ME",
+  "word_count": 129,
+  "published_at": "2026-05-15T17:32:13Z",
+  "ingested_at": "2026-05-18T11:06:02.772Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.AP",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

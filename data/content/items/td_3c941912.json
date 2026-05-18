@@ -1,0 +1,39 @@
+{
+  "id": "td_3c941912",
+  "source": "arxiv",
+  "source_id": "2605.16222",
+  "source_url": "https://arxiv.org/abs/2605.16222",
+  "content_type": "paper",
+  "creator": {
+    "id": "nathan_roll",
+    "name": "Nathan Roll",
+    "handle": "Nathan Roll, Jill Kries, Laura Gwilliams, Cory Shain",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Artificial Aphasias in Lesioned Language Models",
+  "body_text": "Artificial Aphasias in Lesioned Language Models\n\nAphasias, selective language impairments which can arise from brain damage, reveal the functional organization of human language by providing causal links between affected brain regions and specific symptom profiles. Drawing on this literature, we introduce an aphasia-inspired technique to characterize the emergent functional organization of language models (LMs). We ``lesion'' (zero-out) model parameters and measure the effects of this intervention against clinical aphasia symptoms, as diagnosed by the Text Aphasia Battery (TAB). When applied to 112,426 outputs from five 1B-scale LMs, the full range of evaluated symptoms surface, but in distributions largely distinct from those of humans. Our method uncovers broad symptom-profile differences between attention components (query, key, value, output) and feed-forward components (up, gate, down), with weaker evidence for differences among components within the same mechanism. We also find an effect of depth, where lesions in early layers disproportionately cause syntactic and semantic symptoms while late-middle layers yield higher rates of phonological and fluency deficits. Although some LM lesions induce quantitatively more similar profiles to some human aphasia types than others, qualitative differences in symptom patterns between LMs and humans suggest that aphasia syndromes are heavily influenced by the details of learning and processing rather than being a domain-invariant consequence of disrupted language processing.\n\nAuthors: Nathan Roll, Jill Kries, Laura Gwilliams, Cory Shain\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 205,
+  "published_at": "2026-05-15T17:33:07Z",
+  "ingested_at": "2026-05-18T11:04:22.502Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

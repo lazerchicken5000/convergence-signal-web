@@ -1,0 +1,38 @@
+{
+  "id": "td_0621b287",
+  "source": "arxiv",
+  "source_id": "2605.16239",
+  "source_url": "https://arxiv.org/abs/2605.16239",
+  "content_type": "paper",
+  "creator": {
+    "id": "shuchan_wang",
+    "name": "Shuchan Wang",
+    "handle": "Shuchan Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dynamics-Level Watermarking of Flow Matching Models with Random Codes",
+  "body_text": "Dynamics-Level Watermarking of Flow Matching Models with Random Codes\n\nWe introduce a dynamics-level approach to watermarking generative models. Rather than embedding signals into model weights or outputs, we embed the watermark directly into the learned continuous dynamics -- the velocity field of a flow matching model. We formulate this as random coding over a continuous channel: a key-dependent perturbation is added during training, and the message is recovered at detection time from black-box queries. The perturbation is designed to leave the generated distribution unchanged. Experiments on MNIST and CIFAR-10 across different architectures confirm reliable message recovery, preserved generation quality, and chance-level decoding accuracy without the secret key.\n\nAuthors: Shuchan Wang\nCategories: cs.LG, cs.LG",
+  "word_count": 98,
+  "published_at": "2026-05-15T17:48:22Z",
+  "ingested_at": "2026-05-18T11:04:43.104Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
