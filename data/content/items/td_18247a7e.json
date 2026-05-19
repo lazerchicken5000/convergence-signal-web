@@ -1,0 +1,41 @@
+{
+  "id": "td_18247a7e",
+  "source": "arxiv",
+  "source_id": "2605.18740",
+  "source_url": "https://arxiv.org/abs/2605.18740",
+  "content_type": "paper",
+  "creator": {
+    "id": "qianhao_yuan",
+    "name": "Qianhao Yuan",
+    "handle": "Qianhao Yuan, Jie Lou, Xing Yu, Hongyu Lin, Le Sun, Xianpei Han, Yaojie Lu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation",
+  "body_text": "Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation\n\nMultimodal Large Language Models (MLLMs) still struggle with fine-grained visual understanding, where answers often depend on small but decisive evidence in the full image. We observe a regional-to-global perception gap: the same MLLM answers fine-grained questions more accurately when conditioned on evidence-centered crops than on the corresponding full images, suggesting that many failures stem from difficulty to focus on relevant evidence rather than insufficient local recognition ability. Motivated by this observation, we propose Vision-OPD (Vision On-Policy Distillation), a regional-to-global self-distillation framework that transfers the model's own privileged regional perception to its full-image policy. Vision-OPD instantiates two conditional policies from the same MLLM: a crop-conditioned teacher and a full-image-conditioned student. The student generates on-policy rollouts, and Vision-OPD minimizes token-level divergence between the teacher and student next-token distributions along these rollouts. This enables the model to internalize the benefit of visual zooming without external teacher models, ground-truth labels, reward verifiers, or inference-time tool use. Experiments on multiple fine-grained visual understanding benchmarks show that Vision-OPD models achieve competitive or superior performance against much larger open-source, closed-source, and \"Thinking-with-Images\" agentic models.\n\nAuthors: Qianhao Yuan, Jie Lou, Xing Yu, Hongyu Lin, Le Sun, Xianpei Han, Yaojie Lu\nCategories: cs.CV, cs.AI, cs.CL, cs.LG, cs.CV",
+  "word_count": 177,
+  "published_at": "2026-05-18T17:57:04Z",
+  "ingested_at": "2026-05-19T11:03:54.472Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

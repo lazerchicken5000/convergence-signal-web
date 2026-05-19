@@ -1,0 +1,39 @@
+{
+  "id": "td_ce62a0ae",
+  "source": "arxiv",
+  "source_id": "2605.18741",
+  "source_url": "https://arxiv.org/abs/2605.18741",
+  "content_type": "paper",
+  "creator": {
+    "id": "peter_matthew_jacobs",
+    "name": "Peter Matthew Jacobs",
+    "handle": "Peter Matthew Jacobs, Lekha Patel, Anirban Bhattacharya, Debdeep Pati",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Robust Simulation Based Inference Through Robust Optimal Transport",
+  "body_text": "Robust Simulation Based Inference Through Robust Optimal Transport\n\nWhen a statistical model $\\{P_θ : θ\\in Θ\\}$ lacks analytically tractable likelihoods, parametric statistical inference based on data generated from an unknown underlying distribution $P$ can still be performed as long as simulations from the model are possible. This approach is called Simulation Based Inference (SBI). Statistical models are rarely exactly correct (that is, $P \\notin \\{P_θ: θ\\in Θ\\}$), and Robust SBI focuses on inferring a reasonable parameter even under model mis-specification. We focus on the setting where $P$ possesses potentially both geometric and Total Variation type discrepancies from $P_{θ^*}$. For this problem, we use a Kullback-Liebler informed robust Optimal Transport divergence, motivated by Empirical Likelihood considerations. We introduce a stochastic sub-gradient ascent algorithm with a convergence guarantee for estimating the semi-discrete version of this robust Optimal Transport divergence, and design a parallelized SBI algorithm which employs the regular bootstrap on top of minimum semi-discrete robust Optimal Transport for parameter uncertainty quantification. We demonstrate mathematically why the divergence is robust under a joint geometric plus Total Variation type contamination and then illustrate the robustness of inferences on a complex benchmark SBI task.\n\nAuthors: Peter Matthew Jacobs, Lekha Patel, Anirban Bhattacharya, Debdeep Pati\nCategories: stat.ME, stat.CO, stat.ME",
+  "word_count": 182,
+  "published_at": "2026-05-18T17:57:07Z",
+  "ingested_at": "2026-05-19T11:04:20.551Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.CO",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

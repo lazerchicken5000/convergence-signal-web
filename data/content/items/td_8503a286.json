@@ -1,0 +1,39 @@
+{
+  "id": "td_8503a286",
+  "source": "arxiv",
+  "source_id": "2605.18749",
+  "source_url": "https://arxiv.org/abs/2605.18749",
+  "content_type": "paper",
+  "creator": {
+    "id": "feiyan_zhou",
+    "name": "Feiyan Zhou",
+    "handle": "Feiyan Zhou, Luyuan Wang, Shoufa Chen, Zhe Wang, Zhiheng Liu, Yuren Cong, Xiaohui Zhang, Fanny Yang, Belinda Zeng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "WavFlow: Audio Generation in Waveform Space",
+  "body_text": "WavFlow: Audio Generation in Waveform Space\n\nModern audio generation predominantly relies on latent-space compression, introducing additional complexity and potential information loss. In this work, we challenge this paradigm with WavFlow, a framework that generates high-fidelity audio directly in raw waveform space without intermediate representations. To overcome the inherent difficulties of modeling high-dimensional and low-energy signals, we reshape audio into 2D token grids through waveform patchify and introduce amplitude lifting to align signal scales, enabling stable optimization via direct x-prediction in flow matching. To capture complex semantic alignment and temporal synchronization, we leverage an automated data pipeline to curate 5 million high-quality video-text-audio triplets, allowing the model to learn fine-grained acoustic patterns from scratch. Experimental results show that WavFlow achieves competitive performance on the video-to-audio benchmark VGGSound (FD_PaSST: 59.98, IS_PANNs: 17.40, DeSync: 0.44) and the text-to-audio benchmark AudioCaps (FD_PANNs: 10.63, IS_PANNs: 12.62), matching or exceeding the performance of established latent-based methods. Our work demonstrates that intermediate compression is not a prerequisite for high-quality synthesis, offering a simpler and more scalable alternative for multimodal audio generation.\n\nAuthors: Feiyan Zhou, Luyuan Wang, Shoufa Chen, Zhe Wang, Zhiheng Liu, Yuren Cong, Xiaohui Zhang, Fanny Yang, Belinda Zeng\nCategories: cs.SD, cs.CV, cs.SD",
+  "word_count": 168,
+  "published_at": "2026-05-18T17:59:10Z",
+  "ingested_at": "2026-05-19T11:04:14.998Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.CV",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

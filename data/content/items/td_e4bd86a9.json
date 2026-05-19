@@ -1,0 +1,39 @@
+{
+  "id": "td_e4bd86a9",
+  "source": "arxiv",
+  "source_id": "2605.18714",
+  "source_url": "https://arxiv.org/abs/2605.18714",
+  "content_type": "paper",
+  "creator": {
+    "id": "songsong_yu",
+    "name": "Songsong Yu",
+    "handle": "Songsong Yu, Yuxin Chen, Ying Shan, Yanwei Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Semantic Generative Tuning for Unified Multimodal Models",
+  "body_text": "Semantic Generative Tuning for Unified Multimodal Models\n\nUnified multimodal models (UMMs) strive to consolidate visual understanding and visual generation within a single architecture. However, prevailing training paradigms independently optimize understanding via sparse text signals and generation through dense pixel objectives. Such a decoupled strategy yields misaligned representation spaces, isolating visual understanding from generation and hindering their mutual reinforcement. This work presents the first systematic investigation into generative post-training, where we formulate hierarchical visual tasks as generative proxies to bridge the isolation in UMMs. Our empirical investigation reveals that high-level semantic tasks, particularly image segmentation, serve as optimal proxies. Unlike low-level tasks that distract models with texture details, segmentation provides structural semantics that significantly enhance both vision-centric perception and generative layout fidelity. Building upon these insights, we introduce Semantic Generative Tuning (SGT), a novel paradigm that leverages segmentation as a generative proxy to align and synergize multimodal capabilities. Mechanistic analyses further demonstrate that SGT fundamentally improves feature linear separability and optimizes visual-textual attention allocation pattern. Extensive evaluations show that SGT consistently improves both multimodal comprehension and generative fidelity across mainstream benchmarks. Our code is available on the https://song2yu.github.io/SGT/.\n\nAuthors: Songsong Yu, Yuxin Chen, Ying Shan, Yanwei Li\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 180,
+  "published_at": "2026-05-18T17:46:46Z",
+  "ingested_at": "2026-05-19T11:03:54.472Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

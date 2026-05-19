@@ -1,0 +1,40 @@
+{
+  "id": "td_102f37b0",
+  "source": "arxiv",
+  "source_id": "2605.18694",
+  "source_url": "https://arxiv.org/abs/2605.18694",
+  "content_type": "paper",
+  "creator": {
+    "id": "zijian_liu",
+    "name": "Zijian Liu",
+    "handle": "Zijian Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can Adaptive Gradient Methods Converge under Heavy-Tailed Noise? A Case Study of AdaGrad",
+  "body_text": "Can Adaptive Gradient Methods Converge under Heavy-Tailed Noise? A Case Study of AdaGrad\n\nMany tasks in modern machine learning are observed to involve heavy-tailed gradient noise during the optimization process. To manage this realistic and challenging setting, new mechanisms, such as gradient clipping and gradient normalization, have been introduced to ensure the convergence of first-order algorithms. However, adaptive gradient methods, a famous class of modern optimizers that includes popular $\\mathtt{Adam}$ and $\\mathtt{AdamW}$, often perform well even without any extra operations mentioned above. It is therefore natural to ask whether adaptive gradient methods can converge under heavy-tailed noise without any algorithmic changes. In this work, we take the first step toward answering this question by investigating a special case, $\\mathtt{AdaGrad}$, the origin of adaptive gradient methods. We provide the first provable convergence rate for $\\mathtt{AdaGrad}$ in non-convex optimization when the tail index $p$ satisfies $4/3&lt;p\\leq2$. Notably, this result is achieved without requiring any prior knowledge of $p$ and is hence adaptive to the tail index. In addition, we develop an algorithm-dependent lower bound, suggesting that the existing minimax rate for heavy-tailed optimization is not attainable by $\\mathtt{AdaGrad}$. Lastly, we consider $\\mathtt{AdaGrad}\\text{-}\\mathtt{Norm}$, a popular variant of $\\mathtt{AdaGrad}$ in theoretical studies, and show an improved rate that holds for any $1&lt;p\\leq2$ under an extra mild assumption.\n\nAuthors: Zijian Liu\nCategories: math.OC, cs.LG, stat.ML, math.OC",
+  "word_count": 200,
+  "published_at": "2026-05-18T17:30:15Z",
+  "ingested_at": "2026-05-19T11:04:20.552Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.LG",
+    "stat.ML",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

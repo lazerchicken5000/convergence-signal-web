@@ -1,0 +1,43 @@
+{
+  "id": "td_858c0ee1",
+  "source": "arxiv",
+  "source_id": "2605.18745",
+  "source_url": "https://arxiv.org/abs/2605.18745",
+  "content_type": "paper",
+  "creator": {
+    "id": "lifu_wei",
+    "name": "Lifu Wei",
+    "handle": "Lifu Wei, Yinuo Ren, Naichen Shi, Yiping Lu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SURGE: Approximation-free Training Free Particle Filter for Diffusion Surrogate",
+  "body_text": "SURGE: Approximation-free Training Free Particle Filter for Diffusion Surrogate\n\nDiffusion-based generative models increasingly rely on inference-time guidance, adding a drift term or reweighting mixture of experts, to improve sample quality on task-specific objectives. However, most existing techniques require repeated score or gradient evaluations, introducing bias, high computational overhead, or both. We introduce \\texttt{URGE}, Unbiased Resampling via Girsanov Estimation, a derivative-free inference-time scaling algorithm that performs path-wise importance reweighting via a Girsanov change of measure. Instead of computing gradient-based particle weights in previous work, \\texttt{URGE} attaches a simple multiplicative weight to each simulated trajectory and periodically resamples. No score, no Hessian, and no PDE evaluation is required. We establish an equivalence between path-wise and particle-wise SMC: the Girsanov path weight admits a backward conditional expectation that recovers the previous particle-level weights, guaranteeing that both schemes produce the same unbiased terminal law. Empirically, \\texttt{URGE} outperforms existing inference-time guidance baselines on synthetic tests and diffusion-model benchmarks, achieving better generation quality, while being significantly simpler to implement and fully gradient-free.\n\nAuthors: Lifu Wei, Yinuo Ren, Naichen Shi, Yiping Lu\nCategories: stat.ML, cs.LG, math.NA, math.PR, q-fin.MF, stat.CO, stat.ML",
+  "word_count": 157,
+  "published_at": "2026-05-18T17:59:00Z",
+  "ingested_at": "2026-05-19T11:04:04.540Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.NA",
+    "math.PR",
+    "q-fin.MF",
+    "stat.CO",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_625f9327",
+  "source": "arxiv",
+  "source_id": "2605.18748",
+  "source_url": "https://arxiv.org/abs/2605.18748",
+  "content_type": "paper",
+  "creator": {
+    "id": "yongsheng_yu",
+    "name": "Yongsheng Yu",
+    "handle": "Yongsheng Yu, Ziyun Zeng, Zhiyuan Xiao, Zhenghong Zhou, Hang Hua, Wei Xiong, Jiebo Luo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Aurora: Unified Video Editing with a Tool-Using Agent",
+  "body_text": "Aurora: Unified Video Editing with a Tool-Using Agent\n\nRecent video editing models have converged on a unified conditioning design: a single diffusion transformer jointly consumes text, source video, and reference images, and one set of weights covers replacement, removal, style transfer, and reference-driven insertion. The design is flexible, but it assumes that the user already provides model-ready text, reference images, and spatial grounding for local edits, which real requests often omit. We present Aurora, an agentic video editing framework that pairs a tool-augmented vision-language model (VLM) agent with a unified video diffusion transformer. The VLM agent maps a raw user request to a structured edit plan aligned with the transformer's conditioning channels, thereby resolving textual and visual underspecification before generation. We train the VLM agent with supervised data for complete edit planning and reference-image selection, together with preference pairs for robust tool use and instruction refinement. We introduce AgentEdit-Bench to evaluate agent-enhanced video editing under textual and visual underspecification. Experiments on AgentEdit-Bench and two existing video editing benchmarks show that Aurora improves over instruction-only baselines and that the VLM agent transfers to compatible frozen video editing models. Project page: https://yeates.github.io/Aurora-Page\n\nAuthors: Yongsheng Yu, Ziyun Zeng, Zhiyuan Xiao, Zhenghong Zhou, Hang Hua, Wei Xiong, Jiebo Luo\nCategories: cs.CV, cs.CV",
+  "word_count": 182,
+  "published_at": "2026-05-18T17:59:03Z",
+  "ingested_at": "2026-05-19T11:04:09.695Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_b93246c7",
+  "source": "arxiv",
+  "source_id": "2605.18702",
+  "source_url": "https://arxiv.org/abs/2605.18702",
+  "content_type": "paper",
+  "creator": {
+    "id": "aditya_tanna",
+    "name": "Aditya Tanna",
+    "handle": "Aditya Tanna, Nassim Bouarour, Mohamed Bouadi, Vinay Kumar Sankarapu, Pratinav Seth",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Distilling Tabular Foundation Models for Structured Health Data",
+  "body_text": "Distilling Tabular Foundation Models for Structured Health Data\n\nTabular foundation models (TFMs) achieve strong performance on health datasets, but their inference cost and infrastructure requirements limit practical use. We study whether their predictive behavior can be transferred to lightweight tabular models through knowledge distillation. Since in-context TFMs condition on the training set at inference time, naive distillation can introduce context leakage; we address this with stratified out-of-fold teacher labeling. Across $19$ healthcare datasets, $6$ TFM teachers, $4$ student families, and several multi-teacher ensembles, we find that distilled students retain at least $90\\%$ of teacher AUC, outperforming teachers in some cases, while running at least $26\\times$ faster on CPU and preserving calibration and fairness critical for health applications. Moreover, multi-teacher averaging does not consistently improve over the best single teacher. Leakage-aware distillation is thus a viable route for bringing TFM-quality predictions into inference-constrained health settings.\n\nAuthors: Aditya Tanna, Nassim Bouarour, Mohamed Bouadi, Vinay Kumar Sankarapu, Pratinav Seth\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 136,
+  "published_at": "2026-05-18T17:37:28Z",
+  "ingested_at": "2026-05-19T11:03:54.473Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

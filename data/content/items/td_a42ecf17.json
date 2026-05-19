@@ -1,0 +1,40 @@
+{
+  "id": "td_a42ecf17",
+  "source": "arxiv",
+  "source_id": "2605.18735",
+  "source_url": "https://arxiv.org/abs/2605.18735",
+  "content_type": "paper",
+  "creator": {
+    "id": "miguel_farinha",
+    "name": "Miguel Farinha",
+    "handle": "Miguel Farinha, Ronald Clark",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PIXLRelight: Controllable Relighting via Intrinsic Conditioning",
+  "body_text": "PIXLRelight: Controllable Relighting via Intrinsic Conditioning\n\nWe present PIXLRelight, a feed-forward approach for physically controllable single-image relighting. Existing methods either provide limited lighting control (e.g. through text or environment maps), accumulate errors when chaining inverse and forward rendering, or require costly per-image optimization. Our key idea is to bridge physically based rendering (PBR) and learned image synthesis through a shared intrinsic conditioning that can be obtained from either real photographs or PBR renders. At training time, paired multi-illumination photographs are decomposed into albedo, diffuse shading, and non-diffuse residuals, which condition the model. At inference time, the same conditioning is computed from a path-traced render of a coarse 3D reconstruction of the input under user-specified PBR lights. A transformer-based neural renderer then applies the target illumination to the source photograph, preserving fine image detail through a per-pixel affine modulation. PIXLRelight enables arbitrary PBR-style lighting control, achieves state-of-the-art relighting quality, and runs in under a tenth of a second per image. Code and models are available at https://mlfarinha.github.io/pixl-relight/.\n\nAuthors: Miguel Farinha, Ronald Clark\nCategories: cs.CV, cs.GR, cs.LG, cs.CV",
+  "word_count": 160,
+  "published_at": "2026-05-18T17:55:03Z",
+  "ingested_at": "2026-05-19T11:04:04.541Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.GR",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

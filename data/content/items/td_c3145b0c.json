@@ -1,0 +1,39 @@
+{
+  "id": "td_c3145b0c",
+  "source": "arxiv",
+  "source_id": "2605.18709",
+  "source_url": "https://arxiv.org/abs/2605.18709",
+  "content_type": "paper",
+  "creator": {
+    "id": "yongliang_sun",
+    "name": "Yongliang Sun",
+    "handle": "Yongliang Sun, Siddhant Gautam, Chaoyan Huang, Nicole Seiberlich, Ismail Alkhouri, Saiprasad Ravishankar",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dynamic MRI Reconstruction Via Dual Deep Priors and Low-Rank Plus Sparse Modeling",
+  "body_text": "Dynamic MRI Reconstruction Via Dual Deep Priors and Low-Rank Plus Sparse Modeling\n\nDynamic MRI reconstruction from undersampled measurements is a challenging inverse problem that requires preserving both spatial reconstruction quality and temporal consistency across the frames of the cine series. While recent learning-based approaches achieve strong performance, they heavily rely on large training, mostly fully sampled, datasets, and may otherwise generalize poorly. In contrast, training-data-free methods such as deep image prior (DIP) adapt directly to individual scans but often fail to fully exploit temporal structure and are prone to overfitting. They are particularly attractive for dynamic MRI due to the limited large, public, high-quality datasets. In this work, we propose a structured DIP framework for dynamic MRI reconstruction that explicitly models spatiotemporal correlations through a low-rank plus sparse (L+S) decomposition. Instead of directly reconstructing the cine image series, we parameterize the low-rank background and sparse dynamic components using two DIP untrained convolutional neural networks, jointly optimized using accelerated extrapolated ADMM (eADMM). This formulation combines the implicit regularization of DIP with the interpretability of classical L+S regularization. We provide a convergence analysis for the proposed eADMM algorithm in the presence of DIP-based nonconvex parameterizations. In particular, we establish a sufficient descent property and show that every cluster point of the generated sequence is a critical point of the associated Lyapunov function. Across various acceleration factors, our numerical results demonstrate that the proposed method consistently outperforms classical reconstruction and existing supervised and unsupervised MRI reconstruction techniques.\n\nAuthors: Yongliang Sun, Siddhant Gautam, Chaoyan Huang, Nicole Seiberlich, Ismail Alkhouri, Saiprasad Ravishankar\nCategories: eess.IV, eess.SP, eess.IV",
+  "word_count": 232,
+  "published_at": "2026-05-18T17:44:23Z",
+  "ingested_at": "2026-05-19T11:04:20.552Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.IV",
+    "eess.SP",
+    "eess.IV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
