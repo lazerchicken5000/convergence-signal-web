@@ -1,0 +1,40 @@
+{
+  "id": "td_a2686a95",
+  "source": "arxiv",
+  "source_id": "2605.20132",
+  "source_url": "https://arxiv.org/abs/2605.20132",
+  "content_type": "paper",
+  "creator": {
+    "id": "jintao_li",
+    "name": "Jintao Li",
+    "handle": "Jintao Li, Weichang Li, Kai Tong, Xaingyu Guo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FiLark: a streaming-first software framework for end-to-end exploration, annotation, and algorithm integration in distributed acoustic sensing",
+  "body_text": "FiLark: a streaming-first software framework for end-to-end exploration, annotation, and algorithm integration in distributed acoustic sensing\n\nDistributed acoustic sensing (DAS) systems generate continuous, ultra-high-channel-count data streams at rates that exceed the capabilities of conventional batch-oriented analysis frameworks. As a result, essential tasks such as interactive exploration of long-duration recordings, scalable event annotation, and real-time algorithm-in-the-loop monitoring remain inadequately supported by workflows built around manually selected data segments and offline processing. This paper presents FiLark (Fiber Lark), a Python framework that applies a \\emph{streaming-first} principle uniformly across data access, signal processing, visualization and monitoring for DAS. Instead of operating on manually selected data segments, FiLark presents any DAS sources-including continuous multi-file recordings-as a unified stream and builds all system components around that abstraction. An OpenGL-based ring-buffer renderer enables interactive browsing and visualization of arbitrarily long recordings with constant memory usage. An integrated annotation interface supports event labeling directly within continuous data streams, facilitating the creation of reproducible machine-learning-ready labeled datasets without offline preprocessing. The signal processing library includes temporal, spatial, spectral, and decomposition-based operators, with both CPU implementations and GPU-accelerated variants via PyTorch, alongside stateful chunked execution that preserves processing continuity and application semantics across segment boundaries. A standardized monitor interface further integrates streaming detectors and learning-based models into the visualization workflow. By sharing a common streaming abstraction across all layers, FiLark allows processing configurations and workflows developed interactively to transfer directly to scalable production pipelines without modification.\n\nAuthors: Jintao Li, Weichang Li, Kai Tong, Xaingyu Guo\nCategories: physics.geo-ph, cs.LG, eess.SP, physics.geo-ph",
+  "word_count": 221,
+  "published_at": "2026-05-19T17:17:02Z",
+  "ingested_at": "2026-05-20T11:04:09.952Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.geo-ph",
+    "cs.LG",
+    "eess.SP",
+    "physics.geo-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

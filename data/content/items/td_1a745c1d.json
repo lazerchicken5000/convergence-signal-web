@@ -1,0 +1,40 @@
+{
+  "id": "td_1a745c1d",
+  "source": "arxiv",
+  "source_id": "2605.20145",
+  "source_url": "https://arxiv.org/abs/2605.20145",
+  "content_type": "paper",
+  "creator": {
+    "id": "aurélien_pion",
+    "name": "Aurélien Pion",
+    "handle": "Aurélien Pion, Emmanuel Vazquez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Goal-Oriented Lower-Tail Calibration of Gaussian Processes for Bayesian Optimization",
+  "body_text": "Goal-Oriented Lower-Tail Calibration of Gaussian Processes for Bayesian Optimization\n\nBayesian optimization (BO) selects evaluation points for expensive black-box objectives using Gaussian process (GP) predictive distributions. Kernel choice and hyperparameter selection can lead to miscalibrated predictive distributions and an inappropriate exploration-exploitation trade-off. For minimization, sampling criteria such as expected improvement (EI) depend on the predictive distribution below the current best value, so lower-tail miscalibration directly affects the sampling decision. This article studies goal-oriented calibration of GP predictive distributions below a low threshold $t$ in the noiseless setting, for standard GP models with hyperparameters selected by maximum likelihood. A framework for predictive reliability below $t$ is introduced, based on two notions of spatial calibration: occurrence calibration over the design space and thresholded $μ$-calibration on sublevel sets of the form $\\{x\\in\\mathbb{X}, f(x)\\le t\\}$. Building on this framework, we propose tcGP, a post-hoc method that calibrates GP predictive distributions below~$t$, and we show that the resulting EI-based global optimization algorithm remains dense in the design space. Experiments on standard benchmarks show improved lower-tail calibration and BO performance relative to standard GP models and globally calibrated GP models.\n\nAuthors: Aurélien Pion, Emmanuel Vazquez\nCategories: stat.ML, cs.LG, stat.ME, stat.ML",
+  "word_count": 174,
+  "published_at": "2026-05-19T17:32:25Z",
+  "ingested_at": "2026-05-20T11:04:09.951Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

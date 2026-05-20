@@ -1,0 +1,39 @@
+{
+  "id": "td_780cfb92",
+  "source": "arxiv",
+  "source_id": "2605.20182",
+  "source_url": "https://arxiv.org/abs/2605.20182",
+  "content_type": "paper",
+  "creator": {
+    "id": "xinyang_tian",
+    "name": "Xinyang Tian",
+    "handle": "Xinyang Tian, Ruitao Liu, Ziyi Ye, Siyang Xue, Xin Wang, Xuesong Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Atoms of Thought: Universal EEG Representation Learning with Microstates",
+  "body_text": "Atoms of Thought: Universal EEG Representation Learning with Microstates\n\nLearning universal representations from electroencephalogram (EEG) signals is a cutting-edge approach in the field of neuroinformatics and brain-computer interfaces (BCIs). Conventionally, EEG is treated as a multivariate temporal signal, where time- or frequency-domain features are extracted for representation learning. This paper investigates a simple yet effective EEG representation, i.e., microstates. Microstates represent the building blocks of brain activity patterns at a microscopic time scale. We build a universal microstate tokenizer from a large medical EEG dataset by clustering continuous EEG signals into sequences of discrete microstates. The microstate tokenizer is then adopted universally across a series of downstream tasks, including sleep staging, emotion recognition, and motor imagery classification. Experimental results show that EEG representation learning with microstates outperforms traditional time-domain and frequency-domain features under different models and across different tasks. Further analysis shows that microstates offer greater interpretability and scalability, thereby opening up applications in both cognitive neuroscience and clinical research.\n\nAuthors: Xinyang Tian, Ruitao Liu, Ziyi Ye, Siyang Xue, Xin Wang, Xuesong Chen\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 151,
+  "published_at": "2026-05-19T17:59:31Z",
+  "ingested_at": "2026-05-20T11:04:00.120Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

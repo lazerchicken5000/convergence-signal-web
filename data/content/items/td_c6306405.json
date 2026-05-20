@@ -1,0 +1,38 @@
+{
+  "id": "td_c6306405",
+  "source": "arxiv",
+  "source_id": "2605.20170",
+  "source_url": "https://arxiv.org/abs/2605.20170",
+  "content_type": "paper",
+  "creator": {
+    "id": "davide_cavicchini",
+    "name": "Davide Cavicchini",
+    "handle": "Davide Cavicchini, Fausto Giunchiglia, Jacopo Staiano",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "KoRe: Compact Knowledge Representations for Large Language Models",
+  "body_text": "KoRe: Compact Knowledge Representations for Large Language Models\n\nModern Large Language Models (LLMs) have shown impressive performances in user-facing tasks such as question answering, as well as consistent improvements in reasoning capabilities. Still, the way these models encode knowledge seems inherently flawed: by design, LLMs encode world-knowledge within their parameters. This way of representing knowledge is inherently opaque, difficult to debug and update, and prone to hallucinations. On the other hand, Knowledge Graphs can provide human-readable and easily editable world knowledge representations, and their application in knowledge-intensive tasks has consistently proven beneficial to downstream performance. Nonetheless, current integration techniques require extensive retraining or finetuning. To overcome this issue, we introduce KoRe, a methodology to encode 1-hop sub-graphs into compact discrete knowledge tokens and inject them into a LLM backbone. We test the proposed approach on three established benchmarks, and report competitive performances coupled with a significant reduction (up to 10x) in token usage. Our results show that compact discrete KG representations can efficiently and effectively be used to ground modern LLMs.\n\nAuthors: Davide Cavicchini, Fausto Giunchiglia, Jacopo Staiano\nCategories: cs.CL, cs.CL",
+  "word_count": 163,
+  "published_at": "2026-05-19T17:53:29Z",
+  "ingested_at": "2026-05-20T11:04:05.027Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
