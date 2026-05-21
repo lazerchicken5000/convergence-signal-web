@@ -1,0 +1,38 @@
+{
+  "id": "td_0417fda1",
+  "source": "arxiv",
+  "source_id": "2605.21475",
+  "source_url": "https://arxiv.org/abs/2605.21475",
+  "content_type": "paper",
+  "creator": {
+    "id": "yi_huang",
+    "name": "Yi Huang",
+    "handle": "Yi Huang, Qingyun Sun, Jia Li, Xingcheng Fu, Jianxin Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Is Fixing Schema Graphs Necessary? Full-Resolution Graph Structure Learning for Relational Deep Learning",
+  "body_text": "Is Fixing Schema Graphs Necessary? Full-Resolution Graph Structure Learning for Relational Deep Learning\n\nRelational prediction tasks are fundamental in many real-world applications, where data are naturally stored in relational databases (RDBs). Relational Deep Learning (RDL) addresses this problem by modeling RDBs as graphs and applying graph neural networks (GNNs) for end-to-end learning. However, the full-resolution property is commonly adopted as a design principle in graph construction for RDBs to preserve relational semantics, which leads most existing methods to rely on fixed graph structures. In this paper, we propose FROG, a Full-Resolution and Optimizable Graph Structure Learning} framework for RDL that formulates relational structure learning as a learnable table role modeling problem, allowing tables to contribute as nodes and edges in message passing. We further design role-driven message passing mechanisms to capture relational semantics, enabling joint optimization of graph structure and GNN representations. To ensure semantic consistency, we introduce functional dependency constraints that regularize representations across table and entity levels. Extensive experiments demonstrate that our method outperforms existing approaches and reveal how table roles impact downstream tasks, offering new insights into graph construction for RDL\n\nAuthors: Yi Huang, Qingyun Sun, Jia Li, Xingcheng Fu, Jianxin Li\nCategories: cs.LG, cs.LG",
+  "word_count": 171,
+  "published_at": "2026-05-20T17:56:09Z",
+  "ingested_at": "2026-05-21T11:04:05.283Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

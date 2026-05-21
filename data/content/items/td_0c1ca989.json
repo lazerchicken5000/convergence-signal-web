@@ -1,0 +1,38 @@
+{
+  "id": "td_0c1ca989",
+  "source": "arxiv",
+  "source_id": "2605.20156",
+  "source_url": "https://arxiv.org/abs/2605.20156",
+  "content_type": "paper",
+  "creator": {
+    "id": "ashkan_bayat",
+    "name": "Ashkan Bayat",
+    "handle": "Ashkan Bayat, Barry C. Sanders",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Comparing sliding-mode, bang-bang and linear-quadratic-Gaussian for steering an atomic clock",
+  "body_text": "Comparing sliding-mode, bang-bang and linear-quadratic-Gaussian for steering an atomic clock\n\nAccurate timekeeping relies on feedback that continually steers a local clock toward a higher-grade reference. We evaluate first-order sliding-mode control (SMC) for steering an atomic clock and benchmark it against two standards: linear-quadratic-Gaussian (LQG) and the bang-bang (BB). All three are tested in a common numerical framework using the standard two-state clock model driven by white and random-walk-frequency noise. To ensure the conclusions are not tied to a single noise realization and a single time period, we repeat the accuracy analysis over 100 independent random seeds for four different time periods, reusing the same seed across controllers within each trial. The time periods considered are one week, one month, one year, and ten years to cover short-, mid-, and long-term analyses of accuracy. Our results show that SMC consistently achieves a better accuracy than LQG over all four timescales. Both SMC and LQG substantially outperform BB over the same time periods. Over the full averaging-time range studied, SMC's stability is almost identical to LQG's, whereas BB shows the characteristic short-term instability. Together, our results indicate that SMC could deliver better accuracy than LQG without the short-term instability seen in BB.\n\nAuthors: Ashkan Bayat, Barry C. Sanders\nCategories: physics.ins-det, physics.ins-det",
+  "word_count": 190,
+  "published_at": "2026-05-19T17:45:45Z",
+  "ingested_at": "2026-05-20T13:05:59.806Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.ins-det",
+    "physics.ins-det"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

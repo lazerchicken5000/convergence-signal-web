@@ -1,0 +1,39 @@
+{
+  "id": "td_ce767b52",
+  "source": "arxiv",
+  "source_id": "2605.20107",
+  "source_url": "https://arxiv.org/abs/2605.20107",
+  "content_type": "paper",
+  "creator": {
+    "id": "robert_jenkinson_alvarez",
+    "name": "Robert Jenkinson Alvarez",
+    "handle": "Robert Jenkinson Alvarez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Isotropy in JEPAs: Hamiltonian Geometry and Symplectic Prediction",
+  "body_text": "Beyond Isotropy in JEPAs: Hamiltonian Geometry and Symplectic Prediction\n\nJEPAs often regularize one-view embeddings toward an isotropic Gaussian, implicitly baking Euclidean symmetry into the representation. We show that this is not merely a benign default. For a known structured downstream geometry $H\\succ0$, the minimax and maximum-entropy covariance under a Hamiltonian energy budget is $(c/d)H^{-1}$, and Euclidean isotropy incurs a closed-form price of isotropy. More importantly, when the downstream geometry is unknown, no geometry-independent fixed marginal target is canonical: every fixed covariance shape can be maximally misaligned for some structured geometry. We further show that even oracle one-view marginals do not identify the JEPA view-to-view predictive coupling. These results suggest that the structural bias in JEPAs should enter the cross-view coupling rather than a fixed encoder marginal. We instantiate this principle with \\textbf{HamJEPA}, which encodes each view as a phase-space state $(q,p)$ and predicts view-to-view transitions with a learned Hamiltonian leapfrog map, while non-isotropic scale and spectral floors prevent collapse. In a deliberately headless token protocol, HamJEPA improves over SIGReg on CIFAR-100 by $+4.89$ kNN@20 and $+3.52$ linear-probe points at 30 epochs, and by $+6.45$ kNN@20 and $+10.64$ linear-probe points at 80 epochs, while a matched MLP predictor ablation shows that the symplectic coupling is the ingredient driving the neighborhood-geometry gain. On ImageNet-100, HamJEPA-$q$ improves by $+4.82$ kNN@20 and $+7.52$ linear-probe points at 45 epochs.\n\nAuthors: Robert Jenkinson Alvarez\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 215,
+  "published_at": "2026-05-19T16:57:47Z",
+  "ingested_at": "2026-05-20T13:05:59.808Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_9e8400a8",
+  "source": "arxiv",
+  "source_id": "2605.20140",
+  "source_url": "https://arxiv.org/abs/2605.20140",
+  "content_type": "paper",
+  "creator": {
+    "id": "jingyuan_hu",
+    "name": "Jingyuan Hu",
+    "handle": "Jingyuan Hu, Zhongjian Wang, Jack Xin, Zhiwen Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Novel Stochastic Particle-Field Algorithm for a Reaction-Diffusion-Advection Cancer Invasion Model",
+  "body_text": "A Novel Stochastic Particle-Field Algorithm for a Reaction-Diffusion-Advection Cancer Invasion Model\n\nIn this paper, we present a novel numerical framework for solving a specific biological reaction-diffusion-advection system of cancer growth in three dimensions (3D) using particles of variable mass. We adopt empirical particle measures to represent cell density and dynamically construct the concentration fields of multiple related chemical species throughout the 3D domain. Efficient interaction between the particles and the spatial grid is achieved through a Particle-in-Cell (PIC) algorithm, while diffusion in space is solved rapidly using a spectral method. We demonstrate that for this particular system, the rate of change of particle mass remains bounded over finite time intervals. Furthermore, in addition to the inherent positivity preservation of cell density guaranteed by the empirical particle measures, the concentrations constructed by the algorithm are also unconditionally positivity-preserving on the spatial grid. Moreover, we present a rigorous error analysis for the proposed method, and numerical experiments confirm the theoretical convergence rates. To the best of our knowledge, this is the first numerical work to solve this system in three dimensions, wherein a rapid spread of cells driven by haptotactic flux is observed, similar to the behavior documented in the two-dimensional case.\n\nAuthors: Jingyuan Hu, Zhongjian Wang, Jack Xin, Zhiwen Zhang\nCategories: math.NA, math.NA",
+  "word_count": 189,
+  "published_at": "2026-05-19T17:24:51Z",
+  "ingested_at": "2026-05-20T13:05:59.807Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
