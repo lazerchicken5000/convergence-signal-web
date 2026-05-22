@@ -1,0 +1,35 @@
+{
+  "id": "td_e8318c33",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Datasette Agent",
+  "body_text": "We just announced the first release of Datasette Agent, a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent represents the moment that LLM and Datasette finally come together. I'm really excited about it!\r\nDatasette Agent provides a conversational interface for asking questions of the data you have stored in Datasette. Add the datasette-agent-charts plugin and it can generate charts of your data as well.\r\nThe demo\r\nThe announcement post (on the new Datasette project blog) includes this demo video:\r\n\r\n \r\n\r\n\r\nI recorded the video against the new agent.datasette.io live demo instance, which runs Datasette Agent against example databases including the classic global-power-plants by WRI, and a copy of the Datasette backup of my blog.\r\nThe live demo runs on Gemini 3.1 Flash-Lite - it's cheap, fast and has no trouble writing SQLite queries.\r\nA question I asked in the demo was:\r\n\r\nwhen did Simon most recently see a pelican?\r\n\r\nWhich ran this SQL query:\r\nSELECT\r\n  title, commentary, created\r\nFROM\r\n  blog_beat\r\nWHERE\r\n  beat_type = 'sighting'\r\n  AND (title LIKE '%pelican%' OR commentary LIKE '%pelican%')\r\nORDER BY\r\n  created DESC\r\nLIMIT\r\n  5\r\nAnd replied:\r\n\r\nThe most recent sighting of a pelican by Simon was recorded on May 20, 2026.\r\nThe observation included a California Brown Pelican, along with a Common Loon, Canada Goose, Striped Shore Crab, and a California Sea Lion.\r\n\r\nHere's that sighting on my blog, and the Markdown export of the full conversation transcript.\r\nThe plugins\r\nMy favorite feature of Datasette Agent is that, like the rest of Datasette, it's extensible using plugins.\r\nWe've shipped three plugins so far:\r\n\r\n\r\ndatasette-agent-charts, shown in the video, adds charts to Datasette Agent, powered by Observable Plot.\r\n\r\ndatasette-agent-openai-imagegen adds an image generation tool to Datasette Agent using ChatGPT Images 2.0.\r\n\r\ndatasette-agent-sprites provides tools for executing code in a Fly Sprites persistent sandbox.\r\n\r\nBuilding plugins is really fun. I have a bunch more prototypes that aren't quite alpha-quality yet.\r\nClaude Code and OpenAI Codex are both proving excellent at writing plugins - just point them at a checkout of the datasette-agent repo for reference and tell them what you want to build!\r\nRunning it against local models\r\nI've also been having fun running the new plugin against local models. Here's a uv one-liner to run the plugin against gemma-4-26b-a4b in LM Studio on a Mac:\r\nuvx --prerelease=allow \\\r\n  --with datasette-agent --with llm-lmstudio \\\r\n  datasette --internal internal.db --root \\\r\n  -s plugins.datasette-llm.default_model lmstudio/google/gemma-4-26b-a4b \\\r\n  data.db\r\nDatasette Agent needs reliable tool calls and the ability for a model to produce SQL queries that run against SQLite. The open weight models released in the past six months are increasingly able to handle that.\r\nWhat's next\r\nDatasette Agent opens up so many opportunities for the LLM and Datasette ecosystem in general.\r\nIt's already informed the major LLM 0.32a0 refactor which I'm nearly ready to roll into a stable release, maybe with some additional \"LLM agent\" abstractions extracte from Datasette Agent itself.\r\nI've been exploring my own take on the Claude Artifacts, which is shaping up nicely as a plugin.\r\nI'm excited to use Datasette Agent to build my own Claw - a personal AI assistant built around data imported from different parts of my digital life, which is a neat excuse to revisit my older Dogsheep family of tools.\r\nWe'll also be rolling out Datasette Agent for users of Datasette Cloud.\r\nJoin our #datasette-agent Discord channel if you'd like to talk about the project.\n    \n        Tags: projects, sqlite, ai, datasette, generative-ai, llms, llm, uv, datasette-agent",
+  "word_count": 586,
+  "published_at": "2026-05-21T19:52:19.000Z",
+  "ingested_at": "2026-05-22T11:00:08.130Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
