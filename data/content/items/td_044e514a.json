@@ -1,0 +1,39 @@
+{
+  "id": "td_044e514a",
+  "source": "arxiv",
+  "source_id": "2605.22769",
+  "source_url": "https://arxiv.org/abs/2605.22769",
+  "content_type": "paper",
+  "creator": {
+    "id": "pilchen_hippolyte",
+    "name": "Pilchen Hippolyte",
+    "handle": "Pilchen Hippolyte, Fabre Romain, Signe Talla Franck, Perez Patrick, Grave Edouard",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Understanding Data Temporality Impact on Large Language Models Pre-training",
+  "body_text": "Understanding Data Temporality Impact on Large Language Models Pre-training\n\nLarge language models (LLMs) are typically trained on shuffled corpora, yielding models whose knowledge is frozen at train time and whose temporal grounding remains poorly understood. In this work, we study the impact of pre-training dynamics on the acquisition of time-sensitive factual knowledge, focusing specifically on data ordering. Our main contributions are twofold. First, we introduce a comprehensive benchmark of over 7,000 temporally grounded questions and an evaluation protocol that enables analysis of whether models correctly associate facts with their corresponding time periods. Second, we pretrain 6B-parameter models on temporally ordered Common Crawl snapshots and compare them against standard shuffled pre-training. Our results show that sequentially trained models match shuffled baselines on general language understanding and common knowledge while consistently exhibiting more up-to-date and temporally precise knowledge. Temporally ordered pre-training yields improved factual freshness, while shuffled pre-training peaks on older data, possibly due to increased factual repetition. These findings, along with the release of our code at https://github.com/kyutai-labs/kairos , checkpoints, and datasets at https://huggingface.co/collections/kyutai/kairos provide a foundation for future research on continual learning for LLMs.\n\nAuthors: Pilchen Hippolyte, Fabre Romain, Signe Talla Franck, Perez Patrick, Grave Edouard\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 175,
+  "published_at": "2026-05-21T17:31:17Z",
+  "ingested_at": "2026-05-22T13:03:58.951Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_8252ac00",
+  "source": "arxiv",
+  "source_id": "2605.22821",
+  "source_url": "https://arxiv.org/abs/2605.22821",
+  "content_type": "paper",
+  "creator": {
+    "id": "jan_tempus",
+    "name": "Jan Tempus",
+    "handle": "Jan Tempus, Philip Whittington, Craig W. Schmidt, Dennis Komm, Tiago Pimentel",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Tokenisation via Convex Relaxations",
+  "body_text": "Tokenisation via Convex Relaxations\n\nTokenisation is an integral part of the current NLP pipeline. Current tokenisation algorithms such as BPE and Unigram are greedy algorithms -- they make locally optimal decisions without considering the resulting vocabulary as a whole. We instead formulate tokeniser construction as a linear program and solve it using convex optimisation tools, yielding a new algorithm we call ConvexTok. We find ConvexTok consistently improves intrinsic tokenisation metrics and the bits-per-byte (BpB) achieved by language models; it also improves downstream task performance, but less consistently. Furthermore, ConvexTok allows the user to certify how far their tokeniser is from optimal, with respect to a certain objective, via a lower bound, and we empirically find it to be within 1\\% of optimal at common vocabulary sizes.\n\nAuthors: Jan Tempus, Philip Whittington, Craig W. Schmidt, Dennis Komm, Tiago Pimentel\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 122,
+  "published_at": "2026-05-21T17:59:56Z",
+  "ingested_at": "2026-05-22T13:03:58.950Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
