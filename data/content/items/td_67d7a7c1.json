@@ -1,0 +1,35 @@
+{
+  "id": "td_67d7a7c1",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "On the <dl>",
+  "body_text": "On the &lt;dl&gt;\nI learned a few new-to-me things about the &lt;dl&gt; element from this article by Ben Meyer:\n\nA &lt;dt&gt; can be followed by multiple &lt;dd&gt;\nYou can optionally group the &lt;dt&gt; and &lt;dd&gt; elements in a &lt;div&gt; for styling - but only a &lt;div&gt;.\nYou can label them using ARIA.\nThey've been called \"description lists\", not \"definition lists\", since an HTML5 draft in 2008.\n\nSo this is valid:\n&lt;h2 id=\"credits\"&gt;Credits&lt;/h2&gt;\n&lt;dl aria-labelledby=\"credits\"&gt;\n  &lt;div&gt;\n    &lt;dt&gt;Author&lt;/dt&gt;\n    &lt;dd&gt;Jeffrey Zeldman&lt;/dd&gt;\n    &lt;dd&gt;Ethan Marcotte&lt;/dd&gt;\n  &lt;/div&gt;\n&lt;/dl&gt;\n\nHere's a useful note from Adrian Roselli on screen reader support for description lists.\n\n    Via Hacker News\n\n\n    Tags: css, html, screen-readers, web-standards",
+  "word_count": 104,
+  "published_at": "2026-05-23T20:24:48.000Z",
+  "ingested_at": "2026-05-24T11:00:10.557Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
