@@ -1,0 +1,40 @@
+{
+  "id": "td_fb7dd015",
+  "source": "arxiv",
+  "source_id": "2605.23872",
+  "source_url": "https://arxiv.org/abs/2605.23872",
+  "content_type": "paper",
+  "creator": {
+    "id": "lizhang_chen",
+    "name": "Lizhang Chen",
+    "handle": "Lizhang Chen, Jonathan Li, Chen Liang, Ni Lao, Qiang Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Training-Free Looped Transformers",
+  "body_text": "Training-Free Looped Transformers\n\nWe introduce training-free looped transformers, in which a lightweight inference-time wrapper loops a contiguous mid-stack block of layers of a frozen checkpoint without additional fine-tuning, continued training, or architectural changes. Unlike prior looped transformer methods that train with the looped structure end-to-end, we retrofit recurrence onto pretrained models at test time. We show that naive block reapplication usually degrades performance, highlighting the importance of the loop application strategy. Motivated by viewing a pre-norm transformer block as a forward Euler step on an ODE, we instead treat looping as a refinement of the same approximation, replacing one large update with smaller damped sub-steps. Across seven dense, sparse MoE, and MLA+MoE model families, our method improves Qwen3-4B-Instruct by +2.64 pp on MMLU-Pro, Qwen3-30B-A3B-Instruct by +1.14 pp on CommonsenseQA, and Moonlight-16B-A3B-Instruct by +1.20 pp on OpenBookQA.\n\nAuthors: Lizhang Chen, Jonathan Li, Chen Liang, Ni Lao, Qiang Liu\nCategories: cs.LG, math.NA, stat.ML, cs.LG",
+  "word_count": 133,
+  "published_at": "2026-05-22T17:31:16Z",
+  "ingested_at": "2026-05-25T11:03:57.299Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.NA",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

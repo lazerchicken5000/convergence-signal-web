@@ -1,0 +1,35 @@
+{
+  "id": "td_6505eec5",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette-fixtures 0.1a0",
+  "body_text": "Release: datasette-fixtures 0.1a0\n        One of the smaller features in Datasette 1.0a30 is this:\n\nNew documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database tables used by Datasette's own tests, intended for plugin test suites.\n\nThis new plugin takes advantage of that API. You can try it out using uvx without even installing Datasette like this:\nuvx --prerelease=allow \\\n  --with datasette-fixtures datasette \\\n  --get /fixtures/roadside_attractions.json\nWhich outputs:\n{\n  \"ok\": true,\n  \"next\": null,\n  \"rows\": [\n    {\"pk\": 1, \"name\": \"The Mystery Spot\", \"address\": \"465 Mystery Spot Road, Santa Cruz, CA 95065\", \"url\": \"https://www.mysteryspot.com/\", \"latitude\": 37.0167, \"longitude\": -122.0024},\n    {\"pk\": 2, \"name\": \"Winchester Mystery House\", \"address\": \"525 South Winchester Boulevard, San Jose, CA 95128\", \"url\": \"https://winchestermysteryhouse.com/\", \"latitude\": 37.3184, \"longitude\": -121.9511},\n    {\"pk\": 3, \"name\": \"Burlingame Museum of PEZ Memorabilia\", \"address\": \"214 California Drive, Burlingame, CA 94010\", \"url\": null, \"latitude\": 37.5793, \"longitude\": -122.3442},\n    {\"pk\": 4, \"name\": \"Bigfoot Discovery Museum\", \"address\": \"5497 Highway 9, Felton, CA 95018\", \"url\": \"https://www.bigfootdiscoveryproject.com/\", \"latitude\": 37.0414, \"longitude\": -122.0725}\n  ],\n  \"truncated\": false\n}\n    \n    \n        Tags: datasette, uv",
+  "word_count": 161,
+  "published_at": "2026-05-24T21:38:32.000Z",
+  "ingested_at": "2026-05-25T11:00:07.654Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

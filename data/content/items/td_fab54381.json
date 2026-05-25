@@ -1,0 +1,40 @@
+{
+  "id": "td_fab54381",
+  "source": "arxiv",
+  "source_id": "2605.23861",
+  "source_url": "https://arxiv.org/abs/2605.23861",
+  "content_type": "paper",
+  "creator": {
+    "id": "aneesh_komanduri",
+    "name": "Aneesh Komanduri",
+    "handle": "Aneesh Komanduri, Xintao Wu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Leveraging Foundation Models for Causal Generative Modeling",
+  "body_text": "Leveraging Foundation Models for Causal Generative Modeling\n\nCausal generative modeling is essential for developing reliable and transparent AI systems capable of counterfactual reasoning. While existing approaches focus on integrating causal constraints during the training of generative models, they often lack a unified framework to leverage the zero-shot reasoning capabilities of pretrained foundation models. We introduce FM-CGM, a modular framework for end-to-end visual causal reasoning using pretrained foundation models. FM-CGM formalizes the causal pipeline through three core components: a concept extractor, a concept manipulator, and a counterfactual generator. By leveraging a large reasoning model for causal inference and a text-to-image diffusion model for generation, our approach enables zero-shot causal discovery, intervention, and counterfactual generation. We then develop Causal Semantic Guidance (CSG), a cross-attention-based mechanism that ensures semantic interventions propagate to descendant concepts while preserving invariant regions. We empirically show that our approach can identify plausible causal structures and is suitable for faithful counterfactual image generation.\n\nAuthors: Aneesh Komanduri, Xintao Wu\nCategories: cs.LG, cs.AI, cs.CV, cs.LG",
+  "word_count": 147,
+  "published_at": "2026-05-22T17:20:17Z",
+  "ingested_at": "2026-05-25T11:03:47.242Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

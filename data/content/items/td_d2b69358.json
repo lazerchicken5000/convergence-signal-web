@@ -1,0 +1,38 @@
+{
+  "id": "td_d2b69358",
+  "source": "arxiv",
+  "source_id": "2605.23701",
+  "source_url": "https://arxiv.org/abs/2605.23701",
+  "content_type": "paper",
+  "creator": {
+    "id": "kan_shao",
+    "name": "Kan Shao",
+    "handle": "Kan Shao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Metadata Predictability Is Not Evidence Dependence: An Intervention-Based Audit for Weak-Label Benchmarks",
+  "body_text": "Metadata Predictability Is Not Evidence Dependence: An Intervention-Based Audit for Weak-Label Benchmarks\n\nWe study a protocol-level test for weak-label benchmarks: whether benchmark outputs change when the provided evidence is intervened on. Metadata-only shortcut checks answer a different question, namely whether outputs are predictable from metadata priors. We therefore combine a metadata statistic, the Metadata Prior Dominance Score (MPDS), with an evidence-intervention statistic, ΔEvi, measuring sensitivity to evidence identity under cross-item shuffling. Synthetic HotpotQA gives a constructed counterexample to metadata-only screening: MPDS is only moderate (0.643), yet ΔEvi is zero. Stronger-reader reruns show why calibration belongs in the test procedure: SNLI shows a calibration reversal, reconstructed HotpotQA occupies a question-dominant warning region, and FEVER is a strongly evidence-sensitive positive control across four transformers. The practical lesson is simple: benchmark audits should report metadata-only screening, evidence intervention, and reader-strength calibration together.\n\nAuthors: Kan Shao\nCategories: cs.CL, cs.CL",
+  "word_count": 127,
+  "published_at": "2026-05-22T14:52:32Z",
+  "ingested_at": "2026-05-25T11:03:52.257Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "td_702941aa",
+  "source": "arxiv",
+  "source_id": "2605.23879",
+  "source_url": "https://arxiv.org/abs/2605.23879",
+  "content_type": "paper",
+  "creator": {
+    "id": "aratrika_mustafi",
+    "name": "Aratrika Mustafi",
+    "handle": "Aratrika Mustafi, Soumya Mukherjee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the Stability of Spherical Hellinger-Kantorovich Flows and Their Implications for Differential Privacy",
+  "body_text": "On the Stability of Spherical Hellinger-Kantorovich Flows and Their Implications for Differential Privacy\n\nGradient-flow sampling interprets a Gibbs distribution as the minimizer of an energy functional over probability measures and generates dynamics converging to this target. Under spherical Hellinger-Kantorovich (SHK) geometry, the flow couples transport and reaction and coincides with birth-death Langevin dynamics. In this work, we develop a perturbation theory for SHK gradient flows. For two potentials $V$ and $V^{\\prime}$, we compare the associated flows from a common initialization and quantify how potential discrepancies propagate over time. A uniform perturbation bound yields dimension-free, pointwise control of the log-likelihood ratio and Rényi divergence, while additional structure allows us to derive bounds for the KL divergence as well. We apply these results to approximate sampling for the exponential mechanism in differential privacy. The likelihood-ratio control provides explicit time-dependent Pure-DP guarantees for SHK-based samplers, while the KL bound yields Approximate-DP certificates via hockey-stick divergence. We also derive a utility bound separating intrinsic exponential-mechanism suboptimality from finite-time sampling error.\n\nAuthors: Aratrika Mustafi, Soumya Mukherjee\nCategories: stat.ML, cs.CR, cs.LG, math.ST, stat.ML",
+  "word_count": 153,
+  "published_at": "2026-05-22T17:38:20Z",
+  "ingested_at": "2026-05-25T11:03:57.298Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.CR",
+    "cs.LG",
+    "math.ST",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

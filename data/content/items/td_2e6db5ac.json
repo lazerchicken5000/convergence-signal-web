@@ -1,0 +1,39 @@
+{
+  "id": "td_2e6db5ac",
+  "source": "arxiv",
+  "source_id": "2605.23826",
+  "source_url": "https://arxiv.org/abs/2605.23826",
+  "content_type": "paper",
+  "creator": {
+    "id": "michal_shlapentokh-rothman",
+    "name": "Michal Shlapentokh-Rothman",
+    "handle": "Michal Shlapentokh-Rothman, Prachi Garg, Yu-Xiong Wang, Derek Hoiem",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Decomposing Queries into Tool Calls for Long-Video Keyframe Retrieval",
+  "body_text": "Decomposing Queries into Tool Calls for Long-Video Keyframe Retrieval\n\nKeyframe selection is a direct way to provide verifiable visual evidence for long-video question answering (QA). Queries differ in what they require, and finding the right frames depends on knowing what to look for. Existing keyframe selectors either score every frame against a single query, or decompose the query into a fixed schema evaluated by a single visual tool. We propose ToolMerge, a keyframe retrieval method based on decomposition and merging: an Large Language Model (LLM) based planner decomposes the query into tool calls and specifies how their per-tool rankings are merged using boolean operators. To evaluate retrieval directly, we construct Molmo-2 Moments (M2M), a benchmark in which every question is anchored to a specific time interval by construction. Across QA, question retrieval, and caption retrieval, ToolMerge is competitive with prior keyframe selectors, most notably on caption retrieval, outperforming other methods by 5%. Code and data can be found at https://github.com/michalsr/ToolMerge .\n\nAuthors: Michal Shlapentokh-Rothman, Prachi Garg, Yu-Xiong Wang, Derek Hoiem\nCategories: cs.CV, cs.CL, cs.CV",
+  "word_count": 152,
+  "published_at": "2026-05-22T16:29:51Z",
+  "ingested_at": "2026-05-25T11:03:52.257Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

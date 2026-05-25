@@ -1,0 +1,40 @@
+{
+  "id": "td_bd3d3346",
+  "source": "arxiv",
+  "source_id": "2605.23871",
+  "source_url": "https://arxiv.org/abs/2605.23871",
+  "content_type": "paper",
+  "creator": {
+    "id": "aratrika_mustafi",
+    "name": "Aratrika Mustafi",
+    "handle": "Aratrika Mustafi, Soumya Mukherjee, Bharath K. Sriperumbudur",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Move on Muon : A Hamiltonian probability gradient flow perspective of Muon optimizer",
+  "body_text": "Move on Muon : A Hamiltonian probability gradient flow perspective of Muon optimizer\n\nWe develop a gradient flow on the space of probability measures defined on matrix-valued parameters induced by regularized Muon, an analytically smoothed version of the idealized Muon optimizer. The key observation is that the regularized orthogonalization map is the gradient of a smooth Fenchel-dual smoothing of the nuclear norm. This identifies the (regularized) Muon update as a mirror/prox step in the update variable, with momentum acting as the dual coordinate. We use this structure to lift Muon from a single matrix parameter to finite-particle probability objectives of the form $J(ρ)=R\\left(\\int F d ρ\\right)$, a setting motivated by mean-field descriptions of neural-network training, and derive the inertial continuous-time limit. Using this structure, we derive the finite-particle continuous-time limit under the inertial scaling of step size and momentum, and then pass to a phase-space mean-field equation over probability laws on parameter-momentum pairs. The resulting flow can be shown to be a damped Hamiltonian probability dynamics whose kinetic energy is induced by the regularized Muon mirror potential. We prove an exact Hamiltonian dissipation identity, showing that the Hamiltonian energy decreases monotonically. While the target objective itself need not be monotone along the inertial Muon dynamics, under additional gradient-dominance, bounded-momentum, and curvature/alignment assumptions, we obtain continuous and discrete-time exponential convergence rates for the objective gap. We also study the well-posedness of the mean-field limit equation and establish propagation of chaos guarantees for the interacting particle system. Finally, we extend the formulation to Hilbert-valued feature maps on product matrix spaces, yielding a blockwise Muon probability flow applicable to smooth transformer mixture-of-experts models.\n\nAuthors: Aratrika Mustafi, Soumya Mukherjee, Bharath K. Sriperumbudur\nCategories: stat.ML, cs.LG, math.ST, stat.ML",
+  "word_count": 257,
+  "published_at": "2026-05-22T17:28:53Z",
+  "ingested_at": "2026-05-25T11:03:57.299Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.ST",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

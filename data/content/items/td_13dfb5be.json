@@ -1,0 +1,39 @@
+{
+  "id": "td_13dfb5be",
+  "source": "arxiv",
+  "source_id": "2605.23857",
+  "source_url": "https://arxiv.org/abs/2605.23857",
+  "content_type": "paper",
+  "creator": {
+    "id": "taiming_lu",
+    "name": "Taiming Lu",
+    "handle": "Taiming Lu, Zhuang Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+  "body_text": "Strong Teacher Not Needed? On Distillation in LLM Pretraining\n\nKnowledge distillation generally assumes a strong-to-weak relationship where stronger teachers yield better students. In this work, we examine this assumption about distillation in large language model pretraining. By varying architecture sizes and training token budgets, we create strong-to-weak, same-level, and weak-to-strong teacher-student relationships, and study distillation's effectiveness under each. We find that the teacher need not be strong: with proper mixing of the language modeling and knowledge distillation losses, even small and undertrained teachers improve larger students. At the same time, a stronger teacher is not always better: pushing the teacher further, through more parameters or more training tokens, can saturate or even reverse the distillation gains. We further observe that distillation improves generalization (out-of-distribution and downstream performance) more readily than in-domain fitting. Together, these results challenge the common belief that distillation pretraining always requires a strong teacher.\n\nAuthors: Taiming Lu, Zhuang Liu\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 138,
+  "published_at": "2026-05-22T17:16:35Z",
+  "ingested_at": "2026-05-25T11:03:52.257Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
