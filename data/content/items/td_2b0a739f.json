@@ -1,0 +1,39 @@
+{
+  "id": "td_2b0a739f",
+  "source": "arxiv",
+  "source_id": "2605.26100",
+  "source_url": "https://arxiv.org/abs/2605.26100",
+  "content_type": "paper",
+  "creator": {
+    "id": "bar_weiss",
+    "name": "Bar Weiss",
+    "handle": "Bar Weiss, Antonio Abu-Nassar, Adi Sosnovich, Karen Yorav",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models",
+  "body_text": "Beyond Summaries: Structure-Aware Labeling of Code Changes with Large Language Models\n\nCode review is a critical practice in software engineering, yet the growing scale and frequency of code patches in modern projects, together with the widespread adoption of AI code assistants, make manual review increasingly challenging. Identifying the types of changes within a patch, such as renames, moves, or logic modifications, can substantially improve review efficiency by enabling prioritization, filtering, and automation. However, existing LLM-based approaches to code review have largely focused on summarization and comment generation, leaving structured code reviews underexplored. In this paper, we present a systematic study of using large language models (LLMs) for taxonomy-based labeling of code changes in a code patch. We introduce a two-stage pipeline that assigns labels to diff hunks and then refines them to capture structural relationships and semantic attributes, such as rename propagation and type changes. Our approach employs few-shot prompting to produce language-agnostic and customizable labels, without the engineering overhead of traditional static-analysis pipelines. We evaluate four LLMs across multiple context configurations on a manually curated benchmark of natural and synthetic patches. Our best configuration achieves up to $84\\%$ recall and $81\\%$ precision, with high accuracy in extracting relational and attribute metadata. These results suggest that LLM-based labeling can effectively complement static analysis by enabling flexible, multilingual, and automation-friendly code review workflows.\n\nAuthors: Bar Weiss, Antonio Abu-Nassar, Adi Sosnovich, Karen Yorav\nCategories: cs.SE, cs.AI, cs.SE",
+  "word_count": 211,
+  "published_at": "2026-05-25T17:56:46Z",
+  "ingested_at": "2026-05-26T11:04:01.275Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.AI",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

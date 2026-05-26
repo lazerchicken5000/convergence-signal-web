@@ -1,0 +1,38 @@
+{
+  "id": "td_08701c15",
+  "source": "arxiv",
+  "source_id": "2605.26081",
+  "source_url": "https://arxiv.org/abs/2605.26081",
+  "content_type": "paper",
+  "creator": {
+    "id": "haolang_zhao",
+    "name": "Haolang Zhao",
+    "handle": "Haolang Zhao, Yunbo Long, Lukas Beckenbauer, Alexandra Brintrup",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VeriTrace: Evolving Mental Models for Deep Research Agents",
+  "body_text": "VeriTrace: Evolving Mental Models for Deep Research Agents\n\nDeep research agents face vast, interdependent, and pervasively uncertain information. Existing systems explore what evolving intermediate representations should look like, but leave their evolution to the LLM's implicit reasoning. Without explicit regulation, the intermediate layer is easily contaminated by mixed-quality information and propagates errors along its dependencies, so model scale often ends up substituting for absent regulation. We argue that an agent's mental model should instead evolve through explicit feedback that continuously aligns task understanding with reality, and identify three regulatory loops: interpretive update, deviation feedback, and schema revision. We realise this in VeriTrace, a cognitive-graph framework that explicitly implements the three loops. Using matched Qwen3.5-27B backbones, VeriTrace improves over the strongest matched baseline by 4.22 pp on DeepResearch Bench (DRB) Insight (1.49 pp Overall) and by 5.9 pp Overall win rate on DeepConsult. With Config-DeepSeek, it achieves the strongest reproducible open-source result on DRB.\n\nAuthors: Haolang Zhao, Yunbo Long, Lukas Beckenbauer, Alexandra Brintrup\nCategories: cs.AI, cs.AI",
+  "word_count": 145,
+  "published_at": "2026-05-25T17:46:57Z",
+  "ingested_at": "2026-05-26T11:04:01.276Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
