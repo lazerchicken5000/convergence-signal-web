@@ -1,0 +1,38 @@
+{
+  "id": "td_49d9a62b",
+  "source": "arxiv",
+  "source_id": "2605.27345",
+  "source_url": "https://arxiv.org/abs/2605.27345",
+  "content_type": "paper",
+  "creator": {
+    "id": "siran_li",
+    "name": "Siran Li",
+    "handle": "Siran Li, Ece Sena Etoglu, Carsten Eickhoff, Seyed Ali Bahrainian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MATCHA: Matching Text via Contrastive Semantic Alignment",
+  "body_text": "MATCHA: Matching Text via Contrastive Semantic Alignment\n\nReliable evaluation is essential for understanding large language model (LLM) performance, yet today's go-to metrics, namely token-overlap scores (e.g., ROUGE) and embedding-based measures (e.g., BERTScore), often misjudge semantic similarity of documents. Our study shows that both token-overlap metrics and embedding-based metrics routinely assign nearly identical scores to texts that directly contradict each other, thereby potentially masking fundamental errors. We introduce MATCHA, an automatic metric that jointly rewards semantic agreement with a reference and penalizes contradictions. MATCHA employs a dual-view perspective that measures (i) proximity to the gold text and (ii) distance from an adversarially generated counterfactual contradiction. In eight public benchmarks, MATCHA outperforms popular metrics, compared with human annotations on question-answering, image caption generation, natural language inference, summarization, and semantic textual similarity tasks. On the TruthfulQA dataset (i.e., a dataset without a training set, where no embedding-based metrics could locally train on), this improvement in terms of matching texts with a reference reaches 18.38% over ROUGE-L and 20.82% over BERTScore. Both quantitative comparison and qualitative human assessments confirm the efficacy and validity of MATCHA and uncover fundamental weaknesses in pre-existing metrics. Compared with 23 embedding models, including top state-of-the-art ones, used as a metric similar to BERTScore, MATCHA remains the most accurate in distinguishing correct from incorrect statements solely based on a reference. Our code and metric are publicly available (https://github.com/Siran-Li/MATCHA).\n\nAuthors: Siran Li, Ece Sena Etoglu, Carsten Eickhoff, Seyed Ali Bahrainian\nCategories: cs.CL, cs.CL",
+  "word_count": 221,
+  "published_at": "2026-05-26T17:47:14Z",
+  "ingested_at": "2026-05-27T11:03:52.280Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

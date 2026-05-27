@@ -1,0 +1,38 @@
+{
+  "id": "td_ef63e4b1",
+  "source": "arxiv",
+  "source_id": "2605.27313",
+  "source_url": "https://arxiv.org/abs/2605.27313",
+  "content_type": "paper",
+  "creator": {
+    "id": "weibin_cai",
+    "name": "Weibin Cai",
+    "handle": "Weibin Cai, Reza Zafarani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When Does Demographic Information Help? Data and Modeling Regimes for Perspective-Aware Hate Speech Detection",
+  "body_text": "When Does Demographic Information Help? Data and Modeling Regimes for Perspective-Aware Hate Speech Detection\n\nDemographic information is often used to model annotator perspectives in subjective tasks such as hate speech detection, but its benefit is inconsistent: it improves performance in some settings and behaves as noise in others. This paper asks when demographic features help. We analyze demographic gain as a function of both data split properties and modeling frameworks. For data splits, we measure annotator disagreement, namely how often annotators assign different labels to the same example, along with training size and train-test demographic coverage. We find that demographic gains concentrate in regimes with low training disagreement, high test disagreement, fine-grained ambiguity measurement, sufficient training data, and greater demographic overlap. Motivated by these regimes, we introduce a gated demographic residual model that treats demographics as a selective adjustment to text-only predictions. Experiments on MHS and POPQUORN show that this design is effective, especially on high disagreement or low confidence examples. Overall, our results suggest that demographics should not be assumed useful by default; their value depends jointly on the data regime and the modeling framework.\n\nAuthors: Weibin Cai, Reza Zafarani\nCategories: cs.CL, cs.CL",
+  "word_count": 172,
+  "published_at": "2026-05-26T17:24:41Z",
+  "ingested_at": "2026-05-27T11:03:52.281Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

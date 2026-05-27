@@ -1,0 +1,39 @@
+{
+  "id": "td_7ccd8330",
+  "source": "arxiv",
+  "source_id": "2605.27316",
+  "source_url": "https://arxiv.org/abs/2605.27316",
+  "content_type": "paper",
+  "creator": {
+    "id": "kukyoung_jang",
+    "name": "Kukyoung Jang",
+    "handle": "Kukyoung Jang, Taehyun Cho, Junrui Zhang, Ping Xu, Kyungjae Lee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Probabilistic Smoothing with Ratio-Monotone Transforms for Global Optimization",
+  "body_text": "Probabilistic Smoothing with Ratio-Monotone Transforms for Global Optimization\n\nProbabilistic smoothing is a standard tool for global optimization, but existing methods rely on Gaussian kernels and specific transforms, often resulting in strong hyperparameter sensitivity and limited robustness. We propose a general smoothing framework that combines flexible symmetric unimodal kernels with monotonic ratio-based transformations. Under mild conditions, we show that the smoothed objective preserves the global maximizer and that all stationary points concentrate near the true optimum for sufficiently large amplification, without requiring a decreasing smoothing schedule. We further provide explicit complexity bounds for stochastic gradient ascent and show that a leave-one-out baseline provably reduces variance. Experiments on high-dimensional benchmarks and black-box adversarial attacks demonstrate improved robustness and competitive performance.\n\nAuthors: Kukyoung Jang, Taehyun Cho, Junrui Zhang, Ping Xu, Kyungjae Lee\nCategories: cs.LG, math.OC, cs.LG",
+  "word_count": 110,
+  "published_at": "2026-05-26T17:25:01Z",
+  "ingested_at": "2026-05-27T11:03:57.356Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.OC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

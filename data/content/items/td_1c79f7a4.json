@@ -1,0 +1,38 @@
+{
+  "id": "td_1c79f7a4",
+  "source": "arxiv",
+  "source_id": "2605.27315",
+  "source_url": "https://arxiv.org/abs/2605.27315",
+  "content_type": "paper",
+  "creator": {
+    "id": "yifan_jiang",
+    "name": "Yifan Jiang",
+    "handle": "Yifan Jiang, Ruoxi Ning, Sheng Yao, Freda Shi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Real Images, Worse Judgments: Evaluating Vision-Language Models on Concreteness and Imagery",
+  "body_text": "Real Images, Worse Judgments: Evaluating Vision-Language Models on Concreteness and Imagery\n\nVisual inputs are often assumed to improve language understanding in multimodal models. We examine this assumption by asking whether vision-language models (VLMs) can distinguish useful visual evidence from incidental image context in lexical judgments. We use human concreteness and imagery ratings because they span words with varying expected visual relevance, from abstract and low-imagery words to concrete and high-imagery words. We find that real-image contexts do not yield consistent gains and often hurt alignment with human ratings, most sharply when visual evidence is least relevant. Through probing and canonical correlation analysis, complemented by an attribution case study, we find that real-image contexts are associated with representational shifts and greater sensitivity to spurious visual cues, coinciding with weaker recoverability of the targeted lexical properties. We further show that instructing models to focus solely on textual content at inference time can reduce this degradation, with the clearest gains on these vulnerable subsets. Our findings suggest that current instruction-tuned VLMs need better calibration of when visual context should inform lexical judgments.\n\nAuthors: Yifan Jiang, Ruoxi Ning, Sheng Yao, Freda Shi\nCategories: cs.CL, cs.CL",
+  "word_count": 168,
+  "published_at": "2026-05-26T17:24:59Z",
+  "ingested_at": "2026-05-27T11:03:52.281Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

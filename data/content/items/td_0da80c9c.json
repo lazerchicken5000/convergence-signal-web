@@ -1,0 +1,38 @@
+{
+  "id": "td_0da80c9c",
+  "source": "arxiv",
+  "source_id": "2605.27306",
+  "source_url": "https://arxiv.org/abs/2605.27306",
+  "content_type": "paper",
+  "creator": {
+    "id": "ethan_harvey",
+    "name": "Ethan Harvey",
+    "handle": "Ethan Harvey, Dennis Johan Loevlie, Michael C. Hughes",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Normal Guidance is what Attention Needs",
+  "body_text": "Normal Guidance is what Attention Needs\n\nWe consider training classifiers for 3D medical images using only one binary label for the entire volume rather than a label for each 2D slice. In such weakly supervised settings, can we learn accurate classifiers for slice-level predictions? Attention-based multiple instance learning (MIL) can produce an attention score for every slice. Yet recent work demonstrates that a simple center-focused baseline that ignores image content can outperform attention-based and transformer-based MIL at slice-level classification of 3D brain scans. We show this baseline also outperforms existing MIL at slice-level classification of thoracic and abdominal CT scans. Motivated by this baseline, we propose Normal Guidance, a regularization technique that encourages the learned attention distribution to follow a bell-shaped curve. Across three medical imaging datasets totaling over 4 million 2D slices, we show our Normal Guidance enables attention-based and transformer-based MIL methods to deliver significantly better slice-level localization than the state-of-the-art while remaining competitive at whole-scan classification.\n\nAuthors: Ethan Harvey, Dennis Johan Loevlie, Michael C. Hughes\nCategories: cs.LG, cs.LG",
+  "word_count": 153,
+  "published_at": "2026-05-26T17:17:58Z",
+  "ingested_at": "2026-05-27T11:03:57.357Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
