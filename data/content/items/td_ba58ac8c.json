@@ -1,0 +1,40 @@
+{
+  "id": "td_ba58ac8c",
+  "source": "arxiv",
+  "source_id": "2605.28775",
+  "source_url": "https://arxiv.org/abs/2605.28775",
+  "content_type": "paper",
+  "creator": {
+    "id": "suji_kim",
+    "name": "Suji Kim",
+    "handle": "Suji Kim, Kangsan Kim, Sung Ju Hwang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents",
+  "body_text": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents\n\nComputer-use agents (CUAs) have recently made substantial progress, but deploying a separate large expert for each software domain remains expensive. Small open computer-use agents are more practical specialization targets, but they remain substantially weaker and exhibit uneven domain-specific failures. A straightforward remedy is to synthesize large-scale training data for the target domain, yet we find that this naive approach yields only marginal improvements. Building on this observation, we introduce LearnWeak, an annotation-free specialization framework for small computer-use agents that uses a stronger reference agent to identify the student's weaknesses in the target domain, synthesize targeted tasks, and construct supervision automatically. LearnWeak further introduces an error-aware specialization objective that disentangles planning and execution errors, enabling more behaviorally precise updates than broad uniform supervision. On OSWorld, LearnWeak achieves average gains of 11.6 and 11.1 percentage points over EvoCUA-8B and OpenCUA-7B, respectively, across eight domains. We also validate that our student-aware dataset generation and training approaches outperform existing autonomous trajectory generation and training baselines. Our work highlights the importance of student awareness in both data synthesis and agent training, pointing toward a more principled and efficient path for specializing small computer-use agents in diverse domains.\n\nAuthors: Suji Kim, Kangsan Kim, Sung Ju Hwang\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 192,
+  "published_at": "2026-05-27T17:37:00Z",
+  "ingested_at": "2026-05-28T11:04:39.761Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

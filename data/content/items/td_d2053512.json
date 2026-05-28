@@ -1,0 +1,39 @@
+{
+  "id": "td_d2053512",
+  "source": "arxiv",
+  "source_id": "2605.28809",
+  "source_url": "https://arxiv.org/abs/2605.28809",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhen-hao_xie",
+    "name": "Zhen-Hao Xie",
+    "handle": "Zhen-Hao Xie, Yu-Cheng Shi, Da-Wei Zhou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AREA: Attribute Extraction and Aggregation for CLIP-Based Class-Incremental Learning",
+  "body_text": "AREA: Attribute Extraction and Aggregation for CLIP-Based Class-Incremental Learning\n\nClass-Incremental Learning (CIL) is important in building real-world learning systems. In CLIP-based CIL, the model performs classification by comparing similarity between visual and textual embeddings obtained from template prompts, e.g., ``a photo of a [CLASS]''. This seemingly monolithic matching process can be decomposed into two conceptually distinct stages: attribute extraction and attribute aggregation. For example, a model may recognize cat using attributes such as fur texture and whiskers. When learning a new class like car, the model must extract additional attributes like wheels and adjust how they are aggregated in the shared representation space. However, since only data from the current task is available, incremental updates can bias both attribute extraction and aggregation toward new classes, leading to catastrophic forgetting. Therefore, we propose AREA for attribute extraction and aggregation in CLIP-based CIL. To stabilize extraction, we anchor class-level visual and textual attributes on the hyperspherical embedding space via principal geodesic analysis. To stabilize aggregation, we learn lightweight task-specific experts with scoring and residual refinement, regularized by a variational information bottleneck objective. During inference, we perform routing over task attribute manifolds via optimal transport for more concise prediction. Experiments show that AREA consistently outperforms SOTA methods. Code is available at https://github.com/LAMDA-CL/ICML2026-AREA.\n\nAuthors: Zhen-Hao Xie, Yu-Cheng Shi, Da-Wei Zhou\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 200,
+  "published_at": "2026-05-27T17:58:16Z",
+  "ingested_at": "2026-05-28T11:04:39.760Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

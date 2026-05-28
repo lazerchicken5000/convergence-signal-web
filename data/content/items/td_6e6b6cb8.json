@@ -1,0 +1,40 @@
+{
+  "id": "td_6e6b6cb8",
+  "source": "arxiv",
+  "source_id": "2605.28792",
+  "source_url": "https://arxiv.org/abs/2605.28792",
+  "content_type": "paper",
+  "creator": {
+    "id": "abhilash_durgam",
+    "name": "Abhilash Durgam",
+    "handle": "Abhilash Durgam, Nyle Siddiqui, Jeffrey A. Chan-Santiago, Qiushi Fu, Elakkat D. Gireesh, Mubarak Shah",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CaMBRAIN: Real-time, Continuous EEG Inference with Causal State Space Models",
+  "body_text": "CaMBRAIN: Real-time, Continuous EEG Inference with Causal State Space Models\n\nElectroencephalography (EEG) is a critical, non-invasive method to monitor electrical brain activity. EEGs can span anywhere from a couple seconds to multiple hours, posing a major hurdle for existing deep learning methods due to two major factors: (1) existing EEG models are predominantly built upon the attention mechanism, incurring quadratic scaling as the sequence length increases, and (2) raw EEG signals must be processed in a sliding-window fashion due to fixed-length input requirements, preventing global understanding of the entire signal. To this extent, we propose CaMBRAIN - the first Causal, Mamba-based state space model (SSM) capable of real-time inference of EEG signals, arguing that bidirectional approaches are needlessly expensive given the causal, unidirectional nature of EEG. However, training such a model is non-trivial, as crucial EEG events can be extremely brief - within fractions of a second - yet separated by long intervals spanning minutes. Current EEG methods use self-supervised objectives that optimize for signal reconstruction, but these are not well suited for streaming SSMs; they fail to explicitly train the hidden state to retain the salient long-range context needed for streaming inference. We therefore introduce a multi-stage self-supervised training pipeline specifically tailored to encourage long-range memory retention and strong performance on EEG signals, while preserving the linear-time complexity of state space models. CaMBRAIN achieves state-of-the-art (SOTA) results across 3 different EEG datasets with &gt;10x higher throughput than existing models, enabling the first model capable of long-range, continuous inference of variable-length EEG signals.\n\nAuthors: Abhilash Durgam, Nyle Siddiqui, Jeffrey A. Chan-Santiago, Qiushi Fu, Elakkat D. Gireesh, Mubarak Shah\nCategories: cs.AI, cs.HC, cs.LG, cs.AI",
+  "word_count": 243,
+  "published_at": "2026-05-27T17:50:36Z",
+  "ingested_at": "2026-05-28T11:04:39.761Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.HC",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
