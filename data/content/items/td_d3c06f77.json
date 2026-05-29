@@ -1,0 +1,39 @@
+{
+  "id": "td_d3c06f77",
+  "source": "arxiv",
+  "source_id": "2605.28787",
+  "source_url": "https://arxiv.org/abs/2605.28787",
+  "content_type": "paper",
+  "creator": {
+    "id": "shiyu_chen",
+    "name": "Shiyu Chen",
+    "handle": "Shiyu Chen, Tarfah Alrashed, Alon Halevy, Natasha Noy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Do Agents Need Semantic Metadata? A Comparative Study in Agentic Data Retrieval",
+  "body_text": "Do Agents Need Semantic Metadata? A Comparative Study in Agentic Data Retrieval\n\nIn the era of autonomous agents, machine-actionable data is critical for data-driven workflows. For more than a decade, semantic metadata like schema.org has anchored the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for machine-actionable data and enabled discovery tools like Google Dataset Search. However, the rise of Large Language Models (LLMs) capable of navigating the unstructured web raises a fundamental question: Is semantic metadata still necessary for agentic data discovery, or can agents reliably retrieve actionable data directly from the web? We present a comparative analysis of agentic data retrieval across two distinct environments: a Baseline Agent searching billions of open-web documents, and a Semantic Agent leveraging a corpus of 90 million datasets using schema.org. We deploy an \"LLM-as-a-judge\" evaluation pipeline, mapped directly to the FAIR principles, to assess the semantic relevance, data accessibility, and computational utility of the retrieved data. Our results reveal a clear divergence. The Semantic Agent excels at retrieving actionable data, achieving a 44.9% higher precision for metadata-rich registries and a 46.6% higher precision for pages with machine-readable downloads among its returned results. Conversely, the Baseline Agent frequently suffers \"Last-Mile Utility\" failures, retrieving prose-heavy pages (20.1% of results) and portal landing pages (8.5%) rather than actual data pages. While the Baseline Agent achieves higher coverage by answering 40% more questions, the Semantic Agent delivers greater accuracy, achieving 65.7% higher overall precision in retrieving FAIR-compliant datasets. We conclude that while unstructured retrieval supports broad exploratory tasks, structured ecosystems remain the indispensable foundation for reliable, execution-oriented autonomous workflows.\n\nAuthors: Shiyu Chen, Tarfah Alrashed, Alon Halevy, Natasha Noy\nCategories: cs.IR, cs.AI, cs.IR",
+  "word_count": 250,
+  "published_at": "2026-05-27T17:46:43Z",
+  "ingested_at": "2026-05-28T13:03:47.296Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.AI",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

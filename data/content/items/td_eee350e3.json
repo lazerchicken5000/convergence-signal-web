@@ -1,0 +1,38 @@
+{
+  "id": "td_eee350e3",
+  "source": "arxiv",
+  "source_id": "2605.30336",
+  "source_url": "https://arxiv.org/abs/2605.30336",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_kuznetsov",
+    "name": "Daniel Kuznetsov",
+    "handle": "Daniel Kuznetsov, Ziqi Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Fairness-Aware Federated Learning with Trajectory Shapley Value",
+  "body_text": "Fairness-Aware Federated Learning with Trajectory Shapley Value\n\nFederated learning is an emerging distributed paradigm that addresses the challenges posed by heterogeneous, privacy-sensitive data. It enables multiple clients to train a model collaboratively by aggregating their local updates at a server. However, conventional aggregation schemes typically use fixed weights that fail to reflect unequal and time-varying client contributions, leading to biased and unstable learning. To improve fairness and stability, we propose the Trajectory Shapley Value (TSV), a contribution metric that evaluates how each client influences the optimization trajectory of the global model using a validation-based, temporally consistent utility. Building on TSV, we design FedTSV, an adaptive aggregation method that converts per-round evaluations into dynamic client weights, allowing the server to respond to heterogeneous and adversarial participation in real time. Experiments on benchmark datasets show that FedTSV accelerates convergence, improves robustness, and yields more equitable contribution assessments, thereby providing a principled foundation for fairness-aware federated optimization.\n\nAuthors: Daniel Kuznetsov, Ziqi Wang\nCategories: cs.LG, cs.LG",
+  "word_count": 147,
+  "published_at": "2026-05-28T17:58:57Z",
+  "ingested_at": "2026-05-29T11:05:21.513Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

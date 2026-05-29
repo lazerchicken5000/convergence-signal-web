@@ -1,0 +1,40 @@
+{
+  "id": "td_37b9b012",
+  "source": "arxiv",
+  "source_id": "2605.28764",
+  "source_url": "https://arxiv.org/abs/2605.28764",
+  "content_type": "paper",
+  "creator": {
+    "id": "edwin_jose",
+    "name": "Edwin Jose",
+    "handle": "Edwin Jose",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SwarmHarness: Skill-Based Task Routing via Decentralized Incentive-Aligned AI Agent Networks",
+  "body_text": "SwarmHarness: Skill-Based Task Routing via Decentralized Incentive-Aligned AI Agent Networks\n\nVast quantities of compute (GPU cycles on personal workstations, idle inference servers, and edge devices between jobs) go unused because no incentive-aligned protocol exists for their owners to share them safely and profitably. Existing approaches either require a trusted central coordinator (cloud marketplaces), demand heavy blockchain infrastructure (Golem, BrokerChain), or lack an incentive layer entirely (BOINC, Petals). We propose SwarmHarness, a decentralised protocol in which HarnessAPI skill nodes self-organise into a compute swarm without any central authority. SwarmHarness has three interlocking components: a SwarmRegistry built on a Distributed Hash Table (DHT) for peer discovery and capability advertisement; a SwarmRouter that dispatches tasks to nodes using a utility function over capability, load, latency, and trust; and SwarmCredit, an incentive mechanism that attributes compute-credit rewards to contributing nodes via a Shapley-value approximation. Nodes earn credits by serving tasks and spend credits to submit them; idle nodes that never contribute drain credits and lose routing priority, creating a self-regulating participation economy. As nodes specialise toward high-reward skills and routing signals act as digital pheromones, the network exhibits emergent collective intelligence analogous to biological swarms. Beyond compute sharing, SwarmHarness is a foundational primitive for autonomous distributed AI agent networks in which agents hire compute, route subtasks, and settle credits without human intermediation.\n\nAuthors: Edwin Jose\nCategories: cs.AI, cs.DC, cs.MA, cs.AI",
+  "word_count": 208,
+  "published_at": "2026-05-27T17:23:00Z",
+  "ingested_at": "2026-05-28T13:03:47.297Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.DC",
+    "cs.MA",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
