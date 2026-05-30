@@ -1,0 +1,39 @@
+{
+  "id": "td_9b11a6a7",
+  "source": "arxiv",
+  "source_id": "2605.30295",
+  "source_url": "https://arxiv.org/abs/2605.30295",
+  "content_type": "paper",
+  "creator": {
+    "id": "valentina_bui_muti",
+    "name": "Valentina Bui Muti",
+    "handle": "Valentina Bui Muti, Eugénie Dulout, Ziquan Fu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings",
+  "body_text": "MedCase-Structured: A Text-to-FHIR Dataset for Benchmarking Diagnostic Reasoning in Clinically Realistic EHR Settings\n\nLarge language models (LLMs) show promise for clinical reasoning and decision support, but evaluation in realistic, electronic health record-congruent settings remains limited. Existing benchmarks often rely on static datasets or unstructured inputs that do not reflect the structured, interoperable data formats used in clinical systems. We introduce a pipeline for generating clinically realistic HL7 FHIR R4 bundles from unstructured text, enabling controllable evaluation of clinical decision support systems. The pipeline combines staged LLM generation with terminology-grounded validation and repair to reduce hallucinated codes and enforce structural and semantic consistency. Applying this approach to MedCaseReasoning, we construct MedCase-Structured, a synthetic dataset aligned with clinician-authored diagnostic cases, achieving valid FHIR generation for 82.5% of cases. Evaluation on MedCase-Structured reveals consistently lower diagnostic accuracy for LLMs on structured FHIR inputs than with plain text, highlighting the importance of deployment-aligned benchmarking.\n\nAuthors: Valentina Bui Muti, Eugénie Dulout, Ziquan Fu\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 137,
+  "published_at": "2026-05-28T17:42:43Z",
+  "ingested_at": "2026-05-29T13:04:43.366Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
