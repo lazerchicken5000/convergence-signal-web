@@ -1,0 +1,35 @@
+{
+  "id": "td_18cd75f3",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "How we contain Claude across products",
+  "body_text": "How we contain Claude across products\nA complaint I often have about sandboxing products is that they are rarely thoroughly documented, and in the absence of detailed documentation it's hard to know how much I can trust them.\nAnthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai, Claude Code, and Cowork.\n\nWe constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker.\n\nClaude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows).\nThere's a lot in here, including some interesting stories of risks they missed such as the api.anthropic.com/v1/files exfiltration vector covered here previously.\nThis reminded me it's time I took another look at Anthropic's open source srt (Anthropic Sandbox Runtime) tool - it's mature enough know that I'm ready to give it a proper go.\n\n\n    Tags: sandboxing, security, ai, generative-ai, llms, anthropic, claude, claude-code",
+  "word_count": 210,
+  "published_at": "2026-05-30T21:36:24.000Z",
+  "ingested_at": "2026-05-31T11:00:09.986Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

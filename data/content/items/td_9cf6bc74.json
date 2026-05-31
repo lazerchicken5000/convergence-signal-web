@@ -1,0 +1,38 @@
+{
+  "id": "td_9cf6bc74",
+  "source": "arxiv",
+  "source_id": "2605.30272",
+  "source_url": "https://arxiv.org/abs/2605.30272",
+  "content_type": "paper",
+  "creator": {
+    "id": "maciej_paszyński",
+    "name": "Maciej Paszyński",
+    "handle": "Maciej Paszyński, Tomasz Służalec",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "IGA-ODIL: Optimizing DIscretre robust Loss with Isogeometric Analysis to solve forward and inverse problems faster using machine learning tools",
+  "body_text": "IGA-ODIL: Optimizing DIscretre robust Loss with Isogeometric Analysis to solve forward and inverse problems faster using machine learning tools\n\nPhysics-informed neural networks (PINNs) formulate the solution of partial differential equations as residual minimization problems over neural network parameterizations. Although highly flexible, optimization of PINNs using modern variants of Stochastic Gradient Descent algorithms is expensive. On the other hand, iterative computation of PINN parameterization using the Gauss-Newton method suffers from convergence difficulties, dense Jacobian structures, and poor conditioning that limit the effectiveness of second-order optimization methods. In this work, we introduce IGA-ODIL, a spline-based residual minimization framework combining ideas from Optimizing DIscrete Loss (ODIL), robust variational residual minimization, and Isogeometric Analysis (IGA). Instead of neural-network parameterizations of PINNs, the unknown solution is represented by smooth B-spline basis functions, leading to sparse structured Jacobians and efficient Gauss--Newton optimization. We also derive robust residual formulations based on weighted Gram operators, making the loss function related with the true error. The resulting systems inherit locality, sparsity, and approximation-theoretic properties of classical finite element and isogeometric methods while preserving the residual-learning philosophy of scientific machine learning. The proposed methodology is evaluated on several benchmark problems, including Poisson equations, convection-dominated advection--diffusion equations, Helmholtz problems with highly oscillatory solutions, nonlinear Allen--Cahn equations, and inverse Helmholtz parameter identification. Numerical experiments demonstrate orders-of-magnitude speedups compared with PINNs and CRVPINNs while maintaining high accuracy and robustness.\n\nAuthors: Maciej Paszyński, Tomasz Służalec\nCategories: math.NA, math.NA",
+  "word_count": 207,
+  "published_at": "2026-05-28T17:30:08Z",
+  "ingested_at": "2026-05-30T13:08:03.753Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
