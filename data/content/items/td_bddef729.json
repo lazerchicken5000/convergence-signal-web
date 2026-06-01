@@ -1,0 +1,39 @@
+{
+  "id": "td_bddef729",
+  "source": "arxiv",
+  "source_id": "2605.31564",
+  "source_url": "https://arxiv.org/abs/2605.31564",
+  "content_type": "paper",
+  "creator": {
+    "id": "qing_wang",
+    "name": "Qing Wang",
+    "handle": "Qing Wang, Jacob Devasier, Chengkai Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+  "body_text": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation\n\nWe present the first systematic study of masked diffusion language models (MDLMs) for graph-to-text generation. We analyze MDLM generation trajectories -- the order in which tokens are unmasked during iterative decoding -- and find that, unlike autoregressive LLMs which generate text linearly, MDLMs naturally prioritize entities first, followed by relational and function words, with structural tokens resolved last. We further identify a previously undocumented failure mode of supervised fine-tuning: SFT disrupts this strategy by prematurely anchoring structural sentence-ending tokens early in the decoding trajectory, effectively fixing the output length which can lead to omitted or hallucinated information. To address this, we propose lambda-scaled structural decoding, a training-free inference-time modification that downweights structural token confidence and recovers +9.4 BLEU-4. Finally, we introduce Graph-LLaDA, which integrates a Graph Transformer encoder into LLaDA's decoding process to explicitly incorporate relational graph structure. Cross-dataset evaluation on LAGRANGE reveals that previous baselines overfit to dataset-specific patterns, while LLM- and MDLM-based approaches generalize significantly better.\n\nAuthors: Qing Wang, Jacob Devasier, Chengkai Li\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 158,
+  "published_at": "2026-05-29T17:29:35Z",
+  "ingested_at": "2026-06-01T11:03:59.249Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

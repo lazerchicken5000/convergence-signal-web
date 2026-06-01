@@ -1,0 +1,39 @@
+{
+  "id": "td_d5821073",
+  "source": "arxiv",
+  "source_id": "2605.31575",
+  "source_url": "https://arxiv.org/abs/2605.31575",
+  "content_type": "paper",
+  "creator": {
+    "id": "eric_liang",
+    "name": "Eric Liang",
+    "handle": "Eric Liang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SPECTRA: Synthetic IR Test Collections with Relevance Oracles and Controlled Distractor Diagnostics",
+  "body_text": "SPECTRA: Synthetic IR Test Collections with Relevance Oracles and Controlled Distractor Diagnostics\n\nScalable information retrieval testing needs corpora that are large enough to stress index construction, ranking latency, query routing, and evaluation tooling, yet human-judged test collections remain expensive and may be unavailable when documents are private or still under design. This paper introduces SPECTRA, a reproducible framework for generating synthetic text corpora and retrieval test collections through a separation of latent topical structure, surface text realization, metadata controls, query intent generation, and deterministic relevance oracles. The framework is intended as a diagnostic complement to Cranfield-style and TREC-style evaluation, not as a replacement for human assessment. A single-process Python prototype generated corpora up to 60,000 documents and 9.61 million tokens while preserving controllable long-tail vocabulary growth and producing graded relevance labels for 96 queries. In the local simulation study, generation remained close to linear at roughly 12K to 14K documents per second, estimated Zipf slopes stayed near 0.86 in absolute value, and increasing cross-topic distractor text reduced BM25 nDCG@10 from 1.00 at 2% distractors to 0.43 at 36% distractors. These results show that lightweight synthetic corpora can expose retrieval-system scaling and failure modes before costly collection construction begins.\n\nAuthors: Eric Liang\nCategories: cs.IR, cs.AI, cs.IR",
+  "word_count": 186,
+  "published_at": "2026-05-29T17:44:15Z",
+  "ingested_at": "2026-06-01T11:03:59.249Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.AI",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

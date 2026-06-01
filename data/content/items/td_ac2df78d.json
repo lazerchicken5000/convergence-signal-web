@@ -1,0 +1,38 @@
+{
+  "id": "td_ac2df78d",
+  "source": "arxiv",
+  "source_id": "2605.31559",
+  "source_url": "https://arxiv.org/abs/2605.31559",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiefang_xiao",
+    "name": "Jiefang Xiao",
+    "handle": "Jiefang Xiao, Maolin Gao, Simon Weber, Guandao Yang, Daniel Cremers",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Functional Attention: From Pairwise Affinities to Functional Correspondences",
+  "body_text": "Functional Attention: From Pairwise Affinities to Functional Correspondences\n\nLearning mappings between infinite-dimensional function spaces, or operator learning, is essential for many machine learning applications. Although transformer-based operators are popular, they often rely on token-wise attention. These methods treat continuous fields as discrete tokens and usually ignore the global functional structure. We introduce \\emph{Functional Attention}, which reinterprets attention as a functional correspondence between adaptive bases. Inspired by geometric functional maps, our method replaces softmax affinities with structured linear operators. This yields a compact, generalizable, resolution-invariant representation that explicitly captures global dependencies. Experiments demonstrate that \\emph{Functional Attention} can match state-of-the-art performance in many operator learning tasks, including solving PDEs, 3D segmentation, and regression, while remaining robust to varying discretizations. Project page is available at https://github.com/xjffff/FUNCATTN.\n\nAuthors: Jiefang Xiao, Maolin Gao, Simon Weber, Guandao Yang, Daniel Cremers\nCategories: cs.LG, cs.LG",
+  "word_count": 115,
+  "published_at": "2026-05-29T17:22:19Z",
+  "ingested_at": "2026-06-01T11:04:40.449Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

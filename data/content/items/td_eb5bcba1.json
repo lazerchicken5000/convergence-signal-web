@@ -1,0 +1,40 @@
+{
+  "id": "td_eb5bcba1",
+  "source": "arxiv",
+  "source_id": "2605.31547",
+  "source_url": "https://arxiv.org/abs/2605.31547",
+  "content_type": "paper",
+  "creator": {
+    "id": "andre_herz",
+    "name": "Andre Herz",
+    "handle": "Andre Herz, Matthijs Pals, Daniel Durstewitz, Georgia Koppe",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Dynamic-Probabilistic Consistency Gap in Chaotic Surrogate Modeling",
+  "body_text": "The Dynamic-Probabilistic Consistency Gap in Chaotic Surrogate Modeling\n\nDynamical systems reconstruction (DSR) aims to learn surrogate models that capture the dynamics underlying time-series data. Reliably deploying these surrogates requires uncertainty estimates consistent with the learned dynamics. We expose a dynamic-probabilistic consistency (DPC) gap: the pursuit of finite-horizon probabilistic objectives can degrade dynamics or decouple predictive uncertainty from the local tangent dynamics it ought to reflect. We isolate three mechanisms behind this gap: core collapse, noise masking, and blind uncertainty. Specifically, we show that open-loop Gaussian rollout objectives can penalize Jacobian-generated covariance growth in chaotic systems, encouraging optimization shortcuts that weaken physical expansion or decouple uncertainty from it. To mitigate this gap, we propose KAFFEE (Kalman-Aware Framework For Ergodic Emulation), a differentiable extended Kalman filter-based training framework that evaluates likelihood on local predictive residuals (innovations) while transporting covariance through learned local Jacobians. On stochastic hyperchaotic Lorenz-96, KAFFEE reduces the identified failure modes, improves reconstruction of dynamical invariants relative to open-loop objectives, and maintains competitive predictive scores. We further show that the DPC gap appears when probabilistically adapting a DSR foundation model across 13 chaotic systems, where KAFFEE enables in-context Bayesian filtering while largely preserving zero-shot dynamics.\n\nAuthors: Andre Herz, Matthijs Pals, Daniel Durstewitz, Georgia Koppe\nCategories: cs.LG, math.DS, stat.ML, cs.LG",
+  "word_count": 187,
+  "published_at": "2026-05-29T17:04:15Z",
+  "ingested_at": "2026-06-01T11:04:40.449Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.DS",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "td_4b6d5eb4",
+  "source": "arxiv",
+  "source_id": "2605.31556",
+  "source_url": "https://arxiv.org/abs/2605.31556",
+  "content_type": "paper",
+  "creator": {
+    "id": "arnau_marin-llobet",
+    "name": "Arnau Marin-Llobet",
+    "handle": "Arnau Marin-Llobet, Simon Henniger, Mahzarin R. Banaji",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Vision-Language Models Suppress Female Representations Under Ambiguous Input",
+  "body_text": "Vision-Language Models Suppress Female Representations Under Ambiguous Input\n\nAlignment teaches vision-language models (VLMs) to avoid expressing demographic biases, and when gender is clearly visible they largely succeed. Far less is known about ambiguous inputs (a worker in full gear, a figure seen from behind) cases common in practice yet rarely studied. We find that minimal prompting pressure exposes occupation-gender defaults when prompting ambiguous input images, with models collapsing to male even for strongly female-stereotyped occupations. But do these outputs reflect what models actually encode internally? We introduce LALS (Latent Association Leaning Score), a zero-shot metric that projects visual-token activations into the model's text-embedding space to measure concept associations per token and layer. Across 15 occupations, over 800 gender-ambiguous images, and four VLMs, internal representations and outputs are systematically decoupled: models often encode a female association internally yet output male. Layer-wise analysis reveals an asymmetric filter -- male signal amplifies end-to-end while female signal peaks mid-network and is suppressed before generation -- and a color ablation shows that culturally loaded visual cues such as clothing color further modulate these internal associations.\n\nAuthors: Arnau Marin-Llobet, Simon Henniger, Mahzarin R. Banaji\nCategories: cs.CV, cs.AI, cs.CL, cs.CY, cs.HC, cs.CV",
+  "word_count": 172,
+  "published_at": "2026-05-29T17:20:02Z",
+  "ingested_at": "2026-06-01T11:03:59.249Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.CY",
+    "cs.HC",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

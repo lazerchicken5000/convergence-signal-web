@@ -1,0 +1,39 @@
+{
+  "id": "td_37b8456a",
+  "source": "arxiv",
+  "source_id": "2605.31521",
+  "source_url": "https://arxiv.org/abs/2605.31521",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuhan_song",
+    "name": "Yuhan Song",
+    "handle": "Yuhan Song, Linhao Zhang, Aiwei Liu, Chuhan Wu, Sijun Zhang, Wei Jia, Yuan Liu, Houfeng Wang, Xiao Zhou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "UniAudio-Token: Empowering Semantic Speech Tokenizers with General Audio Perception",
+  "body_text": "UniAudio-Token: Empowering Semantic Speech Tokenizers with General Audio Perception\n\nSemantic speech tokenizers have become a widely used interface for Audio-LLMs, owing to their compact single-codebook design and strong linguistic alignment. However, their focus on linguistic abstraction induces acoustic blindness, limiting their applicability beyond speech-centric tasks. We propose UniAudio-Token, a framework that empowers semantic tokenizers with general audio perception without compromising speech ability. Instead of altering the semantic paradigm, UniAudio-Token mitigates its information loss through two key innovations: (1) Semantic-Acoustic Primitives (SAP) provide structured supervision by decomposing audio into linguistic content, vocal attributes, and auditory-scene primitives; and (2) Semantic-Acoustic Equilibrium (SAE) introduces a content-aware gating mechanism that adaptively restores fine-grained acoustic details from shallow layers. Extensive evaluations show that UniAudio-Token learns comprehensive universal representations while preserving high-fidelity speech generation. When integrated with downstream LLMs, it outperforms all single-codebook baseline tokenizers on both understanding and generation tasks, effectively serving as a unified audio interface. We publicly release all our code, including training and inference scripts, together with the model checkpoints at https://github.com/Tencent/Universal_Audio_Tokenizer.\n\nAuthors: Yuhan Song, Linhao Zhang, Aiwei Liu, Chuhan Wu, Sijun Zhang, Wei Jia, Yuan Liu, Houfeng Wang, Xiao Zhou\nCategories: cs.CL, cs.SD, cs.CL",
+  "word_count": 161,
+  "published_at": "2026-05-29T16:36:21Z",
+  "ingested_at": "2026-06-01T11:04:04.381Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.SD",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

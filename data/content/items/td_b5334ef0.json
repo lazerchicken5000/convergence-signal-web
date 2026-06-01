@@ -1,0 +1,40 @@
+{
+  "id": "td_b5334ef0",
+  "source": "arxiv",
+  "source_id": "2605.31535",
+  "source_url": "https://arxiv.org/abs/2605.31535",
+  "content_type": "paper",
+  "creator": {
+    "id": "ulrich_prestel",
+    "name": "Ulrich Prestel",
+    "handle": "Ulrich Prestel, Stefan Andreas Baumann, Nick Stracke, Björn Ommer",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video",
+  "body_text": "RayDer: Scalable Self-Supervised Novel View Synthesis from Real-World Video\n\nSelf-supervised novel view synthesis (NVS) remains challenging to scale, despite the abundance of video data, largely due to the brittleness of training on realistic videos and the hard-to-predict scaling behavior of multi-network system designs. We introduce RayDer, a unified, feed-forward transformer that consolidates camera estimation, scene reconstruction, and rendering into a single backbone, turning self-supervised NVS into a well-posed single-model scaling problem. A minimal dynamic state, treated as a nuisance factor, absorbs time-varying content and enables stable training on unconstrained real-world video. Importantly, RayDer keeps static-scene NVS as its target task: dynamic content is leveraged purely as scalable supervision, not reconstructed as in dynamic-scene (4D) NVS. Across multiple model sizes and orders of magnitude in data, RayDer exhibits clean power-law scaling with data and compute, and outperforms static-scene data mixtures. On a large number of benchmarks, RayDer achieves strong zero-shot open-set performance competitive with state-of-the-art supervised approaches. Project Page: https://compvis.github.io/rayder\n\nAuthors: Ulrich Prestel, Stefan Andreas Baumann, Nick Stracke, Björn Ommer\nCategories: cs.CV, cs.AI, cs.LG, cs.CV",
+  "word_count": 150,
+  "published_at": "2026-05-29T16:50:27Z",
+  "ingested_at": "2026-06-01T11:04:40.450Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

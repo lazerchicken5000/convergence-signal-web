@@ -1,0 +1,39 @@
+{
+  "id": "td_063065a0",
+  "source": "arxiv",
+  "source_id": "2605.31594",
+  "source_url": "https://arxiv.org/abs/2605.31594",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_berg_thomsen",
+    "name": "Daniel Berg Thomsen",
+    "handle": "Daniel Berg Thomsen, Adrien Taylor, Aymeric Dieuleveut",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Tight Theory of Error Feedback Algorithms in Distributed Optimization",
+  "body_text": "A Tight Theory of Error Feedback Algorithms in Distributed Optimization\n\nCommunication costs are a major bottleneck in distributed learning and first-order optimization. A common approach to alleviate this issue is to compress the gradient information exchanged between agents. However, such compression typically degrades the convergence guarantees of gradient-based methods. Error feedback mechanisms provide a simple and computationally cheap remedy for this issue, but numerous variants have been proposed, and their relative performance remains poorly understood. This paper provides tight convergence analyses for two of the main error-feedback algorithms from the literature, the classic Error Feedback method (EF) and Error Feedback 21 (EF21), by identifying optimal step-size choices and constructing optimal Lyapunov functions tailored to each method. The results hold independently of the number of agents and recover the known best guarantees possible in the single-agent regime.\n\nAuthors: Daniel Berg Thomsen, Adrien Taylor, Aymeric Dieuleveut\nCategories: cs.LG, math.OC, cs.LG",
+  "word_count": 126,
+  "published_at": "2026-05-29T17:57:03Z",
+  "ingested_at": "2026-06-01T11:04:40.448Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.OC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
