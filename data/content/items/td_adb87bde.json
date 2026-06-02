@@ -1,0 +1,38 @@
+{
+  "id": "td_adb87bde",
+  "source": "arxiv",
+  "source_id": "2606.02515",
+  "source_url": "https://arxiv.org/abs/2606.02515",
+  "content_type": "paper",
+  "creator": {
+    "id": "yeganeh_marghi",
+    "name": "Yeganeh Marghi",
+    "handle": "Yeganeh Marghi, Kelly Jin, Uygar Sümbül",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Biconvex Formulation for Stable Transport of Mixture Models with a Unique Solution",
+  "body_text": "A Biconvex Formulation for Stable Transport of Mixture Models with a Unique Solution\n\nOptimal transport (OT) provides a principled framework for mapping between probability distributions. Despite extensive progress, applying OT to large-scale data remains computationally demanding, and the resulting pointwise transport plans are often difficult to interpret. We introduce Optimal Mixture Transport (OMT), a scalable framework that shifts the transport paradigm from individual samples to mixtures of subpopulations, reformulating the transport problem as a strictly biconvex optimization with a unique global minimizer. We further establish theoretical guarantees on the stability of the OMT map, showing that bounded perturbations of the underlying distributions lead to bounded changes in the transport plan. By formulating subpopulations as exponential-family distributions, OMT decouples computational complexity from the sample size, scaling solely with the number of mixture components. We demonstrate the effectiveness and practicality of OMT on a wide range of synthetic benchmarks and real-world datasets, including image data and large-scale single-cell RNA sequencing measurements.\n\nAuthors: Yeganeh Marghi, Kelly Jin, Uygar Sümbül\nCategories: cs.LG, cs.LG",
+  "word_count": 146,
+  "published_at": "2026-06-01T17:26:04Z",
+  "ingested_at": "2026-06-02T11:04:31.964Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

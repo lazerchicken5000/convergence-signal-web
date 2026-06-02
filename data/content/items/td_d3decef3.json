@@ -1,0 +1,38 @@
+{
+  "id": "td_d3decef3",
+  "source": "arxiv",
+  "source_id": "2606.02572",
+  "source_url": "https://arxiv.org/abs/2606.02572",
+  "content_type": "paper",
+  "creator": {
+    "id": "haiyu_wu",
+    "name": "Haiyu Wu",
+    "handle": "Haiyu Wu, Randall Balestriero, Morgan Levine",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VISReg: Variance-Invariance-Sketching Regularization for JEPA training",
+  "body_text": "VISReg: Variance-Invariance-Sketching Regularization for JEPA training\n\nSelf-supervised learning methods prevent embedding collapse via modeling heuristics or explicit regularization of the embedding space. Among the latter, VICReg decomposes regularization into variance and covariance objectives, offering flexibility and interpretability. However, covariance captures only second-order statistics -- encouraging decorrelation but failing to enforce the full distributional shape needed for stable training. Sketching-based methods such as SIGReg address this by aligning embeddings to an isotropic Gaussian, but lack flexibility and suffer from vanishing gradients under collapse. We propose Variance-Invariance-Sketching Regularization (VISReg), which replaces covariance with a Sliced-Wasserstein-based sketching objective that enforces full distributional shape, while retaining a variance term for scale control. By decoupling scale and shape, VISReg combines VICReg's flexibility with the distributional rigor of sketching methods, providing robust gradients even under collapse. We show that VISReg scales linearly, outperforms existing regularization on low-quality datasets, and is resilient to long-tailed and low-rank regimes. Pre-trained on ImageNet-1K, VISReg achieves state-of-the-art performance on out-of-distribution datasets. Pre-trained on ImageNet-22K, it matches DINOv2's OOD performance despite the latter using 10x more data (LVD-142M). Project and code: https://haiyuwu.github.io/visreg.\n\nAuthors: Haiyu Wu, Randall Balestriero, Morgan Levine\nCategories: cs.CV, cs.CV",
+  "word_count": 174,
+  "published_at": "2026-06-01T17:58:01Z",
+  "ingested_at": "2026-06-02T11:05:02.188Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_a962e3bc",
+  "source": "arxiv",
+  "source_id": "2606.02559",
+  "source_url": "https://arxiv.org/abs/2606.02559",
+  "content_type": "paper",
+  "creator": {
+    "id": "elia_cunegatti",
+    "name": "Elia Cunegatti",
+    "handle": "Elia Cunegatti, Marcus Vukojevic, Erik Nielsen, Giovanni Iacca",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+  "body_text": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression\n\nPost-training compression of Large Language Models (LLMs) removes entire architectural components, either deleting them or replacing them with fitted modules. Existing replacement-based methods share two design constraints: full-layer granularity and contiguous selection. We argue that this is overly restrictive: in fact, redundancy in pretrained transformers is not confined to contiguous regions, nor does it evenly distribute between Attention and FeedForward outputs, implying that different strategies best approximate different submodule types and that removable components need not cluster within contiguous depth ranges. Based on this intuition, we introduce SubFit (Submodule-level Fitted residual replacement), which compresses LLMs at the submodule level: Attention and FeedForward submodules are selected non-contiguously, and each receives its own lightweight fitted residual bypass. SubFit operates post-training and requires only calibration data. Across ten LLMs (five base, five instruction-tuned), five sparsity levels from 12.5% to 37.5%, and four replacement-based baselines, SubFit achieves the best aggregate perplexity-accuracy trade-off across the evaluated sparsity levels, with larger gains under aggressive compression. At 25% sparsity, it retains 84.6% of dense downstream accuracy and incurs 2.42x perplexity degradation, against 81.6% and 4.34x for the strongest baselines, while delivering measurable inference speedup and KV-cache savings. Code is available at https://github.com/eliacunegatti/SubFit.\n\nAuthors: Elia Cunegatti, Marcus Vukojevic, Erik Nielsen, Giovanni Iacca\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 195,
+  "published_at": "2026-06-01T17:52:53Z",
+  "ingested_at": "2026-06-02T11:04:26.662Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

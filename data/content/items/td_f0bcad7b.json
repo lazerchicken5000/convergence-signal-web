@@ -1,0 +1,38 @@
+{
+  "id": "td_f0bcad7b",
+  "source": "arxiv",
+  "source_id": "2606.02547",
+  "source_url": "https://arxiv.org/abs/2606.02547",
+  "content_type": "paper",
+  "creator": {
+    "id": "nika_haghtalab",
+    "name": "Nika Haghtalab",
+    "handle": "Nika Haghtalab, Ariel D. Procaccia, Han Shao, Serena Lutong Wang, Kunhe Yang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Pluralistic Leaderboards",
+  "body_text": "Pluralistic Leaderboards\n\nRecent leaderboard-based evaluations of large language models aggregate user feedback by fitting a Bradley--Terry model to pairwise comparisons, producing a single global ranking based on a latent quality score. While appealing for its simplicity, this approach is incompatible with heterogeneous preferences: when LLMs are used across diverse tasks and use cases, users who favor fundamentally different model behaviors can be systematically misrepresented when collapsed into a single quality score. To address this issue, we study \\emph{pluralistic leaderboards} that aim to remain \\emph{stable} with respect to heterogeneous user populations. Drawing on ideas from social choice theory, we adapt the notion of \\emph{local stability}, which requires that no model outside the top-$k$ positions is collectively preferred to the top-$k$ set by more than $O(1/k)$ fraction of users. Building on techniques from the social choice literature, we design an alternative leaderboard mechanism that satisfies local stability while eliciting only $\\widetilde{O}(k)$ pairwise comparisons per user, where $k$ is the size of the prefix for which stability is guaranteed. Using data from LMArena, we show that standard Bradley--Terry aggregation can violate local stability in practice, whereas our method provides substantially stronger stability guarantees.\n\nAuthors: Nika Haghtalab, Ariel D. Procaccia, Han Shao, Serena Lutong Wang, Kunhe Yang\nCategories: cs.GT, cs.GT",
+  "word_count": 188,
+  "published_at": "2026-06-01T17:49:02Z",
+  "ingested_at": "2026-06-02T11:04:45.889Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

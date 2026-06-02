@@ -1,0 +1,38 @@
+{
+  "id": "td_880afc9d",
+  "source": "arxiv",
+  "source_id": "2606.02490",
+  "source_url": "https://arxiv.org/abs/2606.02490",
+  "content_type": "paper",
+  "creator": {
+    "id": "antonin_oswald",
+    "name": "Antonin Oswald",
+    "handle": "Antonin Oswald, Estelle Massart",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Expressivity of congruence-based architectures for DNNs on positive-definite matrices",
+  "body_text": "Expressivity of congruence-based architectures for DNNs on positive-definite matrices\n\nThis work studies neural architectures for classifying symmetric positive-definite matrices, focusing on congruence-like layers, in which the input matrix is multiplied on the left and right by a (possibly rectangular) weight matrix $W$ and its transpose. Such layers lie at the core of the celebrated SPDNet and have also been employed independently for dimensionality reduction on positive-definite data. We show that the (semi)-orthogonality constraint commonly imposed on $W$ limits the expressivity of these layers: for certain activation functions, the resulting architecture collapses to a one-hidden-layer equivalent. This lack of expressivity follows from a loss of spectral diversity in congruence-like layers for semi-orthogonal $W$ and is a direct consequence of Poincaré's separation theorem. We then examine the choice of the final classifier, comparing several Riemannian classifiers and discussing their compatibility with the feature maps produced by congruence-like layers.\n\nAuthors: Antonin Oswald, Estelle Massart\nCategories: cs.LG, cs.LG",
+  "word_count": 137,
+  "published_at": "2026-06-01T17:01:08Z",
+  "ingested_at": "2026-06-02T11:04:31.964Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

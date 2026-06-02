@@ -1,0 +1,41 @@
+{
+  "id": "td_71e304c1",
+  "source": "arxiv",
+  "source_id": "2606.02529",
+  "source_url": "https://arxiv.org/abs/2606.02529",
+  "content_type": "paper",
+  "creator": {
+    "id": "georgios_vasileiou",
+    "name": "Georgios Vasileiou",
+    "handle": "Georgios Vasileiou, Lantian Zhang, Silun Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A No-Regret Framework for Adaptive Incentive Design",
+  "body_text": "A No-Regret Framework for Adaptive Incentive Design\n\nIncentive design studies how a central authority can influence strategic agents through payments, subsidies, or taxes, so that individual objectives align with collective welfare. This paper introduces a No-Regret Adaptive Incentive Design (RAID) framework for nonlinear games with continuous action spaces and private agent costs. In this framework, the authority (planner) designs incentives that regulate the Nash equilibrium toward a socially optimal action profile, while simultaneously learning agents' unknown preferences from repeated strategic responses. We formulate the RAID problem and construct a least-squares estimator whose strong consistency requires only diminishing excitation. Leveraging this weak excitation requirement, we propose a switching incentive policy that alternates between probing (exploration) and estimate-based (exploitation) incentives. The resulting policy achieves an $O(t^{-0.5})$ parameter estimation rate and accumulates $O(t^{0.5}\\log t)$ squared social-cost regret, almost surely. We further extend the framework to an endogenous-noise response model, where standard least-squares estimation is biased due to an error-in-variables correlation between the noise and agent responses. We utilize a repeated-sampling estimator and corresponding switching policy that retain the same almost-sure convergence and regret rates. Numerical experiments validate the effectiveness and predicted convergence rates of the method.\n\nAuthors: Georgios Vasileiou, Lantian Zhang, Silun Zhang\nCategories: math.OC, cs.GT, cs.MA, eess.SY, math.OC",
+  "word_count": 186,
+  "published_at": "2026-06-01T17:37:11Z",
+  "ingested_at": "2026-06-02T11:05:17.911Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.GT",
+    "cs.MA",
+    "eess.SY",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

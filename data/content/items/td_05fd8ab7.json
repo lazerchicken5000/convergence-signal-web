@@ -1,0 +1,38 @@
+{
+  "id": "td_05fd8ab7",
+  "source": "arxiv",
+  "source_id": "2606.02506",
+  "source_url": "https://arxiv.org/abs/2606.02506",
+  "content_type": "paper",
+  "creator": {
+    "id": "yilin_ou",
+    "name": "Yilin Ou",
+    "handle": "Yilin Ou, Mengshi Qi, Huadong Ma",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Question-Aware Evidence Ledgers for Video Relational Reasoning",
+  "body_text": "Question-Aware Evidence Ledgers for Video Relational Reasoning\n\nThe VRR-QA challenge evaluates visual relational reasoning in videos, where answers often depend on implicit spatial relations, event boundaries, target identity, and dialogue context rather than a single salient frame. We present a test-time reasoning pipeline built around a strong GPT-5.5 video QA solver and a set of question-aware evidence ledgers. The initial solver answers each question from a uniform video representation, while routed ledgers are prompted to make the required targets, count units, reference frames, and temporal or spatial scope explicit for counting, spatial, endpoint, viewpoint, and dialogue reasoning. External tools such as open-vocabulary detection, depth cues, pair crops, ASR, and scene-graph ledgers are used only as evidence sources. A conservative gate keeps the current answer unless independent evidence uniquely supports a different option. The final evidence-gated pipeline achieves 92.95% overall accuracy and 93.79% macro accuracy on the challenge test split.\n\nAuthors: Yilin Ou, Mengshi Qi, Huadong Ma\nCategories: cs.CV, cs.CV",
+  "word_count": 142,
+  "published_at": "2026-06-01T17:18:03Z",
+  "ingested_at": "2026-06-02T11:05:17.912Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

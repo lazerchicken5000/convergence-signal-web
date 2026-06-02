@@ -1,0 +1,38 @@
+{
+  "id": "td_1e6915e6",
+  "source": "arxiv",
+  "source_id": "2606.02536",
+  "source_url": "https://arxiv.org/abs/2606.02536",
+  "content_type": "paper",
+  "creator": {
+    "id": "jonah_leshin",
+    "name": "Jonah Leshin",
+    "handle": "Jonah Leshin, Manish Shah, Ian Timmis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Tracking the Behavioral Trajectories of Adapting Agents",
+  "body_text": "Tracking the Behavioral Trajectories of Adapting Agents\n\nText files such as skill files, memory files, and behavioral configuration files play a central role in defining how modern agents act. Through edits by humans or the agents themselves, these files may evolve over time, directly steering the agent's behavior in future interactions. We present a methodology and framework for measuring agent $traits$ by defining traits as directions in the embedding space of a text embedding model. We train a linear model on labeled \"before\" versus \"after\" skill file diffs to learn a trait vector, then score arbitrary skill edits by projecting their embedding diffs onto this vector. Evaluated on 68 labeled skill diff pairs for the trait of propensity to seek sensitive data, our method achieves 91.2% sign classification accuracy and a Spearman rank correlation of $ρ= 0.82$ under leave-one-out cross-validation. We build this trait evaluation into a broader agent-to-agent protocol that enables one agent to evaluate another's skill file updates through a trusted intermediary.\n\nAuthors: Jonah Leshin, Manish Shah, Ian Timmis\nCategories: cs.AI, cs.AI",
+  "word_count": 157,
+  "published_at": "2026-06-01T17:40:31Z",
+  "ingested_at": "2026-06-02T11:04:45.889Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
