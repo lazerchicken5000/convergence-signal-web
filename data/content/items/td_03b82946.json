@@ -1,0 +1,39 @@
+{
+  "id": "td_03b82946",
+  "source": "arxiv",
+  "source_id": "2606.03938",
+  "source_url": "https://arxiv.org/abs/2606.03938",
+  "content_type": "paper",
+  "creator": {
+    "id": "bishwas_mandal",
+    "name": "Bishwas Mandal",
+    "handle": "Bishwas Mandal, Shmuel Berman, Akshay Vegesna, Samip Dahal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "q0: Primitives for Hyper-Epoch Pretraining",
+  "body_text": "q0: Primitives for Hyper-Epoch Pretraining\n\nMulti-epoch training is becoming the standard now that compute is growing faster than the supply of high-quality text. But pretraining a single model saturates within a few passes, long before the compute budget is exhausted. We argue this calls for a conceptual shift from training a single model toward exploring a population of models and aggregating their predictions. We introduce hyper-epoch pretraining (q0), which turns a multi-epoch budget into a population of diverse models whose combined predictions reach a lower validation loss than a single refined model. q0 reduces to three core primitives. A cyclic schedule with anti-correlated learning rate and weight decay collects diverse models from a few parallel trajectories. Chain distillation trains each model against its predecessor so that model quality compounds across the population. A learned prior, fit on a held out set, selects and weights members for any inference budget. On a 1.8B-parameter model trained on 100M FineWeb tokens, q0 matches a strong 256-epoch ensemble baseline using only ${\\sim}56$ epochs (${\\sim}4.6\\times$ fewer), or ${\\sim}67$ epochs (${\\sim}3.8\\times$ fewer) when matched to the baseline's ensemble size, and continues to improve beyond it. These gains reach cumulative ${\\sim}12.9\\times$ data efficiency under the Slowrun setting and transfer to downstream benchmarks. Crucially, the optimal allocation shifts with the budget, so we give prescriptive recipes for how to spend a given epoch budget to maximize generalization, from a single epoch up to the largest budgets.\n\nAuthors: Bishwas Mandal, Shmuel Berman, Akshay Vegesna, Samip Dahal\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 233,
+  "published_at": "2026-06-02T17:27:48Z",
+  "ingested_at": "2026-06-03T11:05:08.997Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

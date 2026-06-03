@@ -1,0 +1,39 @@
+{
+  "id": "td_bab65df2",
+  "source": "arxiv",
+  "source_id": "2606.03979",
+  "source_url": "https://arxiv.org/abs/2606.03979",
+  "content_type": "paper",
+  "creator": {
+    "id": "ali_behrouz",
+    "name": "Ali Behrouz",
+    "handle": "Ali Behrouz, Farnoosh Hashemi, Vahab Mirrokni",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+  "body_text": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories\n\nThe past few decades have witnessed significant advances in the design of machine learning algorithms, from early studies on task-specific shallow models to more general deep Large Language Models (LLMs). Despite showing promising results in tasks that require instant prediction or in-context learning, existing models lack the ability to continually learn and effectively transfer their temporal in-context knowledge to their long-term parameters. Inspired by human learning process, we introduce a ''Sleep'' paradigm that allows the models to continually learn, distill their short-term fragile memories into stable long-term knowledge with replay, and recursively improve themselves with ''Dreaming'' process. In more detail, sleep consists of two stages: (1) Memory Consolidation: an upward distillation process, called Knowledge Seeding, where the memories of a smaller-self are distilled into a larger network to provide more capacity while preserving the knowledge. As a proof of concept, we present a new Generalized Distillation process for {Knowledge Seeding} (i.e., the combination of on-policy distillation with Reinforcement Learning (RL)-based imitation learning); (2) Dreaming: a self-improvement phase, where the model uses RL to generate a curriculum of synthetic data to rehearse new knowledge and refine existing capabilities without human supervision. Our experiments on long-horizon, continual learning, knowledge incorporation, and few-shot generalization tasks support the importance of the sleep stage.\n\nAuthors: Ali Behrouz, Farnoosh Hashemi, Vahab Mirrokni\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 209,
+  "published_at": "2026-06-02T17:56:55Z",
+  "ingested_at": "2026-06-03T11:03:59.029Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

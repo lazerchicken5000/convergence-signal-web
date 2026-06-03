@@ -1,0 +1,39 @@
+{
+  "id": "td_b814e1b9",
+  "source": "arxiv",
+  "source_id": "2606.03992",
+  "source_url": "https://arxiv.org/abs/2606.03992",
+  "content_type": "paper",
+  "creator": {
+    "id": "tetiana_martyniuk",
+    "name": "Tetiana Martyniuk",
+    "handle": "Tetiana Martyniuk, Jonathan Seele, Alexandre Boulch, Gilles Puy, Renaud Marlet, Raoul de Charette",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Exploring Easy Boosts for Lidar Semantic Scene Completion",
+  "body_text": "Exploring Easy Boosts for Lidar Semantic Scene Completion\n\nThis paper investigates \"free lunch\" strategies to boost the performance of lidar semantic scene completion (SSC) without requiring complex architectural redesigns. We first demonstrate that endowing input point clouds with semantic pseudo-labels from off-the-shelf segmentors significantly improves the performance of existing architectures. By evaluating these models against an oracle, we establish that high-quality semantic priors are a primary driver of mIoU gains. Furthermore, we equip the input lidar scan with visibility information that distinguishes between empty and unknown spaces, which provides a secondary performance boost across the tested architectures. Using these simple enhancements, we observe that older models remain competitive with state-of-the-art systems, and can even outperform them. Our code is available at https://github.com/astra-vision/SSC-Priors.\n\nAuthors: Tetiana Martyniuk, Jonathan Seele, Alexandre Boulch, Gilles Puy, Renaud Marlet, Raoul de Charette\nCategories: cs.CV, cs.RO, cs.CV",
+  "word_count": 114,
+  "published_at": "2026-06-02T17:59:59Z",
+  "ingested_at": "2026-06-03T11:06:03.310Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.RO",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

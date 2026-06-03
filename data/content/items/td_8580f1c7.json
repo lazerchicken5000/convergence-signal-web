@@ -1,0 +1,40 @@
+{
+  "id": "td_8580f1c7",
+  "source": "arxiv",
+  "source_id": "2606.03939",
+  "source_url": "https://arxiv.org/abs/2606.03939",
+  "content_type": "paper",
+  "creator": {
+    "id": "mubarak_a._ojewale",
+    "name": "Mubarak A. Ojewale",
+    "handle": "Mubarak A. Ojewale, Adriana E. Chis, Jorge M. Cortes-Mendoza, Bernardo Pulido-Gaytan, Horacio Gonzalez-Velez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FlashbackCL: Mitigating Temporal Forgetting in Federated Learning",
+  "body_text": "FlashbackCL: Mitigating Temporal Forgetting in Federated Learning\n\nFederated Learning (FL) of foundation and edge models increasingly targets deployments where client data distributions drift over time, yet existing forgetting-mitigation methods assume each client's distribution is stationary. Flashback, the strongest recent FL method against cross-client (spatial) forgetting, uses monotonically accumulating per-class label counts as a knowledge proxy; this proxy becomes miscalibrated under temporal distribution shift and anchors the global model to an outdated class balance. We formalise temporal forgetting in FL with a per-phase metric isolated from protocol-level fluctuations and propose Flashback Continual Learning (FlashbackCL), a drop-in extension of Flashback with (i) temporally-decayed label counts; (ii) a device-aware replay buffer with Class-Balanced Reservoir Sampling (CBRS); and (iii) server-side active coreset curation on the public distillation set. The results show that FlashbackCL achieves 6.9% to 10.0% relative improvement relative to Flashback, on CIFAR-10 with 50 clients and three controlled temporal shift modes, while simultaneously reducing temporal forgetting by up to 68%. A 5-variant ablation identifies CBRS replay as the critical component. FlashbackCL also improves Flashback by 3.5 points on stationary CIFAR-100, suggesting that class-balanced replay regularises spatial heterogeneity as well as temporal shift.\n\nAuthors: Mubarak A. Ojewale, Adriana E. Chis, Jorge M. Cortes-Mendoza, Bernardo Pulido-Gaytan, Horacio Gonzalez-Velez\nCategories: cs.LG, cs.AI, cs.PF, cs.LG",
+  "word_count": 183,
+  "published_at": "2026-06-02T17:28:21Z",
+  "ingested_at": "2026-06-03T11:05:08.997Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.PF",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

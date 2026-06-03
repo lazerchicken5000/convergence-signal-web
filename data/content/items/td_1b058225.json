@@ -1,0 +1,37 @@
+{
+  "id": "td_1b058225",
+  "source": "semantic_scholar",
+  "source_id": "9121c3620a1dd62c2345e6cf40e974cc8b96e177",
+  "source_url": "https://www.semanticscholar.org/paper/9121c3620a1dd62c2345e6cf40e974cc8b96e177",
+  "content_type": "paper",
+  "creator": {
+    "id": "indrajeet_mandal",
+    "name": "Indrajeet Mandal",
+    "handle": "Indrajeet Mandal, J. Soni, Mohd Zaki, M. Smedskjaer, K. Wondraczek, Lothar Wondraczek, N. Gosvami, N. M. A. Krishnan",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Evaluating large language model agents for automation of atomic force microscopy",
+  "body_text": "Evaluating large language model agents for automation of atomic force microscopy\nTLDR: It is shown that LLM agents can automate atomic force microscopy (AFM) through the AILA framework, and the necessity for benchmarking and robust safety protocols before deploying LLM agents as autonomous laboratory assistants across scientific disciplines is established.\nLarge language models (LLMs) are transforming laboratory automation by enabling self-driving laboratories (SDLs) that could accelerate materials research. However, current SDL implementations rely on rigid protocols that fail to capture the adaptability and intuition of expert scientists in dynamic experimental settings. Here, we show that LLM agents can automate atomic force microscopy (AFM) through our Artificially Intelligent Lab Assistant (AILA) framework. Further, we develop AFMBench—a comprehensive evaluation suite challenging LLM agents across the complete scientific workflow from experimental design to results analysis. We find that state-of-the-art LLMs struggle with basic tasks and coordination scenarios. Notably, models excelling at materials science question-answering perform poorly in laboratory settings, showing that domain knowledge does not translate to experimental capabilities. Additionally, we observe that LLM agents can deviate from instructions, a phenomenon referred to as sleepwalking, raising safety alignment concerns for SDL applications. Our ablations reveal that multi-agent frameworks significantly outperform single-agent approaches, though both remain sensitive to minor changes in instruction formatting or prompting. Finally, we evaluate AILA’s effectiveness in increasingly advanced experiments—AFM calibration, feature detection, mechanical property measurement, graphene layer counting, and indenter detection. These findings establish the necessity for benchmarking and robust safety protocols before deploying LLM agents as autonomous laboratory assistants across scientific disciplines. LLM agents could revolutionize laboratory automation, but their capabilities remain poorly tested. Here, the authors create a framework automating atomic force microscopy with LLMs and benchmark them through an end-to-end evaluation suite, revealing major limitations and safety concerns\nAuthors: Indrajeet Mandal, J. Soni, Mohd Zaki, M. Smedskjaer, K. Wondraczek, Lothar Wondraczek, N. Gosvami, N. M. A. Krishnan\nVenue: Nature Communications\nFields: Medicine",
+  "word_count": 316,
+  "published_at": "2025-10-14",
+  "ingested_at": "2026-06-03T11:07:44.107Z",
+  "engagement": {
+    "views": 29,
+    "likes": 0,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Medicine"
+  ],
+  "domain": "peptide_biotech",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

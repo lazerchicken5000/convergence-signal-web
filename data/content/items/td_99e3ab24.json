@@ -1,0 +1,40 @@
+{
+  "id": "td_99e3ab24",
+  "source": "arxiv",
+  "source_id": "2606.03954",
+  "source_url": "https://arxiv.org/abs/2606.03954",
+  "content_type": "paper",
+  "creator": {
+    "id": "hanjiang_hu",
+    "name": "Hanjiang Hu",
+    "handle": "Hanjiang Hu, Yiyuan Pan, Jiaxing Li, Xusheng Luo, Alexander Robey, Na Li, Yebin Wang, Changliu Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VLESA: Vision-Language Embodied Safety Agent for Human Activity Monitoring",
+  "body_text": "VLESA: Vision-Language Embodied Safety Agent for Human Activity Monitoring\n\nAs AI systems increasingly assist humans in physical tasks, ensuring safety becomes paramount -- physical actions carry immediate and irreversible consequences that digital errors do not. We introduce the Vision-Language Embodied Safety Agent (VLESA), a framework that monitors human activities from egocentric video and triggers real-time safety interventions when dangerous actions are predicted. VLESA addresses intent-dependent safety where identical actions can be safe or dangerous depending on context. A dataset pairing egocentric frames with goal-conditioned safety annotations is introduced, enabling a goal-conditioned safety Q-filter trained via GRPO that evaluates actions with respect to inferred intent without retraining. On top of that, an intent-action prediction agent is proposed to jointly infer goals and predict future actions from video. On the ASIMOV-2.0 benchmark, VLESA achieves higher intervention accuracy at the exact ground-truth frame compared to baselines, while the GRPO-trained Q-filter improves action safety by over 41 percentage points through goal-conditioned constrained decoding. Code is available at https://github.com/HanjiangHu/VLESA.\n\nAuthors: Hanjiang Hu, Yiyuan Pan, Jiaxing Li, Xusheng Luo, Alexander Robey, Na Li, Yebin Wang, Changliu Liu\nCategories: cs.CV, cs.LG, cs.RO, cs.CV",
+  "word_count": 155,
+  "published_at": "2026-06-02T17:42:17Z",
+  "ingested_at": "2026-06-03T11:05:08.996Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.RO",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
