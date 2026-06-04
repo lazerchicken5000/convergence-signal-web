@@ -1,0 +1,42 @@
+{
+  "id": "td_4a4e6702",
+  "source": "arxiv",
+  "source_id": "2606.05131",
+  "source_url": "https://arxiv.org/abs/2606.05131",
+  "content_type": "paper",
+  "creator": {
+    "id": "kelan_gray",
+    "name": "Kelan Gray",
+    "handle": "Kelan Gray, Finlay Brown, Nicolas Boullé, Matthew J. Colbrook",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Deep Embedded Multiplicative DMD for Algebra-Preserving Koopman Learning",
+  "body_text": "Deep Embedded Multiplicative DMD for Algebra-Preserving Koopman Learning\n\nKoopman theory turns nonlinear dynamics into a linear spectral problem. In computation, however, everything depends on a hard finite-dimensional choice: the observables must be expressive, nearly invariant under the dynamics, and, ideally, compatible with composition. Deep Koopman methods learn flexible coordinates, whereas structure-preserving methods enforce operator identities on fixed dictionaries. We combine these ideas by introducing Deep Embedded Multiplicative Dynamic Mode Decomposition (DeepMDMD), a method that learns a latent space and a partition of it, while enforcing the Koopman product rule as an exact algebraic constraint. Training alternates between an exact multiplicative operator update and a differentiable latent-clustering step that promotes Koopman closure. The result is a finite transition map on learned latent cells. Its nonzero spectrum lies on the unit circle, its dictionary is shaped by the dynamics rather than by ambient geometry, and forecasts are made in latent coordinates before being decoded to physical space. Across Hamiltonian, chaotic, and fluid examples, DeepMDMD learns dictionaries that are far more compact and dynamically coherent than those produced by geometric MDMD partitions. It reduces spectral pollution, reveals richer continuous-spectrum structure, and gives stable forecasts under severe noise. In high-dimensional flows, including a 158,624-dimensional cylinder wake and a noisy $Re=20,000$ lid-driven cavity, it preserves coherent structures and long-time spectral statistics where state-space MDMD fails. These results suggest a practical rule for Koopman learning: learn the coordinates, constrain the algebra.\n\nAuthors: Kelan Gray, Finlay Brown, Nicolas Boullé, Matthew J. Colbrook\nCategories: cs.LG, math.DS, math.NA, math.OC, math.SP, cs.LG",
+  "word_count": 227,
+  "published_at": "2026-06-03T17:37:06Z",
+  "ingested_at": "2026-06-04T11:04:37.157Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.DS",
+    "math.NA",
+    "math.OC",
+    "math.SP",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

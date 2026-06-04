@@ -1,0 +1,40 @@
+{
+  "id": "td_35d4f30c",
+  "source": "arxiv",
+  "source_id": "2606.05115",
+  "source_url": "https://arxiv.org/abs/2606.05115",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiaoyang_jiang",
+    "name": "Xiaoyang Jiang",
+    "handle": "Xiaoyang Jiang, Yanlai Yang, Kenneth A. Norman, Brenden Lake, Mengye Ren",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Continual Visual and Verbal Learning Through a Child's Egocentric Input",
+  "body_text": "Continual Visual and Verbal Learning Through a Child's Egocentric Input\n\nChildren learn the meanings of words from a continuous, temporally structured stream of egocentric experience. Recent work shows that neural networks can also learn word-referent mappings from a child's egocentric video recordings, but they cycle through the shuffled data for hundreds of epochs, contrasting with how children actually encounter their environment. We introduce BabyCL, a continual multimodal learning framework that processes the SAYCam dataset in a single chronological pass, combining streaming visual representation learning with an image-text contrastive objective. BabyCL combines a multi-stage temporal segmentation of the stream with a dual replay buffer that independently manages visual and multimodal histories, and it is jointly trained with three contrastive losses on a shared backbone. Under a matched optimization budget, BabyCL outperforms streaming learning baselines on the SAYCam Labeled-S 4AFC benchmark, substantially narrowing the gap to an upper bound of offline training. Ablations show that the gains are robust to the length of the online temporal segmentation window and the eviction rule of the replay buffer. Together, these results show that meaningful word-referent mappings can emerge under training conditions much closer to a child's actual experience.\n\nAuthors: Xiaoyang Jiang, Yanlai Yang, Kenneth A. Norman, Brenden Lake, Mengye Ren\nCategories: cs.CV, cs.AI, cs.CL, cs.CV",
+  "word_count": 184,
+  "published_at": "2026-06-03T17:20:18Z",
+  "ingested_at": "2026-06-04T11:03:57.266Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_433c9bf1",
+  "source": "arxiv",
+  "source_id": "2606.05107",
+  "source_url": "https://arxiv.org/abs/2606.05107",
+  "content_type": "paper",
+  "creator": {
+    "id": "elouan_gardès",
+    "name": "Elouan Gardès",
+    "handle": "Elouan Gardès, Seung Eun Yi, Kartik Ahuja, Théo Moutakanni, Huy V. Vo, Piotr Bojanowski, Wolfgang M. Pernice, Loïc Landrieu, Camille Couprie",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Who Needs Labels? Adapting Vision Foundation Models With the Metadata You Already Have",
+  "body_text": "Who Needs Labels? Adapting Vision Foundation Models With the Metadata You Already Have\n\nWe propose a label-free approach to adapt powerful but generic vision foundation models to specialized scientific domains. Standard supervised fine-tuning is often ill-suited to these settings: labels are scarce, and task-specific training can collapse the model's generality and hurt robustness. We instead leverage metadata to adapt representations to new domains in a self-supervised manner. Our method, FINO, combines a standard self-supervised objective with flexible metadata guidance that handles both highly granular discrete metadata and continuous metadata. It encourages the representation to preserve informative factors while suppressing spurious ones. Across subcellular fluorescence microscopy, Earth observation, wildlife monitoring, and medical imaging, FINO consistently outperforms standard unsupervised domain adaptation and fully supervised adaptation. It also exceeds highly-specialized domain-specific state of the art, while using no task labels for backbone adaptation and only lightweight probes for supervision.\n\nAuthors: Elouan Gardès, Seung Eun Yi, Kartik Ahuja, Théo Moutakanni, Huy V. Vo, Piotr Bojanowski, Wolfgang M. Pernice, Loïc Landrieu, Camille Couprie\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 133,
+  "published_at": "2026-06-03T17:10:11Z",
+  "ingested_at": "2026-06-04T11:03:57.266Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

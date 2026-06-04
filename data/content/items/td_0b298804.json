@@ -1,0 +1,41 @@
+{
+  "id": "td_0b298804",
+  "source": "arxiv",
+  "source_id": "2606.03957",
+  "source_url": "https://arxiv.org/abs/2606.03957",
+  "content_type": "paper",
+  "creator": {
+    "id": "máté_gedeon",
+    "name": "Máté Gedeon",
+    "handle": "Máté Gedeon, Péter Mihajlik",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Efficient ASR Training with Conversations that Never Happened",
+  "body_text": "Efficient ASR Training with Conversations that Never Happened\n\nConversational ASR for lower-resource languages and niche domains is limited by the scarcity of domain-matched multi-speaker training data. We propose an augmentation pipeline that generates scenario-level dialogues with participant metadata, maps speaker attributes to TTS voice profiles, and assembles synthesized utterances into speaker-aware simulated conversations. We evaluated five LLM families under single-generator, fixed-budget mixture, and scale-up settings using the same FastConformer-Large training recipe for each one. We ran comprehensive evaluations on the Hungarian BEA-Dialogue benchmark corpus, with the method itself being applicable to any language given the resources for each component. The results show that synthetic conversations consistently improve speech recognition performance, but generator choice and data composition strongly affect the gains. Our largest training configuration, using only 67 hours of real conversations and 636 hours of simulated data, achieves better performance on the evaluation benchmark than a zero-shot model trained on 2700 hours of Hungarian speech. These findings indicate that LLM-generated conversational data synthesized with TTS is a practical complement to real conversational corpora for speech model training.\n\nAuthors: Máté Gedeon, Péter Mihajlik\nCategories: cs.CL, cs.AI, cs.SD, eess.AS, cs.CL",
+  "word_count": 169,
+  "published_at": "2026-06-02T17:46:12Z",
+  "ingested_at": "2026-06-03T13:04:43.871Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.SD",
+    "eess.AS",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
