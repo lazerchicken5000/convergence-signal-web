@@ -1,0 +1,38 @@
+{
+  "id": "td_0a1eda6b",
+  "source": "arxiv",
+  "source_id": "2606.06461",
+  "source_url": "https://arxiv.org/abs/2606.06461",
+  "content_type": "paper",
+  "creator": {
+    "id": "luzhe_sun",
+    "name": "Luzhe Sun",
+    "handle": "Luzhe Sun, Jingtian Ji, Haoran Chen, Jiawei Zhou, Matthew R. Walter",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Flow-based Policy Adaptation without Policy Updates",
+  "body_text": "Flow-based Policy Adaptation without Policy Updates\n\nLeveraging prior knowledge from pretrained policies, foundation models, or human operators offers an efficient alternative to learning robot skills from scratch. However, these agents often provide actions that are suboptimal, noisy, or misaligned with task-specific expert behavior. We propose GLOVES, a family of flow-based adaptation methods that correct non-expert actions by transporting them toward an expert action distribution. Rather than replacing agentic control with full autonomy, GLOVES performs selective action-level adaptation, improving task success while preserving agent intent. The learned flow also provides a natural in-distribution scoring mechanism through reverse flow evaluation. We use this signal as an intervention gate: actions that appear consistent with the expert distribution are passed through unchanged, while anomalous or out-of-distribution (OOD) actions are corrected. In this way, assistance is only provided when necessary. GLOVES requires only limited expert supervision, using a small number of demonstrations or reusable successful skill segments. By learning local expert action patterns and stitching them during execution, GLOVES provides a lightweight shared-control module for robust action adaptation across tasks and environments. Code and demos are available at ripl.github.io/GLOVES_web.\n\nAuthors: Luzhe Sun, Jingtian Ji, Haoran Chen, Jiawei Zhou, Matthew R. Walter\nCategories: cs.RO, cs.RO",
+  "word_count": 178,
+  "published_at": "2026-06-04T17:51:12Z",
+  "ingested_at": "2026-06-05T11:05:04.093Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_34e8d763",
+  "source": "arxiv",
+  "source_id": "2606.06482",
+  "source_url": "https://arxiv.org/abs/2606.06482",
+  "content_type": "paper",
+  "creator": {
+    "id": "rajdeep_brahma",
+    "name": "Rajdeep Brahma",
+    "handle": "Rajdeep Brahma, Joshua Agterberg, Yuguo Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Two-Sample Hypothesis Testing for Subspace Equality in Network Data",
+  "body_text": "Two-Sample Hypothesis Testing for Subspace Equality in Network Data\n\nIn many settings one is often interested in determining whether two networks share some joint structural connectivity patterns such as communities. However, while communities may be shared across networks, edge probabilities may differ significantly. Therefore, in this paper we consider testing a general null hypothesis that two networks have the same underlying subspace, which in particular includes the setting that communities are the same for either stochastic blockmodels or mixed-membership stochastic blockmodels (even if edge probabilities are different). We propose a test statistic based on the Frobenius norm of the difference of the leading subspace projection matrices, and we prove that our test statistic, after appropriate centering and scaling, converges in distribution to a Gaussian random variable as long as the average expected degree grows at least logarithmically in the number of vertices. We then provide estimators for the asymptotic mean and variance and show consistency under a stronger signal condition, and we give the local power of our test when the networks are sufficiently dense. Our theoretical results are based on a limit theorem for the projection difference of empirical and true eigenvectors which can also be viewed as the one-sample version of our test statistic, and this result may be of independent interest. We demonstrate our results through numerical simulations and an application to US Flight data.\n\nAuthors: Rajdeep Brahma, Joshua Agterberg, Yuguo Chen\nCategories: stat.ME, math.ST, stat.ME",
+  "word_count": 219,
+  "published_at": "2026-06-04T17:58:07Z",
+  "ingested_at": "2026-06-05T11:05:15.375Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "math.ST",
+    "stat.ME"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

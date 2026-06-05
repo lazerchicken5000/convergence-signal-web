@@ -1,0 +1,39 @@
+{
+  "id": "td_823c58c5",
+  "source": "arxiv",
+  "source_id": "2606.06434",
+  "source_url": "https://arxiv.org/abs/2606.06434",
+  "content_type": "paper",
+  "creator": {
+    "id": "rohit_goswami",
+    "name": "Rohit Goswami",
+    "handle": "Rohit Goswami, Ruhila Goswami",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "rsx: A high-performance streaming toolkit for RAD-seq sex determination",
+  "body_text": "rsx: A high-performance streaming toolkit for RAD-seq sex determination\n\nRestriction site-associated DNA sequencing (RAD-seq) is widely used to discover sex-linked markers in non-model organisms, but large studies produce marker tables with millions of RAD tags. RADSex provides the reference workflow for building marker-by-individual depth tables and testing sex-biased marker distributions, but its depth, merge, and related table-building commands grow memory-hungry, and its standard output reports frequentist calls with no posterior evidence and no direct Python or C integration. We present rsx, a Rust implementation of the complete RADSex command set that preserves marker-table semantics and command-line compatibility. rsx combines 2-bit DNA keys, parallel ingestion, memory-mapped marker tables, external sorting, bitset group counts, and streamed Gram-matrix PCA so that memory stays bounded by the number of individuals or by explicit buffers. It adds conjugate Beta-Binomial Bayes factors and posterior probabilities under XY and ZW hypotheses, returning strict, posterior-supported, and Bayes-factor-only evidence grades. A portable, libm-independent minimax approximation of the error function keeps the chi-squared tail reproducible across platforms without changing the underlying Yates test. On four real RAD-seq datasets comprising 41.9 billion bases and 29 million markers, rsx reproduced published RADSex v1.2.0 calls, achieved an 8.38-fold geometric-mean speedup across 56 paired timings (2.77-fold for FASTQ processing), and recovered every Bonferroni-significant positive-control marker. In Danio albolineatus, treated as null in the source publication, the posterior layer surfaced 30 W-linked marker hypotheses; in Notothenia rossii it withheld 400 Bayes-factor-only rows compatible with a low-prevalence null. Python bindings, a C API, and a reproducibility archive provide the workflows used for all reported numbers. rsx is released under GPL-3.0-or-later.\n\nAuthors: Rohit Goswami, Ruhila Goswami\nCategories: q-bio.GN, cs.PF, q-bio.GN",
+  "word_count": 255,
+  "published_at": "2026-06-04T17:36:36Z",
+  "ingested_at": "2026-06-05T11:05:15.376Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "q-bio.GN",
+    "cs.PF",
+    "q-bio.GN"
+  ],
+  "domain": "peptide_biotech",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

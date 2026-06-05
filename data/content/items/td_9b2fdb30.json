@@ -1,0 +1,39 @@
+{
+  "id": "td_9b2fdb30",
+  "source": "arxiv",
+  "source_id": "2606.06479",
+  "source_url": "https://arxiv.org/abs/2606.06479",
+  "content_type": "paper",
+  "creator": {
+    "id": "akarsh_kumar",
+    "name": "Akarsh Kumar",
+    "handle": "Akarsh Kumar, Phillip Isola",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Pretraining Recurrent Networks without Recurrence",
+  "body_text": "Pretraining Recurrent Networks without Recurrence\n\nTraining recurrent neural networks (RNNs) requires assigning credit across long sequences of computations. Standard backpropagation through time (BPTT) addresses this problem poorly: it is sequential in time, limiting parallelism, and suffers from vanishing or exploding gradients, making long-range associations difficult to learn. We propose Supervised Memory Training (SMT), a method for training nonlinear RNNs that sidesteps recurrent credit propagation entirely by reducing RNN training to supervised learning on one-step memory transition labels $(m_t, x_{t+1}) \\rightarrow m_{t+1}$. SMT acquires these memory labels by training a Transformer-based encoder on a predictive state objective--retaining only information from the past necessary to predict the future. By decoupling what to remember from how to update memory, SMT enables time-parallel RNN training with a stable $O(1)$ length gradient path between any two tokens--without ever unrolling the RNN. We find that SMT outperforms BPTT when pretraining various RNN architectures on tasks like language modeling and pixel sequence modeling. SMT enables nonlinear RNNs to better capture long-range dependencies and train in parallel, potentially unlocking the scaling of models that build temporal abstractions of past experience.\n\nAuthors: Akarsh Kumar, Phillip Isola\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 177,
+  "published_at": "2026-06-04T17:57:33Z",
+  "ingested_at": "2026-06-05T11:04:47.727Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

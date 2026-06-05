@@ -1,0 +1,39 @@
+{
+  "id": "td_4998dcce",
+  "source": "arxiv",
+  "source_id": "2606.06480",
+  "source_url": "https://arxiv.org/abs/2606.06480",
+  "content_type": "paper",
+  "creator": {
+    "id": "qintong_xie",
+    "name": "Qintong Xie",
+    "handle": "Qintong Xie, Edward Koh, Xavier Cadet, Peter Chin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DNQ: Deep Nash Q-Network for Partially Observable n-Player Games",
+  "body_text": "DNQ: Deep Nash Q-Network for Partially Observable n-Player Games\n\nMany real-world competitive systems require multiple decision-makers to act simultaneously under shared constraints, limited information, and repeated interaction, as in auctions, resource allocation, and security competition. We study multi-turn simultaneous bidding as a controlled testbed for such problems and propose DNQ, a solver-in-the-loop equilibrium supervision framework for training bidding agents. DNQ alternates between trajectory collection, critic-based payoff estimation, equilibrium computation, and policy imitation. At each visited state, a shared critic predicts either pairwise payoff matrices or an exact N-player payoff tensor, an external solver computes equilibrium strategies, and the agents are trained by minimizing the KL divergence between their masked policies and the solver-derived equilibrium targets. We focus on a scalable pairwise formulation that greatly reduces equilibrium-solving cost and training time compared with the exact formulation, while the shared critic amortizes payoff learning across agents and states. Experiments compare the pairwise and exact variants using critic loss, policy entropy, bidding resource usage, and training cost, showing that the pairwise method scales to larger numbers of agents, whereas the exact method becomes computationally impractical as the joint game grows. These results illustrate the trade-off between strategic fidelity and scalability in repeated competitive environments.\n\nAuthors: Qintong Xie, Edward Koh, Xavier Cadet, Peter Chin\nCategories: cs.GT, cs.LG, cs.GT",
+  "word_count": 192,
+  "published_at": "2026-06-04T17:58:01Z",
+  "ingested_at": "2026-06-05T11:04:58.254Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.LG",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

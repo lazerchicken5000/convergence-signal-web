@@ -1,0 +1,40 @@
+{
+  "id": "td_3ed42736",
+  "source": "arxiv",
+  "source_id": "2606.06469",
+  "source_url": "https://arxiv.org/abs/2606.06469",
+  "content_type": "paper",
+  "creator": {
+    "id": "august_y._chen",
+    "name": "August Y. Chen",
+    "handle": "August Y. Chen, Ahmed El Alaoui",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "How abundant are good interpolators?",
+  "body_text": "How abundant are good interpolators?\n\nLet $S$ be the set of unit norm linear classifiers $θ\\in \\mathbb{R}^d$ which correctly classify every point of a labeled dataset $(X_i,y_i)_{i=1}^n$, $X_i \\in \\mathbb{R}^d$, $y_i \\in \\{-1,+1\\}$, with a possibly negative margin $κ$ fixed in advance. Under two natural data-generating distributions of the $(X,y)$ pairs -- a Gaussian mixture model and a logistic model with Gaussian features -- and in the proportional regime $n/d \\to α$ with small enough $α$, we establish a large deviation principle on the event that a point $θ$ chosen uniformly at random from $S$ achieves a given generalization error, with high probability over the choice of the data. The associated large deviation rate function is deterministic and describes the proportion, at the exponential scale in $d$, of interpolating classifiers having a given desired performance. As a consequence, we establish the following concentration phenomenon: all but an exponentially small fraction of interpolating classifiers have approximately the same generalization performance given by the unique maximizer of this rate function. We numerically compare this maximizer to the performance of empirical risk minimization by gradient descent and to the performance of a natural linear program, both finding a point in $S$, and deduce that in the overparametrized regime of small $α$, these efficient procedures outperform the vast majority of interpolators, pointing to their nontrivial benign overfitting in this setting.\n\nAuthors: August Y. Chen, Ahmed El Alaoui\nCategories: math.ST, cs.LG, math.PR, math.ST",
+  "word_count": 221,
+  "published_at": "2026-06-04T17:55:10Z",
+  "ingested_at": "2026-06-05T11:04:58.255Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "cs.LG",
+    "math.PR",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

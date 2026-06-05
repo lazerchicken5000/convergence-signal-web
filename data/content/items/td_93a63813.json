@@ -1,0 +1,40 @@
+{
+  "id": "td_93a63813",
+  "source": "arxiv",
+  "source_id": "2606.06444",
+  "source_url": "https://arxiv.org/abs/2606.06444",
+  "content_type": "paper",
+  "creator": {
+    "id": "heng-jui_chang",
+    "name": "Heng-Jui Chang",
+    "handle": "Heng-Jui Chang, Alexander H. Liu, Saurabhchand Bhati, Mrudula Athi, Anton Ratnarajah, Amit Chhetri, James Glass",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "USAD 2.0: Scaling Representation Distillation for Universal Audio Understanding",
+  "body_text": "USAD 2.0: Scaling Representation Distillation for Universal Audio Understanding\n\nAudio encoders are critical to modern audio applications as large language models (LLMs) increasingly rely on a single encoder for diverse inputs. While self-supervised learning (SSL) has yielded strong domain-specific encoders like speech or music experts, multi-domain approaches like USAD and SPEAR remain limited in coverage and evaluation. Recent studies also suggest supervised encoders align better with audio LLMs. We present USAD 2.0, a universal encoder integrating knowledge from both SSL and supervised foundation models. USAD 2.0 introduces domain-aware distillation to address teacher mismatch, extends coverage to the music domain, and adds second-stage supervised distillation for downstream use. We further scale the model to one billion parameters via depth scaling. Experiments show USAD 2.0 achieves strong or state-of-the-art performance across probing and LLM-based evaluations.\n\nAuthors: Heng-Jui Chang, Alexander H. Liu, Saurabhchand Bhati, Mrudula Athi, Anton Ratnarajah, Amit Chhetri, James Glass\nCategories: eess.AS, cs.CL, cs.SD, eess.AS",
+  "word_count": 124,
+  "published_at": "2026-06-04T17:42:05Z",
+  "ingested_at": "2026-06-05T11:04:52.989Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.AS",
+    "cs.CL",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
