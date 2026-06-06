@@ -1,0 +1,35 @@
+{
+  "id": "td_24f97ef3",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "OpenAI Help: Lockdown Mode",
+  "body_text": "OpenAI Help: Lockdown Mode\nOpenAI first teased this in February, but now it's live and \"rolling out to eligible personal accounts, including Free, Go, Plus, and Pro, and self-serve ChatGPT Business accounts\":\n\nLockdown Mode is designed to help prevent the final stage of data exfiltration from a prompt injection attack by limiting outbound network requests that could transfer sensitive data to an attacker. Lockdown Mode does not prevent prompt injections from appearing in the content ChatGPT processes. For example, a prompt injection could appear in cached web content or in an uploaded file, and could still affect the behavior or accuracy of a response.\n\nThis looks really good to me.\nThe Lethal Trifecta occurs when an LLM system has access to all three of access to private data, exposure to untrusted content and a way to steal data and transmit it back to the attacker.\nThe only way to solve the trifecta is to cut off one of the three legs, and by far the easiest leg to restrict without making your LLM systems far less useful is the exfiltration vectors to steal data.\nIt looks to me like lockdown mode directly attacks that leg, using mechanisms that are deterministic and, crucially, are not evaluated by AI systems that themselves can be subverted by sufficiently devious attacks.\nThe existence of lockdown mode does however imply that ChatGPT, in its default settings, does not provide robust protection against sufficiently determined data exfiltration attacks!\n\n\n    Tags: security, ai, openai, prompt-injection, llms, lethal-trifecta",
+  "word_count": 249,
+  "published_at": "2026-06-05T23:56:40.000Z",
+  "ingested_at": "2026-06-06T11:00:10.539Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
