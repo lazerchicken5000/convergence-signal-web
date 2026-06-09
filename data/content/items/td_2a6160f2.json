@@ -1,0 +1,40 @@
+{
+  "id": "td_2a6160f2",
+  "source": "arxiv",
+  "source_id": "2606.09701",
+  "source_url": "https://arxiv.org/abs/2606.09701",
+  "content_type": "paper",
+  "creator": {
+    "id": "blake_bullwinkel",
+    "name": "Blake Bullwinkel",
+    "handle": "Blake Bullwinkel, Eugenia Kim, Amanda Minnich, Mark Russinovich",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning to Attack and Defend: Adaptive Red Teaming of Language Models via GRPO",
+  "body_text": "Learning to Attack and Defend: Adaptive Red Teaming of Language Models via GRPO\n\nAI red teaming must continually adapt to evolving attackers and defenders. Reinforcement learning offers a promising approach to discovering novel attacks, and co-training methods can produce more robust defenders in tandem. Recent works have demonstrated the efficacy of attacker-defender co-training by applying PPO and DPO, but report that GRPO is unstable in this setting. We introduce AdvGRPO, a co-training framework that makes GRPO viable for joint attacker-defender optimization using dense multi-channel rewards and decoupled advantage normalization. Training progresses through a curriculum from single-turn to closed-loop multi-turn attacks before bootstrapping co-training, where attacker and defender models are updated in alternation. We show that our method can produce highly effective and transferable attacks and that co-trained defenders outperform baselines on safety benchmarks.\n\nAuthors: Blake Bullwinkel, Eugenia Kim, Amanda Minnich, Mark Russinovich\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 120,
+  "published_at": "2026-06-08T16:21:36Z",
+  "ingested_at": "2026-06-09T11:03:59.344Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

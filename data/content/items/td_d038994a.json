@@ -1,0 +1,40 @@
+{
+  "id": "td_d038994a",
+  "source": "arxiv",
+  "source_id": "2606.09748",
+  "source_url": "https://arxiv.org/abs/2606.09748",
+  "content_type": "paper",
+  "creator": {
+    "id": "rishabh_sabharwal",
+    "name": "Rishabh Sabharwal",
+    "handle": "Rishabh Sabharwal, Hongru Wang, Amos Storkey, Jeff Z. Pan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback",
+  "body_text": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback\n\nExisting benchmarks for deep research agents (DRAs) assess only single-shot outputs, ignoring a key question: can DRAs improve their reports when guided by feedback? To investigate this, we conduct a multi-turn evaluation of DRAs under two feedback settings: self-reflection, in which the agent revises its report without any external diagnostic signal, and process-level feedback, in which the agent receives guidance targeting gaps in its research strategy. To enable process-level feedback, we design Research Gap Inference (RGI), a method that analyzes patterns of satisfied and unsatisfied rubric criteria to infer research-process gaps. Our analysis reveals three key findings: (i) under self-reflection, agents incorporate and regress on rubric criteria at nearly equal rates, yielding negligible net improvement; (ii) a single round of process-level feedback yields substantial gains, raising the normalized score by approximately $8$-$15$ points and yielding a roughly $35$-$40\\%$ incorporation rate; (iii) these gains do not compound over subsequent turns, as agents regress on up to $24\\%$ of previously satisfied criteria when rewriting the full report to address remaining gaps. Even with targeted guidance, reliable multi-turn improvement remains out of reach for the DRA architectures we evaluate. Our code and results are publicly available at https://github.com/sabharwalrishabh/Multi-Turn-Evaluation-of-DRAs.\n\nAuthors: Rishabh Sabharwal, Hongru Wang, Amos Storkey, Jeff Z. Pan\nCategories: cs.AI, cs.CL, cs.LG, cs.AI",
+  "word_count": 195,
+  "published_at": "2026-06-08T17:08:36Z",
+  "ingested_at": "2026-06-09T11:03:59.343Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

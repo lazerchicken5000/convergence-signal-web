@@ -1,0 +1,40 @@
+{
+  "id": "td_7d251d94",
+  "source": "arxiv",
+  "source_id": "2606.09802",
+  "source_url": "https://arxiv.org/abs/2606.09802",
+  "content_type": "paper",
+  "creator": {
+    "id": "udvas_das",
+    "name": "Udvas Das",
+    "handle": "Udvas Das, Waris Radji, Debabrota Basu, Odalric-Ambrym Maillard",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bandits for Efficient Experimentation: Adapting to Control Group, Preferences, and Context Drifts",
+  "body_text": "Bandits for Efficient Experimentation: Adapting to Control Group, Preferences, and Context Drifts\n\nWe consider a variant of the linear contextual stochastic multi-armed bandits, where the learner must provide recommendations to a group of users, each having its personalized preference vector, and in the presence of context distributions that are drifting over time. Under practitioner-friendly assumptions, we reduce this setting to linear bandit with stationary mean but heteroskedastic and non-stationary noise. We further study the case when the learner must ensure the mean reward of each decision must exceed that of a baseline strategy $\\boldsymbolπ_0$ at each decision step. We introduce Dri-MED, an algorithm inspired from the linear version of the MED strategy, and carefully adapted to handle the non-stationary heteroskedastic noise. We show that the instance-dependent regret scales as $\\tilde{\\mathcal O}\\left(\\fracκ{\\tildeΔ}d^2(\\log(T)\\right)$, where $\\tildeΔ$ is the constraint-aware sub-optimality gap subject to policy $π_0$, with variance-aware multiplicative term $κ$ that we carefully handle using heteroskedastic regression. We further show Dri-MED enjoys $\\tilde{\\mathcal{O}}(d)$ expected constraint violations. Our numerical results suggest that Dri-MED significantly outperforms conservative baselines that ignores the drift and preference structure.\n\nAuthors: Udvas Das, Waris Radji, Debabrota Basu, Odalric-Ambrym Maillard\nCategories: cs.LG, cs.AI, stat.ML, cs.LG",
+  "word_count": 168,
+  "published_at": "2026-06-08T17:53:29Z",
+  "ingested_at": "2026-06-09T11:03:54.104Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

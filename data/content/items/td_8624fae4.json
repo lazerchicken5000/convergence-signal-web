@@ -1,0 +1,35 @@
+{
+  "id": "td_8624fae4",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette-agent-edit 0.1a0",
+  "body_text": "Release: datasette-agent-edit 0.1a0\n        I'm planning several plugins for Datasette Agent which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files.\nAgentic editing of text is a little tricky to get right. My favorite published design for this is for the Claude text editor, which implements the following tools:\n\nview - view sections of a file, with line numbers added to every line.\nstr_replace - find an exact old_str and replace it with new_str - fail if the original string is not unique\ninsert - insert the specified text after the specified line number\n\nRather than recreate these patterns for every plugin that needs them I decided to create this base plugin, datasette-agent-edit, which implements the core tools in a way that allows them to be adapted for other plugins.\n    \n    \n        Tags: ai, datasette, generative-ai, llms, llm-tool-use, datasette-agent",
+  "word_count": 149,
+  "published_at": "2026-06-07T23:56:38.000Z",
+  "ingested_at": "2026-06-09T11:00:10.990Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

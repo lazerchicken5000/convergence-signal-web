@@ -1,0 +1,39 @@
+{
+  "id": "td_1a435230",
+  "source": "arxiv",
+  "source_id": "2606.09787",
+  "source_url": "https://arxiv.org/abs/2606.09787",
+  "content_type": "paper",
+  "creator": {
+    "id": "abd_elghani_meliani",
+    "name": "Abd Elghani Meliani",
+    "handle": "Abd Elghani Meliani, Arora Sagar, Adlen Ksentini, Raymond Knopp",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Zero Touch Predictive Orchestration: Automating Time-Series Models for the Cloud-Edge Continuum",
+  "body_text": "Zero Touch Predictive Orchestration: Automating Time-Series Models for the Cloud-Edge Continuum\n\nThe Cloud-Edge Continuum (CEC) enables latency-critical applications by distributing resources to the far edge, but its extreme volatility makes proactive Zero Touch Management via time-series forecasting essential. However, orchestrators face a severe \"cold start\" problem: newly discovered nodes lack the historical data required to train localized predictive models, while generalized models fail to capture unique hardware and microservice behaviors. To solve this, we propose a fully automated time-series prediction architecture driven by a novel data-mixing methodology. At the infrastructure level, we introduce a lightweight, technology-agnostic Resource Exposer (RE) that dynamically discovers nodes and continuously collects customizable telemetry (e.g., compute, network, energy). To overcome the sparsity of these initial local samples, our framework automatically merges them with TimeTrack, our publicly available, high-resolution dataset collected at 45-second intervals. This synergizes TimeTrack's foundational, high-frequency temporal patterns with the precise calibration of the local node data. Processed through a Neural Architecture Search (NAS) engine, the system automatically generates highly accurate baseline models. Experimental results demonstrate that merging the target data with TimeTrack effectively mitigates the cold start challenge. This integration significantly improves forecasting accuracy measured in Mean Squared Error (MSE), Mean Absolute Error (MAE), and Mean Absolute Percentage Error (MAPE) and accelerates convergence compared to training on the sparse local samples alone, training solely on generic datasets, or mixing the target data with standard alternative datasets, establishing a robust foundation for continuous MLOps deployment.\n\nAuthors: Abd Elghani Meliani, Arora Sagar, Adlen Ksentini, Raymond Knopp\nCategories: cs.LG, cs.NI, cs.LG",
+  "word_count": 230,
+  "published_at": "2026-06-08T17:43:41Z",
+  "ingested_at": "2026-06-09T11:04:04.641Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.NI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_f61ed8ca",
+  "source": "arxiv",
+  "source_id": "2606.09822",
+  "source_url": "https://arxiv.org/abs/2606.09822",
+  "content_type": "paper",
+  "creator": {
+    "id": "vésteinn_snæbjarnarson",
+    "name": "Vésteinn Snæbjarnarson",
+    "handle": "Vésteinn Snæbjarnarson, Anej Svete, Josef Valvoda, Reda Boumasmoud, Brian DuSell, Ryan Cotterell",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Causally Evaluating the Learnability of Formal Language Tasks",
+  "body_text": "Causally Evaluating the Learnability of Formal Language Tasks\n\nLanguage models, as multi-task learners, acquire a wide range of abilities during training. A fundamental question is how much task-specific data is needed to learn a given task. Answering this for natural language is difficult: tasks are hard to delineate and can confound one another. To rigorously investigate the relationship between data frequency and learnability, we turn to a controlled setting using formal languages induced from probabilistic finite automata. These serve as a methodological testbed to demonstrate that standard correlational evaluation practices are inherently flawed. To enable causal analysis, we introduce the binning semiring, an algebraic object that lets us control how often a targeted property occurs in a sampled corpus. We formulate the experimental pipeline as a causal graphical model and derive decomposed Kullback-Leibler divergence metrics to measure the learnability of specific sub-tasks. Our experiments show that evaluating learnability without causal intervention leads to incorrect conclusions due to confounders in correlational analysis, and serve as a warning about correlational pitfalls in natural-language settings.\n\nAuthors: Vésteinn Snæbjarnarson, Anej Svete, Josef Valvoda, Reda Boumasmoud, Brian DuSell, Ryan Cotterell\nCategories: cs.CL, cs.FL, cs.CL",
+  "word_count": 164,
+  "published_at": "2026-06-08T17:58:36Z",
+  "ingested_at": "2026-06-09T11:03:59.342Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.FL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_d73c8cf2",
+  "source": "arxiv",
+  "source_id": "2606.09800",
+  "source_url": "https://arxiv.org/abs/2606.09800",
+  "content_type": "paper",
+  "creator": {
+    "id": "shizhe_lin",
+    "name": "Shizhe Lin",
+    "handle": "Shizhe Lin, Ladan Tahvildari",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FASE: Fast Adaptive Semantic Entropy for Code Quality",
+  "body_text": "FASE: Fast Adaptive Semantic Entropy for Code Quality\n\nMulti-agent code generation offers a promising paradigm for autonomous software development by simulating the human software engineering lifecycle. However, system reliability remains hindered by LLM hallucinations and error propagation across interacting agents. While semantic entropy provides a principled way to quantify uncertainty without ground-truth answers, current methods often rely on costly LLM-driven equivalence checks. In this work, we introduce Fast Adaptive Semantic Entropy (FASE), a novel metric that approximates functional correctness based on the minimum spanning tree of structural and semantic dissimilarity graphs. Evaluations on HumanEval and BigCodeBench demonstrate that FASE outperforms state-of-the-art semantic entropy by LLM entailment, achieving a 25% average improvement in Spearman correlation and a 19% increase in ROCAUC score against Pass@1 from ground-truth test cases when using the Qwen3-Embedding-8B model. Furthermore, by eliminating costly LLM-driven equivalence evaluation, FASE incurs negligible computational overhead, requiring only approximately 0.3% of the runtime cost of traditional semantic entropy approaches. These results position FASE as a practical, cost-effective solution for optimizing uncertainty quantification in real-world multi-agent workflows.\n\nAuthors: Shizhe Lin, Ladan Tahvildari\nCategories: cs.SE, cs.AI, cs.MA, cs.SE",
+  "word_count": 166,
+  "published_at": "2026-06-08T17:53:05Z",
+  "ingested_at": "2026-06-09T11:03:54.104Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.AI",
+    "cs.MA",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
