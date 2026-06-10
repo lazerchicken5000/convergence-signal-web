@@ -1,0 +1,39 @@
+{
+  "id": "td_2d174fa3",
+  "source": "arxiv",
+  "source_id": "2606.11127",
+  "source_url": "https://arxiv.org/abs/2606.11127",
+  "content_type": "paper",
+  "creator": {
+    "id": "soham_bhattacharjee",
+    "name": "Soham Bhattacharjee",
+    "handle": "Soham Bhattacharjee, Karun Sharma, Vinay Kumar Sankarapu, Pratinav Seth",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation",
+  "body_text": "Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation\n\nSynthetic post-training pipelines commonly filter generated samples with reward models or holistic LLM judges, yet two practices remain rarely examined together: whether the filtering signal is grounded in the source evidence that induced each generation, and whether rejected samples can be systematically recovered rather than permanently discarded. We present a controlled study of both questions across gate configurations, recovery strategies, and generator scales, using adversarially injected corpora to provide ground-truth failure labels. We find that exact source provenance improves faithfulness gating for stronger judges, that hallucination and reward gates reject largely disjoint sample populations making both necessary, and that an adaptive recovery pipeline combining failure diagnosis with targeted regeneration achieves higher yield, recovery rate, and injection recall than naive resampling. Downstream fine-tuning quality is driven primarily by generator scale, with filtration and recovery conditions contributing meaningfully but secondarily.\n\nAuthors: Soham Bhattacharjee, Karun Sharma, Vinay Kumar Sankarapu, Pratinav Seth\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 138,
+  "published_at": "2026-06-09T17:24:27Z",
+  "ingested_at": "2026-06-10T11:03:43.866Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_cbc02069",
+  "source": "arxiv",
+  "source_id": "2606.11186",
+  "source_url": "https://arxiv.org/abs/2606.11186",
+  "content_type": "paper",
+  "creator": {
+    "id": "hangfeng_liang",
+    "name": "Hangfeng Liang",
+    "handle": "Hangfeng Liang, Yutao Hu, Yanhan Hu, Xiaohan Wu, Wenqi Shao, Ying Fu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference",
+  "body_text": "AnyMod-LLVE: Low-Light Video Enhancement with Modality-Agnostic Inference\n\nLow-light video enhancement (LLVE) remains a challenging task due to severe information degradation under low-illumination conditions. Recent multimodal approaches have significantly improved enhancement performance by incorporating auxiliary modalities, such as event streams and infrared images. However, these methods typically assume the availability of these modalities at inference, which is often not feasible in real-world scenarios. To solve this problem, in this work, we propose AMNet, a unified multimodal framework for LLVE, to support flexible modality-agnostic inference, where auxiliary modalities may be unavailable. To address the issue of modality absence, we introduce a Spatial-Spectral Dual-Gated Translator that learns the correspondence between auxiliary modalities and RGB inputs, producing implicit auxiliary representations to support the robust enhancement. Additionally, to fully facilitate the learning of cross-modal correspondence, we conduct large-scale multimodal pretraining based on the RGB-only dataset with synthetic auxiliary modalities. Extensive experiments demonstrate that AMNet could handle arbitrary inference-time modality combinations and exhibits superior performance for LLVE under modality absence conditions. Code and models are available on the project page.\n\nAuthors: Hangfeng Liang, Yutao Hu, Yanhan Hu, Xiaohan Wu, Wenqi Shao, Ying Fu\nCategories: cs.CV, cs.CV",
+  "word_count": 167,
+  "published_at": "2026-06-09T17:59:05Z",
+  "ingested_at": "2026-06-10T11:04:05.546Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

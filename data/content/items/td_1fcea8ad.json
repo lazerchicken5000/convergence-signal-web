@@ -1,0 +1,38 @@
+{
+  "id": "td_1fcea8ad",
+  "source": "arxiv",
+  "source_id": "2606.11149",
+  "source_url": "https://arxiv.org/abs/2606.11149",
+  "content_type": "paper",
+  "creator": {
+    "id": "mingchen_ma",
+    "name": "Mingchen Ma",
+    "handle": "Mingchen Ma, Guyang Cao, Jelena Diakonikolas, Ilias Diakonikolas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Efficiently Learning Drifting Halfspaces with Massart Noise",
+  "body_text": "Efficiently Learning Drifting Halfspaces with Massart Noise\n\nWe study the problem of learning a drifting concept in the presence of Massart noise. In this framework, an online learner has access to a history of independent samples whose labels are noisy versions of a target concept that may change from round to round. The goal is to output, in each round, a hypothesis with small prediction error. We study the complexity of this learning problem for the fundamental class of margin-separable linear classifiers (halfspaces). On the positive side, we give a computationally efficient learner achieving error $η+ \\tilde O(Δ^{1/3}/γ)$, where $η$ upper bounds the Massart noise rate, $Δ$ is the drift rate, and $γ$ is the margin. Interestingly, in the realizable setting, an adaptation of our techniques yields an efficient learner with an improved error rate over prior work. On the lower-bound side, we provide formal evidence of an information-computation tradeoff, strongly suggesting that our algorithm's performance is essentially optimal. Specifically, while the information-theoretically optimal error scales with $Δ^{1/2}$, we prove that $Δ^{1/3}$-scaling is unavoidable for low-degree polynomial tests, even in the special case of random classification noise.\n\nAuthors: Mingchen Ma, Guyang Cao, Jelena Diakonikolas, Ilias Diakonikolas\nCategories: cs.LG, cs.LG",
+  "word_count": 180,
+  "published_at": "2026-06-09T17:35:18Z",
+  "ingested_at": "2026-06-10T11:03:54.449Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_d0b6fbe7",
+  "source": "arxiv",
+  "source_id": "2606.11105",
+  "source_url": "https://arxiv.org/abs/2606.11105",
+  "content_type": "paper",
+  "creator": {
+    "id": "haeji_jung",
+    "name": "Haeji Jung",
+    "handle": "Haeji Jung, Hila Gonen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PhantomBench: Benchmarking the Non-existential Threat of Language Models",
+  "body_text": "PhantomBench: Benchmarking the Non-existential Threat of Language Models\n\nHallucinations, where language models (LMs) generate factually ungrounded responses, pose serious risks, as users tend to blindly rely on them. This is particularly concerning in high-stakes domains, where consequences of such model behavior can lead to significant harms. Despite notable progress in understanding hallucinations, it remains unclear how reliably these models can recognize the limits of their knowledge. We introduce PhantomBench, the first large-scale benchmark of its kind, comprising more than 60K non-existent terms and entities derived from real concepts across diverse domains. Using our benchmark, we evaluate a total of 21 models of various types and sizes. We show staggering hallucination rates across the board (with average rates as high as 86.7% in some cases), and note that even frontier models surprisingly fail to abstain on non-existent concepts, especially when the input presumes their existence. We then show that PhantomBench can serve as a proxy for studying model behavior on rare concepts for which models are more prone to hallucinate. We also provide a pipeline to construct PhantomBench, enabling scalable generation of non-existent concepts tailored to the specific needs of researchers and practitioners.\n\nAuthors: Haeji Jung, Hila Gonen\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 184,
+  "published_at": "2026-06-09T17:03:19Z",
+  "ingested_at": "2026-06-10T11:03:49.146Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

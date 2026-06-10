@@ -1,0 +1,40 @@
+{
+  "id": "td_2b8fe34c",
+  "source": "arxiv",
+  "source_id": "2606.11183",
+  "source_url": "https://arxiv.org/abs/2606.11183",
+  "content_type": "paper",
+  "creator": {
+    "id": "adam_quinn_jaffe",
+    "name": "Adam Quinn Jaffe",
+    "handle": "Adam Quinn Jaffe, Leonardo V. Santoro, Bodhisattva Sen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Nonparametric Riemannian Empirical Bayes, and Denoising Measurements on Manifolds",
+  "body_text": "Nonparametric Riemannian Empirical Bayes, and Denoising Measurements on Manifolds\n\nWe initiate the study of nonparametric empirical Bayes denoising methods in the setting where both the latent variables and their measurements lie on a compact Riemannian manifold, and where the likelihood is a Riemannian Gaussian distribution. Our starting point is a novel Tweedie-Eddington formula for Riemannian Gaussian mixture models which identifies a certain surrogate oracle denoiser in terms of the marginal distribution of the measurements; it avoids the explicit computation of the posterior Fréchet mean (as required by the Bayes denoiser) via a first-order approximation, hence we refer to it as the \"tangential\" Bayes denoiser. We show that this surrogate oracle achieves nearly the Bayes risk in a low-noise regime, we construct a fully data-driven approximation of it using the spectral theory of the Laplace-Beltrami operator, and we establish finite-sample rates of convergence for the distance between the the surrogate oracle and its approximation. Contrasting the nearly-parametric rates from the Euclidean setting, the rates in the Riemannian setting are slower due to the singularities of the Riemannian Gaussian density at the cut locus of its Fréchet mean; in the special case of the circle we establish matching lower bounds which show that our proposed denoiser is minimax-optimal, and that the denoising problem exhibits a genuinely nonparametric rate of convergence. Lastly, we implement our methodology in two scientific applications: in astronomy, the sphere-valued problem of denoising the locations of gamma ray bursts; in structural biology, the torus-valued problem of denoising pairs of torsion angles of adjacent amino acids in a protein (i.e., the Ramachandran plot).\n\nAuthors: Adam Quinn Jaffe, Leonardo V. Santoro, Bodhisattva Sen\nCategories: math.ST, math.DG, stat.ME, math.ST",
+  "word_count": 254,
+  "published_at": "2026-06-09T17:58:07Z",
+  "ingested_at": "2026-06-10T11:04:11.051Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "math.DG",
+    "stat.ME",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
