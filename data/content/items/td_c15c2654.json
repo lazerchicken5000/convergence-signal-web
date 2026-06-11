@@ -1,0 +1,39 @@
+{
+  "id": "td_c15c2654",
+  "source": "arxiv",
+  "source_id": "2606.12387",
+  "source_url": "https://arxiv.org/abs/2606.12387",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhiyi_chen",
+    "name": "Zhiyi Chen",
+    "handle": "Zhiyi Chen, Jie Song, Peng Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
+  "body_text": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience\n\nLarge Language Models (LLMs) have democratized database access through Text-to-SQL, but moving from prototypes to production remains difficult. Real deployments must handle strict SQL dialects, massive schemas, and evolving user preferences, while supervised fine-tuning is costly and rigid and agentic test-time scaling is expensive. We present Tahoe, a system that treats prompt optimization as a dynamic data management problem. Tahoe uses an error-driven hint learning pipeline across Development and Deployment to consolidate debugging traces into a structured Hint Bank. Compiler feedback is distilled into reusable Syntax Hints for dialect-specific rules, while execution and user feedback are converted into Semantic Hints for schema- and user-specific logic. Tahoe further introduces a Strategy Layer that models conflicting user intents as competing strategies under shared natural-language triggers, with recency signals and post-learning attribution statistics that summarize empirical success, harm, inertness, and support. At inference time, Tahoe retrieves relevant hints and guides the LLM through Logic Planning followed by SQL Synthesis. We implement and evaluate the development-phase workflow, leaving deployment-time human-feedback updates for future work. On Spider 2.0-Snow, Tahoe substantially improves Text-to-SQL without updating model parameters. On 113 supervised Spider 2.0-Snow-0212 examples using GPT-5.5, Tahoe raises pass rate from 61.95 percent to 79.42 percent and pass-at-4 from 72.57 percent to 87.61 percent, achieves 100 percent Snowflake syntax pass rate, and reduces average compiler-feedback critic rounds from 2.79 to 0.12 per sampled candidate. The same Hint Bank also transfers to weaker backbones, including a 19.7 percentage-point pass-rate gain on Doubao-2.0-lite.\n\nAuthors: Zhiyi Chen, Jie Song, Peng Li\nCategories: cs.DB, cs.AI, cs.DB",
+  "word_count": 244,
+  "published_at": "2026-06-10T17:52:15Z",
+  "ingested_at": "2026-06-11T11:04:30.824Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DB",
+    "cs.AI",
+    "cs.DB"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

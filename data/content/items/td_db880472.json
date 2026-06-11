@@ -1,0 +1,39 @@
+{
+  "id": "td_db880472",
+  "source": "arxiv",
+  "source_id": "2606.12400",
+  "source_url": "https://arxiv.org/abs/2606.12400",
+  "content_type": "paper",
+  "creator": {
+    "id": "xingjian_diao",
+    "name": "Xingjian Diao",
+    "handle": "Xingjian Diao, Wenbo Li, Yashas Malur Saidutta, Avinash Amballa, Lazar Valkov, Srinivas Chappidi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Doc-to-Atom: Learning to Compile and Compose Memory Atoms",
+  "body_text": "Doc-to-Atom: Learning to Compile and Compose Memory Atoms\n\nLong input sequences are central to document understanding and multi-step reasoning in Large Language Models, yet the quadratic cost of attention makes inference both memory-intensive and slow. Context distillation mitigates this by compressing contextual information into model parameters, and recent work such as Doc-to-LoRA amortizes context distillation into a single forward pass that generates one LoRA adapter per document. However, producing a single monolithic adapter for all queries leads to irrelevant-query interference, limited compositional recall, and poor scalability to long-document reasoning. To address these challenges, we propose Doc-to-Atom (Doc2Atom), a compositional parametric memory framework that decomposes each document into semantically typed knowledge atoms. Each atom is compiled into an independent micro-LoRA adapter and a provenance retrieval key. At inference time, a lightweight query router selects and assembles only the relevant atoms into a query-specific adapter, which is then injected into a frozen base model. The entire system is trained end-to-end through a multi-objective distillation framework. Experiments on six diverse QA benchmarks demonstrate that Doc2Atom outperforms Doc-to-LoRA baselines while reducing the memory cost of document internalization.\n\nAuthors: Xingjian Diao, Wenbo Li, Yashas Malur Saidutta, Avinash Amballa, Lazar Valkov, Srinivas Chappidi\nCategories: cs.CL, cs.IR, cs.CL",
+  "word_count": 175,
+  "published_at": "2026-06-10T17:58:20Z",
+  "ingested_at": "2026-06-11T11:04:36.272Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.IR",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

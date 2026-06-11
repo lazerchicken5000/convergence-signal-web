@@ -1,0 +1,39 @@
+{
+  "id": "td_d5508e8b",
+  "source": "arxiv",
+  "source_id": "2606.12332",
+  "source_url": "https://arxiv.org/abs/2606.12332",
+  "content_type": "paper",
+  "creator": {
+    "id": "paul_he",
+    "name": "Paul He",
+    "handle": "Paul He, Shiva Kasiviswanathan, Dominik Janzing",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Measuring Semantic Progress in Multi-turn Dialogue via Information Gain",
+  "body_text": "Measuring Semantic Progress in Multi-turn Dialogue via Information Gain\n\nEvaluating multi-turn dialogue is challenging because quality emerges across turns rather than within individual responses. We focus on a key dimension of information-seeking dialogue: semantic progress, defined as the accumulation of new, question-relevant, and non-redundant information over the course of a conversation. We formalize semantic progress as question-conditioned uncertainty reduction and introduce an information-theoretic metric that approximates it in embedding space. Our main estimator uses a tractable Gaussian formulation with closed-form updates, while a complementary maximum-entropy argument shows why log-determinant structure arises more broadly when only second-order embedding information is retained. This formulation yields desirable theoretical properties, including monotonicity, additive decomposition of total information gain across turns, and diminishing returns for redundant evidence. Unlike LLM-as-a-judge approaches, our metric requires no autoregressive inference at evaluation time and is fully reproducible for a fixed embedding model. Experiments on MT-Bench, Chatbot Arena, and UltraFeedback show that the proposed metric achieves competitive agreement with human judgments despite targeting only semantic progress, with improved alignment on MT-Bench and UltraFeedback compared to several LLM-based judges. Notably, the method remains effective with lightweight embedding models under CPU-only execution, indicating that semantic progress can be captured without reliance on large model capacity.\n\nAuthors: Paul He, Shiva Kasiviswanathan, Dominik Janzing\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 194,
+  "published_at": "2026-06-10T17:04:59Z",
+  "ingested_at": "2026-06-11T11:04:36.273Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

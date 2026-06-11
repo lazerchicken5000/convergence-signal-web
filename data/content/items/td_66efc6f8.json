@@ -1,0 +1,39 @@
+{
+  "id": "td_66efc6f8",
+  "source": "arxiv",
+  "source_id": "2606.12392",
+  "source_url": "https://arxiv.org/abs/2606.12392",
+  "content_type": "paper",
+  "creator": {
+    "id": "haotao_xie",
+    "name": "Haotao Xie",
+    "handle": "Haotao Xie",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "System Report for CCL25-Eval Task 5: New Dataset and LoRA-Fine-Tuned Qwen2.5",
+  "body_text": "System Report for CCL25-Eval Task 5: New Dataset and LoRA-Fine-Tuned Qwen2.5\n\nRecently, large language models (LLMs) have achieved promising progress in the fields of classical Chinese translation and the generation of classical poetry. However, domain-specific research on precise translation and affective-semantic understanding of classical poetry remains limited. The main challenge is that most studies treat the poetic appreciation task as a general-domain problem, neglecting the distinctive features of poetic appreciation, while high-quality and domain-specific datasets are extremely limited. To address this limitation, we decompose the task into three subtasks: term interpretation, semantic interpretation, and emotional inference. Based on multiple open-source datasets, we perform data cleansing and alignment to construct the Classical Chinese Poetry Instruction Pair Dataset (CCPoetry-49K), which comprises 49,404 high-quality instruction-response pairs explicitly optimized for this domain. We then propose a domain-specialized LLM, called PoetryQwen, by applying Low-Rank Adaptation (LoRA) to fine-tune the Qwen2.5-14B model. Experimental results on the CCL25-Eval Task 5 benchmark demonstrate that PoetryQwen achieves a score of 0.757, representing a 9.7% improvement over the Qwen2.5-14B-Instruct baseline (0.690). These findings clearly indicate that PoetryQwen significantly enhances performance in precise translation and emotional understanding of classical poetry. We present new dataset and methodological considerations intended to support the domain-specific optimization of LLMs.\n\nAuthors: Haotao Xie\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 193,
+  "published_at": "2026-06-10T17:54:32Z",
+  "ingested_at": "2026-06-11T11:04:30.824Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

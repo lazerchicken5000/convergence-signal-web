@@ -1,0 +1,38 @@
+{
+  "id": "td_8ac1e739",
+  "source": "arxiv",
+  "source_id": "2606.12407",
+  "source_url": "https://arxiv.org/abs/2606.12407",
+  "content_type": "paper",
+  "creator": {
+    "id": "kian_r._weihrauch",
+    "name": "Kian R. Weihrauch",
+    "handle": "Kian R. Weihrauch, Thomas A. Buckley, William Lotter, Arjun K. Manrai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology",
+  "body_text": "How Seemingly Inconsequential Design Choices Dictate Performance of LLMs in Pathology\n\nGeneral-purpose large language models (LLMs) are routinely used as baselines when evaluating specialized pathology models on whole-slide images (WSIs). Because WSIs exceed contemporary model context limits, LLM baselines routinely use small, high-magnification patches processed independently via majority voting, without systematic evaluation of seemingly inconsequential design choices such as patch size, patch count, and magnification. Generalist LLMs have consistently underperformed specialized systems, reinforcing the perception that domain-specific training or architectural adaptation is necessary for pathology tasks involving WSIs. Here, we conduct a systematic factorial analysis of four input design factors: inference mode, patch size, magnification, and patch count. We demonstrate that prior studies have overstated the gap between specialized models and general-purpose LLMs by choosing non-optimized input configurations. On the MultiPathQA benchmark, switching to a single balanced configuration (large patches at lower magnification, processed jointly) raises GPT-5 from 15.1% to 39.5% on cancer-type classification (TCGA) and from 38.1% to 62.9% on organ classification (GTEx). Per-task optimization yields further gains up to 43.9% (TCGA) and 71.6% (GTEx). The same configuration generalizes to two other models and to a fully held-out CPTAC cohort, where it improves Gemini 3 Flash by 23.4 percentage points without any task-specific tuning.\n\nAuthors: Kian R. Weihrauch, Thomas A. Buckley, William Lotter, Arjun K. Manrai\nCategories: cs.CV, cs.CV",
+  "word_count": 194,
+  "published_at": "2026-06-10T17:59:39Z",
+  "ingested_at": "2026-06-11T11:04:47.250Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_eacf283a",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+  "body_text": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude\nBig scoop for Maxwell Zeff at Wired:\n\n“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”\n\nThere's been a huge outcry about Anthropic's policy, tucked away in their system card, that Claude Fable/Mythos would identify \"requests targeting frontier LLM development\" and \"limit effectiveness\" without notifying the user.\nIt's good news that they're dropping the invisible aspect of this. It would be a whole lot better of they dropped this category of refusals entirely.\nUpdate: More details from @ClaudeDevs on Twitter:\n\nWe’re rolling out changes to make Fable 5’s safeguards for frontier LLM development visible.\nStarting this week, flagged requests will visibly fall back to Opus 4.8—the same as our safeguards for cyber and bio. You will see this every time it happens. On the API, any flagged requests will return a reason for their refusal (coming to server-side fallback in the next few days).\nWe wanted to deploy Fable 5 to our users quickly and safely. Visible safeguards can be probed, so they have to be robust, which takes time to get right. Invisible safeguards can be targeted more narrowly, allowing us to ship quickly with very few false positives. We went with invisible safeguards for this reason—and that was the wrong tradeoff. You should have visibility into the safeguards we have in place, and why. We’re sorry for not getting the balance right.\n\n\n\n    Tags: ai, generative-ai, llms, anthropic, claude, ai-ethics, claude-mythos",
+  "word_count": 269,
+  "published_at": "2026-06-11T03:45:49.000Z",
+  "ingested_at": "2026-06-11T11:00:09.086Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_c7402202",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "DiffusionGemma",
+  "body_text": "DiffusionGemma\nLast May Google briefly released an experimental Gemini Diffusion model. I tried the preview at the time and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it.\nThat research has returned in the best possible way: as a new open weight (Apache 2 licensed) Gemma model, google/diffusiongemma-26B-A4B-it.\nNVIDIA are currently hosting the model for free on their NIM cloud API. I used that API to generate this pelican, which took 4.4s (according to time uv run generate.py) to return 2,409 tokens - so at least 500 tokens/second.\n\n\n    Via Hacker News\n\n\n    Tags: google, ai, generative-ai, llms, nvidia, pelican-riding-a-bicycle, gemma, llm-release, llm-performance",
+  "word_count": 111,
+  "published_at": "2026-06-10T20:00:54.000Z",
+  "ingested_at": "2026-06-11T11:00:09.087Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
