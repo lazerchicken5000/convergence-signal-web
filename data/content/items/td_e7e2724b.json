@@ -1,0 +1,39 @@
+{
+  "id": "td_e7e2724b",
+  "source": "arxiv",
+  "source_id": "2606.13633",
+  "source_url": "https://arxiv.org/abs/2606.13633",
+  "content_type": "paper",
+  "creator": {
+    "id": "ion_matei",
+    "name": "Ion Matei",
+    "handle": "Ion Matei, Maksym Zhenirovskyy, Takuya Kurihana, Rohit Vupala, Anthony Wong",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Aerial Wildfire Suppression Planning with a Hybrid CNN-Cellular Automata Fire Model",
+  "body_text": "Aerial Wildfire Suppression Planning with a Hybrid CNN-Cellular Automata Fire Model\n\nAerial wildfire suppression requires not only predicting fire spread, but also designing effective intervention strategies under operational and environmental uncertainty. We present a modeling and optimization framework for aerial wildfire suppression that combines a hybrid neural-cellular automaton wildfire model with gradient-based design of targeted aerial drops. The wildfire model predicts spatially varying spread behavior from terrain, fuel, and wind data, while the intervention module determines binary drop actions with continuous-valued location and orientation parameters mapped to the simulation grid. Water and retardant are represented with distinct suppression effects, corresponding to immediate reduction of active burning and persistent reduction of future spread. To evaluate the robustness of the resulting suppression plans, we quantify both aleatoric uncertainty through Monte Carlo sampling of daily fire-state realizations and epistemic uncertainty through spatially correlated prediction-error perturbations. A case study based on the 2020 Bear Fire shows that the framework can generate coherent aerial suppression schedules for reducing total fire-affected area and can support uncertainty-aware analysis of wildfire intervention strategies.\n\nAuthors: Ion Matei, Maksym Zhenirovskyy, Takuya Kurihana, Rohit Vupala, Anthony Wong\nCategories: eess.SY, cs.LG, eess.SY",
+  "word_count": 164,
+  "published_at": "2026-06-11T17:42:34Z",
+  "ingested_at": "2026-06-12T11:04:05.334Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SY",
+    "cs.LG",
+    "eess.SY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

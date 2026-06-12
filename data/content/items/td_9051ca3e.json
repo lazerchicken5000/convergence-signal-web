@@ -1,0 +1,38 @@
+{
+  "id": "td_9051ca3e",
+  "source": "arxiv",
+  "source_id": "2606.13637",
+  "source_url": "https://arxiv.org/abs/2606.13637",
+  "content_type": "paper",
+  "creator": {
+    "id": "ayushman_trivedi",
+    "name": "Ayushman Trivedi",
+    "handle": "Ayushman Trivedi, Bhavika Melwani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Stable Recovery Manifold: Geometric Principles Governing Recoverability in Continual Learning",
+  "body_text": "The Stable Recovery Manifold: Geometric Principles Governing Recoverability in Continual Learning\n\nCatastrophic forgetting is often viewed as the destruction of previously learned knowledge during sequential learning. Building on the Accessibility Collapse framework, we investigate the geometric structure of recoverability in continual learning. Using Split CIFAR-100 and a sequentially trained ResNet-18, we analyze recoverability, representational drift, and recovery complexity across ten tasks. We introduce Recovery Subspace Dimensionality (k_t), a measure of the minimum number of singular directions required to preserve 90 percent of full probe performance. Contrary to our Recoverability Diffusion hypothesis, recovery dimensionality remains stable throughout training (mean k_t = 8.0) despite substantial representational drift. Principal-angle drift strongly predicts recoverability (r = -0.862), and a simple geometric model explains 82.2 percent of recoverability variance. These findings support the Stable Recovery Manifold hypothesis, suggesting that forgotten knowledge remains compactly decodable despite representational reorganization. The results indicate that catastrophic forgetting is primarily an accessibility and manifold-alignment problem rather than information destruction.\n\nAuthors: Ayushman Trivedi, Bhavika Melwani\nCategories: cs.LG, cs.LG",
+  "word_count": 148,
+  "published_at": "2026-06-11T17:45:41Z",
+  "ingested_at": "2026-06-12T11:04:05.334Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_b39980b5",
+  "source": "arxiv",
+  "source_id": "2606.13634",
+  "source_url": "https://arxiv.org/abs/2606.13634",
+  "content_type": "paper",
+  "creator": {
+    "id": "nathaniel_bottman",
+    "name": "Nathaniel Bottman",
+    "handle": "Nathaniel Bottman, Kyle Richardson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Operads for compositional reasoning in LLMs",
+  "body_text": "Operads for compositional reasoning in LLMs\n\nQuestion decomposition, i.e. breaking a complex query into simpler sub-queries whose answers are composed to produce a final answer, is a widely used strategy for improving LLM reasoning, yet it currently lacks a rigorous mathematical foundation. In this paper, we propose operads, mathematical structures that model many-in, one-out operations and compositions thereof, as a natural framework for describing question decomposition. We define the questions operad $Q$, in which operations correspond to question templates and composition corresponds to substitution of sub-answers, and show how QA models can be interpreted as algebras over $Q$. Beyond reframing existing practice, this operadic perspective points toward new methods, in particular a notion of operadic consistency, which measures whether a QA model's answers agree across the partial collapses of a question decomposition tree. Empirical evaluation of operadic consistency is reported in our companion paper (Bottman, Liu, and Richardson, 2026), which finds it strongly correlated with accuracy across twelve LLMs and four multi-hop QA datasets and outperforming standard temperature-based self-consistency baselines. We argue that operads are the natural mathematical home for question decomposition, and that invariants such as operadic consistency open new directions for analyzing and improving the reliability of multi-step reasoning.\n\nAuthors: Nathaniel Bottman, Kyle Richardson\nCategories: cs.CL, math.CT, cs.CL",
+  "word_count": 195,
+  "published_at": "2026-06-11T17:44:15Z",
+  "ingested_at": "2026-06-12T11:03:59.971Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "math.CT",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

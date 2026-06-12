@@ -1,0 +1,39 @@
+{
+  "id": "td_99717d0c",
+  "source": "arxiv",
+  "source_id": "2606.13626",
+  "source_url": "https://arxiv.org/abs/2606.13626",
+  "content_type": "paper",
+  "creator": {
+    "id": "kyuil_lee",
+    "name": "Kyuil Lee",
+    "handle": "Kyuil Lee, Dezhi Yu, Yongkang Huang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Generative Modeling of Bach-Style Symbolic Music: A Comparative Study of Autoregressive, Latent-Variable, and Adversarial Approaches",
+  "body_text": "Generative Modeling of Bach-Style Symbolic Music: A Comparative Study of Autoregressive, Latent-Variable, and Adversarial Approaches\n\nWe study generative modeling of Bach-style symbolic piano music using a shared MIDI corpus and three model families: autoregressive LSTMs with attention, latent-variable models including recurrent VAEs and vector-quantized VAEs, and generative adversarial networks. We compare their ability to model polyphonic note sequences, learn useful latent representations, and generate stylistically coherent compositions. Our experiments show that the autoregressive LSTM with attention produces the most musically coherent samples, while vector quantization helps mitigate posterior collapse and yields more structured outputs than conventional recurrent VAEs. The adversarial approach captures local pitch patterns but remains difficult to train and generalizes less reliably to Bach's style. These results highlight the relative strengths and failure modes of autoregressive, latent-variable, and adversarial approaches for symbolic music generation.\n\nAuthors: Kyuil Lee, Dezhi Yu, Yongkang Huang\nCategories: cs.SD, cs.LG, cs.SD",
+  "word_count": 121,
+  "published_at": "2026-06-11T17:39:55Z",
+  "ingested_at": "2026-06-12T11:04:05.334Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.LG",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
