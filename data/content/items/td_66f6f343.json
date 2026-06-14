@@ -1,0 +1,35 @@
+{
+  "id": "td_66f6f343",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Mapping SQLite result columns back to their source `table.column`",
+  "body_text": "Research: Mapping SQLite result columns back to their source `table.column`\n        It would be neat if arbitrary SQL queries in Datasette could be rendered with additional information based on which columns from which tables were included in the results.\nTo build that, we would need to be able to look at a SQL query like select users.name, orders.total from users join orders on orders.user_id = users.id and programmatically identify the table.column for each result - navigating not just joins but also more complex syntax like CTEs.\nI decided to set Claude Code (Opus 4.8, since Fable is currently banned by the US government) on the problem. It found several promising solutions - one using apsw, another that uses ctypes to access the SQLite sqlite3_column_table_name() C function (which is not otherwise exposed to Python), and one using clever interrogation of the output of EXPLAIN.\n    \n    \n        Tags: python, sqlite, datasette",
+  "word_count": 146,
+  "published_at": "2026-06-13T23:05:00.000Z",
+  "ingested_at": "2026-06-14T11:00:09.369Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

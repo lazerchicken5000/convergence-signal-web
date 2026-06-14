@@ -1,0 +1,35 @@
+{
+  "id": "td_bc92d92d",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+  "body_text": "The Pyodide 314.0 release announcement (via Hacker News) includes news I've been looking forward to for a long time:\r\n\r\nYou can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783) directly to PyPI and install them at runtime.\r\nPreviously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review.\r\nMoving forward, package maintainers can simply build and publish Pyodide wheels to PyPI, just as they do for native wheels on Linux, macOS, or Windows.\r\n\r\nHere's the PR to PyPI itself supporting this, which landed on April 21st.\r\nI adore Pyodide, and have been frustrated in the past by this limitation. It's possible to compile C or Rust extensions to WASM in a wheel file, but before now there was no easy way to distribute them.\r\nThanks to the efforts of a whole lot of people, that's now been fixed!\r\nTrying it out with luau-wasm\r\nI decided to celebrate by finding something I could package. I have quite a few experimental Pyodide projects lying around, but the best fit for this looked to be my Luau WebAssembly research spike from 9th March.\r\nLuau is a \"small, fast, and embeddable programming language based on Lua with a gradual type system\", developed by Roblox and released under an MIT license.\r\nIt's written in C++. I already knew it was possible to compile it to WebAssembly and get it running inside of Pyodide, so I set Codex + GPT-5.5 xhigh the task of packaging my experiment up and publishing it to PyPI using GitHub Actions.\r\nIt took some iteration, but here's the result: luau-wasm is a brand new PyPI package which publishes a 276KB luau_wasm-0.1a0-cp314-cp314-pyemscripten_2026_0_wasm32.whl file which can be used in Pyodide like this:\r\nimport micropip\r\nawait micropip.install(\"luau-wasm\")\r\nimport luau_wasm\r\nprint(luau_wasm.execute(r'''\r\nlocal animals = {\"fox\", \"owl\", \"frog\", \"rabbit\"}\r\ntable.sort(animals, function(a, b) return #a &lt; #b end)\r\nfor i, name in animals do print(i .. \". \" .. name .. \" (\" .. #name .. \")\") end\r\n'''))\r\nYou can run that code in the Pyodide REPL demo to see it in action.\r\nThe GitHub repo for luau-wasm includes all of the build and deploy scripts (using the latest cibuildwheel) and also deploys an HTML demo page which loads Pyodide, installs luau-wasm and provides an interface for trying it out: https://simonw.github.io/luau-wasm/\r\n\r\nHow many packages are using this so far?\r\nI was curious to see how many packages are currently publishing wheels for this platform.\r\nAfter some tinkering with ChatGPT I got to this BigQuery SQL which I ran against PyPI's public dataset on BigQuery. Here's the raw JSON of query results and here's a SQLite SQL query in Datasette Lite which dedupes packages by most recent upload date.\r\nIf the query is right, there are currently 28 PyPI packages publishing with the new pyemscripten_202*_wasm32 tags:\r\nluau-wasm, uuid7-rs, cmm-16bit, pyOpenTTDAdmin, imgui-bundle, numbertoolkit, bashkit, geoarrow-rust-core, arro3-io, arro3-core, arro3-compute, onnx, powerfit-em, tcod, chonkie-core, tokie, robotraconteur, pydantic_core, yaml-rs, cadquery-ocp-novtk-OCP.wasm, uuid_utils, base64_utils, pycdfpp, lib3mf-OCP.wasm, typst, toml-rs, onnx-weekly, dummy-pyodide-ext-test\r\nHere's hoping we see a whole lot more of those showing up over the coming months and years.\n    \n        Tags: lua, pypi, python, sandboxing, webassembly, github-actions, pyodide",
+  "word_count": 551,
+  "published_at": "2026-06-13T23:55:18.000Z",
+  "ingested_at": "2026-06-14T11:00:09.369Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
