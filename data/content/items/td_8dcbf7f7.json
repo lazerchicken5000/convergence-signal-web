@@ -1,0 +1,39 @@
+{
+  "id": "td_8dcbf7f7",
+  "source": "arxiv",
+  "source_id": "2606.14629",
+  "source_url": "https://arxiv.org/abs/2606.14629",
+  "content_type": "paper",
+  "creator": {
+    "id": "jianzhe_lin",
+    "name": "Jianzhe Lin",
+    "handle": "Jianzhe Lin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When Good Verifiers Go Bad: Self-Improving VLMs Can Regress on New Tasks",
+  "body_text": "When Good Verifiers Go Bad: Self-Improving VLMs Can Regress on New Tasks\n\nVerifier-driven self-DPO is a common recipe for self-improving production visual-language models. In this setup, a frozen verifier scores candidate generations, the top- and bottom-scoring candidates form a preference example, and DPO updates the learner. The deployment-time assumption is monotone: a stronger verifier should yield a stronger student. We show that this assumption can fail because verifier quality is highly task-specific. On a four-rung open-source verifier ladder across MathVista, MMMU, and BLINK, the same verifiers that are above-threshold and improve a Qwen-3-VL-2B student on MathVista become sub-threshold on MMMU, where their task-rubric accuracy drops to 8% to 23%. In this regime, every verifier we tested silently regresses the student, producing drops of 3.4 to 10.9 percentage points below the frozen baseline while the DPO training loss continues to decrease. The regression replicates on a second student, Qwen-2.5-VL-3B. Moreover, within the failure regime, damage is confidence-inverted: the more accurate-but-still-wrong verifier causes larger regression than a near-random verifier, suggesting that progress-gated replay amplifies confidently wrong preference pairs. We give a compact mechanistic explanation via a variance theorem for progress-gated replay and its direction-mismatch failure mode. The deployment message is operational rather than purely diagnostic: before running any verifier-driven loop, teams should measure target-task rubric accuracy, rank verifiers by target-task rubric quality rather than parameter count, and treat diminishing returns in above-threshold regimes as a verifier-side compute budget cap.\n\nAuthors: Jianzhe Lin\nCategories: cs.CR, cs.AI, cs.CR",
+  "word_count": 225,
+  "published_at": "2026-06-12T16:55:30Z",
+  "ingested_at": "2026-06-15T11:03:55.568Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

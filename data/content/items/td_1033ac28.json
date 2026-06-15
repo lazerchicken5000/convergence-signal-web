@@ -1,0 +1,40 @@
+{
+  "id": "td_1033ac28",
+  "source": "arxiv",
+  "source_id": "2606.14654",
+  "source_url": "https://arxiv.org/abs/2606.14654",
+  "content_type": "paper",
+  "creator": {
+    "id": "gaurav_verma",
+    "name": "Gaurav Verma",
+    "handle": "Gaurav Verma, Scott Counts",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Abstracting Cross-Domain Action Sequences into Interpretable Workflows",
+  "body_text": "Abstracting Cross-Domain Action Sequences into Interpretable Workflows\n\nSequential or time-stamped interaction logs provide objective records of digital application usage, yet their granularity and noise often obscure meaningful insights into people's work. Such insights are essential for improving digital products in ways grounded in real-world user interactions. Prior research has applied deep learning models to cluster user actions into high-level activities, but these approaches are highly sensitive to noise and struggle to generalize across applications. To address this limitation, we introduce WorkflowView, a framework that uses large language models (LLMs) to abstract low-level action sequences into high-level activities. We establish the effectiveness and generality of our approach across three distinct, challenging sequential tasks and diverse domains: (a) zero-shot task description reconstruction from browser logs (achieving high semantic similarity, $μ_{sim} = 0.91$), (b) few-shot student dropout prediction using MOOC interaction logs (reaching weighted $F_1 = 0.90$ with only five few-shot examples), and (c) anonymized, privacy-preserving analysis of AI tool integration within document workflows in Microsoft Word. Our work demonstrates that LLM-based abstraction is a robust and efficient path forward for transforming low-level behavioral data into high-level, interpretable, and actionable insights. We also discuss practical considerations for deploying LLM-based inferences within logging infrastructures, including computational efficiency and user privacy.\n\nAuthors: Gaurav Verma, Scott Counts\nCategories: cs.AI, cs.CL, cs.LG, cs.AI",
+  "word_count": 199,
+  "published_at": "2026-06-12T17:19:15Z",
+  "ingested_at": "2026-06-15T11:03:55.567Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

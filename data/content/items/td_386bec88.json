@@ -1,0 +1,39 @@
+{
+  "id": "td_386bec88",
+  "source": "arxiv",
+  "source_id": "2606.14639",
+  "source_url": "https://arxiv.org/abs/2606.14639",
+  "content_type": "paper",
+  "creator": {
+    "id": "hugo_daumain",
+    "name": "Hugo Daumain",
+    "handle": "Hugo Daumain, Driss Matrouf, Khaled Khelif, Mickael Rouvier",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Self-Supervised Speech Models to Mixture-of-Experts for Robust Anti-Spoofing",
+  "body_text": "From Self-Supervised Speech Models to Mixture-of-Experts for Robust Anti-Spoofing\n\nRecent advances in speech generation have significantly improved the naturalness of synthetic speech, making spoofing detection increasingly challenging. A key limitation of current anti-spoofing systems is their limited robustness to unseen synthesis methods. In this work, we transform a self-supervised speech representation model into a Mixture-of-Experts (MoE) architecture to improve generalization. Feed-forward blocks in selected encoder layers are replaced by multiple expert networks controlled by a layer-wise gating mechanism, allowing experts to capture complementary acoustic patterns while preserving the representations learned during self-supervised pretraining. We further analyze the architectural choices affecting the performance of this MoE conversion and investigate the activation behavior of the experts. The proposed approach is evaluated on 14 spoofing datasets and reduces the macro EER from 5.46% to 4.81%, corresponding to 11.9% relative improvement over the baseline.\n\nAuthors: Hugo Daumain, Driss Matrouf, Khaled Khelif, Mickael Rouvier\nCategories: cs.SD, cs.AI, cs.SD",
+  "word_count": 131,
+  "published_at": "2026-06-12T17:04:32Z",
+  "ingested_at": "2026-06-15T11:03:55.568Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.AI",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

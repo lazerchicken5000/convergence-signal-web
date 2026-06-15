@@ -1,0 +1,38 @@
+{
+  "id": "td_31f83a6c",
+  "source": "arxiv",
+  "source_id": "2606.14673",
+  "source_url": "https://arxiv.org/abs/2606.14673",
+  "content_type": "paper",
+  "creator": {
+    "id": "jai_bhagat",
+    "name": "Jai Bhagat",
+    "handle": "Jai Bhagat, Sara Molas-Medina, Giorgi Giglemiani, Stefan Heimersheim",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Compressed Computation is (probably) not Computation in Superposition",
+  "body_text": "Compressed Computation is (probably) not Computation in Superposition\n\nWe study whether the Compressed Computation (CC) toy model (Braun et al., 2025) is an instance of computation in superposition. The CC model appears to compute 100 ReLU functions with just 50 neurons, achieving a better loss than expected from only representing 50 ReLU functions. We show that the model mixes inputs via its noisy residual stream, corresponding to an unintended mixing matrix in the labels. Splitting the training objective into the ReLU term and the mixing term, we find that performance gains scale with the magnitude of the mixing matrix and vanish when the matrix is removed. The learned neuron directions concentrate in the subspace associated with the top 50 eigenvalues of the mixing matrix, suggesting that the mixing term governs the solution. Finally, a semi-non-negative matrix factorization (SNMF) baseline derived solely from the mixing matrix reproduces the qualitative loss profile and improves on prior baselines, though it does not match the trained model. These results suggest CC is not a suitable toy model of computation in superposition.\n\nAuthors: Jai Bhagat, Sara Molas-Medina, Giorgi Giglemiani, Stefan Heimersheim\nCategories: cs.LG, cs.LG",
+  "word_count": 169,
+  "published_at": "2026-06-12T17:39:31Z",
+  "ingested_at": "2026-06-15T11:04:06.518Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

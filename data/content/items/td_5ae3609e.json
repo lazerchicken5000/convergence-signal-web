@@ -1,0 +1,39 @@
+{
+  "id": "td_5ae3609e",
+  "source": "arxiv",
+  "source_id": "2606.14662",
+  "source_url": "https://arxiv.org/abs/2606.14662",
+  "content_type": "paper",
+  "creator": {
+    "id": "ines_nolasco",
+    "name": "Ines Nolasco",
+    "handle": "Ines Nolasco, Jules Cauzinille, Marius Miron, Gagan Narula, Milad Alizadeh, Emmanuel Fernandez, Matthieu Geist, Ellen Gilsenan-McMahon, Olivier Pietquin, Emmanuel Chemla, Sara Keen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond task performance: Decoding bioacoustic embeddings with speech features",
+  "body_text": "Beyond task performance: Decoding bioacoustic embeddings with speech features\n\nPretrained audio embeddings are standard in bioacoustics, yet little is known about which acoustic features these models encode, nor which are useful for a given task. This hinders transparency and limits extension to rare species or data-scarce domains. Here we reveal which speech-like features are encoded in bioacoustic representations. Using the 88~eGeMAPS features across six taxonomic groups, we apply linear and nonlinear regression probes to quantify which acoustic properties each model captures. Results confirm a ``no free lunch'' pattern: no single model captures the full feature space. A concatenated embedding achieves the highest performance, suggesting complementary acoustic space coverage across models. Loudness features are best encoded ($R^2 = 0.76$) while F0 is hardest to recover ($R^2 = 0.33$). By cross-referencing recoverability with per-species feature salience (NMI), we derive data-driven model selection guidance for bioacoustics.\n\nAuthors: Ines Nolasco, Jules Cauzinille, Marius Miron, Gagan Narula, Milad Alizadeh, Emmanuel Fernandez, Matthieu Geist, Ellen Gilsenan-McMahon, Olivier Pietquin, Emmanuel Chemla, Sara Keen\nCategories: cs.LG, cs.SD, cs.LG",
+  "word_count": 134,
+  "published_at": "2026-06-12T17:31:10Z",
+  "ingested_at": "2026-06-15T11:04:06.519Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.SD",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

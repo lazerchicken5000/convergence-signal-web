@@ -1,0 +1,38 @@
+{
+  "id": "td_d521397c",
+  "source": "arxiv",
+  "source_id": "2606.14701",
+  "source_url": "https://arxiv.org/abs/2606.14701",
+  "content_type": "paper",
+  "creator": {
+    "id": "timing_yang",
+    "name": "Timing Yang",
+    "handle": "Timing Yang, Predrag Neskovic, Jansen Seheult, Wenchao Han, Anand Bhattad, Alan Yuille, Feng Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers",
+  "body_text": "RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers\n\nWhen humans see a bird, they recognize far more than just \"bird\" -- they see a head, wings, and talons, a structured assembly of reusable parts that can be identified across every bird they have ever seen. We ask whether a self-supervised visual model can discover the same compositional structure on its own. To this end, we propose RATS (Register Attention Transformers), which decomposes the classification token into N learnable register tokens that route patch information through an L-&gt;N-&gt;N-&gt;L bottleneck via a three-step compress-communicate-broadcast attention. The N registers are partitioned across the H attention heads, so that registers assigned to different heads do not interact with each other. Without auxiliary losses or part annotations, each register spontaneously specializes into a proto-semantic region whose emerging structure resembles object parts. RATS surpasses all baselines by +12 mIoU on average across five segmentation benchmarks, with consistent gains on ADE20K (+1.11 mIoU) and COCO (+0.2 AP^m). Its register dictionary further exhibits part-level consistency and semantic proximity across related categories. Our results suggest that RATS may provide a useful architectural prior for structured and interpretable visual representation learning.\n\nAuthors: Timing Yang, Predrag Neskovic, Jansen Seheult, Wenchao Han, Anand Bhattad, Alan Yuille, Feng Wang\nCategories: cs.CV, cs.CV",
+  "word_count": 183,
+  "published_at": "2026-06-12T17:59:53Z",
+  "ingested_at": "2026-06-15T11:04:18.192Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

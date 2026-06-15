@@ -1,0 +1,39 @@
+{
+  "id": "td_7084d92d",
+  "source": "arxiv",
+  "source_id": "2606.14690",
+  "source_url": "https://arxiv.org/abs/2606.14690",
+  "content_type": "paper",
+  "creator": {
+    "id": "abdellah_aznag",
+    "name": "Abdellah Aznag",
+    "handle": "Abdellah Aznag, Rachel Cummings, Adam N. Elmachtoub",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Complexity Measure for Active Learning in Multi-group Mean Estimation",
+  "body_text": "A Complexity Measure for Active Learning in Multi-group Mean Estimation\n\nWe study a \\emph{max-risk} objective for active learning in a multi-group mean estimation $d$-armed bandits: a learner adaptively allocates a budget of $T$ samples across $d$ groups to minimize the worst-case uncertainty index $\\max_{k\\in[d]}σ_k^2/n_k$, where $σ_k$ is the standard deviation of the distribution of arm $d$, and $n_k$ is the number of times arm $d$ is sampled. We develop a local minimax framework and prove the first general lower bound for this objective, valid for any finite-variance hypothesis class. The bound separates difficulty into three orthogonal factors: a \\emph{budget} term, a \\emph{heteroscedasticity} index measuring how unevenly the uncertainty is spread across arms, and a model-dependent complexity measure, the \\emph{Variance Local Curvature} ($\\mathrm{VLC}$), which captures how much information a local change of variance creates inside the hypothesis class. For smooth classes, the $\\mathrm{VLC}$ is a reparametrization of a variance--Fisher information, with closed-form values for common families. Benchmarking against the strongest available upper bound shows near-optimality up to logarithmic factors in broad regimes, and pinpoints a systematic gap in highly heterogeneous instances. Our proof introduces two key ingredients: a loss-induced $\\ell_1$ geometry on the decision space, and a representation-based instance generator that reduces hard-instance construction to an explicit random matrix calculation.\n\nAuthors: Abdellah Aznag, Rachel Cummings, Adam N. Elmachtoub\nCategories: cs.LG, cs.IT, cs.LG",
+  "word_count": 199,
+  "published_at": "2026-06-12T17:54:26Z",
+  "ingested_at": "2026-06-15T11:04:06.517Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.IT",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

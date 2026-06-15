@@ -1,0 +1,40 @@
+{
+  "id": "td_58f7b042",
+  "source": "arxiv",
+  "source_id": "2606.14603",
+  "source_url": "https://arxiv.org/abs/2606.14603",
+  "content_type": "paper",
+  "creator": {
+    "id": "stefano_maestri",
+    "name": "Stefano Maestri",
+    "handle": "Stefano Maestri",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Towards In Silico Cancer Therapy Design: An Agent-Based Approach for GPU-Accelerated Molecular Pathway Simulation",
+  "body_text": "Towards In Silico Cancer Therapy Design: An Agent-Based Approach for GPU-Accelerated Molecular Pathway Simulation\n\nAgent-based modelling is gaining recognition as a powerful approach for simulating complex cellular pathways, owing to its ability to reproduce emergent biological behaviours without requiring extensive kinetic parameterisation. In this article, we present a GPU-accelerated agent-based simulator specifically designed to model and analyse signalling pathways involved in cancer progression, and to evaluate therapeutic interventions. Our approach leverages the computing capabilities of FLAME GPU 2, a GPU-accelerated agent-based modelling framework, to efficiently manage simulations involving millions of molecules interacting within a three-dimensional environment. Each molecule is represented as an autonomous agent with defined physical properties, capable of binding, releasing reaction products, migrating between compartments, and interacting based on spatial proximity. An intuitive graphical interface supports model construction, parameter setup, and real-time modification of treatment strategies. As the primary focus of this paper, we validate the simulator on the MAPK/ERK cascade affected by the BRAFV600E mutation, demonstrating that it accurately reproduces dose-response trends observed in clinical data and outperforms both deterministic models and our prior agent-based implementations. A second case study extends the approach to nuclear signalling by reproducing the dynamics of cFos expression and phosphorylation. This demonstrates the simulator's ability to capture compartmentalised regulation, reproducing transient mRNA responses and protein accumulation, including the effect of an unresolved negative transcriptional regulator. Together, these results show that GPU-accelerated ABM can faithfully replicate both drug response and emergent gene expression dynamics, providing a scalable and biologically grounded computational tool for supporting precision oncology.\n\nAuthors: Stefano Maestri\nCategories: cs.CE, q-bio.MN, q-bio.QM, cs.CE",
+  "word_count": 239,
+  "published_at": "2026-06-12T16:25:01Z",
+  "ingested_at": "2026-06-15T11:04:12.113Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CE",
+    "q-bio.MN",
+    "q-bio.QM",
+    "cs.CE"
+  ],
+  "domain": "peptide_biotech",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
