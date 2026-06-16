@@ -1,0 +1,42 @@
+{
+  "id": "td_352feb6e",
+  "source": "arxiv",
+  "source_id": "2606.17006",
+  "source_url": "https://arxiv.org/abs/2606.17006",
+  "content_type": "paper",
+  "creator": {
+    "id": "yonghyun_kim",
+    "name": "Yonghyun Kim",
+    "handle": "Yonghyun Kim, Junwon Lee, Haiwen Xia, Yinghao Ma, Junghyun Koo, Koichi Saito, Yuki Mitsufuji, Chris Donahue",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TuneJury: An Open Metric for Improving Music Generation Preference Alignment",
+  "body_text": "TuneJury: An Open Metric for Improving Music Generation Preference Alignment\n\nWe introduce TuneJury, an open, instance-level pairwise reward model for text-to-music that predicts a music preference score from a text prompt and an audio clip. The released checkpoint is trained on publicly available human-preference labels covering arena-style (A vs. B) votes, metric-alignment preference pairs, crowdsourced pairwise comparisons, and expert aesthetic ratings. The predicted score margin between two clips is well calibrated on our held-out test split, supporting data filtering via a simple score threshold. TuneJury generalizes to both held-out test pairs and out-of-distribution benchmarks, remaining competitive with prior baselines on the latter. For generators released after training, we introduce anchor calibration, a post-hoc, per-system Bradley-Terry calibration that recovers agreement at substantially better data efficiency than from-scratch retraining. The same frozen reward drives consistent reward-axis gains across three downstream applications: inference-time best-of-N selection, DITTO-style latent optimization, and expert-iteration post-training. TuneJury is available at https://github.com/yonghyunk1m/TuneJury.\n\nAuthors: Yonghyun Kim, Junwon Lee, Haiwen Xia, Yinghao Ma, Junghyun Koo, Koichi Saito, Yuki Mitsufuji, Chris Donahue\nCategories: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS, cs.SD",
+  "word_count": 143,
+  "published_at": "2026-06-15T17:39:30Z",
+  "ingested_at": "2026-06-16T11:03:53.990Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.AI",
+    "cs.LG",
+    "cs.MM",
+    "eess.AS",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

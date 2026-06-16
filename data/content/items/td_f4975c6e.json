@@ -1,0 +1,38 @@
+{
+  "id": "td_f4975c6e",
+  "source": "arxiv",
+  "source_id": "2606.17004",
+  "source_url": "https://arxiv.org/abs/2606.17004",
+  "content_type": "paper",
+  "creator": {
+    "id": "ali_kashani",
+    "name": "Ali Kashani",
+    "handle": "Ali Kashani, Ali Tavasoli, Heman Shakeri",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Data-Driven Personalization of Automated Insulin Delivery",
+  "body_text": "Data-Driven Personalization of Automated Insulin Delivery\n\nAutomated insulin delivery (AID) systems are often tuned for the population and offer limited online adaptation to the inter- and intrapatient variability in insulin needs caused by meal patterns, physical activity, and fluctuations in insulin sensitivity. We present a real-time, data-driven personalization approach that adapts controller parameters using the subject's daily glycemic data. The adaptation is formulated as projected gradient descent on a daily risk metric, where the gradient estimation is designed to attenuate noise and metabolic variability. We use contraction theory to validate the optimization framework and convergence of the closed-loop system under adaptation. In silico experiments on the 100-adult cohort of the FDA-accepted UVA/Padova T1D simulator show that our method improves glycemic risk and increases time-in-range (TIR, 70-180\\,mg/dL) by 2%, 3%, and 4% after 4, 8, and 17 weeks, respectively, under variability in meal timing, meal size, and insulin sensitivity.\n\nAuthors: Ali Kashani, Ali Tavasoli, Heman Shakeri\nCategories: eess.SY, eess.SY",
+  "word_count": 142,
+  "published_at": "2026-06-15T17:38:38Z",
+  "ingested_at": "2026-06-16T11:04:23.184Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SY",
+    "eess.SY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

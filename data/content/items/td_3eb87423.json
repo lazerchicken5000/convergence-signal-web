@@ -1,0 +1,35 @@
+{
+  "id": "td_3eb87423",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Cloudflare CAPTCHA on at least one ampersand",
+  "body_text": "TIL: Cloudflare CAPTCHA on at least one ampersand\n        I'm using Cloudflare's CAPTCHA (they call it a \"Web Application Firewall &gt; Custom rules &gt; Managed Challenge\" these days) to prevent crawlers from aggresively spidering my faceted search engine on this site, but I got fed up of even simple ?q=term searches triggering the challenge.\nAfter some mucking around with Claude Code it turns out you can register the following rule instead, so the CAPTCHA only kicks in for search URLs containing at least one ampersand:\n(http.request.uri.path wildcard r\"/search/*\" and http.request.uri.query contains \"&amp;\")\nAnd now /search/?q=lemur works without triggering a CAPTCHA!\nAlso included: notes on trying out the Cloudflare MCP with Claude Code, though it turned out not to be able to edit the rules in question so I had Claude Code switch to the Cloudflare API instead.\n    \n    \n        Tags: captchas, cloudflare, model-context-protocol, claude-code",
+  "word_count": 141,
+  "published_at": "2026-06-16T00:21:36.000Z",
+  "ingested_at": "2026-06-16T11:00:09.343Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_e5668133",
+  "source": "arxiv",
+  "source_id": "2606.16988",
+  "source_url": "https://arxiv.org/abs/2606.16988",
+  "content_type": "paper",
+  "creator": {
+    "id": "hamidah_oderinwale",
+    "name": "Hamidah Oderinwale",
+    "handle": "Hamidah Oderinwale",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agent trajectories as programs: fingerprinting and programming coding-agent behavior",
+  "body_text": "Agent trajectories as programs: fingerprinting and programming coding-agent behavior\n\nBenchmark scores tell you what an agent got right; they do not tell you how it got there. In this work, we introduce methods for comparing agents procedurally in different contexts, where the model, tasks, and approaches vary. We compare ten agents and find that they are identifiable by their behavioral habits, which we define as fingerprints: a probe over these procedural signatures attributes an unseen trajectory to the correct agent at 85.7% accuracy, controlling for leakage across tasks. We develop procedural representations for agent problem-solving procedures with an emergent vocabulary induction technique that is meant to be maximally compressive to avoid surface-level variation while being expressive enough to unveil the quirks of the models' patterns. We apply our framework to the software engineering evaluation dataset SWE-Bench to study the structural distinctness of agent trajectories and find that behavior is most similar between models from similar release periods and those that are distilled from one another (e.g., a distilled student model and its teacher have a Jensen-Shannon divergence of 0.25, about half the distance between other model pairs). As more models saturate evaluations, we believe that it will be important to probe model behavior along more holistic dimensions than success rates alone. We introduce ProcGrep, a library for auditing and evaluating agents for how they approach tasks at a procedural level given their traces in a top-down fashion. We believe this work has a range of applications to help developers work with and program coding agents, such as task-aware model routing, agent monitoring, and finer-grained cost analysis.\n\nAuthors: Hamidah Oderinwale\nCategories: cs.SE, cs.LG, cs.SE",
+  "word_count": 257,
+  "published_at": "2026-06-15T17:28:41Z",
+  "ingested_at": "2026-06-16T11:04:10.455Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.LG",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

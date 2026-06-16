@@ -1,0 +1,38 @@
+{
+  "id": "td_4f20f985",
+  "source": "arxiv",
+  "source_id": "2606.17056",
+  "source_url": "https://arxiv.org/abs/2606.17056",
+  "content_type": "paper",
+  "creator": {
+    "id": "nick_jiang",
+    "name": "Nick Jiang",
+    "handle": "Nick Jiang, Isaac Kauvar, Jack Lindsey",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Value Axis: Language Models Encode Whether They're on the Right Track",
+  "body_text": "The Value Axis: Language Models Encode Whether They're on the Right Track\n\nWe investigate whether language models internally track the value of their current trajectory, defined as the likelihood that their ongoing strategy will achieve their goals. Using synthetic, in-context reinforcement learning data, we construct a \"value\" axis for Qwen3-8B. We find that activations along this axis distinguish between high vs. low verbalized confidence, rollouts without and with backtracking, and correct vs. corrupted code. Steering towards high value causally suppresses self-correction and reduces explanatory verbosity, while steering towards low value induces backtracking and exploration. We demonstrate that direct preference optimization (DPO) can increase the internal value of rewarded behaviors (e.g. use a certain word), causing the model to act more confidently after exhibiting them. Finally, we apply the value axis to study in-the-wild settings. For example, we find that Qwen assigns low value to politically sensitive chat queries after post-training and that supervised fine-tuning increases internal confidence within the training domain. Our results suggest that language models linearly encode an estimate of expected goal success that modulates their confidence in pursuing a direction.\n\nAuthors: Nick Jiang, Isaac Kauvar, Jack Lindsey\nCategories: cs.CL, cs.CL",
+  "word_count": 171,
+  "published_at": "2026-06-15T17:59:58Z",
+  "ingested_at": "2026-06-16T11:03:59.393Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

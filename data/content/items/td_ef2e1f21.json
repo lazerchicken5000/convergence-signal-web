@@ -1,0 +1,39 @@
+{
+  "id": "td_ef2e1f21",
+  "source": "arxiv",
+  "source_id": "2606.17005",
+  "source_url": "https://arxiv.org/abs/2606.17005",
+  "content_type": "paper",
+  "creator": {
+    "id": "yanan_long",
+    "name": "Yanan Long",
+    "handle": "Yanan Long",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations",
+  "body_text": "Bayesian Inference and Decision Audits for Public Archives of Frontier AI Evaluations\n\nPublic AI evaluations are often read as terminal leaderboards, yet the underlying evidence is a selective time series shaped by reporting rules, benchmark revisions, and missingness. Repeated public archives for LiveBench and Open LLM Leaderboard v2 serve as the primary longitudinal record; LMArena provides a preference stress test; and GAIA and tau-bench contribute limited agentic pilots. Together, these archives instantiate a Bayesian inference problem: under a fixed reporting convention, one constructed terminal-only example over $1{,}000$ systems is compatible with two pre-terminal histories, yielding times of $23.03$ or $75.13$ to reach within $0.05$ of the ceiling under the same terminal-tail model. In synthetic posterior comparisons, action-facing diagnostics differ across observation regimes. The candidate selection-aware frontier model fails synthetic recovery, objective-archive prediction, preference transfer, and uncertainty calibration; correspondingly, fixed audit gates reject its stronger claims. An archive-and-adjudication protocol reconstructs public evaluation histories, isolates a verified timing boundary, and falsifies unsupported frontier claims.\n\nAuthors: Yanan Long\nCategories: cs.AI, stat.ME, cs.AI",
+  "word_count": 150,
+  "published_at": "2026-06-15T17:38:39Z",
+  "ingested_at": "2026-06-16T11:03:53.990Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "stat.ME",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_058bcbf5",
+  "source": "arxiv",
+  "source_id": "2606.17028",
+  "source_url": "https://arxiv.org/abs/2606.17028",
+  "content_type": "paper",
+  "creator": {
+    "id": "alper_yıldırım",
+    "name": "Alper Yıldırım",
+    "handle": "Alper Yıldırım",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "HAMON: Passive Optical Sequence Mixing for Long-Horizon Forecasting",
+  "body_text": "HAMON: Passive Optical Sequence Mixing for Long-Horizon Forecasting\n\nSimple linear and frequency-domain models remain surprisingly competitive in long-horizon time-series forecasting, and recent mechanistic evidence suggests that standard forecasting benchmarks may not require the dense superposed representations that make transformers powerful in other domains. This raises a substrate-level question: if the core forecasting operator is often low-complexity and approximately linear, does it need to be implemented as learned digital temporal mixing? We introduce HAMON, a passive diffractive optical forecasting core in which historical values are encoded onto an optical aperture, future positions are left dark, and cascaded trainable phase masks with free-space diffraction shape the forecast directly in the output field. At inference, prediction is performed by a single passive optical propagation pass with no trainable digital sequence-mixing layer. Across standard benchmarks, HAMON outperforms the strongest digital baselines considered on ETTm2 at all horizons and on ETTh2 at all but the longest horizon, improving MSE by up to 14\\% and doing so consistently across horizons rather than at isolated points. It is competitive on Weather and trails the strongest baselines on the remaining ETT settings and on the high-channel-count Traffic and Electricity datasets. Phase encoding, intensity-compatible readout, and phase-scrambling ablations, together with a TorchOptics cross-simulator check, indicate that the forecasts arise from the data-bearing optical field rather than from a digital forecasting head. Because the passive core uses standard Fourier optics, HAMON defines a concrete target for optical hardware and for passive physical sequence mixing.\n\nAuthors: Alper Yıldırım\nCategories: cs.LG, cs.AI, cs.AR, cs.LG",
+  "word_count": 236,
+  "published_at": "2026-06-15T17:51:50Z",
+  "ingested_at": "2026-06-16T11:03:53.989Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.AR",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

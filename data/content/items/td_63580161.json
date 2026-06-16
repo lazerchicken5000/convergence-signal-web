@@ -1,0 +1,35 @@
+{
+  "id": "td_63580161",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette-agent 0.3a0",
+  "body_text": "Release: datasette-agent 0.3a0\n        \n\nNew tool, execute_write_sql, which requests user approval and then writes to a database - taking user permissions into account. #27\n\n\nI added a mechanism for asking user approval in datasette agent 0.2a0. The new execute_write_sql tool can now prompt the user for all kinds of useful operations. Here's an example where I add some pelican sightings to my pelican_sightings table:\n\nThe new version also enhances the datasette agent chat terminal mode to support approvals, and adds several new options including --unsafe mode for auto-approving them:\n\n\ndatasette agent chat can execute tools that require user approval. #30\nThree new options for datasette agent chat - --root to run as root, --yes to approve all ask user questions, and --unsafe for both.\nTools can now provide plain text alternatives to HTML, for display in the datasette agent chat CLI. #31\n\n\nThe datasette agent chat content.db -m gpt-5.5 --unsafe command can now be used to chat directly with a specific database and directly modify it through prompts like \"create a notes table\", \"add a note about X\" etc.\n    \n    \n        Tags: projects, ai, datasette, annotated-release-notes, generative-ai, llms, llm-tool-use, datasette-agent",
+  "word_count": 187,
+  "published_at": "2026-06-15T17:19:27.000Z",
+  "ingested_at": "2026-06-16T11:00:09.343Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

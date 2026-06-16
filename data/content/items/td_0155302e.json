@@ -1,0 +1,38 @@
+{
+  "id": "td_0155302e",
+  "source": "arxiv",
+  "source_id": "2606.16908",
+  "source_url": "https://arxiv.org/abs/2606.16908",
+  "content_type": "paper",
+  "creator": {
+    "id": "amr_mohamed",
+    "name": "Amr Mohamed",
+    "handle": "Amr Mohamed, Guokan Shang, Michalis Vazirgiannis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LESS Is More: Mutual-Stability Sampling for Diffusion Language Models",
+  "body_text": "LESS Is More: Mutual-Stability Sampling for Diffusion Language Models\n\nDiffusion large language models (dLLMs) offer a promising alternative to autoregressive decoding by iteratively refining masked sequences, enabling parallel token updates and bidirectional conditioning. Their practical efficiency, however, is limited by sampling procedures that execute a fixed number of reverse denoising steps selected before decoding, spending computation on already-stable positions and sometimes committing unstable ones too early. We present \\textsc{LESS}, a training-free, model-agnostic adaptive sampler that treats token commitment as an online stopping problem. \\textsc{LESS} implements mutual-stability sampling through a joint stability rule that makes a masked position eligible for unmasking only when its top-1 prediction has high confidence, its top-1 token persists across recent reverse steps, and its predictive distribution is stable under top-$K$ inter-step Jensen--Shannon divergence. We evaluate \\textsc{LESS} on Dream-7B, LLaDA-8B, and LLaDA-1.5-8B, covering full-sequence diffusion and semi-autoregressive blockwise sampling regimes, across seven benchmarks spanning general knowledge, math, and code. \\textsc{LESS} improves average accuracy over strong training-free adaptive samplers while using $72.1\\%$ fewer reverse steps than fixed-budget decoding. Since each reverse step requires a Transformer forward pass, these step-count reductions translate into fewer forward evaluations, lower measured wall-clock latency, and lower estimated inference compute.\n\nAuthors: Amr Mohamed, Guokan Shang, Michalis Vazirgiannis\nCategories: cs.CL, cs.CL",
+  "word_count": 187,
+  "published_at": "2026-06-15T16:15:45Z",
+  "ingested_at": "2026-06-16T11:03:59.395Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

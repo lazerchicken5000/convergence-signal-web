@@ -1,0 +1,35 @@
+{
+  "id": "td_77c20f5e",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
+  "body_text": "&quot;They screwed us&quot;: Personality clashes sent Anthropic&#x27;s models offline\nLots of \"source familiar with the administration's thinking\" and \"source close to Anthropic\" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government export control Mythos/Fable story so far.\nLogan Graham (I lead the Frontier Red Team at Anthropic), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite Nicholas Carlini are reported to be meeting with the Commerce Department today in D.C. Good luck to them!\n(I just noticed Logan was \"Special Adviser to the Prime Minister\" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.)\nThis closing notes doesn't give me much optimism that we'll be getting Fable back any time soon:\n\nThe bottom line: One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance may be impossible.\nAbsent that, a source familiar with the administration's thinking said it may simply come down to an attitude fix where, instead of feeling dismissed, \"everyone feels safe, secure and happy.\"\n\nThis made me wonder if Anthropic ever successfully addressed the class of attacks described in the Universal and Transferable Adversarial Attacks on Aligned Language Models paper from 2023.\nIt looks like their Constitutional Classifiers work (that post is from January this year) is relevant to that. They continue to claim that no \"universal jailbreak\" has been found against Claude Mythos, classifying the jailbreak that triggered the US government response as \"a potential narrow, non-universal jailbreak\".\n\n\n    Tags: jailbreaking, ai, generative-ai, llms, anthropic, claude, nicholas-carlini, ai-ethics, claude-mythos",
+  "word_count": 271,
+  "published_at": "2026-06-15T14:57:33.000Z",
+  "ingested_at": "2026-06-16T11:00:09.343Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
