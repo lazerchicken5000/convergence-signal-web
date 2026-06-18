@@ -1,0 +1,38 @@
+{
+  "id": "td_30fb618b",
+  "source": "arxiv",
+  "source_id": "2606.19218",
+  "source_url": "https://arxiv.org/abs/2606.19218",
+  "content_type": "paper",
+  "creator": {
+    "id": "pushwitha_krishnappa",
+    "name": "Pushwitha Krishnappa",
+    "handle": "Pushwitha Krishnappa, Amit Das, Vinija Jain, Aman Chadha, Tathagata Mukherjee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RECOM: A Validity Discrimination Tradeoff in Automatic Metrics for Open Ended Reddit Question Answering",
+  "body_text": "RECOM: A Validity Discrimination Tradeoff in Automatic Metrics for Open Ended Reddit Question Answering\n\nAutomatic metrics are the default for evaluating LLM-generated text, yet a metric is quietly asked to do two jobs: tell genuine content alignment from surface coincidence (validity), and tell a better system from a worse one (discriminative power). On open-ended, opinion-driven question answering, the two are in tension. We introduce RECOM (Reddit Evaluation for Correspondence of Models), a contamination-free evaluation dataset of 15,000 r/AskReddit questions (September 2025), each paired with its authentic community replies, which postdate every evaluated model's training cutoff. Scoring five open-source LLMs (7--10B) against every reply each metric paired with a random-derangement noise floor we find that no metric does both jobs well. Cosine similarity separates real from random answers (Cohen's $d \\approx 2$) but cannot rank the five models ($|d| &lt; 0.1$); BERTScore precision appears to rank the models (raw $|d|$ up to 0.63), but once response length is controlled this collapses to $|d| = 0.09$ and its validity is weak ($d \\approx 0.8$, versus cosine's $\\approx 2$). Because every metric scores the same outputs, this validity--discrimination tradeoff is a property of the metrics, not the models, and we argue it stems from representation design. Three independent LLM judges reproduce the validity gap and likewise separate the five models only weakly. We recommend reporting metrics on both axes, with an explicit random-baseline floor. RECOM is publicly available at https://anonymous.4open.science/r/recom-D4B0\n\nAuthors: Pushwitha Krishnappa, Amit Das, Vinija Jain, Aman Chadha, Tathagata Mukherjee\nCategories: cs.CL, cs.CL",
+  "word_count": 223,
+  "published_at": "2026-06-17T15:55:33Z",
+  "ingested_at": "2026-06-18T11:04:03.234Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

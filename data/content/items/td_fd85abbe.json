@@ -1,0 +1,38 @@
+{
+  "id": "td_fd85abbe",
+  "source": "arxiv",
+  "source_id": "2606.19305",
+  "source_url": "https://arxiv.org/abs/2606.19305",
+  "content_type": "paper",
+  "creator": {
+    "id": "reza_sayyari",
+    "name": "Reza Sayyari",
+    "handle": "Reza Sayyari, Michael Langberg",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Secret key-distribution over networks with node-based adversarial errors",
+  "body_text": "Secret key-distribution over networks with node-based adversarial errors\n\nWe study the multiple key-cast problem in network coding under active node-based adversaries. In multiple key-cast, a source generates independent secret keys to be securely and reliably delivered to designated terminal subsets. The network adversary can observe \\(\\ell_o\\) nodes, inject additive or overwrite errors into \\(\\ell_e\\) nodes, and simultaneously observe and corrupt \\(\\ell_{oe}\\) nodes, while having full knowledge of the topology and coding operations. Adversarial models of similar nature, however, where corruption and eavesdropping is done on edges instead of nodes, have seen previous studies in the context of secure multicast network-coding. The work at hand builds on and extends these studies to address the challenges in node-based adversaries in the context of (multiple) key distribution. For single-source networks where every node is d-vertex connected from the source, we show that perfectly secure multiple key-cast under additive and overwrite error models is asymptotically achievable at the key-capacity of \\(d-\\ell_o-\\ell_e-2\\ell_{oe}\\). We then extend our analysis to networks where only terminal nodes satisfy this connectivity requirement, while intermediate nodes may be only partially connected. For these topologies, we develop coding schemes that achieve secure and reliable multiple key-cast capacities determined by the source vertex-connectivity and additional structural properties of the network. Finally, we show that our results generalize to multi-source settings, ensuring perfect secrecy even if the adversary observes all but one source node, and establish that our constructions apply directly to secure multicast network coding and to network secret-sharing scenarios. As part of our studies, we improve the security guarantee of a central scheme in [Zhang et al., IEEE Trans. Comm., 2023] addressing parallel-edge networks, from weak-security to perfect-security.\n\nAuthors: Reza Sayyari, Michael Langberg\nCategories: cs.IT, cs.IT",
+  "word_count": 268,
+  "published_at": "2026-06-17T17:28:54Z",
+  "ingested_at": "2026-06-18T11:04:25.921Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IT",
+    "cs.IT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

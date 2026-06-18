@@ -1,0 +1,38 @@
+{
+  "id": "td_4282b4d6",
+  "source": "arxiv",
+  "source_id": "2606.19307",
+  "source_url": "https://arxiv.org/abs/2606.19307",
+  "content_type": "paper",
+  "creator": {
+    "id": "mitchell_cohen",
+    "name": "Mitchell Cohen",
+    "handle": "Mitchell Cohen, Vassili Korotkine, James Richard Forbes",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Observability and Consistency Analysis for Visual-Inertial Navigation with Anchored Feature Parameterizations",
+  "body_text": "Observability and Consistency Analysis for Visual-Inertial Navigation with Anchored Feature Parameterizations\n\nThis paper presents an analysis of the observability and consistency properties of filtering-based visual-inertial navigation systems (VINS) that utilize anchored feature representations. The unobservable subspace of VINS with anchored landmark parameterizations is shown to be independent of the estimated landmark state, which leads to improved estimator consistency properties without any additional modifications. However, the unobservable subspace is still found to depend on the estimated navigation state, necessitating additional consistency-enforcing techniques. Two methods to improve the consistency of VINS with anchored feature representations are presented. Simulation results showcase that all estimators employing anchored feature paramterizations exhibit improved consistency properties compared to algorithms that estimate features resolved in a global reference frame, especially in scenarios where feature initialization may be poor. Real-world experiments on the TUM-VI dataset showcase that the use of anchored feature representations alone can yield comparable performance to consistency-improved estimators employing a global feature representation, demonstrating the benefit of using anchored feature parameterizations for VINS.\n\nAuthors: Mitchell Cohen, Vassili Korotkine, James Richard Forbes\nCategories: cs.RO, cs.RO",
+  "word_count": 156,
+  "published_at": "2026-06-17T17:30:52Z",
+  "ingested_at": "2026-06-18T11:04:25.920Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

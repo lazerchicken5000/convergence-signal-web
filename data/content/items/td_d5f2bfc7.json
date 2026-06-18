@@ -1,0 +1,40 @@
+{
+  "id": "td_d5f2bfc7",
+  "source": "arxiv",
+  "source_id": "2606.19328",
+  "source_url": "https://arxiv.org/abs/2606.19328",
+  "content_type": "paper",
+  "creator": {
+    "id": "mohamed_nabail",
+    "name": "Mohamed Nabail",
+    "handle": "Mohamed Nabail, Leo Cheng, Jingmin Wang, Nicholas Rhinehart",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
+  "body_text": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning\n\nPreference-based RL provides an approach to learning reward models from pairwise comparisons of behaviors, bypassing the need for explicit reward design. However, existing methods typically rely on passive data collection and suffer from poor sample efficiency, especially during the early stages of learning. We introduce a model-based approach that actively directs exploration by jointly reasoning over uncertainties in the reward, dynamics, and value functions. Our method, Uncertainty-Balanced Preference Planning (UBP2), uses ensembles of reward, dynamics, and value function models to evaluate candidate trajectories according to a unified score that combines expected reward, terminal value, and epistemic uncertainty. Planning under this objective yields an explicit tradeoff between exploitation and information acquisition without requiring ad hoc exploration heuristics. Under standard regularity assumptions, we establish sublinear regret guarantees for both finite-horizon and infinite-horizon settings. Empirically, experiments on the Meta-World benchmark show UBP2 achieves substantially higher sample efficiency than model-free preference-based methods and non-optimistic model-based baselines.\n\nAuthors: Mohamed Nabail, Leo Cheng, Jingmin Wang, Nicholas Rhinehart\nCategories: cs.LG, cs.AI, cs.RO, cs.LG",
+  "word_count": 152,
+  "published_at": "2026-06-17T17:54:32Z",
+  "ingested_at": "2026-06-18T11:03:57.843Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.RO",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

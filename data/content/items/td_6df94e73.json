@@ -1,0 +1,39 @@
+{
+  "id": "td_6df94e73",
+  "source": "arxiv",
+  "source_id": "2606.19302",
+  "source_url": "https://arxiv.org/abs/2606.19302",
+  "content_type": "paper",
+  "creator": {
+    "id": "christopher_b._womack",
+    "name": "Christopher B. Womack",
+    "handle": "Christopher B. Womack, Shahine Bouabid, Andrei Sokolov, Popat Salunke, Glenn Flierl, Sebastian D. Eastham, Noelle E. Selin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimal scenario design for climate emulation",
+  "body_text": "Optimal scenario design for climate emulation\n\nAs deep learning for physical systems continues to grow in popularity, efforts to improve generalizability have primarily focused on designing architectures that embed physical constraints. However, for machine-learning surrogate climate models (emulators), we show that the low structural diversity in existing scenarios commonly used to generate training data places a ceiling on predictive skill. Here, we examine whether training datasets themselves can be optimized to improve generalization. We introduce a method to create datasets that produce emulators capable of generalizing to new, structurally different scenarios absent from the training data. We use a differentiable Simple Climate Model (SCM) to calculate the sensitivity of emulator loss to perturbations in the training data, iteratively updating the training data to maximize emulator skill. For an SCM, training on one scenario optimized in this fashion outperforms an emulator trained on six standard ScenarioMIP pathways. We achieve this higher predictive skill despite training on a smaller dataset, finding that our emulator successfully isolates distinct physical behaviors of different climate forcing agents (e.g., greenhouse gases vs. aerosols) without single-forcing runs. We then demonstrate that scenarios optimized using an SCM, when used to drive an intermediate-complexity climate model, produce a training dataset that yields a more skillful emulator than training on ScenarioMIP outputs. Our results suggest that, in the compute-constrained environment of running full-scale climate models, generating a small number of dynamically rich scenarios provides greater marginal value for emulation and characterizing system responses than expanding the suite of traditional emissions pathways.\n\nAuthors: Christopher B. Womack, Shahine Bouabid, Andrei Sokolov, Popat Salunke, Glenn Flierl, Sebastian D. Eastham, Noelle E. Selin\nCategories: physics.ao-ph, cs.LG, physics.ao-ph",
+  "word_count": 245,
+  "published_at": "2026-06-17T17:26:22Z",
+  "ingested_at": "2026-06-18T11:04:08.647Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.ao-ph",
+    "cs.LG",
+    "physics.ao-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

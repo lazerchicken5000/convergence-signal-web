@@ -1,0 +1,38 @@
+{
+  "id": "td_4b39e1cc",
+  "source": "arxiv",
+  "source_id": "2606.19294",
+  "source_url": "https://arxiv.org/abs/2606.19294",
+  "content_type": "paper",
+  "creator": {
+    "id": "li_zeng",
+    "name": "Li Zeng",
+    "handle": "Li Zeng, Steve Alpern",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Accelerating Network-Agent Dispersion: Territorial Behavior and Directionally Biased Lazy Random Walks",
+  "body_text": "Accelerating Network-Agent Dispersion: Territorial Behavior and Directionally Biased Lazy Random Walks\n\nTerritorial behavior can greatly accelerate decentralized agent dispersion on networks. This paper studies a network-agent dispersion problem in which m autonomous agents move in discrete time on a connected graph and seek a configuration in which no two agents occupy the same node. We focus on the dispersion case m = n, where successful configurations contain exactly one agent per node. In the baseline model, each agent follows a lazy random walk with a common laziness parameter p. This process defines a finite absorbing Markov chain, and the expected absorption time is used to measure dispersion efficiency. We introduce two local behavioral extensions: territorial behavior, in which an agent that is alone at a node claims that node and repels later arrivals, and directional bias, in which agents share a preferred direction of movement on paths and cycles. Exact calculations on three-agent path and cycle networks and Monte Carlo simulations on larger instances show that territorial behavior substantially reduces expected dispersion time, with larger relative reductions as network size increases. Directional bias alone has limited effect in most small-network cases, but when combined with territorial behavior it can produce large additional speedups. In particular, the simulations show reductions of 99.22% on L100 and 97.48% on C100 when all agents start from one node. These results show how simple local movement rules can strongly affect global dispersion time in decentralized networked multi-agent systems.\n\nAuthors: Li Zeng, Steve Alpern\nCategories: stat.AP, stat.AP",
+  "word_count": 232,
+  "published_at": "2026-06-17T17:17:07Z",
+  "ingested_at": "2026-06-18T11:04:14.351Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.AP",
+    "stat.AP"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

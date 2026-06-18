@@ -1,0 +1,43 @@
+{
+  "id": "td_49caff3e",
+  "source": "arxiv",
+  "source_id": "2606.19279",
+  "source_url": "https://arxiv.org/abs/2606.19279",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_romero_schellhorn",
+    "name": "Daniel Romero Schellhorn",
+    "handle": "Daniel Romero Schellhorn, Till Mossakowski, Björn Gehrke",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "NeSyCat Torch: A Differentiable Tensor Implementation of Categorical Semantics for Neurosymbolic Learning",
+  "body_text": "NeSyCat Torch: A Differentiable Tensor Implementation of Categorical Semantics for Neurosymbolic Learning\n\nNeurosymbolic semantics is fragmented: classical, fuzzy, probabilistic and neural systems each define truth by their own inductive rules. NeSyCat, extending ULLER, subsumes them under a single inductive definition of truth, parametric in a strong monad and an aggregation structure on truth-values. NeSyCat has so far lacked an account of predicates and functions learned by neural networks. We provide NeSyCat Torch as the missing link and interpret computational symbols via neural networks, implementing the framework in probabilistic programming and tensor-based backends. We use the distribution monad for reference semantics and metric evaluation, and complement it by a monad for numerically stable, differentiable training: the lazy log-tensor monad over the log-semiring. For efficient training in batches, we furthermore employ a batch monad. The axioms are the source code: written once in monad-based do-notation, monadic bind performs marginalisation, lazily pruning unneeded branches. On MNIST addition, our HaskTorch, JAX, and PyTorch implementations outperform LTN and DeepProbLog in speed and accuracy, while achieving nearly the accuracy of DeepStochLog. However, unlike DeepStochLog, we stay in a uniform framework that applies to many first-order NeSy approaches. Namely, the construction is parametric in the monad; instantiating it with, e.g., the Giry monad extends the approach to continuous probability (working out a neural representation here is left for future work).\n\nAuthors: Daniel Romero Schellhorn, Till Mossakowski, Björn Gehrke\nCategories: cs.AI, cs.LG, cs.LO, math.CT, math.LO, math.PR, cs.AI",
+  "word_count": 211,
+  "published_at": "2026-06-17T16:56:31Z",
+  "ingested_at": "2026-06-18T11:03:57.844Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "cs.LO",
+    "math.CT",
+    "math.LO",
+    "math.PR",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
