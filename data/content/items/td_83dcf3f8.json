@@ -1,0 +1,39 @@
+{
+  "id": "td_83dcf3f8",
+  "source": "arxiv",
+  "source_id": "2606.20544",
+  "source_url": "https://arxiv.org/abs/2606.20544",
+  "content_type": "paper",
+  "creator": {
+    "id": "gina_wong",
+    "name": "Gina Wong",
+    "handle": "Gina Wong, Drew Prinster, Suchi Saria, Rama Chellappa, Anqi Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Toward Calibrated Mixture-of-Experts Under Distribution Shift",
+  "body_text": "Toward Calibrated Mixture-of-Experts Under Distribution Shift\n\nCalibration aligns a model's predictive uncertainty with the frequencies of its empirical outcomes and is important for understanding and trusting reported probabilities. Recent work shows that enforcing calibration at the level of individual predictors can improve ensemble accuracy and calibration, with mixture-of-experts (MoE) models showing strong empirical improvements in particular; however, the conditions under which calibration helps MoE are not well understood. In this work, we study how MoE models behave under distribution shift, focusing on how routing mechanisms interact with expert-level calibration. We show that expert calibration is sufficient to ensure calibration of the overall model under a broad class of distribution shifts in hard-routed models, but is insufficient for calibrating soft-routed models. To address this, we propose an adversarial reweighting that penalizes calibration errors of the routed aggregate under distribution shift, and we demonstrate that it improves the accuracy-calibration tradeoff both on average and on difficult subsets of the data, across model classes, prediction tasks, and distribution shifts.\n\nAuthors: Gina Wong, Drew Prinster, Suchi Saria, Rama Chellappa, Anqi Liu\nCategories: cs.AI, cs.LG, cs.AI",
+  "word_count": 160,
+  "published_at": "2026-06-18T17:55:00Z",
+  "ingested_at": "2026-06-21T11:03:39.105Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

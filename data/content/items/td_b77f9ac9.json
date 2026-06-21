@@ -1,0 +1,40 @@
+{
+  "id": "td_b77f9ac9",
+  "source": "arxiv",
+  "source_id": "2606.20557",
+  "source_url": "https://arxiv.org/abs/2606.20557",
+  "content_type": "paper",
+  "creator": {
+    "id": "georgy_noarov",
+    "name": "Georgy Noarov",
+    "handle": "Georgy Noarov, Aaron Roth",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimal Deterministic Multicalibration and Omniprediction",
+  "body_text": "Optimal Deterministic Multicalibration and Omniprediction\n\nA model is multicalibrated on a collection of group weights $G$ if it is calibrated -- i.e. unbiased even conditional on its prediction -- not just overall, but also after reweighting contexts by each $g \\in G$. It is a useful property for many downstream applications and is a basic desideratum of trustworthy machine learning. Before this work, all predictors known to attain the minimax-optimal $\\widetilde O(\\varepsilon^{-3})$ sample complexity rate for $\\varepsilon$-multicalibration were randomized, while deterministic predictors were known only with substantially worse sample complexity. Whether randomization is necessary for optimal sample complexity in multicalibration was explicitly asked by [CLNR26] and implicitly in several prior works. We resolve this open problem by giving a minimax-optimal multicalibration algorithm that outputs a deterministic predictor. We then generalize the algorithm to produce optimal deterministic predictors that satisfy outcome indistinguishability (OI) with respect to finite or finitely covered collections of tests. As an application, this also gives deterministic omnipredictors and panpredictors with optimal sample complexity, resolving open problems posed by [OKK25] and [BHHLZ25].\n\nAuthors: Georgy Noarov, Aaron Roth\nCategories: cs.LG, math.ST, stat.ML, cs.LG",
+  "word_count": 169,
+  "published_at": "2026-06-18T17:59:31Z",
+  "ingested_at": "2026-06-21T11:03:50.001Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.ST",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

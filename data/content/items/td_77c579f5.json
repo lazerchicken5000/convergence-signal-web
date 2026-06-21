@@ -1,0 +1,38 @@
+{
+  "id": "td_77c579f5",
+  "source": "arxiv",
+  "source_id": "2606.20519",
+  "source_url": "https://arxiv.org/abs/2606.20519",
+  "content_type": "paper",
+  "creator": {
+    "id": "emanuel-cristian_boghiu",
+    "name": "Emanuel-Cristian Boghiu",
+    "handle": "Emanuel-Cristian Boghiu, Kyrylo Simonov",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GPU-accelerated semidefinite programming for causal games",
+  "body_text": "GPU-accelerated semidefinite programming for causal games\n\nThe process matrix formalism describes quantum correlations in scenarios without a fixed causal order between local laboratories. Operational signatures of such correlations can be investigated through causal games. A paradigmatic example is the Guess-Your-Neighbour's-Input game, in which two parties attempt to guess each other's inputs. Correlations compatible with any definite, or probabilistically mixed, causal order cannot achieve a winning probability exceeding $1/2$. The best process-matrix strategy currently known attains a value of approximately $0.6218$ using local dimension $d=5$, while the strongest known dimension-independent upper bound is $0.7592$. In this work, we investigate whether increasing the local dimension beyond $d = 5$ can narrow this gap. To this end, we employ a see-saw optimization scheme in which each step is formulated as a semidefinite program. For scalability, we develop a custom implementation of the SCS solver in which the dominant computational cost, the projection onto the positive-semidefinite cone, is offloaded to a GPU, yielding a six-fold speedup. Using this implementation, we explore local dimensions up to $d = 8$, and we do not find significant improvements over the value at $d=5$. Our results suggest that either qualitatively different strategies are required to approach the known upper bound, or that the bound itself is not tight.\n\nAuthors: Emanuel-Cristian Boghiu, Kyrylo Simonov\nCategories: quant-ph, quant-ph",
+  "word_count": 204,
+  "published_at": "2026-06-18T17:36:34Z",
+  "ingested_at": "2026-06-21T11:04:07.432Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

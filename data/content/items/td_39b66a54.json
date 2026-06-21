@@ -1,0 +1,39 @@
+{
+  "id": "td_39b66a54",
+  "source": "arxiv",
+  "source_id": "2606.20559",
+  "source_url": "https://arxiv.org/abs/2606.20559",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenhao_chi",
+    "name": "Wenhao Chi",
+    "handle": "Wenhao Chi, Arkaprava Sinha, Dominick Reilly, Hieu Le, Srijan Das",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
+  "body_text": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning\n\nEgocentric video understanding is inherently limited by the narrow perspective of wearable cameras: a single viewpoint, a single modality, a single model cannot capture the full richness of human action. We argue that a truly expressive egocentric representation must subsume complementary knowledge across viewpoints, modalities, and foundation model representations, yet remain deployable from egocentric video alone. To this end, we introduce a hierarchical multi-teacher distillation framework that produces UNIEGO, a unified egocentric encoder trained with nine teachers spanning ego-exo viewpoints, RGB, depth, and skeleton modalities, and four foundation models. Rather than distilling directly from heterogeneous teachers whose incompatible architectures and feature geometries induce conflicting gradients, our framework interposes a layer of representation-specific Proxy models that translate diverse teacher knowledge into a homogeneous egocentric space. A second distillation stage, Selective Proxy Distillation (SPD), then adaptively selects, for each training sample, the subset of proxies that are both correct and confident, distilling exclusively from reliable supervision and suppressing erroneous signals. SPD is further stabilized by initializing UNIEGO as a learned convex combination of proxy parameters, placing the unified model in a well-conditioned region of the loss landscape before distillation begins. UNIEGO achieves state-of-the-art performance across three egocentric video understanding tasks - action recognition, video retrieval, and action segmentation on three challenging ego-exo benchmarks, outperforming naive multi-teacher distillation baselines and demonstrating that structured, proxy-mediated knowledge transfer yields richer and more discriminative egocentric representations.\n\nAuthors: Wenhao Chi, Arkaprava Sinha, Dominick Reilly, Hieu Le, Srijan Das\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 230,
+  "published_at": "2026-06-18T17:59:45Z",
+  "ingested_at": "2026-06-21T11:03:50.001Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

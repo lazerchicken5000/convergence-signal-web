@@ -1,0 +1,38 @@
+{
+  "id": "td_e29cfd96",
+  "source": "arxiv",
+  "source_id": "2606.20503",
+  "source_url": "https://arxiv.org/abs/2606.20503",
+  "content_type": "paper",
+  "creator": {
+    "id": "neven_gentil",
+    "name": "Neven Gentil",
+    "handle": "Neven Gentil, Lous S. Rianne, Aida Todri-Sanial",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "General circuit mapping algorithm for neutral atom quantum computers",
+  "body_text": "General circuit mapping algorithm for neutral atom quantum computers\n\nNeutral atom quantum computers (NAQC) are emerging as a promising, scalable quantum computing platform because of their long qubit coherence, flexible qubit arrangement, and multiqubit gate capabilities. However, circuit execution often requires physically moving qubits, making compilation a critical optimization challenge. We propose a circuit independent mathematical framework built on graph-theoretic combinatorial optimization that determines the minimal number of required qubit transfers. This model captures spatial constraints specific to NAQC platforms with zone-limited gate operations and multi-qubit gates. From this framework, we encode the qubit mapping problem as a nonlinear integer program and solve it using a genetic algorithm, enabling trade-offs between minimizing the total traveled distance and the number of parallel transfer operations. Compared to the state-of-the-art scalable compiler for zoned architectures, our approach consistently finds fewer transfers. Depending on the optimization focus, our method produces shorter traveled distances or fewer parallel transfer operations. This work provides both theoretical guaranties and a practical tool for efficient, architecture-aware quantum circuit compilation. As a result, practitioners can generate hardware-aware mappings that reduce movement-induced errors and better exploit atom transfer parallelism, directly improving execution efficiency on NAQC devices.\n\nAuthors: Neven Gentil, Lous S. Rianne, Aida Todri-Sanial\nCategories: quant-ph, quant-ph",
+  "word_count": 186,
+  "published_at": "2026-06-18T17:21:23Z",
+  "ingested_at": "2026-06-21T11:04:07.433Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

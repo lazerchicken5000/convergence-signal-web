@@ -1,0 +1,38 @@
+{
+  "id": "td_a01cc6d6",
+  "source": "arxiv",
+  "source_id": "2606.20534",
+  "source_url": "https://arxiv.org/abs/2606.20534",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiawen_bi",
+    "name": "Jiawen Bi",
+    "handle": "Jiawen Bi, Jiaxiang Li, Mingyi Hong, Shuzhong Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On Second-Order Methods for Bilevel Optimization",
+  "body_text": "On Second-Order Methods for Bilevel Optimization\n\nBilevel optimization is an indispensable modeling tool for modern machine learning and engineering design. However, the theory and practice for finding second order stationary points in the context of bilevel optimization still remain largely unsettled. Even for bilevel optimization with strongly convex lower-level problem, the hyperfunction it induces is in general nonconvex. Although the Cubic Regularized Newton methods (CRN) famously achieve the optimal $\\mathcal{O}(\\varepsilon^{-1.5})$ SOSP (second-order stationary point) rate in single-level optimization, it is unclear how to control the accuracy of the hypergradient and hyper-Hessian computations in the context of applying the second-order methods to bilevel problems in order for the overall process to be efficient. In this paper, we set out to answer this question. In particular, we first formulate a double loop CRN baseline that achieves the optimal outer rate but requires repeated lower level solves. Next, we propose a single loop cubic regularized Newton algorithm that combines one lower-level gradient step with one Newton step for the hypergradient, and prove an overall deterministic $\\mathcal{O}(\\varepsilon^{-1.5})$ total oracle complexity, which is optimal. In addition, we illustrate that some intuitively simple modifications of our method may fail to hold up the convergence result. To the best of our knowledge, this is the first deterministic single loop method for unconstrained NCSC (non-convex upper-level and strongly convex lower-level) bilevel optimization setting that achieves the $\\mathcal{O}(\\varepsilon^{-1.5})$ optimal convergence rate for finding an $\\varepsilon$-SOSP of the hyperfunction.\n\nAuthors: Jiawen Bi, Jiaxiang Li, Mingyi Hong, Shuzhong Zhang\nCategories: math.OC, math.OC",
+  "word_count": 233,
+  "published_at": "2026-06-18T17:48:15Z",
+  "ingested_at": "2026-06-21T11:04:07.431Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

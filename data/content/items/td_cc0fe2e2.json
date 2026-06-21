@@ -1,0 +1,39 @@
+{
+  "id": "td_cc0fe2e2",
+  "source": "arxiv",
+  "source_id": "2606.20522",
+  "source_url": "https://arxiv.org/abs/2606.20522",
+  "content_type": "paper",
+  "creator": {
+    "id": "qi_yang",
+    "name": "Qi Yang",
+    "handle": "Qi Yang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states",
+  "body_text": "Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states\n\nVariational infinite matrix product state (iMPS) calculations usually make Hamiltonians with algebraically decaying interactions compatible with standard MPO algorithms by first replacing the target Hamiltonian with a finite-pole sum-of-exponentials surrogate, thereby introducing a Hamiltonian-representation residual. We formulate the fixed-$D$ variational energy without introducing such a surrogate. For a fixed finite-$D$ MPS, the algebraic tail can be summed directly through the connected transfer matrix: the tail $e^{\\mathrm{i} Qr}/r^α$ is represented by the matrix function $F_{α,Q}(\\widetilde{T}_A)$, with $F_{α,Q}(z)=\\operatorname{Li}_α(e^{\\mathrm{i} Q}\\,z)/z$. We evaluate the resulting matrix-function action using a Krylov method and obtain stable gradients by combining a Fréchet adjoint with implicit fixed-point differentiation. Benchmarks on long-range free fermions and the inverse-square Heisenberg family, including the Haldane--Shastry point, validate the transfer-matrix-function formulation. A long-range Ising-chain calculation illustrates a practical consequence of avoiding a finite-pole Hamiltonian representation. At a fixed, independently known critical field, finite-pole surrogate Hamiltonians can bias a critical diagnostic away from criticality, whereas the matrix-function calculation retains the expected critical signatures of the target algebraic Hamiltonian.\n\nAuthors: Qi Yang\nCategories: cond-mat.str-el, quant-ph, cond-mat.str-el",
+  "word_count": 164,
+  "published_at": "2026-06-18T17:37:58Z",
+  "ingested_at": "2026-06-21T11:04:07.432Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.str-el",
+    "quant-ph",
+    "cond-mat.str-el"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

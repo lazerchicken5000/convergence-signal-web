@@ -1,0 +1,38 @@
+{
+  "id": "td_bedd5011",
+  "source": "arxiv",
+  "source_id": "2606.20498",
+  "source_url": "https://arxiv.org/abs/2606.20498",
+  "content_type": "paper",
+  "creator": {
+    "id": "serena_landers",
+    "name": "Serena Landers",
+    "handle": "Serena Landers, Sahil Pontula, Shiekh Zia Uddin, Sachin Vaidya, Marin Soljačić, Steven G. Johnson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CLUSTER: Derivative-free optimization of smooth functions with parameter-change costs",
+  "body_text": "CLUSTER: Derivative-free optimization of smooth functions with parameter-change costs\n\nWe introduce the CLUSTER algorithm (\\textbf{c}oordinate-\\textbf{l}evel \\textbf{u}pdate \\textbf{s}trategy for \\textbf{t}rust-region step \\textbf{e}valuation \\textbf{r}efinement) for local derivative-free optimization problems where there is a cost to changing each parameter (or clusters of parameters). For example, this type of cost model is appropriate for optimizing robot-controlled laboratory experiments, in which a robot may incur a separate motion for each parameter cluster to be adjusted. We build off of a class of quadratic-interpolation optimization algorithms by Powell and Conn that are known to perform well for twice-differentiable objectives (e.g. low-noise experiments), and show that the CLUSTER variants improve performance on a variety of test problems (including an optics laboratory experiment) by around 50$\\%$, and greatly outperform common competing algorithms for laboratory optimization (Bayesian optimization and Nelder--Mead). We also adapt the convergence proof of the Conn algorithm to obtain a similar convergence guarantee for CLUSTER-Conn.\n\nAuthors: Serena Landers, Sahil Pontula, Shiekh Zia Uddin, Sachin Vaidya, Marin Soljačić, Steven G. Johnson\nCategories: math.OC, math.OC",
+  "word_count": 140,
+  "published_at": "2026-06-18T17:14:13Z",
+  "ingested_at": "2026-06-21T11:04:07.433Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
