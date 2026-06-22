@@ -1,0 +1,35 @@
+{
+  "id": "td_d3d14e35",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Temporary Cloudflare Accounts for AI agents",
+  "body_text": "Temporary Cloudflare Accounts for AI agents\nThe announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well.\nShort version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account:\nnpx wrangler deploy --temporary\n\nCloudflare will deploy the application to a new, ephemeral project which will stay live for 60 minutes.\nI had GPT-5.5 xhigh in Codex Desktop build this test application providing a tool for following HTTP redirects and returning the final destination. The temporary deployment worked as advertised.\nRunning the deployment spits out the URL to a page for claiming the new project, for if you want it to last for more than 60 minutes. Here's what that claim screen looks like:\n\n\n    Via Hacker News\n\n\n    Tags: cloudflare",
+  "word_count": 145,
+  "published_at": "2026-06-21T22:01:04.000Z",
+  "ingested_at": "2026-06-22T11:00:09.241Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
