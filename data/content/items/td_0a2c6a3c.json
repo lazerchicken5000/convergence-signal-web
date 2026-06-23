@@ -1,0 +1,42 @@
+{
+  "id": "td_0a2c6a3c",
+  "source": "arxiv",
+  "source_id": "2606.23546",
+  "source_url": "https://arxiv.org/abs/2606.23546",
+  "content_type": "paper",
+  "creator": {
+    "id": "mansour_zoubeirou_a_mayaki",
+    "name": "Mansour Zoubeirou a Mayaki",
+    "handle": "Mansour Zoubeirou a Mayaki",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Energy Consumption of Transformer Fine-Tuning: A Roofline-Inspired Scaling Model",
+  "body_text": "The Energy Consumption of Transformer Fine-Tuning: A Roofline-Inspired Scaling Model\n\nTransformer-based models underpin modern natural language processing but incur rapidly growing computational and energy costs. As training scales in both model size and parallelism, accurately predicting energy consumption has become critical for sustainable and cost-aware system design. We present a framework for modeling the energy consumption of Transformer training on multiple GPUs. Using controlled architectural sweeps of BERT models, we relate measured energy to lightweight proxies for compute, memory traffic, and hardware efficiency. Inspired by roofline models, our approach incorporates a speedup-based hardware-efficiency factor that captures the effects of tensor parallelism and fully sharded data parallelism. We derive a scaling law model that accurately predicts training energy across heterogeneous configurations.\n\nAuthors: Mansour Zoubeirou a Mayaki\nCategories: cs.LG, cs.AI, cs.AR, cs.CL, cs.DC, cs.LG",
+  "word_count": 110,
+  "published_at": "2026-06-22T16:18:06Z",
+  "ingested_at": "2026-06-23T11:04:00.157Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.AR",
+    "cs.CL",
+    "cs.DC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

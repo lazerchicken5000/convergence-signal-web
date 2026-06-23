@@ -1,0 +1,38 @@
+{
+  "id": "td_73d21bca",
+  "source": "arxiv",
+  "source_id": "2606.23583",
+  "source_url": "https://arxiv.org/abs/2606.23583",
+  "content_type": "paper",
+  "creator": {
+    "id": "nilesh_nayan",
+    "name": "Nilesh Nayan",
+    "handle": "Nilesh Nayan, Aishwarya Sampath Kumar, Rishiraj Girmal, Shivani Anilkumar, Sankaran Vaidyanathan, David A. Nader Palacio, Reshmi Ghosh, Soundararajan Srinivasan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Evaluation Awareness Is Not One Capability: Evidence from Open Language Models",
+  "body_text": "Evaluation Awareness Is Not One Capability: Evidence from Open Language Models\n\nSafety benchmarks assume that test-condition behavior predicts deployment behavior, an assumption that fails if models detect evaluation cues and adapt. This opens a gap between benchmark performance and deployment behavior: compliance measured under test conditions becomes an optimistic upper bound that overstates how safely a model behaves once the evaluation harness is removed. We characterize this evaluation awareness through eight experiments across 37 open-weight models and seven families. (i)Detection is moderate and training-driven (24/37 models exceed chance, best AUROC 0.714 vs.0.819 human, with instruction tuning dominating over scale). (ii)Detection shifts safety behavior (hard refusal drops 5.8 percentage points under hypothetical framing, and 21/140 HarmBench framing effects are significant, with compliance rising up to +30 percentage points. (iii)Representations survive behavioral collapse (probes retain AUROC 0.98 under rewrites that drive behavior below chance, and multi-layer steering causally moves three downstream tasks while random controls do not). (iv)These axes are weakly coupled (only 1/15 correlations are significant, the sole robust link being behavioral detection versus framing resistance, $ρ=-0.79$, $p&lt;0.001$). We call this gap the benchmark illusion: because detectability, behavioral manifestation, and controllability vary independently, it is multivariate rather than a single number, so no single awareness score is a reliable proxy for deployment safety.\n\nAuthors: Nilesh Nayan, Aishwarya Sampath Kumar, Rishiraj Girmal, Shivani Anilkumar, Sankaran Vaidyanathan, David A. Nader Palacio, Reshmi Ghosh, Soundararajan Srinivasan\nCategories: cs.CL, cs.CL",
+  "word_count": 201,
+  "published_at": "2026-06-22T16:48:43Z",
+  "ingested_at": "2026-06-23T11:04:00.157Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

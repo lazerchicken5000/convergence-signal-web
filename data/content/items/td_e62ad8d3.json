@@ -1,0 +1,38 @@
+{
+  "id": "td_e62ad8d3",
+  "source": "arxiv",
+  "source_id": "2606.23566",
+  "source_url": "https://arxiv.org/abs/2606.23566",
+  "content_type": "paper",
+  "creator": {
+    "id": "clara_meister",
+    "name": "Clara Meister",
+    "handle": "Clara Meister, Suchir Salhan, Andrzej Szablewski, Pietro Lesci, Paula Buttery, Tiago Pimentel",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LangMAP: A Language-Adaptive Approach to Tokenization",
+  "body_text": "LangMAP: A Language-Adaptive Approach to Tokenization\n\nLanguage-specific tokenizers improve tokenization quality and the downstream performance of models on those languages. However, using such a tokenizer comes at a cost: either a new model must be trained from scratch, or the vocabulary of an existing pretrained model must be adapted. We propose Language-adaptive Maximum a Posteriori (LangMAP) Tokenization, a tokenization scheme that extends the UnigramLM algorithm to the multilingual setting, producing language-specific tokenization from a single shared vocabulary. Notably, LangMAP can be used when training a multilingual language model from scratch or to adapt a pretrained model's tokenizer to individual languages without changing its vocabulary. While language labels are required at training time, a key feature of the algorithm is that it then performs language-specific tokenization at inference without knowledge of the input's language. Across 14 open-source tokenizers, 9 natural languages, and 9 programming languages, LangMAP improves morphological boundary alignment and, for all coding languages tested, alignment with abstract syntax tree (AST) leaf boundaries. In fine-tuning experiments, results are mixed: LangMAP improves target-language grammatical acceptability (MultiBLiMP) on the languages tested; its benefits are less consistent on knowledge-related tasks (Global-PIQA, Belebele).\n\nAuthors: Clara Meister, Suchir Salhan, Andrzej Szablewski, Pietro Lesci, Paula Buttery, Tiago Pimentel\nCategories: cs.CL, cs.CL",
+  "word_count": 183,
+  "published_at": "2026-06-22T16:32:00Z",
+  "ingested_at": "2026-06-23T11:04:00.157Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

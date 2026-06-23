@@ -1,0 +1,38 @@
+{
+  "id": "td_05a59765",
+  "source": "arxiv",
+  "source_id": "2606.23642",
+  "source_url": "https://arxiv.org/abs/2606.23642",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhenglin_yu",
+    "name": "Zhenglin Yu",
+    "handle": "Zhenglin Yu, Xueguang Ma, Shengyao Zhuang, Zhichao Xu, Luyu Gao, Crystina Zhang, Jimmy Lin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Improving Long-Context Retrieval with Multi-Prefix Embedding",
+  "body_text": "Improving Long-Context Retrieval with Multi-Prefix Embedding\n\nLong-context retrieval exposes a tension: single-vector embeddings lose fine-grained detail, while token-level multi-vector methods incur prohibitive storage. We propose Multi-Prefix Embedding (MPE), which partitions a document into chunks separated by EOS tokens, encodes the full sequence in a single causal forward pass, and extracts one embedding at each prefix boundary. MPE retains cross-chunk context, enables chunk-level MaxSim matching, and trains with only document-level relevance labels. Experiments on MLDR-en, BrowseComp-Plus, and LongEmbed show that MPE is competitive with or outperforms single-vector, independent-chunk, and multi-vector baselines, while providing a natural source attribution mechanism for locating evidence chunks.\n\nAuthors: Zhenglin Yu, Xueguang Ma, Shengyao Zhuang, Zhichao Xu, Luyu Gao, Crystina Zhang, Jimmy Lin\nCategories: cs.IR, cs.IR",
+  "word_count": 95,
+  "published_at": "2026-06-22T17:31:02Z",
+  "ingested_at": "2026-06-23T11:04:23.808Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

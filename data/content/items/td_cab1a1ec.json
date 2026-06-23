@@ -1,0 +1,35 @@
+{
+  "id": "td_cab1a1ec",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/machine-learning-mass-spec-data-hmmm",
+  "source_url": "https://www.science.org/content/blog-post/machine-learning-mass-spec-data-hmmm",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Machine-Learning Mass Spec Data: Hmmm",
+  "body_text": "For someone with a reputation as an AI skeptic, I actually have a lot of time for machine learning approaches, at least when pursued with due humility and attention to detail. Science is a vast sea of data, full of currents, seamounts, hidden reefs, archipelagos, and shorelines, and we need all the help we can get in navigating it. And successes in protein structure prediction are evidence enough that if you have a large enough data set, well-curated and covering a wide range of examples, that you can arrive at very useful results. At the same time, useful results are not of course guaranteed, not by machines and not by human beings. That’s illustrated by the situation in small-molecule mass spectrometry. Here you have all the data you’d think that you could ever want: thousands, tens of thousands, hundreds of thousands of mass spectra taken under all sorts of conditions, with the molecules involved fragmenting all over the place into distinctive patterns of smaller ions. It seems a natural place for machine learning systems to sort things out - the goal would be to take an unknown compound’s mass spec and feed it into such a trained-up ML system for it to suggest likely structures. But that’s not working out as well as you’d hope, as detailed in this article. As the authors detail, the approach has been to transform the problem into something analogous to machine translation, and that’s because gigantic amounts of time, effort, and money have gone into that field and have generated some very powerful tools. I wrote about this sort of thing here a few years ago, and that post will introduce you to the concept of “embedding” and the reworking of words and sentences into vector forms. Briefly, you can take a natural language word like “pizza” and turn it into a mass of vectors along as many axes as you can computationally stand, which gives each word a unique numerical signature made up of the magnitudes along these different vectors. “Pizza” for example would have high values along the “food”, “flat”, “Italian”, “cooked at high heat”, and “can involve tomato sauce” vectors, and very low values for “has four legs”, “furry”, “tail” and “has claws” vectors. Whereas the word “cat” would have the opposite! For this mass spec situation, you’d take a big pile of mass spec data and the associated small-molecule structures and try to work out some reasonable vectors that give you a high ability to to distinguish the various spectra from each other, and you train up an ML model to take these embeddings and link them to numerical molecular fingerprints for structure. Then you could take an a mass spectrum of an unknown compound (or at least unknown to you!) and run the same imbedding trick on it. Feeding that into your ML neural network model lets it predict a molecular fingerprint in the same way, and it will output some structures along (one hopes) with some scores of how closely these predictions match with what the system knows about for sure. This is a pretty plausible workflow, so it’s a pity that it doesn’t work very well! As the paper notes, there are a number of places where the machine-language-translation workflow departs from the mass-spec-to-molecular-structure one. For starters, the ambiguity of any given mass spec peak is quite a bit higher than the ambiguities that attach to words (which is high enough already!) A given small-mass peak can show up in structures that are all over the place. And there’s a lot more noise in mass spec data than in language, too, with all sorts of extraneous peaks present (particularly in real-world samples which are not as clean as the ones that you probably trained the system up on). There have been many attempts to improve the situation, many of which have focused on making the mass spec data more amenable to the (admittedly very powerful) tools used in machine-language work. But none of these (so far) have shown little improvement over pre-ML methods of dealing with mass spec data, even when you make things easier by starting with high overlaps between the training set data and the experimental tests. The authors identify several failure points: to pick two big ones, the algorithms aren’t distinguishing between different mass spec conditions, and they seem to be ignoring peak intensity differences. Getting past all this might force the people in this field to swallow a rather bitter pill: the differences between mass spec problems and natural-language processing might be so large that trying to take advantage of the latter’s tremendous capabilities might not be worth the effort. That will be unpleasant, because it will mean in many ways the work needs to start over, but that still might be better than continuing to try to jam a mass-spec-shaped problem into a series of language-shaped holes. Not everything fits in there!",
+  "word_count": 820,
+  "published_at": "2026-06-22T01:55:09.000Z",
+  "ingested_at": "2026-06-23T11:02:17.556Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
