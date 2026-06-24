@@ -1,0 +1,39 @@
+{
+  "id": "td_b1829fb1",
+  "source": "arxiv",
+  "source_id": "2606.24715",
+  "source_url": "https://arxiv.org/abs/2606.24715",
+  "content_type": "paper",
+  "creator": {
+    "id": "giorgio_corani",
+    "name": "Giorgio Corani",
+    "handle": "Giorgio Corani, Stefano Damato, Dario Azzimonti, Lorenzo Zambon",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Model selection with proper scoring rules on data sets of time series",
+  "body_text": "Model selection with proper scoring rules on data sets of time series\n\nWe consider the problem of model selection between probabilistic models on data sets of time series. Chosen a proper scoring rule, we denote by the term \\textit{score} the average value of the scoring rule on the test of an individual time series. For model selection, we need aggregating the values of the scores across multiple time series. Three summary statistics are commonly used for model selection: mean score, median score, and mean rank. Results in previous papers show that these statistics can yield conflicting decisions; we show how the conflicting conclusions are due to the skewness of the distribution of scores. We also show that as the test set of each time series of the data set increases, the different model selection criteria progressively converge to the same conclusion. However, for short tests sets, only the mean score identifies the true model as the best. We illustrate these phenomena with an analysis on intermittent time series, including the data set of the M5 competition, where we underline the importance of having a large test set. In such experiments, we further notice that model selection based on mean ranks remains unchanged using different scaling factors.\n\nAuthors: Giorgio Corani, Stefano Damato, Dario Azzimonti, Lorenzo Zambon\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 194,
+  "published_at": "2026-06-23T15:36:28Z",
+  "ingested_at": "2026-06-24T11:04:36.874Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

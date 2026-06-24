@@ -1,0 +1,38 @@
+{
+  "id": "td_dfcea9e4",
+  "source": "arxiv",
+  "source_id": "2606.24842",
+  "source_url": "https://arxiv.org/abs/2606.24842",
+  "content_type": "paper",
+  "creator": {
+    "id": "yikai_lu",
+    "name": "Yikai Lu",
+    "handle": "Yikai Lu, Yifei Wu, Xinyu Lu, Tongxin Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "World Models in Pieces: Structural Certification for General Agents",
+  "body_text": "World Models in Pieces: Structural Certification for General Agents\n\nIn the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework that maps bounded goal-conditioned performance to entry-wise guarantees on the agent's internal world model. Our main contribution is constructive. We provide algorithms that filter specific transitions using deep compositional goals and prove that a general agent on these goals has a structural world model with a $\\mathcal{O}(1/n) + \\mathcal{O}(δ)$ error bound. Conversely, this bound is tight in the small-$δ$ regime, whose existence is explicitly guaranteed by our certification. These results enable the certifiable deployment of general agents by localizing the specific transitions where long-horizon planning is reliable.\n\nAuthors: Yikai Lu, Yifei Wu, Xinyu Lu, Tongxin Li\nCategories: cs.AI, cs.AI",
+  "word_count": 152,
+  "published_at": "2026-06-23T17:21:09Z",
+  "ingested_at": "2026-06-24T11:04:25.790Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

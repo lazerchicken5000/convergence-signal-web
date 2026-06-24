@@ -1,0 +1,35 @@
+{
+  "id": "td_9e378267",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "datasette 1.0a35",
+  "body_text": "Release: datasette 1.0a35\n        I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes:\n\n\nNew \"Create table\" interface in the database actions menu, backed by the /&lt;database&gt;/-/create JSON API. It can define columns, primary keys, custom column types, NOT NULL constraints, literal defaults, expression defaults and single-column foreign keys. (#2787)\nNew \"Alter table\" table action and /&lt;database&gt;/&lt;table&gt;/-/alter JSON API for changing existing tables: add, rename, reorder and drop columns; change column types, defaults, NOT NULLconstraints, primary keys and foreign keys; and rename the table. The alter table dialog also includes a \"Drop table\" button. (#2788)\nNew Template context documentation listing the variables available to custom templates for Datasette's core pages. Variables documented there are treated as a stable API for custom templates until Datasette 2.0. The documentation is generated from dataclass definitions next to the view code, with tests that compare the documented fields against the actual contexts rendered by the database, table, query and row pages. (#1510, #2127, #1477, #2803)\n\n\nHere's a rough video demo I made of the new create/alter table feature as part of reviewing the PR:\n\n  \n\n\n    \n    \n        Tags: datasette",
+  "word_count": 189,
+  "published_at": "2026-06-23T21:34:37.000Z",
+  "ingested_at": "2026-06-24T11:00:09.497Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

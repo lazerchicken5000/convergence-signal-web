@@ -1,0 +1,37 @@
+{
+  "id": "td_b331235a",
+  "source": "semantic_scholar",
+  "source_id": "a5990c95ef05725772865b1af82442314b64fdf5",
+  "source_url": "https://www.semanticscholar.org/paper/a5990c95ef05725772865b1af82442314b64fdf5",
+  "content_type": "paper",
+  "creator": {
+    "id": "xinyu_zhang",
+    "name": "Xinyu Zhang",
+    "handle": "Xinyu Zhang, Huiyu Xu, Zhongjie Ba, Zhibo Wang, Yuan Hong, Jian Liu, Z. Qin, Kui Ren",
+    "platform": "semantic_scholar",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PrivacyAsst: Safeguarding User Privacy in Tool-Using Large Language Model Agents",
+  "body_text": "PrivacyAsst: Safeguarding User Privacy in Tool-Using Large Language Model Agents\nSwift advancements in large language model (LLM) technologies lead to widespread research and applications, particularly in integrating LLMs with auxiliary tools, known as tool-using LLM agents. However, amid user interactions, the transmission of private information to both LLMs and tools poses considerable privacy risks to users. In this paper, we delve into current privacy-preserving solutions for LLMs and outline three pivotal challenges for tool-using LLM agents: generalization to both open-source and closed-source LLMs and tools, compliance with privacy requirements, and applicability to unrestricted tasks. To tackle these challenges, we present PrivacyAsst, the first privacy-preserving framework tailored for tool-using LLM agents, encompassing two solutions for different application scenarios. First, we incorporate a homomorphic encryption scheme to ensure computational security guarantees for users as a safeguard against both open-source and closed-source LLMs and tools. Moreover, we propose a shuffling-based solution to broaden the framework's applicability to unrestricted tasks. This solution employs an attribute-based forgery generative model and an attribute shuffling mechanism to craft privacy-preserving requests, effectively concealing individual inputs. In addition, we introduce an innovative privacy concept, <inline-formula><tex-math notation=\"LaTeX\">$t$</tex-math><alternatives><mml:math><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href=\"ba-ieq1-3372777.gif\"/></alternatives></inline-formula>-closeness in image data, for privacy compliance within this solution. Finally, we implement PrivacyAsst, accompanied by two case studies, demonstrating its effectiveness in advancing privacy-preserving artificial intelligence.\nAuthors: Xinyu Zhang, Huiyu Xu, Zhongjie Ba, Zhibo Wang, Yuan Hong, Jian Liu, Z. Qin, Kui Ren\nVenue: IEEE Transactions on Dependable and Secure Computing\nFields: Computer Science",
+  "word_count": 242,
+  "published_at": "2024-11-01",
+  "ingested_at": "2026-06-23T13:05:41.231Z",
+  "engagement": {
+    "views": 58,
+    "likes": 4,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "Computer Science"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

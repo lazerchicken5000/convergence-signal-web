@@ -1,0 +1,38 @@
+{
+  "id": "td_70cb1e08",
+  "source": "arxiv",
+  "source_id": "2606.24883",
+  "source_url": "https://arxiv.org/abs/2606.24883",
+  "content_type": "paper",
+  "creator": {
+    "id": "qi_chen",
+    "name": "Qi Chen",
+    "handle": "Qi Chen, Wenxuan Li, Pedro R. A. S. Bassi, Xinze Zhou, Jakob Wasserthal, Ibrahim Ethem Hamamci, Sezgin Er, Ashwin Kumar, Yiwen Ye, Yuhan Wang, Yuyin Zhou, Akshay S. Chaudhari, Curtis Langlotz, Kang Wang, Yang Yang, Alan L. Yuille, Zongwei Zhou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases",
+  "body_text": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases\n\nArtificial intelligence (AI) has achieved remarkable success in medical imaging, but it is widely recognized that these models often perform inconsistently across real-world clinical settings. Such inconsistencies occur when patient demographics and imaging protocols vary, for example, in detecting small tumors, analyzing scans from different contrast phases, or evaluating patients of different ages or sexes. To quantify these inconsistencies, we develop a large-scale, open benchmark of 85,355 CT scans that systematically evaluates 12 tumor-detection AI models across tumor size, location, patient subgroup, and imaging protocol. We leverage large language models (LLMs) to extract and organize subgroup information from clinical data, which makes the analysis both scalable and reproducible. Our benchmark reveals that current state-of-the-art AI models, optimized for average accuracy, perform poorly in rare or underrepresented subgroups, such as young, female African Americans. However, collecting sufficient annotated data for these rare cases is often impractical. The benchmark provides a foundation for building more reliable and robust AI models for tumor detection and highlighting the need for rigorous, subgroup-level evaluation in medical imaging and computer vision. Datasets, code\n\nAuthors: Qi Chen, Wenxuan Li, Pedro R. A. S. Bassi, Xinze Zhou, Jakob Wasserthal, Ibrahim Ethem Hamamci, Sezgin Er, Ashwin Kumar, Yiwen Ye, Yuhan Wang, Yuyin Zhou, Akshay S. Chaudhari, Curtis Langlotz, Kang Wang, Yang Yang, Alan L. Yuille, Zongwei Zhou\nCategories: cs.CV, cs.CV",
+  "word_count": 177,
+  "published_at": "2026-06-23T17:58:59Z",
+  "ingested_at": "2026-06-24T11:04:42.659Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

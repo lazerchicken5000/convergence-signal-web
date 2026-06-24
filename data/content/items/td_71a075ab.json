@@ -1,0 +1,38 @@
+{
+  "id": "td_71a075ab",
+  "source": "arxiv",
+  "source_id": "2606.24758",
+  "source_url": "https://arxiv.org/abs/2606.24758",
+  "content_type": "paper",
+  "creator": {
+    "id": "faris_alasmary",
+    "name": "Faris Alasmary",
+    "handle": "Faris Alasmary, Taif Nono, Orjuwan Zaafarani, Kholood Al Tabash, Ahmad Ghannam, Anas Salamah, Shouq Sadah, Lahouari Ghouti",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CANDLE: Character-level Arabic Noise Deduplication using Lightweight Encoder",
+  "body_text": "CANDLE: Character-level Arabic Noise Deduplication using Lightweight Encoder\n\nHandling repeated characters in text can be tricky, since they can represent either the correct spelling of a word or informal character elongation often seen in social media posts. We present CANDLE, a lightweight system for character-level Arabic noise deduplication that addresses this challenge without relying on handcrafted rules, dictionaries, or morphological analyzers. At the heart of CANDLE is a novel application of Connectionist Temporal Classification (CTC) to this task, a formulation not previously explored for character deduplication, which frames normalization as a sequence alignment problem over a character-based encoder. Evaluated on three benchmarks spanning clean newspaper, manually curated ambiguous cases, and real-world social media text, the CTC model achieves a Sentence Error Rate (SER) as low as $5.37\\%$ and consistently outperforms a classification-based baseline by a large margin. To reduce inference overhead, we distill the 6-layer CTC model into a 2-layer student, achieving a $3\\times$ depth reduction with minimal performance degradation. Beyond deduplication accuracy, normalization yields a practical downstream benefit: a relative reduction in tokenizer fertility of up to $12.8\\%$ across a diverse set of Arabic LLM tokenizers, directly lowering inference costs and improving context window utilization. We release all code and models publicly to support reproducibility and advance future research\\footnote{https://github.com/abjadai/candle}.\n\nAuthors: Faris Alasmary, Taif Nono, Orjuwan Zaafarani, Kholood Al Tabash, Ahmad Ghannam, Anas Salamah, Shouq Sadah, Lahouari Ghouti\nCategories: cs.CL, cs.CL",
+  "word_count": 202,
+  "published_at": "2026-06-23T16:17:24Z",
+  "ingested_at": "2026-06-24T11:04:31.324Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

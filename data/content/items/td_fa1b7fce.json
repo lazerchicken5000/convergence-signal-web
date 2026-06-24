@@ -1,0 +1,38 @@
+{
+  "id": "td_fa1b7fce",
+  "source": "arxiv",
+  "source_id": "2606.24828",
+  "source_url": "https://arxiv.org/abs/2606.24828",
+  "content_type": "paper",
+  "creator": {
+    "id": "maria_nefeli_paraskevopoulou",
+    "name": "Maria Nefeli Paraskevopoulou",
+    "handle": "Maria Nefeli Paraskevopoulou, Tatiana Passali, Grigorios Tsoumakas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization",
+  "body_text": "Less is More: Quality-Aware Training Data Selection for Scientific Summarization\n\nScientific long-document summarization datasets commonly treat author-written abstracts as gold reference summaries, although their quality and alignment with the source article vary. At the same time, publicly available scientific summarization datasets remain limited in scale and structure for modern long-context models. In this work, we address both challenges by a) constructing and releasing one of the largest biomedical and life science datasets for long-document summarization, containing 1.88 million PMC articles, and b) analyzing the reference quality of author-written abstracts with source-grounded and model-based metrics. We show that author-written abstracts vary in their alignment with the full article and that these quality signals can guide training-data selection. Training on selected high-quality subsets outperforms random sampling at matched training sizes and can match or exceed larger random subsets on factuality-oriented metrics. Our findings suggest that reference quality is an important factor in scientific summarization and that quality-aware data selection can improve training efficiency.\n\nAuthors: Maria Nefeli Paraskevopoulou, Tatiana Passali, Grigorios Tsoumakas\nCategories: cs.CL, cs.CL",
+  "word_count": 151,
+  "published_at": "2026-06-23T17:12:06Z",
+  "ingested_at": "2026-06-24T11:04:31.323Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

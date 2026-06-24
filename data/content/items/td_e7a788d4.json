@@ -1,0 +1,40 @@
+{
+  "id": "td_e7a788d4",
+  "source": "arxiv",
+  "source_id": "2606.24714",
+  "source_url": "https://arxiv.org/abs/2606.24714",
+  "content_type": "paper",
+  "creator": {
+    "id": "shijun_luo",
+    "name": "Shijun Luo",
+    "handle": "Shijun Luo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CN-NewsTTS Bench: a target-level automatic benchmark for raw-input Chinese news TTS pronunciation",
+  "body_text": "CN-NewsTTS Bench: a target-level automatic benchmark for raw-input Chinese news TTS pronunciation\n\nChinese news text contains dense written forms such as scores, hyphenated model names, ranges, unit symbols, percentages, English abbreviations, and mixed Chinese-Latin-digit names. These forms are frequent in real listening workflows, and a text-to-speech (TTS) system can preserve the written string while changing the spoken meaning. We introduce CN-NewsTTS Bench v0.1, an open target-level benchmark for evaluating whether Chinese news TTS products pronounce such targets correctly from raw text, without user-side rules, LLM rewriting, SSML hints, or manual edits. The release contains a 200-record development set, an 800-record public test set, 992 public auto-evaluable targets, fixed transcripts from a three-ASR ensemble, an automatic target scorer, and initial results for seven product TTS systems. We additionally report ASR-route diagnostics, ASR-subset ablations, category-level results, confidence intervals, and provider configuration metadata. The best system reaches 0.879 strict accuracy, while several systems remain below 0.60.\n\nAuthors: Shijun Luo\nCategories: cs.CL, cs.SD, eess.AS, cs.CL",
+  "word_count": 141,
+  "published_at": "2026-06-23T15:34:58Z",
+  "ingested_at": "2026-06-24T11:04:31.324Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.SD",
+    "eess.AS",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

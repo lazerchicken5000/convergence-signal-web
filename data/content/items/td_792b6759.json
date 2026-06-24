@@ -1,0 +1,41 @@
+{
+  "id": "td_792b6759",
+  "source": "arxiv",
+  "source_id": "2606.24660",
+  "source_url": "https://arxiv.org/abs/2606.24660",
+  "content_type": "paper",
+  "creator": {
+    "id": "callum_marsh",
+    "name": "Callum Marsh",
+    "handle": "Callum Marsh, Radek Erban, Andreas Munch",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Extended pseudo-spectral physics-informed neural networks for phase-field models",
+  "body_text": "Extended pseudo-spectral physics-informed neural networks for phase-field models\n\nPhase-field models play a central role in the continuum description of phase separation, in which the bulk free-energy density and the interfacial thickness parameter determine pattern formation and microstructural evolution. In practice, these constitutive quantities are rarely known a priori and must be inferred from limited dynamical observations. In this work, an extended pseudo-spectral physics-informed neural network (ESPINN) framework is developed for the inverse identification of phase-field models from transient snapshot data. It enables the simultaneous recovery of both the bulk chemical potential and unknown gradient coefficients. Numerical experiments on the one-dimensional Cahn-Hilliard equation demonstrate accurate and statistically stable reconstruction in the noiseless regime, with substantial constitutive information recoverable from even a single snapshot pair. In the presence of noise, reconstruction accuracy degrades gracefully, and increasing the number of snapshots improves robustness by reducing variance across runs. These results establish ESPINN as a data-efficient and physically consistent approach for learning free-energy structure in continuum models of phase separation.\n\nAuthors: Callum Marsh, Radek Erban, Andreas Munch\nCategories: q-bio.QM, cs.LG, math.NA, physics.bio-ph, q-bio.QM",
+  "word_count": 158,
+  "published_at": "2026-06-23T14:51:58Z",
+  "ingested_at": "2026-06-24T11:04:36.875Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "q-bio.QM",
+    "cs.LG",
+    "math.NA",
+    "physics.bio-ph",
+    "q-bio.QM"
+  ],
+  "domain": "peptide_biotech",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
