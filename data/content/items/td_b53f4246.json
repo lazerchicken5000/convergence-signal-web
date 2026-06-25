@@ -1,0 +1,39 @@
+{
+  "id": "td_b53f4246",
+  "source": "arxiv",
+  "source_id": "2606.26078",
+  "source_url": "https://arxiv.org/abs/2606.26078",
+  "content_type": "paper",
+  "creator": {
+    "id": "sen_li",
+    "name": "Sen Li",
+    "handle": "Sen Li, Haichao Cui, Chendong Shao, Yaqi Wang, Xinhua Tang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
+  "body_text": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding\n\nSupervised deep learning has been widely used for weld penetration state classification; however, its performance often degrades significantly under domain shift, such as when transferring models between welding processes with distinct physical mechanisms:for instance, from arc-dominated tungsten inert gas (TIG) welding to keyhole-based laser welding. To overcome this limitation, we propose an unsupervised domain adaptation (UDA) framework integrated with a gradual source domain expansion (GSDE) strategy. Evaluated on dedicated TIG and laser welding datasets, our approach achieves high accuracy in both same-process and cross-process transfer tasks. Specifically, it attains average accuracies of 90.65% on TIGFH and 90.72% on LSPS in same-process settings, surpassing a supervised baseline by 35.83% and 38.87%, respectively. More notably, in cross-process scenarios, it reaches 80.48% for TIG to Laser and 81.13% for Laser to TIG, improving upon the baseline by 43.39% and 43.40%. UMAP visualizations verify that the model learns domain-invariant features while maintaining discriminative class boundaries. This method considerably lowers the relabeling cost for new welding processes and enhances the versatility of intelligent monitoring across different welding systems.\n\nAuthors: Sen Li, Haichao Cui, Chendong Shao, Yaqi Wang, Xinhua Tang\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 173,
+  "published_at": "2026-06-24T17:52:57Z",
+  "ingested_at": "2026-06-25T11:03:54.393Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

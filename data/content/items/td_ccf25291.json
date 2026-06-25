@@ -1,0 +1,40 @@
+{
+  "id": "td_ccf25291",
+  "source": "arxiv",
+  "source_id": "2606.26037",
+  "source_url": "https://arxiv.org/abs/2606.26037",
+  "content_type": "paper",
+  "creator": {
+    "id": "guangzheng_hu",
+    "name": "Guangzheng Hu",
+    "handle": "Guangzheng Hu, Patricia Menéndez, Feng Liu, Mingming Gong, Guanghui Wang, Liuhua Peng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FedReLa: Imbalanced Federated Learning via Re-Labeling",
+  "body_text": "FedReLa: Imbalanced Federated Learning via Re-Labeling\n\nFederated learning has emerged as the foremost approach for decentralized model training with privacy preservation. The global class imbalance and cross-client data heterogeneity naturally coexist, and the mismatch between local and global imbalances exacerbates the performance degradation of the aggregated model. The agnosticism of global class distribution poses significant challenges for data-level methods, especially under extreme conditions with severe class absence across clients. In this paper, we propose FedReLa, a novel data-level approach that tackles the coexistence of data heterogeneity and class imbalance in federated learning. By re-labeling samples with a feature-dependent label re-allocator, FedReLa corrects biased global decision boundaries without requiring knowledge of the global class distribution. This modular, model-agnostic approach can be integrated with algorithmic methods to deliver consistent improvements without additional communication overhead. Through extensive experiments, our method significantly improves the accuracy of minority classes and the overall accuracy on stepwise-imbalanced and long-tailed datasets, outperforming the previous state of the art.\n\nAuthors: Guangzheng Hu, Patricia Menéndez, Feng Liu, Mingming Gong, Guanghui Wang, Liuhua Peng\nCategories: stat.ML, cs.CV, cs.LG, stat.ML",
+  "word_count": 154,
+  "published_at": "2026-06-24T17:13:41Z",
+  "ingested_at": "2026-06-25T11:04:05.653Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.CV",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

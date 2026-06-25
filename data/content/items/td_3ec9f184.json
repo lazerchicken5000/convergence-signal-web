@@ -1,0 +1,39 @@
+{
+  "id": "td_3ec9f184",
+  "source": "arxiv",
+  "source_id": "2606.26053",
+  "source_url": "https://arxiv.org/abs/2606.26053",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhengchi_ma",
+    "name": "Zhengchi Ma",
+    "handle": "Zhengchi Ma, Pengfei Lyu, Anru R. Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When Does Synthetic Data Augmentation Improve Score-Based Imbalanced Classification?",
+  "body_text": "When Does Synthetic Data Augmentation Improve Score-Based Imbalanced Classification?\n\nSynthetic data augmentation is widely used to mitigate class imbalance, but its theoretical effects on score-based classification remain poorly understood. This paper develops a framework for characterizing when synthetic minority augmentation can improve threshold-integrated and threshold-optimized metrics, including AUROC, AUPRC, best-threshold balanced accuracy, and best-threshold \\(\\F_1\\) score. We separate the effect of augmentation into two components: a change in effective class weighting and a discrepancy between the synthetic and true minority distributions. Under well-specified score models, the raw estimator already targets the likelihood-ratio ordering, which is population-optimal for the metrics considered. Consequently, augmentation cannot provide a fundamental population-level improvement beyond possible finite-sample variance reduction, and may introduce additional bias through synthetic distributional error. We further establish minimax lower bounds showing that the raw estimator already achieves the optimal metric-regret rate in the well-specified regime. Under misspecification, however, augmentation can play a qualitatively different role: by changing the effective class balance, it can alter the restricted-class projection and correct ranking errors induced by the raw imbalanced objective. We provide explicit improvement bounds quantifying the roles of approximation error, finite-sample estimation error, and synthetic distributional error. Simulation studies corroborate the theory, demonstrating limited gains under well-specification and nontrivial but nonmonotone improvements under misspecification.\n\nAuthors: Zhengchi Ma, Pengfei Lyu, Anru R. Zhang\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 201,
+  "published_at": "2026-06-24T17:30:36Z",
+  "ingested_at": "2026-06-25T11:04:05.652Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

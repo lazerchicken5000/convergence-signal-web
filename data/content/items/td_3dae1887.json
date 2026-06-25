@@ -1,0 +1,35 @@
+{
+  "id": "td_3dae1887",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "simonw/browser-compat-db",
+  "body_text": "simonw/browser-compat-db\nInspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite database.\nThis new GitHub repo includes a Claude Code for web (Opus 4.8) generated script for doing that using sqlite-utils.\nI wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build a GitHub Actions workflow that builds the database and then force-pushes it to a db \"orphan\" branch.\nYou can download the resulting database from here, and since it's hosted with open CORS headers you can also explore it with Datasette Lite.\n\n\n    Tags: github, mozilla, projects, github-actions, datasette-lite, ai-assisted-programming, model-context-protocol, mdn",
+  "word_count": 141,
+  "published_at": "2026-06-24T23:59:03.000Z",
+  "ingested_at": "2026-06-25T11:00:08.989Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_fc9f255a",
+  "source": "arxiv",
+  "source_id": "2606.26074",
+  "source_url": "https://arxiv.org/abs/2606.26074",
+  "content_type": "paper",
+  "creator": {
+    "id": "yue_gruszecki",
+    "name": "Yue Gruszecki",
+    "handle": "Yue Gruszecki, Elliot Anshelevich",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Strategyproof Facility Location and Committee Selection with Mixed Max and Sum Agent Types",
+  "body_text": "Strategyproof Facility Location and Committee Selection with Mixed Max and Sum Agent Types\n\nWe study strategic facility location, in which $n$ agents are located in an arbitrary metric space, and the goal is to choose $k$ facilities to minimize the total agent cost. The agents can have two types of individual cost functions: max-type where the agent wants to minimize the maximum distance from themselves to any chosen facility, or sum-type where the agent wants to minimize the average distance to the chosen facilities. The agents are self-interested, however, and both the agent location and the agent type may be private information. We provide deterministic strategyproof mechanisms for this setting, and prove bounds on their approximation ratio as compared with the solution minimizing the total agent cost. When agent types are private but their locations are known, we prove that an approximation of $\\left(3 -\\frac{2}{k}\\right)$ is always possible, and a better approximation of $\\left(\\frac{2}{1-k+\\sqrt{k^2-k+1}}-1\\right)$ is achievable when we know the {\\em fraction} of the agents with each type, but not necessarily the type of each individual agent. These bounds hold for arbitrary $k$ and arbitrary metric distances. When agent locations are private, we instead focus on the line metric, and show that a simple generalization of the median mechanism results in an approximation ratio of 3, even for large $k$ and arbitrary mixes of agent types. Our results show the importance of collecting information about agent types vs about their locations, and show that it is possible to produce good outcomes even without such information.\n\nAuthors: Yue Gruszecki, Elliot Anshelevich\nCategories: cs.GT, cs.GT",
+  "word_count": 242,
+  "published_at": "2026-06-24T17:49:52Z",
+  "ingested_at": "2026-06-25T11:04:12.002Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

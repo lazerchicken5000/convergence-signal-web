@@ -1,0 +1,38 @@
+{
+  "id": "td_63da985f",
+  "source": "arxiv",
+  "source_id": "2606.26077",
+  "source_url": "https://arxiv.org/abs/2606.26077",
+  "content_type": "paper",
+  "creator": {
+    "id": "taeho_yoon",
+    "name": "TaeHo Yoon",
+    "handle": "TaeHo Yoon, Jaewook J. Suh, Edward Duc Hien Nguyen, Bicheng Ying, Shiqian Ma",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Toward a Systematic Understanding and Interactive Search of Lyapunov-Style Proofs in Optimization",
+  "body_text": "Toward a Systematic Understanding and Interactive Search of Lyapunov-Style Proofs in Optimization\n\nLyapunov-style convergence proofs, which establish a nonincreasing sequence to provide a quantitative convergence rate for an algorithm, are popular and often considered desirable in first-order optimization. However, existing approaches to finding such Lyapunov functions rely on hand-designed templates or prior insight on the proof structure, and do not certify that the resulting Lyapunov-style analysis provides the sharpest convergence bound. In this work, we introduce a systematic framework for converting a tight, analytic convergence proof of an optimization algorithm, often found via computer assistance, into an equivalent proof based on Lyapunov functions. We implement a concrete procedure that combines a performance estimation problem (PEP) toolbox with elementary linear algebra, and show that it captures a number of prior Lyapunov analyses within a single Jupyter notebook. Based on our implementation, a user can straightforwardly test our systematic and interactive procedure on their own optimization algorithm of interest to search for a tight Lyapunov-style proof via code, without the need to comprehend the implementation details. We extend the application of our framework and discover four novel analytic Lyapunov-style proofs, where notably, one of them identifies a new exact optimal proximal algorithm for strongly monotone inclusion problems.\n\nAuthors: TaeHo Yoon, Jaewook J. Suh, Edward Duc Hien Nguyen, Bicheng Ying, Shiqian Ma\nCategories: math.OC, math.OC",
+  "word_count": 193,
+  "published_at": "2026-06-24T17:52:54Z",
+  "ingested_at": "2026-06-25T11:04:24.169Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

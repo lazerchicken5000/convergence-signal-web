@@ -1,0 +1,38 @@
+{
+  "id": "td_e31fa921",
+  "source": "arxiv",
+  "source_id": "2606.26073",
+  "source_url": "https://arxiv.org/abs/2606.26073",
+  "content_type": "paper",
+  "creator": {
+    "id": "maria_chiara_menicucci",
+    "name": "Maria Chiara Menicucci",
+    "handle": "Maria Chiara Menicucci, Mario Beraha, Stefano Favaro, Riccardo Lazzarini",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bayesian Nonparametric Privacy-Preserving Synthetic Data Generation: I. Discrete Data",
+  "body_text": "Bayesian Nonparametric Privacy-Preserving Synthetic Data Generation: I. Discrete Data\n\nSynthetic data generation is a powerful approach to privacy-preserving statistical analysis, where data-release mechanisms are governed by a privacy-utility tradeoff: they should provide privacy guarantees while preserving the statistical utility of confidential data. We develop a Bayesian nonparametric framework for private synthetic data generation tailored to discrete data. Specifically, the confidential data are modeled as a random sample from an unknown discrete distribution endowed with a Pitman-Yor process prior, and synthetic data are generated from the corresponding posterior-predictive distribution. Since the Pitman-Yor process defines an almost surely discrete random probability measure, the resulting mechanism is naturally suited to data with ties and settings involving a potentially large, unknown, or growing number of categories. We study differential privacy guarantees of the Pitman-Yor posterior-predictive mechanism across the three regimes of the discount parameter $σ\\in(-\\infty,1)$. For $σ\\in(0,1)$, we establish an instance-level $(\\varepsilon,δ)$-differential privacy guarantee. For $σ=0$ and $σ&lt;0$, corresponding respectively to the Dirichlet process prior and to a parametric Dirichlet-Multinomial model, stronger guarantees are obtained, under suitable conditions on the released sample size. We also investigate statistical utility, or informativity, of the released data via the expected $1$-Wasserstein distance between the empirical distribution of the synthetic data and the \"true\" data-generating distribution. For $σ&lt;0$ and $σ=0$, we prove consistency of the empirical distribution in this metric and derive explicit convergence rates, making precise the privacy-utility tradeoff: stronger privacy guarantees impose more restrictive choices of the released sample size, slowing down convergence to the \"true\" data-generating distribution.\n\nAuthors: Maria Chiara Menicucci, Mario Beraha, Stefano Favaro, Riccardo Lazzarini\nCategories: math.ST, math.ST",
+  "word_count": 243,
+  "published_at": "2026-06-24T17:47:21Z",
+  "ingested_at": "2026-06-25T11:04:24.169Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

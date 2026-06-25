@@ -1,0 +1,41 @@
+{
+  "id": "td_d9aa888d",
+  "source": "arxiv",
+  "source_id": "2606.26061",
+  "source_url": "https://arxiv.org/abs/2606.26061",
+  "content_type": "paper",
+  "creator": {
+    "id": "akshay_balsubramani",
+    "name": "Akshay Balsubramani",
+    "handle": "Akshay Balsubramani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Deviance-style normalization for jointly overdispersed counts",
+  "body_text": "Deviance-style normalization for jointly overdispersed counts\n\nWe introduce a Dirichlet--multinomial (DM) deviance residualization for sparse, jointly overdispersed count matrices, the regime that dominates sequencing-based biochemical assays. The DM null treats each sample's count vector as a fixed-total composition with a single scalar concentration $α_0$ governing overdispersion, and arises exactly by conditioning independent negative-binomial feature counts on the observed sample total -- making the DM the joint conditional analogue of standard feature-wise overdispersed count models. The resulting transform preserves exact sparsity, evaluates in constant time per nonzero entry, agrees with multinomial residuals on singleton counts, shrinks repeated-count residuals according to the overdispersion the null tolerates, and recovers the multinomial residual as $α_0\\to\\infty$. The same fixed-dispersion comparison principle extends to ordered and tree-structured features via the generalized DM and the Dirichlet-tree multinomial, giving a single residual family that subsumes joint and feature-wise count nulls under a common compositional logic and is computationally lightweight enough to drop into existing sparse pipelines.\n\nAuthors: Akshay Balsubramani\nCategories: stat.ME, math.ST, q-bio.QM, stat.ML, stat.ME",
+  "word_count": 152,
+  "published_at": "2026-06-24T17:36:07Z",
+  "ingested_at": "2026-06-25T11:04:17.842Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "math.ST",
+    "q-bio.QM",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
