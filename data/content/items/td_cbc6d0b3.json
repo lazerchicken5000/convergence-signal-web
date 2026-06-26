@@ -1,0 +1,38 @@
+{
+  "id": "td_cbc6d0b3",
+  "source": "arxiv",
+  "source_id": "2606.27316",
+  "source_url": "https://arxiv.org/abs/2606.27316",
+  "content_type": "paper",
+  "creator": {
+    "id": "serhii_hamotskyi",
+    "name": "Serhii Hamotskyi",
+    "handle": "Serhii Hamotskyi, Akash Kumar Gautam, Christian Hänig",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank",
+  "body_text": "LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank\n\nVerifying the eligibility of securities as collateral is a key responsibility of the German Central Bank. However, manually verifying these assets against legal and financial criteria within lengthy, semi-structured, and often bilingual prospectuses is a resource-intensive task. While previous efforts utilized traditional Named Entity Recognition (NER) for information extraction, these methods can struggle with OCR noise, linguistic variance, and rigid span-based constraints, and the need for manually annotated training data for each relevant annotation type. In this paper, we present the first case study applying Large Language Models (LLMs) to the eligibility examination process, shifting the paradigm toward a generative Information Extraction pipeline. Our approach decomposes the task into extraction, normalization, and interpretation, allowing for greater flexibility in handling noisy text and interleaved German-English content. We further introduce a value-based evaluation methodology using LLM-as-a-judge, which offers a more semantic assessment than location-based metrics. Our results demonstrate that LLM-based systems achieve high precision (up to 91%) in document-level eligibility, exhibiting a conservative operating profile that minimizes false acceptance.\n\nAuthors: Serhii Hamotskyi, Akash Kumar Gautam, Christian Hänig\nCategories: cs.CL, cs.CL",
+  "word_count": 167,
+  "published_at": "2026-06-25T17:29:58Z",
+  "ingested_at": "2026-06-26T11:04:12.364Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

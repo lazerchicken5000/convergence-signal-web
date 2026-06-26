@@ -1,0 +1,38 @@
+{
+  "id": "td_be01cef3",
+  "source": "arxiv",
+  "source_id": "2606.27306",
+  "source_url": "https://arxiv.org/abs/2606.27306",
+  "content_type": "paper",
+  "creator": {
+    "id": "arnav_mazumder",
+    "name": "Arnav Mazumder",
+    "handle": "Arnav Mazumder, Dengjia Zhang, Shuyue Stella Li, Yulia Tsvetkov, Niyati Bafna",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Multilingual Reasoning Cascades Need More Context",
+  "body_text": "Multilingual Reasoning Cascades Need More Context\n\nTranslation cascades for reasoning translate the query from another language to English, reason in English, and translate the answer back to the original language. This is a competitive approach to multilingual reasoning, but structurally lossy, since each stage discards information later stages may need, including cues for cultural grounding, register, and disambiguation. We examine the benefits of a simple and training-free intervention: a context-aware translation cascade, which additionally provides the original question, the English translated question, and the reasoning trace to the context of the final translation module. We evaluate gains across nine multilingual benchmarks including various task types, three backbone models, and 285 high-, mid-, and low-resource languages, and demonstrate strong gains for open-ended generation across models and resource regimes. We show that the original language question carries most of the beneficial context. Our study emphasizes the need to better design information flow in machine translation cascades for mitigating error propagation, and provides a simple and actionable default strategy: preserve the original user question until the end of the pipeline.\n\nAuthors: Arnav Mazumder, Dengjia Zhang, Shuyue Stella Li, Yulia Tsvetkov, Niyati Bafna\nCategories: cs.CL, cs.CL",
+  "word_count": 171,
+  "published_at": "2026-06-25T17:26:46Z",
+  "ingested_at": "2026-06-26T11:04:12.364Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

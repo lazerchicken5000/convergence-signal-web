@@ -1,0 +1,38 @@
+{
+  "id": "td_98cbf2b1",
+  "source": "arxiv",
+  "source_id": "2606.27355",
+  "source_url": "https://arxiv.org/abs/2606.27355",
+  "content_type": "paper",
+  "creator": {
+    "id": "xingyu_ren",
+    "name": "Xingyu Ren",
+    "handle": "Xingyu Ren, Chugang Yi, Ge Ma, Youran Sun",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection",
+  "body_text": "RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection\n\nWe study whether pre-deployment evaluation rollouts can be reused to supervise policy selection. Robot teams routinely smoke test candidate vision-language-action (VLA) policies, then compress those trials into a global winner. RouterVLA evaluates this idea with outcome-disjoint cross-fitting: recorded probes build a profile for each frozen expert, and a separate trial scores the selected expert without entering its profile. Across 34,752 LIBERO-Plus rollout records, a transparent probe-success rule raises held-out success from 0.4686 to 0.6149, a +14.64pp gain. Under the scalar-only profiles studied here, learned scorers are statistically indistinguishable from this rule, showing that commissioning carries the routing value while extra scalar scorer capacity does not create it. Reusing the scored trial inflates the measured gain by $1.87\\times$, so credible ledger routing needs outcome separation; model scaling improves individual policies, while commissioning-aware routing improves the system built from them.\n\nAuthors: Xingyu Ren, Chugang Yi, Ge Ma, Youran Sun\nCategories: cs.RO, cs.RO",
+  "word_count": 138,
+  "published_at": "2026-06-25T17:56:33Z",
+  "ingested_at": "2026-06-26T11:04:29.849Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

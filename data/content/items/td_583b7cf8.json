@@ -1,0 +1,38 @@
+{
+  "id": "td_583b7cf8",
+  "source": "arxiv",
+  "source_id": "2606.27372",
+  "source_url": "https://arxiv.org/abs/2606.27372",
+  "content_type": "paper",
+  "creator": {
+    "id": "ron_campos",
+    "name": "Ron Campos",
+    "handle": "Ron Campos, Subhajit Maity, Xin Li, Srijan Das, Aritra Dutta",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DnA: Denoising Attention for Visual Tasks",
+  "body_text": "DnA: Denoising Attention for Visual Tasks\n\nThe softmax activation in multihead attention (MHA) is the de facto standard for attention-based models in visual perception tasks. However, standard softmax can produce noisy attention patterns that dilute relevant features and degrade its performance. In this paper, we propose Denoising Attention or DnA, in which, first, a positive query identifies which image features belong to the correct class, and a negative query identifies closely associated but irrelevant image features. DnA then projects these interactions into two distinct subspaces with larger principal angles, promoting subspace separation and improved discriminability. Using a ViT-B backbone, our proposed DnA achieves an absolute gain of 0.8% on ImageNet-1K compared to the baseline. We further show improvements across multiple visual understanding tasks, including video understanding with video transformers (1.8%) and video LLMs (0.5%). Our extensive empirical analyses justify the design choices involving two interacting subspaces and the denoising effect of DnA.\n\nAuthors: Ron Campos, Subhajit Maity, Xin Li, Srijan Das, Aritra Dutta\nCategories: cs.CV, cs.CV",
+  "word_count": 146,
+  "published_at": "2026-06-25T17:59:48Z",
+  "ingested_at": "2026-06-26T11:04:23.807Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

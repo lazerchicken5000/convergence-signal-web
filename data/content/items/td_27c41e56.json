@@ -1,0 +1,38 @@
+{
+  "id": "td_27c41e56",
+  "source": "arxiv",
+  "source_id": "2606.27237",
+  "source_url": "https://arxiv.org/abs/2606.27237",
+  "content_type": "paper",
+  "creator": {
+    "id": "amit_elhelo",
+    "name": "Amit Elhelo",
+    "handle": "Amit Elhelo, Amir Globerson, Mor Geva",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LMs as Task-Specific Knowledge Bases: An Interpretability Analysis",
+  "body_text": "LMs as Task-Specific Knowledge Bases: An Interpretability Analysis\n\nLanguage models (LMs) capture large amounts of factual knowledge applicable to a wide range of tasks, motivating the view of their parameters as a knowledge base. An important property of knowledge bases is that different queries for the same fact return consistent results, drawing on a single source of truth. We investigate whether LMs satisfy this property through behavioral and mechanistic analyses. Our results suggest that they encode knowledge in a task-specific manner. Behaviorally, facts acquired on one task frequently fail to co-emerge on others during training. Parameter localization experiments suggest a mechanistic explanation, revealing distinct parameter subsets underlying different tasks for the same fact. Finally, we show that chain-of-thought reasoning draws part of its effectiveness from engaging task-specific parameters beyond those tied to the evaluation task. Our findings suggest that what the model knows and how it is asked are intertwined in parameter space, undermining the \"knowledge base\" analogy and carrying implications for the reliability and controllability of factual knowledge in LMs.\n\nAuthors: Amit Elhelo, Amir Globerson, Mor Geva\nCategories: cs.CL, cs.CL",
+  "word_count": 163,
+  "published_at": "2026-06-25T16:22:43Z",
+  "ingested_at": "2026-06-26T11:04:12.365Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

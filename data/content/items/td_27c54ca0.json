@@ -1,0 +1,35 @@
+{
+  "id": "td_27c54ca0",
+  "source": "rss",
+  "source_id": "https://news.ycombinator.com/item?id=48675435",
+  "source_url": "https://github.com/inkeep/open-knowledge",
+  "content_type": "article",
+  "creator": {
+    "id": "hacker_news:_best",
+    "name": "engomez",
+    "handle": "Hacker News: Best",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+  "body_text": "Hi HN, Nick here. We’re launching OpenKnowledge (https://openknowledge.ai/), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS.\nWe built this because we wanted a Notion-like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true WYSWIG UI and it didn’t integrate well with Claude/Codex outside of community plugins.\nSo we built OpenKnowledge. It takes shape as:\n1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer.\n2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience.\n3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing\n4. An embedded terminal and CLI for TUI-first users\nOSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/trees\nOn the architecture side, the interesting eng. challenges included:\n1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity.\n2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync.\nThe CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private.\nIn that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute.\nWe’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it.\nComments URL: https://news.ycombinator.com/item?id=48675435\nPoints: 285\n# Comments: 139",
+  "word_count": 307,
+  "published_at": "2026-06-25T16:04:46.000Z",
+  "ingested_at": "2026-06-26T11:00:15.261Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

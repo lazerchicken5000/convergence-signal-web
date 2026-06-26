@@ -1,0 +1,41 @@
+{
+  "id": "td_6c5f7c9a",
+  "source": "arxiv",
+  "source_id": "2606.27349",
+  "source_url": "https://arxiv.org/abs/2606.27349",
+  "content_type": "paper",
+  "creator": {
+    "id": "akshay_balsubramani",
+    "name": "Akshay Balsubramani",
+    "handle": "Akshay Balsubramani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "All you need is log",
+  "body_text": "All you need is log\n\nComparing two probability distributions is a basic building block of statistics and machine learning, and the right family is well understood: the Rényi divergences of order $α\\in[0,\\infty]$ are the unique family monotone under data processing and additive on independent products. Many problems instead compare more than two distributions at once -- multi-population fairness, multi-prior PAC-Bayes bounds, multi-hypothesis testing -- and the right multi-distribution generalization of the Rényi family has been an open question. We characterize it. Every functional of $W$-tuples of distributions that is monotone under data processing and additive on independent products is a positive integral of multi-way coincidence divergences $C_α(π_1,\\dots,π_W) := -\\log\\int π_1^{α_1}\\cdotsπ_W^{α_W}$ (with $\\sum_k α_k = 1$) over a parameter space with four strata: the simplex interior; mixed-sign exponent cones (the analogue of Rényi orders $&gt;1$); a tropical boundary at infinity carrying max-divergences; and pairwise Kullback-Leibler edges at the simplex vertices. Each stratum is necessary -- the destination of an explicit data-processing-monotone, product-additive divergence the others cannot reproduce -- and each is a clean limit of simplex-interior atoms. The same family arises from five independent routes -- the structural axioms, Kolmogorov-Nagumo means with Rényi's entropy axiomatics, classical entropy characterizations, multi-hypothesis testing error exponents, and a multi-lottery betting interpretation -- structural evidence that this is the canonical multi-distribution Rényi calculus rather than an artefact of any one axiomatic input. The two-prior case recovers the standard Rényi result; a worked $W=3$ instance, numerical verification, and a conditional extension round out the treatment.\n\nAuthors: Akshay Balsubramani\nCategories: cs.IT, math.PR, math.ST, stat.ML, cs.IT",
+  "word_count": 243,
+  "published_at": "2026-06-25T17:54:49Z",
+  "ingested_at": "2026-06-26T11:04:35.789Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IT",
+    "math.PR",
+    "math.ST",
+    "stat.ML",
+    "cs.IT"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

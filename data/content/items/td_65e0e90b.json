@@ -1,0 +1,38 @@
+{
+  "id": "td_65e0e90b",
+  "source": "arxiv",
+  "source_id": "2606.27280",
+  "source_url": "https://arxiv.org/abs/2606.27280",
+  "content_type": "paper",
+  "creator": {
+    "id": "koichi_sato",
+    "name": "Koichi Sato",
+    "handle": "Koichi Sato",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Exact and Deterministic Patch Descriptor Retrieval via Hierarchical Normalization",
+  "body_text": "Exact and Deterministic Patch Descriptor Retrieval via Hierarchical Normalization\n\nWe present a patch descriptor retrieval method that returns the exact nearest neighbour -- provably identical to exhaustive full-vector search -- while evaluating only a small fraction of the database, and does so deterministically: the same (database, query) pair always produces the same result, independent of run order, thread count, or hardware. This contrasts with approximate nearest-neighbour (ANN) approaches such as HNSW and IVF-PQ, which trade exactness for speed and may return different results across runs. The enabling mechanism is Hierarchical Normalization (HN): a normalisation scheme that splits the pre-normalisation feature vector into a K-dim major component (norm sqrt(1-alpha)) and a (128-K)-dim minor component (norm sqrt(alpha)). Since the minor inner product is bounded by alpha (Cauchy-Schwarz on the prescribed norms), the major similarity plus alpha is an admissible upper bound on the full similarity: the search scans the K-dim major component for all entries, then applies full 128-dim evaluation only to entries that cannot be pruned -- a provably exact branch-and-bound scan. We train HN-modified HardNet on the notredame split of the UBC patch dataset and evaluate on trevi and halfdome. With a cache-optimised Structure-of-Arrays layout and K=8, alpha=1/32, the search achieves 13.7x (trevi) / 12.7x (halfdome) speed-up over brute-force 128-dim search, with only 0.4% of entries requiring full evaluation. At K=16, alpha=1/8, FPR@95 rises from 0.0062 to 0.0064 on trevi at 7.2x speed-up, with 98.8% of entries bypassing full evaluation.\n\nAuthors: Koichi Sato\nCategories: cs.CV, cs.CV",
+  "word_count": 231,
+  "published_at": "2026-06-25T16:56:25Z",
+  "ingested_at": "2026-06-26T11:04:35.789Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
