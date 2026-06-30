@@ -1,0 +1,40 @@
+{
+  "id": "td_e3d6045f",
+  "source": "arxiv",
+  "source_id": "2606.30574",
+  "source_url": "https://arxiv.org/abs/2606.30574",
+  "content_type": "paper",
+  "creator": {
+    "id": "sivaraman_balakrishnan",
+    "name": "Sivaraman Balakrishnan",
+    "handle": "Sivaraman Balakrishnan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Fundamental Limits of Valid Transport Map Estimation",
+  "body_text": "The Fundamental Limits of Valid Transport Map Estimation\n\nMany modern generative modeling methods, including diffusion models, normalizing flows, and flow matching, estimate transport maps or plans between distributions without explicitly targeting an optimal transport (OT) map. In applications like generative modeling, the transport cost itself is irrelevant, and this makes it natural to target maps which are more tractable from either a statistical or computational standpoint. In this short note, we formalize the task of estimating any valid transport map in a rigorous minimax framework. One consequence of this framing is that it yields sample complexity lower bounds for any method whose learned object is evaluated as a transport map or plan, including flow matching and diffusion-based generative models, in settings where direct analysis would be challenging due to the analytic complexity of the methods and their target maps. We observe that, under standard, though strong, stability assumptions from the OT literature, estimating any valid transport map is statistically as hard as estimating the OT map. We complement these results with some examples showing that when these stability assumptions fail, alternative transport maps can be learned substantially more accurately than the OT map. Our minimax framing provides a rigorous foundation for understanding the statistical limits of modern transport-based generative methods and clarifies when targeting sub-optimal maps can provide real statistical advantages.\n\nAuthors: Sivaraman Balakrishnan\nCategories: cs.LG, math.ST, stat.ML, cs.LG",
+  "word_count": 213,
+  "published_at": "2026-06-29T17:17:55Z",
+  "ingested_at": "2026-06-30T11:04:21.105Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.ST",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_0c730e7a",
+  "source": "arxiv",
+  "source_id": "2606.30518",
+  "source_url": "https://arxiv.org/abs/2606.30518",
+  "content_type": "paper",
+  "creator": {
+    "id": "bo_wang",
+    "name": "Bo Wang",
+    "handle": "Bo Wang, Heyan Huang, Yaolin Li, Yanghao Zhou, Jiahao Teng, Ziyi Yang, Ge Shi, Chong Feng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Regime-Aware Peer Specialization for Robust RAG under Heterogeneous Knowledge Conflicts",
+  "body_text": "Regime-Aware Peer Specialization for Robust RAG under Heterogeneous Knowledge Conflicts\n\nRetrieval-augmented generation (RAG) improves language models by grounding generation in external context. However, it can be fragile when the retrieved context conflicts with the model's parametric knowledge. Such conflicts span a reliability spectrum, ranging from reliable and partially reliable evidence to adversarial context. Existing remedies often handle such heterogeneous conflicts with regime-agnostic supervision, which can conflate incompatible learning signals across reliability regimes. To disentangle these signals, we propose RAPS-DA, a regime-aware peer specialization framework that addresses conflict at two complementary granularities. At the sample level, conflicts are divided into three regimes, including Grounding, Arbitration, and Resistance, with one same-scale peer specialist trained per regime from a shared base model. Each sample is then hard-routed to its regime-matched peer for on-policy reverse-KL supervision. At the token level, a dual-layer selector uses inter-teacher disagreement, student-teacher divergence, and student entropy to filter uninformative or unstable tokens, upweight confidently misaligned ones, and gradually focus supervision on high-conflict tokens as the student matures. Gains stem from specialization at a fixed model scale, not from a stronger teacher, and the peer specialists exist only during training, so the deployed student requires no regime labels or peer access. Experiments on five conflict scenarios and two out-of-distribution benchmarks show RAPS-DA surpasses all prompting, decoding, fine-tuning, RL, and single-teacher baselines.\n\nAuthors: Bo Wang, Heyan Huang, Yaolin Li, Yanghao Zhou, Jiahao Teng, Ziyi Yang, Ge Shi, Chong Feng\nCategories: cs.CL, cs.CL",
+  "word_count": 211,
+  "published_at": "2026-06-29T16:25:13Z",
+  "ingested_at": "2026-06-30T11:04:15.424Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

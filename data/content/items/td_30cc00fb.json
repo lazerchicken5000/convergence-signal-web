@@ -1,0 +1,38 @@
+{
+  "id": "td_30cc00fb",
+  "source": "arxiv",
+  "source_id": "2606.30638",
+  "source_url": "https://arxiv.org/abs/2606.30638",
+  "content_type": "paper",
+  "creator": {
+    "id": "jameel_hassan",
+    "name": "Jameel Hassan",
+    "handle": "Jameel Hassan, Yasiru Ranasinghe, Vishal Patel",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Open-Vocabulary and Referring Segmentation for 3D Gaussians Using 2D Detectors",
+  "body_text": "Open-Vocabulary and Referring Segmentation for 3D Gaussians Using 2D Detectors\n\n3D Gaussian Splatting (3DGS) has emerged at the forefront of 3D scene reconstruction. Extending 3DGS with language-driven, open-vocabulary understanding has gained significant attention for real-world applications such as embodied AI. Recent methods achieve this by learning an instance feature attribute and assigning semantics by distilling high-dimensional Contrastive Language-Image Pretraining (CLIP) features directly into the scene representation. However, the instance grouping mechanisms of these methods either require a predefined number of instances or suffer from noise in their bottom-up grouping strategies. Furthermore, the reliance on CLIP restricts semantic understanding to simple noun phrases, preventing complex spatial reasoning and referential expression grounding. We present GaussDet, a method that circumvents the need for dense CLIP features by leveraging discrete, open-vocabulary 2D object detectors with referring expression capabilities. We learn instance features for individual Gaussians to decompose the scene into 3D instance groups. By rendering these groups and aggregating semantic votes from multi-view 2D detections, we generate a robust View-Aggregated Semantic Label Distribution (VASD) for each 3D instance. This view-aggregation strategy acts as a strong regularizer, attenuating spurious labels caused by low-quality instance grouping. Our approach enables a straightforward, zero-shot extension from simple language queries to complex referential grounding. Extensive evaluations across two key tasks -- open-vocabulary segmentation (LeRF-OVS, ScanNet) and referring expression grounding (Ref-LeRF) -- demonstrate that GaussDet achieves consistent improvements over existing methods. Most notably, we achieve a substantial 16.7% mIoU improvement in referential grounding within a strict zero-shot setting.\n\nAuthors: Jameel Hassan, Yasiru Ranasinghe, Vishal Patel\nCategories: cs.CV, cs.CV",
+  "word_count": 238,
+  "published_at": "2026-06-29T17:58:41Z",
+  "ingested_at": "2026-06-30T11:04:33.107Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_acf56858",
+  "source": "arxiv",
+  "source_id": "2606.30615",
+  "source_url": "https://arxiv.org/abs/2606.30615",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenbo_jing",
+    "name": "Wenbo Jing",
+    "handle": "Wenbo Jing, Xi Chen, Yaqi Duan, Kaizheng Wang, Yichen Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Tuning-Free Efficient Estimation for Multi-Source Data via Covariance-Aware Shrinkage",
+  "body_text": "Tuning-Free Efficient Estimation for Multi-Source Data via Covariance-Aware Shrinkage\n\nModern statistical learning problems often involve multiple related data sets, where learning efficiency on a target set can be improved by utilizing related source sets, while heterogeneity among the source sets may introduce bias. Existing approaches are limited by suboptimal performance in multi-source settings, insufficient use of covariance information, or the computational burden of tuning procedures. We propose a tuning-free and covariance-aware shrinkage framework that constructs shrinkage directions using covariance information to improve efficiency. We establish finite-sample risk bounds that yield an explicit risk-improving interval for the shrinkage size, making the procedure fully data-driven and tuning-free. When multiple source sets are available, we further propose a novel sequential algorithm that shrinks the estimator toward the sources one at a time according to their estimated risk reduction. The proposed algorithm asymptotically attains the oracle risk under mild conditions and is guaranteed to improve over the single-step shrinkage method in the literature. The framework is further extended to general smooth \\(M\\)-estimation problems via a local quadratic approximation. Numerical studies show substantial gains over competing methods, especially when the source data sets are highly heterogeneous.\n\nAuthors: Wenbo Jing, Xi Chen, Yaqi Duan, Kaizheng Wang, Yichen Zhang\nCategories: stat.ME, stat.ME",
+  "word_count": 182,
+  "published_at": "2026-06-29T17:49:33Z",
+  "ingested_at": "2026-06-30T11:04:33.109Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

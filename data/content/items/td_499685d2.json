@@ -1,0 +1,40 @@
+{
+  "id": "td_499685d2",
+  "source": "arxiv",
+  "source_id": "2606.30623",
+  "source_url": "https://arxiv.org/abs/2606.30623",
+  "content_type": "paper",
+  "creator": {
+    "id": "ismail_cosandal",
+    "name": "Ismail Cosandal",
+    "handle": "Ismail Cosandal, Sennur Ulukus, Nail Akar",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When and Which Sensor to Observe? Timely Tracking of a Joint Markov Source",
+  "body_text": "When and Which Sensor to Observe? Timely Tracking of a Joint Markov Source\n\nWe investigate the problem of remote estimation (at a monitor) of a discrete-time joint Markov process with individual components which can be observed with dedicated sensors. At a given time slot, the monitor has the option of staying idle or sending a pull request to one of the sensors to obtain a partial state value, while the sensors are assumed to have heterogeneous sampling costs. Our goal is to develop a monitor pull policy, i.e., determining when and towards which sensor to send a pull request, in order to minimize a weighted sum of average age of incorrect information (AoII), or in short age, and sampling costs. As the communication model, we assume an erasure channel with a fixed one-slot delay from each sensor to the monitor. In this setting, the monitor does not perfectly know either the state of the process or the age, at any given time. We first obtain a sufficient statistic, namely belief, representing the joint distribution of the age and the current state of the observed process, by using the history of all pull requests and observations. Then, we formulate the optimization problem as a continuous state-space Markov decision process (MDP), namely belief-MDP, for the solution of which we propose two model predictive control (MPC) methods, namely MPC without terminal costs (MPC-WTC), and reinforcement learning MPC (RL-MPC). The effectiveness of the proposed methods is validated by numerical examples.\n\nAuthors: Ismail Cosandal, Sennur Ulukus, Nail Akar\nCategories: cs.IT, cs.NI, eess.SP, cs.IT",
+  "word_count": 233,
+  "published_at": "2026-06-29T17:53:25Z",
+  "ingested_at": "2026-06-30T11:04:33.108Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IT",
+    "cs.NI",
+    "eess.SP",
+    "cs.IT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

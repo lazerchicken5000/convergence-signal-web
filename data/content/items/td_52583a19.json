@@ -1,0 +1,38 @@
+{
+  "id": "td_52583a19",
+  "source": "arxiv",
+  "source_id": "2606.30601",
+  "source_url": "https://arxiv.org/abs/2606.30601",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuki_koizumi",
+    "name": "Yuki Koizumi",
+    "handle": "Yuki Koizumi, Kaito Wada, Toshinori P. Takama, Nobuyuki Yoshioka",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Provably Efficient Learning of Fermionic Correlations under Particle-Number Symmetry",
+  "body_text": "Provably Efficient Learning of Fermionic Correlations under Particle-Number Symmetry\n\nPredicting local fermionic correlations is a central task in quantum many-body physics, as these correlations encode many physically relevant local observables. The ubiquitous particle-number symmetry imposes strong structural constraints on quantum states, suggesting that local correlations should be learned with fewer samples than by symmetry-agnostic approaches. However, it has remained unclear whether such a provable advantage exists in collective learning of local correlations. Here, we develop a framework of number-conserving fermionic-shadow tomography based on random orbital rotations. We prove that, for every given order $k$, we can simultaneously estimate {\\it all} $k$-body fermionic correlations of an $N$-mode $η$-particle state with a given variance $\\varepsilon^2$ using only $O_k(η^k/\\varepsilon^2)$ samples, which are independent of the system size $N$. We further establish a matching information-theoretic lower bound $Ω_k(η^k/\\varepsilon^2)$ for any adaptive protocol based on single-copy measurements, showing that the $(η^k,\\varepsilon)$-dependence is optimal up to constants depending only on $k$. Furthermore, our numerical calculation shows that the proposal reduces the query count by roughly an order of magnitude compared with state-of-the-art methods for one-body correlation estimation in a system of $N=100$, $η=20$ at $\\varepsilon=10^{-2}$. This work establishes a provably efficient advantage of particle-number symmetry for fermionic observables estimation.\n\nAuthors: Yuki Koizumi, Kaito Wada, Toshinori P. Takama, Nobuyuki Yoshioka\nCategories: quant-ph, quant-ph",
+  "word_count": 194,
+  "published_at": "2026-06-29T17:40:18Z",
+  "ingested_at": "2026-06-30T11:04:39.188Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

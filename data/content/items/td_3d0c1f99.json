@@ -1,0 +1,38 @@
+{
+  "id": "td_3d0c1f99",
+  "source": "arxiv",
+  "source_id": "2606.30608",
+  "source_url": "https://arxiv.org/abs/2606.30608",
+  "content_type": "paper",
+  "creator": {
+    "id": "mohamed_el_amine_boudjoghra",
+    "name": "Mohamed el amine boudjoghra",
+    "handle": "Mohamed el amine boudjoghra, Ivan Laptev, Angela Dai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "UnfoldArt: Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image",
+  "body_text": "UnfoldArt: Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image\n\nArticulated 3D objects are essential for interactive environments in embodied AI, robotics, and virtual reality, but reconstructing their structure and motion from sparse observations remains challenging. Existing approaches remain largely constrained by lack of supervised data or lack the priors needed to reliably recover articulation, hidden geometry, and internal object structure. We present the first debate-driven agentic approach to articulated 3D object reconstruction from text or image inputs that both grounds articulation reasoning in concrete motion and exposes the occluded geometry revealed under articulation. High-level agents reason about object semantics and motion using knowledge from vision-language and video models, while low-level agents estimate articulation parameters and interaction points; together, they engage in a two-round structured debate that first exploits global--local disagreement and then grounds the agents in freely generated video. The same video prior, conditioned on the agreed articulation, then drives each part through its motion to expose occluded interiors and geometry that cannot be inferred from a single static view. By combining agentic reasoning with a video generative prior, our approach jointly infers articulation and reconstructs complete 3D articulated objects, producing high-fidelity geometry, internal structure, and motion-consistent states beyond directly observed surfaces.\n\nAuthors: Mohamed el amine boudjoghra, Ivan Laptev, Angela Dai\nCategories: cs.CV, cs.CV",
+  "word_count": 193,
+  "published_at": "2026-06-29T17:44:53Z",
+  "ingested_at": "2026-06-30T11:04:27.031Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_f6230d40",
+  "source": "arxiv",
+  "source_id": "2606.30606",
+  "source_url": "https://arxiv.org/abs/2606.30606",
+  "content_type": "paper",
+  "creator": {
+    "id": "csaba_czabán",
+    "name": "Csaba Czabán",
+    "handle": "Csaba Czabán, Orsolya Kálmán, Sergey N. Filippov, Zoltán Zimborás",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Repetition-code-based readout error detection and correction across hardware platforms and generations",
+  "body_text": "Repetition-code-based readout error detection and correction across hardware platforms and generations\n\nReadout errors are one of the dominant sources of noise in current quantum processors, limiting both expectation-value estimation and sampling-based applications. Since they affect only the classical measurement outcomes, they can be addressed using classical coding techniques: immediately before measurement, each data qubit is redundantly encoded with ancilla qubits, and the resulting bit string is decoded either by post-selection or by majority voting. Unlike conventional readout error mitigation, which corrects only aggregate quantities such as expectation values, this approach operates on individual measurement shots and can therefore produce approximately corrected samples. We present a systematic cross-platform and cross-generation experimental evaluation of repetition-code readout error detection and correction. We benchmark the same protocol on IBM Heron r1-r3 superconducting processors and Quantinuum H1 and H2 trapped-ion processors while independently varying the code distance, hardware generation, and encoding layout. We find that both error detection and correction improve readout fidelity on every device and generation tested, even as the unencoded baseline improves substantially across successive hardware releases. At the same time, the value of additional redundancy depends strongly on the underlying hardware. On superconducting processors, the extra gate errors introduced by the encoding rapidly offset its benefits, whereas on trapped-ion processors the much lower gate error rates allow larger code distances to remain advantageous.\n\nAuthors: Csaba Czabán, Orsolya Kálmán, Sergey N. Filippov, Zoltán Zimborás\nCategories: quant-ph, quant-ph",
+  "word_count": 211,
+  "published_at": "2026-06-29T17:43:32Z",
+  "ingested_at": "2026-06-30T11:04:39.188Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
