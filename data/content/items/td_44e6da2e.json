@@ -1,0 +1,39 @@
+{
+  "id": "td_44e6da2e",
+  "source": "arxiv",
+  "source_id": "2606.31988",
+  "source_url": "https://arxiv.org/abs/2606.31988",
+  "content_type": "paper",
+  "creator": {
+    "id": "benjamin_remy",
+    "name": "Benjamin Remy",
+    "handle": "Benjamin Remy, Chihway Chang, Rebecca Willett",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Joint inference of weak lensing convergence map and cosmology with diffusion models",
+  "body_text": "Joint inference of weak lensing convergence map and cosmology with diffusion models\n\nWe present a method for joint inference of cosmological parameters and convergence maps from weak lensing observations, targeting the full posterior conditioned on the observed shear field. Our approach uses implicit inference with diffusion models, learning the joint distribution from simulations, without the need to have an explicit and differentiable forward model for gradient-based MCMC sampling. We introduce a transformer-based architecture that operates in pixel space and treats cosmological parameters as additional tokens in a unified sequence, enabling efficient multimodal processing within a single network. At inference time, the trained model generates posterior samples of joint convergence maps and cosmological parameters conditioned on observed noisy shear fields. We demonstrate the method on simulated weak lensing data generated from log-normal fields in a wcdm cosmology. The model accurately reconstructs convergence maps and recovers cosmological posteriors that agree with traditional MCMC, while remaining well calibrated across the prior, with a MIRA calibration score of $0.635 \\pm 0.017$ on the joint posterior (where $0.667$ is optimal). The inferred fields reproduce the correct two-point statistics as well as non-Gaussian statistics such as the one-point distribution. This work establishes diffusion-based implicit inference as a viable route toward full field-level cosmological analyses, paving the way for applications to more realistic, non-differentiable simulators.\n\nAuthors: Benjamin Remy, Chihway Chang, Rebecca Willett\nCategories: astro-ph.CO, astro-ph.IM, astro-ph.CO",
+  "word_count": 206,
+  "published_at": "2026-06-30T17:25:45Z",
+  "ingested_at": "2026-07-01T11:04:30.130Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.CO",
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

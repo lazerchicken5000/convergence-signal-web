@@ -1,0 +1,39 @@
+{
+  "id": "td_b838cf78",
+  "source": "arxiv",
+  "source_id": "2606.32026",
+  "source_url": "https://arxiv.org/abs/2606.32026",
+  "content_type": "paper",
+  "creator": {
+    "id": "ying_wang",
+    "name": "Ying Wang",
+    "handle": "Ying Wang, Oumayma Bounou, Yann LeCun, Mengye Ren",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AdaJEPA: An Adaptive Latent World Model",
+  "body_text": "AdaJEPA: An Adaptive Latent World Model\n\nLatent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their predictions become inaccurate, planning can fail, especially under test-time distribution shift. To address this, we propose AdaJEPA, an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC). After training, AdaJEPA plans and executes the first action chunk, uses the observed next-state transition as a self-supervised adaptation signal, and replans with the updated model. This closed-loop update continuously recalibrates the world model without additional expert demonstrations. Across a range of goal-reaching tasks, AdaJEPA substantially improves planning success with as few as one gradient step per MPC replanning step.\n\nAuthors: Ying Wang, Oumayma Bounou, Yann LeCun, Mengye Ren\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 124,
+  "published_at": "2026-06-30T17:53:48Z",
+  "ingested_at": "2026-07-01T11:04:00.673Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

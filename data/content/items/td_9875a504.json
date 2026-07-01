@@ -1,0 +1,39 @@
+{
+  "id": "td_9875a504",
+  "source": "arxiv",
+  "source_id": "2606.32015",
+  "source_url": "https://arxiv.org/abs/2606.32015",
+  "content_type": "paper",
+  "creator": {
+    "id": "vishesh_jain",
+    "name": "Vishesh Jain",
+    "handle": "Vishesh Jain, Dylan King, Clayton Mizgerd",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The online monotone array completion problem",
+  "body_text": "The online monotone array completion problem\n\nConsider the following online filling game. An array of length $n$ is initially empty. At each time step one observes an independent sample from $\\mathrm{Unif}[0,1]$ and must either discard it or place it irrevocably into an empty position of the array, while preserving the constraint that the occupied entries are non-decreasing from left to right. Among all possible strategies, what is the optimal expected time required to fill the array? Let $v_n$ denote this optimal expected completion time. Our main result determines $v_n$ up to lower-order terms: \\[ v_n=\\left(\\frac12+o(1)\\right)n\\log n. \\] More precisely, no strategy, even if randomized and adaptive, can have expected completion time below $\\left(\\frac12-o(1)\\right)n\\log n$, while we provide an explicit deterministic strategy whose expected completion time is at most $\\left(\\frac12+o(1)\\right)n\\log n$. For comparison, the natural coupon-collector strategy, which partitions $[0,1]$ into $n$ equal intervals and reserves one array position for each interval, has expected completion time $(1+o(1))n\\log n$. We also consider a with-replacement version of the game, in which previously placed entries may be overwritten. For this variant, we give a deterministic strategy with expected completion time $O(n\\sqrt{\\log n})$, thereby establishing a separation between the two models.\n\nAuthors: Vishesh Jain, Dylan King, Clayton Mizgerd\nCategories: cs.DS, math.PR, cs.DS",
+  "word_count": 190,
+  "published_at": "2026-06-30T17:47:07Z",
+  "ingested_at": "2026-07-01T11:04:30.129Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "math.PR",
+    "cs.DS"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

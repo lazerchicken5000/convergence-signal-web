@@ -1,0 +1,38 @@
+{
+  "id": "td_6de769fd",
+  "source": "arxiv",
+  "source_id": "2606.32008",
+  "source_url": "https://arxiv.org/abs/2606.32008",
+  "content_type": "paper",
+  "creator": {
+    "id": "philippe_chlenski",
+    "name": "Philippe Chlenski",
+    "handle": "Philippe Chlenski, Zachariah Carmichael, Ayush Warikoo, Chia-Tse Shao, Yingxiao Ye, Aobo Yang, Vivek Miglani, Nehal Bandi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Surrogate Fidelity: When Can Open LLMs Explain Closed Ones?",
+  "body_text": "Surrogate Fidelity: When Can Open LLMs Explain Closed Ones?\n\nMechanistic interpretability (MI) requires full access to model internals, yet the APIs for most widely deployed language models at best expose log-probabilities over output tokens. This creates a surrogate problem: when do measurements made on open models allow us to make claims about a closed model? We evaluate surrogate fidelity at the prediction, attribution, and representation levels. For binary classification tasks, log-odds provide an API-compatible scalar readout of the model's representation space, and leave-one-out attributions provide insight into model behavior. Across eleven models spanning four families (Llama, Qwen, GPT, and Gemini), we find that prediction fidelity substantially overstates attribution fidelity: models that agree on what the answer is often disagree on why. We document an access-validity inversion: white-box signals like attention patterns and perturbation magnitudes are highly stable across models but only weakly predictive of causal attributions, which black-box input ablations capture by design. Mechanistic insight does not automatically transfer to closed targets, and prediction-level agreement is insufficient to warrant such transfer. Code and results are available at https://github.com/facebookresearch/surrogate.\n\nAuthors: Philippe Chlenski, Zachariah Carmichael, Ayush Warikoo, Chia-Tse Shao, Yingxiao Ye, Aobo Yang, Vivek Miglani, Nehal Bandi\nCategories: cs.LG, cs.LG",
+  "word_count": 169,
+  "published_at": "2026-06-30T17:43:44Z",
+  "ingested_at": "2026-07-01T11:04:12.054Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

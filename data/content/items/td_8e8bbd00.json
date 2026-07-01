@@ -1,0 +1,40 @@
+{
+  "id": "td_8e8bbd00",
+  "source": "arxiv",
+  "source_id": "2606.32038",
+  "source_url": "https://arxiv.org/abs/2606.32038",
+  "content_type": "paper",
+  "creator": {
+    "id": "zifan_carl_guo",
+    "name": "Zifan Carl Guo",
+    "handle": "Zifan Carl Guo, Laura Ruis, Jacob Andreas, Belinda Z. Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
+  "body_text": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision\n\nWhen does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features of their inputs influenced their behavior, using models' counterfactual behavior on modified inputs as supervision. Surprisingly, we find that LMs trained on fixed counterfactual explanations derived from earlier checkpoints of themselves, or even from behaviorally similar models in different families, frequently produce explanations more faithful to their own current behaviors than to those of their training targets. This \"introspective\" coupling between LM explanations and behaviors occurs when training explanations remain sufficiently correlated with current behaviors over the course of training, even as behaviors themselves shift. We also show that introspective coupling tracks behavior shifts: when explanation training is provided concurrently with other post-training objectives, explanations track those shifts without requiring updated supervision. This phenomenon appears in multiple tasks, including sycophancy and refusal, and is robust to label noise. Overall, our results show that even fixed datasets of counterfactual explanations can provide scalable and generalizable post-training signal for introspection.\n\nAuthors: Zifan Carl Guo, Laura Ruis, Jacob Andreas, Belinda Z. Li\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 175,
+  "published_at": "2026-06-30T17:59:32Z",
+  "ingested_at": "2026-07-01T11:04:00.672Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

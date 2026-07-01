@@ -1,0 +1,35 @@
+{
+  "id": "td_551111c5",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "What's new in Claude Sonnet 5",
+  "body_text": "What&#x27;s new in Claude Sonnet 5\nClaude Sonnet 5 came out this morning. I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement post.\nAnthropic say of Sonnet 5 that \"its performance is close to that of Opus 4.8, but at lower prices\". The system card helps explain how they were able to release the model without being blocked by the US government:\n\nSonnet 5 is significantly less capable at cyber tasks than Mythos 5: its safeguards are thus similar to those we apply to Opus 4.7 and Opus 4.8 (models that are more capable than Sonnet 5 but much less capable than Mythos 5).\n\nOf note from the \"what's new\" API changes:\n\nSampling parameters temperature, top_p, top_k are no longer supported.\nIt has a 1 million token context window and 128,000 maximum output tokens.\nIt features \"the same set of tools and platform features as Claude Sonnet 4.6\"\nAdaptive thinking is on by default, unless you specify \"thinking\": {type: \"disabled\"}.\nThe pricing is the same as Sonnet 4.6: $3/million input, $15/million input, with an introductory discount to $2/$10 until 31st August. But...\nThe model has a new tokenizer, where \"The same input text produces approximately 30% more tokens than on Claude Sonnet 4.6.\" - effectively a 30% price increase.\n\nI used my Claude Token Counter tool to try out the new tokenizer. Here are my results for several larger documents:\n\n  \n    \n      Document\n      Sonnet 4.6\n      Opus 4.7\n      Sonnet 5\n    \n  \n  \n    \n      Universal Declaration of Human Rights (English)\n      2,356\n      3,3471.42x\n      3,3411.42x\n    \n    \n      Universal Declaration of Human Rights (Spanish)\n      3,572\n      4,7531.33x\n      4,7471.33x\n    \n    \n      Universal Declaration of Human Rights (Chinese, Mandarin Simplified)\n      3,334\n      3,3661.01x\n      3,3601.01x\n    \n    \n      sqlite_utils/db.py (4,279 lines of Python)\n      44,014\n      56,1181.28x\n      56,1131.27x\n    \n  \n\n\nSo the new token is roughly 1.4x times more expensive for English, 1.33x for Spanish, 1.28x for Python code and effectively the same cost for Simplified Mandarin.\nHere's the pelican. It's nothing to write home about. Sonnet 5 thinks it looks like a goose.\n\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, llms, anthropic, claude, llm-pricing, pelican-riding-a-bicycle, llm-release",
+  "word_count": 343,
+  "published_at": "2026-06-30T21:23:02.000Z",
+  "ingested_at": "2026-07-01T11:00:09.226Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

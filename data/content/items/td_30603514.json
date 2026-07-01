@@ -1,0 +1,38 @@
+{
+  "id": "td_30603514",
+  "source": "arxiv",
+  "source_id": "2606.32007",
+  "source_url": "https://arxiv.org/abs/2606.32007",
+  "content_type": "paper",
+  "creator": {
+    "id": "benjamin_breen",
+    "name": "Benjamin Breen",
+    "handle": "Benjamin Breen, Austin Letson, Borja Requena Pozo, Leopoldo Sarra",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AxDafny: Agentic Verified Code Generation in Dafny",
+  "body_text": "AxDafny: Agentic Verified Code Generation in Dafny\n\nWe study agentic code generation in Dafny, where a model must generate both executable code and the proof artifacts for verification. We present AxDafny, a verifier-guided repair framework that iteratively generates implementations, invariants, assertions, and termination arguments. We also introduce LiveCodeBench-Pro-Dafny (LCB-Pro-Dafny), a benchmark of 250 competition-style programming problems translated into Dafny with formal specifications and a verifier-based evaluation harness. On LCB-Pro-Dafny, AxDafny substantially improves verification success over baseline GPT-5.5 performance. On DafnyBench, AxDafny achieves 92.7\\% verification success, outperforming the strongest previously reported proof-hint baseline by 6.5 percentage points. Lastly, we show that verification success and runtime test performance measure different aspects of generated code.\n\nAuthors: Benjamin Breen, Austin Letson, Borja Requena Pozo, Leopoldo Sarra\nCategories: cs.AI, cs.AI",
+  "word_count": 105,
+  "published_at": "2026-06-30T17:39:43Z",
+  "ingested_at": "2026-07-01T11:04:00.674Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

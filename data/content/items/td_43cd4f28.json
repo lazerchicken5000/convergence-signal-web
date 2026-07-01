@@ -1,0 +1,41 @@
+{
+  "id": "td_43cd4f28",
+  "source": "arxiv",
+  "source_id": "2606.32004",
+  "source_url": "https://arxiv.org/abs/2606.32004",
+  "content_type": "paper",
+  "creator": {
+    "id": "sameer_malik",
+    "name": "Sameer Malik",
+    "handle": "Sameer Malik, Ayush Singh, Amar Prakash Azad",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+  "body_text": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines\n\nPolicy-grounded document review requires determining whether a target document complies with organization-specific policies, guidelines, or playbooks. While large language models can assist with policy interpretation and document analysis, end-to-end prompting leaves the applied policy logic implicit, making compliance decisions difficult to inspect, update, and test. We present PolicyGuard, a neuro-symbolic framework for policy-grounded document compliance review. PolicyGuard converts organizational policy guidance into an executable review engine consisting of typed relational logic rules and atom-level extraction questions. During review, LLMs answer these local questions using retrieved document evidence, and a symbolic evaluator applies the formal rules to detect non-compliance. We instantiate and evaluate PolicyGuard on company-specific NDA compliance review, where contract clauses must be checked against organization-specific negotiation policies. By separating policy formalization, local document interpretation, and symbolic compliance evaluation, PolicyGuard makes document review more explicit, maintainable, and systematically testable.\n\nAuthors: Sameer Malik, Ayush Singh, Amar Prakash Azad\nCategories: cs.AI, cs.LG, cs.LO, cs.SC, cs.AI",
+  "word_count": 139,
+  "published_at": "2026-06-30T17:37:57Z",
+  "ingested_at": "2026-07-01T11:04:00.674Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "cs.LO",
+    "cs.SC",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
