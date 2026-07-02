@@ -1,0 +1,40 @@
+{
+  "id": "td_900e7db3",
+  "source": "arxiv",
+  "source_id": "2607.01202",
+  "source_url": "https://arxiv.org/abs/2607.01202",
+  "content_type": "paper",
+  "creator": {
+    "id": "liyuan_zhu",
+    "name": "Liyuan Zhu",
+    "handle": "Liyuan Zhu, Shengyu Huang, Amrita Mazumdar, Tianye Li, Zan Gojcic, Gordon Wetzstein, Iro Armeni, Shalini De Mello, Alex Trevithick",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video",
+  "body_text": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video\n\nWe present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderings that encode appearance, geometry, and 3D scene motion along both input and target camera trajectories to correct rendering artifacts and fill in missing regions from an initial reconstruction. To train this model, we construct a dataset of aligned multiview video pairs and dynamic 3DGS representations, with simulated artifacts characteristic of monocular reconstruction. At test time, we distill the model's generations, including newly observed regions and motions, back into a single consistent, high-quality dynamic 3DGS, improving both novel-view synthesis and the underlying 3D motion. Our method sets a new state of the art in 4D reconstruction and seamlessly generalizes to in-the-wild videos with large viewpoint changes and dynamic motions.\n\nAuthors: Liyuan Zhu, Shengyu Huang, Amrita Mazumdar, Tianye Li, Zan Gojcic, Gordon Wetzstein, Iro Armeni, Shalini De Mello, Alex Trevithick\nCategories: cs.CV, cs.AI, cs.GR, cs.CV",
+  "word_count": 136,
+  "published_at": "2026-07-01T17:41:00Z",
+  "ingested_at": "2026-07-02T11:04:08.724Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.GR",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

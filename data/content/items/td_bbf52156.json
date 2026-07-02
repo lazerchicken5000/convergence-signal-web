@@ -1,0 +1,38 @@
+{
+  "id": "td_bbf52156",
+  "source": "arxiv",
+  "source_id": "2607.01230",
+  "source_url": "https://arxiv.org/abs/2607.01230",
+  "content_type": "paper",
+  "creator": {
+    "id": "luigi_petruzziello",
+    "name": "Luigi Petruzziello",
+    "handle": "Luigi Petruzziello, Camilla Fioravanti, Gabriele Oliva",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Distributed Containment of a Compromised Agent through Repulsive Cages",
+  "body_text": "Distributed Containment of a Compromised Agent through Repulsive Cages\n\nUAV swarms and cyber-physical multi-agent systems are increasingly deployed in safety-critical missions that require coordinated motion, distributed decision making, and autonomy. A major security risk arises when a legitimate agent is hijacked and driven by adversarial high-level commands. Rather than focusing on detection and isolation of malicious agents, we exploit a structural property common in autonomous platforms: low-level collision-avoidance modules are typically implemented as independent safety layers and may remain active even under high-level compromise. Building on this property, we propose a distributed containment framework that uses the compromised agent's uncompromised avoidance response as an indirect actuation channel. Defender agents select their geometric configuration to shape the repulsive field experienced by the target, with the goal of keeping it inside a prescribed admissible region and, when required, steering it toward a desired destination. The interaction is modeled as an online Stackelberg game in which defenders act as leaders and the adversary reacts by choosing the target command. Using support-function and normal-cone arguments, we derive an exact geometric characterization of robust one-step containment and introduce the notion of a repulsive cage. These results define a centralized Stackelberg oracle and motivate a fully distributed online approximation based on local communication and dynamic field estimation. We prove sublinear dynamic-regret bounds with respect to the centralized benchmark, quantifying the effect of network-induced estimation errors and temporal variability of the stage-wise optimum. Simulations validate the approach and corroborate the theory.\n\nAuthors: Luigi Petruzziello, Camilla Fioravanti, Gabriele Oliva\nCategories: eess.SY, eess.SY",
+  "word_count": 235,
+  "published_at": "2026-07-01T17:59:24Z",
+  "ingested_at": "2026-07-02T11:04:26.335Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SY",
+    "eess.SY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

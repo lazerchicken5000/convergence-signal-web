@@ -1,0 +1,39 @@
+{
+  "id": "td_335b0d40",
+  "source": "arxiv",
+  "source_id": "2607.01216",
+  "source_url": "https://arxiv.org/abs/2607.01216",
+  "content_type": "paper",
+  "creator": {
+    "id": "deeparnab_chakrabarty",
+    "name": "Deeparnab Chakrabarty",
+    "handle": "Deeparnab Chakrabarty, Hang Liao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Query Complexity of Hypergraph Connectivity and Learnability using CUT Oracles",
+  "body_text": "Query Complexity of Hypergraph Connectivity and Learnability using CUT Oracles\n\nWe investigate the power of CUT queries to reveal the structure of unknown hypergraphs. While simple graphs allow for optimal $O(n)$-query connectivity algorithms, hypergraphs face a fundamental identifiability barrier in that distinct hypergraphs can share identical cut-profiles, making exact edge learning impossible in general, a primitive crucial in the graph connectivity algorithms. We first present a zero-error randomized algorithm that identifies the connected components of any weighted hypergraph using $O(n)$ expected queries, matching the $Ω(n)$ lower bound. This approach bypasses the reconstruction barrier by introducing the notion of ``independent families'' -- vertex subpartitions that do not share hyperedges -- and iteratively coarsening them using auxiliary weighted graph connectivity techniques [Liao-Chakrabarty, 2024]. Second, we demonstrate that the impossibility of exact learning depends on hyperedge parity. For even-parity hypergraphs, we show that the structure is reconstructible using a Möbius transform on the CUT function to implement binary-search-style vertex identification. This yields deterministic algorithms for obtaining $k$-connectivity certificates for $r$-bounded even hypergraphs in $\\tilde{O}_r(kn)$ queries. Finally, we bypass parity and rank constraints for linear hypergraphs, achieving a subquadratic $\\tilde{O}(kn^{1.5})$ query complexity for $k$-connectivity. This significantly improves upon the general $\\tilde{O}(n^2)$ bound derived via symmetric submodular function minimization.\n\nAuthors: Deeparnab Chakrabarty, Hang Liao\nCategories: cs.DS, cs.DM, cs.DS",
+  "word_count": 194,
+  "published_at": "2026-07-01T17:54:03Z",
+  "ingested_at": "2026-07-02T11:04:32.430Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DM",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

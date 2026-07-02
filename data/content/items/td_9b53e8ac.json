@@ -1,0 +1,38 @@
+{
+  "id": "td_9b53e8ac",
+  "source": "arxiv",
+  "source_id": "2607.01162",
+  "source_url": "https://arxiv.org/abs/2607.01162",
+  "content_type": "paper",
+  "creator": {
+    "id": "irene_anu",
+    "name": "Irene Anu",
+    "handle": "Irene Anu, Craig Macdonald",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Trie-based Experiment Plans for Efficient IR Pipeline Experiments",
+  "body_text": "Trie-based Experiment Plans for Efficient IR Pipeline Experiments\n\nSearch engines are often formulated as cascading pipelines, where successive stages combine the results of different retrievers, and iteratively refine the ranking of candidate documents to obtain a final ranking, which can be presented to a user, or provided as context to an LLM. Such pipelines can be complex to evaluate in an end-to-end manner, necessitating measurement of Recall of early stages, and Precision of later stages, which are often interchangeable. PyTerrier is ideal for building and evaluating cascading retrieval pipelines, due to its declarative nature for pipeline construction and wide ecosystem of retrievers and rerankers. However, comparative evaluation of pipelines can be expensive due to repeated components. In this work, we describe the use of a trie data structure to formulate an experiment plan for comparative pipeline experiments that enhances experiment efficiency compared to a sequential \"linear\" plan. Empirically, on a demonstration experiment involving BM25, MonoT5 and DuoT5 on MSMARCO v2, we observe a 26% reduction in experiment duration. Finally, we report on a user study of undergraduate and postgraduate research students' use of the experiment plans.\n\nAuthors: Irene Anu, Craig Macdonald\nCategories: cs.IR, cs.IR",
+  "word_count": 178,
+  "published_at": "2026-07-01T16:44:26Z",
+  "ingested_at": "2026-07-02T11:04:26.336Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

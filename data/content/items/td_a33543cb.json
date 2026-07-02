@@ -1,0 +1,39 @@
+{
+  "id": "td_a33543cb",
+  "source": "arxiv",
+  "source_id": "2607.01182",
+  "source_url": "https://arxiv.org/abs/2607.01182",
+  "content_type": "paper",
+  "creator": {
+    "id": "madhulatha_mandarapu",
+    "name": "Madhulatha Mandarapu",
+    "handle": "Madhulatha Mandarapu, Sandeep Kunkunuru",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Decode-Work Law: Margin-Governed, Provably-Exact Spatial Joins over Compressed Geometry",
+  "body_text": "The Decode-Work Law: Margin-Governed, Provably-Exact Spatial Joins over Compressed Geometry\n\nFilter-and-refine spatial joins have always avoided touching exact geometry for certified candidate pairs, but the field never modeled the decompression cost of the pairs that survive the filter. When geometry is stored in a compressed, progressively-decodable multiresolution codec, the join's true cost is bytes decoded. We study provably-exact polygon intersection joins over a Douglas-Peucker level-of-detail (LOD) ladder, certified by a two-sided Hausdorff-margin test, and make two contributions. First, a reproducible mechanism and harness: on real U.S. Census TIGER water polygons, our progressive certificate join returns the exact join result while decoding 3.4-16.8x (median 5.9x) fewer vertices than naive decompress-then-refine, and about 4.9x fewer than the single-approximation multi-step baseline of Brinkhoff et al. (1994), with zero correctness violations (set-equality against a full-precision oracle) across 31 workloads. Second, a characterization we call the decode-work law: decode work is governed by each pair's signed-clearance margin -- how close it is to the predicate-flip boundary -- independent of object size, because the certificate descends the ladder only until its resolution beats the margin. The law is clean on controlled geometry (held-out R2=0.87, size-independent) and directional on real data (R2 ~= 0.55). We are explicit about what does not hold: a near-boundary-vertex predictor is the wrong model (we pre-registered one and rejected it), a selectivity regime forecaster did not materialize, and the worst case is the trivial Omega(v) read bound on adversarially interleaved boundaries. We contribute the mechanism, budget-honest decode accounting, and an open harness; we do not claim a new index.\n\nAuthors: Madhulatha Mandarapu, Sandeep Kunkunuru\nCategories: cs.DB, cs.CG, cs.DB",
+  "word_count": 247,
+  "published_at": "2026-07-01T17:14:08Z",
+  "ingested_at": "2026-07-02T11:04:38.451Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DB",
+    "cs.CG",
+    "cs.DB"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

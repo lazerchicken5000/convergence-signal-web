@@ -1,0 +1,41 @@
+{
+  "id": "td_76ebaa53",
+  "source": "arxiv",
+  "source_id": "2607.01209",
+  "source_url": "https://arxiv.org/abs/2607.01209",
+  "content_type": "paper",
+  "creator": {
+    "id": "mustafa_doger",
+    "name": "Mustafa Doger",
+    "handle": "Mustafa Doger, Sennur Ulukus",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "All-out Attack: Optimal Block Withholding Under Pay-Per-Share Scheme",
+  "body_text": "All-out Attack: Optimal Block Withholding Under Pay-Per-Share Scheme\n\nClassical Block Withholding (BWH) attacks have been extensively studied in block-dependent reward schemes, where pool members are compensated upon a block discovery within the pool. However, most contemporary mining pools operate under share-based scheme wherein participants are paid immediately upon submission of valid shares. In this paper, we analyze BWH under Pay-Per-Share (PPS) and Full-PPS (FPPS) schemes for Nakamoto-style blockchains and prove that these mechanisms are not incentive compatible -- contrary to claims in prior literature. Under PPS/FPPS, the optimal strategy for a BWH attacker is the All-out Attack (AoA): the adversary allocates its entire hashpower toward the victim pool, submitting only partial Proof-of-Work shares (pPoW) while withholding all valid blocks, i.e., full Proof-of-Work (fPoW). Under AoA, prior to the first difficulty adjustment, the adversary incurs negligible loss due to the withheld fPoWs. After the first difficulty adjustment, which reduces block difficulty, the adversary generates more pPoWs per unit time, achieving a relative gain of $\\fracα{1-α}$ compared to pre-adjustment rates, where $α$ is the fraction of adversarial hashpower. Moreover, per unit time and per unit hashpower, all honest miners benefit at the same rate as the adversary. In contrast, the victim pool operator incurs losses: it pays the attacker out-of-pocket for pPoW submissions but receives no fPoW compensation in return. Finally, advanced variants of BWH, such as Fork After Withholding (FAW), do not yield additional profit to the attacker.\n\nAuthors: Mustafa Doger, Sennur Ulukus\nCategories: cs.CR, cs.DC, cs.IT, math.PR, cs.CR",
+  "word_count": 229,
+  "published_at": "2026-07-01T17:46:37Z",
+  "ingested_at": "2026-07-02T11:04:38.450Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.DC",
+    "cs.IT",
+    "math.PR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

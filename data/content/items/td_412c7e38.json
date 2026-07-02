@@ -1,0 +1,40 @@
+{
+  "id": "td_412c7e38",
+  "source": "arxiv",
+  "source_id": "2607.01181",
+  "source_url": "https://arxiv.org/abs/2607.01181",
+  "content_type": "paper",
+  "creator": {
+    "id": "mehul_damani",
+    "name": "Mehul Damani",
+    "handle": "Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations",
+  "body_text": "Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations\n\nRL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current RLVR methods optimize only what can be objectively scored, often neglecting subjective, non-verifiable aspects of human-like outputs, such as style and structure. This limitation leads to well-documented failure modes such as diversity collapse, unnatural-sounding responses, and reward hacking. We propose an adversarial generator-discriminator framework that augments verifiable rewards with a learned signal from human demonstrations. A generator model is trained using RL to maximize both task accuracy and an adversarial reward derived from a discriminator. The discriminator, trained alongside the generator policy, learns to distinguish human-written outputs from model-generated ones. The discriminator serves as a learned proxy for the human output distribution, providing feedback on aspects of generation that are difficult to formalize as scalar rewards. Across diverse domains, including bug fixing and open-ended generation, our approach consistently improves non-verifiable properties while preserving the accuracy gains of RLVR. In bug fixing, our method produces solutions with significantly lower edit distance compared to RLVR baselines while matching end performance. In story generation, our method significantly improves win rate while producing stories that are diverse and more human-like. And in a simple reward hacking benchmark, our method nearly eliminates model misbehavior while maintaining high benchmark scores. Together, these results show that our approach bridges RL and SFT, offering a scalable path toward jointly optimizing the verifiable and non-verifiable properties of a task.\n\nAuthors: Mehul Damani, Isha Puri, Idan Shenfeld, Jacob Andreas\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 249,
+  "published_at": "2026-07-01T17:13:35Z",
+  "ingested_at": "2026-07-02T11:04:14.470Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_5cd565d1",
+  "source": "arxiv",
+  "source_id": "2607.01205",
+  "source_url": "https://arxiv.org/abs/2607.01205",
+  "content_type": "paper",
+  "creator": {
+    "id": "anushrut_jignasu",
+    "name": "Anushrut Jignasu",
+    "handle": "Anushrut Jignasu, Daniele Grandi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Linkify: Learning from Interface-Augmented Assembly Graphs",
+  "body_text": "Linkify: Learning from Interface-Augmented Assembly Graphs\n\nWe present Linkify, a framework for learning from interface-augmented assembly graphs to enable context-aware part retrieval in mechanical assemblies. While recent generative AI methods for CAD have focused largely on isolated parts or monolithic assemblies, the rich geometric information at the interfaces between parts, where function is realized, remains underexplored. We address this gap by recomputing high-fidelity interface geometry for the Fusion 360 Gallery Assembly dataset, correcting missing and erroneous contacts, and generating point-cloud representations of local contact regions. Using this data, we construct assembly graphs whose nodes encode part geometry and whose edges encode interface geometry via a pretrained point-cloud encoder. On top of this representation, we train a Graph Attention Network based on GATv2 to solve a masked part prediction task: given an assembly with one part held out, the model predicts the class of the missing component from a large vocabulary of geometrically clustered parts, thereby approximating a realistic part-retrieval scenario. Compared to non-graph baselines such as logistic regression and k-nearest neighbors operating on aggregated node features, Linkify achieves higher Top-K accuracy and F1 scores. Ablation studies on graph connectivity, edge attributes, and attention mechanisms demonstrate that accurate contact computation and dynamic attention over interfaces are critical for performance. Our corrected interface dataset and training pipeline, released publicly, provide a foundation for future interface-aware models for assembly retrieval, validation, and generative design.\n\nAuthors: Anushrut Jignasu, Daniele Grandi\nCategories: cs.CV, cs.CV",
+  "word_count": 225,
+  "published_at": "2026-07-01T17:45:51Z",
+  "ingested_at": "2026-07-02T11:04:32.430Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
