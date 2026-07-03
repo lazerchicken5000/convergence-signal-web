@@ -1,0 +1,35 @@
+{
+  "id": "td_194b3da2",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm-coding-agent 0.1a0",
+  "body_text": "Release: llm-coding-agent 0.1a0\n        Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.\nI started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript):\n\nWrite a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands\n\nThen:\n\nCommit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment\n\nHere's the spec, the resulting README file, and the sequence of commits.\nI've shipped a slop-alpha to PyPI, so you can run the new agent like this:\nuvx --prerelease=allow --with llm-coding-agent llm code\n\nIt's pretty good for a first attempt! Here's the (Fable-authored) README, which lists recipes like llm code --yolo and llm code --allow \"pytest*\" --allow \"git diff*\".\nIt also presents a Python API based around a CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\") class which I didn't ask for but I'm delighted to see implemented.\nHere's the suite of tools it implemented, listed using uvx ... llm tools:\n\nCodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -&gt; str\nReplace an exact string in a file.\nold_string must match the file contents exactly (including\nwhitespace) and must identify a unique location unless replace_all\nis true. Returns a diff of the change so it can be verified.\nCodingTools_execute_command(command: str, timeout: int = 120) -&gt; str\nRun a shell command in the session root directory.\nReturns combined stdout and stderr followed by an Exit code line.\ntimeout is in seconds (maximum 600); on timeout the whole process\ntree is killed.\nCodingTools_list_files(pattern: str = '**/*', path: str = '.') -&gt; str\nList files matching a glob pattern, newest first.\nSkips hidden directories, node_modules, __pycache__ and (in a git\nrepository) anything covered by .gitignore. Returns at most 200\npaths relative to the searched directory.\nCodingTools_read_file(path: str, offset: int = 0, limit: int = 2000) -&gt; str\nRead a text file, returning numbered lines like cat -n.\nPaths are relative to the session root. Use offset (0-based first\nline) and limit (max lines) to page through files too large to read\nin one call.\nCodingTools_search_files(pattern: str, path: str = '.', glob: str = None, max_results: int = 100) -&gt; str\nSearch file contents for a regular expression.\nReturns matches as path:line_number:line, capped at max_results.\nUse glob (e.g. \"*.py\") to restrict which files are searched.\nCodingTools_write_file(path: str, content: str) -&gt; str\nCreate or overwrite a file with the given content.\nParent directories are created as needed. Prefer edit_file for\nmodifying existing files.\n\nI tried it out by running llm code --yolo and then prompting:\n\nmkdir /tmp/demo and then in that folder create a simple swiftui CLI app for telling the time in ascii art\n\nHere's the transcript, in which GPT-5.5 reasoning notes that \"SwiftUI isn't suitable for a true CLI\" and then builds an app that outputs this on swift run AsciiTime:\n\n      █    █████         ████     █             █     ███   \n     ██    █        █        █   ██      █     ██    █   █  \n      █    ████           ███     █             █       █   \n      █        █    █        █    █      █      █      █    \n     ███   ████          ████    ███           ███   █████\n\n    \n    \n        Tags: projects, ai, generative-ai, llm, llm-tool-use, coding-agents, claude-code, claude-mythos-fable",
+  "word_count": 585,
+  "published_at": "2026-07-02T19:33:12.000Z",
+  "ingested_at": "2026-07-03T11:00:09.774Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

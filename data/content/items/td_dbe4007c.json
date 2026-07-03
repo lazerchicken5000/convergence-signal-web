@@ -1,0 +1,40 @@
+{
+  "id": "td_dbe4007c",
+  "source": "arxiv",
+  "source_id": "2607.02512",
+  "source_url": "https://arxiv.org/abs/2607.02512",
+  "content_type": "paper",
+  "creator": {
+    "id": "wentao_zhang",
+    "name": "Wentao Zhang",
+    "handle": "Wentao Zhang, Liliana Hotsko, Woojeong Kim, Pengyu Nie, Stuart Shieber, Yuntian Deng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+  "body_text": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions\n\nMany everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a compact, locally-executable neural artifact. We instantiate this paradigm with Program-as-Weights (PAW), in which a 4B compiler trained on FuzzyBench, a 10M-example dataset we release, emits parameter-efficient adapters for a frozen, lightweight interpreter. A 0.6B Qwen3 interpreter executing PAW programs matches the performance of direct prompting of Qwen3-32B, while using roughly one fiftieth of the inference memory and running at 30 tokens/s on a MacBook M3. PAW reframes the foundation model from a per-input problem solver into a tool builder: invoked once per function definition, it produces a small reusable artifact whose subsequent calls per function application are cheap and offline.\n\nAuthors: Wentao Zhang, Liliana Hotsko, Woojeong Kim, Pengyu Nie, Stuart Shieber, Yuntian Deng\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 155,
+  "published_at": "2026-07-02T17:59:50Z",
+  "ingested_at": "2026-07-03T11:03:56.295Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

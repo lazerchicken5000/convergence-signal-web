@@ -1,0 +1,40 @@
+{
+  "id": "td_cb369459",
+  "source": "arxiv",
+  "source_id": "2607.02513",
+  "source_url": "https://arxiv.org/abs/2607.02513",
+  "content_type": "paper",
+  "creator": {
+    "id": "matteo_boglioni",
+    "name": "Matteo Boglioni",
+    "handle": "Matteo Boglioni, Thibault Rousset, Siva Reddy, Marius Mosbach, Verna Dankers",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+  "body_text": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning\n\nLLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's parameters or merely obfuscates it, a concern reinforced by the success of resurfacing attacks. To bridge this gap, we introduce LACUNA: the first unlearning testbed with ground-truth parameter-level localization. LACUNA injects PII of synthetic individuals into predefined parameters of 1B and 7B OLMo-based models via masked continual pretraining, enabling direct evaluation of whether unlearning targets the weights responsible for knowledge storage. We use LACUNA to benchmark current SOTA unlearning methods and find that, despite strong output-level performance, existing methods are highly imprecise and susceptible to resurfacing attacks. We further show that when localization is successful, even a simple gradient-based unlearning method achieves strong erasure and robustness to resurfacing attacks, highlighting the importance of precise unlearning. We release LACUNA to complement behavioral evaluations and drive further advances in robust, localization-based unlearning.\n\nAuthors: Matteo Boglioni, Thibault Rousset, Siva Reddy, Marius Mosbach, Verna Dankers\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 194,
+  "published_at": "2026-07-02T17:59:52Z",
+  "ingested_at": "2026-07-03T11:03:56.295Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

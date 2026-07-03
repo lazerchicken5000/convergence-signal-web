@@ -1,0 +1,39 @@
+{
+  "id": "td_f1531e06",
+  "source": "arxiv",
+  "source_id": "2607.02490",
+  "source_url": "https://arxiv.org/abs/2607.02490",
+  "content_type": "paper",
+  "creator": {
+    "id": "liyan_tang",
+    "name": "Liyan Tang",
+    "handle": "Liyan Tang, Fangcong Yin, Greg Durrett",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Visually Grounded Self-Reflection for Vision-Language Models via Reinforcement Learning",
+  "body_text": "Visually Grounded Self-Reflection for Vision-Language Models via Reinforcement Learning\n\nLarge vision-language models can reason over multimodal inputs by generating textual chains of thought (CoT). A key capability exhibited in CoT reasoning is self-reflection: revisiting earlier decisions and correcting previous errors. However, existing LVLMs often fail to properly attend to visual inputs during reflection, limiting their ability to translate feedback into grounded corrections, especially for out-of-distribution images. To address this issue, we propose a novel reinforcement learning training framework VRRL, with two components explicitly designed to elicit visually grounded self-reflection. First, we randomly mask trajectory prefixes during training to emphasize recovery from incorrect intermediate predictions rather than making early mistakes. Second, we introduce buffered roll-ins from an experience replay buffer to expose the model to diverse failure states that it must learn to correct. We evaluate our approach on visual grounding tasks involving tables and charts, as well as spatial navigation benchmarks. While off-the-shelf and conventionally fine-tuned models degrade substantially under distribution shift, our method substantially improves average out-of-distribution accuracy over standard RL and reflection-oriented fine-tuning baselines by using self-reflection effectively.\n\nAuthors: Liyan Tang, Fangcong Yin, Greg Durrett\nCategories: cs.CL, cs.CV, cs.CL",
+  "word_count": 171,
+  "published_at": "2026-07-02T17:53:15Z",
+  "ingested_at": "2026-07-03T11:04:02.050Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CV",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

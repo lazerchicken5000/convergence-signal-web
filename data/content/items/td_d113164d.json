@@ -1,0 +1,39 @@
+{
+  "id": "td_d113164d",
+  "source": "arxiv",
+  "source_id": "2607.02496",
+  "source_url": "https://arxiv.org/abs/2607.02496",
+  "content_type": "paper",
+  "creator": {
+    "id": "juanwu_lu",
+    "name": "Juanwu Lu",
+    "handle": "Juanwu Lu, Junyu Zhu, Ziran Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Controllable Sim Agents with Behavior Latents",
+  "body_text": "Controllable Sim Agents with Behavior Latents\n\nRealistic traffic simulation requires agents that imitate logged behavior and can also be steered along interpretable axes. Such controllability enables engineers to isolate variables, reproduce specific edge cases, and test autonomous systems without real-world risk. We introduce Controllable Neural Variational Agents (CNeVA), a controllable simulated-agent framework that learns to infer a per-agent Gaussian behavior latent from per-channel discounted returns via a closed-form conjugate variational update, conditioning a rectified-flow trajectory generator trained on a mixed channel-mask curriculum for classifier-free guidance. To tackle scarcity in reward signals, we propose soft eligibility gates that replace hard binary thresholds with smooth exponential decay, preserving the gradient signal for near-threshold agents. On the Waymo Open Motion Dataset, CNeVA attains competitive realism on the benchmark while exposing per-channel controllability that the higher-ranked imitation models lack. Speed- and acceleration-based steering produces monotone responses without stall-induced reward hacking. Safety controllability is monotone and substantial with the introduction of soft eligibility. We manage to achieve steerable map compliance under a context-residual return measure. Furthermore, our experiment demonstrates that steering metrics must be read alongside physical-plausibility guardrails to avoid reward-hacking confounds.\n\nAuthors: Juanwu Lu, Junyu Zhu, Ziran Wang\nCategories: cs.RO, cs.LG, cs.RO",
+  "word_count": 181,
+  "published_at": "2026-07-02T17:55:39Z",
+  "ingested_at": "2026-07-03T11:04:07.802Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
