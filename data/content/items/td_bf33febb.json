@@ -1,0 +1,35 @@
+{
+  "id": "td_bf33febb",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Fable's judgement",
+  "body_text": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work.\nThe example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead.\nJesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use.\nI prompted Claude Code just now with:\n\nFor all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent\n\nClaude saved this memory file in ~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md:\n\n---\nname: delegate-coding-to-subagents\ndescription: Simon wants coding tasks delegated to subagents running an appropriately lower-power model\nmetadata: \n  node_type: memory\n  type: feedback\n  originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a\n---\n\nStated by Simon on 2026-07-03: \"For all coding tasks use your judgement to\ndecide an appropriate lower power model and run that in a subagent.\"\nWhy: cost/efficiency — implementation work rarely needs the top-tier\nmodel; judgment, review, and synthesis stay with the main loop.\nHow to apply: when a task in this project is primarily writing/editing\ncode, spawn an Agent with a model override (sonnet for substantive\nimplementation, haiku for trivial/mechanical edits) and a self-contained\nprompt; review the result in the main loop before committing. Design,\nauditing, data synthesis, and anything judgment-heavy stays in the main\nmodel. See also [[project-goals]].\n\nSo far it seems to be working well. I'm getting a ton of work done and my Fable allowance is shrinking less quickly than before.\n\n    Tags: claude, ai, claude-code, llms, prompt-engineering, coding-agents, generative-ai, claude-mythos-fable, anthropic",
+  "word_count": 339,
+  "published_at": "2026-07-03T18:51:06.000Z",
+  "ingested_at": "2026-07-04T11:00:09.835Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
