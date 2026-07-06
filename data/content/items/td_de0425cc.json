@@ -1,0 +1,35 @@
+{
+  "id": "td_de0425cc",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "sqlite-utils 4.0rc3",
+  "body_text": "Release: sqlite-utils 4.0rc3\n        I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger.\nThe biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and hence needed to land for the 4.0 stable release.\nsqlite-utils also now follows SQLite's convention for case insensitive column names, which turned out to touch a bunch of different places at once.\n    \n    \n        Tags: projects, sqlite, sqlite-utils, annotated-release-notes, gpt, claude-mythos-fable",
+  "word_count": 103,
+  "published_at": "2026-07-06T05:40:08.000Z",
+  "ingested_at": "2026-07-06T11:00:10.509Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
