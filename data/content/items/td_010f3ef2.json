@@ -1,0 +1,38 @@
+{
+  "id": "td_010f3ef2",
+  "source": "arxiv",
+  "source_id": "2607.05380",
+  "source_url": "https://arxiv.org/abs/2607.05380",
+  "content_type": "paper",
+  "creator": {
+    "id": "yury_gorishniy",
+    "name": "Yury Gorishniy",
+    "handle": "Yury Gorishniy, Akim Kotelnikov, Ivan Rubachev, Artem Babenko",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TabPack: Efficient Hyperparameter Ensembles for Tabular Deep Learning",
+  "body_text": "TabPack: Efficient Hyperparameter Ensembles for Tabular Deep Learning\n\nIn deep learning for tabular data, efficient ensembles of multilayer perceptrons (MLPs) have recently emerged as effective and practical architectures. Existing methods of this kind use the same hyperparameters for all underlying MLPs, which requires hyperparameter tuning for achieving the best performance. In this work, we introduce TabPack, an efficient MLP ensemble with strong out-of-the-box performance and reduced reliance on traditional tuning. In a single run, TabPack samples and trains many MLPs with different hyperparameters efficiently in parallel and selects ensemble members on the fly during training. Thus, TabPack only requires specifying ranges from which to sample MLP hyperparameter rather than exact hyperparameter values, which naturally demands less precision for good performance. In experiments on medium-to-large public datasets, TabPack with default settings performs on par with extensively tuned prior methods, thus substantially reducing effort and compute resources needed to achieve competitive results on tabular tasks. Notably, running the default TabPack configuration on a modern MacBook took less time than tuning some baselines on an industry-grade GPU.\n\nAuthors: Yury Gorishniy, Akim Kotelnikov, Ivan Rubachev, Artem Babenko\nCategories: cs.LG, cs.LG",
+  "word_count": 166,
+  "published_at": "2026-07-06T17:55:55Z",
+  "ingested_at": "2026-07-07T11:04:14.227Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_52c7aedf",
+  "source": "arxiv",
+  "source_id": "2607.05355",
+  "source_url": "https://arxiv.org/abs/2607.05355",
+  "content_type": "paper",
+  "creator": {
+    "id": "ananth_eswar",
+    "name": "Ananth Eswar",
+    "handle": "Ananth Eswar, Pratinav Seth, Utsav Avaiya, Vinay Kumar Sankarapu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Faithfulness to Refusal: A Causal Audit of Neuron Selectors",
+  "body_text": "Faithfulness to Refusal: A Causal Audit of Neuron Selectors\n\nAttribution scores increasingly identify which neuron rows of a language model matter for applications such as pruning, interpretability, and editing for safety, yet whether they identify causally important rows is rarely tested directly. We address this with two paired audits built on one-shot neuron-row zeroing. We first audit selectors at the language-modeling level: attribution methods substantially outperform activation and magnitude-based baselines at identifying dispensable rows across five LLMs. We then adapt the same intervention into a behavior test by driving it with a contrastive harmful-versus-benign signal; the attributed rows are sufficient to install refusal on hate and crime while keeping benign over-refusal low and preserving language model fluency, and specific in that layer-matched random controls at the same depths fail. Highly rank-stable selectors can be among the least causally valid. Refusal moreover lives in a redundant subspace, where different attribution methods install it through largely disjoint row sets, so the recovered edit is one realization of a sufficient set rather than a unique mechanism. Together, these findings show that rank-stability proxies miss the kinds of selector failures a direct causal audit can surface.%\n\nAuthors: Ananth Eswar, Pratinav Seth, Utsav Avaiya, Vinay Kumar Sankarapu\nCategories: cs.CL, cs.ET, cs.LG, cs.CL",
+  "word_count": 183,
+  "published_at": "2026-07-06T17:33:36Z",
+  "ingested_at": "2026-07-07T11:04:08.230Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.ET",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

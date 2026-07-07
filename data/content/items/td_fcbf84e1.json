@@ -1,0 +1,38 @@
+{
+  "id": "td_fcbf84e1",
+  "source": "arxiv",
+  "source_id": "2607.05378",
+  "source_url": "https://arxiv.org/abs/2607.05378",
+  "content_type": "paper",
+  "creator": {
+    "id": "yujiang_li",
+    "name": "Yujiang Li",
+    "handle": "Yujiang Li, Zhenyu Hou, Yi Jing, Jie Tang, Yuxiao Dong",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+  "body_text": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents\n\nLong-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural solution by summarizing previous interaction states and continuing the rollout under a compressed context, but incorporating compaction into reinforcement learning remains underexplored. We propose CompactionRL, a reinforcement learning strategy to train long-horizon agentic LLMs with context compaction. Our approach jointly optimizes task execution and summary generation with token-level loss normalization and cross-trajectory generalized advantage estimation. This design enables the LLM agents to learn from compacted long-horizon trajectories. We train CompactionRL on top of open models and observe consistent performance gains on agentic coding tasks. CompactionRL enables the open GLM-4.5-Air model (106B-A30B) to achieve Pass@1 scores of 66.8% on SWE-bench Verified and 24.5% on Terminal-Bench 2.0, with absolute gains of 7.0 and 3.1 points, respectively. Built upon GLM-4.7-Flash (30B-A3B), CompactionRL improves Pass@1 by 5.5 and 6.8 points, reaching 56.0% on SWE-bench Verified and 20.2% on Terminal-Bench 2.0, respectively. CompactionRL is thus deployed in the RL pipeline for training the open GLM-5.2 model (750B-A40B).\n\nAuthors: Yujiang Li, Zhenyu Hou, Yi Jing, Jie Tang, Yuxiao Dong\nCategories: cs.LG, cs.LG",
+  "word_count": 182,
+  "published_at": "2026-07-06T17:55:12Z",
+  "ingested_at": "2026-07-07T11:04:14.227Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

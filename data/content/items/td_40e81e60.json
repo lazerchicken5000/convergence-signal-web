@@ -1,0 +1,35 @@
+{
+  "id": "td_40e81e60",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/behold-spudcell",
+  "source_url": "https://www.science.org/content/blog-post/behold-spudcell",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Behold the SpudCell",
+  "body_text": "I can’t resist writing about the “SpudCell” preprint that’s made some news the last few days - after all, I have a whole blog category aimed at this sort of thing. And it also lands in my domain because of the way it starts out: “Cells are the fundamental unit of life. Yet there is no natural cell for which all its life-essential functions are understood”. If anything, that’s an understatement, and you can imagine the situation as you move out from the “absolutely essential for life” pathways. This is why all the talk of doing biology and drug discovery with “virtual cells” in software simulation makes me grind my teeth. Now to the SpudCell. Many readers will be familiar with the efforts over the years to prune down existing living cells to the minimum genome/cellular machinery needed to live. I’ve written about this several times, most recently here, and also in these posts. The idea in these efforts has been to start out with a pretty minimal organism right up front, something like a mycoplasma (or perhaps I should say Mollicutes), and to see what can be deleted. As mentioned in those posts, this led to a 2016 paper that got down to 473 genes in a 531kb sized genome, of which 149 genes were of unknown function. A New York Times story on the latest work says that the authors have whittled that list down to 56 mystery genes, after ten years of work. This latest work represents the opposite approach, that is, building from the bottom up. This team from Minnesota reports a 90kb genome inserted into man-made lipid membrane blobs, and they’re using the PURE system (Protein Synthesis Using Recombinant Elements) as described here. They’ve borrowed a DNA replicase from a bacteriophage for that end of things. Taking in nutrients and parts is effected by letting these assemblies encounter protein-tagged nanovesicles that can merge with the lipid membrane. This lets you bring in starting materials for protein synthesis and indeed, whole ribosomes (since the SpudCells don’t make them on their own). Ingeniously, they have also put a lot of effort into a system that causes the lipid membrane vesicles to split once they’ve accumulated enough specific proteins adhering to them, and this is used for a “cell division” process. Getting the initial SpudCells going was a matter of forming those lipid vesicle in a solution of all the necessary components and seeing which ones had scooped up all the necessary parts. These were able to take in more cargo via the nanovesicle fusion evens mentioned above, and then when the protein-adhesion splitting process was applied, the team could then see which of the two new assemblies (or both) had taken the necessary parts along with them during the split. (In actual evolved cells, of course, there is substantial machinery devoted to just this question!) The authors took these through several generations of repeated cycles of feeding and division, with markers in the feeding cycles to mark the generations. They find that new genetic material is indeed synthesized in these assemblies, that it shows up in the daughter SpudCells, and that all the starting plasmids are replicated. Some very interesting experiments were also done with natural-selection ideas. SpudCells that were set up with higher expression of a protein necessary for nanovesicle fusion did indeed produce higher numbers of daughter cells over time, just as you’d predict: the team started out with a 50/50 mix of the “classic” version and the “enhanced” ones, and then took the whole mixture through five cycles of growth and enforced splitting. At the end, the advantaged SpudCell lineage had indeed produced more daughter cells, and was now a majority of the population. (If you don’t go through the feed-and-split cycle, the ratio doesn’t change). And under resource constraints (varying amounts of “feeder” nanovesicles), the advantaged lineage showed even more ability to take over. All this raises some interesting questions about just what constitutes a living system, and it will surely raise some more as refinements are added. The SpudCells need a lot of external intervention to perform these feats, but so do regular living cells - nutrients have to be added, and they have to be passaged into fresh media to keep everything from dying off. “Real” cells can of course make their own ribosomes and do many other processes that SpudCells cannot, but I think we’re going to be moving along a sliding scale there as the system is elaborated. And as that work goes on, there is not going to be a flash of light and a sounding of trumpets to tell you that your SpudCells are Officially Alive. That’s going to be up to us to decide, and we as a species have already spent a considerable amount of effort arguing about that point. For now, it does not seem like an unattainable goal eventually to approach stripped-down-mycoplasma levels of function from this direction, and at that point the two research efforts will meet up and drive in the Golden Spike of actual artificial life. We are going to have to learn a lot more about those mystery genes left in the stripped mycoplasma (a very worthwhile thing) and there will surely be twists along the way that no one is expecting. But it does look as if there’s a path through various levels of life-like, life-ish, and life-oid systems to produce something that a hypothetical cave-dwelling isolated microbiology team would accept as a living creature, albeit an odd one, after being presented with it. A big question will be whether such systems can be harnessed more usefully than genetically altered cells from actual living organisms for things like protein expression, enzymatic activity, chemical feedstock generation, and so many more ideas. Some of those ideas could be really beneficial, and others could be extremely not so. It’s way too early to say how this will go. But it’s not too early to make another prediction: if we do get to this point, some people are going to be very, very unhappy once they learn about it.",
+  "word_count": 1017,
+  "published_at": "2026-07-06T01:56:12.000Z",
+  "ingested_at": "2026-07-07T11:02:23.180Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

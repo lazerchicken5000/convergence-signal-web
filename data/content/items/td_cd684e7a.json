@@ -1,0 +1,39 @@
+{
+  "id": "td_cd684e7a",
+  "source": "arxiv",
+  "source_id": "2607.05346",
+  "source_url": "https://arxiv.org/abs/2607.05346",
+  "content_type": "paper",
+  "creator": {
+    "id": "adriana_laurindo_monteiro",
+    "name": "Adriana Laurindo Monteiro",
+    "handle": "Adriana Laurindo Monteiro, Nayse Fagundes, Gabriel Mattos Langeloh, Gustavo de Oliveira Kanno, Priscila Louise Aguirre, Thiago Costa Rizuti da Rocha, Victor Leme Beltran",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement",
+  "body_text": "OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement\n\nWe propose OptiAgent, a multi-agent framework that, given a natural language description of an Operations Research problem, is able to output a solver-ready mathematical formulation as well as executable code. Our architecture prioritizes the mathematical modeling step, where dedicated agents extract structures, such as decision variables and constraints, enabling iterative self-correction. We introduce a novel multi-loop validation architecture with four specialized feedback mechanisms, each targeting a distinct failure mode such as misinterpretation, structural defects, mathematical inconsistencies, validation failures, and code errors. Alongside accuracy, our modular design improves the process of solving optimization problems by improving transparency, as each agent exposes its reasoning and feedback, making the full modeling process auditable. Our framework achieves state-of-the-art performance on 3 out of 4 benchmarks across LP, MILP, and Nonlinear Programming tasks, while remaining highly competitive on the remaining dataset.\n\nAuthors: Adriana Laurindo Monteiro, Nayse Fagundes, Gabriel Mattos Langeloh, Gustavo de Oliveira Kanno, Priscila Louise Aguirre, Thiago Costa Rizuti da Rocha, Victor Leme Beltran\nCategories: cs.AI, cs.MA, cs.AI",
+  "word_count": 136,
+  "published_at": "2026-07-06T17:27:16Z",
+  "ingested_at": "2026-07-07T11:04:20.359Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.MA",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

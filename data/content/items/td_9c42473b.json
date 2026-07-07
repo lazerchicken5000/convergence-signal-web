@@ -1,0 +1,38 @@
+{
+  "id": "td_9c42473b",
+  "source": "arxiv",
+  "source_id": "2607.05387",
+  "source_url": "https://arxiv.org/abs/2607.05387",
+  "content_type": "paper",
+  "creator": {
+    "id": "andreas_penzkofer",
+    "name": "Andreas Penzkofer",
+    "handle": "Andreas Penzkofer, Franck Cassez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CATs: Secure Blockchain Interoperability with Cross-chain Atomic Transactions",
+  "body_text": "CATs: Secure Blockchain Interoperability with Cross-chain Atomic Transactions\n\nWe propose a protocol for cross-chain atomic transactions (CATs), enabling composable atomic execution across different blockchains. The protocol addresses the key interoperability challenge of providing atomicity guarantees in the presence of asynchronous communication and Byzantine actors. It preserves chain autonomy by allowing each blockchain to maintain its own execution model while participating in coordinated cross-chain operations. The design introduces a shared coordination layer involving sequencers, transaction processors, a coordinator, and a confirmation layer which together ensure that either all parts of a CAT succeed or none do. To prevent unnecessary blocking, we separate transaction execution into accepted and postponed sets, with the coordination layer resolving the outcomes of CATs within a few rounds. We further introduce timeouts and dependency-depth bounds for liveness and mitigation of cascading delays. Our formal analysis establishes strong safety and liveness guarantees and demonstrates that the protocol achieves minimal blocking for independent transactions while ensuring bounded blocking time for dependent transactions. Experimental evaluation shows high CAT success when cross-chain transactions are a modest share of traffic, and characterizes the CAT-lifetime trade-off between success and dependent-transaction latency. This protocol enables fast, secure, and deterministic atomic cross-chain execution while preserving chain autonomy, providing a foundation for scalable blockchain interoperability solutions.\n\nAuthors: Andreas Penzkofer, Franck Cassez\nCategories: cs.DC, cs.DC",
+  "word_count": 202,
+  "published_at": "2026-07-06T17:57:42Z",
+  "ingested_at": "2026-07-07T11:04:32.707Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DC",
+    "cs.DC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_7c8fb370",
+  "source": "arxiv",
+  "source_id": "2607.05320",
+  "source_url": "https://arxiv.org/abs/2607.05320",
+  "content_type": "paper",
+  "creator": {
+    "id": "alejandro_rodriguez_dominguez",
+    "name": "Alejandro Rodriguez Dominguez",
+    "handle": "Alejandro Rodriguez Dominguez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Causal Separation, Conditional Risk, and Projected Markowitz Portfolios",
+  "body_text": "Causal Separation, Conditional Risk, and Projected Markowitz Portfolios\n\nWe formalize a single structural condition on a portfolio problem, causal separation: conditional on the realized path of a declared set of drivers through the investment horizon, asset returns are mutually independent. From this condition we derive the complete static portfolio theory it induces. Separation forces a diagonal-plus-low-rank conditional covariance through an exact tower decomposition, with the low-rank block identified as the response to driver innovations, and the constrained mean-variance problem admits a closed-form projected Markowitz solution in which the classical information matrix is replaced by its projection onto the constraint-compatible subspace. We prove uniqueness of the minimal sufficient separator as an information set; invariance of all derived objects under separator equivalence and reparametrization of the driver state; a conditional efficient-frontier theorem; a Hansen-Jagannathan bound whose gap to the unconstrained bound is an exact quadratic form in the shadow prices of the constraint geometry; a conditioning bound showing that separation regularizes estimation through the idiosyncratic variance floor; and exact first-order sensitivity bounds under approximate separation at a certified tolerance. The causal content is stated and proved rather than assumed: under an explicit structural margin the common causes form a separator, observational data identify their realized information and no more, and causal and correlational separators of equal fit are distinguished by interventions on non-parents. Seven reproducible experiments validate the theory, with structural identities holding at machine precision, and quantify its practical content against sample, shrinkage and principal-component covariances, including robustness, intervention invariance, and scaling to thousands of assets.\n\nAuthors: Alejandro Rodriguez Dominguez\nCategories: q-fin.PM, q-fin.PM",
+  "word_count": 247,
+  "published_at": "2026-07-06T16:59:25Z",
+  "ingested_at": "2026-07-07T11:04:32.708Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "q-fin.PM",
+    "q-fin.PM"
+  ],
+  "domain": "finance",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
