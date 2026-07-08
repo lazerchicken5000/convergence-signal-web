@@ -1,0 +1,35 @@
+{
+  "id": "td_929e3525",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "github-code Web Component",
+  "body_text": "Tool: github-code Web Component\n        An experimental Web Component built using GPT-5.5 and the following prompt:\n\nlet's build a Web Component for embedding code from GitHub\n&lt;github-code href=\"https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18\"&gt;&lt;/github-code&gt;\nIt takes URLs like that, converts them to https://raw.githubusercontent.com/simonw/sqlite-ast/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py, then uses fetch() to fetch them and displays the specified range of lines - with line numbers, no syntax highlighting though\nShow me a preview web browser so I can see your work\n\nHere's what it looks like embedded on this page:\n\n    \n    \n        Tags: github, web-components, gpt",
+  "word_count": 82,
+  "published_at": "2026-07-07T16:18:16.000Z",
+  "ingested_at": "2026-07-08T11:00:09.189Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

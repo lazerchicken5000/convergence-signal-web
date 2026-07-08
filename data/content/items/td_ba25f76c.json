@@ -1,0 +1,39 @@
+{
+  "id": "td_ba25f76c",
+  "source": "arxiv",
+  "source_id": "2607.06532",
+  "source_url": "https://arxiv.org/abs/2607.06532",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiaolei_guo",
+    "name": "Xiaolei Guo",
+    "handle": "Xiaolei Guo, Chenyu Zhou, Jianghao Lin, Dongdong Ge",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GraphBU: MILP Instance Generation with Graph-Native Block Units",
+  "body_text": "GraphBU: MILP Instance Generation with Graph-Native Block Units\n\nMixed-integer linear programming (MILP) instances used for solver development are hard to obtain when models come from private or application-specific pipelines. A generator must keep the structure that solvers and learned policies rely on. Existing general generators usually choose their generation unit from a formulation template, summary statistics, local graph edits, or blocks found after recombination. These units do not explicitly record how a local part of the MILP is coupled to the rest of the instance. We propose GraphBU, a graph-native generator whose basic unit is a local subproblem plus its interface. The method promotes coupling nodes into master constraints or boundary variables and uses the resulting block units for compatibility-checked replacement. The analysis focuses on the properties needed by this construction: promotion separates interfaces, replacement can preserve feasibility under an interface-slack condition, and the graph construction is invariant to row-column permutations. On MILP instances generation, this unit keeps graph statistics close to the source family, preserves feasibility on most datasets, and improves downstream Predict-and-Search training. Genrated by GraphBU, The average graph-statistical similarity was approximately 0.934, the average feasibility was approximately 96.7%, and the average increase in the main index of downstream PS was approximately 8.0%.\n\nAuthors: Xiaolei Guo, Chenyu Zhou, Jianghao Lin, Dongdong Ge\nCategories: cs.LG, math.OC, cs.LG",
+  "word_count": 197,
+  "published_at": "2026-07-07T17:39:06Z",
+  "ingested_at": "2026-07-08T11:04:09.397Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.OC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

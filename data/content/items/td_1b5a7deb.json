@@ -1,0 +1,38 @@
+{
+  "id": "td_1b5a7deb",
+  "source": "arxiv",
+  "source_id": "2607.06552",
+  "source_url": "https://arxiv.org/abs/2607.06552",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiaju_han",
+    "name": "Jiaju Han",
+    "handle": "Jiaju Han, Ma Yaqi, Yahui Chai, Xuemeng Sun, Xin Li, Qike Zhang, Yingying Zhao, Xiang Chen, Luwei Yang, Chengyin Hu, Jiahuan Long",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MonoIR-RS: Infrared Remote Sensing Vision-Language Learning with CLIP and VLM Adaptation",
+  "body_text": "MonoIR-RS: Infrared Remote Sensing Vision-Language Learning with CLIP and VLM Adaptation\n\nInfrared remote-sensing imagery captures intensity structure, object-background contrast, and illumination-invariant cues often invisible in RGB imagery. Yet, most remote-sensing vision-language resources and models focus on visible-band semantics, leaving infrared vision-language understanding underexplored. We introduce MonoIR-RS, a large-scale infrared remote-sensing vision-language dataset and benchmark that couples IR-aware data construction with CLIP-style contrastive adaptation and VLM instruction tuning. Built from the same source pool and split as FusionRS, MonoIR-RS retains the infrared image as the model-facing modality, yielding 600,000 synthesized infrared images and 59,032 retained IR-aware caption records. The model experiments use this retained language-supervision subset, whose captions rewrite supervision around grayscale structure and infrared-style contrast instead of RGB appearance. We show that the synthesized infrared imagery is markedly closer to real thermal imagery than a grayscale conversion on the AVIID benchmark. We fine-tune five CLIP backbones and six VLM backbones, and calibrate them against zero-shot behavior: IR-aware adaptation lifts CLIP mean recall by up to 12.8 points and drives VLM captioning IR-cue coverage to 100% while reducing residual RGB-color leakage to near zero. By isolating the infrared modality from RGB-IR dual-modal learning, MonoIR-RS offers a controlled, reproducible testbed for aligning infrared remote-sensing evidence with language.\n\nAuthors: Jiaju Han, Ma Yaqi, Yahui Chai, Xuemeng Sun, Xin Li, Qike Zhang, Yingying Zhao, Xiang Chen, Luwei Yang, Chengyin Hu, Jiahuan Long\nCategories: cs.CV, cs.CV",
+  "word_count": 194,
+  "published_at": "2026-07-07T17:53:58Z",
+  "ingested_at": "2026-07-08T11:04:21.789Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

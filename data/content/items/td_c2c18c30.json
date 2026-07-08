@@ -1,0 +1,39 @@
+{
+  "id": "td_c2c18c30",
+  "source": "arxiv",
+  "source_id": "2607.06535",
+  "source_url": "https://arxiv.org/abs/2607.06535",
+  "content_type": "paper",
+  "creator": {
+    "id": "fan_zhang",
+    "name": "Fan Zhang",
+    "handle": "Fan Zhang, Richie Suganda, Jinfeng Chen, Wenhua Liu, Hantao Fu, Bin Hu, Qin Lin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Neural-ESO: A Dual-Pathway Architecture for Provably Robust Learning-Based Control",
+  "body_text": "Neural-ESO: A Dual-Pathway Architecture for Provably Robust Learning-Based Control\n\nA learning-enabled disturbance-rejection framework based on a Neural Extended State Observer (Neural-ESO) is presented in this letter. Unlike existing learning-based control methods that largely rely on the learned model once deployed, Neural-ESO adopts a dual-pathway architecture: a predictive pathway uses a neural network to provide a feedforward disturbance estimate that accelerates convergence, while a corrective pathway employs a conventional ESO to compensate prediction errors and prevent over-reliance on the neural component. Using Lyapunov theory and a small-gain analysis, we show that enforcing a Lipschitz bound on the learning component guarantees uniform ultimate boundedness of the closed-loop error dynamics. The proposed framework is validated on a quadrotor landing task subject to strong ground-effect disturbances across normal and out-of-distribution scenarios, demonstrating accuracy-robustness trade-off and greater operational reliability during training, deployment, and transfer compared with state-of-the-art baselines.\n\nAuthors: Fan Zhang, Richie Suganda, Jinfeng Chen, Wenhua Liu, Hantao Fu, Bin Hu, Qin Lin\nCategories: cs.RO, eess.SY, cs.RO",
+  "word_count": 134,
+  "published_at": "2026-07-07T17:41:38Z",
+  "ingested_at": "2026-07-08T11:04:27.963Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "eess.SY",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

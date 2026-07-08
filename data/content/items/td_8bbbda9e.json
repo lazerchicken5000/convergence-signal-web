@@ -1,0 +1,40 @@
+{
+  "id": "td_8bbbda9e",
+  "source": "arxiv",
+  "source_id": "2607.06497",
+  "source_url": "https://arxiv.org/abs/2607.06497",
+  "content_type": "paper",
+  "creator": {
+    "id": "przemysław_rola",
+    "name": "Przemysław Rola",
+    "handle": "Przemysław Rola",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "EntroPath: Maximum Entropy Path Ensemble Embedding for Manifold Learning",
+  "body_text": "EntroPath: Maximum Entropy Path Ensemble Embedding for Manifold Learning\n\nWe introduce EntroPath, a manifold learning method that recovers geodesic geometry from data graphs through ensembles of diffusion paths. Many existing graph-based embeddings rely either on locally normalised random walks or on shortest-path distances. The former can concentrate diffusion in densely sampled regions, while the latter are sensitive to spurious shortcut edges in the graph. EntroPath instead builds its dissimilarities from the maximum entropy random walk (MERW), which aggregates the full ensemble of k-step paths between points rather than relying on any single trajectory. We show that the resulting free-energy dissimilarity converges to squared geodesic distance in the short-time limit, via Varadhan's heat-kernel formula. The diffusion depth k interpolates smoothly between local neighbourhood structure and global manifold geometry, and the symmetrised kernel admits an exact Gram factorisation connecting EntroPath to kernel methods. We further provide scalable extensions via landmark projection and diffusion-potential pseudotime. Across synthetic manifolds and single-cell benchmarks, EntroPath consistently matches or outperforms diffusion- and shortest-path-based methods, while remaining competitive with neighbourhood-preserving embeddings (UMAP, t-SNE) on local-structure metrics. Its gains are most pronounced on manifolds with non-uniform sampling density and well-separated branching trajectories, where path-ensemble diffusion more faithfully preserves the underlying geodesic geometry.\n\nAuthors: Przemysław Rola\nCategories: cs.LG, q-bio.QM, stat.ML, cs.LG",
+  "word_count": 194,
+  "published_at": "2026-07-07T16:58:00Z",
+  "ingested_at": "2026-07-08T11:04:09.397Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "q-bio.QM",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
