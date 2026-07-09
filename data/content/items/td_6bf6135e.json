@@ -1,0 +1,39 @@
+{
+  "id": "td_6bf6135e",
+  "source": "arxiv",
+  "source_id": "2607.07557",
+  "source_url": "https://arxiv.org/abs/2607.07557",
+  "content_type": "paper",
+  "creator": {
+    "id": "yazdan_jamshidi",
+    "name": "Yazdan Jamshidi",
+    "handle": "Yazdan Jamshidi, Alexey Shvets",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PALS: Percentile-Aware Layerwise Sparsity for LLM Pruning",
+  "body_text": "PALS: Percentile-Aware Layerwise Sparsity for LLM Pruning\n\nOne-shot pruning methods like Wanda and SparseGPT apply the same sparsity ratio to every layer of a transformer, ignoring known variation in layer importance. We propose PALS (Percentile-Aware Layerwise Sparsity), which adjusts per-layer sparsity based on the 99th percentile of activation magnitudes, bounded to $\\pm 5\\%$ around the target ratio. On LLaMA-2-7B at 50\\% sparsity, PALS achieves 10.96 WikiText-2 perplexity versus 12.92 for uniform Wanda (mean over 9 runs, $p &lt; 0.001$). The benefit is architecture-dependent: LLaMA-3-8B shows marginal gains and Mistral-7B shows none. We also find that gradient-based allocation -- the seemingly more principled approach -- produces results worse than random, suggesting that gradient magnitude does not predict the impact of discrete weight removal. PALS adds negligible cost to the pruning pipeline and requires no fine-tuning.\n\nAuthors: Yazdan Jamshidi, Alexey Shvets\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 127,
+  "published_at": "2026-07-08T15:51:57Z",
+  "ingested_at": "2026-07-09T11:04:08.259Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

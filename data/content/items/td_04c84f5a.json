@@ -1,0 +1,40 @@
+{
+  "id": "td_04c84f5a",
+  "source": "arxiv",
+  "source_id": "2607.07694",
+  "source_url": "https://arxiv.org/abs/2607.07694",
+  "content_type": "paper",
+  "creator": {
+    "id": "gil_kur",
+    "name": "Gil Kur",
+    "handle": "Gil Kur, Reese Pathak",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Minimum Norm Interpolation via The Local Theory of Banach Spaces: The Role of Gaussianity",
+  "body_text": "Minimum Norm Interpolation via The Local Theory of Banach Spaces: The Role of Gaussianity\n\nWe study minimum-norm interpolation (MNI) in overparameterized linear regression with isotropic Gaussian covariates, in settings where the MNI has no closed-form formula. Whereas most prior work relied on Gaussian comparison tools such as the convex Gaussian min--max theorem (CGMT), our approach uses tools from high-dimensional geometry and probability. First, when the norm is in isotropic position, we obtain an ``offset'' bound that controls the amount by which the MNI shrinks the ground truth. Second, we show that the ``intrinsic'' variance of the $\\ell_1$-MNI is at most $O(\\tfrac{1}{n\\log(d/n)^2})$, using a variant of Talagrand's $L_1$--$L_2$ inequality due to Cordero-Erausquin and Ledoux [2012], together with a classical result of Gluskin [1988]. We recover the sharp mean-squared error (MSE) bound for the $\\ell_1$-MNI obtained by Wang et al. [2022], using the work of Fleury [2012] on the symmetric Gaussian polytope, which is defined via \\[ P_{n,d} := \\mathrm{conv}\\{\\pm X_i\\}_{i=1}^{d} \\text{ where } X_i \\overset{\\mathrm{i.i.d.}}{\\sim} N(0,\\mathrm{I}_{n \\times n}), \\] rather than CGMT. Our methods also imply improvements on previous results in high-dimensional geometry that may be of independent interest. First, we show that with overwhelming probability, the ratio between the isotropic constant of $P_{n,d}$ and that of the Euclidean ball in $\\mathbb{R}^n$ is at most $1+O((\\log(d/n))^{-2})$, improving a result of Klartag and Kozma [2009]. We also establish a refined weighted thin-shell estimate on $P_{n,d}$, and provide an elementary proof of the main theorem of Fleury [2012].\n\nAuthors: Gil Kur, Reese Pathak\nCategories: math.ST, math.MG, math.PR, math.ST",
+  "word_count": 231,
+  "published_at": "2026-07-08T17:50:15Z",
+  "ingested_at": "2026-07-09T11:04:47.946Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "math.MG",
+    "math.PR",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

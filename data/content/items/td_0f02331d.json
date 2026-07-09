@@ -1,0 +1,38 @@
+{
+  "id": "td_0f02331d",
+  "source": "arxiv",
+  "source_id": "2607.07632",
+  "source_url": "https://arxiv.org/abs/2607.07632",
+  "content_type": "paper",
+  "creator": {
+    "id": "ivan_donchev_kabadzhov",
+    "name": "Ivan Donchev Kabadzhov",
+    "handle": "Ivan Donchev Kabadzhov, Eugenio Marinelli, Raja Appuswamy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Custom-Fit to Portable: Bridging the Gap Between Synthesized and Engineered GPU Query Execution",
+  "body_text": "From Custom-Fit to Portable: Bridging the Gap Between Synthesized and Engineered GPU Query Execution\n\nGPUs are increasingly used for analytical query processing, but developing GPU-based database engines that achieve the peak performance of the underlying hardware requires substantial research and engineering effort. A recent line of work argues that query processing should be synthesized, not engineered. In this scenario, instead of tuning a general-purpose engine to fit a workload, a large language model (LLM) generates code specialized to one query, one dataset, and one machine, thereby achieving an order-of-magnitude improvement in performance. This thesis, however, has so far been tested only on CPUs. In this work, we revisit the synthesize-versus-engineer debate for GPU analytics by answering three questions: (i) how good is synthesized GPU code?, (ii) why is it faster than engineered engines?, and (iii) how much of its advantage can be transferred back into a single, performance-portable engine? To answer the first question, we present SHADB, an LLM-based synthesis framework that generates optimized CUDA or HIP kernels using an automated, profile-guided optimization loop. Using SHADB, we show that the synthesized code approaches the memory-bandwidth ceiling and outperforms a state-of-the-art JIT-compiled GPU database engine (HeavyDB) by 7.4$\\times$ on SSB SF100. To answer the second question, we decompose this performance gap and systematically classify optimizations as generalizable or workload-specific. Finally, to answer the third question, we integrate these generalizable optimizations into SYCLDB, a performance-portable engine written entirely in the open SYCL programming model. Using optimized SYCLDB, we show that it is possible to substantially bridge the gap to synthesized code (within 1.27$\\times$ total execution time) while retaining workload-level generality and hardware-level performance portability.\n\nAuthors: Ivan Donchev Kabadzhov, Eugenio Marinelli, Raja Appuswamy\nCategories: cs.DB, cs.DB",
+  "word_count": 258,
+  "published_at": "2026-07-08T16:47:31Z",
+  "ingested_at": "2026-07-09T11:04:35.693Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DB",
+    "cs.DB"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_bc71b4a5",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/turning-down-refinery-heat",
+  "source_url": "https://www.science.org/content/blog-post/turning-down-refinery-heat",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Turning Down the Refinery Heat",
+  "body_text": "I wrote here a few years ago about the rather startling idea of purifying crude oil (and such mixtures) by doing something other than distilling them, which takes out progressively high-boiling fractions. You can get pretty far that by that technique (waves hands around the horizon at all of modern civilization, which is in several ways built on hydrocarbon fractionation), but it’s a messy, energy-intensive process in itself. And it produces significant waste itself, not least of which are large carbon dioxide emissions even before anyone gets their hands on any gasoline etc. Better ways to do this would come in very handy indeed. That 2022 post talks about running crude oil through a membrane separation instead, the idea being that the smaller, lighter fractions would be able to pass through while everything else stays behind. An idealized mental picture of this would be pouring dark, thick crude into a filter apparatus, and standing back while a light, clear hydrocarbon fraction drips out the bottom. That’s not quite what we’re up to yet, needless to say, but the idea is not at all a crazy one, and there’s been a significant amount of work going into it. Here’s a new paper with an update. As you’d imagine, a key factor in getting this to work is going to be the size and composition of the pores in those magical membranes, and a key difficulty is going to be watching them quickly clog up with gunk (which, broadly put, constitutes a fair amount of any given crude oil sample!) That’s because those lighter fractions are (perforce) made up of smaller molecules, whereas the heavier ones have longer carbon chains and polyaromatic rings in them (i.e., the molecules are simply larger, which higher molecular weights). So you’d figure fine, I’ll make me some membranes with single-digit-nanometer pores in them, problem solved. Except you know what all those higher-molecule-weight compounds can be really good at doing? Plugging up ingle-digit-nanometer pores, right. Ingeniously, this new paper just sort of rolls with that problem. The authors eschew the relatively more complex membrane compositions that have been under study and go back to porous polyacrylonitrile (PAN) ones, a much simpler material. PAN has often been the supporting core material for crude oil fractionation ideas, with other compositions layered on top of it. It’s exactly the stuff that you might use to filter solvents before running through an HPLC system, and the team here wondered if it might be playing a larger role in fractionation work than had been appreciated. They seem to have been correct. Experiments with various PAN membranes and flow conditions across them showed that they were surprisingly good at enforcing a molecular weight cutoff, and their performance actually improved (or at least did not degrade) under higher pressure. This allows for substantially higher throughput (greater than tenfold previous benchmarks) while maintaining separation efficiency. There are a lot of subtle effects in how the “super-high boilers” (boiling greater than 600 degrees C, so they’re well named) are rejected in favor of the lower-boiling fractions (down to the “naptha” cut boiling at under 200C), but one thing that was noticed quickly was the the initial liquid coming through was still quite dark, but then lightened considerably for the rest of the run. t turns out that a thin layer of higher-boiling material coats the insides of the pores of the PAN membranes as the first material is sent through, and analysis of the conditioned membranes suggests that this is made of up high-boiling long-chain alkanes, rather than polyaromatic material. The authors could actually wash this off with straight toluene, giving a PAN membrane with the original behavior that was apparently no worse for the treatment. It appears that the original PAN pores of around 15nm are narrowed to 2nm or below by this adsorption layer, and both the size and the chemical characteristics of the “new” pores are responsible for the separations. So you just need to clog things up a bit, the right way, and you’re in good shape. Who knew? The authors go on to show that you don’t have to wait for this to be completely worked out as a distillation-replacement strategy: they tried it out as a pretreatment for crude oil before heading into the traditional distillation setups, and looks like it’ll save a substantial amount of energy and release substantially less carbon dioxide to get the heaviest cut out of there first by a room-temperature membrane-pumping step. Nice work!",
+  "word_count": 749,
+  "published_at": "2026-07-08T03:33:54.000Z",
+  "ingested_at": "2026-07-09T11:02:22.713Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

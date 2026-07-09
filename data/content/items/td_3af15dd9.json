@@ -1,0 +1,39 @@
+{
+  "id": "td_3af15dd9",
+  "source": "arxiv",
+  "source_id": "2607.07648",
+  "source_url": "https://arxiv.org/abs/2607.07648",
+  "content_type": "paper",
+  "creator": {
+    "id": "fumihiro_imoto",
+    "name": "Fumihiro Imoto",
+    "handle": "Fumihiro Imoto",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Semilocal exchange functionals from the exact-exchange condition for the hydrogen atom: Hydrogenic exactness and recovery of Rydberg-like bound states",
+  "body_text": "Semilocal exchange functionals from the exact-exchange condition for the hydrogen atom: Hydrogenic exactness and recovery of Rydberg-like bound states\n\nIn semilocal density functionals the exchange potential decays too rapidly outside atoms and molecules and lacks the correct $-1/r$ tail; as a consequence, functionals from PBE to modern meta-GGAs such as SCAN support no bound Rydberg-like state of an atom. We revisit the gradient-corrected exchange functional that Gill and Pople (GP93) constructed to reproduce the exact exchange potential of the hydrogen atom, solve their equation as an inverse problem, and use the resulting enhancement factor -- the GP93 factor -- as a tail-generating ingredient of a switched semilocal functional. The GP93 factor is exact on the hydrogen $1s$ density and, by uniform coordinate scaling, on hydrogenic $1s$ ions, where it yields the eigenvalue $-Z^2/2$ exactly (hydrogenic exactness). Its large-gradient growth has the hydrogen-exact form $O[s(\\ln s)^{2/3}]$, distinct from the $s\\ln s$ form of Armiento and Kümmel. The factor is combined with a kinetic-energy-density indicator so that its divergent branch acts only in one-electron-like regions; the GP93 ingredient is nonempirical, while a few switching parameters are calibrated to balance tail recovery against self-consistent-field stability. The resulting functional produces Rydberg-like series of bound virtual Kohn--Sham states in systems whose outermost shell is a one-electron-like $s$ shell -- all-electron H and He, and Li, Na, and K with large-core pseudopotentials -- and moves the highest-occupied eigenvalue toward the experimental ionization energy. For $p$-shell atoms (Ne, Ar) the switch closes, so the domain of applicability is fixed by design. Fixed-density tests indicate that a reduced-Laplacian switch distinguishes atomic tails from covalent bond centers, and that a density-only kinetic-energy functional renders the entire switch orbital-independent, so that no generalized Kohn--Sham solver is required.\n\nAuthors: Fumihiro Imoto\nCategories: physics.comp-ph, cond-mat.mtrl-sci, physics.comp-ph",
+  "word_count": 268,
+  "published_at": "2026-07-08T17:05:31Z",
+  "ingested_at": "2026-07-09T11:04:47.947Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.comp-ph",
+    "cond-mat.mtrl-sci",
+    "physics.comp-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
