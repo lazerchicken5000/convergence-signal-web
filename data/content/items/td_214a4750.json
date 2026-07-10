@@ -1,0 +1,41 @@
+{
+  "id": "td_214a4750",
+  "source": "arxiv",
+  "source_id": "2607.08746",
+  "source_url": "https://arxiv.org/abs/2607.08746",
+  "content_type": "paper",
+  "creator": {
+    "id": "duen_horng_chau",
+    "name": "Duen Horng Chau",
+    "handle": "Duen Horng Chau, Donghao Ren, Fred Hohman, Dominik Moritz",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP's kNN Graph",
+  "body_text": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP's kNN Graph\n\nWhile UMAP is widely used for exploring high-dimensional data, typical workflows focus on its lower-dimensional embedding, largely overlooking the rich k-nearest-neighbor (kNN) graph that UMAP constructs internally. This graph encodes the data manifold in its original high-dimensional space, before the distortion that UMAP's 2D projection introduces. We demonstrate the untapped potential of this internal representation, showing how standard graph algorithms applied to this graph enhance data sensemaking: (1) PageRank identifies representative data points, (2) k-core decomposition reveals dense core regions versus sparse periphery, and (3) clustering coefficient detects tight-knit neighborhoods with highly-similar data points. Through quantitative and qualitative evaluation on MNIST and Fashion MNIST, we show that these graph-based analyses are not only practical but also competitive with or complementary to purpose-built methods (e.g., k-medoids for exemplar selection, HDBSCAN for density-based clustering).\n\nAuthors: Duen Horng Chau, Donghao Ren, Fred Hohman, Dominik Moritz\nCategories: cs.LG, cs.AI, cs.DS, cs.HC, cs.LG",
+  "word_count": 132,
+  "published_at": "2026-07-09T17:47:08Z",
+  "ingested_at": "2026-07-10T11:04:16.453Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.DS",
+    "cs.HC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

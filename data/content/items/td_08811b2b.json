@@ -1,0 +1,38 @@
+{
+  "id": "td_08811b2b",
+  "source": "arxiv",
+  "source_id": "2607.08753",
+  "source_url": "https://arxiv.org/abs/2607.08753",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_berg_thomsen",
+    "name": "Daniel Berg Thomsen",
+    "handle": "Daniel Berg Thomsen, Manu Upadhyaya, Baptiste Goujaud, Aymeric Dieuleveut, Adrien Taylor",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Finding Simple Proofs for First-Order Optimization",
+  "body_text": "Finding Simple Proofs for First-Order Optimization\n\nProgress in mathematics often requires more than a certificate of truth: it requires proof structures that are transparent, checkable, and reusable. Automated systems can increasingly certify that a result is true; what they typically return, however, is a dense certificate rather than an interpretable, reusable proof structure. Recent work on performance estimation problems has shown that performance bounds and complexity analyses of first-order optimization methods can be discovered by searching over a structured space of Lagrangian dual certificates. We cast the search for simpler proof structures as a second-stage optimization problem over these certificates. Starting from dual certificates, we develop post-processing procedures using tools from sparse optimization and statistical learning. We measure complexity through features such as active hypotheses and residual structure, and introduce methods based on exhaustive sparsification, weighted $\\ell_1$-type heuristics, and semidefinite programming (SDP) formulations for discovering simple proofs and intermediate lemmas. Examples on gradient descent, proximal methods, and fast-gradient methods show that these procedures can autonomously prune redundant inequalities, reveal structured proof patterns, and, in the proximal setting, recover Lyapunov functions as intermediate lemmas that lead to simple, streamlined proofs. By distilling dense machine-generated certificates into compact proof structures, this workflow acts as a pre-processing step for the final proof, reducing the complexity that must be managed during human interpretation, reuse, and formalization.\n\nAuthors: Daniel Berg Thomsen, Manu Upadhyaya, Baptiste Goujaud, Aymeric Dieuleveut, Adrien Taylor\nCategories: math.OC, math.OC",
+  "word_count": 216,
+  "published_at": "2026-07-09T17:51:07Z",
+  "ingested_at": "2026-07-10T11:04:41.053Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

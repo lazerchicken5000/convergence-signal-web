@@ -1,0 +1,39 @@
+{
+  "id": "td_d8889a9a",
+  "source": "arxiv",
+  "source_id": "2607.08756",
+  "source_url": "https://arxiv.org/abs/2607.08756",
+  "content_type": "paper",
+  "creator": {
+    "id": "nathan_pruyne",
+    "name": "Nathan Pruyne",
+    "handle": "Nathan Pruyne, Benjamin Stoler, William Chen, Chien-yu Huang, Shinji Watanabe, Chris Donahue",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music",
+  "body_text": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music\n\nWe present MulTTiPop, a dataset of pop music segments and their associated multitrack MIDI recordings for the evaluation of automatic music transcription models. MulTTiPop contains 572 segments of popular music totaling 3.5 hours of audio, and contains songs from diverse genres and decades from the 1930s to 2000s. To collect this dataset, we perform metadata-based matching on song segments from the Lakh MIDI and TheoryTab datasets, manually identify an anchor beat between the audio and MIDI, then use beat tracking on the audio and warp the MIDI to match its tempo and timing. We evaluate state-of-the-art automatic music transcription models on MulTTiPop and find substantial room for improvement, with the best model achieving 38% Onset F1. More details and sound examples of MulTTiPop are available at https://gclef-cmu.org/multtipop.\n\nAuthors: Nathan Pruyne, Benjamin Stoler, William Chen, Chien-yu Huang, Shinji Watanabe, Chris Donahue\nCategories: cs.SD, cs.LG, cs.SD",
+  "word_count": 127,
+  "published_at": "2026-07-09T17:55:33Z",
+  "ingested_at": "2026-07-10T11:04:28.595Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.LG",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

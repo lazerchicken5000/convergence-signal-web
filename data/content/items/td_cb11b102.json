@@ -1,0 +1,39 @@
+{
+  "id": "td_cb11b102",
+  "source": "arxiv",
+  "source_id": "2607.08540",
+  "source_url": "https://arxiv.org/abs/2607.08540",
+  "content_type": "paper",
+  "creator": {
+    "id": "ahmed_rayane_kebir",
+    "name": "Ahmed Rayane Kebir",
+    "handle": "Ahmed Rayane Kebir, Jose G. Moreno, Lynda Tamine",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Improving Ad-hoc Search Effectiveness for Conversational Information Retrieval via Model Merging",
+  "body_text": "Improving Ad-hoc Search Effectiveness for Conversational Information Retrieval via Model Merging\n\nConversational information retrieval is challenging since it requires the consideration of the conversation history which potentially gives rise to topic shifts and coreference resolution across previous turns. To address these challenges, previous work mainly rely on traditional fine-tuning of ad-hoc retrievers on conversational datasets or extrapolates their generalizability through multi-tasking. However, this mainstream approach is costly - since it requires model re-training - and exhibits catastrophic forgetting, where the model loses its foundational ad-hoc retrieval performance. In this paper, we fill this gap by introducing model merging as a training-free strategy enabling the design of a single retrieval model that operates across both ad-hoc and conversational settings with no additional fine-tuning. We conduct experiments using linear and non-linear parameter-wise merging strategies - namely Model Soup and Slerp - on standard ad-hoc search and conversational retrieval datasets. Our results demonstrate that model merging significantly enhances the ad-hoc search capabilities of conversational retrievers while improving generalizability across task-specific datasets, achieving up to 15% higher NDCG@3 under zero-shot conditions.\n\nAuthors: Ahmed Rayane Kebir, Jose G. Moreno, Lynda Tamine\nCategories: cs.IR, cs.CL, cs.IR",
+  "word_count": 166,
+  "published_at": "2026-07-09T14:35:14Z",
+  "ingested_at": "2026-07-10T11:04:22.573Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.CL",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

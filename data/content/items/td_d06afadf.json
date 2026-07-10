@@ -1,0 +1,38 @@
+{
+  "id": "td_d06afadf",
+  "source": "arxiv",
+  "source_id": "2607.08705",
+  "source_url": "https://arxiv.org/abs/2607.08705",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenbo_xu",
+    "name": "Wenbo Xu",
+    "handle": "Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Wei Lu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales",
+  "body_text": "HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales\n\nRapid advancements in video diffusion models and temporal editing tools have enabled the generation of highly realistic human-centric videos, posing unprecedented challenges to digital content forensics. Existing benchmarks primarily focus on either face-swapping or global text-to-video synthesis, overlooking the crucial dimensions of human-object or human-human interactions and multi-modal alignment. To address these limitations, we introduce HumanForge, a unified, large-scale, and multi-paradigm human-centric video forgery dataset. To construct and annotate this dataset without labor-intensive manual labeling or hallucinated monolithic prompts, we propose Gen2Anno, a modular active multi-agent pipeline built on LangGraph. Gen2Anno coordinates six specialized agents-ranging from source profiling to MoE-based reference analysis and closed-loop forensic verification-to generate over 18K high-fidelity video segments and produce structured, contrastive omni-annotations containing binary decisions, fine-grained artifact categories, and spatio-temporal localization. Extensive benchmarks using state-of-the-art traditional detectors and Large Multimodal Models (LMMs) demonstrate the significant challenges of zero-shot generalization and fine-grained reasoning on HumanForge. Code and dataset will be publicly released.\n\nAuthors: Wenbo Xu, Zhimin Chen, Xiaojie Liang, Hengrui Liu, Wei Lu\nCategories: cs.CV, cs.CV",
+  "word_count": 156,
+  "published_at": "2026-07-09T17:12:41Z",
+  "ingested_at": "2026-07-10T11:04:34.832Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

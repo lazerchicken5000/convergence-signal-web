@@ -1,0 +1,39 @@
+{
+  "id": "td_d251d5a3",
+  "source": "arxiv",
+  "source_id": "2607.08754",
+  "source_url": "https://arxiv.org/abs/2607.08754",
+  "content_type": "paper",
+  "creator": {
+    "id": "david_gonzález-martínez",
+    "name": "David González-Martínez",
+    "handle": "David González-Martínez, Shiwei Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
+  "body_text": "SLORR: Simple and Efficient In-Training Low-Rank Regularization\n\nLow-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-time low-rank regularizers can improve compressibility, but they often require SVDs of large weight matrices, modify the model architecture (introducing additional trainable parameters), or rely on stateful cached quantities. To address these limitations, we introduce SLORR, a simple, stateless, and architecture-preserving framework for in-training low-rank regularization, instantiated with two main variants based on the Hoyer sparsity metric and the nuclear norm. SLORR directly regularizes the original weight matrices using GPU-friendly approximations for the forward and backward passes of the regularizers, for which we provide approximation guarantees. We first evaluate SLORR on ImageNet-1K across short-horizon continued training of ResNet-50, ViT-B/16, and ViT-L/16, and pretraining of ResNet-18, where SLORR induces compressibility while introducing less than 8% training overhead. We further evaluate SLORR-Hoyer in LLM pretraining at 135M and 560M scales: SLORR-trained compressed models preserve performance substantially better than unregularized models while adding less than 1% average training overhead.\n\nAuthors: David González-Martínez, Shiwei Liu\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 171,
+  "published_at": "2026-07-09T17:51:50Z",
+  "ingested_at": "2026-07-10T11:04:16.453Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

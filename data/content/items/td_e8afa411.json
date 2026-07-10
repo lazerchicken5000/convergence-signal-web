@@ -1,0 +1,38 @@
+{
+  "id": "td_e8afa411",
+  "source": "arxiv",
+  "source_id": "2607.08601",
+  "source_url": "https://arxiv.org/abs/2607.08601",
+  "content_type": "paper",
+  "creator": {
+    "id": "palaash_goel",
+    "name": "Palaash Goel",
+    "handle": "Palaash Goel, Ayush Maheshwari, Tanmoy Chakraborty",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "It Takes a MAESTRO To Prune Bad Experts",
+  "body_text": "It Takes a MAESTRO To Prune Bad Experts\n\nSparsely-activated Mixture-of-Experts (MoE) language models achieve remarkable inference efficiency by activating only a small fraction of parameters per token, yet their full expert banks reside in memory at all times, creating a prohibitive deployment bottleneck. Existing structured pruning methods, largely designed for dense transformers, assess expert importance using locally derived heuristics that are blind to the interdependent nature of MoE routing. We introduce MAESTRO (Markov-chain Approximated Expert Sparsification via Transition-based ROuting), a structured pruning framework designed for MoE architectures that models autoregressive expert activation trajectories as Ergodic Markov chains whose stationary distributions encode cross-layer dependencies, yielding a globally aware importance heuristic. Evaluated across five diverse domains including Safety, Bias, and Ethics, MAESTRO outperforms state-of-the-art baselines by up to 10.61% in average performance retention under a strict 50% compression regime, while exhibiting substantially lower cross-task variance, indicating that global, routing-congruent pruning produces models that generalize more consistently across heterogeneous tasks.\n\nAuthors: Palaash Goel, Ayush Maheshwari, Tanmoy Chakraborty\nCategories: cs.CL, cs.CL",
+  "word_count": 149,
+  "published_at": "2026-07-09T15:32:54Z",
+  "ingested_at": "2026-07-10T11:04:22.573Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_6ce913a6",
+  "source": "arxiv",
+  "source_id": "2607.08726",
+  "source_url": "https://arxiv.org/abs/2607.08726",
+  "content_type": "paper",
+  "creator": {
+    "id": "joshua_kasiri",
+    "name": "Joshua Kasiri",
+    "handle": "Joshua Kasiri, Aaron Smith, Kevin Lorinc, Olof Nebrin, Kazutaka Kimura",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Force convergence in Monte Carlo Lyman-alpha radiative transfer",
+  "body_text": "Force convergence in Monte Carlo Lyman-alpha radiative transfer\n\nMonte Carlo radiative transfer (MCRT) is widely used to model Lyman-alpha (Lya) resonant-line transport, but convergence is difficult to assess in optically thick media where photons undergo many scatterings before escape. This is especially important for internal quantities such as radiative acceleration and the force multiplier, which depend on momentum deposition throughout the gas rather than only on emergent spectra. We study the convergence of Lya MCRT momentum-transfer estimators in static spherical clouds. We first establish diffusion-limit benchmarks for radial acceleration profiles and integrated force multipliers, then develop a moment-based framework for diagnosing convergence from the photon-packet contribution distribution. This framework separates three distinct questions: whether the estimator converges to the correct mean, how large its finite-sampling uncertainty is, and whether the estimated uncertainty is itself stable. We apply this hierarchy to the direct event-based scattering estimator, a gradient-of-energy-density estimator, and a divergence-of-radiation-pressure estimator. Zeroth-order convergence is assessed with profile comparisons, integrated force-multiplier bias, and finite-group relative error. First-order convergence is quantified with fractional error, the photon number required to reach a target precision, and the corresponding runtime requirement. Second-order convergence is tested with the coefficient of variation of variance, which measures the reliability of the variance estimate used in the first-order diagnostics. Core-skipping prescriptions, source geometry, estimator construction, and spatial resolution enter this hierarchy in different ways. Our results provide a practical convergence framework for internal Lya MCRT force calculations and show why statistical precision, computational cost, and physical accuracy must be evaluated separately.\n\nAuthors: Joshua Kasiri, Aaron Smith, Kevin Lorinc, Olof Nebrin, Kazutaka Kimura\nCategories: astro-ph.GA, astro-ph.GA",
+  "word_count": 245,
+  "published_at": "2026-07-09T17:31:44Z",
+  "ingested_at": "2026-07-10T11:04:47.245Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.GA",
+    "astro-ph.GA"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

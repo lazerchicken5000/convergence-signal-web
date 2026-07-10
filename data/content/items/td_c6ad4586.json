@@ -1,0 +1,40 @@
+{
+  "id": "td_c6ad4586",
+  "source": "arxiv",
+  "source_id": "2607.08740",
+  "source_url": "https://arxiv.org/abs/2607.08740",
+  "content_type": "paper",
+  "creator": {
+    "id": "emanuele_quinto",
+    "name": "Emanuele Quinto",
+    "handle": "Emanuele Quinto, Carlo Andrea Rozzi, Francesco Zanitti",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+  "body_text": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows\n\nLarge language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Existing workflow systems already address many execution concerns. This paper proposes a Lisp-inspired but language-independent conceptual model: symbolic forms, object identity, and live-image thinking are used as explanatory lenses, not implementation commitments. In this model, workflow definitions, workflow instances, inference records, context snapshots, and dependency relations are represented as persistent knowledge objects in a shared knowledge substrate. Its central semantic distinction is between derive and infer: derive is deterministic computation over available state; infer is mediated LLM judgment under declared context and executor-controlled capability policy. The result is a preliminary conceptual account of semantic persistence: workflows do not merely produce knowledge and leave traces, but can themselves be represented as inspectable, resumable, and reviewable knowledge objects, while formal transition semantics remain future work.\n\nAuthors: Emanuele Quinto, Carlo Andrea Rozzi, Francesco Zanitti\nCategories: cs.AI, cs.PL, cs.SE, cs.AI",
+  "word_count": 141,
+  "published_at": "2026-07-09T17:40:46Z",
+  "ingested_at": "2026-07-10T11:04:16.453Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.PL",
+    "cs.SE",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

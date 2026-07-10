@@ -1,0 +1,40 @@
+{
+  "id": "td_9e434d99",
+  "source": "arxiv",
+  "source_id": "2607.08743",
+  "source_url": "https://arxiv.org/abs/2607.08743",
+  "content_type": "paper",
+  "creator": {
+    "id": "ming-zhe_han",
+    "name": "Ming-Zhe Han",
+    "handle": "Ming-Zhe Han, Kenta Kiuchi, Masaru Shibata",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SACRA-K: A Performance-Portable Numerical Relativity Code with Kokkos",
+  "body_text": "SACRA-K: A Performance-Portable Numerical Relativity Code with Kokkos\n\nWe present SACRA-K (SimulAtor for Compact objects in Relativistic Astrophysics with Kokkos), a performance-portable numerical relativity code ported from the Fortran code SACRA-MPI to C++ with the Kokkos library. SACRA-K retains the physics and numerical methods of SACRA-MPI, namely a Baumgarte-Shapiro-Shibata-Nakamura (BSSN) spacetime evolution with Z4c constraint propagation and a box-in-box Berger-Oliger adaptive mesh refinement, together with the high resolution shock capturing scheme for the general relativistic hydrodynamics from NANASI, while gaining cross vendor portability. We validate the port against SACRA-MPI across binary black hole, black hole neutron star, and binary neutron star configurations. Across these tests, the waveform discrepancies are well below both the scatter among independent numerical relativity codes and the resolution dependent variation within a given code, and remain at or below the distinguishability threshold of current gravitational-wave detectors; the $π$ symmetry is preserved exactly at the bitwise level; and the gravitational wave phase of the binary neutron star merger exhibits second order convergence. In the smallest test configuration, SACRA-K runs about an order of magnitude faster on the NVIDIA A100 GPU cluster or the AMD MI300A APU cluster than the Fortran SACRA-MPI on the CPU cluster, and we measure its scaling up to 256 accelerator devices.\n\nAuthors: Ming-Zhe Han, Kenta Kiuchi, Masaru Shibata\nCategories: astro-ph.HE, astro-ph.IM, gr-qc, astro-ph.HE",
+  "word_count": 200,
+  "published_at": "2026-07-09T17:45:25Z",
+  "ingested_at": "2026-07-10T11:04:47.245Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.HE",
+    "astro-ph.IM",
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
