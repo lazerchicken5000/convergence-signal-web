@@ -1,0 +1,35 @@
+{
+  "id": "td_fb4f34b2",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "sqlite-utils 4.1",
+  "body_text": "Release: sqlite-utils 4.1\n        The first dot-release since 4.0 a few days ago, introducing a number of minor new features.\n\n\nsqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block of Python code (or a path to a .py file) that defines a rows() function or rows iterable of rows to insert, as an alternative to importing from a file. (#684)\n\n\nsqlite-utils already had features that allow you to pass blocks of Python code as CLI arguments, for example this one for the sqlite-utils convert command:\nsqlite-utils convert content.db articles headline '\ndef convert(value):\n    return value.upper()'\nAllowing blocks of code to generate new rows directly was on obvious extension of that pattern:\nsqlite-utils insert data.db creatures --code '\ndef rows():\n    yield {\"id\": 1, \"name\": \"Cleo\"}\n    yield {\"id\": 2, \"name\": \"Suna\"}\n' --pk id\n\n\n\nsqlite-utils insert and sqlite-utils upsert now accept --type column-name type to override the type automatically chosen when the table is created. This is useful for CSV or TSV columns such as ZIP codes that look like integers but should be stored as TEXT to preserve leading zeros. (#131)\n\n\nA long-standing feature request which turned out to be a simple implementation.\n\n\nNew table.drop_index(name) method and sqlite-utils drop-index command for dropping an index by name. Both accept ignore=True/--ignore to ignore a missing index. (#626)\nsqlite-utils query can now read the SQL query from standard input by passing - in place of the query, for example echo \"select * from dogs\" | sqlite-utils query dogs.db -. (#765)\n\n\nTwo more small features. I had Codex review all open issues and highlight the easiest ones!\n\n\nsqlite-utils upsert can now infer the primary key of an existing table, so --pk can be omitted when upserting into a table that already has a primary key.\n\n\nAnother Codex suggestion, an obvious missing CLI feature from a Python library improvement that shipped in the 4.0 release.\n\n\ntable.transform() and table.transform_sql() now accept strict=True or strict=False to change a table’s SQLite strict mode. Omitting the option preserves the existing mode. (#787)\nThe sqlite-utils transform command now accepts --strict and --no-strict to change a table’s strict mode. (#787)\n\n\nThese two were inspired by Prefer STRICT tables in SQLite by Evan Hahn, which did the rounds on Hacker News today. Evan pointed out that:\n\nUnfortunately, I don’t think there’s a way to ALTER a table to make it strict. I think you have to copy the data out of the non-strict table into the strict one.\n\nThat's exactly what the sqlite-utils transform mechanism does, so I extended it to add the ability to switch tables from strict to non-strict and vice-versa.\nHere's the GPT-5.6 Sol xhigh Codex transcript I used to implement those new strict table features. One of the most useful prompts I ran was this one:\n\nuse uv run python -c and manually exercise the new .transform(strict=) option, see if you can find any edge-cases or bugs\n\nEffectively telling the model to manually test its work, outside of the automated tests it had already written. This turned up two minor issues that we then fixed.\n    \n    \n        Tags: projects, python, sqlite, sqlite-utils, annotated-release-notes, ai-assisted-programming",
+  "word_count": 517,
+  "published_at": "2026-07-11T23:50:20.000Z",
+  "ingested_at": "2026-07-12T11:00:08.934Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
