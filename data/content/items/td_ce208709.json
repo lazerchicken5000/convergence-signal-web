@@ -1,0 +1,38 @@
+{
+  "id": "td_ce208709",
+  "source": "arxiv",
+  "source_id": "2607.09640",
+  "source_url": "https://arxiv.org/abs/2607.09640",
+  "content_type": "paper",
+  "creator": {
+    "id": "jingyi_hu",
+    "name": "Jingyi Hu",
+    "handle": "Jingyi Hu, Yu Gu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SPOT-IC: Improving prediction for interval-censored data via survival probability transfer",
+  "body_text": "SPOT-IC: Improving prediction for interval-censored data via survival probability transfer\n\nAccurate prediction with interval-censored data is particularly challenging when censoring intervals are wide and follow-up is limited, as is common in studies of chronic diseases. Although auxiliary information from source studies may improve prediction in a target study, existing transfer learning methods typically impose restrictive assumptions on model or parameter similarity, or require access to individual-level source data. We propose a novel transfer learning method for interval-censored data that allows arbitrary source models and avoids sharing source data. Our approach transfers survival probability information from source studies through a carefully designed penalty and enables efficient computation via a simple EM algorithm. When multiple source studies are available and their informativeness is unknown, we further develop a data-adaptive aggregation procedure that is robust to negative transfer. Theoretical analysis shows that the proposed estimator attains a faster convergence rate than the target-only estimator whenever at least one source study is sufficiently informative. Extensive simulation studies and an application to data from the Alzheimer's Disease Neuroimaging Initiative demonstrate the effectiveness of our approach.\n\nAuthors: Jingyi Hu, Yu Gu\nCategories: stat.ME, stat.ME",
+  "word_count": 170,
+  "published_at": "2026-07-10T17:36:31Z",
+  "ingested_at": "2026-07-13T11:04:34.014Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_d9db3257",
+  "source": "arxiv",
+  "source_id": "2607.09544",
+  "source_url": "https://arxiv.org/abs/2607.09544",
+  "content_type": "paper",
+  "creator": {
+    "id": "ahmed_oumar_el-shangiti",
+    "name": "Ahmed Oumar El-Shangiti",
+    "handle": "Ahmed Oumar El-Shangiti, Abzal Nurgazy, Hilal AlQuabeh, Nikolai Rozanov, Kentaro Inui",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Count Is There, but Misaligned: Understanding and Correcting Counting Failures in VLMs",
+  "body_text": "The Count Is There, but Misaligned: Understanding and Correcting Counting Failures in VLMs\n\nDespite strong performance on many multimodal tasks, vision-language models (VLMs) still struggle with basic object counting. We investigate whether this reflects missing internal knowledge or a gap between internal representations and verbalized outputs. Training simple probes on activations from four VLMs across five counting datasets reveals that nonlinear probes can reliably detect counting errors, suggesting that VLMs often encode the correct count even when they output the wrong answer. SVCCA analysis shows that probes trained on ground-truth counts and probes trained on model outputs occupy a partially shared activation subspace but read out along misaligned directions. We further validate our findings using a causal steering intervention, proving that strengthening the direction of count-identified probes does improve model counting performance. Motivated by this result, we propose a detector-guided self-correction method that selectively re-prompts the model only when an internal error detector predicts failure. This simple inference-time intervention improves counting accuracy by up to 15.6 absolute percentage points, without any parameter updates. Our results establish activation-based error probing as both a practical tool for improving VLM counting and a mechanistic lens on the gap between internal knowledge and model outputs.\n\nAuthors: Ahmed Oumar El-Shangiti, Abzal Nurgazy, Hilal AlQuabeh, Nikolai Rozanov, Kentaro Inui\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 188,
+  "published_at": "2026-07-10T15:50:54Z",
+  "ingested_at": "2026-07-13T11:04:21.657Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

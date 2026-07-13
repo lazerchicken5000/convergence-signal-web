@@ -1,0 +1,38 @@
+{
+  "id": "td_acd586d7",
+  "source": "arxiv",
+  "source_id": "2607.09603",
+  "source_url": "https://arxiv.org/abs/2607.09603",
+  "content_type": "paper",
+  "creator": {
+    "id": "kunjal_panchal",
+    "name": "Kunjal Panchal",
+    "handle": "Kunjal Panchal, Saayan Mitra, Sunav Choudhary, Victor Bursztyn, Somdeb Sarkhel, Hui Guan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Mosaic: Runtime-Efficient Multi-Agent Embodied Planning",
+  "body_text": "Mosaic: Runtime-Efficient Multi-Agent Embodied Planning\n\nLLM-based multi-agent embodied planning remains impractical due to prohibitively high execution latency. We identify failed actions as the dominant bottleneck, stemming from two core challenges: inaccurate state tracking under partial observability and inefficient coordination that produces redundant or conflicting actions. We introduce Mosaic, a runtime-efficient multi-agent planning framework that addresses both challenges. Mosaic maintains accurate yet lightweight state tracking through agent-centric semantic memory that stores objects in relative coordinates, enabling geometric transformations and coordination. It ensures efficient coordination through Integer Linear Programming that allocates actions at every planning step, enforcing physical feasibility and inter-agent coordination constraints. Across AI2-THOR and search-and-rescue benchmarks, Mosaic achieves 27-32% faster execution, 30-33% fewer LLM calls, 25-31% fewer steps, and 4-10% points higher success rates. These results demonstrate that efficient memory and constraint-guided coordination are critical for scalable, low-latency multi-agent planning.\n\nAuthors: Kunjal Panchal, Saayan Mitra, Sunav Choudhary, Victor Bursztyn, Somdeb Sarkhel, Hui Guan\nCategories: cs.MA, cs.MA",
+  "word_count": 135,
+  "published_at": "2026-07-10T16:57:37Z",
+  "ingested_at": "2026-07-13T11:04:27.820Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.MA",
+    "cs.MA"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

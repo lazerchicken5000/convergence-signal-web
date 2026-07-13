@@ -1,0 +1,38 @@
+{
+  "id": "td_4015b4d4",
+  "source": "arxiv",
+  "source_id": "2607.09635",
+  "source_url": "https://arxiv.org/abs/2607.09635",
+  "content_type": "paper",
+  "creator": {
+    "id": "han_xu",
+    "name": "Han Xu",
+    "handle": "Han Xu, Chenyu Zhou, Zachary Kincaid, David Walker",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Kleene Algebra with Transitive Commutativity Conditions",
+  "body_text": "Kleene Algebra with Transitive Commutativity Conditions\n\nKleene algebra (KA) provides a foundational algebraic framework for reasoning about program structure and control flow. To capture equivalences arising from reordering or independence of actions, Kozen [1996] purposed that KA can be extended with commutativity conditions, that is, equations of the form { ab = ba | (a,b) \\in C }, where C is a binary relation on constant symbols. This paper studies the following question: for which relations C is the equational theory of KA+C decidable? Early related work [Bertoni et al. 1982; Ibarra 1978] showed that regular languages modulo commutativity conditions C are decidable if and only if C is transitive. For Kleene algebra KA and commutativity conditions C, however, the situation is substantially more difficult. Only very recently, Kuznetsov [2023] showed that the equational theory of Kleene algebra KA+C is undecidable under certain specific commutativity conditions, settling the first nontrivial cases more than 25 years after the corresponding problem for KA* +C was resolved by Kozen [1996]. Nevertheless, the decidability problem of KA+C remained open. In this work, we resolve this question completely by showing that the equational theory of KA+C is decidable if and only if C is transitive. Moreover, we strengthen the result in both directions. On the negative side, we show that when C is not transitive, the universality problem for KA+C is already undecidable. On the positive side, we show that for transitive C, the equational theories of KA* +C and KA+C coincide.\n\nAuthors: Han Xu, Chenyu Zhou, Zachary Kincaid, David Walker\nCategories: cs.PL, cs.PL",
+  "word_count": 241,
+  "published_at": "2026-07-10T17:33:24Z",
+  "ingested_at": "2026-07-13T11:04:40.174Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.PL",
+    "cs.PL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

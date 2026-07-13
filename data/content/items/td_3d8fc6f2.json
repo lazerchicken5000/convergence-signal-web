@@ -1,0 +1,38 @@
+{
+  "id": "td_3d8fc6f2",
+  "source": "arxiv",
+  "source_id": "2607.09650",
+  "source_url": "https://arxiv.org/abs/2607.09650",
+  "content_type": "paper",
+  "creator": {
+    "id": "yangting_sun",
+    "name": "Yangting Sun",
+    "handle": "Yangting Sun, Zijun Cui, Yufei Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Revisiting Euler-Angle Regression with Kolmogorov-Arnold Networks",
+  "body_text": "Revisiting Euler-Angle Regression with Kolmogorov-Arnold Networks\n\nIn many real-world systems, including articulated robots and biomechanical models, rotations are defined in joint space and naturally parameterized by Euler angles with bounded ranges. Yet regressing Euler angles remains challenging, as their discontinuities and singularities often destabilize training. In this work, we revisit Euler-angle regression and show that its effectiveness depends critically on the interaction between rotation representation, regression architecture, and domain constraints. We introduce a new framework that combines range-aware Euler modeling with Kolmogorov-Arnold Networks (KAN), which replace fixed node-wise activations with learnable univariate functions on edges. We further provide theoretical analysis indicating that bounded Euler ranges motivate a near-additive structure in the regression function, which favors the additive functional form of KAN, and we confirm this trend empirically. Extensive experiments on controlled rotation regression, object pose estimation, and robotic and human inverse kinematics demonstrate consistent improvements in accuracy, convergence, and efficiency. The code will be publicly available.\n\nAuthors: Yangting Sun, Zijun Cui, Yufei Zhang\nCategories: cs.CV, cs.CV",
+  "word_count": 150,
+  "published_at": "2026-07-10T17:48:06Z",
+  "ingested_at": "2026-07-13T11:04:34.013Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

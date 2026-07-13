@@ -1,0 +1,40 @@
+{
+  "id": "td_a2640386",
+  "source": "arxiv",
+  "source_id": "2607.09634",
+  "source_url": "https://arxiv.org/abs/2607.09634",
+  "content_type": "paper",
+  "creator": {
+    "id": "yacob_medhin",
+    "name": "Yacob Medhin",
+    "handle": "Yacob Medhin, Simone Servadio",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond the Cube: Overlapping Grid Methods for Debris Collision Risk Assessment",
+  "body_text": "Beyond the Cube: Overlapping Grid Methods for Debris Collision Risk Assessment\n\nThe cube method reduces conjunction screening in orbital debris simulations to $\\mathcal{O}(N)$ cost by evaluating only object pairs sharing the same grid cell at each snapshot, but systematically assigns zero collision probability to pairs separated by a cell boundary at that epoch, a failure known as boundary blindness. This paper introduces the Double Cube (DC) method, which recovers boundary-crossing conjunctions through a spatially shifted secondary grid using bin-index lookup alone, preserving $\\mathcal{O}(N)$ complexity. Validated across 8,000 Monte Carlo seeds, DC reduces the blindness rate from $β_{\\mathrm{Cube}} = 9.70\\%$ to $β_{\\mathrm{DC}} = 4.21\\%$; a synchronized experiment confirms the residual is temporal in origin by reaching exactly $0.00\\%$. Removing blindness reveals a systematic per-pair overestimation in the cube formula that blind zero-probability assignments had been masking, suppressing the overall predicted collision rate below the true rate. Two independent corrections are derived and validated: a power-law correction motivated by the Direct Simulation Monte Carlo kinetic theory analogy reduces the calibration error from $12.9\\%$ to $1.9\\%$ at $k = 1$ and $4.0\\%$ at $k = 2$, bracketing perfect calibration from opposite sides; a parameter-free Gaussian correction derived from the pair-distance distribution geometry achieves a residual of $0.08\\%$. Both corrections have been implemented in MOCAT-MC.\n\nAuthors: Yacob Medhin, Simone Servadio\nCategories: astro-ph.EP, astro-ph.IM, physics.comp-ph, astro-ph.EP",
+  "word_count": 200,
+  "published_at": "2026-07-10T17:29:38Z",
+  "ingested_at": "2026-07-13T11:04:40.174Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.EP",
+    "astro-ph.IM",
+    "physics.comp-ph",
+    "astro-ph.EP"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

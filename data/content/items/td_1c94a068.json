@@ -1,0 +1,35 @@
+{
+  "id": "td_1c94a068",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "shot-scraper 1.11",
+  "body_text": "Release: shot-scraper 1.11\n        Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic.\n\n\nserver: processes used by shot-scraper multi and shot-scraper video now wait up to 30 seconds for the target URL to accept connections, polling for port availability and replacing the previous fixed one-second delay. #197\nThe shot-scraper, pdf, html, accessibility and har commands now have a --js-file option for loading JavaScript from a local file, standard input or gh:username/script, as an alternative to --javascriptwhich accepts the string of JavaScript directly as an argument. #192\nshot-scraper multi supports the equivalent js_file: YAML key. \nThe shot-scraper javascript and shot-scraper html commands now have a --timeout option for consistency with other commands. #118\n\n\n    \n    \n        Tags: shot-scraper",
+  "word_count": 138,
+  "published_at": "2026-07-12T23:46:52.000Z",
+  "ingested_at": "2026-07-13T11:00:09.679Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

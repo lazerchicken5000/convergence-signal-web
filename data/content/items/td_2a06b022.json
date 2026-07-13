@@ -1,0 +1,39 @@
+{
+  "id": "td_2a06b022",
+  "source": "arxiv",
+  "source_id": "2607.09641",
+  "source_url": "https://arxiv.org/abs/2607.09641",
+  "content_type": "paper",
+  "creator": {
+    "id": "cláudio_lúcio_do_val_lopes",
+    "name": "Cláudio Lúcio do Val Lopes",
+    "handle": "Cláudio Lúcio do Val Lopes, Lucca Machado da Silva",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection",
+  "body_text": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection\n\nFinancial anomaly detection suffers from extreme class imbalance, causing traditional single-objective algorithms to exhibit ``fraud collapse'', defaulting to the majority class and failing to balance anomaly interdiction with customer friction. To overcome this without distortive data resampling, we propose the Semantic Pareto-DQN, a multi-objective reinforcement learning framework. Our approach synthesizes heterogeneous transaction features into cohesive natural-language narratives, encoded by large language models, thereby producing a robust, scale-invariant state representation. The agent optimizes a vectorial reward that explicitly decouples financial efficacy, operational friction, and semantic discovery. By mapping the continuous Pareto frontier, the system dynamically navigates the asymmetric costs of missed anomalies versus false positives. Empirical evaluations across E-Commerce fraud and UCI Credit datasets show that semantic Pareto-DQN successfully shatters the zero-recall trap. It achieves superior minority-class recall compared to scalarized baselines, providing an alternative to trade bounded operational friction for financial anomaly discovery.\n\nAuthors: Cláudio Lúcio do Val Lopes, Lucca Machado da Silva\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 143,
+  "published_at": "2026-07-10T17:39:00Z",
+  "ingested_at": "2026-07-13T11:04:09.821Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

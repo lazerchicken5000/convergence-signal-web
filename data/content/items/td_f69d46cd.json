@@ -1,0 +1,39 @@
+{
+  "id": "td_f69d46cd",
+  "source": "arxiv",
+  "source_id": "2607.09543",
+  "source_url": "https://arxiv.org/abs/2607.09543",
+  "content_type": "paper",
+  "creator": {
+    "id": "gabriel_mahuas",
+    "name": "Gabriel Mahuas",
+    "handle": "Gabriel Mahuas, Victoria Shevchenko, Ugo Tanielian, Yassir Bendou, Richard Gao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CoCoT-EEG: Contrastive-Pretrained Multiscale Convolutional Transformer for EEG Decoding",
+  "body_text": "CoCoT-EEG: Contrastive-Pretrained Multiscale Convolutional Transformer for EEG Decoding\n\nSelf-supervised pretrained foundation models (FM) have shown early promise for non-invasive electroencephalogram (EEG) decoding applications. Many recent large-scale models converged on the approach of tokenizing raw EEG followed by masked reconstruction pretraining. However, this recipe has been shown to be suboptimal for data, like EEG, with high noise amplitude and information confined to limited dimensions such as narrow frequency bands. Building on this insight, we develop a novel contrastive-pretrained EEG model with multiscale temporal convolution input layers and Transformer encoder blocks (CoCoT). CoCoT matches or beats state-of-the-art reconstruction-pretrained EEG models on extensive benchmark decoding tasks with heterogeneous electrode configurations. Furthermore, CoCoT trained from scratch outperforms previous single-task decoding models and even rivals pretrained models, showcasing the architecture's flexibility and data efficiency. Through systematic ablations, including model architecture and pretraining objective, we demonstrate the viability of contrastive learning for building EEG FMs while suggesting key architectural design considerations, prompting further investigations in alternative large-scale pretraining strategies.\n\nAuthors: Gabriel Mahuas, Victoria Shevchenko, Ugo Tanielian, Yassir Bendou, Richard Gao\nCategories: cs.LG, q-bio.NC, cs.LG",
+  "word_count": 155,
+  "published_at": "2026-07-10T15:48:15Z",
+  "ingested_at": "2026-07-13T11:04:21.657Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "q-bio.NC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

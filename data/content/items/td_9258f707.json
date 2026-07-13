@@ -1,0 +1,38 @@
+{
+  "id": "td_9258f707",
+  "source": "arxiv",
+  "source_id": "2607.09614",
+  "source_url": "https://arxiv.org/abs/2607.09614",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhi_li",
+    "name": "Zhi Li",
+    "handle": "Zhi Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Inunda: A GPU-Native, Agent-enabled, Differentiable Solver for High-Resolution Flood Inundation Modeling",
+  "body_text": "Inunda: A GPU-Native, Agent-enabled, Differentiable Solver for High-Resolution Flood Inundation Modeling\n\nPredicting where floodwater goes and how deep it gets, at high resolution and across large domains, remains computationally expensive with conventional hydraulic solvers, while purely data-driven surrogates are fast but lack physical guarantees and generalize poorly beyond their training events. We present Inunda, a GPU-native flood inundation model that solves the two-dimensional shallow water equations. Inunda uses a mass-conservative local-inertial scheme and runs multi-day events over millions of cells in minutes on a single GPU. Because every operator is autograd-compatible, the solver is differentiable by construction: model parameters can be estimated by gradient descent against gage observations through reverse-mode automatic differentiation of the full simulation. We demonstrate Inunda on three case studies. For a hindcast of Hurricane Harvey (2017) in Harris County, Texas, Inunda matches surveyed high-water marks to a mean absolute error of 0.67 m, competitive with or better than a suite of established flood models, and reaches a median gage water-level Nash Sutcliffe efficiency of +0.72, more than double the +0.31 of the operational National Water Model v3.0. For the July 2025 Central Texas flash flood, Inunda is driven by an 18-member 1-km convection-allowing precipitation ensemble to produce probabilistic flood forecasts whose skill improves systematically as lead time to the crest shortens. For a post-fire flash-flood application in the Rio Ruidoso burn scar, differentiable calibration recovers the saturated hydraulic conductivity as a spatially explicit field at the model's own resolution and traces its multi-year post-fire recovery. Inunda provides an open, end-to-end pipeline for real-event flood modeling that couples the accuracy of physics-based hydraulics with the calibration and coupling advantages of modern differentiable programming.\n\nAuthors: Zhi Li\nCategories: physics.geo-ph, physics.geo-ph",
+  "word_count": 265,
+  "published_at": "2026-07-10T17:13:19Z",
+  "ingested_at": "2026-07-13T11:04:27.820Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.geo-ph",
+    "physics.geo-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

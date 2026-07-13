@@ -1,0 +1,39 @@
+{
+  "id": "td_68ec55bb",
+  "source": "arxiv",
+  "source_id": "2607.09600",
+  "source_url": "https://arxiv.org/abs/2607.09600",
+  "content_type": "paper",
+  "creator": {
+    "id": "kaiji_zhou",
+    "name": "Kaiji Zhou",
+    "handle": "Kaiji Zhou, Ales Leonardis, Yue Feng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+  "body_text": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation\n\nEnhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matching between tasks and the functions of expert models or tools, while overlooking critical factors such as performance variability and cost efficiency among functionally similar alternatives. To address this, we propose Agora, a framework that introduces an incentive-compatible auction mechanism for dynamically allocating tasks to expert models and tools. By treating reasoning steps as tradeable items, Agora enables agents to bid based on their rectified competence-ensuring that critical logic is routed to the most capable solver rather than the most overconfident one. Evaluations across five benchmarks show that Agora improves over matched single-model, routing, and cascade baselines under comparable candidate pools, while exposing a controllable cost-quality trade-off through a single auction parameter.\n\nAuthors: Kaiji Zhou, Ales Leonardis, Yue Feng\nCategories: cs.AI, cs.CL, cs.AI",
+  "word_count": 140,
+  "published_at": "2026-07-10T16:54:52Z",
+  "ingested_at": "2026-07-13T11:04:09.822Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

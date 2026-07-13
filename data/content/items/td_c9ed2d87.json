@@ -1,0 +1,39 @@
+{
+  "id": "td_c9ed2d87",
+  "source": "arxiv",
+  "source_id": "2607.09501",
+  "source_url": "https://arxiv.org/abs/2607.09501",
+  "content_type": "paper",
+  "creator": {
+    "id": "sadie_barlow",
+    "name": "Sadie Barlow",
+    "handle": "Sadie Barlow, Andrea Nini, Edoardo Manino",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Normalisation-Based Likelihood Ratio Estimation for Forensic Authorship Verification",
+  "body_text": "Normalisation-Based Likelihood Ratio Estimation for Forensic Authorship Verification\n\nAuthorship verification (AV) is the task of determining whether two texts were written by the same author. In a forensic context, the strength of AV evidence can be quantified using likelihood ratios. Most AV methods are score-based and deriving well-calibrated likelihood ratios from these scores requires a separate calibration model. This, in turn, requires additional amounts of case-relevant data, which is often time-consuming to obtain and prepare. This study proposes two novel normalisation techniques, the Square Root Correction and the Hapax Correction, for deriving likelihood ratios from the AV method LambdaG without the need of a calibration model (Nini et al. 2026). These corrections are designed to mitigate the overestimation of evidential strength that may result from long or highly repetitive texts. Performance is evaluated against logistic regression calibration across fifteen corpora and a range of text lengths (100-9,500 tokens), using the log-likelihood ratio cost (Cllr). The proposed methods achieve performance comparable to logistic regression calibration, with the Hapax Correction outperforming it in approximately 45% of tests (weighted by corpora). Furthermore, performance was more frequently close (within 5%) when the Hapax Correction was outperformed by logistic regression calibration, compared with the reverse comparison. Eliminating the need to train a calibration model reduces data-requirements, time and complexity, thereby increasing the accessibility and transparency of forensic text comparison. This combination of empirical performance and practical advantages supports the adoption of the proposed methods in forensic settings.\n\nAuthors: Sadie Barlow, Andrea Nini, Edoardo Manino\nCategories: cs.CL, stat.AP, cs.CL",
+  "word_count": 234,
+  "published_at": "2026-07-10T15:16:18Z",
+  "ingested_at": "2026-07-13T11:04:15.724Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "stat.AP",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

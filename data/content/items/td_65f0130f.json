@@ -1,0 +1,42 @@
+{
+  "id": "td_65f0130f",
+  "source": "arxiv",
+  "source_id": "2607.09645",
+  "source_url": "https://arxiv.org/abs/2607.09645",
+  "content_type": "paper",
+  "creator": {
+    "id": "federico_l._perlino",
+    "name": "Federico L. Perlino",
+    "handle": "Federico L. Perlino, Oliver Hamelijnck, Adam M. Johansen, Theodoros Damoulas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Deep Gaussian Processes on Directed Acyclic Graphs",
+  "body_text": "Deep Gaussian Processes on Directed Acyclic Graphs\n\nMany real-world processes can be represented as compositions of functions along a directed acyclic graph (DAG). In causal modelling, these correspond to the underlying mechanisms; in engineering, to multiple fidelity levels; and in gene-regulatory networks, to transcription factors. These functions are partially observed across the DAG, with noisy and heterogeneously sampled measurements, posing significant challenges for reconstruction, uncertainty propagation, and inference. To tackle these challenges, we place priors over functions and naturally arrive at Deep Gaussian Processes over DAGs. We theoretically study their prior-collapse behaviour, and the effect of graph topology and intermediate observations on the preservation of information. We obtain almost-sure lower bounds on the asymptotic frequency of depths at which the distinction between inputs is preserved, identify broad kernel classes for which these hold, and prove an observation by \\cite{dunlop2018} on the role of input connections. We offer a structured variational approximation that retains graph dependencies, preserves compositional uncertainty, and captures the explaining-away behaviour of colliders. Finally, we empirically validate our theoretical results and our methodology, and model a latent-collider DAG, a protein signalling network, and a multi-fidelity heavy-ion collision emulation task, attaining state-of-the-art performance while recovering low-fidelity contributions and yielding interpretability of the simulator hierarchy.\n\nAuthors: Federico L. Perlino, Oliver Hamelijnck, Adam M. Johansen, Theodoros Damoulas\nCategories: stat.ML, cs.LG, math.ST, stat.CO, stat.ME, stat.ML",
+  "word_count": 198,
+  "published_at": "2026-07-10T17:41:11Z",
+  "ingested_at": "2026-07-13T11:04:21.656Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.ST",
+    "stat.CO",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
