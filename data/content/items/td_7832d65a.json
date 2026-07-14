@@ -1,0 +1,40 @@
+{
+  "id": "td_7832d65a",
+  "source": "arxiv",
+  "source_id": "2607.11859",
+  "source_url": "https://arxiv.org/abs/2607.11859",
+  "content_type": "paper",
+  "creator": {
+    "id": "nishant_aggarwal",
+    "name": "Nishant Aggarwal",
+    "handle": "Nishant Aggarwal, Ayushi Dubal, Sreeraj Kannakarankodi, Ian McDougall, Adarsh Mittal, Vishnu Ramadas, Noah Scott, Ranganath Selagamsetty, Weichu Yang, Karthikeyan Sankaralingam",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?",
+  "body_text": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?\n\nCan large language models perform deep technical comprehension of computer architecture papers -- not summarization, but structured critique that names the core mechanism, surfaces buried assumptions, and connects a contribution beyond its own scope? We study Gauntlet, an open-source pipeline that analyzes a paper through five independent expert-persona reviewers and an adversarial synthesis stage. On 20 ISCA 2025 and HPCA 2026 papers, ten researchers each wrote their own analyses and then judged, for papers other than their own, the human analysis against Gauntlet's. Across the 20 comparisons evaluators preferred Gauntlet in 15 (human in 4, one tie); its advantage is significant on per-analyst totals (paired Wilcoxon, p &lt; 0.01) and largest on Critical Rigor, vanishing only on Calibration. Where humans win, it is on trust and usefulness rather than depth: a confident wrong claim, a mechanism described but not taught, or unprioritized breadth. A 98-paper automated ablation shows the gain comes from the multi-agent structure -- the pipeline beats the same model run as a single rich-persona agent on 96% of papers -- and specifically from its synthesis pass. We release all analyses, scores, and the rubric as a community resource.\n\nAuthors: Nishant Aggarwal, Ayushi Dubal, Sreeraj Kannakarankodi, Ian McDougall, Adarsh Mittal, Vishnu Ramadas, Noah Scott, Ranganath Selagamsetty, Weichu Yang, Karthikeyan Sankaralingam\nCategories: cs.CY, cs.AR, cs.MA, cs.CY",
+  "word_count": 191,
+  "published_at": "2026-07-13T17:45:58Z",
+  "ingested_at": "2026-07-14T11:04:44.111Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CY",
+    "cs.AR",
+    "cs.MA",
+    "cs.CY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
