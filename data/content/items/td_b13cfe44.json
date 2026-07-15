@@ -1,0 +1,39 @@
+{
+  "id": "td_b13cfe44",
+  "source": "arxiv",
+  "source_id": "2607.13013",
+  "source_url": "https://arxiv.org/abs/2607.13013",
+  "content_type": "paper",
+  "creator": {
+    "id": "harsha_vardhan_khurdula",
+    "name": "Harsha Vardhan Khurdula",
+    "handle": "Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model",
+  "body_text": "Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model\n\nAutomatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface for DiffusionGemma, a 26B mixture-of-experts model that generates text by uniform, random-token discrete diffusion rather than the absorbing-mask scheme common to recent diffusion language models. A frozen Whisper encoder supplies acoustic features, a lightweight projector maps them into the model embedding space, and low-rank adapters let the frozen backbone attend to the new modality. About 42M parameters are trained, which is 0.16 percent of the backbone. We find that the natural training objectives fail to ground the audio because their gradient reaches the projector only through attention that has already dismissed it. A connectionist temporal classification loss applied through the frozen output head breaks this deadlock. The resulting model reaches 6.6 percent word error rate on LibriSpeech test-clean, transcribes in roughly eight parallel steps regardless of utterance length, and uses a single adapter trained on six languages, which we evaluate here on English, Hindi, and Mandarin.\n\nAuthors: Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Khemlani, Vineet Agarwal\nCategories: cs.AI, cs.SD, cs.AI",
+  "word_count": 191,
+  "published_at": "2026-07-14T17:53:22Z",
+  "ingested_at": "2026-07-15T11:04:21.150Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.SD",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

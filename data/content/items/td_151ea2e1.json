@@ -1,0 +1,38 @@
+{
+  "id": "td_151ea2e1",
+  "source": "arxiv",
+  "source_id": "2607.12998",
+  "source_url": "https://arxiv.org/abs/2607.12998",
+  "content_type": "paper",
+  "creator": {
+    "id": "falk_l._wiegmann",
+    "name": "Falk L. Wiegmann",
+    "handle": "Falk L. Wiegmann, Nancy L. Ford",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Reconstruction-Independent Resolution Limits in Preclinical Cone-Beam Micro-CT: A Closed-Form Analysis",
+  "body_text": "Reconstruction-Independent Resolution Limits in Preclinical Cone-Beam Micro-CT: A Closed-Form Analysis\n\nSpatial resolution in preclinical cone-beam micro-CT is bounded by two reconstruction-independent limits, a photon-noise limit from the projection-domain signal-known-exactly, background-known-exactly (SKE/BKE) ideal observer with the Rose criterion, and an angular-sampling limit from the Crowther criterion. The photon-noise bound is a property of the input data and applies to any reconstruction algorithm. The angular-sampling bound applies to classical analytic and iterative reconstructions (FDK, FBP, SIRT) that do not inject signal priors. We derive both limits in closed form for a circular feature in a uniform background, including an off-axis fan-beam extension, and combine them into a spatially varying effective resolution map. The combined limit yields a closed-form scan-design optimum. The maximum worst-case spatial frequency scales as the cube root of the total photon budget per detector pixel (per-view flux times number of views), and an analytic rule sets how to split that budget between flux and views. We illustrate the framework on a representative preclinical micro-CT scanner, with parametric sweeps over flux and projection count that show how each acquisition parameter reshapes the resolution map. An accompanying open-source web calculator implements these bounds for arbitrary scanner geometries.\n\nAuthors: Falk L. Wiegmann, Nancy L. Ford\nCategories: physics.med-ph, physics.med-ph",
+  "word_count": 186,
+  "published_at": "2026-07-14T17:48:49Z",
+  "ingested_at": "2026-07-15T11:04:52.656Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.med-ph",
+    "physics.med-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

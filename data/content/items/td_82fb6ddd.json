@@ -1,0 +1,38 @@
+{
+  "id": "td_82fb6ddd",
+  "source": "arxiv",
+  "source_id": "2607.12928",
+  "source_url": "https://arxiv.org/abs/2607.12928",
+  "content_type": "paper",
+  "creator": {
+    "id": "zihan_zhang",
+    "name": "Zihan Zhang",
+    "handle": "Zihan Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Efficient Sequential Calibration with $O(T^{2/3-ε})$ Error Bound",
+  "body_text": "Efficient Sequential Calibration with $O(T^{2/3-ε})$ Error Bound\n\nWe study the online binary sequential calibration problem. A recent breakthrough by \\citet{dagan2024breaking} overcomes the classical \\(T^{2/3}\\) barrier for calibration error. Building on this result, we present an efficient randomized forecaster that achieves an expected calibration error \\(O(T^{2/3-\\varepsilon})\\) for some constant \\(\\varepsilon&gt;0\\). Our forecaster combines the \\textsc{SPR-Calibration} procedure \\citep{dagan2024breaking} with an outer Blackwell-style correction layer. The \\textsc{SPR-Calibration} procedure controls calibration with respect to a surrogate sequence of conditional-mean estimates, while the correction layer controls the additional error incurred when these surrogates are used to approximate the true outcomes. The analysis decomposes the total calibration error into the surrogate calibration error and the residual discrepancy between the surrogate sequence and the true outcomes. The former is bounded by the \\textsc{SPR-Calibration} guarantee in \\citet{dagan2024breaking}, and the latter is controlled using a quadratic potential argument together with the sparsity of the \\textsc{SPR-Calibration} forecaster.\n\nAuthors: Zihan Zhang\nCategories: cs.LG, cs.LG",
+  "word_count": 140,
+  "published_at": "2026-07-14T16:00:29Z",
+  "ingested_at": "2026-07-15T11:04:33.667Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "td_2bd6b2c2",
+  "source": "arxiv",
+  "source_id": "2607.12975",
+  "source_url": "https://arxiv.org/abs/2607.12975",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhuoyuan_li",
+    "name": "Zhuoyuan Li",
+    "handle": "Zhuoyuan Li, Yue Zhao, Ming Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Ensemble Controlled-Flow Filtering for Implicit Data Assimilation",
+  "body_text": "Ensemble Controlled-Flow Filtering for Implicit Data Assimilation\n\nData assimilation estimates the state of a dynamical system from model forecasts and incoming observations. Many observation mechanisms, however, are many-to-one, implicit, non-smooth, or accessible only through simulation, and need not provide the residual structures or likelihood guidance required by existing ensemble filters. We introduce implicit data assimilation, in which the analysis law is defined as an energy tilt of the forecast distribution. We then propose the Ensemble Controlled-flow Filter (EnCF), which realizes this update through a stochastic controlled flow and learns the observation-dependent control by adjoint matching from terminal energy gradients. For simulator-defined observations, EnCF-LF learns a surrogate conditional energy from samples and applies the same controlled-flow solver. We prove ideal exactness, derive a one-step error decomposition, and establish non-accumulation of local errors under filter stability. Numerical results show that Kalman-type filters remain preferable for smooth additive-Gaussian observations, while the proposed methods are better suited to non-Gaussian, many-to-one, multimodal, and implicit observation models.\n\nAuthors: Zhuoyuan Li, Yue Zhao, Ming Li\nCategories: stat.ML, cs.LG, math.NA, math.OC, stat.ML",
+  "word_count": 154,
+  "published_at": "2026-07-14T17:16:37Z",
+  "ingested_at": "2026-07-15T11:04:33.667Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.NA",
+    "math.OC",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

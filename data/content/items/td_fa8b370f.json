@@ -1,0 +1,38 @@
+{
+  "id": "td_fa8b370f",
+  "source": "arxiv",
+  "source_id": "2607.13007",
+  "source_url": "https://arxiv.org/abs/2607.13007",
+  "content_type": "paper",
+  "creator": {
+    "id": "jakub_kowalski",
+    "name": "Jakub Kowalski",
+    "handle": "Jakub Kowalski, Adam Ciężkowski, Artur Krzyżyński, Mark H. M. Winands",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
+  "body_text": "Dynamic Resource Allocation for Ensemble Determinization MCTS\n\nSimulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, several Monte Carlo Tree Search (MCTS) variants are commonly used in such domains. In this paper, we propose a series of enhancements for Ensemble Determinization MCTS, introducing two axes for dynamic resource allocation. First, Dynamic Number of Determinizations, increases or decreases the number of currently used determinization trees depending on the behavior of so-far search. Second, Dynamic Simulation Allocation, splits the simulation budget nonuniformly across the determinization trees, using simulation-to-simulation decisions to choose the tree with potentially the best knowledge gain. As benchmark domains, we used three popular tabletop games: Jaipur, Lost Cities, and Splendor. Testing our proposed enhancements in iteration- and time-based settings showed that particular configurations yield a statistically significant increase in the algorithm's strength.\n\nAuthors: Jakub Kowalski, Adam Ciężkowski, Artur Krzyżyński, Mark H. M. Winands\nCategories: cs.AI, cs.AI",
+  "word_count": 140,
+  "published_at": "2026-07-14T17:51:15Z",
+  "ingested_at": "2026-07-15T11:04:21.150Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

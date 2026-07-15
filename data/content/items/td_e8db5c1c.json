@@ -1,0 +1,39 @@
+{
+  "id": "td_e8db5c1c",
+  "source": "arxiv",
+  "source_id": "2607.12946",
+  "source_url": "https://arxiv.org/abs/2607.12946",
+  "content_type": "paper",
+  "creator": {
+    "id": "minh_hoang_nguyen",
+    "name": "Minh Hoang Nguyen",
+    "handle": "Minh Hoang Nguyen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark",
+  "body_text": "ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark\n\nRecommender-system research for Vietnamese remains limited by the absence of a public, well-documented hotel interaction resource. Building such a resource is challenging for three reasons: cross-platform hotel names must be reconciled before interactions are comparable; quality must be audited with reproducible metrics rather than ad hoc cleaning; and public release must preserve privacy while remaining benchmarkable under realistic cold-start conditions. We introduce ViHoRec, a quality-controlled Vietnamese hotel recommendation dataset of 18{,}267 interactions between 6{,}832 users and 560 hotels, crawled from Booking.com, Traveloka, and Ivivu. Our contributions are: (i) a reproducible construction pipeline with cross-platform entity resolution and quantitative quality control; (ii) a privacy-preserving release with HMAC pseudonyms; and (iii) a public cold-start benchmark with temporal leave-last-one-out split, data-centric ablations, and dependency-free baselines. On the public split, learned models degrade sharply for users with short histories (BPR-MF Recall@10: 0.065 vs. 0.120), while UserKNN remains strongest overall, establishing ViHoRec as a sparse, cold-start-dominated testbed for low-resource recommendation. All data are publicly available at https://github.com/MinhNguyenDS/ViHoRec.\n\nAuthors: Minh Hoang Nguyen\nCategories: cs.IR, cs.AI, cs.IR",
+  "word_count": 162,
+  "published_at": "2026-07-14T16:28:40Z",
+  "ingested_at": "2026-07-15T11:04:21.151Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.AI",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

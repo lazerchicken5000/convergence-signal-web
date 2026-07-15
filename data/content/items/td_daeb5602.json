@@ -1,0 +1,38 @@
+{
+  "id": "td_daeb5602",
+  "source": "arxiv",
+  "source_id": "2607.12885",
+  "source_url": "https://arxiv.org/abs/2607.12885",
+  "content_type": "paper",
+  "creator": {
+    "id": "chalamalasetti_kranti",
+    "name": "Chalamalasetti Kranti",
+    "handle": "Chalamalasetti Kranti, Sowmya Vajjala",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LLM Judges Can Be Too Generous When There Is No Reference Answer",
+  "body_text": "LLM Judges Can Be Too Generous When There Is No Reference Answer\n\nLLM judges are increasingly being used to evaluate open-ended model responses, often in no-reference settings where a ground-truth answer is unavailable. However, can they reliably assess in such evaluation setups? We explore this question in this paper through a two stage pipeline with a) calibration experiments that assess the judge model's knowledge of the task it is evaluating, and b) sensitivity experiments that assess how the judge model's performance is impacted by the presence and positioning of the reference answer in the prompt. Across experiments covering three languages, we show that the judge models we evaluated tend to over-credit incorrect answers in the absence of a reference answer, and adding reference answer information to the prompt flips the judge model's correct/incorrect decisions by as much as 85% in some experimental settings. Comparison with a subset of human annotations shows that these reference-driven changes generally align with human judgments. Our results emphasize the need for calibrating the LLM judges with a sample with reference-aware evaluation before using them in reference-free setups reliably, and our methodology provides a blueprint for researchers and practitioners in doing such calibration of LLM judges for other tasks.\n\nAuthors: Chalamalasetti Kranti, Sowmya Vajjala\nCategories: cs.CL, cs.CL",
+  "word_count": 191,
+  "published_at": "2026-07-14T15:31:33Z",
+  "ingested_at": "2026-07-15T11:04:27.407Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

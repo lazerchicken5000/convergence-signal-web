@@ -1,0 +1,38 @@
+{
+  "id": "td_1f3d2a1b",
+  "source": "arxiv",
+  "source_id": "2607.13021",
+  "source_url": "https://arxiv.org/abs/2607.13021",
+  "content_type": "paper",
+  "creator": {
+    "id": "tanmay_singla",
+    "name": "Tanmay Singla",
+    "handle": "Tanmay Singla, James C. Davis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Software Supply Chains are Dead: Use-Case-Oriented Regeneration",
+  "body_text": "Software Supply Chains are Dead: Use-Case-Oriented Regeneration\n\nModern software development relies on an increasingly doubtful premise: that the up-front implementation savings from adopting a dependency outweighs the maintenance costs. Two changes are reshaping the build-vs.-reuse calculus: software supply chain attacks have raised the cost of external reliance, while generative AI has lowered the cost of local implementation. We envision use-case-oriented regeneration as a new software sourcing paradigm that shifts the supply chain from external trust to local verification. We evaluate an agentic workflow that synthesizes only the specific slice of dependency functionality that a repository exercises. Our measurements across 180 repository-dependency pairs suggest that this approach is feasible: the replacements preserve 99.8% of repository-observed behavior across baseline validation checks and reduce the exported API surface by 93%. Software sourcing may evolve toward verifiable repository-specific code synthesis, especially when the required functionality is narrow, stable, and well tested.\n\nAuthors: Tanmay Singla, James C. Davis\nCategories: cs.SE, cs.SE",
+  "word_count": 140,
+  "published_at": "2026-07-14T17:58:09Z",
+  "ingested_at": "2026-07-15T11:04:40.022Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

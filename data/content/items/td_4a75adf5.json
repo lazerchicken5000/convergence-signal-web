@@ -1,0 +1,38 @@
+{
+  "id": "td_4a75adf5",
+  "source": "arxiv",
+  "source_id": "2607.12981",
+  "source_url": "https://arxiv.org/abs/2607.12981",
+  "content_type": "paper",
+  "creator": {
+    "id": "mingrui_jing",
+    "name": "Mingrui Jing",
+    "handle": "Mingrui Jing, Lei Zhang, Yusheng Zhao, Hongshun Yao, Xin Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "An Agentic Formalization for Certified Quantum Neural Network Design",
+  "body_text": "An Agentic Formalization for Certified Quantum Neural Network Design\n\nA central model in quantum machine learning is the quantum neural network (QNN), whose design requires balancing expressivity and trainability. Technically, expressivity is studied through circuit-function analysis, such as quantum signal processing, while trainability is analyzed using dynamical-Lie-algebra (DLA) methods. To support certified QNN design, we formalize these major components of QNN theory in a connected lean 4 development checked by a proof kernel, where every analytic input is either proved or exposed as a named hypothesis. On the expressivity side, we prove exact if-and-only-if characterizations of single-qubit QNNs, a resource-counted quantum phase processing theorem, and an overparameterization ceiling that bounds the quantum Fisher information rank by the DLA dimension. On the trainability side, we derive the direct-sum loss-variance law through a de-circularized second-moment interface. A parameterized Casimir-uniqueness engine discharges the required inputs for fully controllable, orthogonal, and matchgate circuit families, while single-qubit and product-Clifford ensembles close the two-design assumptions directly. A capstone theorem pairs the conditional variance law with exact loss reconstruction in DLA coordinates. The development record identifies eight corrections and clarifications that were not explicit in the informal arguments. We expect this work to provide a machine-checkable foundation for QNN theory and a step toward AI-assisted or automated design of quantum machine learning algorithms.\n\nAuthors: Mingrui Jing, Lei Zhang, Yusheng Zhao, Hongshun Yao, Xin Wang\nCategories: quant-ph, quant-ph",
+  "word_count": 207,
+  "published_at": "2026-07-14T17:23:31Z",
+  "ingested_at": "2026-07-15T11:04:40.023Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

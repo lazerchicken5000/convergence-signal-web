@@ -1,0 +1,35 @@
+{
+  "id": "td_28e1f9b9",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "lobste.rs is now running on SQLite",
+  "body_text": "lobste.rs is now running on SQLite\nCommunity site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead.\nThis weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward:\n\nSQLite seems to have passed with flying colors: cpu usage is down, memory usage is down, site seems to be snappier at least for me, 1/2 the vps cost once mariadb vps is taken down\n\nThe Lobsters Rails application now runs on a single VPS, with a primary content SQLite database file that's around 3.8GB. There's also a 1.1GB cache database, a 218MB queue database, and a still growing 555MB rack_attack database used by the Rack::Attack middleware for blocking and throttling abusive requests.\nThere are plenty more details in both the linked thread and this SQLite migration PR by Thomas Dziedzic, which added 735 lines and removed 593 lines across 30 commits and 188 files. That PR built on top of previous PRs #1705, #1871, and #1924.\nThis is a really useful case study, and a great reminder that you can get a whole lot done with a single server and SQLite in 2026.\n\n\n    Tags: migrations, ops, rails, sqlite, lobsters",
+  "word_count": 219,
+  "published_at": "2026-07-14T19:44:11.000Z",
+  "ingested_at": "2026-07-15T11:00:11.681Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

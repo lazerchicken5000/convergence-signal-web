@@ -1,0 +1,40 @@
+{
+  "id": "td_f2f9130f",
+  "source": "arxiv",
+  "source_id": "2607.13015",
+  "source_url": "https://arxiv.org/abs/2607.13015",
+  "content_type": "paper",
+  "creator": {
+    "id": "stephan_a._fahrenkrog-petersen",
+    "name": "Stephan A. Fahrenkrog-Petersen",
+    "handle": "Stephan A. Fahrenkrog-Petersen, Aleksander Figiel, Darya Melnyk, Tijana Milentijević, Stefan Schmid",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Privacy Attacks on Stable Marriage",
+  "body_text": "Privacy Attacks on Stable Marriage\n\nThe stable marriage problem appears in many privacy-sensitive domains, for example in the National Resident Matching Program in the US. In such applications, preserving the privacy of users' preference lists is essential to prevent strategic manipulation, discourage misreporting, and comply with data protection regulations. In this work, we investigate privacy attacks on stable marriage algorithms. Assuming that the attacker (e.g., the hospitals) can repeatedly interact with the stable marriage algorithm, we demonstrate how such interactions can reveal private preferences of the non-malicious side (e.g., the residents). We show that the widely applied Gale-Shapley Matching Algorithm, where the proposers' side is malicious, is vulnerable to privacy attacks and all honest agents' preferences can be revealed. We further investigate which preference distributions of the honest, non-malicious side are susceptible to privacy attacks and show that the Gale-Shapley Matching Algorithm where the honest side proposes can preserve privacy in non-susceptible preference distributions. We extend our results to the decentralized setting and show that the attacker's side can infer all preference orderings. In an experimental evaluation, we test privacy attacks on synthetic and real-world data and show that real-world data is indeed susceptible to privacy attacks. This work underlines a need for new privacy-preserving stable marriage algorithms.\n\nAuthors: Stephan A. Fahrenkrog-Petersen, Aleksander Figiel, Darya Melnyk, Tijana Milentijević, Stefan Schmid\nCategories: cs.DS, cs.DC, cs.MA, cs.DS",
+  "word_count": 203,
+  "published_at": "2026-07-14T17:55:44Z",
+  "ingested_at": "2026-07-15T11:04:40.022Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DC",
+    "cs.MA",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

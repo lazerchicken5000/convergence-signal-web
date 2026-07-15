@@ -1,0 +1,40 @@
+{
+  "id": "td_7253b093",
+  "source": "arxiv",
+  "source_id": "2607.12983",
+  "source_url": "https://arxiv.org/abs/2607.12983",
+  "content_type": "paper",
+  "creator": {
+    "id": "sitan_chen",
+    "name": "Sitan Chen",
+    "handle": "Sitan Chen, Weiyuan Gong, Qi Ye, Zhihan Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The log log jam in Gaussian state tomography",
+  "body_text": "The log log jam in Gaussian state tomography\n\nUnlike in finite dimensions, quantum information in continuous-variable systems has the peculiar feature that without imposing physical constraints, the sample complexity of state tomography can be unbounded. Remarkably, this is even the case for state-of-the-art protocols for learning Gaussian states, which have finite-dimensional descriptions: the best known rates scale with $\\log \\log E$, where $E$ is the energy of the system. We prove this is not an artifact of existing analyses, but a fundamental limitation of the measurements used. We show: (1) Any protocol that uses Gaussian measurements, even entangled or adaptively chosen ones, must incur a $\\log \\log E$ dependence. This answers an open question posed by a number of previous works. (2) There is a smooth tradeoff between the number of rounds of adaptivity and the energy dependence, and we give a matching protocol achieving this interpolated rate. (3) With highly entangled, non-Gaussian measurements, one can learn $n$-mode pure Gaussian states with $O(n^2 / ε^2)$ samples, independent of $E$. This answers an open question posed by Chen et al. (4) A simple protocol based on the single-copy canonical phase POVM of Holevo and Helstrom learns single-mode pure Gaussian states with $O(1/ε^2)$ samples, again independent of $E$. Our results clarify the role of energy in bosonic state tomography and shed new light on the intriguing interplay between adaptivity, entanglement, and magic in quantum learning.\n\nAuthors: Sitan Chen, Weiyuan Gong, Qi Ye, Zhihan Zhang\nCategories: quant-ph, cs.DS, math-ph, quant-ph",
+  "word_count": 225,
+  "published_at": "2026-07-14T17:25:43Z",
+  "ingested_at": "2026-07-15T11:04:52.657Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.DS",
+    "math-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

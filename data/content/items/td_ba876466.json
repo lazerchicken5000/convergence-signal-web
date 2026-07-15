@@ -1,0 +1,39 @@
+{
+  "id": "td_ba876466",
+  "source": "arxiv",
+  "source_id": "2607.13031",
+  "source_url": "https://arxiv.org/abs/2607.13031",
+  "content_type": "paper",
+  "creator": {
+    "id": "jorge_diaz_chao",
+    "name": "Jorge Diaz Chao",
+    "handle": "Jorge Diaz Chao, Konpat Preechakul, Yuxi Liu, Yutong Bai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Seriality Gap in Video Diffusion Models",
+  "body_text": "The Seriality Gap in Video Diffusion Models\n\nWhen one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of standard bidirectional video diffusion degrades as the causal chain lengthens, even when provided more denoising steps. In a length-matched single-ball control, where ball-ball interactions are absent, the degradation largely disappears, isolating dependent-event structure rather than video length as the cause. Across intervention studies, methods that increase effective serial computation improve performance disproportionately, including autoregressive/blockwise generation and architectural depth. We identify this pattern as the seriality gap: a mismatch between tasks requiring growing serial computation and video diffusion models whose denoising loop does not provide scalable serial compute. We then prove that, for deterministic video prediction, denoising steps do not add serial computation beyond the backbone, indicating a structural obstacle for video diffusion on serial reasoning and simulation tasks.\n\nAuthors: Jorge Diaz Chao, Konpat Preechakul, Yuxi Liu, Yutong Bai\nCategories: cs.LG, cs.CV, cs.LG",
+  "word_count": 147,
+  "published_at": "2026-07-14T17:59:22Z",
+  "ingested_at": "2026-07-15T11:04:33.666Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
