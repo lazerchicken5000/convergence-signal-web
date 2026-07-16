@@ -1,0 +1,40 @@
+{
+  "id": "td_2646d043",
+  "source": "arxiv",
+  "source_id": "2607.14041",
+  "source_url": "https://arxiv.org/abs/2607.14041",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhan_chen",
+    "name": "Zhan Chen",
+    "handle": "Zhan Chen, Jiqiao Ma, Chih-wen Kuo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study",
+  "body_text": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study\n\nHistorical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited labeled data. We study a multi-expert system that reuses checkpoints from an iterative fine-tuning process as domain specialists and uses a lightweight page-level image classifier to dispatch pages by visual style. When the checkpoint pool lacks a suitable specialist, we train an additional expert for that domain. On three frozen test sets, the routed system matches the selected specialist for each style at two-decimal precision: 0.30 percent CER on regular script, 1.57 percent on memorials, and 4.83 percent on running script. The router achieves 99.3 percent page-level domain accuracy and matches the domain-label oracle at the same precision. Two of the three selected specialists were not trained specifically for their final domain; only the running-script expert was trained with that domain as its target. We report the evaluation protocol, router design, and per-page predictions to make the comparison reproducible.\n\nAuthors: Zhan Chen, Jiqiao Ma, Chih-wen Kuo\nCategories: cs.CV, cs.AI, cs.LG, cs.CV",
+  "word_count": 165,
+  "published_at": "2026-07-15T17:12:37Z",
+  "ingested_at": "2026-07-16T11:04:05.258Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

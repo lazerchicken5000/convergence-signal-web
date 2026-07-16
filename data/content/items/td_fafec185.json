@@ -1,0 +1,39 @@
+{
+  "id": "td_fafec185",
+  "source": "arxiv",
+  "source_id": "2607.14081",
+  "source_url": "https://arxiv.org/abs/2607.14081",
+  "content_type": "paper",
+  "creator": {
+    "id": "ashutosh_jha",
+    "name": "Ashutosh Jha",
+    "handle": "Ashutosh Jha, Michel Besserve, Simon Buchholz",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Linear Independent Component Analysis via Optimal Transport",
+  "body_text": "Linear Independent Component Analysis via Optimal Transport\n\nLinear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measured by negentropy, which is linked to independence by information theory. Because exact negentropy optimization is intractable, they rely on proxy contrast functions, such as fourth-order cumulants, and parametric log-likelihoods. We propose instead to measure non-Gaussianity using the squared Wasserstein distance $W_2^2$ to a standard Gaussian. We prove that the Wasserstein distance between a standard normal distribution and linear projections of the data is maximized when the projection recovers an independent component. Based on this observation, we propose the OT-ICA algorithm which finds this projection by gradient-based optimization. Empirical evaluation on simulated data shows that OT-ICA outperforms proxy-based methods for different distributions of the latent variables. Application to EEG artifact removal and econometric price discovery confirm OT-ICA can be used for applied ICA tasks without distributional assumptions.\n\nAuthors: Ashutosh Jha, Michel Besserve, Simon Buchholz\nCategories: cs.LG, stat.ML, cs.LG",
+  "word_count": 151,
+  "published_at": "2026-07-15T17:56:11Z",
+  "ingested_at": "2026-07-16T11:04:17.328Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

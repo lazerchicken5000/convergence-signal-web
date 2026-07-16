@@ -1,0 +1,38 @@
+{
+  "id": "td_bc95c72e",
+  "source": "arxiv",
+  "source_id": "2607.14040",
+  "source_url": "https://arxiv.org/abs/2607.14040",
+  "content_type": "paper",
+  "creator": {
+    "id": "alaina_brandt",
+    "name": "Alaina Brandt",
+    "handle": "Alaina Brandt",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
+  "body_text": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation\n\nAutomatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that pairs user-configured specifications with context from a comparable corpus of authentic longform texts in U.S. English and Latin American Spanish, passing retrieved paragraph-, section-, and document-level examples to an LLM for whole-document generation. The goal is draft translation for professional verification: target texts reformulated to fit their Spanish-language context, where discourse organization, rhetorical style, and pragmatic norms differ meaningfully from English. We evaluated six automatic translations of essays on generative AI across three projects using a customized MQM typology, assessed by two trained evaluators working from U.S. English into LATAM and Mexican Spanish. Results show that a limited prompt produced no meaningful reformulation, and specifications and corpus-informed translations at times showed substantial reformulation, though not always to effect. We find that LLMs can be moved toward reformulation and away from the sentence-by-sentence paradigm, though more work is needed to improve the effectiveness of those reformulations. In this paper, we discuss considerations related to automatic translation system design, corpus construction, and translation quality evaluation methodology and results.\n\nAuthors: Alaina Brandt\nCategories: cs.CL, cs.CL",
+  "word_count": 205,
+  "published_at": "2026-07-15T17:10:24Z",
+  "ingested_at": "2026-07-16T11:04:11.296Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

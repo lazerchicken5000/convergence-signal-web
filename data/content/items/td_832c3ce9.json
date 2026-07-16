@@ -1,0 +1,39 @@
+{
+  "id": "td_832c3ce9",
+  "source": "arxiv",
+  "source_id": "2607.14008",
+  "source_url": "https://arxiv.org/abs/2607.14008",
+  "content_type": "paper",
+  "creator": {
+    "id": "mustafa_emre_gürsoy",
+    "name": "Mustafa Emre Gürsoy",
+    "handle": "Mustafa Emre Gürsoy, Stefan Uhlich, Ryoga Matsuo, Yağız Gençer, Arun Venkitaraman, Chia-Yu Hsieh, Andrea Bonetti, Eisaku Ohbuchi, Lorenzo Servadei",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Lighthouse RL: Sample-Efficient Circuit Optimization via Strategic Reset Points",
+  "body_text": "Lighthouse RL: Sample-Efficient Circuit Optimization via Strategic Reset Points\n\nIn this paper, we introduce Lighthouse RL, a sample-efficient reinforcement learning (RL) approach for analog circuit sizing. Traditional methods lack generalization across different performance targets, while standard RL approaches waste resources exploring unpromising regions. Our method addresses these inefficiencies through a strategic reset strategy that initializes episodes from high-performing configurations discovered during training, called \"lighthouses\". These states, which are closer to the target objectives, guide exploration toward promising regions. When compared to RL and Bayesian optimization methods from the literature, we demonstrate the effectiveness of our approach on a 2D benchmark problem and on two analog circuits, showing significant improvements in sample efficiency (up to 1.72x faster), optimization performance (100% vs. 0-87% success rate), generalization (75% vs. 0-50% extrapolation success), and objective maximization. This efficiency is particularly valuable for computationally expensive black-box optimization problems, and our reset strategy can be used as a plug-and-play enhancement for any RL-based optimization approach.\n\nAuthors: Mustafa Emre Gürsoy, Stefan Uhlich, Ryoga Matsuo, Yağız Gençer, Arun Venkitaraman, Chia-Yu Hsieh, Andrea Bonetti, Eisaku Ohbuchi, Lorenzo Servadei\nCategories: cs.LG, cs.AR, cs.LG",
+  "word_count": 150,
+  "published_at": "2026-07-15T16:37:57Z",
+  "ingested_at": "2026-07-16T11:04:17.329Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AR",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

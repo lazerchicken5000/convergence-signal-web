@@ -1,0 +1,38 @@
+{
+  "id": "td_da0f3182",
+  "source": "arxiv",
+  "source_id": "2607.14049",
+  "source_url": "https://arxiv.org/abs/2607.14049",
+  "content_type": "paper",
+  "creator": {
+    "id": "hefeng_zhou",
+    "name": "Hefeng Zhou",
+    "handle": "Hefeng Zhou, Jinxuan Zhang, Jiong Lou, Yuxin Liu, Chaochao Lu, Jingjing Qu, Jie Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+  "body_text": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models\n\nThe emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or users laboriously flag the faulty step in follow-up turns that may get responses &lt;You are right, I made a mistake here&gt; followed by similar errors recurring. To address this issue, we propose an efficient human intervention mechanism for precisely correcting reasoning errors in LLMs, termed Deep Interaction. Our approach enables direct editing of the original response, allowing erroneous parts to be corrected while preserving accurate reasoning steps. We refine the edited CoT into a distilled prompt, which then steers the LLM along the corrected reasoning path. Experimental results show that our method achieves over a 25% improvement in correction success rate and reduces token usage by approximately 40% on STEM tasks reasoning compared to baseline approaches.\n\nAuthors: Hefeng Zhou, Jinxuan Zhang, Jiong Lou, Yuxin Liu, Chaochao Lu, Jingjing Qu, Jie Li\nCategories: cs.AI, cs.AI",
+  "word_count": 155,
+  "published_at": "2026-07-15T17:16:43Z",
+  "ingested_at": "2026-07-16T11:04:05.256Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

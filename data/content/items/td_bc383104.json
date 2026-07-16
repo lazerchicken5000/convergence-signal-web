@@ -1,0 +1,39 @@
+{
+  "id": "td_bc383104",
+  "source": "arxiv",
+  "source_id": "2607.14018",
+  "source_url": "https://arxiv.org/abs/2607.14018",
+  "content_type": "paper",
+  "creator": {
+    "id": "katie_everett",
+    "name": "Katie Everett",
+    "handle": "Katie Everett",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth",
+  "body_text": "Transforming Rank: How Architecture Navigates the Spectral Pathologies of Depth\n\nWe investigate how each component of the Transformer feedforward block architecture design determines how much rank survives across depth at initialization. We reinterpret skip connections and normalization, long understood as controlling magnitude, as mechanisms for preserving gradient rank across depth, since the very matrix multiplications and nonlinear activations that make the network expressive also reduce the rank. We show that skip connections trade off rank collapse against ensemble-like behavior, controlled by the relative scales of the branch and the skip: skip connections route the gradient around the residual branch, where rank is lost, rather than along the long gradient paths that encourage the layers to compose. The placement of the normalization layer controls this same tradeoff by setting the branch-to-skip ratio across depth, unifying much of the normalization placement and depth scaling literature, in particular why rank collapses for Post-Norm but plateaus for Pre-Norm. Other aspects of the architecture, like the two-matrix structure that expands and contracts the width, use additional parameters to preserve the representation or branch Jacobian rank. The second matrix decorrelates a coherent mean spike that would grow across blocks with a single matrix and uncentered activation, preventing the residual representation from collapsing. The width expansion between the two matrices keeps the branch Jacobian full rank: applying the rank-reducing activation in this expanded space leaves enough directions to span the original, at a width that follows a Marchenko--Pastur law. The initialization rank of the input--output Jacobian predicts which networks train on CIFAR-10. Taken together, we recast architecture design for deep networks as navigating an intrinsic tradeoff among rank collapse, ensemble-like behavior, and parameter count.\n\nAuthors: Katie Everett\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 267,
+  "published_at": "2026-07-15T16:50:43Z",
+  "ingested_at": "2026-07-16T11:04:05.258Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

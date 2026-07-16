@@ -1,0 +1,39 @@
+{
+  "id": "td_3732869b",
+  "source": "arxiv",
+  "source_id": "2607.14064",
+  "source_url": "https://arxiv.org/abs/2607.14064",
+  "content_type": "paper",
+  "creator": {
+    "id": "soham_jana",
+    "name": "Soham Jana",
+    "handle": "Soham Jana",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Minimax Theory of Likelihood-Based Deep Learning for Speckle Regression",
+  "body_text": "Minimax Theory of Likelihood-Based Deep Learning for Speckle Regression\n\nSpeckle noise is a multiplicative noise commonly encountered in coherent imaging modalities such as synthetic aperture radar, optical coherence tomography, and digital holography. Although deep learning methods, in practice, have achieved state-of-the-art performance for speckle denoising, their fundamental statistical limits remain largely unexplored. Unlike additive noise models, multiplicative speckle noise makes the regression function unidentifiable from the conditional mean, rendering conventional least-squares-based deep learning approaches inapplicable. We study the minimax estimation of smooth nonparametric regression functions using likelihood-based deep neural network (DNN) estimators under a model with both multiplicative speckle noise and additive Gaussian noise. Our framework accommodates both low-dimensional and sparse high-dimensional features. We establish finite-sample upper bounds on the estimation error of the proposed DNN estimators and derive minimax lower bounds for nonparametric function recovery under our model, showing that they match up to logarithmic factors in the sample size. Moreover, these minimax rates coincide, up to logarithmic factors, with those for nonparametric regression under additive Gaussian noise alone, demonstrating that the intrinsic difficulty of estimation remains essentially unchanged despite the challenges posed by multiplicative speckle noise. Numerical experiments further supports consistency of our DNN-based despeckling methods and demonstrate their effectiveness.\n\nAuthors: Soham Jana\nCategories: math.ST, stat.ML, math.ST",
+  "word_count": 193,
+  "published_at": "2026-07-15T17:36:23Z",
+  "ingested_at": "2026-07-16T11:04:30.258Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "stat.ML",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

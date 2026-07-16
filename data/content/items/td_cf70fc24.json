@@ -1,0 +1,40 @@
+{
+  "id": "td_cf70fc24",
+  "source": "arxiv",
+  "source_id": "2607.14004",
+  "source_url": "https://arxiv.org/abs/2607.14004",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenxiao_wang",
+    "name": "Wenxiao Wang",
+    "handle": "Wenxiao Wang, Priyatham Kattakinda, Soheil Feizi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0",
+  "body_text": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0\n\nMost reported gains from agent-optimization methods are one-shot: an agent is optimized against a fixed benchmark and the resulting improvement is reported as if it were a stable property of the method. This does not test the setting that matters for deployed agents, where optimization is applied recursively as new failures and new tasks appear over time. The central question this raises is whether optimizer-driven gains compound: after an agent has been optimized once, can it be optimized again on newly arrived tasks without eroding the gains the first round produced? We study this question with a two-phase continual-learning evaluation built from hard tasks in Terminal-Bench 2.0, comparing three approaches to agent-harness optimization (GEPA, Meta Harness, and RELAI's Verifiable Continual Learning, RELAI-VCL) under identical optimization budgets. All three methods improve over the baseline agent in the conventional, static, single-phase setting. However, once new tasks are introduced, the methods diverge sharply: GEPA's optimized agent transfers below the unoptimized baseline, Meta Harness transfers well but fails to improve further once given a second optimization budget, and RELAI-VCL is the only method that both transfers positively to unseen tasks and continues improving after those tasks are folded into the optimization objective, reaching the highest pass rate at every evaluated stage and the highest lifelong average pass rate overall (76.4% vs. 66.0% for GEPA, 64.6% for Meta Harness, and 58.7% for the baseline). Our key observation was that optimization gains compounded only when regression control was built into the optimization loop, providing an inductive bias against shortcut solutions that fail to generalize.\n\nAuthors: Wenxiao Wang, Priyatham Kattakinda, Soheil Feizi\nCategories: cs.AI, cs.CL, cs.LG, cs.AI",
+  "word_count": 258,
+  "published_at": "2026-07-15T16:36:04Z",
+  "ingested_at": "2026-07-16T11:04:05.259Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

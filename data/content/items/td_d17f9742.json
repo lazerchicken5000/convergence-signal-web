@@ -1,0 +1,38 @@
+{
+  "id": "td_d17f9742",
+  "source": "arxiv",
+  "source_id": "2607.13977",
+  "source_url": "https://arxiv.org/abs/2607.13977",
+  "content_type": "paper",
+  "creator": {
+    "id": "s_m_rafiuddin",
+    "name": "S M Rafiuddin",
+    "handle": "S M Rafiuddin, Vamsi Krishna Pavuluri, Atriya Sen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Constraint-Aware Counterfactual Editing for Aspect-Based Sentiment Analysis",
+  "body_text": "Constraint-Aware Counterfactual Editing for Aspect-Based Sentiment Analysis\n\nAspect-Based Sentiment Analysis (ABSA) requires models to identify sentiment toward specific aspects rather than relying on the global polarity of a sentence. This makes counterfactual evaluation especially challenging: a valid counterfactual should flip the sentiment of one target aspect while preserving the sentiment of all non-target aspects, semantic meaning, fluency, and factual consistency. Existing counterfactual generation methods often focus on sentence-level label flipping and may produce edits that are fluent but aspect-invalid, semantically drifting, or contradictory. To address this limitation, we propose CAVE-ABSA, a Constraint-Aware Validated Editing framework for generating and validating aspect-level counterfactuals. CAVE-ABSA localizes the opinion span associated with the target aspect, performs controlled counterfactual rewriting, refines candidates through a repair module, and filters them using aspect-level verification, semantic similarity, AMR-guided structural preservation, edit minimality, fluency, and contradiction detection. The framework is designed to construct validated counterfactual ABSA datasets for robustness evaluation and data augmentation. By explicitly separating generation from validation, CAVE-ABSA provides a principled approach for producing meaningful aspect-local counterfactuals and for testing whether ABSA models truly rely on aspect-grounded sentiment reasoning.\n\nAuthors: S M Rafiuddin, Vamsi Krishna Pavuluri, Atriya Sen\nCategories: cs.CL, cs.CL",
+  "word_count": 175,
+  "published_at": "2026-07-15T16:03:44Z",
+  "ingested_at": "2026-07-16T11:04:11.297Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
