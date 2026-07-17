@@ -1,0 +1,38 @@
+{
+  "id": "td_49982e5f",
+  "source": "arxiv",
+  "source_id": "2607.15242",
+  "source_url": "https://arxiv.org/abs/2607.15242",
+  "content_type": "paper",
+  "creator": {
+    "id": "hector_j._garcia",
+    "name": "Hector J. Garcia",
+    "handle": "Hector J. Garcia, Nick Clayton",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Mutable Low-Rank Sketches for Retrain-Free Recommendation",
+  "body_text": "Mutable Low-Rank Sketches for Retrain-Free Recommendation\n\nA common bottleneck in two-stage recommendation is embedding staleness: when a user rates a new item, their embedding remains fixed until the next retrain cycle. We propose mutable sketches, which store each user's preferences in a KP-tree (a sparse segment tree with sum aggregation), fit a low-rank projection once, and recompute embeddings on-the-fly as ratings arrive. We prove that each new observation monotonically tightens the prediction error envelope (Theorem 1), a guarantee that FunkSVD and eALS lack. On KuaiRec, the mutable sketch achieves 0.810 RMSE at 1.8% data read vs. ALS 0.822 at 100%, with 8x faster per-batch updates. A new user receives personalized recommendations in &lt;1 ms after their first rating, with no model retraining required. A comparison of sampling strategies across density regimes shows that the KP-tree's norm-proportional sampling provides 40-130% better item coverage on sparse data (&lt;1% density), while uniform sampling suffices on dense matrices.\n\nAuthors: Hector J. Garcia, Nick Clayton\nCategories: cs.LG, cs.LG",
+  "word_count": 148,
+  "published_at": "2026-07-16T17:39:38Z",
+  "ingested_at": "2026-07-17T11:04:45.075Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

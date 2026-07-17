@@ -1,0 +1,35 @@
+{
+  "id": "td_c3e9f82b",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Quoting Thibault Sottiaux",
+  "body_text": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. \nWhat we have  found is that this most commonly occurs when:\n\nFull access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled\nThe model attempts  to override the $HOME env var to define a temporary directory.\nThe model makes an honest mistake and mistakenly deletes $HOME instead.\n\n&mdash; Thibault Sottiaux, describing a pretty gnarly Codex bug\n\n    Tags: codex, coding-agents, generative-ai, ai, llms",
+  "word_count": 83,
+  "published_at": "2026-07-16T17:45:59.000Z",
+  "ingested_at": "2026-07-17T11:00:15.408Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

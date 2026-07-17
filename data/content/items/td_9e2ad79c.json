@@ -1,0 +1,35 @@
+{
+  "id": "td_9e2ad79c",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Firefox in WebAssembly",
+  "body_text": "Firefox in WebAssembly\nThis is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.\nHere's my blog, running in Firefox, running in WebAssembly, running in Chrome:\n\nThey chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars.\nThe demo funnels all traffic over a WebSocket protocol (using the Wisp protocol) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections.\n(That proxying sounds expensive! The team had to scale the servers up to handle the traffic during the Hacker News conversation about the project.)\nPuter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to http://www.example.com/ were in cleartext.\nHere's the repo for firefox-wasm. theogbob/WebkitWasm is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo.\n\n    Via Hacker News\n\n\n    Tags: browsers, firefox, ai, webassembly, generative-ai, llms, ai-assisted-programming, claude, claude-mythos-fable",
+  "word_count": 206,
+  "published_at": "2026-07-16T23:34:16.000Z",
+  "ingested_at": "2026-07-17T11:00:15.407Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

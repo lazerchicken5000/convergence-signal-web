@@ -1,0 +1,39 @@
+{
+  "id": "td_42f9475c",
+  "source": "arxiv",
+  "source_id": "2607.15267",
+  "source_url": "https://arxiv.org/abs/2607.15267",
+  "content_type": "paper",
+  "creator": {
+    "id": "victoria_graf",
+    "name": "Victoria Graf",
+    "handle": "Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith, David Kohlbrenner, Kyle Lo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Pretraining Data Can Be Poisoned through Computational Propaganda",
+  "body_text": "Pretraining Data Can Be Poisoned through Computational Propaganda\n\nPoisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources such as Wikipedia, which do not represent the large scale and heterogeneity typical of pretraining corpora, and has ignored the interaction between poisoned data and data curation pipelines. We demonstrate that poisoning attacks on pretraining data are feasible beyond this limited setting through an existing web-scale content injection mechanism: public discussion interfaces. Additionally, to measure whether malicious content is included after web crawling and data curation, we introduce HalfLife, a novel analysis for estimating adversarial content inclusion in web-crawl based LM training data. We use HalfLife to explore the feasibility of poisoning pretraining corpora at web scale through open discussion interfaces. Our analysis demonstrates the importance of estimating whether poison injections are included in pretraining data, and establishes third-party webpage content as a possible vector for attacking language model pretraining.\n\nAuthors: Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith, David Kohlbrenner, Kyle Lo\nCategories: cs.AI, cs.CL, cs.AI",
+  "word_count": 158,
+  "published_at": "2026-07-16T17:56:05Z",
+  "ingested_at": "2026-07-17T11:04:30.768Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

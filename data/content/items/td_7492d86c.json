@@ -1,0 +1,38 @@
+{
+  "id": "td_7492d86c",
+  "source": "arxiv",
+  "source_id": "2607.15238",
+  "source_url": "https://arxiv.org/abs/2607.15238",
+  "content_type": "paper",
+  "creator": {
+    "id": "paul-andrei_pogăcean",
+    "name": "Paul-Andrei Pogăcean",
+    "handle": "Paul-Andrei Pogăcean, Sanda-Maria Avram",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Language Identification via Compositional Data Analysis: A Linear-Time Classifier Based on Log-Ratio Geometry",
+  "body_text": "Language Identification via Compositional Data Analysis: A Linear-Time Classifier Based on Log-Ratio Geometry\n\nLanguage identification is commonly addressed using either neural architectures or statistical n-gram models. Neural approaches typically require substantial computational resources, whereas classical frequency-based methods offer efficient linear-time performance, but rely on distance metrics that are not always appropriate for compositional data. This work models character and bigram frequency distributions as compositional vectors constrained to the simplex and mapped via the centered log-ratio (CLR) transformation bijectively onto the $(D-1)$-dimensional zero-sum subspace of $\\mathbb{R}^D$, where Euclidean distances correspond to Aitchison distances. A pipeline is proposed, combining CLR-transformed unigram and bigram features with Laplace smoothing to address sparsity. The method is evaluated on six languages. Experimental results show that the proposed approach achieves robust accuracy across different text lengths, with strong performance for longer sequences. These findings indicate that compositional representations provide a deterministic and computationally efficient alternative for language identification, particularly in settings where interpretability and low resource consumption are essential.\n\nAuthors: Paul-Andrei Pogăcean, Sanda-Maria Avram\nCategories: cs.CL, cs.CL",
+  "word_count": 149,
+  "published_at": "2026-07-16T17:35:23Z",
+  "ingested_at": "2026-07-17T11:04:37.899Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

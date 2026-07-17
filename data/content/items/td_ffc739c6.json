@@ -1,0 +1,41 @@
+{
+  "id": "td_ffc739c6",
+  "source": "arxiv",
+  "source_id": "2607.15208",
+  "source_url": "https://arxiv.org/abs/2607.15208",
+  "content_type": "paper",
+  "creator": {
+    "id": "yifan_chen",
+    "name": "Yifan Chen",
+    "handle": "Yifan Chen, Xiaoou Cheng, Jonathan Niles-Weed, Jonathan Weare",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Delocalization of bias in unadjusted Hamiltonian Monte Carlo and underdamped Langevin",
+  "body_text": "Delocalization of bias in unadjusted Hamiltonian Monte Carlo and underdamped Langevin\n\nUnadjusted samplers such as unadjusted Hamiltonian Monte Carlo and underdamped Langevin are well-known to be biased. Metropolis--Hastings adjustment has been conventionally incorporated into Hamiltonian Monte Carlo to eliminate the bias. However, this adjustment can significantly increase the iteration complexity due to the small step size required for reasonable Metropolis acceptance rates. In this work, we extend the \\emph{delocalization of bias} phenomenon, previously established for the overdamped Langevin algorithm, to these two unadjusted algorithms. We show that to control the $W_2$ bias of any $K$-dimensional marginal of a high-dimensional distribution, $O(\\sqrt{K})$ integration steps suffice up to $\\log d$ terms, assuming either weak or sparse interactions among variables. The discrete-time integrators here introduce technical difficulties beyond those of the overdamped setting, which we address through a broadly applicable matrix-polynomial framework that characterizes their propagators. Our result for the underdamped Langevin algorithm is valid for all large friction parameters, implying that the Leimkuhler-Matthews integrator for the overdamped Langevin dynamics also exhibits delocalization of bias.\n\nAuthors: Yifan Chen, Xiaoou Cheng, Jonathan Niles-Weed, Jonathan Weare\nCategories: stat.CO, cs.LG, math.PR, stat.ML, stat.CO",
+  "word_count": 161,
+  "published_at": "2026-07-16T17:07:42Z",
+  "ingested_at": "2026-07-17T11:04:45.076Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.CO",
+    "cs.LG",
+    "math.PR",
+    "stat.ML",
+    "stat.CO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

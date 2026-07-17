@@ -1,0 +1,40 @@
+{
+  "id": "td_dcd1925f",
+  "source": "arxiv",
+  "source_id": "2607.15200",
+  "source_url": "https://arxiv.org/abs/2607.15200",
+  "content_type": "paper",
+  "creator": {
+    "id": "haran_raajesh",
+    "name": "Haran Raajesh",
+    "handle": "Haran Raajesh, Kulin Shah, Adam Klivans, Philipp Krähenbühl",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Mask-Aware Policy Gradients for Diffusion Language Models",
+  "body_text": "Mask-Aware Policy Gradients for Diffusion Language Models\n\nReinforcement learning has proven effective for improving reasoning in large language models, but extending it to Masked Diffusion Language Models (MDLMs) remains challenging due to the intractability of the log-likelihood estimation. Existing approaches approximate this log-likelihood by modeling only the token predictions, ignoring the order in which positions are unmasked during generation. We observe that MDLM generation involves two decisions at each step: what tokens to place at each masked position and which positions to remask. We formalize this as a two-stage action MDP, showing that the policy gradient naturally decomposes into a token term and a masking term. Combining optimization of both terms leads to state-of-the-art outcomes on mathematical reasoning and coding benchmarks, with scores of 87.1% on GSM8K and 53.4% on MBPP.\n\nAuthors: Haran Raajesh, Kulin Shah, Adam Klivans, Philipp Krähenbühl\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 124,
+  "published_at": "2026-07-16T16:57:34Z",
+  "ingested_at": "2026-07-17T11:04:37.899Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
