@@ -1,0 +1,35 @@
+{
+  "id": "td_7a733f8a",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Claude Code uses Bun written in Rust now",
+  "body_text": "In Rewriting Bun in Rust Jarred Sumner made the following claim:\n\nClaude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.\n\nI decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust.\nI found these two commands convincing:\nstrings ~/.local/bin/claude | grep -m1 'Bun v1'\n\nFor me this outputs Bun v1.4.0 (macOS arm64). The most recent release of Bun on GitHub is currently v1.3.14 from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version.\nstrings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\\.rs'\n\nThis outputs a list of 563 filenames, starting with these:\nsrc/runtime/bake/dev_server/mod.rs\nsrc/runtime/bake/production.rs\nsrc/bundler/bundle_v2.rs\n\nIt looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, \"Boring is good\".\n\n    Tags: bun, rust, anthropic, claude-code, jarred-sumner",
+  "word_count": 166,
+  "published_at": "2026-07-19T03:54:09.000Z",
+  "ingested_at": "2026-07-19T11:00:26.689Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
