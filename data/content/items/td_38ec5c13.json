@@ -1,0 +1,41 @@
+{
+  "id": "td_38ec5c13",
+  "source": "arxiv",
+  "source_id": "2607.16178",
+  "source_url": "https://arxiv.org/abs/2607.16178",
+  "content_type": "paper",
+  "creator": {
+    "id": "gabriel_samberg",
+    "name": "Gabriel Samberg",
+    "handle": "Gabriel Samberg, YoonHaeng Hur, Yuehaw Khoo, Nir Sharon",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Cluster-Aware Matching via Laplacian Optimal Transport",
+  "body_text": "Cluster-Aware Matching via Laplacian Optimal Transport\n\nIn many applications of matching, the point clouds to be matched are not merely unstructured sets of points but rather samples from distributions with an intrinsic cluster structure. In such cases, as individual points are often interchangeable within a coherent region, finding a robust region-to-region alignment is more desirable than establishing a precise point-to-point correspondence. To this end, we propose a novel approach for cluster-aware matching based on Laplacian Optimal Transport (LapOT). The key idea is to regularize the optimal transport problem with quadratic Laplacian terms constructed from similarity graphs of the point clouds, which encourages the optimal coupling to respect the cluster structure of both point sets. We also introduce Refined Simultaneous Clustering (RSC), a method that leverages the cluster-aware coupling obtained from LapOT to produce consistent partitions across the point sets, which can overcome the limitations of independent clustering and yield more stable and interpretable results. We demonstrate the effectiveness of our approach through theoretical analysis and empirical experiments, showing that LapOT indeed produces cluster-aware matching that leads to more consistent and meaningful alignments between point clouds.\n\nAuthors: Gabriel Samberg, YoonHaeng Hur, Yuehaw Khoo, Nir Sharon\nCategories: stat.ML, cs.LG, math.NA, stat.ME, stat.ML",
+  "word_count": 179,
+  "published_at": "2026-07-17T17:56:51Z",
+  "ingested_at": "2026-07-20T11:06:28.002Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.NA",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

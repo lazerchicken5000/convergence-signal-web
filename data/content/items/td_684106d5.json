@@ -1,0 +1,39 @@
+{
+  "id": "td_684106d5",
+  "source": "arxiv",
+  "source_id": "2607.16085",
+  "source_url": "https://arxiv.org/abs/2607.16085",
+  "content_type": "paper",
+  "creator": {
+    "id": "shilin_gao",
+    "name": "Shilin Gao",
+    "handle": "Shilin Gao, Mark J. F. Gales, Kate M. Knill",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Controlling Implicit Shortcut Reliance in L2 Spoken English Auto-markers",
+  "body_text": "Controlling Implicit Shortcut Reliance in L2 Spoken English Auto-markers\n\nIncreasingly, speech and language processing tasks take either audio or text directly rather than extracting features from these as the input to the classifier or regressor. Often these systems make use of complex, for example transformer-based, processes that have the ability to derive highly non-linear mappings between the input and the output. Unfortunately these systems can also learn ''shortcuts'' where the classifier is overly reliant on particular aspects of the input to yield the output. For the task of language proficiency assessment, this over-reliance can enable learners to increase their score by exploiting the shortcut rather than improving their ability. This paper introduces a novel training criterion that is able to reduce the classifier's reliance on shortcuts, thus for example limiting this option for malpractice in language assessment. This process is illustrated on two forms of assessment system, one based on the audio the other on the speech recognition text. The results show that, for both systems, there is higher correlations with features that could be exploited for malpractice than expected from the human reference, indicating an over-reliance on these features. By introducing the modified training criterion, this correlation can be reduced to be closer to the reference correlation.\n\nAuthors: Shilin Gao, Mark J. F. Gales, Kate M. Knill\nCategories: cs.CL, eess.AS, cs.CL",
+  "word_count": 199,
+  "published_at": "2026-07-17T16:15:49Z",
+  "ingested_at": "2026-07-20T11:06:20.582Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "eess.AS",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_71e55ee7",
+  "source": "arxiv",
+  "source_id": "2607.16138",
+  "source_url": "https://arxiv.org/abs/2607.16138",
+  "content_type": "paper",
+  "creator": {
+    "id": "ole-christian_galbo_engstrøm",
+    "name": "Ole-Christian Galbo Engstrøm",
+    "handle": "Ole-Christian Galbo Engstrøm",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Improving Improved Kernel PLS",
+  "body_text": "Improving Improved Kernel PLS\n\nImproved Kernel Partial Least Squares (IKPLS) algorithms 1 and 2 are among the fastest PLS calibration algorithms. This article focuses on two shared steps, the computation of the $\\mathbf{X}$ rotations, $\\mathbf{R}$, and the $\\mathbf{Y}$ loadings, $\\mathbf{Q}$, and accelerates both. For $\\mathbf{R}$, term-by-term accumulation is replaced by a direct evaluation strategy that requires the same number of multiplications but parallelizes better on modern hardware. For $\\mathbf{Q}$, I identify - to the best of my knowledge, for the first time - equivalences showing that each $\\mathbf{Y}$ loading is obtainable, up to explicitly derived constants, from quantities already computed earlier in the same iteration, and I exploit them in IKPLS to reduce the cost of each loading from $Θ\\left(KM\\right)$ to $Θ\\left(M\\right)$ operations whenever $M = 1$ or $2 \\leq M &lt; K$, with $K$ predictor variables (number of columns in $\\mathbf{X}$) and $M$ response variables (number of columns in $\\mathbf{Y}$). Both improvements provably yield exactly the same $\\mathbf{W}$, $\\mathbf{P}$, $\\mathbf{Q}$, $\\mathbf{R}$, and $\\mathbf{T}$ as the original algorithms. Benchmarks with NumPy (CPU) and JAX (GPU) show speedups of up to two orders of magnitude for the isolated steps and of approximately $2\\times$ (CPU) and $6\\times$ (GPU) for entire fits. Both improvements are implemented in the free, open-source Python package \\texttt{ikpls}.\n\nAuthors: Ole-Christian Galbo Engstrøm\nCategories: cs.LG, cs.DS, cs.LG",
+  "word_count": 206,
+  "published_at": "2026-07-17T17:19:04Z",
+  "ingested_at": "2026-07-20T11:06:28.002Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.DS",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

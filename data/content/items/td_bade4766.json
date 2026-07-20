@@ -1,0 +1,39 @@
+{
+  "id": "td_bade4766",
+  "source": "arxiv",
+  "source_id": "2607.16177",
+  "source_url": "https://arxiv.org/abs/2607.16177",
+  "content_type": "paper",
+  "creator": {
+    "id": "matteo_tomasetto",
+    "name": "Matteo Tomasetto",
+    "handle": "Matteo Tomasetto, Nicolò Botteghi, Gabriele Bruni, Andrea Manzoni",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Physics-enhanced reinforcement learning for real-time optimal control of dynamical systems",
+  "body_text": "Physics-enhanced reinforcement learning for real-time optimal control of dynamical systems\n\nReinforcement learning (RL) has recently emerged as a promising feedback control strategy for nonlinear and complex dynamical systems. However, RL algorithms are sample inefficient and require a large number of interaction with the environment to synthesize optimal control strategies. Consequently, applications of RL are typically limited to sparse sensors and actuators due to the curse of dimensionality entailed by the exploration-exploitation dilemma in high-dimensional spaces. In this work, we bridge RL and traditional optimal control for dynamical system with a novel Physics-EnhAnced Reinforcement Learning (PEARL) paradigm tailored to the control of high-dimensional and parametric dynamical systems, exploiting the differentibility of their dynamics. Specifically, PEARL employs an actor-adjoint algorithm that leverages automatic differentiation to compute policy gradients over short horizons and adjoint-based sensitivities of future returns approximated via neural networks, significantly reducing the number of environment interactions, while mitigating long-term gradient instabilities. Through two challenging parametric navigation problems in unsteady flows, we show that PEARL (i) effectively exploits differentiable environments to outperform state-of-the-art RL algorithms, (ii) is sample efficient, thanks to the physics-guided policy learning, (iii) generalizes across multiple scenarios, which is crucial when dealing with parametric systems, and (iv) enables scaling RL to high-dimensional state and action spaces, without requiring low-dimensional state representations or multi-agent strategies.\n\nAuthors: Matteo Tomasetto, Nicolò Botteghi, Gabriele Bruni, Andrea Manzoni\nCategories: cs.LG, math.OC, cs.LG",
+  "word_count": 206,
+  "published_at": "2026-07-17T17:56:05Z",
+  "ingested_at": "2026-07-20T11:06:28.002Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.OC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

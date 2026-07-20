@@ -1,0 +1,38 @@
+{
+  "id": "td_a01d656d",
+  "source": "arxiv",
+  "source_id": "2607.16184",
+  "source_url": "https://arxiv.org/abs/2607.16184",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuchen_yang",
+    "name": "Yuchen Yang",
+    "handle": "Yuchen Yang, Yifan Zhao, Anisha Dasgupta, Sasa Misailovic",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
+  "body_text": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization\n\nMixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension between the GPU memory requirements of the model weights and the growing KV cache. We propose PagedWeight, a novel management method for MoE LLM serving that dynamically quantizes MoE model's weights at runtime and balances expert-weight precision with the KV cache sizes. PagedWeight exposes and effectively navigates the complex tradeoff between the model's task accuracy, memory consumption, and throughput/latency. Across several memory-sensitive MoE serving scenarios, PagedWeight improves the quality-memory tradeoff over several existing quantization baselines. PagedWeight achieves FP16-equivalent accuracy with up to 72.0% GPU memory savings and 1.94$\\times$ throughput improvement, and improves quality over quantization methods by up to 39.3% at a similar memory budget with at most 4.1% throughput loss.\n\nAuthors: Yuchen Yang, Yifan Zhao, Anisha Dasgupta, Sasa Misailovic\nCategories: cs.LG, cs.LG",
+  "word_count": 137,
+  "published_at": "2026-07-17T17:58:29Z",
+  "ingested_at": "2026-07-20T11:06:28.002Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
