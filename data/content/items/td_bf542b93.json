@@ -1,0 +1,38 @@
+{
+  "id": "td_bf542b93",
+  "source": "arxiv",
+  "source_id": "2607.18210",
+  "source_url": "https://arxiv.org/abs/2607.18210",
+  "content_type": "paper",
+  "creator": {
+    "id": "juraj_gavura",
+    "name": "Juraj Gavura",
+    "handle": "Juraj Gavura, Igor Farkaš",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
+  "body_text": "Optimization of sim-to-real transfer in the humanoid robot NICO\n\nRobotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping. In our previous work, we introduced a low-cost haptic calibration method that improved 2D reaching accuracy of the humanoid robot NICO. In this paper, we extend this approach from reaching to tabletop object grasping by adding YOLO-based object and hand detection, stereo vision-based localization using the robot's built-in low-resolution fisheye cameras, and task-specific corrections for grasp execution. Together, these components form a novel calibration-based grasping pipeline that does not require RGB-D cameras, motion capture, or external tracking systems. We also implemented a visual feedback model that aligns the robot hand with the detected object before grasping. Our results show that the fully nonlinear calibration model achieved the best performance inside the calibrated area, while the visual feedback model achieved the highest overall grasping success across the full tabletop workspace.\n\nAuthors: Juraj Gavura, Igor Farkaš\nCategories: cs.RO, cs.RO",
+  "word_count": 168,
+  "published_at": "2026-07-20T17:45:04Z",
+  "ingested_at": "2026-07-21T11:05:58.035Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

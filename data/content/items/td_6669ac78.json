@@ -1,0 +1,39 @@
+{
+  "id": "td_6669ac78",
+  "source": "arxiv",
+  "source_id": "2607.18176",
+  "source_url": "https://arxiv.org/abs/2607.18176",
+  "content_type": "paper",
+  "creator": {
+    "id": "leonard_storcks",
+    "name": "Leonard Storcks",
+    "handle": "Leonard Storcks, Nils Thuerey, Tobias Buck",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Per Astronomix ad Astra: High-Order Differentiable (Magneto)hydrodynamics with Energy-Conserving Self-Gravity",
+  "body_text": "Per Astronomix ad Astra: High-Order Differentiable (Magneto)hydrodynamics with Energy-Conserving Self-Gravity\n\nWe present astronomix, a performant differentiable (magneto)hydrodynamics simulator written in Python/JAX. We demonstrate how automatic differentiation, validated against hand-derived analytical functional derivatives and finite differences, enables inverse modeling over millions of parameters and allows for sensitivity and stability analysis as well as correct eigenmode initialization. The differentiability of astronomix furthermore enables training machine-learning models inside the simulator. On a single GPU at a given resolution, astronomix has runtimes of the same order of magnitude as the GPU-optimized code AthenaPK but reaches far lower errors on smooth problems due to its higher order. astronomix scales to multiple GPUs ($\\sim 6.5$ strong scaling speedup on $8$ GPUs) and multiple nodes ($\\sim 76\\%$ weak scaling efficiency on $16$ GPUs over $4$ nodes). We also present a novel fourth-order self-gravity scheme which complements the fifth-order finite difference constrained transport magnetohydrodynamics scheme implemented in astronomix. To maximize performance, we created an agentic skill that generates and validates custom Pallas GPU kernels from our JAX reference code and test suite. The simulator is available at https://github.com/leo1200/astronomix.\n\nAuthors: Leonard Storcks, Nils Thuerey, Tobias Buck\nCategories: astro-ph.IM, physics.flu-dyn, astro-ph.IM",
+  "word_count": 170,
+  "published_at": "2026-07-20T17:14:07Z",
+  "ingested_at": "2026-07-21T11:05:51.393Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.IM",
+    "physics.flu-dyn",
+    "astro-ph.IM"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

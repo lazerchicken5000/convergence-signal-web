@@ -1,0 +1,42 @@
+{
+  "id": "td_360e0661",
+  "source": "arxiv",
+  "source_id": "2607.18225",
+  "source_url": "https://arxiv.org/abs/2607.18225",
+  "content_type": "paper",
+  "creator": {
+    "id": "masahiro_kato",
+    "name": "Masahiro Kato",
+    "handle": "Masahiro Kato, Taka Kato",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+  "body_text": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference\n\nWe propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring evidence in an embedding space, the generator estimates conditional expected outcomes or their contrasts, and a plug-in rule selects an action. This formulation connects action-specific vector search with nearest-neighbor matching in causal inference. We decompose the regret of the two-step method into candidate-generation regret and within-candidate choice regret, and we bound the latter using prediction-error guarantees for nearest-neighbor estimators and transformers. We evaluate the one-step method directly as a policy because its intermediate computation is unobserved.\n\nAuthors: Masahiro Kato, Taka Kato\nCategories: econ.EM, cs.LG, math.ST, stat.ME, stat.ML, econ.EM",
+  "word_count": 108,
+  "published_at": "2026-07-20T17:57:20Z",
+  "ingested_at": "2026-07-21T11:05:44.787Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "econ.EM",
+    "cs.LG",
+    "math.ST",
+    "stat.ME",
+    "stat.ML",
+    "econ.EM"
+  ],
+  "domain": "finance",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

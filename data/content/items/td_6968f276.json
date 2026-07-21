@@ -1,0 +1,38 @@
+{
+  "id": "td_6968f276",
+  "source": "arxiv",
+  "source_id": "2607.18174",
+  "source_url": "https://arxiv.org/abs/2607.18174",
+  "content_type": "paper",
+  "creator": {
+    "id": "lisha_chen",
+    "name": "Lisha Chen",
+    "handle": "Lisha Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Improved Convergence Rate for Stochastic Multi-Gradient Descent: A Proof Discovered with AI",
+  "body_text": "Improved Convergence Rate for Stochastic Multi-Gradient Descent: A Proof Discovered with AI\n\nFor smooth nonconvex stochastic multi-objective problems, stochastic multi-gradient descent (SMG) computes an approximate steepest common descent direction of the objectives from stochastic gradients. With unbiased, variance-bounded stochastic gradients, this note establishes a new convergence rate for SMG in terms of the squared Pareto-stationarity (PS) measure. With a constant stepsize and linearly growing mini-batches, this measure at the algorithm's output is $\\widetilde O(T^{-1})$ after $T$ iterations. This improves on the $\\widetilde O(T^{-1/4})$ bound obtained by Chen et al. (2024) under the same setting, where $\\widetilde O(\\cdot)$ suppresses logarithmic factors. The key to the rate improvement is to exploit the Lipschitz continuity of the PS measure, defined by the norm of the multi-gradient descent algorithm (MGDA) direction, rather than the $(1/2)$-Hölder continuity of the MGDA direction used by Chen et al. (2024). The proof was discovered while the author was preparing homework for a graduate course: ChatGPT 5.4 Thinking Extended generated the initial proof strategy in response to an author-written homework-solution prompt; the author then verified and reorganized the resulting argument. The appendices document the prompt and summarize the student submissions.\n\nAuthors: Lisha Chen\nCategories: math.OC, math.OC",
+  "word_count": 179,
+  "published_at": "2026-07-20T17:13:07Z",
+  "ingested_at": "2026-07-21T11:06:04.610Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
