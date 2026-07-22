@@ -1,0 +1,38 @@
+{
+  "id": "td_258541af",
+  "source": "arxiv",
+  "source_id": "2607.19326",
+  "source_url": "https://arxiv.org/abs/2607.19326",
+  "content_type": "paper",
+  "creator": {
+    "id": "atahan_dokme",
+    "name": "Atahan Dokme",
+    "handle": "Atahan Dokme, Larry Heck",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Selective State-Space Adaptation and Retrieval for Language Model Reasoning",
+  "body_text": "Selective State-Space Adaptation and Retrieval for Language Model Reasoning\n\nLow-rank adaptation introduces a static learned update applied identically to every input. The update provides task-level adaptation but does not explicitly represent token-level or instance-level state variation. A family of adapters is proposed that introduces selective state-space recurrence at two complementary granularities. At the token level, \\textbf{MaLoRA} (Mamba-modulated low-rank adaptation) makes the adapter's scaling factor a dynamic input-dependent function with recurrent state across tokens, in contrast to the stateless modulators of prior work. At the context level, \\textbf{MaRA} (Mamba Retrieval Adapter) tracks cross-segment state and selects the segments most relevant to the query, before the modulated language model generates its answer. Across three frozen backbones (Qwen-2.5-7B, Llama-3.1-8B, Gemma-2-9B) and two reasoning benchmarks (MuSiQue, 2WikiMultihopQA), the family improves reasoning accuracy on every cell of the $3{\\times}2$ grid, by $+6.8$ F1 ($+10.5\\%$ relative) on average and up to $+9.3$ F1 ($+18.2\\%$ relative) on the hardest cell over the LoRA baseline, and the token-level gains carry to RULER QA-2 under length stress.\n\nAuthors: Atahan Dokme, Larry Heck\nCategories: cs.CL, cs.CL",
+  "word_count": 159,
+  "published_at": "2026-07-21T17:47:57Z",
+  "ingested_at": "2026-07-22T11:06:32.830Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

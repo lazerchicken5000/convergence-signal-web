@@ -1,0 +1,39 @@
+{
+  "id": "td_daf0b75d",
+  "source": "arxiv",
+  "source_id": "2607.19300",
+  "source_url": "https://arxiv.org/abs/2607.19300",
+  "content_type": "paper",
+  "creator": {
+    "id": "meena_jagadeesan",
+    "name": "Meena Jagadeesan",
+    "handle": "Meena Jagadeesan, Tatsunori Hashimoto, Jon Kleinberg",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
+  "body_text": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior\n\nAs LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an intervention that steers not only the detected attribute itself, but also downstream metrics such as LLM usage and output quality. In this work, we demonstrate how imperfect LLM detectors lead to counterintuitive impacts on these downstream metrics, by distorting how users are incentivized to use LLMs in their workflow. We develop a stylized model which captures how users strategically choose how much to use the LLM and how to post-process content to reduce the detected attribute. Using this model, we show that LLM detection can counterintuitively lead humans to increase their LLM usage. Moreover, even when reducing the detected attribute improves output quality, we find that introducing an LLM detector can lead users to produce lower quality outputs. In contrast, we show that detectors result in a clean \"rise-then-fall\" pattern for the detected attribute, which we empirically reproduce for word frequencies on arXiv abstracts. Altogether, our work illustrates how LLM detection can distort LLM usage and output quality, uncovering failure modes when LLM detectors operate as an intervention on these downstream metrics.\n\nAuthors: Meena Jagadeesan, Tatsunori Hashimoto, Jon Kleinberg\nCategories: cs.AI, cs.GT, cs.AI",
+  "word_count": 204,
+  "published_at": "2026-07-21T17:11:02Z",
+  "ingested_at": "2026-07-22T11:06:46.074Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.GT",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

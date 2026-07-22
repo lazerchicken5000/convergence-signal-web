@@ -1,0 +1,38 @@
+{
+  "id": "td_15e9518d",
+  "source": "arxiv",
+  "source_id": "2607.19231",
+  "source_url": "https://arxiv.org/abs/2607.19231",
+  "content_type": "paper",
+  "creator": {
+    "id": "haram_choi",
+    "name": "Haram Choi",
+    "handle": "Haram Choi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Selection Shapes the Boundary: A Preregistered Replication of Monotonicity and Label Agreement in Unselected NLI Populations",
+  "body_text": "Selection Shapes the Boundary: A Preregistered Replication of Monotonicity and Label Agreement in Unselected NLI Populations\n\nPrior work on human label variation (HLV) in natural language inference (NLI) has often relied on re-annotation resources that select items by disagreement level. An earlier study (arXiv:2607.15870) found that hypotheses containing non-upward monotonicity operators showed lower label agreement in ChaosNLI (Cliff's delta = -0.284), which is restricted to items whose majority label carries exactly three of five votes. We preregistered a replication of this boundary in the unselected populations that ChaosNLI was drawn from: the SNLI and MultiNLI development sets, using the same operator tagger and a four-level ordinal agreement outcome. The registered prediction fails. All seven contrasts return a positive Cliff's delta (non-upward items agree slightly more, not less), the only significant confirmatory contrast has the opposite sign to the registration, and every effect is far below our smallest effect size of interest (0.10). Robustness checks support the measurement: simulated tagger misclassification shrinks the effects rather than manufacturing them, and a manual re-tagging audit reaches four-class agreement of 0.875 on a fresh 200-item sample. We conclude that the earlier negative boundary is plausibly a structure conditional on low-agreement selection rather than a population-level property, and that HLV structure claims built on selected re-annotation resources should state their selection conditional explicitly.\n\nAuthors: Haram Choi\nCategories: cs.CL, cs.CL",
+  "word_count": 202,
+  "published_at": "2026-07-21T16:03:05Z",
+  "ingested_at": "2026-07-22T11:06:32.831Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

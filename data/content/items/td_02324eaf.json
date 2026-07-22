@@ -1,0 +1,35 @@
+{
+  "id": "td_02324eaf",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/benchmarking-benchmarks",
+  "source_url": "https://www.science.org/content/blog-post/benchmarking-benchmarks",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Benchmarking the Benchmarks",
+  "body_text": "For as long as there have been computational models, there have been arguments about how to measure how useful they are. Benchmarking this stuff is a problem all its own, and that problem has just become more fraught as the variety and power of computational chemistry and biology techniques have increased. There have been plenty of calls for standardization over the years, but a persistent problem has been people sort of cooking up their own yardsticks and reference standards. Watching competing software being put through exactly the same challenges in the same manner is a much better use of everyone’s time, which is why the various adjudicated competitions in these areas have helped drive progress so much. The advent of machine learning techniques has led to some real advances, but it’s also made the benchmarking problem more difficult than ever. This recent preprint (from Björn Mattsson and Pat Walters, both of whom are very experienced in this area) is required reading if you’re thinking about such issues. That’s because there are some unpleasant surprises in it. They’re looking at the co-folding ML models for protein-ligand interaction, which have been getting a lot of attention lately. Some of these have apparently demonstrated abilities in predicting protein-ligand structures that compete with the most computationally intensive physics-based techniques (things like Free Energy Perturbation, or FEP). That’s really interesting, because it would sort of recapitulate what happened with the protein folding problem once machine learning really got its teeth into it. People had been doing physics-based computational approaches to protein structure prediction for years, but it turned out that pattern-matching based off the structures we already knew about (in the Protein Data Bank) led to extremely useful predictions (much, but not all, of the time) at a far lower compute cost. So if that philosophy could be extended to the structures of small molecules bound to proteins (which is a lot of early-stage drug discovery summed up in a few words), then things would be very different. Are they? If you take some of the reported results at face value, then we’re getting there pretty rapidly. But this work shows that a longstanding problem is still messing with these numbers: data leakage. Ideally, you train your model on a big pile o’ protein data, while holding out a good piece of it to keep it out of the training set. Then once your software has machine-learned its way to happiness, you see how it performs on those cases that it’s never seen before. But here’s the problem: it is very hard to set this up in a way so that the program is really seeing things that it hasn’t seen. There are a lot of outright homologous proteins out there, and they bind similar ligands in quite similar ways. There are also proteins that seem to vary a lot in sequence that still manage to have very similar binding sites, and the danger is that your software is going to reach in and pick up a bunch of stuff it already knew and present it to you as a fresh calculation on a fresh protein problem that it’s never seen. So splitting those data sets is very tricky. This is a known problem, but it’s not a solved problem despite many good-faith efforts to mitigate it. Way too many programs have been rewarded for memorization rather than calculation, and that gives you false confidence as you move to the real cutting-edge stuff in drug research, Mattson and Walters show that some of these methods (such as the FEP+4 data set) actually have a lot of way-too-similar cases across both the training set and the test set. And they demonstrate this by giving these a test with ligand-only data sets, with no protein folded around them at all. Unfortunately, these still deliver fairly respectable prediction scores, when they should be unable to deliver much of anything at all! That’s because the software is shortcutting by using things it already knows about. They propose a new dataset arranged into ligand-similarity levels, the “Novelty-Tiered Affinity Benchmark”, and it has to be said that the most popular machine-learning packages take a serious hit in their performance against this one. Which strongly suggests that there was plenty of air to be let out of them. The hope is that this new benchmark will spur improvements in the field while minimizing the constant short-cutting of memorizing similar pairs. In the end, we want to use these programs on novel proteins using ligands they they’ve never seen before, and spitting out lists of false positives will just waste everyone’s time. It’ll also decrease confidence in the whole approach, as you watch it fail on the real problems, and that doesn’t do the field any favors, either. The overall advice is “get real”. Which honestly, is what it’s always been.",
+  "word_count": 808,
+  "published_at": "2026-07-21T11:12:24.000Z",
+  "ingested_at": "2026-07-22T11:04:19.268Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
