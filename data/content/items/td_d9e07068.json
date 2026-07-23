@@ -1,0 +1,40 @@
+{
+  "id": "td_d9e07068",
+  "source": "arxiv",
+  "source_id": "2607.20316",
+  "source_url": "https://arxiv.org/abs/2607.20316",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhanyuan_cai",
+    "name": "Zhanyuan Cai",
+    "handle": "Zhanyuan Cai, Emre Sahinoglu, Shahin Shahrampour",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Decentralized Online Riemannian Optimization for Strongly Geodesically Convex Functions",
+  "body_text": "Decentralized Online Riemannian Optimization for Strongly Geodesically Convex Functions\n\nWe study decentralized online optimization for strongly geodesically convex (strongly g-convex) losses on Riemannian manifolds with bounded sectional curvature, including positively curved manifolds. In centralized Riemannian optimization, strong g-convexity tightens the optimal regret from $O(\\sqrt{T})$ to $O(\\log T)$, where $T$ is the time horizon; in the decentralized Riemannian setting, however, existing methods address only g-convex losses, leaving the strongly g-convex regime unexplored. One challenge is that the required decaying step size in the centralized regime is incompatible with existing network-error analyses, which typically assume a fixed step size. First, we provide a general network-error analysis for time-varying schedules. Next, we build on this analysis to establish the first $O(\\log T)$ static regret bound for decentralized online Riemannian gradient descent, matching the minimax-optimal rate for strongly-convex Euclidean online optimization. Finally, we prove the same $O(\\log T)$ regret bound for the two-point bandit feedback setting using novel strong subconvexity arguments for the smoothed versions of the loss functions.\n\nAuthors: Zhanyuan Cai, Emre Sahinoglu, Shahin Shahrampour\nCategories: math.OC, cs.LG, cs.MA, math.OC",
+  "word_count": 156,
+  "published_at": "2026-07-22T16:03:43Z",
+  "ingested_at": "2026-07-23T11:07:27.924Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.LG",
+    "cs.MA",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_1cc2af61",
+  "source": "arxiv",
+  "source_id": "2607.20374",
+  "source_url": "https://arxiv.org/abs/2607.20374",
+  "content_type": "paper",
+  "creator": {
+    "id": "andrea_napoli",
+    "name": "Andrea Napoli",
+    "handle": "Andrea Napoli",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Online Variance Reduction for Domain Adaptation on Streaming Data",
+  "body_text": "Online Variance Reduction for Domain Adaptation on Streaming Data\n\nThis paper studies the problem of stochastic variance reduction (SVR) for the maximum mean discrepancy (MMD) and correlation alignment (CORAL) loss functions. Although various offline SVR algorithms for these losses have been proposed, these are incompatible with online, distributed, or incremental learning settings. This paper presents Adaptive vaRiance Reduction via Online reWeighting (ARROW), the first online SVR algorithm for the MMD and CORAL for streamed data. The method maintains moving average references of the alignment statistics, and adaptively reweights incoming minibatches so that the minibatch and reference statistics are aligned. Further, we propose a relaxed reweighting scheme so that the ensuing weight-optimisation problem is tractable. In experiments and simulations, we show that ARROW performs competitively with offline algorithms in terms of runtime, degree of variance reduction achieved, and target domain accuracy.\n\nAuthors: Andrea Napoli\nCategories: cs.LG, cs.LG",
+  "word_count": 131,
+  "published_at": "2026-07-22T17:04:29Z",
+  "ingested_at": "2026-07-23T11:07:27.924Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

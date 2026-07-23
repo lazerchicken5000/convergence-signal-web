@@ -1,0 +1,39 @@
+{
+  "id": "td_a817e7ba",
+  "source": "arxiv",
+  "source_id": "2607.20391",
+  "source_url": "https://arxiv.org/abs/2607.20391",
+  "content_type": "paper",
+  "creator": {
+    "id": "jennifer_paykin",
+    "name": "Jennifer Paykin",
+    "handle": "Jennifer Paykin, Steven Baldasty, Joseph P. Near, Christian Skalka",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Qoreo: Choreographic Programming for Quantum Distributed Systems",
+  "body_text": "Qoreo: Choreographic Programming for Quantum Distributed Systems\n\nProgramming distributed quantum systems requires multiple actors to coordinate precise sequences of quantum operations, classical communication, and entanglement generation. Writing such protocols directly as distributed processes is tedious and error-prone, and subtle mismatches can cause deadlock or silently incorrect quantum states. We present Qoreo, a choreographic programming language for quantum distributed systems in which an entire protocol is expressed as single, global program (a choreography) rather than as a collection of independent actor processes. Qoreo includes a local quantum language with linear types that enforce the no-cloning principle; a choreographic language that combines local quantum computation with inter-actor classical and quantum communication; and a process language for individual network nodes. We prove type safety for choreographies, guaranteeing that well-typed programs implement well-defined quantum operations, and we define endpoint projection~(EPP), which automatically derives a network of independent processes from any choreography. We prove EPP sound and complete with respect to the choreographic semantics; as a corollary, every well-typed choreography projects to a deadlock-free process network. The metatheory of Qoreo is fully mechanized in Rocq, and we provide an extraction pipeline to NetQASM for simulation and deployment on quantum network hardware.\n\nAuthors: Jennifer Paykin, Steven Baldasty, Joseph P. Near, Christian Skalka\nCategories: quant-ph, cs.PL, quant-ph",
+  "word_count": 189,
+  "published_at": "2026-07-22T17:25:15Z",
+  "ingested_at": "2026-07-23T11:07:48.602Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.PL",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

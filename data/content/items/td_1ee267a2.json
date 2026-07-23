@@ -1,0 +1,38 @@
+{
+  "id": "td_1ee267a2",
+  "source": "arxiv",
+  "source_id": "2607.20270",
+  "source_url": "https://arxiv.org/abs/2607.20270",
+  "content_type": "paper",
+  "creator": {
+    "id": "andrei_chetvergov",
+    "name": "Andrei Chetvergov",
+    "handle": "Andrei Chetvergov, Stepan Ukolov, Timofei Sivoraksha, Alexander Evseev, Mikhail Solovev, Valeriia Kuschenko, Maria Chistyakova, Sergey Bolovtsov",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study",
+  "body_text": "Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study\n\nLarge language models are increasingly evaluated through the values they endorse, but such evaluations presuppose that models can identify the value expressed in a concrete situation. We study this prerequisite as controlled top-1 recognition over Schwartz's ten basic values. Our evaluation set contains 1,000 Russian situational texts, balanced across the ten values and independently labeled by two human annotators per item. We evaluate 21 instruction-tuned LLM runs under a fixed ranked-response protocol; 20 runs with reliable outputs form the semantic panel. Pooled Acc@1 is 0.683 and Acc@3 is 0.892, showing that models often locate the correct motivational region while ranking close alternatives unstably. Adjacent values account for 50.9% of semantic errors, compared with 24.4% under a checkpoint-specific null. Eight directed confusions recur across checkpoints and human-confirmed subsets. Several are strongly asymmetric, including Universalism to Benevolence, Tradition to Conformity, and Security to Power, whereas Stimulation-Hedonism forms a bidirectional boundary. Their severity is checkpoint-specific and can bias higher-order value profiles. The results motivate value-recognition evaluation that combines exact accuracy, ranked recovery, and directed error analysis.\n\nAuthors: Andrei Chetvergov, Stepan Ukolov, Timofei Sivoraksha, Alexander Evseev, Mikhail Solovev, Valeriia Kuschenko, Maria Chistyakova, Sergey Bolovtsov\nCategories: cs.CL, cs.CL",
+  "word_count": 173,
+  "published_at": "2026-07-22T15:22:14Z",
+  "ingested_at": "2026-07-23T11:07:21.505Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

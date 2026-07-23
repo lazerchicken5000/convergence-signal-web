@@ -1,0 +1,39 @@
+{
+  "id": "td_b14b7b8e",
+  "source": "arxiv",
+  "source_id": "2607.20286",
+  "source_url": "https://arxiv.org/abs/2607.20286",
+  "content_type": "paper",
+  "creator": {
+    "id": "mahdi_nazeri",
+    "name": "Mahdi Nazeri",
+    "handle": "Mahdi Nazeri, Anne-Kathrin Schmuck, Sadegh Soudjani, Alessandro Abate",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+  "body_text": "Sound Probabilistic Safety Bounds for Large Language Models\n\nWe propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence intervals to obtain probably approximately correct (PAC) bounds for this problem. As our main technical contribution, we propose an algorithm that leverages features in the latent space to prioritize exploring branches in the auto-regressive generation tree that are more likely to produce harmful outputs. Our approach in particular enables the efficient computation of useful lower bounds, even in scenarios where the true harm probability is extremely small, and crucially, the obtained lower bounds are sound, i.e., formally proven to be less than the actual harmfulness probability: our experimental results demonstrate the effectiveness of our method by computing non-trivial lower bounds on state-of-the-art LLMs. This study newly enables the evaluation and statistical certification of LLMs.\n\nAuthors: Mahdi Nazeri, Anne-Kathrin Schmuck, Sadegh Soudjani, Alessandro Abate\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 148,
+  "published_at": "2026-07-22T15:31:28Z",
+  "ingested_at": "2026-07-23T11:07:21.504Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

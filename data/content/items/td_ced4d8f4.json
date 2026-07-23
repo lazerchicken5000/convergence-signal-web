@@ -1,0 +1,38 @@
+{
+  "id": "td_ced4d8f4",
+  "source": "arxiv",
+  "source_id": "2607.20367",
+  "source_url": "https://arxiv.org/abs/2607.20367",
+  "content_type": "paper",
+  "creator": {
+    "id": "andrea_napoli",
+    "name": "Andrea Napoli",
+    "handle": "Andrea Napoli",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Variance-reduced Domain Adaptation using Paired Sampling",
+  "body_text": "Variance-reduced Domain Adaptation using Paired Sampling\n\nCorrelation alignment and the maximum mean discrepancy are two widely used distribution-matching frameworks for unsupervised domain adaptation (UDA). However, high variance in these losses has been shown to undermine their effectiveness in minibatch optimisation settings. Furthermore, the losses lack finite-sum structure, which renders them incompatible with classical stochastic variance reduction (SVR) methods. This paper proposes Paired Sampling for Domain Adaptation (PSDA), a novel SVR technique tailored to such objectives. PSDA pairs observations both within and across domains, to form quadruplets that are always sampled together during training. The pairings are designed to minimise expected gradient variance, and reduce to solving a set of linear assignment problems. Our simulations demonstrate reduced variance compared to related methods, and experiments on three domain shift datasets show improved target domain accuracy.\n\nAuthors: Andrea Napoli\nCategories: cs.LG, cs.LG",
+  "word_count": 127,
+  "published_at": "2026-07-22T16:58:45Z",
+  "ingested_at": "2026-07-23T11:07:27.924Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

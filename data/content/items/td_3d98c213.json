@@ -1,0 +1,39 @@
+{
+  "id": "td_3d98c213",
+  "source": "arxiv",
+  "source_id": "2607.20306",
+  "source_url": "https://arxiv.org/abs/2607.20306",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_corva",
+    "name": "Daniel Corva",
+    "handle": "Daniel Corva",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "State-Dependent Observation Noise Reintroduces Epistemic Value in Linear-Gaussian Active Inference",
+  "body_text": "State-Dependent Observation Noise Reintroduces Epistemic Value in Linear-Gaussian Active Inference\n\nRecent work established that under active inference, linear-Gaussian state-space models lose their epistemic drive (any incentive to act so as to gain information) \"under any circumstances\". The epistemic term of the Expected Free Energy becomes constant: the agent flattens to a Kalman filter whose gain sequence is fixed in advance, regardless of action. The minimal departure that restores the drive is unknown; the only established route is control entering the dynamics multiplicatively; the observation side of this boundary is unexplored. We show that state-dependent observation noise is such a departure: a covariance R(x) that varies with the state x, representing a sensor's accuracy degrading with range. The agent runs the standard first-order Gaussian filter of this literature, R evaluated at the predicted mean. Coupling R(x) to a controllable latent mean makes the posterior covariance, and hence the effective Kalman gain, depend on the action. Consequently, no fixed linear-Gaussian filter reproduces the agent and, under a mild rank condition on the observation map and a non-degeneracy condition on R(x), epistemic value is no longer constant; for scalar observations, reachable non-constancy alone is needed. This is a minimal constructive instance of the Bar-Shalom-Tse dual effect in the agent's maintained covariance: actions now influence the quality of future estimates, not merely the state. Our library cpomdp detects the incompatibility from model specification alone and raises a typed IncompatibleLinearizationError. The theorem ships with an executable witness: exhibiting any fixed filter that reproduced the agent's beliefs would refute both theorem and witness at once. Together this offers a precise, observation-side characterisation of curiosity in a Gaussian agent, bridging dual control and active inference.\n\nAuthors: Daniel Corva\nCategories: q-bio.NC, eess.SY, q-bio.NC",
+  "word_count": 268,
+  "published_at": "2026-07-22T15:53:52Z",
+  "ingested_at": "2026-07-23T11:07:34.962Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "q-bio.NC",
+    "eess.SY",
+    "q-bio.NC"
+  ],
+  "domain": "peptide_biotech",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
