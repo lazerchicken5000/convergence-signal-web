@@ -1,0 +1,39 @@
+{
+  "id": "td_b60beb2c",
+  "source": "arxiv",
+  "source_id": "2607.21561",
+  "source_url": "https://arxiv.org/abs/2607.21561",
+  "content_type": "paper",
+  "creator": {
+    "id": "aaron_feller",
+    "name": "Aaron Feller",
+    "handle": "Aaron Feller, Kris Deibler, Maxim Secor",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Graph Learning on Ensembles of Cyclic Peptides: An Investigation of Molecular Ensemble Modeling",
+  "body_text": "Graph Learning on Ensembles of Cyclic Peptides: An Investigation of Molecular Ensemble Modeling\n\nMolecular property prediction from structure often uses a single representative conformation, even though many molecules exist as conformational ensembles in solution. We introduce EnsembleEGNN, a molecular ensemble foundation model that encodes an ensemble by first encoding each conformer with shared Equivariant Graph Neural Network (EGNN) layers, then pooling the resulting conformer representations with a Set Attention Block. We pretrain the model on CREMP, a cyclic peptide ensemble dataset, using a multi-task self-supervised objective combining masked token recovery, noisy-coordinate reconstruction, and pairwise distance reconstruction. On the CREMP-CycPeptMPDB dataset, training EnsembleEGNN from scratch fails entirely ($R^2=0.005$). However, the pretrained model reaches $R^2=0.477$ and Pearson $r=0.699$, outperforming the sequence-only BERT baseline ($R^2=0.439$, Pearson $r=0.667$). When EnsembleEGNN is co-trained end-to-end with the BERT sequence encoder, the hybrid model improves further to $R^2=0.538$ and Pearson $r=0.737$. These results demonstrate that encoding conformational ensembles into a single thermodynamically informed embedding improves cyclic-peptide property prediction.\n\nAuthors: Aaron Feller, Kris Deibler, Maxim Secor\nCategories: cs.LG, q-bio.BM, cs.LG",
+  "word_count": 148,
+  "published_at": "2026-07-23T17:42:51Z",
+  "ingested_at": "2026-07-24T11:10:22.360Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "q-bio.BM",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

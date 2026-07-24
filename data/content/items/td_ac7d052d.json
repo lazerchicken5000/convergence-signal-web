@@ -1,0 +1,38 @@
+{
+  "id": "td_ac7d052d",
+  "source": "arxiv",
+  "source_id": "2607.21564",
+  "source_url": "https://arxiv.org/abs/2607.21564",
+  "content_type": "paper",
+  "creator": {
+    "id": "gabriele_oligeri",
+    "name": "Gabriele Oligeri",
+    "handle": "Gabriele Oligeri, Savio Sciancalepore, Ingrid Huso, Fatima Al-Mousawi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting",
+  "body_text": "Where You Tap Matters: A Probe-and-Model Benchmark for Open-Set RF Fingerprinting\n\nRadio Frequency Fingerprint Identification (RFFI) enables transmitter identification at the physical layer by learning device-specific impairments from received signals, yet the literature is inconsistent about where in the receiver chain those samples should be collected. Since distinct transformations are applied to the signal by the different receiver operations, i.e., carrier recovery, gain normalization, pulse shaping, and timing recovery, they can either tighten within-transmitter variability or suppress the features RFFI requires for classification. We present a systematic real-world evaluation of open-set, reconstruction-error RFFI using data collected at five probe points along a standard BPSK receiver chain. Our results show that RFFI is strongly probe-dependent: timing recovery and, to a lesser extent, carrier recovery enable low false-acceptance operation with limited in-distribution-out-of-distribution overlap, whereas other stages often require a false-acceptance ratio above 0.1 to achieve a true-acceptance ratio of 0.9. To test the validity of our findings across model selection, we benchmark several LLM-designed autoencoders using a controlled pipeline that holds preprocessing and MSE scoring fixed. These architectures confirm that RFFI is probe-dependent. Moreover, they do not outperform the baseline at the chosen operating point and typically increase training time. Overall, probe selection dominates reconstruction-based open-set RFFI performance, more than the autoencoder complexity.\n\nAuthors: Gabriele Oligeri, Savio Sciancalepore, Ingrid Huso, Fatima Al-Mousawi\nCategories: cs.CR, cs.CR",
+  "word_count": 200,
+  "published_at": "2026-07-23T17:48:38Z",
+  "ingested_at": "2026-07-24T11:10:29.276Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

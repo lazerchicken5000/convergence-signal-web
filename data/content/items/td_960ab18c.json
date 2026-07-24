@@ -1,0 +1,41 @@
+{
+  "id": "td_960ab18c",
+  "source": "arxiv",
+  "source_id": "2607.21577",
+  "source_url": "https://arxiv.org/abs/2607.21577",
+  "content_type": "paper",
+  "creator": {
+    "id": "korota_arsène_coulibaly",
+    "name": "Korota Arsène Coulibaly",
+    "handle": "Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Synthetic data generation framework for quality control automation in gravure printing",
+  "body_text": "Synthetic data generation framework for quality control automation in gravure printing\n\nQuality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards in rotogravure printing. Deep learning models give prospects for automation. However, training robust deep learning models, such as YOLO or Vision Transformers, is heavily hindered by the extreme scarcity of real-world industrial defects images. To overcome this limitation, this paper introduces a novel synthetic data generation framework tailored for rotogravure printing quality control. The proposed pipeline automatically generates high-fidelity images of specific printing defects (creases, streaks, misregistration, etc.) and outputs corresponding bounding boxes and annotations. To validate the framework, a synthetic dataset of 7533 images was generated and used to train the state-of-the-art object-detection model RFDETR. Experimental results demonstrate that the model trained on our synthetic data achieves a Mean Average Precision (mAP) of 80.9\\% on real industrial testing samples. This framework provides a zero-cost, rapid-deployment solution for automating defect inspection in printing lines without requiring massive manual data collection.\n\nAuthors: Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin\nCategories: cs.CV, cs.AI, cs.LG, eess.IV, cs.CV",
+  "word_count": 167,
+  "published_at": "2026-07-23T17:55:21Z",
+  "ingested_at": "2026-07-24T11:10:09.502Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "eess.IV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

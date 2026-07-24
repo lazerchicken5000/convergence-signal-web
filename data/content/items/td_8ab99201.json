@@ -1,0 +1,39 @@
+{
+  "id": "td_8ab99201",
+  "source": "arxiv",
+  "source_id": "2607.21580",
+  "source_url": "https://arxiv.org/abs/2607.21580",
+  "content_type": "paper",
+  "creator": {
+    "id": "vedant_shah",
+    "name": "Vedant Shah",
+    "handle": "Vedant Shah, Onkar Susladkar, Tushar Prakash, Kiet Nguyen, Tianjio Yu, Adheesh Juvekar, Muntasir Waheed, Ismini Lourentzou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+  "body_text": "GraphVid: Interactive Graph-Controllable Video Generation\n\nControllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple objects, which scales poorly with scene complexity and becomes ambiguous under occlusion or overlap. To enable flexible yet precise multi-subject control, we introduce $\\textbf{GraphVid}$, a graph-conditioned image-to-video generation model that enables interactive control through structured interaction graphs. We further curate $\\textbf{GraphVid-Bench}$, a large-scale interaction-centric video dataset with structured relational annotations to enable training of interaction-aware video generation models. Despite using substantially less training data and fewer trainable parameters than prior motion-control methods, GraphVid delivers strong controllability and video quality. Compared with Motion-I2V, GraphVid reduces FID by up to 39.9% and FVD by 37.6%, while improving PSNR (9.87=&gt;15.98) and SSIM (0.38=&gt;0.61). Our results highlight the potential of structured semantic interfaces as a powerful paradigm for controllable video generation.\n\nAuthors: Vedant Shah, Onkar Susladkar, Tushar Prakash, Kiet Nguyen, Tianjio Yu, Adheesh Juvekar, Muntasir Waheed, Ismini Lourentzou\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 155,
+  "published_at": "2026-07-23T17:56:30Z",
+  "ingested_at": "2026-07-24T11:10:09.501Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

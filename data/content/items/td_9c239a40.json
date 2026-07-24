@@ -1,0 +1,38 @@
+{
+  "id": "td_9c239a40",
+  "source": "arxiv",
+  "source_id": "2607.21584",
+  "source_url": "https://arxiv.org/abs/2607.21584",
+  "content_type": "paper",
+  "creator": {
+    "id": "owen_dugan",
+    "name": "Owen Dugan",
+    "handle": "Owen Dugan, Rumen Dangovski, Peter Y. Lu, Di Luo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Flow-based Phase-space Tomography of Continuous-variable Quantum States",
+  "body_text": "Flow-based Phase-space Tomography of Continuous-variable Quantum States\n\nContinuous-variable quantum state tomography is limited by the cost of resolving non-Gaussian structure in high-dimensional phase space. We introduce QST-Flow, a quantum state tomography framework via flow-based generative modeling that represents experimentally accessible phase-space quasiprobability distributions with normalized, samplable neural densities rather than a truncated density matrix. The framework has two variants: QST-QFlow models the positive Husimi-$Q$ function with a single normalizing flow, while QST-WFlow models sign-changing Wigner functions as a trainable difference of two normalized flows. This construction preserves quasiprobability normalization and enables exact density evaluation, direct sampling, and importance-sampled learning from finite phase-space measurements without a fixed grid. Benchmarks on non-Gaussian cat, binomial, Gottesman-Kitaev-Preskill, number, and Fock states show accurate single-mode reconstructions, extension to multimode states, robustness on noisy Wigner data, and improved reconstruction error compared with prior machine-learning tomography methods. QST-Flow opens a promising route toward scalable, measurement-efficient phase-space tomography of nonclassical bosonic systems.\n\nAuthors: Owen Dugan, Rumen Dangovski, Peter Y. Lu, Di Luo\nCategories: quant-ph, quant-ph",
+  "word_count": 147,
+  "published_at": "2026-07-23T17:57:22Z",
+  "ingested_at": "2026-07-24T11:10:36.281Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

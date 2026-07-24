@@ -1,0 +1,35 @@
+{
+  "id": "td_31f9f0f0",
+  "source": "rss",
+  "source_id": "https://news.ycombinator.com/item?id=49026810",
+  "source_url": "https://news.ycombinator.com/item?id=49026810",
+  "content_type": "article",
+  "creator": {
+    "id": "hacker_news:_best",
+    "name": "adam_rida",
+    "handle": "Hacker News: Best",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+  "body_text": "I’ve been building Echo (https://echo.tracerml.ai/), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.\nIt started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined.\nThat hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that information in advance.\nFor each request, Echo decides how much computation to allocate, which models should participate, and how their work should be combined. Some prompts may only need a relatively small amount of inference, while others benefit from multiple models working on different parts of the problem.\nOne thing that surprised me while building it was how complementary the models are. A model that is clearly weaker overall can still be extremely useful on particular problems or as part of a combination.\nOn my first evaluation mix, Echo consistently performed better than the best individual model in its pool. It also reached roughly the same aggregate result as Fable, which I used as one of the stronger comparison systems, at around one third of the inference cost.\nThere are still some cases where Echo makes the wrong allocation or combination decision. I’m currently spending a lot of time understanding those failures, as well as testing whether the same approach holds up on coding and agentic tasks where measuring the quality of each decision becomes much harder.\nI built a chat interface (echo.tracerml.ai) and an OpenAI-compatible API (https://echo.tracerml.ai/docs/api) so the system can be tested outside the evaluation setup.\nHere is a short/high level video on how it works: https://www.youtube.com/watch?v=lJFJSvOdXhg\nI wrote up the evaluation methodology, individual model results, costs and current limitations here: https://echo.tracerml.ai/eval\nI would love for you to try it! Especially if you hit any weird failure cases or places where the allocation looks unintuitive.\nComments URL: https://news.ycombinator.com/item?id=49026810\nPoints: 393\n# Comments: 183",
+  "word_count": 387,
+  "published_at": "2026-07-23T19:26:01.000Z",
+  "ingested_at": "2026-07-24T11:02:59.712Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

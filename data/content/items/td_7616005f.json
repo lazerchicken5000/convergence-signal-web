@@ -1,0 +1,39 @@
+{
+  "id": "td_7616005f",
+  "source": "arxiv",
+  "source_id": "2607.21573",
+  "source_url": "https://arxiv.org/abs/2607.21573",
+  "content_type": "paper",
+  "creator": {
+    "id": "hongnan_ma",
+    "name": "Hongnan Ma",
+    "handle": "Hongnan Ma, Yiwei Shi, Mengyue Yang, Weiru Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity",
+  "body_text": "Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity\n\nFaithful explanations of time-series classifiers should identify subsequences that are not only sufficient to preserve a black-box model's prediction, but also necessary for maintaining it. However, existing sufficiency-oriented methods can assign high importance to spurious subsequences that support the prediction without being essential to the model's decision. We introduce \\textbf{TimePNS}, a necessity-aware framework for time-series explanation. Inspired by Pearl's counterfactual notion of necessity, TimePNS assesses whether a temporal factor is necessary by intervening on it and measuring whether the original prediction is disrupted. The framework adopts a two-stage design. Stage I learns an identifiable causal generative process together with a sufficiency-oriented explanation mask. Stage II performs counterfactual interventions on temporal factors to derive necessity signals, which supervise a temporal gate that refines the initial explanation by suppressing non-essential components and emphasizing counterfactually necessary ones. Experiments on synthetic and real-world time-series benchmarks show that TimePNS more accurately identifies decision-critical subsequences and consistently improves sufficiency-necessity trade-offs over strong baselines.\n\nAuthors: Hongnan Ma, Yiwei Shi, Mengyue Yang, Weiru Liu\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 157,
+  "published_at": "2026-07-23T17:52:01Z",
+  "ingested_at": "2026-07-24T11:10:09.502Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
