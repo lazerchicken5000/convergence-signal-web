@@ -1,0 +1,35 @@
+{
+  "id": "td_6c1728ea",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Ruff v0.16.0",
+  "body_text": "Ruff v0.16.0\nAstral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency.\nFrom Brent Westbrook's announcement post:\n\nRuff now enables 413 rules by default, up from 59 in previous versions.\nSince Ruff's default rule set was last modified in v0.1.0, the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including syntax errors and immediate runtime errors but were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration.\n\nHere's a one-liner for trying it on any Python project:\nuvx ruff@latest check .\n\nI ran the latest Ruff against my three biggest projects - Datasette, sqlite-utils, and LLM - and it found hundreds of minor issues that breached the new default rules.\nAll three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades:\nuvx ruff@latest check . --fix --unsafe-fixes\n\nAgainst sqlite-utils, that command reported:\nFound 1618 errors (1538 fixed, 80 remaining).\n\nAs an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one:\nDTZ005 `datetime.datetime.now()` called without a `tz` argument\n  --&gt; tests/test_duplicate.py:17:10\n   |\n15 |     \"datetime_col\" TEXT)\"\"\")\n16 |     # Insert one row of mock data:\n17 |     dt = datetime.datetime.now()\n   |          ^^^^^^^^^^^^^^^^^^^^^^^\n18 |     data = {\n19 |         \"text_col\": \"Cleo\",\n   |\nhelp: Pass a `datetime.timezone` object to the `tz` parameter\n\nBLE001 Do not catch blind exception: `Exception`\n  --&gt; tests/test_plugins.py:16:12\n   |\n14 |         db.execute(\"select * from pragma_function_list()\")\n15 |         return True\n16 |     except Exception:\n   |            ^^^^^^^^^\n17 |         return False\n18 |     finally:\n   |\n\nB018 Found useless attribute access. Either assign it to a variable or remove it.\n  --&gt; tests/test_update.py:46:5\n   |\n44 | def test_update_invalid_pk(fresh_db, pk, update_pk):\n45 |     table = fresh_db[\"table\"]\n46 |     table.insert({\"id1\": 5, \"id2\": 3, \"v\": 1}, pk=pk).last_pk\n   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n47 |     with pytest.raises(NotFoundError):\n48 |         table.update(update_pk, {\"v\": 2})\n   |\n\nUnsurprisingly, given Astral's new home at OpenAI, this output provides everything a coding agent would need to fix the problems.\nI had Codex (GPT-5.6 Sol high) upgrade LLM and sqlite-utils, and Claude Code (with Opus 5) upgrade Datasette.\n\n\n    Tags: python, ruff, astral",
+  "word_count": 413,
+  "published_at": "2026-07-25T22:44:05.000Z",
+  "ingested_at": "2026-07-26T11:00:13.261Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T11:09:15.632Z",
-  "total_leaders_analyzed": 2241,
+  "generated_at": "2026-07-26T11:08:37.287Z",
+  "total_leaders_analyzed": 2240,
   "candidates": [
     {
       "rank": 1,
@@ -8,7 +8,7 @@
       "name": "simon willison",
       "leader_type": "bridge",
       "entity_type": "unknown",
-      "score": 0.447,
+      "score": 0.448,
       "tier": "top",
       "trajectory": "stable",
       "rank_change": 0,
@@ -25,7 +25,7 @@
         },
         {
           "signal": "independence_contribution",
-          "value": 0.638
+          "value": 0.645
         }
       ],
       "pattern_count": 1,
@@ -62,7 +62,7 @@
         },
         {
           "signal": "independence_contribution",
-          "value": 0.687
+          "value": 0.686
         }
       ],
       "pattern_count": 1,
@@ -79,7 +79,7 @@
       "name": "connie loizos",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.366,
+      "score": 0.367,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
@@ -177,40 +177,6 @@
     },
     {
       "rank": 6,
-      "id": "thedaily_nytimes_com_the_new_york_times",
-      "name": "thedaily@nytimes.com (the new york times)",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.354,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "content_volume",
-          "value": 1
-        },
-        {
-          "signal": "social_pagerank",
-          "value": 0.9
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.631
-        }
-      ],
-      "pattern_count": 1,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
-      ]
-    },
-    {
-      "rank": 7,
       "id": "theresa_loconsolo",
       "name": "theresa loconsolo",
       "leader_type": "architect",
@@ -228,7 +194,7 @@
         },
         {
           "signal": "independence_contribution",
-          "value": 0.792
+          "value": 0.794
         },
         {
           "signal": "cross_source_mentions",
@@ -242,6 +208,40 @@
       "source_types": [
         "rss",
         "citation"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "thedaily_nytimes_com_the_new_york_times",
+      "name": "thedaily@nytimes.com (the new york times)",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.353,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 0,
+      "score_change": 0,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "content_volume",
+          "value": 1
+        },
+        {
+          "signal": "social_pagerank",
+          "value": 0.9
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.626
+        }
+      ],
+      "pattern_count": 1,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
       ]
     },
     {
@@ -661,6 +661,40 @@
     },
     {
       "rank": 20,
+      "id": "shirshendu_ganguly",
+      "name": "shirshendu ganguly",
+      "leader_type": "architect",
+      "entity_type": "individual",
+      "score": 0.283,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 0,
+      "score_change": 0,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.9
+        },
+        {
+          "signal": "independence_contribution",
+          "value": 0.807
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        }
+      ],
+      "pattern_count": 2,
+      "domains": [
+        "academic"
+      ],
+      "source_types": [
+        "arxiv"
+      ]
+    },
+    {
+      "rank": 21,
       "id": "roi_cohen",
       "name": "roi cohen",
       "leader_type": "architect",
@@ -679,40 +713,6 @@
         {
           "signal": "independence_contribution",
           "value": 0.81
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        }
-      ],
-      "pattern_count": 2,
-      "domains": [
-        "academic"
-      ],
-      "source_types": [
-        "arxiv"
-      ]
-    },
-    {
-      "rank": 21,
-      "id": "shirshendu_ganguly",
-      "name": "shirshendu ganguly",
-      "leader_type": "architect",
-      "entity_type": "individual",
-      "score": 0.282,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.9
-        },
-        {
-          "signal": "independence_contribution",
-          "value": 0.807
         },
         {
           "signal": "cross_source_mentions",
