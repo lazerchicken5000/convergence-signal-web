@@ -1,0 +1,41 @@
+{
+  "id": "td_87e89529",
+  "source": "arxiv",
+  "source_id": "2607.22493",
+  "source_url": "https://arxiv.org/abs/2607.22493",
+  "content_type": "paper",
+  "creator": {
+    "id": "yi_li",
+    "name": "Yi Li",
+    "handle": "Yi Li, Ashkan Ertefaie, Mark van der Laan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The V-fold jackknife for semiparametric inference: variance estimation, confidence intervals, and simultaneous confidence bands",
+  "body_text": "The V-fold jackknife for semiparametric inference: variance estimation, confidence intervals, and simultaneous confidence bands\n\nFor decades, the bootstrap has been a default tool for statistical inference because of its broad applicability and minimal analytic requirements. Although its validity is well understood for smooth parametric estimators, its theoretical properties for many modern semiparametric and machine-learning estimators remain largely unstudied. Nevertheless, bootstrap procedures are often used routinely in such settings, even when their validity is unknown and their computational cost is substantial. We develop the $V$-fold jackknife as a computationally efficient and theoretically justified alternative for semiparametric inference. It requires only $V$ leave-fold-out refits and uses the empirical dispersion of jackknife pseudo-values to quantify uncertainty, without deriving or evaluating an influence function. For regular asymptotically linear estimators of pathwise differentiable parameters, we show that, for fixed $V$, the Studentized $V$-fold jackknife statistic converges to a $t$-distribution with $V-1$ degrees of freedom, giving valid confidence intervals even though the jackknife variance estimator does not converge in probability. When $V\\to\\infty$, we establish consistency of the variance estimator at rate $V^{-1/2}$, allowing $V$ to diverge slowly, for example at rate $\\log n$. We also develop simultaneous confidence bands based on the correct componentwise-Studentized limiting distribution. Finally, we extend the theory to generalized asymptotically linear estimators with diverging influence-function variance and slower-than-$\\sqrt n$ convergence; scale invariance of Studentization eliminates the need to know the effective convergence rate. Simulations on the average treatment effect, Kaplan--Meier survival curve, and highly adaptive lasso dose-response curves confirm reliable inference, including where influence-function-based standard errors are anti-conservative or unstable.\n\nAuthors: Yi Li, Ashkan Ertefaie, Mark van der Laan\nCategories: stat.ME, math.ST, stat.CO, stat.ML, stat.ME",
+  "word_count": 244,
+  "published_at": "2026-07-24T17:05:54Z",
+  "ingested_at": "2026-07-27T11:05:06.128Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "math.ST",
+    "stat.CO",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

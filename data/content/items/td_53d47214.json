@@ -1,0 +1,38 @@
+{
+  "id": "td_53d47214",
+  "source": "arxiv",
+  "source_id": "2607.22510",
+  "source_url": "https://arxiv.org/abs/2607.22510",
+  "content_type": "paper",
+  "creator": {
+    "id": "matteo_lapucci",
+    "name": "Matteo Lapucci",
+    "handle": "Matteo Lapucci, Diego Scuppa",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Fully Convergent Projection-based Methods with Momentum under Nonconvex Geometric",
+  "body_text": "Fully Convergent Projection-based Methods with Momentum under Nonconvex Geometric\n\nNonlinear optimization problems with complicated, nonconvex, yet geometrically structured constraints can be tackled by projected-gradient methods: under weak regularity assumptions, these approaches were recently proved to possess convergence properties to the strongest stationarity conditions. In this work, we show how momentum terms, commonly used in nonlinear optimization to speed up the convergence process, can be integrated within this algorithmic framework without harming convergence guarantees. Preliminarily, we highlight an intrinsic issue induced by the direct replacement of the negative gradient with a general descent direction within the projected approach. Then, we present suitable backtracking mechanisms for the pre-projection step, allowing us to integrate momentum terms in the direction. By this technique, we can specifically ensure, without any smoothness assumptions, convergence to Mordukhovich stationarity as long as the base directions asymptotically revert to the negative gradient for small stepsizes; moreover, if the base search direction reverts exactly to the negative gradient for the smallest steps, the algorithm is proved to converge to Bouligand and Proximally stationary points, with and without (local) smoothness assumptions respectively. Finally, the proposed procedure is numerically tested on some classes of problems, namely, sparsity and bounded-rank constrained problems; the results indicate that the proposed method is computationally effective, taking advantage of the additional information provided by the momentum term.\n\nAuthors: Matteo Lapucci, Diego Scuppa\nCategories: math.OC, math.OC",
+  "word_count": 211,
+  "published_at": "2026-07-24T17:31:51Z",
+  "ingested_at": "2026-07-27T11:05:06.128Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_847f6580",
+  "source": "arxiv",
+  "source_id": "2607.22465",
+  "source_url": "https://arxiv.org/abs/2607.22465",
+  "content_type": "paper",
+  "creator": {
+    "id": "ritik_raj",
+    "name": "Ritik Raj",
+    "handle": "Ritik Raj, Souvik Kundu, Sarbartha Banerjee, Dheemanth Joshi, Ishita Vohra, Tushar Krishna",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+  "body_text": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI\n\nRouting to select large language models (LLMs) with different cost-quality trade-offs has become a fundamental deployment feature of enterprise AI. Existing routers, primarily make independent routing decisions for each LLM call. However, agentic applications execute as long-horizon workflows whose quality is determined only by a delayed, task-level outcome. This mismatch prevents per-call routers from correctly attributing feedback to individual routing decisions. Towards mitigating this, we present TRACE-Router, a task-level routing framework that aligns routing with the unit of supervision. TRACE-Router assigns each task to a model once at admission using a contextual bandit, pins all subsequent LLM calls to the selected backend, and updates its policy using the task's terminal reward, jointly accounting for accuracy and latency. By leveraging delayed task feedback, TRACE-Router learns routing policies that adapt to the workload while avoiding explicit task-complexity estimation. Across three agentic benchmarks, TRACE-Router consistently improves the accuracy-latency trade-off, achieving non-dominated Pareto frontier points. On tau2-Bench, it outperforms latency-matched interpolation between individual models by 7-8 accuracy points, while on Terminal-Bench it achieves 7.1 higher accuracy points than the strongest single model baseline with 36% lower latency.\n\nAuthors: Ritik Raj, Souvik Kundu, Sarbartha Banerjee, Dheemanth Joshi, Ishita Vohra, Tushar Krishna\nCategories: cs.AI, cs.LG, cs.MA, cs.AI",
+  "word_count": 183,
+  "published_at": "2026-07-24T16:29:06Z",
+  "ingested_at": "2026-07-27T11:04:34.096Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "cs.MA",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

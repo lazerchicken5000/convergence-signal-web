@@ -1,0 +1,38 @@
+{
+  "id": "td_392b1ff6",
+  "source": "arxiv",
+  "source_id": "2607.22136",
+  "source_url": "https://arxiv.org/abs/2607.22136",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhengyu_qi",
+    "name": "Zhengyu Qi",
+    "handle": "Zhengyu Qi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dynamic Commonsense Coordination for Empathetic Response Generation",
+  "body_text": "Dynamic Commonsense Coordination for Empathetic Response Generation\n\nEmpathetic Response Generation (ERG) requires models to recognize users' emotions and generate empathetic responses. Commonsense knowledge has been shown to support such reasoning, yet existing approaches typically reuse fixed commonsense representations across understanding and generation, limiting their ability to coordinate such knowledge across different stages. We propose DCC, a Dynamic Commonsense Coordination Framework with three complementary modules: residual-based commonsense interaction (SCE-AttnRes) to integrate contextual and situational commonsense representations, Association-Guided Commonsense Filtering (AGCF) to down-weight low-relevance commonsense relations, and Iterative Commonsense-Aware Decoding (ICAD) to dynamically retrieve commonsense memories during generation. Experiments on the Empathetic-Dialogues benchmark show that DCC improves emotion classification accuracy and response diversity over the CEM baseline while maintaining comparable perplexity. An LLM-based blind evaluation further demonstrates that DCC generates responses with better relevance, coherence, and informativeness. The code and implementation details will be publicly available at https://github.com/Hanabi-Q/DCC-ERG.\n\nAuthors: Zhengyu Qi\nCategories: cs.CL, cs.CL",
+  "word_count": 139,
+  "published_at": "2026-07-24T09:30:57Z",
+  "ingested_at": "2026-07-27T11:04:40.322Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

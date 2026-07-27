@@ -1,0 +1,38 @@
+{
+  "id": "td_cede8f25",
+  "source": "arxiv",
+  "source_id": "2607.22300",
+  "source_url": "https://arxiv.org/abs/2607.22300",
+  "content_type": "paper",
+  "creator": {
+    "id": "abdullah_alabdullah",
+    "name": "Abdullah Alabdullah",
+    "handle": "Abdullah Alabdullah, Arash Eslamighayour, Sarp Harbalioglu, Lifeng Han",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Biomedical Machine Translation for Low-Resource Arabic-Script Languages via Cross-Lingual Transfer and LoRA Adapter Merging",
+  "body_text": "Biomedical Machine Translation for Low-Resource Arabic-Script Languages via Cross-Lingual Transfer and LoRA Adapter Merging\n\nWe present a systematic study of healthcare-domain cross-lingual transfer to address the scarcity of biomedical NMT resources for Arabic-script languages. We use Arabic and Persian as higher-resource pivots to improve translation for \\textbf{four severely low-resource} targets: Dari (Afghan Persian, a standardised variety of Persian), Pashto, Sorani Kurdish (Central Kurdish, a major standardized variety of Kurdish), and Urdu (closely related to Hindi). Using LoRA fine-tuning on small decoder-only LLMs, we train \\textit{domain-specific pivot adapters} and evaluate \\textbf{three transfer strategies}: few-shot in-context learning, minimal supervised adaptation, and, to the best of our knowledge, for the first time in this setting, zero-data LoRA adapter merging. Supervised adaptation with just 500 sentences achieves near pivot-language quality for Dari (CHrF++ 41.01) and meaningful gains for Urdu (28.88), while adapter merging reaches within 3.5 CHrF++ of supervised adaptation for Dari at zero additional cost. Pashto and Sorani Kurdish remain insufficient for high-stakes clinical deployment exposing the limits of cross-lingual transfer when structural distance from the pivots is too great. LoRA adapter merging works surprisingly well for closely related languages, even without target-language biomedical data.\n\nAuthors: Abdullah Alabdullah, Arash Eslamighayour, Sarp Harbalioglu, Lifeng Han\nCategories: cs.CL, cs.CL",
+  "word_count": 178,
+  "published_at": "2026-07-24T13:44:50Z",
+  "ingested_at": "2026-07-27T11:04:40.321Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

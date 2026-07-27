@@ -1,0 +1,39 @@
+{
+  "id": "td_c71edf25",
+  "source": "arxiv",
+  "source_id": "2607.22535",
+  "source_url": "https://arxiv.org/abs/2607.22535",
+  "content_type": "paper",
+  "creator": {
+    "id": "byungjun_kim",
+    "name": "Byungjun Kim",
+    "handle": "Byungjun Kim, Taeksoo Kim, Hyunsoo Cha, Hanbyul Joo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Robot-Factored World Models via Robot Rendering",
+  "body_text": "Robot-Factored World Models via Robot Rendering\n\nAction-conditioned video world models predict future observations from an initial observation and an action signal. In robotics, actions influence future observations through two distinct processes: they are first realized into robot motion by the robot body and controller, and the scene then responds through contact and object motion. Conditioning directly on action commands asks the world model to learn the realization process itself, while conditioning on logged future states leaks the interaction outcomes it is meant to predict. We propose robot-factored world models, which move two robot-specific factors outside the world model. First, action realization: each command is rolled through the robot's own controller and kinematics into a deployment-available nominal trajectory, a middle signal that avoids both action-realization learning and future-state leakage. Second, robot rendering: this nominal trajectory is rendered through the robot URDF, factoring the robot's geometry, kinematics, and appearance out of the model and into explicit rendered robot geometry. To resolve depth ambiguity, we pair end-effector depth with scene depth, giving geometric cues for contact and occlusion beyond image-plane overlap. Together, camera-aware static RGB/depth context and rendered robot geometry form a shared visual world-model interface that stays consistent across viewpoints and robot embodiments, so the model sees the action only as visible robot geometry and learns how objects respond to it. Our experiments show that the rendered interface outperforms vector-conditioned baselines and generalizes to unseen robot embodiments at inference. We further demonstrate that our model generates robot manipulation videos from human demonstrations by retargeting and rendering the hand motion as robot geometry.\n\nAuthors: Byungjun Kim, Taeksoo Kim, Hyunsoo Cha, Hanbyul Joo\nCategories: cs.RO, cs.CV, cs.RO",
+  "word_count": 254,
+  "published_at": "2026-07-24T17:59:57Z",
+  "ingested_at": "2026-07-27T11:04:59.614Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

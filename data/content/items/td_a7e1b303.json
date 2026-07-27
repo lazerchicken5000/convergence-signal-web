@@ -1,0 +1,41 @@
+{
+  "id": "td_a7e1b303",
+  "source": "arxiv",
+  "source_id": "2607.22511",
+  "source_url": "https://arxiv.org/abs/2607.22511",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiyuan_tan",
+    "name": "Jiyuan Tan",
+    "handle": "Jiyuan Tan, Vasilis Syrgkanis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+  "body_text": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference\n\nAutomating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large language model (LLM) reviewer. However, such reviewers remain empirically unreliable: they may accept fabricated papers and detect them at rates close to chance (Bad Scientist, 2025). We present CausalForge, a framework for automated theoretical research in causal inference grounded in the Lean proof assistant. CausalForge combines Causalean, a foundational Lean library for causal inference containing 7,035 machine-checked declarations developed with language-model assistance under human design and review, with CausalSmith, a self-improving agentic pipeline that selects research topics, proposes results, formalizes statements, constructs proofs, and presents the resulting artifacts for human inspection. Because a machine-checked proof establishes only that a formal statement follows from its assumptions, not that the statement faithfully captures the intended scientific claim, the pipeline augments kernel verification with a statement audit that compares each formal theorem against the informal claim it is intended to express. We evaluate the system using artifacts produced by completed autonomous research runs. The source code, formal library, and run records are available at https://github.com/Jiyuan-Tan/CausalForge.\n\nAuthors: Jiyuan Tan, Vasilis Syrgkanis\nCategories: stat.ML, cs.AI, cs.LG, econ.EM, stat.ML",
+  "word_count": 193,
+  "published_at": "2026-07-24T17:32:35Z",
+  "ingested_at": "2026-07-27T11:04:34.095Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.AI",
+    "cs.LG",
+    "econ.EM",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

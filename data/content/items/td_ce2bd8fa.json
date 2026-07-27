@@ -1,0 +1,38 @@
+{
+  "id": "td_ce2bd8fa",
+  "source": "arxiv",
+  "source_id": "2607.22531",
+  "source_url": "https://arxiv.org/abs/2607.22531",
+  "content_type": "paper",
+  "creator": {
+    "id": "kaixiong_gong",
+    "name": "Kaixiong Gong",
+    "handle": "Kaixiong Gong, Xin Cai, Bin Lin, Hao Wang, Yunlong Lin, Mingzhe Zheng, Bohao Li, Jian-Wei Zhang, Miles Yang, Zhao Zhong, Liefeng Bo, Xiangyu Yue",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Twins: Learn to Predict Unified Representations with Focal Loss",
+  "body_text": "Twins: Learn to Predict Unified Representations with Focal Loss\n\nUnified multimodal models seek a shared visual token space that supports both multimodal understanding and image generation. Discrete methods unify the interface via a shared codebook, whereas continuous pipelines often rely on two disparate representations -- semantic features (e.g., ViT) for understanding and low-level latents (e.g., VAE) for synthesis -- resulting in mismatched latent spaces. We propose Twins, a unified continuous token space formed by channel-wise concatenating ViT and VAE features on the same token grid, so the sequence length is unchanged and attention cost does not increase. However, jointly modeling Twins in a Diffusion Transformer exposes a severe optimization imbalance: the model fits the ViT component well but struggles to match the VAE latent distribution. We trace this imbalance to three sources of heterogeneity: frequency bias, intrinsic dimensionality, and condition-aligned vs condition-independent uncertainty. To address it, we adapt a focal regression objective for flow matching that upweights large-error VAE dimensions, better balancing optimization across the ViT and VAE components. On ImageNet, this yields up to 10.57 gFID gain over naive MSE loss without classifier-free guidance. Twins also performs competitively on multimodal understanding benchmarks and improves reconstruction fidelity, narrowing the gap between understanding- and generation-oriented representations.\n\nAuthors: Kaixiong Gong, Xin Cai, Bin Lin, Hao Wang, Yunlong Lin, Mingzhe Zheng, Bohao Li, Jian-Wei Zhang, Miles Yang, Zhao Zhong, Liefeng Bo, Xiangyu Yue\nCategories: cs.CV, cs.CV",
+  "word_count": 196,
+  "published_at": "2026-07-24T17:59:39Z",
+  "ingested_at": "2026-07-27T11:04:59.614Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

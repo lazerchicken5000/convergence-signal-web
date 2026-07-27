@@ -1,0 +1,38 @@
+{
+  "id": "td_6c5bcacd",
+  "source": "arxiv",
+  "source_id": "2607.22448",
+  "source_url": "https://arxiv.org/abs/2607.22448",
+  "content_type": "paper",
+  "creator": {
+    "id": "santhiya_rajan",
+    "name": "Santhiya Rajan",
+    "handle": "Santhiya Rajan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Where FactsGo Missing: A LayerwiseTaxonomy and Per-Layer Attribution of Information Omissionin Air-Gapped LLM Agent Pipelines",
+  "body_text": "Where FactsGo Missing: A LayerwiseTaxonomy and Per-Layer Attribution of Information Omissionin Air-Gapped LLM Agent Pipelines\n\nAir-gapped and on-premises deployments in regulated settings (clinical FHIR services, legal review, sovereign infrastructure) cannot call frontier APIs; they run quantized 4-8B models via llama.cpp or vLLM behind tool servers. The dominant reliability failure is omission: the silent absence of a decision-critical fact, such as an agent reading 20 of 400 records and reporting \"no anomalies.\" We argue omission is a pipeline phenomenon, not a model phenomenon, and make four contributions. First, a nine-layer taxonomy (L0-L8) locating every omission mechanism from ingestion through the agent loop. Second, an attribution methodology separating deterministic layers (L0-L3) from behavioral layers (L4-L8) via controlled ablation and logit decomposition, quantifying each with an omission waterfall. Third, an open cross-architecture harness comparing sliding-window-hybrid, full-attention, and SSM-hybrid models across engines and frameworks. Fourth, a runtime-detection framework for air-gapped settings where you own the logits. Results from a 75,476-trial sweep across five models and two engines show a pooled omission rate of 0.62; 68% originates in deterministic middleware (L0-L3), relocating where operators should intervene. Server-side profile factors (weight quantization, KV-cache type, RoPE scaling) were fixed and left for future work.\n\nAuthors: Santhiya Rajan\nCategories: cs.MA, cs.MA",
+  "word_count": 182,
+  "published_at": "2026-07-24T16:10:21Z",
+  "ingested_at": "2026-07-27T11:04:52.947Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.MA",
+    "cs.MA"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
