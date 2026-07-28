@@ -1,0 +1,38 @@
+{
+  "id": "td_f6746861",
+  "source": "arxiv",
+  "source_id": "2607.24593",
+  "source_url": "https://arxiv.org/abs/2607.24593",
+  "content_type": "paper",
+  "creator": {
+    "id": "hong_liu",
+    "name": "Hong Liu",
+    "handle": "Hong Liu, Yuan Cheng, Lin Niu, Yi Su, Yufei Xue, Anmin Liu, Guanghua Yu, Jianchen Zhu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PIVOT: Efficient Query-Group Indexing for Token-Level Sparse Attention",
+  "body_text": "PIVOT: Efficient Query-Group Indexing for Token-Level Sparse Attention\n\nToken-level sparse attention, as implemented by DeepSeek Sparse Attention (DSA) in production systems, makes the downstream attention efficient but shifts the bottleneck to the indexer that feeds it. To select the top-k tokens for each query, the indexer must still score every preceding token, incurring a cost of O(L^2) per layer for a sequence of length L. We observe that this per-query scan is largely redundant: nearby queries select highly overlapping top-k tokens, and the indexer scores are long-tailed along the key axis. We exploit these properties in PIVOT, Proxy Indexing Via One full-prefix Traversal, a training-free, drop-in replacement for the DSA indexer that shares one prefix scan across a group of nearby queries. PIVOT aggregates a group into a single proxy query, performs one shared full-prefix scan to obtain a candidate set, and then selects a top-k for each query from that set. Two variants trade speed for fidelity: PIVOT-Reuse shares the proxy top-k across the group for maximum speed, whereas PIVOT-Refine re-scores the candidate set with the indexer of each query and then selects an individual top-k, matching the dense indexer at a small additional cost. A single algorithm covers both inference phases, differing only in how groups are formed: fixed-size groups of consecutive queries in prefill, and the queries decoded together in one multi-token prediction (MTP) step in decode. On DeepSeek-V3.2 and GLM-5.1 across LongBench and RULER, PIVOT matches the accuracy of the dense DSA indexer while accelerating it by up to 4x and reducing end-to-end latency by up to 1.6x at long context.\n\nAuthors: Hong Liu, Yuan Cheng, Lin Niu, Yi Su, Yufei Xue, Anmin Liu, Guanghua Yu, Jianchen Zhu\nCategories: cs.CL, cs.CL",
+  "word_count": 257,
+  "published_at": "2026-07-27T15:58:07Z",
+  "ingested_at": "2026-07-28T11:04:11.623Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

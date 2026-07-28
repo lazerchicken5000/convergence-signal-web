@@ -1,0 +1,40 @@
+{
+  "id": "td_9e786cdd",
+  "source": "arxiv",
+  "source_id": "2607.24712",
+  "source_url": "https://arxiv.org/abs/2607.24712",
+  "content_type": "paper",
+  "creator": {
+    "id": "dmitry_grinko",
+    "name": "Dmitry Grinko",
+    "handle": "Dmitry Grinko, Ludovico Lami",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sample complexity of quantum resource testing via one-shot quantum blurring",
+  "body_text": "Sample complexity of quantum resource testing via one-shot quantum blurring\n\nQuantum resource testing is a fundamental primitive of quantum information processing, profoundly connected to resource manipulation. Its goal is to discriminate $n$ copies of a given resourceful state $ρ$ from all free (i.e., resourceless) states; key instances for applications are entanglement testing and quantum magic testing. The asymptotic characterisation relies on the recently proven generalised quantum Stein's lemma, which establishes the rate of decay of the false negative error probability for a fixed false positive error probability. This result, however, is intrinsically asymptotic and thus can provide no finite-resource guarantees, which makes its practical implications unclear. Here, we establish the first rigorous finite-$n$ bounds on quantum resource testing and hence quantum resource manipulation, providing explicit estimates on the number of copies needed to achieve a prescribed performance. As notable consequences, we obtain (a) the convergence of the regularised Rényi relative entropies of a resource, which settles the important open problem from [Fang/Hayashi, IEEE ToIT 72:6, 2026]; and (b) the first sample-complexity bound for asymmetric resource testing: for any fixed false positive error probability, a false negative error probability of at most $δ$ can be achieved with $n=O\\left(\\frac{\\log(1/δ)}{D^\\infty(ρ\\|F)}\\right)$ copies of $ρ$, in the limit where $δ\\to 0$.\n\nAuthors: Dmitry Grinko, Ludovico Lami\nCategories: quant-ph, cs.IT, math-ph, quant-ph",
+  "word_count": 196,
+  "published_at": "2026-07-27T17:51:15Z",
+  "ingested_at": "2026-07-28T11:04:38.108Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.IT",
+    "math-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

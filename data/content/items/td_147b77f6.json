@@ -1,0 +1,40 @@
+{
+  "id": "td_147b77f6",
+  "source": "arxiv",
+  "source_id": "2607.24683",
+  "source_url": "https://arxiv.org/abs/2607.24683",
+  "content_type": "paper",
+  "creator": {
+    "id": "francisco_mena",
+    "name": "Francisco Mena",
+    "handle": "Francisco Mena, Dino Ienco, Roberto Interdonato, Cassio F. Dantas, Simon Besnard",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Co-Learning for Missing Arbitrary Modalities in Multi-modal Classification",
+  "body_text": "Co-Learning for Missing Arbitrary Modalities in Multi-modal Classification\n\nMulti-modal classification leverages complementary information across diverse data sources to enhance predictive performance. However, real-world scenarios subject to operational constraints, such as sensor failures or privacy restrictions, lead to inconsistent modality availability between training and inference times. To handle missing modalities, prior studies have mainly covered bimodal data setups and focused on designing robust fusion processes. Instead, we adopt a multi-modal co-learning framework that prioritizes inter-modal collaboration rather than multi-modal fusion. Specifically, we consider that any subset of modalities may be absent, without assuming predefined missing-modality patterns, an inference scenario we refer to as missing arbitrary modalities. To address this challenge, we introduce two alternative approaches that leverage information at both feature- and decision-level. Experiments on two multi-modal classification benchmarks demonstrate significant robustness gains in various missing modality conditions. The first method shows more robust behavior under minimal missing conditions, where a single modality is absent, whereas the second performs better under extreme missing conditions, where all-but-one modalities are missing. Our code is available at https://github.com/fmenat/Co4Miss.\n\nAuthors: Francisco Mena, Dino Ienco, Roberto Interdonato, Cassio F. Dantas, Simon Besnard\nCategories: cs.CV, cs.AI, cs.LG, cs.CV",
+  "word_count": 166,
+  "published_at": "2026-07-27T17:23:30Z",
+  "ingested_at": "2026-07-28T11:04:05.274Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

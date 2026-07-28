@@ -1,0 +1,40 @@
+{
+  "id": "td_56a7d657",
+  "source": "arxiv",
+  "source_id": "2607.24665",
+  "source_url": "https://arxiv.org/abs/2607.24665",
+  "content_type": "paper",
+  "creator": {
+    "id": "yanhao_jia",
+    "name": "Yanhao Jia",
+    "handle": "Yanhao Jia, Jiepeng Wang, Haibin Huang, Chi Zhang, Erik Cambria, Xuelong Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design",
+  "body_text": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design\n\nModern large language models scale successfully by pairing capacity growth with efficiency, keeping per-token and deployment costs under control as capacity grows. AIGC Foundation Models (AFMs), especially diffusion-transformer backbones, have begun to adopt sparse experts, but recent efforts mostly enlarge total parameter counts and sparsity ratios without importing the efficiency mechanisms that made LLM scaling practical, so generation quality is seldom balanced against training and deployment cost. This raises a natural question: can the architectural principles behind efficient LLM scaling be adapted to AFMs in a more balanced way? We introduce ModernMOE (MMOE), a modernization of SiT-style diffusion transformers that systematically adapts routed experts, shared and lightweight experts, gate-residual routing, and attention-residual information reuse to AIGC generation. Rather than treating MoE as a single plug-in replacement, MMOE studies how different modern expert components affect convergence, efficiency, and generation quality when composed inside a diffusion transformer. Every experiment in this paper is trained on a single eight-GPU H100 node with batch size 256 for 400k steps, an accessible single-machine budget. Under matched training and sampling protocols and at this budget, MMOE reaches lower FID at every recorded checkpoint, that is, it converges faster per training step, than dense and intermediate sparse-expert baselines, and among the sparse variants it attains the best quality-cost balance. Routing analysis further shows stable expert specialization across depth, substantial use of lightweight routes, and modest step-to-step routing changes during denoising. These results suggest that AFMs can follow the balanced scaling path of LLMs by importing proven efficiency designs, rather than by simply increasing total parameters and sparsity ratios.\n\nAuthors: Yanhao Jia, Jiepeng Wang, Haibin Huang, Chi Zhang, Erik Cambria, Xuelong Li\nCategories: cs.CV, cs.GR, cs.LG, cs.CV",
+  "word_count": 261,
+  "published_at": "2026-07-27T17:05:04Z",
+  "ingested_at": "2026-07-28T11:04:24.683Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.GR",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

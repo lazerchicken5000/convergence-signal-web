@@ -1,0 +1,38 @@
+{
+  "id": "td_58877aed",
+  "source": "arxiv",
+  "source_id": "2607.24672",
+  "source_url": "https://arxiv.org/abs/2607.24672",
+  "content_type": "paper",
+  "creator": {
+    "id": "shaker_al-tamari",
+    "name": "Shaker Al-Tamari",
+    "handle": "Shaker Al-Tamari, Waled Kadour",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Explainable Reinforcement Learning via Physics-Aware Policy Distillation",
+  "body_text": "Explainable Reinforcement Learning via Physics-Aware Policy Distillation\n\nIn safety-critical sectors such as robotics and automotive engineering, the deployment of Deep Reinforcement Learning (DRL) is often hindered by the black-box nature of deep neural networks. This lack of transparency poses significant challenges for regulatory compliance and human-agent trust. This paper presents an experimental study aimed at making high-performance continuous control DRL systems interpretable. A policy distillation framework is implemented using the classic Inverted Pendulum benchmark. A high-performance Twin Delayed DDPG (TD3) agent serves as an opaque, continuous teacher model, whose policy is distilled into an interpretable student surrogate based on a shallow Decision Tree. By leveraging a custom physics-aware feature and \"Noisy Oracle Rollouts\" for dataset generation, the distillation process achieves performance equivalent to the expert teacher. Furthermore, comparative control theory analysis reveals a fundamental trade-off: transitioning from continuous to discrete rule-based control induces high-frequency Bang-Bang actuation and a stable bimodal limit cycle. Simulation results indicate that Bounded-Input Bounded-Output (BIBO) stability is maintained while providing both global and local interpretability for safe autonomous systems.\n\nAuthors: Shaker Al-Tamari, Waled Kadour\nCategories: cs.LG, cs.LG",
+  "word_count": 166,
+  "published_at": "2026-07-27T17:14:42Z",
+  "ingested_at": "2026-07-28T11:04:17.988Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

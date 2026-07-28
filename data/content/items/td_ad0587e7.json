@@ -1,0 +1,39 @@
+{
+  "id": "td_ad0587e7",
+  "source": "arxiv",
+  "source_id": "2607.24741",
+  "source_url": "https://arxiv.org/abs/2607.24741",
+  "content_type": "paper",
+  "creator": {
+    "id": "xinyang_wen",
+    "name": "Xinyang Wen",
+    "handle": "Xinyang Wen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Certified Parallel-in-Time Sinkhorn for Dynamic Entropic Optimal Transport",
+  "body_text": "Certified Parallel-in-Time Sinkhorn for Dynamic Entropic Optimal Transport\n\nDynamic applications, including optimal-transport Flow Matching, repeatedly solve related entropic optimal transport problems, yet conventional distributed Sinkhorn processes frames sequentially and synchronizes after every iteration. We present TemporalSinkhorn, a parallel-in-time executor that batches future candidates and their repairs without making output accuracy speculative. A centered, row-sharded certificate accepts only a deterministic safe prefix. The remaining candidates share packed Sinkhorn updates; an online projective forgetting rate places audit milestones, while a posteriori residual checks recover from every depth underestimate. Prediction can therefore change work placement but cannot authorize an inaccurate output. On 4 A100 GPUs, a 60-run, five-seed grid at n = 2048 shows that forgetting-guided milestones reduce wall time by 1.15x-1.47x relative to auditing every packed iteration in five statistically resolved regime cells. Against a sequential soft c-transform warm start, temporal execution is 1.42x-3.55x faster across six synthetic streams, with zero marginal-tolerance violations. On Flow Matching minibatch streams, temporal execution is 3.054x-3.632x faster than sequential carry at n = 2048, with no tolerance violations. A separate fixed-kernel test on an RTX 4060 Laptop GPU gives a 4.315x geometric-mean speedup. These are complementary deployment studies rather than a controlled hardware comparison. End-to-end Flow Matching integration, optimized-solver comparisons, and multi-node validation remain open.\n\nAuthors: Xinyang Wen\nCategories: cs.DC, cs.LG, cs.DC",
+  "word_count": 201,
+  "published_at": "2026-07-27T17:59:36Z",
+  "ingested_at": "2026-07-28T11:04:17.986Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DC",
+    "cs.LG",
+    "cs.DC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_1e087f63",
+  "source": "arxiv",
+  "source_id": "2607.24726",
+  "source_url": "https://arxiv.org/abs/2607.24726",
+  "content_type": "paper",
+  "creator": {
+    "id": "justin_sirignano",
+    "name": "Justin Sirignano",
+    "handle": "Justin Sirignano, Konstantinos Spiliopoulos, Samuel Cohen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
+  "body_text": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs\n\nThe Deep Galerkin Method (DGM) and Physics Informed Neural Networks (PINNs) have become widely-used methods for solving partial differential equations (PDEs) in the rapidly growing field of scientific machine learning. In these methods, a neural network is trained to approximate the PDE solution by using (stochastic) gradient descent to minimize the PDE residual of the neural network. Due to the non-convexity of the PDE residual objective function, the trained neural network may, in principle, only converge to a local minimizer of the objective function (which would not be a solution of the PDE). Therefore, there is a longstanding question regarding the mathematical foundations of these algorithms, and it is highly valuable to establish that the trained neural network will converge to the PDE solution. For a class of semi-linear PDEs (nonlinear in the solution and its first derivative), we prove that neural networks trained with gradient descent to minimize the PDE residual objective function will converge to the PDE solution.\n\nAuthors: Justin Sirignano, Konstantinos Spiliopoulos, Samuel Cohen\nCategories: cs.LG, math.NA, cs.LG",
+  "word_count": 160,
+  "published_at": "2026-07-27T17:56:37Z",
+  "ingested_at": "2026-07-28T11:04:17.987Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.NA",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

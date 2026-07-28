@@ -1,0 +1,39 @@
+{
+  "id": "td_d18c5617",
+  "source": "arxiv",
+  "source_id": "2607.24673",
+  "source_url": "https://arxiv.org/abs/2607.24673",
+  "content_type": "paper",
+  "creator": {
+    "id": "mohammad_fesanghary",
+    "name": "Mohammad Fesanghary",
+    "handle": "Mohammad Fesanghary",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Causal-TS: A Python Library for Causal Discovery in High-Dimensional and Nonstationary Time Series",
+  "body_text": "Causal-TS: A Python Library for Causal Discovery in High-Dimensional and Nonstationary Time Series\n\nWe describe Causal-TS, an open-source Python library for causal discovery in high-dimensional and nonstationary multivariate time series. Causal-TS provides four specialized algorithms-CDNOTS, CDNOTS+, CEDAR, and GRACE-along with wrappers for GES, Granger, LASSO-VAR, and LGES, all sharing a unified conditional independence (CI) test layer with GPU acceleration via PyTorch. A regime discovery pipeline detects structural breaks via pluggable changepoint detectors and runs discovery per regime with regime-specific parameters. A command-line interface, synthetic data generators, and optional DoWhy integration provide an end-to-end pipeline from raw time series to causal effect estimates. The library is pip-installable, tested on Python 3.10--3.12, and available at https://github.com/bloomberg/causal-ts.\n\nAuthors: Mohammad Fesanghary\nCategories: cs.LG, stat.ME, cs.LG",
+  "word_count": 101,
+  "published_at": "2026-07-27T17:14:48Z",
+  "ingested_at": "2026-07-28T11:04:17.987Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ME",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
