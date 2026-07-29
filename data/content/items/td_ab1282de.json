@@ -1,0 +1,38 @@
+{
+  "id": "td_ab1282de",
+  "source": "arxiv",
+  "source_id": "2607.26045",
+  "source_url": "https://arxiv.org/abs/2607.26045",
+  "content_type": "paper",
+  "creator": {
+    "id": "lorenzo_loi",
+    "name": "Lorenzo Loi",
+    "handle": "Lorenzo Loi, Andrea Missaglia, Carolina Introini, David Breitenmoser, Shaun D. Clarke, Sara A. Pozzi, Antonio Cammi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Photonuclear Neutron Production in OpenMC: Verification Against MCNPX, FLUKA, and a First-Collision Analytical Solution",
+  "body_text": "Photonuclear Neutron Production in OpenMC: Verification Against MCNPX, FLUKA, and a First-Collision Analytical Solution\n\nThe modeling of photonuclear reactions is increasingly important for applications involving high-energy photon fields, including accelerator-driven neutron sources, radiation shielding, medical physics, and fusion technologies. Although the Monte Carlo code OpenMC provides well-verified photoatomic transport capabilities, its photonuclear physics is currently available only in an unofficial development branch and requires independent verification before broader scientific use or possible integration into the official code distribution. This work presents a systematic verification of the OpenMC photonuclear implementation using six single-collision broomstick benchmarks based on 2H, 9Be, and 238U targets irradiated by monoenergetic 5 MeV and 15 MeV photons and by a continuous 1--20 MeV linear accelerator (LINAC)-representative spectrum. OpenMC was compared with MCNPX using common ENDF7u photonuclear data, with FLUKA using its native photonuclear models, and with a first-collision analytical solution for the integrated neutron yield. Calculations using the IAEA/PD-2019 library were also performed to quantify nuclear-data sensitivity. OpenMC and MCNPX agreed within 0.7% in integrated neutron yield for all benchmark cases when the same ENDF7u data were used. FLUKA, which relies on its own native photonuclear models rather than ENDF7u, differed from the analytical solution by approximately 6-9% for the monoenergetic cases and by no more than approximately 4% for the continuous-source cases. Changing the OpenMC library to IAEA/PD-2019 produced deviations of up to 11.3% from the ENDF7u-based analytical solution, with the sensitivity varying strongly by nuclide and source spectrum.\n\nAuthors: Lorenzo Loi, Andrea Missaglia, Carolina Introini, David Breitenmoser, Shaun D. Clarke, Sara A. Pozzi, Antonio Cammi\nCategories: physics.app-ph, physics.app-ph",
+  "word_count": 229,
+  "published_at": "2026-07-28T17:54:49Z",
+  "ingested_at": "2026-07-29T11:04:45.658Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.app-ph",
+    "physics.app-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

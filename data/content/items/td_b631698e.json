@@ -1,0 +1,39 @@
+{
+  "id": "td_b631698e",
+  "source": "arxiv",
+  "source_id": "2607.26001",
+  "source_url": "https://arxiv.org/abs/2607.26001",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenzhi_zhong",
+    "name": "Wenzhi Zhong",
+    "handle": "Wenzhi Zhong, Edward Milsom, Michael Murray",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sharpness-Aware Minimization and Muon: Robustness under the Spectral Norm",
+  "body_text": "Sharpness-Aware Minimization and Muon: Robustness under the Spectral Norm\n\nSharpness-Aware Minimization (SAM) aims to improve generalization by encouraging insensitivity to small, worst-case parameter perturbations. However, the notion of a \"small\" perturbation is inherently geometry-dependent: while existing SAM variants have explored a wide range of choices, a clear perspective on which geometries are most effective in practice remains elusive. Recent work on matrix-aware optimization, particularly the Muon optimizer, suggests that respecting the matrix structure of hidden-layer weights can lead to strong empirical performance. Motivated by this, we study matrix-aware geometry in both stages of SAM: we introduce a layerwise spectral inner perturbation for matrix-valued hidden-layer parameters and combine it with either AdamW/SGDW or Muon in the outer update. Across ImageNet-1K experiments on ViT-Small/16 and ResNet-50, we find that the combination of a spectral inner step with a Muon outer step performs consistently strongly, achieving the best validation accuracy on both models among the evaluated methods.\n\nAuthors: Wenzhi Zhong, Edward Milsom, Michael Murray\nCategories: cs.LG, stat.ML, cs.LG",
+  "word_count": 145,
+  "published_at": "2026-07-28T17:18:11Z",
+  "ingested_at": "2026-07-29T11:04:25.930Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

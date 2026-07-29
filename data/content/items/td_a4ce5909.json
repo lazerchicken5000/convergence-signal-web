@@ -1,0 +1,40 @@
+{
+  "id": "td_a4ce5909",
+  "source": "arxiv",
+  "source_id": "2607.26024",
+  "source_url": "https://arxiv.org/abs/2607.26024",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuan-yi_fan",
+    "name": "Yuan-Yi Fan",
+    "handle": "Yuan-Yi Fan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LLM4OSC: Profile-Bound Natural Language Control with Deterministic Validation for Open Sound Control",
+  "body_text": "LLM4OSC: Profile-Bound Natural Language Control with Deterministic Validation for Open Sound Control\n\nOpen Sound Control (OSC) is the dominant wire protocol for real-time parametric control in professional audio, live performance, and virtual production. Large language models can emit plausible OSC, but they hallucinate addresses, mishandle type tags, and fail under paraphrase- unacceptable in show-critical contexts. We present LLM4OSC, a local-first architecture in which models propose structured intent JSON over a human-reviewed device profile, and deterministic code validates, clamps, and encodes before any UDP send. We introduce a frozen evaluation harness with CI gates on wrong-send rate: mismatches that would still pass validation and transmit. On a Max/MSP hero profile (12 patterns; 8 literal + 8 paraphrase + 4 refusal cases), after profile tag enrichment, symbolic slot fill, NL refine, and a retrieval confidence gate, backends B0--B3 all pass frozen gates (100% semantic accuracy, 0% wrong-send). B0 (rules) remains the production default at ~0.05ms; LLM backends remain ~3-4s. Historical few-shot B2 accuracy of 62.5% rises to 100% on this suite only after symbolic post-processing- not because the 0.5B model alone becomes show-safe. We argue for propose-validate-send and wrong-send rate as first-class metrics for language-to-control systems.\n\nAuthors: Yuan-Yi Fan\nCategories: cs.HC, cs.SD, eess.AS, cs.HC",
+  "word_count": 182,
+  "published_at": "2026-07-28T17:36:22Z",
+  "ingested_at": "2026-07-29T11:04:32.479Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.HC",
+    "cs.SD",
+    "eess.AS",
+    "cs.HC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

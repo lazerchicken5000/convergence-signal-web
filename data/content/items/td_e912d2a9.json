@@ -1,0 +1,38 @@
+{
+  "id": "td_e912d2a9",
+  "source": "arxiv",
+  "source_id": "2607.26032",
+  "source_url": "https://arxiv.org/abs/2607.26032",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhaoxian_wu",
+    "name": "Zhaoxian Wu",
+    "handle": "Zhaoxian Wu, Quan Xiao, Tayfun Gokmen, Tianyi Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimization under Persistent State-Dependent Bias: Gradient-based Method and Complexity Analysis",
+  "body_text": "Optimization under Persistent State-Dependent Bias: Gradient-based Method and Complexity Analysis\n\nThis paper studies the convergence of stochastic gradient descent (SGD) when the implemented updates are subject to a persistent and state-dependent bias, in which the desired update is scaled by response functions component-wise. Our first contribution is to demonstrate that SGD in this setting implicitly optimizes a penalized problem whose minimizer does not coincide with the true minimizer. To mitigate this convergence failure, we reformulate the original task as an equivalent bilevel optimization problem and propose a gradient-based algorithm, termed Residual Learning. Theoretical analysis shows that Residual Learning finds a solution to the original, unbiased optimization problem despite the hardware imperfections. Beyond exact convergence, we quantify how the response functions affect convergence complexity via the hardware condition number and show that a polynomial dependence on it is unavoidable in general, via a construction of a hard instance. The theoretical results are supported by numerical simulations that demonstrate the effectiveness of the proposed algorithm.\n\nAuthors: Zhaoxian Wu, Quan Xiao, Tayfun Gokmen, Tianyi Chen\nCategories: math.OC, math.OC",
+  "word_count": 153,
+  "published_at": "2026-07-28T17:42:41Z",
+  "ingested_at": "2026-07-29T11:04:39.097Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

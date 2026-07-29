@@ -1,0 +1,39 @@
+{
+  "id": "td_eab189ca",
+  "source": "arxiv",
+  "source_id": "2607.25992",
+  "source_url": "https://arxiv.org/abs/2607.25992",
+  "content_type": "paper",
+  "creator": {
+    "id": "shuyue_wei",
+    "name": "Shuyue Wei",
+    "handle": "Shuyue Wei, Chang Liu, Zimu Zhou, Yongxin Tong, Lizhen Cui",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+  "body_text": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents\n\nRecently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems typically adopt a coarse-grained (utility-agnostic) manner that treats heterogeneous user-LLM interaction records uniformly, leading to redundant and low-impact records persisting in the memory repository. To address this challenge, we present MemLens, a value-aware memory management system that takes memory records as first-class data objects. MemLens provides an end-to-end interactive analytics dashboard that exposes the complete memory lifecycle, including Shapley-style memory evaluation, value-aware storage, and memory-assisted response. Through a study-copilot application, the system enables users to inspect memory values, visualize hierarchical memory structures, and compare various memory management strategies in terms of response quality, retrieval latency, and token consumption. Therefore, our MemLens can serve as an efficient, interpretable, and personalized long-term memory management system for LLM-based agents.\n\nAuthors: Shuyue Wei, Chang Liu, Zimu Zhou, Yongxin Tong, Lizhen Cui\nCategories: cs.DB, cs.AI, cs.DB",
+  "word_count": 143,
+  "published_at": "2026-07-28T17:08:56Z",
+  "ingested_at": "2026-07-29T11:04:13.151Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DB",
+    "cs.AI",
+    "cs.DB"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_e2a1fb31",
+  "source": "arxiv",
+  "source_id": "2607.26018",
+  "source_url": "https://arxiv.org/abs/2607.26018",
+  "content_type": "paper",
+  "creator": {
+    "id": "jared_c._stimac",
+    "name": "Jared C. Stimac",
+    "handle": "Jared C. Stimac, Fei Zhou, Kyle Bushick, Bo Lei, Sebastien Hamel, Amit Samanta, Vincenzo Lordi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Extracting Atomic Environments for Machine Learning Interatomic Potentials",
+  "body_text": "Extracting Atomic Environments for Machine Learning Interatomic Potentials\n\nIn order to appropriately capture large-scale material features and emergent phenomena via atomistic simulations, such as Molecular Dynamics (MD), the system scale can range up to hundreds of millions of atoms. However, the force-field models that drive those simulations are generally trained with Density Functional Theory (DFT) reference data, limited to relatively small configurations on the order of 100s or 1000s of atoms. To compute DFT forces on atoms in regions of interest, for example for active-learning or on-the-fly training of interatomic potentials, one needs to extract a small set of atoms from the larger simulation box, and typical work with periodic boundary conditions for DFT; however, methods to select the shape and size of this extracted set of atoms, as well as to generate a potentially necessary passivating envelope, have not been systematically analyzed. In this work, we present a benchmark of various techniques to extract atomic environments from large, bulk configurations and embed them into smaller configurations suitable for DFT calculations with periodic boundary conditions. We test with a diverse set of material systems, which includes amorphous $\\mathrm{SiO_2}$, Ta with screw dislocations, and molten C. We demonstrated a notably simple procedure, a method we refer to as deletions, yields superior performance over an array of alternative extraction methods.\n\nAuthors: Jared C. Stimac, Fei Zhou, Kyle Bushick, Bo Lei, Sebastien Hamel, Amit Samanta, Vincenzo Lordi\nCategories: cond-mat.mtrl-sci, cond-mat.mtrl-sci",
+  "word_count": 210,
+  "published_at": "2026-07-28T17:28:41Z",
+  "ingested_at": "2026-07-29T11:04:39.097Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.mtrl-sci",
+    "cond-mat.mtrl-sci"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_34ddb64e",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Discovering cryptographic weaknesses with Claude",
+  "body_text": "Discovering cryptographic weaknesses with Claude\nThe best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included:\n\nthe models tend to think it is impossible to solve so they don't try they need a good amount of prompting.\nwhy not do aes-128 r7? the whole point is to find something better than existing approaches.\nno again the goal is that we have highly inteligent model as good top researcher, we want to find new attacks\nno we don't want to change the targets [...] agian we need to find something that worth publishing\nagain we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\n\nMythos Preview worked for 60 hours in total (~$100,000 in estimated API cost) and the main human interventions were to encourage it not to give up and \"find something that worth publishing\".\nThe paper CryptanalysisBench: Can LLMs do Cryptanalysis? describes the new eval that was created as part of this work, in partnership with ETH Zurich, Tel Aviv University, and University of Haifa.\n\n    Via Hacker News\n\n\n    Tags: ai, prompt-engineering, generative-ai, llms, anthropic, claude, ai-security-research, claude-mythos-fable",
+  "word_count": 224,
+  "published_at": "2026-07-28T22:45:37.000Z",
+  "ingested_at": "2026-07-29T11:00:15.326Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
