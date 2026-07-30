@@ -1,0 +1,38 @@
+{
+  "id": "td_c997700b",
+  "source": "arxiv",
+  "source_id": "2607.27157",
+  "source_url": "https://arxiv.org/abs/2607.27157",
+  "content_type": "paper",
+  "creator": {
+    "id": "xue_chen",
+    "name": "Xue Chen",
+    "handle": "Xue Chen, Shengtang Huang, Xin Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Constructions of $k$-Min-Wise Hash from Bounded Independence",
+  "body_text": "Constructions of $k$-Min-Wise Hash from Bounded Independence\n\nMin-wise hashing and its $k$-min-wise extension are fundamental tools in sampling, sketching, and similarity estimation. A standard approach to constructing such families is bounded independence. For ordinary min-wise hashing, the required degree of independence is fully understood: $Θ(\\log 1/δ)$-wise independence is both sufficient and necessary. For $k$-min-wise hashing, however, the best previous result only showed that $O(k\\log\\log1/δ+\\log1/δ)$-wise independence suffices, with no matching lower bound. We give a tight characterization of the amount of bounded independence required for $k$-min-wise hashing, proving that $Θ(k+\\log1/δ)$-wise independence is both sufficient and necessary. This improves the previous upper bound and provides a matching lower bound. Consequently, the standard construction of bounded-independent hash families has seed length $O\\big((k+\\log1/δ)\\log(N/δ)\\big)$. In particular, for any polynomially small error $δ$ and any $k=Ω(\\log N)$, it achieves the optimal seed length $O(k\\log N)$. We also study random affine hash functions over $\\mathbb{F}_2$ and show that, despite being pairwise independent, they may incur multiplicative error $Ω(\\log n)$ even for ordinary min-wise hashing.\n\nAuthors: Xue Chen, Shengtang Huang, Xin Li\nCategories: cs.DS, cs.DS",
+  "word_count": 160,
+  "published_at": "2026-07-29T17:35:25Z",
+  "ingested_at": "2026-07-30T11:04:47.177Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

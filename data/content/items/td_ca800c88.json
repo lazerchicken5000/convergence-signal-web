@@ -1,0 +1,38 @@
+{
+  "id": "td_ca800c88",
+  "source": "arxiv",
+  "source_id": "2607.27132",
+  "source_url": "https://arxiv.org/abs/2607.27132",
+  "content_type": "paper",
+  "creator": {
+    "id": "zuyuan_zhang",
+    "name": "Zuyuan Zhang",
+    "handle": "Zuyuan Zhang, Yongshan Chen, Mahdi Imani, Tian Lan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Minimal Markovization via Stable Quotients in Holonomy-Cover Decision Processes",
+  "body_text": "Minimal Markovization via Stable Quotients in Holonomy-Cover Decision Processes\n\nAn agent acting under partial observability must retain a recursively updateable statistic of history that restores the Markov property, but the smallest such statistic is generally unknown. We characterize this minimal Markov sufficient statistic for holonomy-cover decision processes, a structured POMDP class in which the visible dynamics are Markov and every realized visible transition applies a fixed permutation to a hidden mode. In particular, we construct the stable quotient, the coarsest observation-wise abstraction preserving one-step rewards and quotient successors, and prove that the pair of the current observation and stable class forms an exact finite Markov state. When the current class is correctly initialized, exact class tracking requires exactly the minimal memory symbols, in the sense that under reachability and pairwise decision separation at a maximizing observation, no arbitrary finite-memory controller can use fewer. Under resettable diagnostics, nearest-prototype class inference has exponentially decaying error, and a calibrate-then-restart reduction transfers finite-MDP guarantees to the recovered state. The results enable \\emph{Holonomy Memory Reinforcement Learning}. It represents memory by the current stable class, updates it through ordered edge transports, identifies local class coordinates when diagnostics are available, and applies a standard finite-MDP RL backbone after synchronization. Experiments recover an exact compression from raw states to quotient states and achieve perfect paired-order accuracy with three decision-time memory states, matching the quotient oracle and outperforming the non-oracle baselines.\n\nAuthors: Zuyuan Zhang, Yongshan Chen, Mahdi Imani, Tian Lan\nCategories: cs.LG, cs.LG",
+  "word_count": 223,
+  "published_at": "2026-07-29T17:03:35Z",
+  "ingested_at": "2026-07-30T11:04:27.007Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

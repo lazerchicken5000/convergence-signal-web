@@ -1,0 +1,41 @@
+{
+  "id": "td_0e20cd0e",
+  "source": "arxiv",
+  "source_id": "2607.27081",
+  "source_url": "https://arxiv.org/abs/2607.27081",
+  "content_type": "paper",
+  "creator": {
+    "id": "yongjian_guo",
+    "name": "Yongjian Guo",
+    "handle": "Yongjian Guo, Wanlun Ma, Lingyu Shen, Xi Xiao, Sheng Wen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+  "body_text": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment\n\nFine-tuning is the dominant paradigm for specializing large language models (LLMs), yet it exposes a critical vulnerability: malicious data providers can embed harmful behaviors into downstream corpora, creating models that retain professional skills while violating human values on demand. Existing safety-realignment defenses often fail in practice due to three key limitations: they frequently cause catastrophic forgetting of specialized skills; their effectiveness collapses when the defender cannot observe the attacker's prompt template; and successfully realigned models remain susceptible to re-jailbreaking via simple system prompt switches. To address these challenges, we propose Routing-based On-Policy Distillation (ROPD), a novel realignment framework that models the divergence between aligned and compromised output probability distributions rather than fitting specific prompt templates. We conduct extensive experiments comparing ROPD against four state-of-the-art baselines across three datasets and three base models with varying alignment strengths. Our results demonstrate that when baseline defenses face template mismatches, often accompanied by severe degradation in downstream task performance. In contrast, ROPD substantially mitigates template-mismatch risks, maintaining superior robustness in both defense effectiveness and capability preservation. While our analysis indicates ROPD is not entirely immune to template shifts, its performance degradation is negligible compared to existing methods, establishing a new standard for robust LLM realignment.\n\nAuthors: Yongjian Guo, Wanlun Ma, Lingyu Shen, Xi Xiao, Sheng Wen\nCategories: cs.AI, cs.CL, cs.CR, cs.LG, cs.AI",
+  "word_count": 201,
+  "published_at": "2026-07-29T16:07:19Z",
+  "ingested_at": "2026-07-30T11:04:20.679Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CR",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
