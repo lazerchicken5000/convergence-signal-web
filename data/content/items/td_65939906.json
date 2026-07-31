@@ -1,0 +1,42 @@
+{
+  "id": "td_65939906",
+  "source": "arxiv",
+  "source_id": "2607.28567",
+  "source_url": "https://arxiv.org/abs/2607.28567",
+  "content_type": "paper",
+  "creator": {
+    "id": "mengfei_ran",
+    "name": "Mengfei Ran",
+    "handle": "Mengfei Ran, Yifeng Shen, Ruijie Guan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories",
+  "body_text": "Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories\n\nLongitudinal causal studies often record histories as irregular functional fragments: laboratory values, physiologic signals, sensor streams, and image-derived summaries measured at unequal and informative times. Standard doubly robust estimators usually require scalar summaries, whereas sequence learners optimize prediction losses that need not stabilize the efficient influence function. We propose Doubly Robust Functional Representation Learning (DR-FRL), a cross-fitted workflow that turns irregular histories into estimand-targeted states for observed-history regimes. Functional and temporal encoders map point clouds and prior histories into states; nuisance heads estimate outcome, treatment, and censoring functions; and EIF-targeted validation, calibration, overlap, tail, and ablation diagnostics assess whether the state supports the estimating equation. If the selected state preserves the nuisance information needed by the EIF, representation error enters the same second-order product remainder as ordinary nuisance error, and the mean estimator is asymptotically linear under explicit rate, overlap, calibration, and stability conditions. Catoni aggregation is treated separately as a bounded-influence point estimator, not a replacement for Wald inference. Simulations show gains when functional confounding is high-dimensional, measurement is informative, support is weak, or pseudo-outcomes are heavy-tailed. A VitalDB audit shows that DR-FRL can use irregular laboratory point clouds and deliver a useful negative finding: for this ICU-disposition endpoint, scalar laboratory summaries already carry much endpoint-relevant information.\n\nAuthors: Mengfei Ran, Yifeng Shen, Ruijie Guan\nCategories: stat.ML, cs.LG, stat.AP, stat.CO, stat.ME, stat.ML",
+  "word_count": 208,
+  "published_at": "2026-07-30T17:33:42Z",
+  "ingested_at": "2026-07-31T11:04:26.243Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.AP",
+    "stat.CO",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

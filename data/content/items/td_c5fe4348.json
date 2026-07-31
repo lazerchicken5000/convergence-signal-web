@@ -1,0 +1,39 @@
+{
+  "id": "td_c5fe4348",
+  "source": "arxiv",
+  "source_id": "2607.28610",
+  "source_url": "https://arxiv.org/abs/2607.28610",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhili_chen",
+    "name": "Zhili Chen",
+    "handle": "Zhili Chen, Zhan Yu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning Arbitrary Lindbladians from Time Evolution",
+  "body_text": "Learning Arbitrary Lindbladians from Time Evolution\n\nWe study the problem of learning an unknown Markovian open-system generator from access to its physical time evolution. This generator, called a Lindbladian, contains Hamiltonian and dissipative coefficients indexed by an exponentially large family of possible Pauli terms. We propose an efficient algorithm that learns arbitrary Lindbladians from time evolution under minimal assumptions. For a Lindbladian of dynamical strength at most $Λ$, the algorithm estimates every coefficient to error $ε$ using $\\widetilde O(Λ^2/ε^2)$ experiments and $\\widetilde O(Λ/ε^2)$ total evolution time, together with polynomial classical running time. The algorithm consists of two nonadaptive, ancilla-free, and control-free stages: 1. The support-learning stage outputs a candidate support of size $\\mathrm{poly}(Λ/η)$ that contains every Hamiltonian and dissipative coordinate of magnitude at least $η$, using $\\widetilde O(Λ^2/η^2)$ experiments with preparations of product Pauli eigenstates and single-qubit Pauli measurements. 2.The coefficient-learning stage estimates all coefficients in any candidate support of size $M$ to error $ε$, using $\\widetilde O(Λ^2\\log M/ε^{2})$ experiments with preparations of random stabilizer states and measurements in random Clifford bases. Composing the two stages identifies and estimates every coefficient of an arbitrary Lindbladian in polynomial time. The experiment-count and total-evolution-time scalings match the lower bounds up to logarithmic factors, so the algorithm is nearly optimal for learning arbitrary Lindbladians.\n\nAuthors: Zhili Chen, Zhan Yu\nCategories: quant-ph, cs.DS, quant-ph",
+  "word_count": 205,
+  "published_at": "2026-07-30T17:58:01Z",
+  "ingested_at": "2026-07-31T11:04:40.009Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.DS",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
