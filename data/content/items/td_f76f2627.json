@@ -1,0 +1,35 @@
+{
+  "id": "td_f76f2627",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+  "body_text": "smevals - a small eval suite for evaluating models, prompts, and harnesses\nI've been working with Jesse Vincent's Prime Radiant applied AI research lab building out this evals framework to help answer questions about the capabilities of different models.\nThe result is smevals, a new tool for running small eval suites across different model configurations and grading the results.\nThe blog entry describes the tool in detail. Here's the 10 second version:\n\nTell your coding agent to run uvx smevals docs to learn the tool (this outputs the README)\nThen tell it to build you an eval suite\n\nOnce you've created an eval - which takes the form of a directory with some YAML files - you can run it against models like this:\nuvx smevals run path-to-eval/ -m gpt-5.5 -m claude-opus-4.6\n\nRuns are treated separately from grading operations - you can grade your runs (against your defined set of checks) using:\nuvx smevals grade path-to-eval/\n\nThen you can run a localhost web server to explore the results:\nuvx smevals serve path-to-eval/\n\nOr run the smevals build command to build that report as static HTML, which you can then host anywhere. Here's an example showing an eval suite I built to evaluate how well models can write haikus.\n\nThe most time-consuming part of this project was figuring out the vocabulary for it! Here's what I settled on, quoted from the announcement:\n\n\nAn eval is a collection of challenges designed to answer a question about a model, for example, how good is that model at generating SVGs?\nEach eval is a collection of tasks. A task is a specific challenge, for example \"Generate an SVG of a pelican riding a bicycle\".\nWhen you run the eval you do so against one or more configs. Each config specifies a model to be evaluated, but may also include other parameters to test, such as different system prompts, model parameters, or agent harnesses.\nA run records what happened when a specific config was used to execute a specific task. A runner is the script that executes a run.\nOnce you have collected one or more runs, you need to evaluate the results to see how well the model (or config) did. This is done by a grader, which produces a grade.\nEach grader runs a sequence of checks. These can be simple operations, like checking for a specific string in the output, or confirming that the output is valid XML. They can also be more complicated custom operations (implemented as scripts called checkers), including using other models to answer questions about the run.\n\n\nI've been trying to figure out an approach I like for evals for several years now. smevals is my third iteration on the idea and it feels right to me. I'm looking forward to expanding this more in the future, as well as pointing it at some of my own projects.\n\n\n    Tags: projects, ai, generative-ai, llms, llm, evals, jesse-vincent",
+  "word_count": 488,
+  "published_at": "2026-07-31T21:15:23.000Z",
+  "ingested_at": "2026-08-01T11:00:09.438Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
