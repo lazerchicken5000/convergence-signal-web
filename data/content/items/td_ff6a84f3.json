@@ -1,0 +1,39 @@
+{
+  "id": "td_ff6a84f3",
+  "source": "arxiv",
+  "source_id": "2607.29592",
+  "source_url": "https://arxiv.org/abs/2607.29592",
+  "content_type": "paper",
+  "creator": {
+    "id": "mostafa_elaraby",
+    "name": "Mostafa ElAraby",
+    "handle": "Mostafa ElAraby, Samer B. Nashed, Liam Paull",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TOOD: Task-Aware Out-of-Distribution Score Calibration for Continual Learners",
+  "body_text": "TOOD: Task-Aware Out-of-Distribution Score Calibration for Continual Learners\n\nThe primary challenge of continual learning (CL) systems is to learn new tasks while remaining performant on previously learned tasks. A similarly important though less well-studied aspect of CL systems is their ability to distinguish inputs that are unlikely to come from within the set of tasks the system has already encountered, often called out-of-distribution (OOD) detection. This paper presents several findings related to the dynamics of OOD detection in CL systems, causes of performance degradation over time which we call OOD forgetting (OODF), and proposed mitigation strategies for this degradation. Chiefly, we find the unintuitive result that OODF is only weakly anti-correlated with classification performance on previous tasks, suggesting that the underlying mechanisms producing OODF are distinct. Moreover, this effect is observed for both energy-based and feature-based OOD detection methods. Energy-based detectors suffer a drop in logit scale as additional tasks are learned, which we term the Confidence Gap, while feature-based detectors also degrade under a complementary effect we call Manifold Crowding. Motivated by these observations, we propose TOOD, a training-free post-hoc method that decomposes logits into per-task energy scores and re-calibrates them using replay-buffer statistics. Experiments on CIFAR-10, CIFAR-100, and a 100-task ImageNet-1K stream show that TOOD improves OOD detection performance over uncalibrated energy in most settings and ranks first or second in nine of ten CIFAR configurations, with the largest gains when the confidence gap is most severe. These results suggest that a substantial portion of OOD deterioration in continual learning arises from score miscalibration rather than from a complete loss of discriminative structure.\n\nAuthors: Mostafa ElAraby, Samer B. Nashed, Liam Paull\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 257,
+  "published_at": "2026-07-31T16:18:30Z",
+  "ingested_at": "2026-08-03T11:04:30.259Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

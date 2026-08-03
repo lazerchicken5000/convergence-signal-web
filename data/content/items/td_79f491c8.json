@@ -1,0 +1,39 @@
+{
+  "id": "td_79f491c8",
+  "source": "arxiv",
+  "source_id": "2607.29686",
+  "source_url": "https://arxiv.org/abs/2607.29686",
+  "content_type": "paper",
+  "creator": {
+    "id": "sitan_chen",
+    "name": "Sitan Chen",
+    "handle": "Sitan Chen, Ryan O'Donnell, Angelos Pelecanos, John Wright",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Online Shadow Tomography Matching the Classical Bounds",
+  "body_text": "Online Shadow Tomography Matching the Classical Bounds\n\nIn \\emph{Online Shadow Tomography}, we are given copies of an unknown $d$-dimensional quantum state $ρ$, an adversary (adaptively) proposes a sequence of bounded observables $A^{(1)},\\ldots,A^{(m)}$, and after each $A^{(t)}$ is given we must estimate $\\Tr(A^{(t)}ρ)$ to within $\\pm ε$. This is the direct quantum generalization of the classical problem of \\emph{Adaptive Data Analysis}. %The ``offline'' case, in which $A^{(1)}, \\ldots, A^{(m)}$ are given upfront, is also a well-studied problem. The main goal is to minimize the number of copies, $n$, required. Prior results for online Shadow Tomography were suboptimal in all three parameters $m, d, ε$, lagging behind the best known and classical rates~\\cite{bassily2021algorithmic}, for which there is some evidence of optimality. In this work, we finally close this gap, giving a pair of algorithms matching the classical rates. The bound on the left is the first to achieve $o(\\log^2 m)$-dependence together with $\\poly(\\log(d)/\\eps)$; moreover, it improves all three exponents even in the \\emph{Offline} Shadow Tomography setting. The bound on the right is known to be optimal among bounds independent of~$d$, and improves the best prior result by a $\\sqrt{m} \\log m$ factor. The key to our proof is a new framework for quantifying post-measurement damage, based on the quantum Efron--Stein decomposition.\n\nAuthors: Sitan Chen, Ryan O'Donnell, Angelos Pelecanos, John Wright\nCategories: quant-ph, cs.DS, quant-ph",
+  "word_count": 202,
+  "published_at": "2026-07-31T17:59:54Z",
+  "ingested_at": "2026-08-03T11:04:43.906Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.DS",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

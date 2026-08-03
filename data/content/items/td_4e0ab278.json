@@ -1,0 +1,38 @@
+{
+  "id": "td_4e0ab278",
+  "source": "arxiv",
+  "source_id": "2607.29658",
+  "source_url": "https://arxiv.org/abs/2607.29658",
+  "content_type": "paper",
+  "creator": {
+    "id": "yisen_xu",
+    "name": "Yisen Xu",
+    "handle": "Yisen Xu, Jiayuan Zhou, Ruiqi Pan, Tse-Hsun Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents",
+  "body_text": "Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents\n\nAlthough LLM-driven repair agents can tackle complex, repository-level issues, they treat every issue independently and discard the procedural knowledge accumulated from previous repairs. We introduce STAIR, a framework that converts historical repair trajectories into hierarchical, reusable plans that can be adapted to steer future repairs. Each past trajectory is transformed into a multi-level tree that ranges from fine-grained diagnostic actions to high-level repair strategies, encoding experience at several granularities. When a new issue arrives, STAIR selects relevant plan nodes from multiple abstraction levels, tailors them into executable, issue-specific plans, and supplies them to the agent through its prompt. On SWE-bench Verified, STAIR integrated with Lingxi reaches 81.2% Pass@1 using MiniMax M2.5 and 79.2% using GPT-5. The generated plans also generalize across agents: without any code change, they lift the Pass@1 of a structurally different agent, mini-SWE-agent v2, from 75.8% to 81.0%. Ablation experiments further show that mixing multiple abstraction levels surpasses any single level and that raw, unabstracted trajectories transfer substantially worse.\n\nAuthors: Yisen Xu, Jiayuan Zhou, Ruiqi Pan, Tse-Hsun Chen\nCategories: cs.SE, cs.SE",
+  "word_count": 162,
+  "published_at": "2026-07-31T17:38:48Z",
+  "ingested_at": "2026-08-03T11:04:30.257Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

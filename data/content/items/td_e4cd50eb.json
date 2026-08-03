@@ -1,0 +1,41 @@
+{
+  "id": "td_e4cd50eb",
+  "source": "arxiv",
+  "source_id": "2607.29675",
+  "source_url": "https://arxiv.org/abs/2607.29675",
+  "content_type": "paper",
+  "creator": {
+    "id": "arkajyoti_bhattacharjee",
+    "name": "Arkajyoti Bhattacharjee",
+    "handle": "Arkajyoti Bhattacharjee, Arnab Auddy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering",
+  "body_text": "Differentially Private Nonparametric Modal Learning with Applications to Regression and Clustering\n\nDensity modes provide a localized and interpretable summary of multimodal distributions, but their estimation under rigorous differential privacy constraints remains largely unexplored. We study differentially private recovery of density modes for multivariate distributions under local smoothness, curvature, and separation conditions. We propose DP-GRAMS, a mean-shift inspired method that performs noisy ascent on a differentially private score estimator. Assuming the density belongs locally to a Hölder class with smoothness parameter $β&gt; 2$, our score estimator uses bias-reducing higher-order kernels, and then enforces privacy in the gradient ascent steps via gradient clipping and calibrated Gaussian noise. A private initialization scheme combines a density-aware utility with a suppression rule and, with $k\\asymp M\\log n$ draws over a public $h_{\\mathrm{DAP}}$-grid and suppression radius $ρ_{\\mathrm{init}}\\asymp (\\log n)^{-1/d}$, achieves high-probability coverage of the modal basins by successively suppressing selected local neighborhoods in competitive regions, while correlated noise across multiple starts enables joint release under a single $(\\varepsilon,δ)$-differential privacy guarantee. We prove that all population modes are recovered with high probability and establish asymptotic error rates of the form $O\\!\\left((\\tfrac{\\log n}{n})^{\\frac{2(β-1)}{d+2β}}\\right) + O\\!\\left((\\tfrac{\\mathrm{polylog}(n,δ)}{n^2\\varepsilon^2})^{\\frac{β-1}{d+β}}\\right)$. We also provide minimax lower bounds for private mode estimation, and show that our estimators are nearly optimal, up to a logarithmic factor in the MSE. We present two natural extensions: DP-PMS, a private modal-regression method, and DP-GRAMS-C, a clustering pipeline. Extensive experiments on synthetic and real data demonstrate favorable privacy-utility trade-offs relative to common baselines.\n\nAuthors: Arkajyoti Bhattacharjee, Arnab Auddy\nCategories: math.ST, cs.LG, stat.ME, stat.ML, math.ST",
+  "word_count": 232,
+  "published_at": "2026-07-31T17:55:02Z",
+  "ingested_at": "2026-08-03T11:04:23.549Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "cs.LG",
+    "stat.ME",
+    "stat.ML",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

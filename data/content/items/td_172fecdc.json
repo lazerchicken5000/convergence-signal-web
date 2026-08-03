@@ -1,0 +1,38 @@
+{
+  "id": "td_172fecdc",
+  "source": "arxiv",
+  "source_id": "2607.29683",
+  "source_url": "https://arxiv.org/abs/2607.29683",
+  "content_type": "paper",
+  "creator": {
+    "id": "lanyang_yi",
+    "name": "Lanyang Yi",
+    "handle": "Lanyang Yi, Kazuya Koyama, Qi Xiong, Gong-Bo Zhao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Emulating the nonlinear effects of modified gravity on the matter power spectrum for reconstruction",
+  "body_text": "Emulating the nonlinear effects of modified gravity on the matter power spectrum for reconstruction\n\nIncluding nonlinear information from modified gravity (MG) brings more constraining power to the model-independent reconstruction of MG functions. However, the calculation of the nonlinear matter power spectrum with MGCAMB+ReACT is expensive in repeated likelihood evaluations, which limits the exploration of the high-dimensional parameter space. In this work, we construct a neural-network emulator for the nonlinear correction $R_{\\mathrm{MG}}(k,z)=P_{\\mathrm{MG}}^{\\mathrm{NL}}(k,z)/P_{\\mathrm{MG}}^{\\mathrm{L}}(k,z)$, which is trained with \\texttt{CosmoPower} on approximately $9\\times10^5$ samples and validated with representative spectra, an independent validation set, and MCMC tests with synthetic data. For $Λ$CDM and moderate MG nonlinear corrections, the emulated power spectra agree with the reference predictions to within $1.5\\%$ over the full scale range considered. For the extreme nonlinear case, the same accuracy is retained for $k&lt;0.8\\,\\mathrm{Mpc}^{-1}$. Over the independent validation set, the mean residual is close to zero, with the $2σ$ scatter below $1\\%$ for $k&lt;0.5\\,\\mathrm{Mpc}^{-1}$ and about $2\\%$ on smaller scales. The synthetic data MCMC analyses recover the input $Λ$CDM cosmology and the GR limits of the reconstructed MG functions within the posterior uncertainties, showing the accuracy and reliability of the emulator for Stage-IV-like surveys. We also demonstrate three applications: using $R_{\\mathrm{MG}}$ to distinguish models with nearly degenerate linear power spectra, using the emulator for theory predictions for current photometric-survey $3\\times2$pt likelihoods, and forecasting DESI+CSST constraints with principal component analysis.\n\nAuthors: Lanyang Yi, Kazuya Koyama, Qi Xiong, Gong-Bo Zhao\nCategories: astro-ph.CO, astro-ph.CO",
+  "word_count": 213,
+  "published_at": "2026-07-31T17:59:05Z",
+  "ingested_at": "2026-08-03T11:04:43.906Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.CO",
+    "astro-ph.CO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_1752ee75",
+  "source": "arxiv",
+  "source_id": "2607.29674",
+  "source_url": "https://arxiv.org/abs/2607.29674",
+  "content_type": "paper",
+  "creator": {
+    "id": "maria_smirnova",
+    "name": "Maria Smirnova",
+    "handle": "Maria Smirnova, Alexey Kravatskiy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback",
+  "body_text": "Sign compression for Muon: SignMuon, MuonSign, and the Limits of Error Feedback\n\nSignMuon compresses the Muon update to one bit per parameter by taking its elementwise sign, providing the most direct way to run a matrix-aware optimizer under an extremely low communication budget. It outperforms SignSGD in practice, yet it can ascend even on a linear function. Signing the gradient before the Linear Minimization Oracle (LMO), rather than after, does not repair this: we construct a small explicit instance on which sign-before (MuonUSign) and sign-on-both-sides (MuonSign) ascend as well, so no placement of the sign around the oracle descends in general. Error feedback, the standard remedy for a biased compressor, does not rescue SignMuon: when applied to Muon's output, error feedback can fail for every smoothness constant, step size, and momentum. Applied to the gradient, error feedback does work, and EF21-MuonUSign and EF21-MuonSign attain the standard $\\mathcal{O}(T^{-1/2})$ rate for the squared gradient norm on smooth nonconvex problems, the latter at one bit in each direction. Experiments then reverse the ordering: across centralized CIFAR-10, federated CIFAR-10, and the nanoGPT speedrun, the strongest compressed method is consistently sign-after-the-LMO, precisely the placement we prove divergent, with the provably convergent variants trailing it. Compressing after the LMO, a heuristic, matters more at these scales than the guarantee does.\n\nAuthors: Maria Smirnova, Alexey Kravatskiy\nCategories: math.OC, cs.LG, math.OC",
+  "word_count": 202,
+  "published_at": "2026-07-31T17:54:46Z",
+  "ingested_at": "2026-08-03T11:04:23.550Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.LG",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

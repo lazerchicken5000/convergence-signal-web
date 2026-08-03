@@ -1,0 +1,38 @@
+{
+  "id": "td_cf93a94d",
+  "source": "arxiv",
+  "source_id": "2607.29640",
+  "source_url": "https://arxiv.org/abs/2607.29640",
+  "content_type": "paper",
+  "creator": {
+    "id": "zebin_duan",
+    "name": "Zebin Duan",
+    "handle": "Zebin Duan, Norbert Krüger, Juan Heredia, Thorbjørn Mosekjær Iversen, Frederik Hagelskjær",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bootstrapping Self-Supervised Learning of Binary Classification Using Error Bounds: A Case Study on a Robotic Insertion Task",
+  "body_text": "Bootstrapping Self-Supervised Learning of Binary Classification Using Error Bounds: A Case Study on a Robotic Insertion Task\n\nFlexible manufacturing requires rapid deployment of solutions and minimal setup time to remain competitive. An essential attribute is the ability to control error levels, as failures can range from minor performance degradation to severe equipment damage. However, conventional deployment often involves extensive setup, data collection, model training or parameter tuning, and system testing, resulting in significant delays that hinder commercial feasibility. We propose a data engine which gathers data and improves its performance while executing the task. The data engine consists of two classifiers, a fast model prediction and expensive verification. First, a model prediction is performed and based on the confidence level of the prediction, the expensive verification can be used. By adjusting the confidence level, users can control the level of tolerable error. Our method is implemented on a real-world robotic insertion task, which uses force data for the model prediction. The system applies UMAP dimensionality reduction and uses Wilson-Score to compute the confidence bounds of the prediction. Results demonstrate the ability to learn and reduce the need for expensive verifications over time, while staying within the set error-rate. The results highlight the potential of confidence bounds in self-improving models to enhance reliability in robotic classification task.\n\nAuthors: Zebin Duan, Norbert Krüger, Juan Heredia, Thorbjørn Mosekjær Iversen, Frederik Hagelskjær\nCategories: cs.RO, cs.RO",
+  "word_count": 199,
+  "published_at": "2026-07-31T17:18:05Z",
+  "ingested_at": "2026-08-03T11:04:37.150Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

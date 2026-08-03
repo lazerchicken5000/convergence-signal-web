@@ -1,0 +1,38 @@
+{
+  "id": "td_8db878c9",
+  "source": "arxiv",
+  "source_id": "2607.29433",
+  "source_url": "https://arxiv.org/abs/2607.29433",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhaoxin_feng",
+    "name": "Zhaoxin Feng",
+    "handle": "Zhaoxin Feng, Jianfei Ma, Emmanuele Chersoni",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+  "body_text": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization\n\nAs large language model (LLM) agents evolve into personalized companions, memory has emerged as a core capability. However, LLMs face a knowledge utilization problem: they may fail to act on relevant user preferences even when they are fully present in context. When an agent fails to tailor its response in a context where previously shared user preferences should matter, it is unclear whether the model failed to remember that information or remembered it but failed to use it. To isolate this breakdown, we introduce a decoupled evaluation paradigm that administers paired Know and Act tests to the same user preference. We conduct large-scale experiments across 16 systems and five memory architectures, evaluating 1,000 preferences embedded at three levels of expression strength. Our results show a large gap between Know and Act outcomes: agents often pass the recall test for a user preference but fail to reflect that same preference in the paired behavioral scenario. While memory architectures reduce this gap, utilization remains especially weak for health and therapy-related preferences, where failures to act carry the greatest real-world stakes.\n\nAuthors: Zhaoxin Feng, Jianfei Ma, Emmanuele Chersoni\nCategories: cs.CL, cs.CL",
+  "word_count": 178,
+  "published_at": "2026-07-31T13:57:21Z",
+  "ingested_at": "2026-08-03T11:04:17.034Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
