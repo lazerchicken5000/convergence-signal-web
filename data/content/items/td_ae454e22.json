@@ -1,0 +1,41 @@
+{
+  "id": "td_ae454e22",
+  "source": "arxiv",
+  "source_id": "2608.02538",
+  "source_url": "https://arxiv.org/abs/2608.02538",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiachen_hu",
+    "name": "Jiachen Hu",
+    "handle": "Jiachen Hu, Han Zhong",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation",
+  "body_text": "Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation\n\nThis paper is concerned with one-bit mean estimation, where each independent sample is represented by a single binary message. We consider distributions on $\\mathbb{R}$ with mean in $[-λ,λ]$ and absolute $k$-th central moment at most $σ^k$, where $k&gt;1$ is fixed. For this class, previous work attained the optimal sample complexity for general queries using a two-stage protocol. The first stage localizes the mean. The second-stage queries are chosen after localization and refine the estimate around the decoded center. We show that this interaction can be avoided by constructing a randomized fully non-adaptive protocol that fixes all queries before observing the data and matches the optimal adaptive sample complexity. For target accuracy $ε$ and confidence $1-δ$, its sample complexity scales as \\[ \\log\\fracλσ + \\begin{cases} (σ/ε)^2\\log(1/δ), &amp; k&gt;2,\\\\ (σ/ε)^2\\log(σ/ε)\\log(1/δ), &amp; k=2,\\\\ (σ/ε)^{k/(k-1)}\\log(1/δ), &amp; 1&lt;k&lt;2, \\end{cases} \\] up to constants depending only on $k$. In the range covered by the known lower bound, this rate is minimax optimal even among fully adaptive protocols. This gives a negative answer to the COLT 2026 open problem asking whether interaction is necessary for order-optimal one-bit mean estimation with general queries \\citep[Open Problem~1]{lau2026open}.\n\nAuthors: Jiachen Hu, Han Zhong\nCategories: stat.ML, cs.IT, cs.LG, math.ST, stat.ML",
+  "word_count": 187,
+  "published_at": "2026-08-03T17:28:12Z",
+  "ingested_at": "2026-08-04T11:04:35.225Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.IT",
+    "cs.LG",
+    "math.ST",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

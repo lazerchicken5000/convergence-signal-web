@@ -1,0 +1,38 @@
+{
+  "id": "td_8f99aa59",
+  "source": "arxiv",
+  "source_id": "2608.02564",
+  "source_url": "https://arxiv.org/abs/2608.02564",
+  "content_type": "paper",
+  "creator": {
+    "id": "honghao_lin",
+    "name": "Honghao Lin",
+    "handle": "Honghao Lin, Vahab Mirrokni, David P. Woodruff",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Pairwise-Independent Dithering for Single-Stage Hadamard Quantization",
+  "body_text": "Pairwise-Independent Dithering for Single-Stage Hadamard Quantization\n\nQuantizing high-dimensional vectors is fundamental to similarity search, distributed learning, and model compression. Feng, Indyk, Kapralov, Krachun, and Prokhorov established sharp guarantees for an unbiased dithered quantizer based on a randomized Hadamard transform [FIK+26]. Their $1/d$-scale inner-product estimator, however, uses a second randomized transform and residual quantization, increasing both communication and the leading constant in the proved bound. We show that this extra stage is unnecessary: pairwise-independent dithers across Hadamard coordinates suffice. The resulting unbiased single-stage estimator uses $b$ bits per coordinate and achieves \\[ \\mathbb{E}\\!\\left[ \\left|\\left\\langle y,\\widehat{x}-x\\right\\rangle\\right|^2 \\right] \\leq \\left(\\frac{3π\\sqrt{3}}{2}+o(1)\\right) \\frac{\\lVert y\\rVert_2^2}{d\\,4^b}, \\] as $b\\to\\infty$, with a dimension-free $o(1)$ term uniform over unit inputs and fixed queries. Compared with the two-stage construction of Feng et al., it eliminates the residual-stage $O(d)$-bit payload and reduces the leading upper-bound constant by a factor of approximately $5.93$. The proof was first obtained using a fully automated Gemini-based agentic system developed internally at Google. The authors have verified the proof and edited it for clarity of presentation.\n\nAuthors: Honghao Lin, Vahab Mirrokni, David P. Woodruff\nCategories: cs.DS, cs.DS",
+  "word_count": 164,
+  "published_at": "2026-08-03T17:44:45Z",
+  "ingested_at": "2026-08-04T11:04:42.291Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

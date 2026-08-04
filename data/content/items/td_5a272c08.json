@@ -1,0 +1,38 @@
+{
+  "id": "td_5a272c08",
+  "source": "arxiv",
+  "source_id": "2608.02558",
+  "source_url": "https://arxiv.org/abs/2608.02558",
+  "content_type": "paper",
+  "creator": {
+    "id": "stefano_fiorini",
+    "name": "Stefano Fiorini",
+    "handle": "Stefano Fiorini, Edoardo Coppola, Pietro Liò",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Benchmarking Sheaf Neural Networks for Inductive Tasks",
+  "body_text": "Benchmarking Sheaf Neural Networks for Inductive Tasks\n\nSheaf Neural Networks (SNNs) generalize message passing by replacing scalar edge weights of standard Graph Neural Networks (GNNs) with learnable, edge-dependent restriction maps between node stalks. Despite their strong theoretical foundations and promising transductive results, SNNs have been evaluated almost exclusively on transductive node classification, leaving their behaviour under inductive protocols unknown. We address this gap through the first systematic benchmark of the sheaf design space, evaluating three diffusion mechanisms (neural sheaf diffusion, sheaf attention, and sheaf attention with Graph Attention Network v2), three restriction-map parameterizations, three stalk dimensions, and six modern GNN architectural components, within a message-passing reformulation that never assembles the heavy sheaf Laplacian, making the full design space trainable under cross-graph batching. Across $1{,}890$ controlled experiments on 14 inductive datasets, multiple insights emerge: restriction maps are the dominant design choice and general maps are preferable, larger stalks add capacity but not long-range reach, architectural components explain more performance variation than the entire sheaf-specific design space itself. Under a matched protocol, SNNs transfer to inductive settings but do not reach the strongest baselines, with gaps being dataset-dependent. Practically, a single sheaf configuration can generalize across datasets, so effort is better spent tuning the surrounding architectural recipe than the sheaf operator itself.\n\nAuthors: Stefano Fiorini, Edoardo Coppola, Pietro Liò\nCategories: cs.LG, cs.LG",
+  "word_count": 203,
+  "published_at": "2026-08-03T17:41:20Z",
+  "ingested_at": "2026-08-04T11:04:35.225Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

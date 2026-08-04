@@ -1,0 +1,39 @@
+{
+  "id": "td_a4897e30",
+  "source": "arxiv",
+  "source_id": "2608.02588",
+  "source_url": "https://arxiv.org/abs/2608.02588",
+  "content_type": "paper",
+  "creator": {
+    "id": "honghao_lin",
+    "name": "Honghao Lin",
+    "handle": "Honghao Lin, Vahab Mirrokni, David P. Woodruff",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Condition-Number Barrier in Sparse Least Squares",
+  "body_text": "The Condition-Number Barrier in Sparse Least Squares\n\nIn [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establish their conjectured lower bound for least-squares objectives, conditional on the randomized exact-volume Small-Set Expansion Hypothesis in the weighted regular-graph formulation of Raghavendra, Steurer, and Tulsiani [RST12]. Concretely, for every fixed $γ\\in(0,1]$, there is no randomized polynomial-time algorithm that, with probability at least $2/3$, returns a vector $x$ such that, writing $s=\\lVert x\\rVert_0$, \\[ \\lVert Ax-b\\rVert_2^2 \\leq \\min_{\\lVert z\\rVert_0\\leq k}\\lVert Az-b\\rVert_2^2+\\varepsilon \\quad\\text{and}\\quad s=O\\!\\left(k\\,κ_{s+k}^{\\,1-γ}\\right), \\] where $κ_r$ is the restricted condition number at sparsity level $r$. The result holds even on rational instances with $A$ of full column rank. The proof was first obtained using a fully automated Gemini-based agentic system developed internally at Google. The authors have verified the proof and edited it for clarity of presentation.\n\nAuthors: Honghao Lin, Vahab Mirrokni, David P. Woodruff\nCategories: cs.DS, cs.LG, cs.DS",
+  "word_count": 144,
+  "published_at": "2026-08-03T17:57:01Z",
+  "ingested_at": "2026-08-04T11:04:35.224Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.LG",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
