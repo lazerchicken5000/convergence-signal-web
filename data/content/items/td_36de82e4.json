@@ -1,0 +1,40 @@
+{
+  "id": "td_36de82e4",
+  "source": "arxiv",
+  "source_id": "2608.03930",
+  "source_url": "https://arxiv.org/abs/2608.03930",
+  "content_type": "paper",
+  "creator": {
+    "id": "jo-ku_cheng",
+    "name": "Jo-Ku Cheng",
+    "handle": "Jo-Ku Cheng, Nikolaos Aletras, Marco Valentino",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+  "body_text": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility\n\nPre-pretraining language models (LMs) on symbolic data can accelerate and improve natural language acquisition. However, existing pre-pretraining tasks, such as Dyck and procedural algorithms, rely on narrow primitives that fail to capture the expressive capacity of natural language. Moreover, prior studies remain restricted to relatively small token budgets, offering limited insight into skill emergence and representational dynamics. To address these limitations, we propose logic pre-pretraining (Logic-PPT) as a principled initialization strategy, leveraging formal derivations to impart richer structural and linguistic biases. Formal derivations require abstract mechanisms that are central to natural language, simultaneously binding variables, connecting quantifiers and relational dependencies, and composing predicate-argument structures over long contexts. Scaling our evaluation to a 100B-token regime, logic pre-pretraining substantially accelerates skill acquisition in LMs, achieving 80\\% accuracy on linguistic tasks with 36B fewer tokens than standard initialization, and outperforming alternative pre-pretraining baselines. Mechanistically, formal derivations induce persistent structural reorganization, distinctively characterized by a lower-rank, spectrally concentrated representation space. Crucially, we show that this internal geometry enables improved model compressibility via pruning, matching the dense baseline performance even at $\\approx$33\\% sparsity.\n\nAuthors: Jo-Ku Cheng, Nikolaos Aletras, Marco Valentino\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 178,
+  "published_at": "2026-08-04T17:02:34Z",
+  "ingested_at": "2026-08-05T11:04:38.788Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

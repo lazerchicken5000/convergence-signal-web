@@ -1,0 +1,39 @@
+{
+  "id": "td_6806d2d6",
+  "source": "arxiv",
+  "source_id": "2608.03983",
+  "source_url": "https://arxiv.org/abs/2608.03983",
+  "content_type": "paper",
+  "creator": {
+    "id": "hailong_jiang",
+    "name": "Hailong Jiang",
+    "handle": "Hailong Jiang, Feng Yu, Emran Hossain, Jianfeng Zhu, Mengfei Ren, Qiang Guan, Chunwei Xia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?",
+  "body_text": "Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?\n\nOptimizing compilers miss profitable transformations when their enabling semantics are absent from the analyzed program representation. We ask whether large language models (LLMs) can recover such semantics from heterogeneous C/C++ context and realize them as validated, contract-preserving artifacts. We introduce SeGaBench, an executable benchmark containing 100 synthetic and 20 source-backed cases spanning low-level assumptions, data-structure invariants, and high-level semantic lifting. Each case includes hidden enabling semantics, an oracle artifact, correctness and semantic validators, and a reproducible performance protocol. We evaluate five LLMs using five independent responses per case. The strongest model produces correct artifacts in 94.8% of responses, achieves at least 1.05x speedup in 83.3%, and obtains a performance success on 93.3% of cases. Nevertheless, correct artifacts often close only part of the oracle gap. These results show that LLMs can complement compiler analysis as speculative semantic proposers, provided that their artifacts are validated and evaluated.\n\nAuthors: Hailong Jiang, Feng Yu, Emran Hossain, Jianfeng Zhu, Mengfei Ren, Qiang Guan, Chunwei Xia\nCategories: cs.PL, cs.AI, cs.PL",
+  "word_count": 146,
+  "published_at": "2026-08-04T17:47:25Z",
+  "ingested_at": "2026-08-05T11:04:32.315Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.PL",
+    "cs.AI",
+    "cs.PL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

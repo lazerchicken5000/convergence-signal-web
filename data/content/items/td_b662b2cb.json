@@ -1,0 +1,38 @@
+{
+  "id": "td_b662b2cb",
+  "source": "arxiv",
+  "source_id": "2608.03984",
+  "source_url": "https://arxiv.org/abs/2608.03984",
+  "content_type": "paper",
+  "creator": {
+    "id": "mirac_suzgun",
+    "name": "Mirac Suzgun",
+    "handle": "Mirac Suzgun, James Zou, Stuart M. Shieber, Dan Jurafsky",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "string2string Studio: An Interactive, In-Browser Platform for String-to-String Algorithms",
+  "body_text": "string2string Studio: An Interactive, In-Browser Platform for String-to-String Algorithms\n\nWe present string2string Studio, an interactive in-browser platform for string-to-string analysis across natural language processing, computational biology, and the digital humanities. The system integrates six main modules (alignment, distance, similarity, search, generation metrics, and BLAST homology search), operating at character, word, token, line, and residue levels. Its C++-based algorithms compile to WebAssembly, so core operations run locally by default without any installation or data upload. The interface reports scores with their \"evidence\" (alignments, edit paths, metric matches, search hits, and homology traces), making methods inspectable, debuggable, and comparable on shared inputs. Internal benchmarks show speedups of up to 2,500x over the Python predecessor, faster global/local alignment than a general-purpose native C aligner, and exact agreement with independent references under declared settings. For homology search, the scoped client-side blastn path closely matches NCBI BLAST+ rankings and statistics under matched parameters. A curated showcase and Learn mode present canonical algorithms and metrics as reusable demonstrations. string2string Studio is open-source and freely available at string2string.org.\n\nAuthors: Mirac Suzgun, James Zou, Stuart M. Shieber, Dan Jurafsky\nCategories: cs.CL, cs.CL",
+  "word_count": 162,
+  "published_at": "2026-08-04T17:48:15Z",
+  "ingested_at": "2026-08-05T11:04:38.788Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_186b9376",
+  "source": "arxiv",
+  "source_id": "2608.03916",
+  "source_url": "https://arxiv.org/abs/2608.03916",
+  "content_type": "paper",
+  "creator": {
+    "id": "bartolo_dazzini",
+    "name": "Bartolo Dazzini",
+    "handle": "Bartolo Dazzini, Giovanni Conforti, Alain Durmus, Aram-Alexandre Pooladian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Trajectory inference via Acceleration Matching",
+  "body_text": "Trajectory inference via Acceleration Matching\n\nTrajectory inference is a fundamental problem in many scientific domains: given a collection of unpaired snapshots of observations at discrete time points, the goal is to generate smooth trajectories that best resemble and interpolate the data. Existing algorithms exhibit computational challenges: they either rely on preprocessing subroutines to enforce smoothness or on simulation-based training objectives, both of which can be expensive. In order to overcome these limitations, we propose a new algorithm called Acceleration Matching (\\texttt{AM}). Our approach consists of lifting the original interpolation problem to phase space and then regressing onto an explicit conditional acceleration field that induces random, smooth trajectories that agree with the prescribed marginals. Importantly, our resulting training algorithm only requires positional data, avoids trajectory simulation during training, and is devoid of expensive preprocessing. We provide ample numerical evidence suggesting that \\texttt{AM} is competitive with or superior to existing algorithms on several benchmark problems from the existing literature.\n\nAuthors: Bartolo Dazzini, Giovanni Conforti, Alain Durmus, Aram-Alexandre Pooladian\nCategories: cs.LG, math.OC, stat.ML, cs.LG",
+  "word_count": 152,
+  "published_at": "2026-08-04T16:42:04Z",
+  "ingested_at": "2026-08-05T11:04:45.266Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.OC",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

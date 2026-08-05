@@ -1,0 +1,38 @@
+{
+  "id": "td_025fcd37",
+  "source": "arxiv",
+  "source_id": "2608.03978",
+  "source_url": "https://arxiv.org/abs/2608.03978",
+  "content_type": "paper",
+  "creator": {
+    "id": "ashwin_gupta",
+    "name": "Ashwin Gupta",
+    "handle": "Ashwin Gupta, Joseph Moore",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Stochastic Multiple Shooting Trajectory Optimization via Sequential Local Policy Evaluation",
+  "body_text": "Stochastic Multiple Shooting Trajectory Optimization via Sequential Local Policy Evaluation\n\nStochastic single shooting trajectory optimization methods such as Model Predictive Path Integral control (MPPI) have been widely adopted in robotics due to their ability to reason about probabilistic dynamics and provide solutions where model gradients are noisy, costly to evaluate, or unavailable. However, satisfaction of terminal constraints when shooting over long action sequences is often sample inefficient, requiring a large number of iterations for convergence. In this paper, we present a stochastic multiple shooting method that optimizes short control action sequences connected via local feedback policies to improve sample efficiency and convergence to a terminal set. Additionally, we show that we are able to synthesize approximate system Jacobians purely from rollouts, making the method suitable for model-based reinforcement learning with black-box dynamics. We demonstrate the algorithm has improved sample efficiency and terminal set convergence for three nonlinear, underactuated optimization problems: a classic cartpole swingup task with analytical dynamics, a cartpole swingup task with learned neural network dynamics, and a VTOL quadplane performing a high angle-of-attack, precision post-stall landing maneuver.\n\nAuthors: Ashwin Gupta, Joseph Moore\nCategories: cs.RO, cs.RO",
+  "word_count": 169,
+  "published_at": "2026-08-04T17:43:21Z",
+  "ingested_at": "2026-08-05T11:04:59.046Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_50aa7525",
+  "source": "arxiv",
+  "source_id": "2608.03941",
+  "source_url": "https://arxiv.org/abs/2608.03941",
+  "content_type": "paper",
+  "creator": {
+    "id": "arslan_battalov",
+    "name": "Arslan Battalov",
+    "handle": "Arslan Battalov, Karim Kramin, Alexander Markotenko, Sofia Sinitsina",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Muon Meets Mamba: Spectral Optimization for State Space Models",
+  "body_text": "Muon Meets Mamba: Spectral Optimization for State Space Models\n\nMuon is a recent optimizer that orthogonalizes the update to each weight matrix with a Newton-Schulz iteration, which performs steepest descent under the spectral norm. Almost all the evidence for it comes from Transformer models, and its behavior on state-space models is largely unreported. We compare Muon with AdamW on Mamba-2 130M under a controlled protocol that varies only which weight groups are trained with Muon. The benefit is localized. Muon on the output projection alone beats Muon on the input projection or on both. The advantage is mainly one of token efficiency. It holds on two corpora and two token budgets, and persists when training continues well past the compute-optimal point. Conditioning does not explain the gain. Muon lowers the condition number of whichever projection it trains, but the better-conditioned input projection is not the one that helps.\n\nAuthors: Arslan Battalov, Karim Kramin, Alexander Markotenko, Sofia Sinitsina\nCategories: cs.LG, cs.LG",
+  "word_count": 139,
+  "published_at": "2026-08-04T17:10:47Z",
+  "ingested_at": "2026-08-05T11:04:45.265Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

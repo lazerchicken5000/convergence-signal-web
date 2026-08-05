@@ -1,0 +1,38 @@
+{
+  "id": "td_7260056f",
+  "source": "arxiv",
+  "source_id": "2608.03946",
+  "source_url": "https://arxiv.org/abs/2608.03946",
+  "content_type": "paper",
+  "creator": {
+    "id": "nilotpal_sanyal",
+    "name": "Nilotpal Sanyal",
+    "handle": "Nilotpal Sanyal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Resolution-Adaptive Compact-Support Priors for Bayesian Wavelet Denoising",
+  "body_text": "Resolution-Adaptive Compact-Support Priors for Bayesian Wavelet Denoising\n\nWe propose a resolution-adaptive Bayesian wavelet denoising method for noisy one-dimensional signals. The model uses a spike-and-slab prior whose continuous slab is a mixture of a compactly supported Wendland-type polynomial kernel and the semicircle density, with a data-adaptive resolution-specific truncation scale. The Wendland component concentrates mass near zero and vanishes smoothly at the support boundary, whereas the semicircle component is more dispersed, allowing the shrinkage rule to adapt its behavior across resolution levels. Under squared-error loss, we derive the posterior-mean estimator, establish key symmetry, boundedness, continuity, and limiting properties, define pointwise fixed-hyperparameter bias, variance, and risk, and develop an empirical-Bayes estimation procedure. The Wendland contribution has finite-sum expressions under a Laplace working likelihood, while the semicircle contribution is evaluated by stable one-dimensional integration. Simulations using the Bumps, Blocks, Doppler, and HeaviSine signals compare the proposed Gaussian- and Laplace-likelihood versions with universal thresholding, false-discovery-rate (FDR) thresholding, cross-validation (CV), Stein's unbiased risk estimate (SURE), the Bayesian adaptive multiresolution shrinker (BAMS), and a nonlocal-prior (NLP)-based method. In the primary Gaussian-error simulation study, the Gaussian-likelihood version was the strongest non-NLP method in 26 of the 36 design cells, including all low signal-to-noise ratio (SNR) cells, and had a substantially more favorable computational profile than the Laplace-likelihood version. Analysis of a seismic acceleration trace from the 2008 Chino Hills earthquake illustrates attenuation of rapid fluctuations and preservation of the dominant acceleration event under the chosen diagnostics.\n\nAuthors: Nilotpal Sanyal\nCategories: stat.ME, stat.ME",
+  "word_count": 231,
+  "published_at": "2026-08-04T17:11:52Z",
+  "ingested_at": "2026-08-05T11:05:05.805Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
