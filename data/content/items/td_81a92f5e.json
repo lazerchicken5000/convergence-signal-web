@@ -1,0 +1,38 @@
+{
+  "id": "td_81a92f5e",
+  "source": "arxiv",
+  "source_id": "2608.05148",
+  "source_url": "https://arxiv.org/abs/2608.05148",
+  "content_type": "paper",
+  "creator": {
+    "id": "damien_sileo",
+    "name": "Damien Sileo",
+    "handle": "Damien Sileo, Valentin Lacombe, Dimitri Kachler",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
+  "body_text": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training\n\nProcedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. Under a matched completion-supervised protocol, we compare Reasoning Core with Procedural Warmup, Reasoning Gym, and SynLogic across four base-model settings and multiple training durations. In the primary 3B comparison, Reasoning Core achieves the highest mean scores on DROP, LogiQA, and ARC-Challenge, exceeding both the baseline without procedural data and all three alternative procedural collections. Task-level analyses show that semantic validity alone does not ensure training utility, highlighting compact targets and calibrated difficulty as important design factors. We ran audits combining model-assisted review, human adjudication, and regression testing. Applied throughout Reasoning Core development and to the other collections, they reveal subtle mismatches among generation, rendering, targets, and scoring, a reminder that procedural generation alone does not guarantee correctness. The library, generated datasets, and audit material are publicly available.\n\nAuthors: Damien Sileo, Valentin Lacombe, Dimitri Kachler\nCategories: cs.CL, cs.CL",
+  "word_count": 177,
+  "published_at": "2026-08-05T17:59:44Z",
+  "ingested_at": "2026-08-06T11:04:23.212Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

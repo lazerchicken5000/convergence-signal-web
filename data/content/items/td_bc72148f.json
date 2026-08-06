@@ -1,0 +1,42 @@
+{
+  "id": "td_bc72148f",
+  "source": "arxiv",
+  "source_id": "2608.05115",
+  "source_url": "https://arxiv.org/abs/2608.05115",
+  "content_type": "paper",
+  "creator": {
+    "id": "paritosh_parmar",
+    "name": "Paritosh Parmar",
+    "handle": "Paritosh Parmar, Landy Lan, Hong Yang, Chen Yi, Chiat Pin Tay",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition",
+  "body_text": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition\n\nCan computer vision help make classrooms safer? In this pilot study, we investigate privacy-aware and computationally efficient classroom incident recognition from CCTV-style observations. This setting remains underexplored, with limited benchmarks and few methods designed for the privacy, efficiency, and generalization demands of real-world deployment. We introduce a novel hybrid benchmark combining generative CCTV-style videos with real-world classroom pose data, and propose a lightweight, but robust motion-reasoning framework motivated by the observation that many incidents differ more in motion direction, speed, acceleration, and intensity than in pose alone. To that end, our method first constructs hierarchical kinematic representations of human actions. Our method then distills hierarchical, multi-order kinematic reasoning from a large teacher into a much smaller single-order student, enabling efficient per-person inference while preserving expressive motion understanding. Experiments show that our model outperforms substantially larger baselines at less than one-tenth of their computational cost, while also demonstrating stronger out-of-domain motion reasoning and zero-shot synthetic-to-real generalization. We will publicly release the benchmark, codebase, and supporting tools to facilitate further research in privacy-aware classroom safety.\n\nAuthors: Paritosh Parmar, Landy Lan, Hong Yang, Chen Yi, Chiat Pin Tay\nCategories: cs.CV, cs.AI, cs.ET, cs.HC, cs.LG, cs.CV",
+  "word_count": 173,
+  "published_at": "2026-08-05T17:46:28Z",
+  "ingested_at": "2026-08-06T11:04:16.721Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.ET",
+    "cs.HC",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

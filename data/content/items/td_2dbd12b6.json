@@ -1,0 +1,38 @@
+{
+  "id": "td_2dbd12b6",
+  "source": "arxiv",
+  "source_id": "2608.05097",
+  "source_url": "https://arxiv.org/abs/2608.05097",
+  "content_type": "paper",
+  "creator": {
+    "id": "réemi_andrieu",
+    "name": "Réemi Andrieu",
+    "handle": "Réemi Andrieu, Damien Sileo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?",
+  "body_text": "Same Formulas, Different Semantics: Do Language Models Follow Modal Logic Specifications?\n\nReasoning about necessity and possibility depends on assumptions about accessibility between worlds and about which objects exist at each one. The same inference may therefore hold under one modal system and fail under another. Evaluating language models on such problems requires testing whether their judgments follow the stated semantics rather than a familiar logic. We construct paired modal problems with identical premises and conjecture but different frame or domain conditions; automated reasoning verifies opposite labels. A balanced core prevents the semantic condition alone from revealing the answer. On this core, four of five recent models perform below the condition-only baseline under direct prompting. Yet enabling reasoning mode raises DeepSeek V4 Flash from 4.4% to 88.1% on unchanged prompts. Following stipulated modal semantics thus depends strongly on inference mode as well as model identity. When frame conditions are omitted, models often agree but fit different familiar logics best. We release the formulas, oracle artifacts, countermodels, and responses.\n\nAuthors: Réemi Andrieu, Damien Sileo\nCategories: cs.CL, cs.CL",
+  "word_count": 156,
+  "published_at": "2026-08-05T17:33:47Z",
+  "ingested_at": "2026-08-06T11:04:23.213Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

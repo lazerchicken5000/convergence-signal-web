@@ -1,0 +1,40 @@
+{
+  "id": "td_184da197",
+  "source": "arxiv",
+  "source_id": "2608.05127",
+  "source_url": "https://arxiv.org/abs/2608.05127",
+  "content_type": "paper",
+  "creator": {
+    "id": "adel_javanmard",
+    "name": "Adel Javanmard",
+    "handle": "Adel Javanmard, David P. Woodruff, Vahab Mirrokni",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
+  "body_text": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant\n\nAchieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional geometric constructions but incur unfavorable dimension-dependent variance. In this work, we propose Subsampled Stochastic TurboQuant (SSTQ), a framework that combines overcomplete equal-norm tight frames, coordinate subsampling, and privacy-aware one-dimensional quantization. SSTQ includes two variants: a Flat Randomized Response version and a Metric-Aware Laplace version, the latter being better suited to higher codebook bit-width regimes. We show that SSTQ achieves optimal mean squared error scaling while using only $\\lceil \\log_2 N \\rceil + b$ bits per client, where $N = Θ(d)$ is the frame size. We also derive a surrogate privacy-aware codebook objective that reduces the codebook-dependent MSE scaling from $O(4^b)$ to $O(2^b)$. Finally, we empirically evaluate SSTQ against established baselines on federated learning tasks using CIFAR-10 and Fashion-MNIST, demonstrating favorable utility and communication efficiency.\n\nAuthors: Adel Javanmard, David P. Woodruff, Vahab Mirrokni\nCategories: cs.LG, cs.AI, stat.ML, cs.LG",
+  "word_count": 147,
+  "published_at": "2026-08-05T17:51:25Z",
+  "ingested_at": "2026-08-06T11:04:16.720Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

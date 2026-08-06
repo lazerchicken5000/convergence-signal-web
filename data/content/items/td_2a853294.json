@@ -1,0 +1,35 @@
+{
+  "id": "td_2a853294",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+  "body_text": "Incident Report: unsanctioned agent behaviour during cyber testing\nIt happened again. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF):\n\nDuring a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...]\nAcross 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...]\nIt is uncertain to what extent the\nmodel recognised it was taking actions against real people. In the most serious case, an AI\nagent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack.\nAs a result, the AI agent created a GitHub account and then tried to convince an open-source\nrepository maintainer to accept a malicious GitHub pull request (PR), including by creating a\nsecond account masquerading as another human user endorsing the PR. [...] Furthermore, in its attempt to solve the challenge, the\nagent decided to employ the technique of “spear-phishing” by sending targeted emails containing\nmalicious content and attempting to manipulate recipients into accepting the code changes, and\nplanned a prompt injection to compromise other coding agents.\n\nThe thing I found most surprising is that AISI were running these agents without any form of network sandboxing at all:\n\nAISI provided the AI agents with internet access during these evaluations, which enabled their actions on the open internet in this setting. Internet access was a deliberate part of AISI’s evaluation configuration in this setting, and not due to sandbox escape.\n\nThis, combined with the fact that \"AISI deliberately disables developer-implemented cyber-classifiers\", makes the fact that the agents started attacking real-world targets entirely unsurprising to me.\nMost of the reported incidents were claude Mythos 5, but \"GPT-5.6 Sol without cyber classifiers\" scored a few as well.\nHere's \"Sample 1\" from the paper, in which the agent tries to execute a supply-chain attack by submitting a PR with a hidden prompt injection attack, then social engineering with a second agent pretending to have reviewed the code!\n\nIt's a fun paper. I recommend reading the whole thing.\n\n\n    Tags: github, security, ai, prompt-injection, generative-ai, llms, ai-ethics, paper-review, ai-security-research, claude-mythos-fable, accidental-cyberattacks",
+  "word_count": 411,
+  "published_at": "2026-08-05T23:32:06.000Z",
+  "ingested_at": "2026-08-06T11:00:11.012Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

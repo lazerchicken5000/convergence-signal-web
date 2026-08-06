@@ -1,0 +1,42 @@
+{
+  "id": "td_fbaa504c",
+  "source": "arxiv",
+  "source_id": "2608.05124",
+  "source_url": "https://arxiv.org/abs/2608.05124",
+  "content_type": "paper",
+  "creator": {
+    "id": "purbesh_mitra",
+    "name": "Purbesh Mitra",
+    "handle": "Purbesh Mitra, Sennur Ulukus",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+  "body_text": "Chained Recursive Language Models for Multi-Iteration Reasoning\n\nLong context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require extraction, counting, ordering, or multi-hop reasoning, where an early mistake can propagate until the final response. In this work, we propose Chained Recursive Language Models (Chained RLM), an inference-time architecture, in which the same underlying model is called repeatedly as a sequence of fresh reasoning roots. Each root receives the original problem and context, but does not inherit the full conversational history. Instead, it receives a compact plain-text summary, a plain-text blackboard, and some durable task-specific artifacts written by predecessor roots. The motivation is to manage the context by chopping into partial tasks rather than one large inference response; in each staged computation, intermediate artifacts can be inspected, corrected, and extended by a later fresh inference by the same model. We describe the system model, handoff mechanism, artifact workspace, and evaluation protocol for this system. We study when fresh-context artifact continuation gives a measurable gain in accuracy over direct LLM answering even with recursive tool-calling.\n\nAuthors: Purbesh Mitra, Sennur Ulukus\nCategories: cs.CL, cs.AI, cs.IT, cs.LG, eess.SP, cs.CL",
+  "word_count": 198,
+  "published_at": "2026-08-05T17:50:08Z",
+  "ingested_at": "2026-08-06T11:04:16.721Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.IT",
+    "cs.LG",
+    "eess.SP",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

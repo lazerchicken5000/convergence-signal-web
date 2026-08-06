@@ -1,0 +1,39 @@
+{
+  "id": "td_80ddd621",
+  "source": "arxiv",
+  "source_id": "2608.05112",
+  "source_url": "https://arxiv.org/abs/2608.05112",
+  "content_type": "paper",
+  "creator": {
+    "id": "wanli_qiao",
+    "name": "Wanli Qiao",
+    "handle": "Wanli Qiao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Stable Density Ridges: Consistency and Convergence of Subspace Constrained Mean Shift",
+  "body_text": "Stable Density Ridges: Consistency and Convergence of Subspace Constrained Mean Shift\n\nThe Subspace Constrained Mean Shift (SCMS) algorithm is a popular nonparametric method for extracting density ridges, which serve as a low-dimensional representation of high-dimensional data. It is a widely held belief in the literature that SCMS trajectories converge to the classical density ridge, which we call the \"static ridge\", defined via the density gradient and the eigenvalues and eigenvectors of the density's Hessian. In this paper, we demonstrate that this assumption does not hold in general, as the static definition fails to account for the rotation of the trailing eigenspace along the continuous flow of the algorithm's underlying vector field. To resolve this, we propose a paradigm shift by introducing the \"stable ridge\", a novel geometric structure defined through the lens of dynamical systems and the Jacobian of the projected density gradient. We prove that this stable ridge is the true theoretical target of the SCMS algorithm. Building upon this foundation, we develop a generalized SCMS framework utilizing a constant step size, establishing its uniform R-linear convergence and topological surjectivity onto the stable ridge. We further derive the rates of convergence for estimating the stable ridge in terms of the Hausdorff distance. Finally, we expose that the original SCMS algorithm suffers from polynomial-time computational complexity, which is caused by implicitly coupling the step size to the smoothing bandwidth via the Mean Shift operator, and demonstrate how our generalized framework provides a statistically consistent and more efficient solution.\n\nAuthors: Wanli Qiao\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 237,
+  "published_at": "2026-08-05T17:45:18Z",
+  "ingested_at": "2026-08-06T11:04:29.820Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

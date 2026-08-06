@@ -1,0 +1,39 @@
+{
+  "id": "td_63b7ce98",
+  "source": "arxiv",
+  "source_id": "2608.05086",
+  "source_url": "https://arxiv.org/abs/2608.05086",
+  "content_type": "paper",
+  "creator": {
+    "id": "joshua_fonseca_rivera",
+    "name": "Joshua Fonseca Rivera",
+    "handle": "Joshua Fonseca Rivera, Neil Shah, David Demitri Africa, Konstantinos Voudouris",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Item Response Theory for AI Safety",
+  "body_text": "Item Response Theory for AI Safety\n\nLanguage models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are hard to trust and interpret, because benchmarks duplicate one another, correlate heavily, and models may sandbag when they detect evaluation. To address these issues, we draw on Item Response Theory (IRT), a statistical toolkit for measuring these latents from performance on items with inferred psychometric properties. We fit IRT models to eight safety benchmarks across 192 language models, the largest psychometric analysis of LLM safety evaluations to date, and contribute three results. First, we find that three interpretable factors of refusal strictness, truthfulness, and contextual harm explain most of the variance between models across benchmarks. Second, psychometrically selected items recover full benchmark scores with lower error than random subsets of the same size, and roughly ten adaptively chosen items suffice for several individual benchmarks, cutting evaluation cost by 97-99%. Third, IRT supports audits of individual models, showing that it can be used to detect naive sandbagging and changes of model behind APIs. Overall, we show IRT is a ready-made toolkit for reading, reducing, and auditing safety benchmarks, which we recommend frontier labs and evaluators adopt.\n\nAuthors: Joshua Fonseca Rivera, Neil Shah, David Demitri Africa, Konstantinos Voudouris\nCategories: cs.AI, cs.CL, cs.AI",
+  "word_count": 196,
+  "published_at": "2026-08-05T17:25:27Z",
+  "ingested_at": "2026-08-06T11:04:23.213Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
