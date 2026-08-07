@@ -1,0 +1,38 @@
+{
+  "id": "td_b4b73d10",
+  "source": "arxiv",
+  "source_id": "2608.06370",
+  "source_url": "https://arxiv.org/abs/2608.06370",
+  "content_type": "paper",
+  "creator": {
+    "id": "ishan_patel",
+    "name": "Ishan Patel",
+    "handle": "Ishan Patel, Sahil Sen, Elias Lumer, Vamse Kumar Subbiah",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Bitter Lesson of Tool Calling",
+  "body_text": "The Bitter Lesson of Tool Calling\n\nTool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been conducted. In this work, we empirically compare programmatic tool calling (PTC) to native JSON tool calling across 14 language models on BFCL v4. In the programmatic tool calling paradigm, tools are exposed as typed Python stubs that the model invokes through code, with execution and results handled in a single agent turn. Programmatic tool calling matches or exceeds native JSON tool calling in 11 of 14 models on BFCL v4, with the GPT-5.6 family achieving a 10.6% improvement over the JSON tool calling baseline. Further, it matches or outperforms baseline in 13 of 14 models under parallel fan-out, and holds stable under context rot conditions where baseline degrades 2.3% on average. Our results demonstrate that programmatic tool calling is a viable and robust alternative to JSON tool calling, with performance tracking model capability across release generations.\n\nAuthors: Ishan Patel, Sahil Sen, Elias Lumer, Vamse Kumar Subbiah\nCategories: cs.CL, cs.CL",
+  "word_count": 195,
+  "published_at": "2026-08-06T17:58:32Z",
+  "ingested_at": "2026-08-07T11:04:22.313Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

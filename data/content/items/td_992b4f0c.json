@@ -1,0 +1,40 @@
+{
+  "id": "td_992b4f0c",
+  "source": "arxiv",
+  "source_id": "2608.06305",
+  "source_url": "https://arxiv.org/abs/2608.06305",
+  "content_type": "paper",
+  "creator": {
+    "id": "sagar_tamang",
+    "name": "Sagar Tamang",
+    "handle": "Sagar Tamang, Ayush Vyas, Tabarakul Hazarika",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+  "body_text": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations\n\nRetrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit reports, regulatory returns -- this design is structurally unsound, and we make the argument measurable. On a 780-page government financial report, 86.8% of content lines are table rows, thousands of near-identical figures compete in one embedding space, and a figure inherits its unit from a header a median of 13 lines above it -- so a chunk boundary routinely separates a number from whether it is in lakh or crore, an error of two orders of magnitude. A table-aware chunker built as a steelman fixes the unit problem but leaves 27-30% of numeric chunks with no fiscal-year header at every chunk size we tried. We propose READ (Reliable Embedding-free Agentic Document-search), in which an agent reads the raw document through three deterministic operations -- normalized lexical search, structural navigation, and bounded span reads -- exposed over the Model Context Protocol, so a trajectory is a replayable audit trail, not an opaque similarity score. On 51 verified questions READ answers 58.8% against dense retrieval's 15.7% (p_Holm = 2 x 10^-5) -- or 35.3% tuned, which READ still leads by 23.5 points (p_Holm = 0.017). An agent given the same loop but a top-k tool reaches only 27.5%, locating the gain in the interface rather than in iteration. We also report what the evidence does not support: BM25 is statistically indistinguishable from READ, so our result separates embedding-based from embedding-free retrieval, not agentic from lexical search.\n\nAuthors: Sagar Tamang, Ayush Vyas, Tabarakul Hazarika\nCategories: cs.AI, cs.CL, cs.IR, cs.AI",
+  "word_count": 272,
+  "published_at": "2026-08-06T17:23:13Z",
+  "ingested_at": "2026-08-07T11:04:22.314Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.IR",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

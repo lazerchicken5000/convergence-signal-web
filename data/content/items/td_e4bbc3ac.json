@@ -1,0 +1,39 @@
+{
+  "id": "td_e4bbc3ac",
+  "source": "arxiv",
+  "source_id": "2608.06336",
+  "source_url": "https://arxiv.org/abs/2608.06336",
+  "content_type": "paper",
+  "creator": {
+    "id": "krishnakumar_balasubramanian",
+    "name": "Krishnakumar Balasubramanian",
+    "handle": "Krishnakumar Balasubramanian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Profile-Separation Framework for Quantitative Convergence of No-U-Turn Samplers",
+  "body_text": "A Profile-Separation Framework for Quantitative Convergence of No-U-Turn Samplers\n\nWe study multinomial and biased-progressive No-U-Turn Samplers for strongly log-concave targets satisfying $mI_d\\preceq \\nabla^2U(x)\\preceq LI_d,$ and $\\|\\nabla^2U(x)-\\nabla^2U(y)\\|_{\\mathrm F}\\le γL^{3/2}\\|x-y\\|$ with \\(κ\\coloneqq L/m\\). We introduce profile separation, a sufficient sign condition on the stationary mean U-turn diagnostics, and combine it with diagnostic concentration, leapfrog fidelity, and whole-orbit energy control to show that on a high-probability certification event, every doubling realization reaches a common terminal depth through a genuine U-turn. If \\(T_\\star\\) is the selected physical trajectory length and \\(a_\\star=\\sqrt m\\,T_\\star\\), a terminal-depth transfer argument yields restricted conductance and warm-start mixing without lazifying either kernel. Up to logarithmic warm-start and accuracy factors, the transition bounds are \\[ \\widetilde O\\!\\left( 1+a_\\star^2κ^2(1+γ)^{4/3} \\right) \\quad\\text{and}\\quad \\widetilde O\\!\\left( 1+a_\\star^4κ^3(1+γ)^2 \\right) \\] for multinomial and biased-progressive selection, respectively. These transition bounds are unconditional. Gradient-work bounds are deterministic when the maximum-depth cap is comparable to the certified depth and otherwise take cap-aware expected and high-probability forms. The framework recovers the Gaussian dimension dependence under these work-accounting conditions, provides population-profile and exact-diagnostic verification for nonlinear product targets, a near-isotropic specialization of the practical-tree certificate, and quantifies when a fixed post-warmup metric removes linear anisotropy.\n\nAuthors: Krishnakumar Balasubramanian\nCategories: math.ST, math.PR, math.ST",
+  "word_count": 185,
+  "published_at": "2026-08-06T17:43:45Z",
+  "ingested_at": "2026-08-07T11:04:49.684Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "math.PR",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

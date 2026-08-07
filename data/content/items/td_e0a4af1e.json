@@ -1,0 +1,41 @@
+{
+  "id": "td_e0a4af1e",
+  "source": "arxiv",
+  "source_id": "2608.06363",
+  "source_url": "https://arxiv.org/abs/2608.06363",
+  "content_type": "paper",
+  "creator": {
+    "id": "markus_engelund_mathiasen",
+    "name": "Markus Engelund Mathiasen",
+    "handle": "Markus Engelund Mathiasen, Jian Qian, Nikita Zhivotovskiy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "An Optimal Agnostic PAC Algorithm",
+  "body_text": "An Optimal Agnostic PAC Algorithm\n\nLet $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0&lt;δ\\le 1/2$, with probability at least $1-δ$, \\[ L(\\widehat h) \\le L^*+ 7\\cdot10^8\\left( \\sqrt{\\frac{L^*(d+\\log(1/δ))}{n}} +\\frac{d+\\log(1/δ)}{n} \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at every fixed $L^*$, matching the lower bounds of Devroye, Györfi, and Lugosi [A Probabilistic Theory of Pattern Recognition, Springer, 1996].\n\nAuthors: Markus Engelund Mathiasen, Jian Qian, Nikita Zhivotovskiy\nCategories: cs.LG, cs.AI, cs.DS, math.ST, cs.LG",
+  "word_count": 89,
+  "published_at": "2026-08-06T17:57:25Z",
+  "ingested_at": "2026-08-07T11:04:15.774Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.DS",
+    "math.ST",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

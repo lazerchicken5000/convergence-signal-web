@@ -1,0 +1,38 @@
+{
+  "id": "td_6479f2ed",
+  "source": "arxiv",
+  "source_id": "2608.06345",
+  "source_url": "https://arxiv.org/abs/2608.06345",
+  "content_type": "paper",
+  "creator": {
+    "id": "fernando_granha_jeronimo",
+    "name": "Fernando Granha Jeronimo",
+    "handle": "Fernando Granha Jeronimo, Qizhao Huang, Lenny Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements",
+  "body_text": "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements\n\n\\textit{Shadow tomography} is a fundamental problem in quantum information theory. Given multiple copies of an unknown $d$-dimensional quantum state $ρ$ and a known collection of observables ${E_1,\\ldots,E_m}$, the goal is to estimate all expectation values $\\{\\Tr(ρE_i)\\}_{i=1}^m$ to additive accuracy $\\varepsilon$ with probability at least $1-δ$. An elusive open question from the seminal shadow tomography work of Aaronson (STOC'18) is whether this task admits a dimension-independent sample complexity with only polylogarithmic dependence on $m$, as suggested by the best-known lower bounds. In this work, we give a quantum protocol for shadow tomography with sample complexity \\[ O\\left( \\frac{1}{\\varepsilon^2} \\frac{(\\log (m/δ))^4} {(\\log\\log (m/δ))^3} \\right), \\] which is polylogarithmic in the number of observables and independent of the dimension of the unknown state thereby answering Aaronson's original question while also providing an exponential improvement in the prior best dimension independent sample complexity of shadow tomography from Sinha (STOC'25). Our approach first reduces the general shadow-tomography problem to a finite-ensemble estimation problem via a minimax argument. We then develop an observable-independent protocol that repeatedly applies the pretty-good measurement and updates the priori distribution over the finite ensemble according to the measurement outcomes. A refined tail analysis of the resulting estimation error yields simultaneous accuracy guarantees for all observables.\n\nAuthors: Fernando Granha Jeronimo, Qizhao Huang, Lenny Liu\nCategories: quant-ph, quant-ph",
+  "word_count": 204,
+  "published_at": "2026-08-06T17:51:13Z",
+  "ingested_at": "2026-08-07T11:04:49.684Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
