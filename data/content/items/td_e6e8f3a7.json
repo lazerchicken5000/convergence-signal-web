@@ -1,0 +1,35 @@
+{
+  "id": "td_e6e8f3a7",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+  "source_url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+  "body_text": "Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)\nOn Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago.\nI decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-agents - to see how it would do.\nIt produced a much better game! Here's Moonlight &amp; Mayhem - GitHub repository here, including the textures and prompts it generated using gpt-image-2.\n\n    \n    Your browser does not support HTML5 video.\n  \n\n\nThe original GPT-3 generated game description included:\n\nIn “Raccoon Heist”, you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew.\n\nFable's version had you as a single raccoon running around a back yard collecting coins and fish. GPT-5.6 Sol has you in a museum, rescuing your two other raccoon crewmates in order to stack on top of each other and bust the golden sardine out of its case.\nMuch more heisty!\nThere was one catch though: the version produced from the one-shot prompt had a bug where each raccoon had an eyeball that was enlarged to the size of a giant sphere floating over their head!\n\nYou can play that version here.\nDespite reviewing screenshots during development Codex failed to spot and correct this bug.\nI fixed it by prompting:\n\nWhy do the raccoons have huge black spheres on them?\n\nAnd then:\n\nFix it\n\nWhich resulted in this fix.\nI shared the full Codex transcript in the repository - I wish Claude Code had the same \"copy as Markdown\" feature.\nCodex spent 52 minutes on the project. Here's the AgentsView cost estimate for that session if I had been paying full API prices as opposed to using my monthly Codex subscription:\n\n\n\n    Tags: game-design, ai, openai, generative-ai, llms, coding-agents, codex, gpt",
+  "word_count": 346,
+  "published_at": "2026-08-07T19:18:09.000Z",
+  "ingested_at": "2026-08-08T11:00:09.940Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
