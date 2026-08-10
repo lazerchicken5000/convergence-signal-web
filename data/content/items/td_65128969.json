@@ -1,0 +1,40 @@
+{
+  "id": "td_65128969",
+  "source": "arxiv",
+  "source_id": "2608.07444",
+  "source_url": "https://arxiv.org/abs/2608.07444",
+  "content_type": "paper",
+  "creator": {
+    "id": "md_tarek_hassan",
+    "name": "Md Tarek Hassan",
+    "handle": "Md Tarek Hassan, Dmitry Zelenchuk, Muhammad Ali Babar Abbasi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RIS-Aided mmWave Localization Under Cross-Link Interference via Beam-Domain ML Fingerprinting",
+  "body_text": "RIS-Aided mmWave Localization Under Cross-Link Interference via Beam-Domain ML Fingerprinting\n\nAccurate user equipment (UE) localization is critical for beam management in reconfigurable intelligent surface (RIS)-assisted millimeter-wave (mmWave) based sixth-generation (6G) networks, especially if the direct base-station-UE links are unavailable. This paper proposes a beam-domain fingerprint framework that maps the received signal-to-noise ratio (SNR) across a small set of predefined RIS reflection states to the UE azimuth angle and range, without requiring channel state information (CSI). Crucially, we extend the framework to a realistic interference-impaired scenario in which a nearby cross-link interferer (CLI) corrupts the clean SNR fingerprint, yielding a signal-to-interference-plus-noise ratio (SINR) fingerprint; an interference-to-noise ratio (INR)-constrained calibration strategy keeps the interference level physically interpretable. Four machine-learning (ML) regressors are evaluated under both conditions. Simulation results at 28 GHz with a 20x20 RIS show that k-nearest neighbors (KNN) achieves the lowest angle MAE of 0.37 degrees and range MAE of 4 cm under clean conditions, rising to 1.4 degrees and 7.6 cm under interference. A key finding is that interference degrades angle estimation substantially more than range estimation across all models, a consequence of the asymmetric encoding of location information in the beam-domain fingerprint.\n\nAuthors: Md Tarek Hassan, Dmitry Zelenchuk, Muhammad Ali Babar Abbasi\nCategories: eess.SP, cs.ET, cs.LG, eess.SP",
+  "word_count": 184,
+  "published_at": "2026-08-07T17:28:33Z",
+  "ingested_at": "2026-08-10T11:04:49.641Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SP",
+    "cs.ET",
+    "cs.LG",
+    "eess.SP"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

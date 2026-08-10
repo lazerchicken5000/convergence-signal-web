@@ -1,0 +1,39 @@
+{
+  "id": "td_556a6694",
+  "source": "arxiv",
+  "source_id": "2608.07463",
+  "source_url": "https://arxiv.org/abs/2608.07463",
+  "content_type": "paper",
+  "creator": {
+    "id": "youjun_zhao",
+    "name": "Youjun Zhao",
+    "handle": "Youjun Zhao, Alex Warren, Gary K. L. Tam, Rynson W. H. Lau",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
+  "body_text": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation\n\nRecent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challenging because the content within a mirror must remain consistent with the surrounding scene. Existing VDMs are not specifically designed to model scene-to-mirror relationships, which can lead to reflections with incorrect content or inconsistent spatial arrangements. We observe that mirror reflection generation involves two complementary challenges: determining what scene content should be reflected and how the reflected content should be spatially arranged within the mirror region. Motivated by this observation, we propose MirrorWorld, a reflection-aware video inpainting framework that models scene-to-mirror relationships during generation. Specifically, we introduce Semantic Relation Distillation (SRD), which transfers relational information from a frozen visual foundation model to encourage semantic associations between visible scene content and mirror regions. We further propose Geometric Transformation Alignment (GTA), which learns a transformation that guides the spatial arrangement of reflected content. The two components play complementary roles, with SRD modeling what should be reflected and GTA modeling how it should be arranged. To facilitate research on this problem, we construct a benchmark for video mirror reflection generation by repurposing four existing video mirror datasets into a unified reflection reconstruction task. Experimental results show that MirrorWorld achieves improved reflection reconstruction quality over representative image-based reflection generation methods and strong video inpainting baselines.\n\nAuthors: Youjun Zhao, Alex Warren, Gary K. L. Tam, Rynson W. H. Lau\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 218,
+  "published_at": "2026-08-07T17:58:10Z",
+  "ingested_at": "2026-08-10T11:04:49.640Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

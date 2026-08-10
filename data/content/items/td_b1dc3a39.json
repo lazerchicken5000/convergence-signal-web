@@ -1,0 +1,38 @@
+{
+  "id": "td_b1dc3a39",
+  "source": "arxiv",
+  "source_id": "2608.07437",
+  "source_url": "https://arxiv.org/abs/2608.07437",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiacheng_miao",
+    "name": "Jiacheng Miao",
+    "handle": "Jiacheng Miao, Jin Mu, Guanhua Chen, James Zou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+  "body_text": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing\n\nReliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produce analyses end-to-end. However, we show that they frequently make subtle inferential errors that lead to incorrect conclusions despite correctly executed analyses. Existing benchmarks fail to capture this failure mode, as they rarely assess whether a reported p-value is statistically valid given the assumptions underlying the data. We address this gap by building P-Bench, a benchmark comprising 425 open-ended, realistic hypothesis-testing tasks spanning economics, biology, and medicine. Each task requires an agent to select a statistical method, compute a p-value, and draw a conclusion given only a scientific hypothesis and a dataset. We further introduce Fisher-R1, an open-weight LLM agent trained for rigorous hypothesis testing using synthetic tasks and reinforcement learning. On P-Bench, Fisher-R1-14B substantially improves over its backbone and outperforms strong proprietary and open-source baselines, including GPT-5.4 and DeepSeekV4-Pro, achieving a 21% average relative improvement in single-trial success over DeepSeek-V4-Pro, with gains up to 26% on the most challenging tasks. Our results demonstrate that current LLM agents lack reliable statistical reasoning for hypothesis testing and that reinforcement learning on tasks with verified statistical reward substantially improves reliability.\n\nAuthors: Jiacheng Miao, Jin Mu, Guanhua Chen, James Zou\nCategories: cs.AI, cs.AI",
+  "word_count": 209,
+  "published_at": "2026-08-07T17:22:00Z",
+  "ingested_at": "2026-08-10T11:04:36.497Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_44d86b35",
+  "source": "arxiv",
+  "source_id": "2608.07423",
+  "source_url": "https://arxiv.org/abs/2608.07423",
+  "content_type": "paper",
+  "creator": {
+    "id": "xulin_fan",
+    "name": "Xulin Fan",
+    "handle": "Xulin Fan, Juan Azcarreta, Ashutosh Pandey, Jesus Alvarez, Ke Tan, Jacob Donley, Ritwik Giri, Buye Xu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement",
+  "body_text": "Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement\n\nLow-latency, low-compute speech enhancement is essential for wearable devices with real-time communication requirements, but strict computational constraints significantly limit on-device performance. Knowledge Boosting has been proposed as an effective approach to improve edge model performance by leveraging a more capable server-side model, but performance gains for speech enhancement have been limited. We propose a collaborative framework incorporating three techniques: (1) delayed server output as additional input, (2) layerwise feature boosting that transfers intermediate server representations to guide edge inference, and (3) collaborative multichannel Wiener filtering, which fuses weighted covariance matrices estimated from both server and edge models for improved beamforming. Experimental results demonstrate that the proposed collaborative framework significantly outperforms the edge-only baseline with minimal additional computational overhead.\n\nAuthors: Xulin Fan, Juan Azcarreta, Ashutosh Pandey, Jesus Alvarez, Ke Tan, Jacob Donley, Ritwik Giri, Buye Xu\nCategories: cs.SD, cs.LG, cs.SD",
+  "word_count": 118,
+  "published_at": "2026-08-07T17:11:35Z",
+  "ingested_at": "2026-08-10T11:04:49.642Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.LG",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

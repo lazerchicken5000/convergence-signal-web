@@ -1,0 +1,38 @@
+{
+  "id": "td_d8cf7114",
+  "source": "arxiv",
+  "source_id": "2608.07419",
+  "source_url": "https://arxiv.org/abs/2608.07419",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruochen_jin",
+    "name": "Ruochen Jin",
+    "handle": "Ruochen Jin, Zhanliang Wang, Zongyu Dai, Jiancong Xiao, Bojian Hou",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Post-Hoc Temperature Scaling: Bilevel Optimization for LLM Calibration",
+  "body_text": "Beyond Post-Hoc Temperature Scaling: Bilevel Optimization for LLM Calibration\n\nPreference alignment often makes large language models (LLMs) overconfident and poorly calibrated. Traditional post-hoc temperature scaling is inherently domain-dependent: a temperature fitted on one domain does not generalize across domains. This motivates us to modify model parameters during training to improve calibration. We propose maximizing the entropy of predictive distributions as the calibration objective, which directly targets overconfidence by discouraging overly concentrated predictions. Inspired by temperature scaling, we realize this through a bilevel optimization formulation, where the lower level trains the model under a parametric loss and the upper level selects loss hyperparameters to maximize entropy. To make the framework practical at LLM scale, we adopt an efficient first-order approximation that avoids explicit second-order computation. Across both multiple-choice and open-ended generative question answering, experiments demonstrate that our method yields well-calibrated LLMs with particular advantages in out-of-domain generalization.\n\nAuthors: Ruochen Jin, Zhanliang Wang, Zongyu Dai, Jiancong Xiao, Bojian Hou\nCategories: cs.LG, cs.LG",
+  "word_count": 137,
+  "published_at": "2026-08-07T17:05:10Z",
+  "ingested_at": "2026-08-10T11:04:49.642Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

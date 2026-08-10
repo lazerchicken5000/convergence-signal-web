@@ -1,0 +1,39 @@
+{
+  "id": "td_f9b912e7",
+  "source": "arxiv",
+  "source_id": "2608.07371",
+  "source_url": "https://arxiv.org/abs/2608.07371",
+  "content_type": "paper",
+  "creator": {
+    "id": "haoyu_zheng",
+    "name": "Haoyu Zheng",
+    "handle": "Haoyu Zheng, Yun Zhu, Qing Wang, Wenqiao Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
+  "body_text": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning\n\nRecent agentic reinforcement learning methods use hindsight to complement sparse outcome rewards. However, a completed rollout can yield many such signals, leaving their appropriate allocation across turns unclear. We introduce TRIAL, a trajectory-relative hindsight distillation framework with a unified turn-aligned scoring protocol. For each decision turn, TRIAL extracts an outcome view of that decision's realized consequence and evaluates the same response under ordinary and hindsight-conditioned contexts. The signed log-probability gap determines the direction and local strength of token-level supervision, while turn-level magnitudes are normalized jointly over the realized trajectory. The resulting allocation multipliers have an eligible-token-weighted mean of one, redistributing dense supervision across turns while fixing its average multiplier. Experiments on WebShop and ALFWorld with different backbones show that TRIAL outperforms GRPO across all eight combinations of backbone, environment, and evaluation metric, while achieving the best or tied-best performance among six methods on six of them. On WebShop with Qwen3-1.7B, TRIAL improves the success rate from 56.4% to 75.2% and the task score from 78.7% to 85.7%. Controlled ablations further show that trajectory-relative turn allocation provides substantial gains beyond those of dense hindsight distillation alone.\n\nAuthors: Haoyu Zheng, Yun Zhu, Qing Wang, Wenqiao Zhang\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 185,
+  "published_at": "2026-08-07T16:12:58Z",
+  "ingested_at": "2026-08-10T11:04:43.053Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_d397af87",
+  "source": "arxiv",
+  "source_id": "2608.07433",
+  "source_url": "https://arxiv.org/abs/2608.07433",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhaoyu_zhu",
+    "name": "Zhaoyu Zhu",
+    "handle": "Zhaoyu Zhu, Rui Gao, Shuang Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Wasserstein Policy Gradient for Entropy-Regularized Linear-Quadratic Control",
+  "body_text": "Wasserstein Policy Gradient for Entropy-Regularized Linear-Quadratic Control\n\nWasserstein policy gradient (WPG) updates state-conditional action laws by transport in the action space. We study entropy-regularized discounted linear-quadratic (LQ) control. A Bellman verification argument shows that the unrestricted problem has a linear-Gaussian optimal policy, and the discounted-occupancy-weighted statewise Wasserstein gradient is tangent to this policy class. WPG therefore reduces exactly to a finite-dimensional ODE for the feedback gain and action covariance. We prove that this ODE is globally well posed and converges exponentially from every admissible initialization. For each fixed LQ problem, the exponent has a positive limit as the entropy temperature tends to zero and contains no perturbative factor of the form $\\exp(-c/τ)$, while retaining the usual dependence on the conditioning of the control problem.\n\nAuthors: Zhaoyu Zhu, Rui Gao, Shuang Li\nCategories: math.OC, cs.LG, math.OC",
+  "word_count": 117,
+  "published_at": "2026-08-07T17:17:58Z",
+  "ingested_at": "2026-08-10T11:04:49.641Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.LG",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
