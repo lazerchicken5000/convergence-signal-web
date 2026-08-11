@@ -1,0 +1,39 @@
+{
+  "id": "td_4be002de",
+  "source": "arxiv",
+  "source_id": "2608.09923",
+  "source_url": "https://arxiv.org/abs/2608.09923",
+  "content_type": "paper",
+  "creator": {
+    "id": "seyed_alireza_hosseini",
+    "name": "Seyed Alireza Hosseini",
+    "handle": "Seyed Alireza Hosseini",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Unrolling a Graph-Laplacian Denoiser Realizes Only Compositions of Polynomial Graph Filters",
+  "body_text": "Unrolling a Graph-Laplacian Denoiser Realizes Only Compositions of Polynomial Graph Filters\n\nA recent construction of unrolled networks for graph-based image restoration forms a system matrix from a graph-Laplacian denoiser through a truncated Taylor expansion, then inverts it with a fixed number of conjugate-gradient steps, with the coefficients of both stages learned. This paper shows the resulting map is a polynomial in the denoising operator, of degree at most the product of the two truncation orders, for every setting of those coefficients and therefore at every point of training: the learned steps select an element of a Krylov subspace they cannot enlarge. At the orders used in practice the reachable set is moreover a measure-zero subset of the polynomial class of the network's own degree budget, so the composition constrains the hypothesis space rather than enlarging it. At the standard initialization the realized spectral response is obtained in closed form, exceeding the intended response throughout the interior of the spectrum and approaching a nonzero floor. A lower bound on the operator's condition number, internal to the graph construction rather than to image content, then places the order required for a prescribed accuracy well above the order used in practice. The confining class is precisely the spectral graph filters for which a direct, convex parameterization has long been available.\n\nAuthors: Seyed Alireza Hosseini\nCategories: eess.SP, eess.IV, eess.SP",
+  "word_count": 206,
+  "published_at": "2026-08-10T17:58:55Z",
+  "ingested_at": "2026-08-11T11:04:43.723Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SP",
+    "eess.IV",
+    "eess.SP"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

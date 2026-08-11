@@ -1,0 +1,38 @@
+{
+  "id": "td_76cc4e6d",
+  "source": "arxiv",
+  "source_id": "2608.09907",
+  "source_url": "https://arxiv.org/abs/2608.09907",
+  "content_type": "paper",
+  "creator": {
+    "id": "mainak_singha",
+    "name": "Mainak Singha",
+    "handle": "Mainak Singha, Niccolò Biondi, Elisa Ricci, Subhankar Roy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning",
+  "body_text": "DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning\n\nMultimodal Large Language Models (MLLMs) have shown strong multimodal instruction-following ability, but adapting them to diverse visual-language domains typically assumes centralized data access and costly joint training. This is restrictive when data is distributed across private, domain-specific, or permission-limited clients. To this end, we propose DistMoE, a mixture-of-experts (MoE) approach for distributed visual instruction tuning. In each layer of the language decoder it augments the public feedforward network (FFN) with a client-specific private FFN expert, with the goal to acquire domain-specific knowledge. However, independent expert training causes the private FFNs to learn representation of different scale and magnitudes, making merging the experts difficult. To reduce client-specific drift, we introduce a public-anchored expert composition stage that updates only routers and lightweight private projection adapters on a mix of local client data and public data, via an isotropic regularization loss, therefore making it cross-client rehearsal-free composition. During inference, DistMoE performs modular routing over public and private experts, enabling token-wise domain composition without explicit domain labels. Experiments across diverse visual-language benchmarks show that DistMoE enables flexible expert reuse, effective domain adaptation, and competitive performance while preserving modular control over client-specific knowledge. Codes are available at https://github.com/mainaksingha01/DistMoE.\n\nAuthors: Mainak Singha, Niccolò Biondi, Elisa Ricci, Subhankar Roy\nCategories: cs.CV, cs.CV",
+  "word_count": 193,
+  "published_at": "2026-08-10T17:52:14Z",
+  "ingested_at": "2026-08-11T11:04:43.724Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

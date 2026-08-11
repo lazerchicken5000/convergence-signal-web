@@ -1,0 +1,38 @@
+{
+  "id": "td_faae2321",
+  "source": "arxiv",
+  "source_id": "2608.09908",
+  "source_url": "https://arxiv.org/abs/2608.09908",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenti_yin",
+    "name": "Wenti Yin",
+    "handle": "Wenti Yin, Xiang Wang, Huaxin Zhang, Hanqing Wang, Hongbo Shao, Changxin Gao, Nong Sang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection",
+  "body_text": "Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection\n\nVideo anomaly detection (VAD) aims to identify and temporally localize abnormal events in videos. Supervised methods learn anomaly decision boundaries from target-domain annotations but require substantial in-domain data. Existing training-free methods leverage the rich semantic knowledge and reasoning capabilities of pretrained models to interpret visual content, yet these capabilities do not directly define an anomaly decision criterion: richer anomaly descriptions better capture hazard resemblance without resolving abnormality. To this end, we propose Contrastive Event Adjudication for training-free Video Anomaly Detection (CEAVAD), which shifts the unit of inference from isolated anomaly concepts to falsifiable event hypotheses and establishes an inference-time explanatory boundary through the interaction between competing explanations and video evidence. Specifically, CEAVAD first uses public-safety knowledge to construct hazard-benign event contrasts, pairing each hazard mechanism with a generic normal account and a mechanism-specific benign counterpart. It then determines whether the target interval better supports a hazard explanation or its benign competitor, yielding a revisable contrastive boundary proposal for the target. Finally, CEAVAD adjudicates between the competing explanations to determine whether the hazard hypothesis survives the video evidence, supporting both temporally localized anomaly detection and evidence-grounded explanations. Experiments on three widely used VAD benchmarks demonstrate that CEAVAD achieves state-of-the-art performance under the training-free paradigm.\n\nAuthors: Wenti Yin, Xiang Wang, Huaxin Zhang, Hanqing Wang, Hongbo Shao, Changxin Gao, Nong Sang\nCategories: cs.CV, cs.CV",
+  "word_count": 203,
+  "published_at": "2026-08-10T17:52:51Z",
+  "ingested_at": "2026-08-11T11:04:43.724Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

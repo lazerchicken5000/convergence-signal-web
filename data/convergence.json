@@ -1,7 +1,7 @@
 {
   "patterns": [
     {
-      "id": "cp_9abebb21",
+      "id": "cp_39e28998",
       "label": "Designing AI systems to assist human workflows rather than f",
       "description": "Designing AI systems to assist human workflows rather than fully automating them, focusing on integration and augmentation of human tasks.",
       "convergence_type": "solution",
@@ -31,11 +31,9 @@
         "tv_942e6fdd",
         "tv_00decb32",
         "tv_631c634e",
-        "tv_c0baf252",
         "tv_8142a92e",
         "tv_17ab2ad2",
         "tv_14c1c60e",
-        "tv_7e5b8c5a",
         "tv_9b299c14",
         "tv_8470daef",
         "tv_39bdd657",
@@ -57,12 +55,10 @@
         "tv_056d1e4b",
         "tv_0eba3dff",
         "tv_61103bd3",
-        "tv_237a202d",
         "tv_d6d1e953",
         "tv_6d29e079",
         "tv_7ab47c25",
         "tv_5c5df16e",
-        "tv_75061878",
         "tv_34d93cb5",
         "tv_cd90f1bb",
         "tv_17d59d2d",
@@ -79,8 +75,7 @@
         "tv_16b88a14",
         "tv_a91e5108",
         "tv_5e648c88",
-        "tv_656b2108",
-        "tv_ae3df257"
+        "tv_656b2108"
       ],
       "creator_ids": [
         "andrej karpathy",
@@ -1247,21 +1242,9 @@
         "antonio san martin",
         "daniel berg thomsen",
         "tiberiu musat",
-        "violet xiang",
-        "rongxu cui",
-        "mingchen ma",
-        "konrad j. mueller",
-        "cesar roder",
-        "md biplob hosen",
-        "shayan hundrieser",
-        "nga teng chan",
-        "chunru lin",
-        "vasilios a. siris",
-        "ion matei",
-        "theresa loconsolo",
-        "rebecca bellan, theresa loconsolo",
         "nilesh nayan",
         "xinzhi wang",
+        "rongxu cui",
         "shengyuan ding",
         "sara dorfman",
         "reza bayat",
@@ -1275,6 +1258,8 @@
         "kirill solovev",
         "aditya singh",
         "nathanaël jacquier",
+        "rebecca bellan, theresa loconsolo",
+        "theresa loconsolo",
         "monica munnangi",
         "chenyu lian",
         "minghao guo",
@@ -1299,20 +1284,6 @@
         "tianming sha",
         "t. s. boyajian",
         "nishant aggarwal",
-        "zhuowei chen",
-        "tassilo schwarz",
-        "kaisen yang",
-        "ikram belmadani",
-        "yonghyun kim",
-        "andy tang",
-        "seokju cho",
-        "pushwitha krishnappa",
-        "marwan lazrag",
-        "ghassen marrakchi",
-        "jiangwei ren",
-        "haoyu zhao",
-        "aparna madva",
-        "shiqi liu",
         "xixuan hao",
         "francesco sorrenti",
         "eitan levin",
@@ -1329,6 +1300,8 @@
         "chuanming yu",
         "nirupam sen",
         "chen tang",
+        "haoyu zhao",
+        "marwan lazrag",
         "maria levchenko",
         "leyang shen",
         "raymond tsao",
@@ -1341,6 +1314,7 @@
         "subramanyam sahoo",
         "deniz kerimoglu",
         "haodong chen",
+        "ikram belmadani",
         "hengji zhou",
         "youhe jiang",
         "yanan long",
@@ -1357,12 +1331,14 @@
         "xiao fu",
         "themackabu",
         "senrui chen",
+        "ghassen marrakchi",
         "pratyush gupta",
         "landon liu",
         "ahmed rayane kebir",
         "adam bílek",
         "przemysław rola",
         "sitan chen",
+        "shiqi liu",
         "marcos eduardo cruz victorio",
         "romain amigon",
         "saw s. lin",
@@ -1390,6 +1366,7 @@
         "wenhao li",
         "anthony hu",
         "so hasegawa",
+        "jiangwei ren",
         "nathan steinle",
         "roi cohen",
         "shuai zhang",
@@ -1409,8 +1386,8 @@
         "lei bai",
         "xiaoyu han",
         "kunyang li",
+        "yonghyun kim",
         "alexander m. dalzell",
-        "priyankush deka",
         "ahmed azaz humdoon",
         "grace hui yang",
         "meena jagadeesan",
@@ -1420,7 +1397,7 @@
         "gil harari"
       ],
       "independence_score": 0.71,
-      "ci_score": 0.57,
+      "ci_score": 0.58,
       "frame_alignment": "infrastructure",
       "presupposition_set": [
         "AI should complement human capabilities rather than replace them",
@@ -1437,20 +1414,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 19.5,
-      "acceleration": -0.01,
+      "stability_weeks": 19.6,
+      "acceleration": 0,
       "first_detected": "2026-03-27T00:34:18.821Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
-        "tier1_summary": "1335 independent sources are converging on: \"Designing AI systems to assist human workflows rather than fully automating them, focusing on integration and augmentation of human tasks.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 19.5 weeks. Acceleration: -0.01",
-        "tier2_independence": "1335 creators (high independence). Platforms: andrej karpathy, lex fridman, saahil mathur, langchain, shubhamsaboo, hard fork (nyt), dair-ai, microsoft, firecrawl, deyu ming, ruofei du, practical ai, elliot murphy, ludwig-ai, langflow-ai, mem0ai, google, browser-use, daytonaio, affaan-m, mintplex-labs, martin jaraiz, prajwal niraula, hugging face, open-webui, hiyouga, bentoml, run-llama, pathwaycom, infiniflow, unslothai, conardli, langgenius, jiahui xu, funaudiollm, js party: javascript, css, web development, qijia he, tanbiralam, biplab pal,  , satyadhar joshi, autocracy101, simon willison, bhawnaumeshparadkar, the changelog: software development, open source, abshkbh, prakhar bansal, theo - t3․gg, yu liu, soroosh tayebi arasteh, anthony t. nixon, wonjin yoon, thedaily@nytimes.com (the new york times), junlin liu, seulgi kim, shriram chennakesavalu, fireship, rajinder sandhu, manyi zhang, inês oliveira e silva, jinghong chen, jon goikoetxea, hillary mutisya, hailing cheng, sailesh panda, george stoica, arunabh srivastava, nicholas s. kersting, yucheng ruan, peyman baghershahi, james petullo, shuhang lin, wenxuan song, haoyuan sun, el mustapha mansouri, davide cavicchini, weixing zhang, sadia asif, beichen zhang, shuhong zheng, zhen-hao xie, lukas aichberger, jiefang xiao, andre herz, lianghuan huang, areeb gani, guancheng tu, kevin qinghong lin, noémi éltető, haoyuan deng, zhiyi chen, junke wang, anzhe xie, zhenghao xing, cong han, dingzhi yu, maria chiara menicucci, andrei liviu nicolicioiu, engomez, ron campos, yuhong deng, marcel torne, xinyu zhao, gabrielle kaili-may liu, ziyu chen, yanjun zhao, elmira salari, tianzhu ye, yihong gu, yu chen, konrad staniszewski, bocheng zou, hao kang, haojun xia, zhihan cai, alexander h. liu, minseok seo, aditya tomar, xing li, dingyu yao, coleman hooper, sjhaha3971, weian mao, sixun dong, qimin zhong, luca pennati, m. sampson, ashima suvarna, jan schneider, andrés muñoz, yihang sun, jason z wang, yaxuan li, tong zhang, samuel j. garratt, zhen yang, dian shao, marie maltais, van-truong le, thomas bayer, savya khosla, manan gupta, saransh sharma, abdulmoneam ali, dimitrije antić, siddhant midha, d. pauli, umar masud, adrian palomares, parthasarathi panda, amal akli, parsa ashrafi fashi, lionel mulato, soumyabrata saha, zahra dehghanighobadi, weijie wang, ajmain inqiad alam, leon kogler, francesco orabona, andrea agazzi, sriram narayanan, florian wolf, mohammad rafiqul islam, xihao chen, shradha sharma, yan zhou, hailey onweller, zekun wu, wei yu, sean bruton, yu wang, yaman kindap, albert alcalde, alex deweese, sagi ahrac, henryndubuaku, alireza nadali, anas mahmoud, nikolaos tsalkitzis, qian shen, yanzuo lu, jianyuan wang, jakub lis, gabriel garcia, qianhao yuan, matthew l. smith, basz4ll, xw7872081123, zhiben chen, dayal singh kalra, zhepei wei, lawhori chakrabarti, pilchen hippolyte, mirac suzgun, juergen dietrich, ehud reiter, long chen, shihao wang, andrea cuteri, yi jing, nhat-minh nguyen, mclisterjoeh2o, withkynam, anany kotawala, hidir yesiltepe, nianyi lin, jiazheng xing, alireza kheirandish, mutsumi sasaki, akarsh kumar, marius dragoi, wenhao liu, chirag chawla, xingjian diao, nathaniel bottman, dimitri kachler, zilin xiao, lakshmi j. naik, jisang han, uri keshet, buqiang xu, haipeng luo, xin ci wong, ruida wang, michela costa, xiaojing sun, mahmoud safari, sai kumar dwivedi, mingzhe xing, mark whitmeyer, babak rahmani, juliana li, tianyi men, john sweeney, anosh joseph, nova452, ziwei su, sofia cocciaretto, philip zmushko, philippe chlenski, michael y. li, liyuan zhu, zhihao lin, shayan talaei, jeffrey fang, micha christoph, matteo boglioni, wentao zhang, yury gorishniy, rodrigo casado noguerales, adriana laurindo monteiro, sahil kale, jordan painter, grzegorz brzezinka, joshua kasiri, palaash goel, christopher blier-wong, kaixin ma, shikai qiu, esteban u. vega barajas, falk l. wiegmann, zihan zhang, yanzhe zhang, gaoyue zhou, prakhar gupta, christina nasika, lizhe fang, pengxuan yang, jiaming ji, yue zheng, dipto sumit, elliot m. butterworth, christian kuehn, daniel c. macrae, lihao sun, gengwei zhang, nikita vassilyev, tianzhu qin, lukas-benedikt fiechtner, priscilla kyei danso, david a. velasco-romero, stephen cheng, vasiliki a. mitsou, shaowei liu, jianhui liu, andrew jelson, avinash mahesh nirmala, guo gan, artemy rubtsov, coleam00, rentian yao, víctor soto-larrosa, peter t. j. bradshaw, minji lee, jochen schmid, zhiyuan peng, mihailo stojnic, yulin liu, chirag pabbaraju, arthur lei qiu, an-yang ji, qamrul hasan ansari, reza gheissari, md. sultan al rayhan, sebastian munoz, mark9-droid, darkholeum, snoozinjs, pedrodg28, mohamed almukhtar, zoyamalhotra, littlefrogyq, long phan, aratrika mustafi, sangyun lee, elia cunegatti, seojeong park, yu xia, arbaz khan, johannes zenn, matteo ippoliti, alexander marynych, ryota matsuda, jadwiga czyżewska, zhouchonghao wu, paddlepaddle, zhuo li, hetu-project, james pustejovsky, harry mayne, ken nakamura, dexing liu, nazanin jafari, delip rao, adrien cances, armanified, jiayuan ye, ziwei zhou, yuxuan zhang, shaona ghosh, connor dilgren, yucheng shen, ahmed nusayer ashik, kowshik chowdhury, anthropics, zoe fingleton, lisa vasileva, tao ge, yutao hou, pavlin g. poličar, ziheng zhang, rui wen, yuanqing cai, yunhua pei, arnau marin-llobet, george perrett, chuyue li, reihaneh zohrabi, eduard frankford, linbo wang, jiaying zhou, tony feng, eva erickson, himani sinhmar, komal kumar, lm-provers, zhixiang lu, hanchen wang, jaeyong lee, bioinfo, huidong ma, ricardo coimbra brioso, zipeng ling, tianhao fu, kiran purohit, md rysul kabir, william lavery, yiwen qiu, nathan pagliaroli, ilana nguyen, brandon hsu, yunze xiao, german marin, jan dubiński, evangelia kopadi, dimitris dimakopoulos, siyuan huang, jacques raynal, yingshan susan wang, quintin pope, ivan petej, jiayuan liu, vardhan palod, joel rorseth, reza khanmohammadi, mengyi deng, dongzhe zheng, deepak pandita, alberto g. rodríguez salgado, dustin keller, parand a. alamdari, maja pavlovic, payal chandak, guangzhi xiong, harsh parikh, haolang zhao, thomas vitry, william overman, yilun qiu, benedetta muscato, farhin farhad riya, haimin hu, mahtab bigverdi, zhifei xie, lucas benigni, hakan mehmetcik, soham bhattacharjee, leon bergen, siyi gu, amiri hayes, david mguni, yehonathan litman, majdouline borji, zhengyuan liu, preet baxi, nicholas pulsone, xinlei yu, jian gu, sanghyuk chun, haozhe wang, ananth eswar, yiwei zhou, donghyeon kim, brian k chen, benedikt brückner, pratinav seth, aditya mittal, arthur jacot, philip kaminsky, reham alharbi, jingyi qiu, bas dorsman, juncheng wu, maoyang xiang, zhristophe, wenbin wu, yuxing lu, yikang yang, michele lucente, tran dinh tien, victor giannakouris, carlos o. lousto, simon gerstenecker, elena xinyi wang, nan huang, tanmay gupta, wending yan, chenxi qing, sumeet ramesh motwani, raunak agarwal, yige xu, terry leitch, shaden alshammari, yi zhong, pegah khayatan, mengzhuo chen, jia li, zijian guo, lirong gao, soyeon kim, aaron j. li, yeheng chen, tianyuan wu, ziyang huang, ziyu zhai, tianfei ren, edward de brouwer, shuangrui ding, tara bogavelli, sahil sen, jiaxin wu, ellwil sharma, shashwat goel, feng chen, yining hong, bingchen zhao, sixiong xie, benjamin a. burns, valentina bui muti, anshun asher zheng, luca thale-bombien, sondos mahmoud bsharat, abhijoy sarkar, haeji jung, mengyu zheng, marek šuppa, nikita kachaev, mansour zoubeirou a mayaki, quang minh nguyen, juyang bai, jincheng zhong, yu-yang chen, nicklas hansen, qingyun liu, sergio hernández-gutiérrez, ben slivinski, yuxuan li, alexandre stauffer, jiale amber wang, shubham gupta, dylan zongmin liu, chase mcdonald, siddharth damodharan, zhekai chen, ethan leung, shijie wang, kerui chen, mert onur cakiroglu, tapan parikh, hanhua hong, depeng su, kevin du, xilun chen, netanel eliav, lance kennedy, ziyi wang, jing-yu zhao, san vũ ngoc, jiaming zhuge, anna chiara alfano, ashwin ram, wancong zhang, soumendu sundar mukherjee, kavya gupta, madhav agarwal, yuto nishida, praval sharma, xiyuan yang, zhexuan wang, ismail aljosevic, qiuxuan feng, liang luo, yongsheng yu, xuying ning, muhammad umer, huawei lin, ritesh thawkar, eleftherios tsonis, anna córdoba, haoran feng, iman johary, mohammed ezzaldin babiker abdullah, david nordström, j. oppliger, yuqian yuan, lena s. oberkircher, yoonsang lee, yuto harada, paula arguello, mihir prabhudesai, dinging li, aswathi mundayatt, joshua t. roth, salman rahman, haoyu wu, hanqi li, p. m. scheikl, yupeng zheng, isabella liu, cheng wang, sivajeet chand, pahal d. patel, hui wang, hao chen, yujun wu, kaizheng wang, yan fang, yi yu, simon yu, junhao shen, gaotang li, chen li, vedang lad, kaixin zhu, igor bogdanov, xiaoqiang wang, ali hatamizadeh, michal shlapentokh-rothman, kan shao, yiheng zhu, a. j. lew, ashok choudhary, blackcandlelab, yibin zhao, nika haghtalab, rishit dagli, heng-jui chang, zesheng liu, zongsheng cao, jiaju han, gary p. t. choi, zirui wu, anoushka vyas, manas mehta, lei wang, angela cui, xumin yu, manish kumar govind, serhii hamotskyi, benjamin breen, anushrut jignasu, chenyang ma, patrick podest, shuai tian, jiaqi peng, tianjiao yu, jiaming liu, taeyun roh, shuailei ma, xinyan chen, manuel pita, xinlong zhao, emanuele quinto, divya mereddy, ruoran xu, daniela rojas, michael jungo, emily s. costello, gonzalo ballestero, laurel ohm, lyuxing he, jiayuan rao, yuxin chen, xingjian ran, adam stein, arkava ganguly, hugh blayney, fei tang, federico bottino, farbod alinezhad, yecheng wu, han bao, kathakoli sengupta, joel fokou, benzhao tang, liran ringel, ninghui xu, nuno gonçalves, roni itkin, come fiegel, habibeh naderi, yanli wang, maria-eleni sfyraki, wei yao, qihang fan, xingchen xiao, kevin murphy, zirong li, yiming bian, hyeonwoo kim, bingcong li, guangqian zhao, natalie collina, akash kundu, felix herron, setabuddin, chad nelmes, jiajun yu, shaoang li, jason d. chadwick, gongbo zhang, p. s. koliogiannis, daniel waxman, usha bhalla, furkan akbaba, himanshu pandey, jinpai zhao, sizhe tang, venkata pushpak teja menta, xinyuan zhao, andrew soon, peiliang bai, xiangyuan xue, apurva gandhi, yuxing liu, yuhang lai, francesco anna mele, mads greisen højlund, zhen fang, manish bhattarai, maryam maghsoudi, giorgos eleftheriou, ying shen, yash akhauri, abrar majeedi, yuanda xu, joshua m. courtney, xuhao hu, runhui huang, guohui zhang, wenrui bao, zhengxi lu, sayantan kumar, saisab sadhu, zhuohang li, yuqi wu, minrui xu, jinzhuo liu, miguel farinha, songsong yu, utkarsh tyagi, aurélien pion, zhen xiong, xinyang tian, tianhang wang, wenxuan guo, stanislav r. kirpichenko, vishal rajput, ryan bahlous-boldi, g. j. m. luna, zhengyuan dong, aneesh komanduri, shangding gu, kukyoung jang, nithesh chandher karthikeyan, yuchen liang, yalun dai, jusuk lee, chen geng, shangjie xue, maciej paszyński, haowen wang, sayan paul, ruotong liao, utsav dutta, kian kenyon-dean, qing wang, felipe urrutia, yu-cheng shi, guangzhao he, inhee lee, yonghao yu, máté gedeon, weixiang zhao, kelan gray, yichen gao, dong jing, shangheng du, mykyta ielanskyi, shiyun xiong, yutao sun, joshua o. adeleke, yunbei xu, jaewoo lee, ilay kamai, heming zou, gangwei xu, atsumoto ohashi, nick magnelli, jadelynn dao, yucheng li, yeongseo jung, zhi wei xu, cheng-yu yang, lorenzo restaino, yaxin du, hanwool lee, elias lumer, nick jiang, kevin yuanbo wu, mufei li, abbas mammadov, hamidah oderinwale, ang-kun wu, prateek agnihotri, sikai li, mohamed nagy, tianjian li, haoling li, tianyi li, changdae oh, pierre monmarché, danyal rehman, xingyu ren, brian w. lee, arnav mazumder, haina jiang, jameel hassan, mohamed el amine boudjoghra, yen-jen wang, vishesh jain, zekai chen, yuqing yang, giovanni monea, irene anu, chih-han yang, jingyi chen, shengguang wu, song tang, hanlin wang, juanwu lu, liyan tang, cheng-kang chou, xianhao chen, kaiyuan chen, arturo c. marti, jiangdong ai, kai ruan, sambaran bandyopadhyay, he liang, zhenyu liu, shervin khalafi, anna cordoba, ivan donchev kabadzhov, fumihiro imoto, yair feldman, ying chang, shivendra g. tewari, xiaoshuai song, fumio hiai, dian wang, tamar ervin, zixiang xu, zhuoyuan li, zhao yang, yu fang, elena grigorescu, jorge diaz chao, yuhang wang, yi tang, dingyun zhang, junyi hu, priyank agrawal, matthew e. brophy, zoé roy-stang, dylan waldner, addison j. wu, segun aroyehun, tim fernholz, abhishekk130804, marianna bergamaschi ganapini, luis mickeler, shukang yin, jackson lee, manuela gonzález-gonzález, nicola gorini, wei zhao, junhao chen, deming li, alec douglas, saptarshi ghosh, bartolomeo fanizza, urchade zaratiana, yizhou zhou, hayate iso, xin zhou, rishabh tiwari, di wu, patchfighterway90, hakyung sung, zeyu yang, john pravin arockiasamy, hanchao liu, ning liu, zijie wu, janine lohse, matt zhou, karthik raghu iyer, andreas pattichis, tianle wang, songtao huang, lalit yadav, yihao meng, mannam veera narayana, shahab asoodeh, j. c. gonçalves-dosantos, robert jenkinson alvarez, léo bigorgne, paul cahen, mark mclean, jaume de dios pont, tanguy lions, yuki koizumi, alejandro rodriguez dominguez, samrat biswas, christopher d. long, javier reyes, clara dehman, christian ferko, zihui xue, jiayi zhang, pycassa, gordan prastalo, trung nguyen quang, ruitao liu, sunislazi, haiddrrs, a. r. callen, basel shbita, chengcai gao, filippo girardi, samuel kiegeland, mingyang liu, anthony ha, theresa loconsolo, kirsten korosec, sean o'kane, maja gwozdz, atlas collaboration, steve hanneke, liz cho, yilin ou, zefu lin, truong thanh hung nguyen, jisoo kim, ruicheng li, martijn bartelds, josef chen, amit elhelo, wei zhou, koichi sato, michael kirchhof, clara meister, aarya vasantlal, zifan carl guo, tj devries, zhuhan bao, shanshan wang, jacky kwok, dandan chen, gianluca galletti, mingrui jing, junjie yin, heng zhou, sen yang, louis sharrock, daehoon gwak, shibendu gupta choudhury, minh hoang nguyen, xiaoyu li, jakub kowalski, wenbo xu, david gonzález-martínez, yunchao yao, nathan pruyne, kaifeng zhao, kristina schaaff, baha rababah, lingkai kong, zhi chen, srivatsa kulkarni, ming-zhe han, fan zhang, yazdan jamshidi, v. v. ternovski, aditya aladangady, xiaolei guo, sihang nie, xinyi wu, krish agarwal, akshat gupta, jiaqing zhang, michael finkelson, yuting ning, tritano, yusong lin, shinyatomitsuka, yichen xu, achint mehta, yunhe li, eloy de lera acedo, c. ruth le sueur, steven oh, alper yıldırım, jose e. aguilar escamilla, gugan thoppe, phjont, cdanielc293, vasundra srinivasan, soumava paul, kunqi xu, salma hoque talukdar koli, duskmosquito, shiliang zuo, pengxue xiang, wenxin zhan, fen wang, junyu xie, xiaoxuan ma, felix zhou, chen henry wu, sy-tuyen ho, akshay paruchuri, yuxing cheng, seth dobrin, peng sun, thomas macdougall, chamindu liyanage, masahiro kato, david criens, megan frisella, rishabh agrawal, qintong xie, anamaria-roberta hartl, jin yao, xucong wang, antoine guédon, lezhi tan, yifan yang, joydeep chandra, zisu huang, andres nava, xu ouyang, lizhang chen, jianshu zhang, emilie vautier, ismail cosandal, shun lei, sathvik manikantan napa ugandhar, gervais hatungimana, benjamin remy, jan mandrysch, thomas thebaud, yu-han huang, harsha vardhan khurdula, abhijit chakraborty, junrui zhang, chalamalasetti kranti, rahul bandyopadhyay, juan s. santillana, monika mothsara, ayoung lee, han gil choi, jin shi, jiaoyanming0-bot, omar el khalifi, weiqing xiao, sandeep s. cranganore, yaocheng zhang, hannah guan, a. castro-gonzález, hippolyte gisserot-boukhlef, max bayer, neeraj gangwar, qiguang chen, joachim baumann, josue torres-fonseca, yonatan haile medhanie, wenyi xiao, hadas orgad, stefan andreas baumann, guanyu zhou, frieder loer, siyuan bian, mubarak a. ojewale, mei yuan, chinmay rane, leonard storcks, lisha chen, shirshendu ganguly, hang zhang, kaiyuan tang, emmanouil kavvousanos, yaqi wu, gil kur, vladislav beliaev, shreyasvi natraj, pravir kumar, madhulatha mandarapu, caleb ziems, donghyun lee, bohan liu, zijian liu, deeparnab chakrabarty, timo bertram, xuanyu chen, lakshani galwatta, hongyu li, tejas iyer, xxniiinxx, shiyuan feng, davis brown, wesley scivetti, anand babu, bishwas mandal, gandhimathi padmanaban, mehmet iscan, andrew kang, nathan belrhali, campbell lund, yujia zheng, haotao xie, santiago cambronero, nathan gavenski, sara fish, qianshu cai, yiting wu, junjie ye, hanjiang hu, zhengchi ma, signal-trade-core, polymaxi2, novaquant-labs, ángel chávez, reza sayyari, denis peskoff, v. samuel pérez-díaz, sampurna karmakar, daniel harkin, mingi choi, thiago bergamaschi, tom rossa, dilip arumugam, ilseyar alimova, dihia lanasri, taeho yoon, poojitha thota, yiming chen, arthur allshire, yingyu lin, muhammad hassan, arnav kumar jain, zhao-heng yin, haram choi, atahan dokme, chi lung cheng, yi-ping chen, davide murari, martim penim, naoto usuyama, alex mathai, ran ben-basat, xirui li, worachit amnuaypongsa, jake lee, samuel aeschbach, shuai wang, austin coursey, nikita kister, nico baumgart, alex cuellar, perry dong, ariel gera, andrea morandi, jiazhen huang, junxia cui, senmiao wang, xuan zhang, bo wang, haoran jin, tanmay singla, chirag vashist, hanqing zhu, debanjan debnath, christopher b. womack, v. konakov, asif shahriar, csaba czabán, kenta kasai, naveen george, yujiao chen, yifan wu, kaito kobayashi, joão matos, antonio san martin, daniel berg thomsen, tiberiu musat, violet xiang, rongxu cui, mingchen ma, konrad j. mueller, cesar roder, md biplob hosen, shayan hundrieser, nga teng chan, chunru lin, vasilios a. siris, ion matei, theresa loconsolo, rebecca bellan, theresa loconsolo, nilesh nayan, xinzhi wang, shengyuan ding, sara dorfman, reza bayat, arindam mitra, changxiao cai, yue gruszecki, bob osano, mohammad mehdi hosseini, hamid reza firoozfar, alina bazarova, kirill solovev, aditya singh, nathanaël jacquier, monica munnangi, chenyu lian, minghao guo, sarah martinson, zhen zhang, antonio peña corredor, dingbang wu, peiyang xu, haowen hou, yeganeh marghi, hangfeng liang, weixian xu, james flora, umut çetin, mustafa doger, meng chen, brett reynolds, austin mcdannald, eric zhu, azwar abdulsalam, mona schirmer, tianming sha, t. s. boyajian, nishant aggarwal, zhuowei chen, tassilo schwarz, kaisen yang, ikram belmadani, yonghyun kim, andy tang, seokju cho, pushwitha krishnappa, marwan lazrag, ghassen marrakchi, jiangwei ren, haoyu zhao, aparna madva, shiqi liu, xixuan hao, francesco sorrenti, eitan levin, hongru cai, mingguang chen, raphaël bonnet-guerrini, manuel alonso-carracedo, xuyang chen, duen horng chau, yifan zhou, tetiana martyniuk, ting-yun chang, bikini, chuanming yu, nirupam sen, chen tang, maria levchenko, leyang shen, raymond tsao, xihan xiong, matthias seubert, bin lin, sameer malik, ziyu shan, yalin e. sagduyu, subramanyam sahoo, deniz kerimoglu, haodong chen, hengji zhou, youhe jiang, yanan long, omnigent-ai, kadevin, viktor novičenko, daniel romero schellhorn, guangzheng hu, philippe page, zhenglin yu, zanyi wang, homegamesjoseph, ayda eghbalian, xiao fu, themackabu, senrui chen, pratyush gupta, landon liu, ahmed rayane kebir, adam bílek, przemysław rola, sitan chen, marcos eduardo cruz victorio, romain amigon, saw s. lin, yixiang chen, xuan liu, si-yu yuan, zenhosta, dr melissa barrientos-trinanes, amrita majumder, hao xiang, jundong xu, sen li, kevin xu, shreyas subramanian, stephan a. fahrenkrog-petersen, aleh manchuliantsau, sheng-yu wang, shyamal y. dharia, juraj gavura, yuchen jiao, lena libon, chen ziheng, mohamed amine merzouk, andreas penzkofer, wenhao li, anthony hu, so hasegawa, nathan steinle, roi cohen, shuai zhang, yunhai feng, raktim bhattacharya, ramon ferrer-i-cancho, ling xu, ekaterina alimaskina, yufei li, ruihang zhang, anna kuzina, giulia di fede, chuning zhu, connie loizos, guo yu, mohit raghavendra, lei bai, xiaoyu han, kunyang li, alexander m. dalzell, priyankush deka, ahmed azaz humdoon, grace hui yang, meena jagadeesan, maría olalla olea-romacho, nicholasjbs, maksat satybaldiev, gil harari",
+        "tier1_summary": "1317 independent sources are converging on: \"Designing AI systems to assist human workflows rather than fully automating them, focusing on integration and augmentation of human tasks.\". Convergence type: solution. Independence: high independence.",
+        "tier2_temporal": "Pattern stable for 19.6 weeks. Acceleration: 0.00",
+        "tier2_independence": "1317 creators (high independence). Platforms: andrej karpathy, lex fridman, saahil mathur, langchain, shubhamsaboo, hard fork (nyt), dair-ai, microsoft, firecrawl, deyu ming, ruofei du, practical ai, elliot murphy, ludwig-ai, langflow-ai, mem0ai, google, browser-use, daytonaio, affaan-m, mintplex-labs, martin jaraiz, prajwal niraula, hugging face, open-webui, hiyouga, bentoml, run-llama, pathwaycom, infiniflow, unslothai, conardli, langgenius, jiahui xu, funaudiollm, js party: javascript, css, web development, qijia he, tanbiralam, biplab pal,  , satyadhar joshi, autocracy101, simon willison, bhawnaumeshparadkar, the changelog: software development, open source, abshkbh, prakhar bansal, theo - t3․gg, yu liu, soroosh tayebi arasteh, anthony t. nixon, wonjin yoon, thedaily@nytimes.com (the new york times), junlin liu, seulgi kim, shriram chennakesavalu, fireship, rajinder sandhu, manyi zhang, inês oliveira e silva, jinghong chen, jon goikoetxea, hillary mutisya, hailing cheng, sailesh panda, george stoica, arunabh srivastava, nicholas s. kersting, yucheng ruan, peyman baghershahi, james petullo, shuhang lin, wenxuan song, haoyuan sun, el mustapha mansouri, davide cavicchini, weixing zhang, sadia asif, beichen zhang, shuhong zheng, zhen-hao xie, lukas aichberger, jiefang xiao, andre herz, lianghuan huang, areeb gani, guancheng tu, kevin qinghong lin, noémi éltető, haoyuan deng, zhiyi chen, junke wang, anzhe xie, zhenghao xing, cong han, dingzhi yu, maria chiara menicucci, andrei liviu nicolicioiu, engomez, ron campos, yuhong deng, marcel torne, xinyu zhao, gabrielle kaili-may liu, ziyu chen, yanjun zhao, elmira salari, tianzhu ye, yihong gu, yu chen, konrad staniszewski, bocheng zou, hao kang, haojun xia, zhihan cai, alexander h. liu, minseok seo, aditya tomar, xing li, dingyu yao, coleman hooper, sjhaha3971, weian mao, sixun dong, qimin zhong, luca pennati, m. sampson, ashima suvarna, jan schneider, andrés muñoz, yihang sun, jason z wang, yaxuan li, tong zhang, samuel j. garratt, zhen yang, dian shao, marie maltais, van-truong le, thomas bayer, savya khosla, manan gupta, saransh sharma, abdulmoneam ali, dimitrije antić, siddhant midha, d. pauli, umar masud, adrian palomares, parthasarathi panda, amal akli, parsa ashrafi fashi, lionel mulato, soumyabrata saha, zahra dehghanighobadi, weijie wang, ajmain inqiad alam, leon kogler, francesco orabona, andrea agazzi, sriram narayanan, florian wolf, mohammad rafiqul islam, xihao chen, shradha sharma, yan zhou, hailey onweller, zekun wu, wei yu, sean bruton, yu wang, yaman kindap, albert alcalde, alex deweese, sagi ahrac, henryndubuaku, alireza nadali, anas mahmoud, nikolaos tsalkitzis, qian shen, yanzuo lu, jianyuan wang, jakub lis, gabriel garcia, qianhao yuan, matthew l. smith, basz4ll, xw7872081123, zhiben chen, dayal singh kalra, zhepei wei, lawhori chakrabarti, pilchen hippolyte, mirac suzgun, juergen dietrich, ehud reiter, long chen, shihao wang, andrea cuteri, yi jing, nhat-minh nguyen, mclisterjoeh2o, withkynam, anany kotawala, hidir yesiltepe, nianyi lin, jiazheng xing, alireza kheirandish, mutsumi sasaki, akarsh kumar, marius dragoi, wenhao liu, chirag chawla, xingjian diao, nathaniel bottman, dimitri kachler, zilin xiao, lakshmi j. naik, jisang han, uri keshet, buqiang xu, haipeng luo, xin ci wong, ruida wang, michela costa, xiaojing sun, mahmoud safari, sai kumar dwivedi, mingzhe xing, mark whitmeyer, babak rahmani, juliana li, tianyi men, john sweeney, anosh joseph, nova452, ziwei su, sofia cocciaretto, philip zmushko, philippe chlenski, michael y. li, liyuan zhu, zhihao lin, shayan talaei, jeffrey fang, micha christoph, matteo boglioni, wentao zhang, yury gorishniy, rodrigo casado noguerales, adriana laurindo monteiro, sahil kale, jordan painter, grzegorz brzezinka, joshua kasiri, palaash goel, christopher blier-wong, kaixin ma, shikai qiu, esteban u. vega barajas, falk l. wiegmann, zihan zhang, yanzhe zhang, gaoyue zhou, prakhar gupta, christina nasika, lizhe fang, pengxuan yang, jiaming ji, yue zheng, dipto sumit, elliot m. butterworth, christian kuehn, daniel c. macrae, lihao sun, gengwei zhang, nikita vassilyev, tianzhu qin, lukas-benedikt fiechtner, priscilla kyei danso, david a. velasco-romero, stephen cheng, vasiliki a. mitsou, shaowei liu, jianhui liu, andrew jelson, avinash mahesh nirmala, guo gan, artemy rubtsov, coleam00, rentian yao, víctor soto-larrosa, peter t. j. bradshaw, minji lee, jochen schmid, zhiyuan peng, mihailo stojnic, yulin liu, chirag pabbaraju, arthur lei qiu, an-yang ji, qamrul hasan ansari, reza gheissari, md. sultan al rayhan, sebastian munoz, mark9-droid, darkholeum, snoozinjs, pedrodg28, mohamed almukhtar, zoyamalhotra, littlefrogyq, long phan, aratrika mustafi, sangyun lee, elia cunegatti, seojeong park, yu xia, arbaz khan, johannes zenn, matteo ippoliti, alexander marynych, ryota matsuda, jadwiga czyżewska, zhouchonghao wu, paddlepaddle, zhuo li, hetu-project, james pustejovsky, harry mayne, ken nakamura, dexing liu, nazanin jafari, delip rao, adrien cances, armanified, jiayuan ye, ziwei zhou, yuxuan zhang, shaona ghosh, connor dilgren, yucheng shen, ahmed nusayer ashik, kowshik chowdhury, anthropics, zoe fingleton, lisa vasileva, tao ge, yutao hou, pavlin g. poličar, ziheng zhang, rui wen, yuanqing cai, yunhua pei, arnau marin-llobet, george perrett, chuyue li, reihaneh zohrabi, eduard frankford, linbo wang, jiaying zhou, tony feng, eva erickson, himani sinhmar, komal kumar, lm-provers, zhixiang lu, hanchen wang, jaeyong lee, bioinfo, huidong ma, ricardo coimbra brioso, zipeng ling, tianhao fu, kiran purohit, md rysul kabir, william lavery, yiwen qiu, nathan pagliaroli, ilana nguyen, brandon hsu, yunze xiao, german marin, jan dubiński, evangelia kopadi, dimitris dimakopoulos, siyuan huang, jacques raynal, yingshan susan wang, quintin pope, ivan petej, jiayuan liu, vardhan palod, joel rorseth, reza khanmohammadi, mengyi deng, dongzhe zheng, deepak pandita, alberto g. rodríguez salgado, dustin keller, parand a. alamdari, maja pavlovic, payal chandak, guangzhi xiong, harsh parikh, haolang zhao, thomas vitry, william overman, yilun qiu, benedetta muscato, farhin farhad riya, haimin hu, mahtab bigverdi, zhifei xie, lucas benigni, hakan mehmetcik, soham bhattacharjee, leon bergen, siyi gu, amiri hayes, david mguni, yehonathan litman, majdouline borji, zhengyuan liu, preet baxi, nicholas pulsone, xinlei yu, jian gu, sanghyuk chun, haozhe wang, ananth eswar, yiwei zhou, donghyeon kim, brian k chen, benedikt brückner, pratinav seth, aditya mittal, arthur jacot, philip kaminsky, reham alharbi, jingyi qiu, bas dorsman, juncheng wu, maoyang xiang, zhristophe, wenbin wu, yuxing lu, yikang yang, michele lucente, tran dinh tien, victor giannakouris, carlos o. lousto, simon gerstenecker, elena xinyi wang, nan huang, tanmay gupta, wending yan, chenxi qing, sumeet ramesh motwani, raunak agarwal, yige xu, terry leitch, shaden alshammari, yi zhong, pegah khayatan, mengzhuo chen, jia li, zijian guo, lirong gao, soyeon kim, aaron j. li, yeheng chen, tianyuan wu, ziyang huang, ziyu zhai, tianfei ren, edward de brouwer, shuangrui ding, tara bogavelli, sahil sen, jiaxin wu, ellwil sharma, shashwat goel, feng chen, yining hong, bingchen zhao, sixiong xie, benjamin a. burns, valentina bui muti, anshun asher zheng, luca thale-bombien, sondos mahmoud bsharat, abhijoy sarkar, haeji jung, mengyu zheng, marek šuppa, nikita kachaev, mansour zoubeirou a mayaki, quang minh nguyen, juyang bai, jincheng zhong, yu-yang chen, nicklas hansen, qingyun liu, sergio hernández-gutiérrez, ben slivinski, yuxuan li, alexandre stauffer, jiale amber wang, shubham gupta, dylan zongmin liu, chase mcdonald, siddharth damodharan, zhekai chen, ethan leung, shijie wang, kerui chen, mert onur cakiroglu, tapan parikh, hanhua hong, depeng su, kevin du, xilun chen, netanel eliav, lance kennedy, ziyi wang, jing-yu zhao, san vũ ngoc, jiaming zhuge, anna chiara alfano, ashwin ram, wancong zhang, soumendu sundar mukherjee, kavya gupta, madhav agarwal, yuto nishida, praval sharma, xiyuan yang, zhexuan wang, ismail aljosevic, qiuxuan feng, liang luo, yongsheng yu, xuying ning, muhammad umer, huawei lin, ritesh thawkar, eleftherios tsonis, anna córdoba, haoran feng, iman johary, mohammed ezzaldin babiker abdullah, david nordström, j. oppliger, yuqian yuan, lena s. oberkircher, yoonsang lee, yuto harada, paula arguello, mihir prabhudesai, dinging li, aswathi mundayatt, joshua t. roth, salman rahman, haoyu wu, hanqi li, p. m. scheikl, yupeng zheng, isabella liu, cheng wang, sivajeet chand, pahal d. patel, hui wang, hao chen, yujun wu, kaizheng wang, yan fang, yi yu, simon yu, junhao shen, gaotang li, chen li, vedang lad, kaixin zhu, igor bogdanov, xiaoqiang wang, ali hatamizadeh, michal shlapentokh-rothman, kan shao, yiheng zhu, a. j. lew, ashok choudhary, blackcandlelab, yibin zhao, nika haghtalab, rishit dagli, heng-jui chang, zesheng liu, zongsheng cao, jiaju han, gary p. t. choi, zirui wu, anoushka vyas, manas mehta, lei wang, angela cui, xumin yu, manish kumar govind, serhii hamotskyi, benjamin breen, anushrut jignasu, chenyang ma, patrick podest, shuai tian, jiaqi peng, tianjiao yu, jiaming liu, taeyun roh, shuailei ma, xinyan chen, manuel pita, xinlong zhao, emanuele quinto, divya mereddy, ruoran xu, daniela rojas, michael jungo, emily s. costello, gonzalo ballestero, laurel ohm, lyuxing he, jiayuan rao, yuxin chen, xingjian ran, adam stein, arkava ganguly, hugh blayney, fei tang, federico bottino, farbod alinezhad, yecheng wu, han bao, kathakoli sengupta, joel fokou, benzhao tang, liran ringel, ninghui xu, nuno gonçalves, roni itkin, come fiegel, habibeh naderi, yanli wang, maria-eleni sfyraki, wei yao, qihang fan, xingchen xiao, kevin murphy, zirong li, yiming bian, hyeonwoo kim, bingcong li, guangqian zhao, natalie collina, akash kundu, felix herron, setabuddin, chad nelmes, jiajun yu, shaoang li, jason d. chadwick, gongbo zhang, p. s. koliogiannis, daniel waxman, usha bhalla, furkan akbaba, himanshu pandey, jinpai zhao, sizhe tang, venkata pushpak teja menta, xinyuan zhao, andrew soon, peiliang bai, xiangyuan xue, apurva gandhi, yuxing liu, yuhang lai, francesco anna mele, mads greisen højlund, zhen fang, manish bhattarai, maryam maghsoudi, giorgos eleftheriou, ying shen, yash akhauri, abrar majeedi, yuanda xu, joshua m. courtney, xuhao hu, runhui huang, guohui zhang, wenrui bao, zhengxi lu, sayantan kumar, saisab sadhu, zhuohang li, yuqi wu, minrui xu, jinzhuo liu, miguel farinha, songsong yu, utkarsh tyagi, aurélien pion, zhen xiong, xinyang tian, tianhang wang, wenxuan guo, stanislav r. kirpichenko, vishal rajput, ryan bahlous-boldi, g. j. m. luna, zhengyuan dong, aneesh komanduri, shangding gu, kukyoung jang, nithesh chandher karthikeyan, yuchen liang, yalun dai, jusuk lee, chen geng, shangjie xue, maciej paszyński, haowen wang, sayan paul, ruotong liao, utsav dutta, kian kenyon-dean, qing wang, felipe urrutia, yu-cheng shi, guangzhao he, inhee lee, yonghao yu, máté gedeon, weixiang zhao, kelan gray, yichen gao, dong jing, shangheng du, mykyta ielanskyi, shiyun xiong, yutao sun, joshua o. adeleke, yunbei xu, jaewoo lee, ilay kamai, heming zou, gangwei xu, atsumoto ohashi, nick magnelli, jadelynn dao, yucheng li, yeongseo jung, zhi wei xu, cheng-yu yang, lorenzo restaino, yaxin du, hanwool lee, elias lumer, nick jiang, kevin yuanbo wu, mufei li, abbas mammadov, hamidah oderinwale, ang-kun wu, prateek agnihotri, sikai li, mohamed nagy, tianjian li, haoling li, tianyi li, changdae oh, pierre monmarché, danyal rehman, xingyu ren, brian w. lee, arnav mazumder, haina jiang, jameel hassan, mohamed el amine boudjoghra, yen-jen wang, vishesh jain, zekai chen, yuqing yang, giovanni monea, irene anu, chih-han yang, jingyi chen, shengguang wu, song tang, hanlin wang, juanwu lu, liyan tang, cheng-kang chou, xianhao chen, kaiyuan chen, arturo c. marti, jiangdong ai, kai ruan, sambaran bandyopadhyay, he liang, zhenyu liu, shervin khalafi, anna cordoba, ivan donchev kabadzhov, fumihiro imoto, yair feldman, ying chang, shivendra g. tewari, xiaoshuai song, fumio hiai, dian wang, tamar ervin, zixiang xu, zhuoyuan li, zhao yang, yu fang, elena grigorescu, jorge diaz chao, yuhang wang, yi tang, dingyun zhang, junyi hu, priyank agrawal, matthew e. brophy, zoé roy-stang, dylan waldner, addison j. wu, segun aroyehun, tim fernholz, abhishekk130804, marianna bergamaschi ganapini, luis mickeler, shukang yin, jackson lee, manuela gonzález-gonzález, nicola gorini, wei zhao, junhao chen, deming li, alec douglas, saptarshi ghosh, bartolomeo fanizza, urchade zaratiana, yizhou zhou, hayate iso, xin zhou, rishabh tiwari, di wu, patchfighterway90, hakyung sung, zeyu yang, john pravin arockiasamy, hanchao liu, ning liu, zijie wu, janine lohse, matt zhou, karthik raghu iyer, andreas pattichis, tianle wang, songtao huang, lalit yadav, yihao meng, mannam veera narayana, shahab asoodeh, j. c. gonçalves-dosantos, robert jenkinson alvarez, léo bigorgne, paul cahen, mark mclean, jaume de dios pont, tanguy lions, yuki koizumi, alejandro rodriguez dominguez, samrat biswas, christopher d. long, javier reyes, clara dehman, christian ferko, zihui xue, jiayi zhang, pycassa, gordan prastalo, trung nguyen quang, ruitao liu, sunislazi, haiddrrs, a. r. callen, basel shbita, chengcai gao, filippo girardi, samuel kiegeland, mingyang liu, anthony ha, theresa loconsolo, kirsten korosec, sean o'kane, maja gwozdz, atlas collaboration, steve hanneke, liz cho, yilin ou, zefu lin, truong thanh hung nguyen, jisoo kim, ruicheng li, martijn bartelds, josef chen, amit elhelo, wei zhou, koichi sato, michael kirchhof, clara meister, aarya vasantlal, zifan carl guo, tj devries, zhuhan bao, shanshan wang, jacky kwok, dandan chen, gianluca galletti, mingrui jing, junjie yin, heng zhou, sen yang, louis sharrock, daehoon gwak, shibendu gupta choudhury, minh hoang nguyen, xiaoyu li, jakub kowalski, wenbo xu, david gonzález-martínez, yunchao yao, nathan pruyne, kaifeng zhao, kristina schaaff, baha rababah, lingkai kong, zhi chen, srivatsa kulkarni, ming-zhe han, fan zhang, yazdan jamshidi, v. v. ternovski, aditya aladangady, xiaolei guo, sihang nie, xinyi wu, krish agarwal, akshat gupta, jiaqing zhang, michael finkelson, yuting ning, tritano, yusong lin, shinyatomitsuka, yichen xu, achint mehta, yunhe li, eloy de lera acedo, c. ruth le sueur, steven oh, alper yıldırım, jose e. aguilar escamilla, gugan thoppe, phjont, cdanielc293, vasundra srinivasan, soumava paul, kunqi xu, salma hoque talukdar koli, duskmosquito, shiliang zuo, pengxue xiang, wenxin zhan, fen wang, junyu xie, xiaoxuan ma, felix zhou, chen henry wu, sy-tuyen ho, akshay paruchuri, yuxing cheng, seth dobrin, peng sun, thomas macdougall, chamindu liyanage, masahiro kato, david criens, megan frisella, rishabh agrawal, qintong xie, anamaria-roberta hartl, jin yao, xucong wang, antoine guédon, lezhi tan, yifan yang, joydeep chandra, zisu huang, andres nava, xu ouyang, lizhang chen, jianshu zhang, emilie vautier, ismail cosandal, shun lei, sathvik manikantan napa ugandhar, gervais hatungimana, benjamin remy, jan mandrysch, thomas thebaud, yu-han huang, harsha vardhan khurdula, abhijit chakraborty, junrui zhang, chalamalasetti kranti, rahul bandyopadhyay, juan s. santillana, monika mothsara, ayoung lee, han gil choi, jin shi, jiaoyanming0-bot, omar el khalifi, weiqing xiao, sandeep s. cranganore, yaocheng zhang, hannah guan, a. castro-gonzález, hippolyte gisserot-boukhlef, max bayer, neeraj gangwar, qiguang chen, joachim baumann, josue torres-fonseca, yonatan haile medhanie, wenyi xiao, hadas orgad, stefan andreas baumann, guanyu zhou, frieder loer, siyuan bian, mubarak a. ojewale, mei yuan, chinmay rane, leonard storcks, lisha chen, shirshendu ganguly, hang zhang, kaiyuan tang, emmanouil kavvousanos, yaqi wu, gil kur, vladislav beliaev, shreyasvi natraj, pravir kumar, madhulatha mandarapu, caleb ziems, donghyun lee, bohan liu, zijian liu, deeparnab chakrabarty, timo bertram, xuanyu chen, lakshani galwatta, hongyu li, tejas iyer, xxniiinxx, shiyuan feng, davis brown, wesley scivetti, anand babu, bishwas mandal, gandhimathi padmanaban, mehmet iscan, andrew kang, nathan belrhali, campbell lund, yujia zheng, haotao xie, santiago cambronero, nathan gavenski, sara fish, qianshu cai, yiting wu, junjie ye, hanjiang hu, zhengchi ma, signal-trade-core, polymaxi2, novaquant-labs, ángel chávez, reza sayyari, denis peskoff, v. samuel pérez-díaz, sampurna karmakar, daniel harkin, mingi choi, thiago bergamaschi, tom rossa, dilip arumugam, ilseyar alimova, dihia lanasri, taeho yoon, poojitha thota, yiming chen, arthur allshire, yingyu lin, muhammad hassan, arnav kumar jain, zhao-heng yin, haram choi, atahan dokme, chi lung cheng, yi-ping chen, davide murari, martim penim, naoto usuyama, alex mathai, ran ben-basat, xirui li, worachit amnuaypongsa, jake lee, samuel aeschbach, shuai wang, austin coursey, nikita kister, nico baumgart, alex cuellar, perry dong, ariel gera, andrea morandi, jiazhen huang, junxia cui, senmiao wang, xuan zhang, bo wang, haoran jin, tanmay singla, chirag vashist, hanqing zhu, debanjan debnath, christopher b. womack, v. konakov, asif shahriar, csaba czabán, kenta kasai, naveen george, yujiao chen, yifan wu, kaito kobayashi, joão matos, antonio san martin, daniel berg thomsen, tiberiu musat, nilesh nayan, xinzhi wang, rongxu cui, shengyuan ding, sara dorfman, reza bayat, arindam mitra, changxiao cai, yue gruszecki, bob osano, mohammad mehdi hosseini, hamid reza firoozfar, alina bazarova, kirill solovev, aditya singh, nathanaël jacquier, rebecca bellan, theresa loconsolo, theresa loconsolo, monica munnangi, chenyu lian, minghao guo, sarah martinson, zhen zhang, antonio peña corredor, dingbang wu, peiyang xu, haowen hou, yeganeh marghi, hangfeng liang, weixian xu, james flora, umut çetin, mustafa doger, meng chen, brett reynolds, austin mcdannald, eric zhu, azwar abdulsalam, mona schirmer, tianming sha, t. s. boyajian, nishant aggarwal, xixuan hao, francesco sorrenti, eitan levin, hongru cai, mingguang chen, raphaël bonnet-guerrini, manuel alonso-carracedo, xuyang chen, duen horng chau, yifan zhou, tetiana martyniuk, ting-yun chang, bikini, chuanming yu, nirupam sen, chen tang, haoyu zhao, marwan lazrag, maria levchenko, leyang shen, raymond tsao, xihan xiong, matthias seubert, bin lin, sameer malik, ziyu shan, yalin e. sagduyu, subramanyam sahoo, deniz kerimoglu, haodong chen, ikram belmadani, hengji zhou, youhe jiang, yanan long, omnigent-ai, kadevin, viktor novičenko, daniel romero schellhorn, guangzheng hu, philippe page, zhenglin yu, zanyi wang, homegamesjoseph, ayda eghbalian, xiao fu, themackabu, senrui chen, ghassen marrakchi, pratyush gupta, landon liu, ahmed rayane kebir, adam bílek, przemysław rola, sitan chen, shiqi liu, marcos eduardo cruz victorio, romain amigon, saw s. lin, yixiang chen, xuan liu, si-yu yuan, zenhosta, dr melissa barrientos-trinanes, amrita majumder, hao xiang, jundong xu, sen li, kevin xu, shreyas subramanian, stephan a. fahrenkrog-petersen, aleh manchuliantsau, sheng-yu wang, shyamal y. dharia, juraj gavura, yuchen jiao, lena libon, chen ziheng, mohamed amine merzouk, andreas penzkofer, wenhao li, anthony hu, so hasegawa, jiangwei ren, nathan steinle, roi cohen, shuai zhang, yunhai feng, raktim bhattacharya, ramon ferrer-i-cancho, ling xu, ekaterina alimaskina, yufei li, ruihang zhang, anna kuzina, giulia di fede, chuning zhu, connie loizos, guo yu, mohit raghavendra, lei bai, xiaoyu han, kunyang li, yonghyun kim, alexander m. dalzell, ahmed azaz humdoon, grace hui yang, meena jagadeesan, maría olalla olea-romacho, nicholasjbs, maksat satybaldiev, gil harari",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 73800,
-          "hedging": 61875,
-          "speculating": 204900
+          "asserting": 69930,
+          "hedging": 58240,
+          "speculating": 192710
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -1746,7 +1723,7 @@
               "it would sort of recapitulate what happened with the protein folding",
               "the software is shortcutting by using things it already knows about",
               "those were honestly more unexpected",
-              "these are largely fungible commodities"
+              "if you buy into the story completely"
             ],
             "certainty": 0.49
           },
@@ -8727,7 +8704,7 @@
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
-            "certainty": 0.08
+            "certainty": 0.33
           },
           {
             "creator_id": "lizhang chen",
@@ -9841,99 +9818,6 @@
             "certainty": 0.58
           },
           {
-            "creator_id": "violet xiang",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "rongxu cui",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "mingchen ma",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "konrad j. mueller",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "cesar roder",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "md biplob hosen",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "shayan hundrieser",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 1
-          },
-          {
-            "creator_id": "nga teng chan",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "chunru lin",
-            "modal_profile": {},
-            "frame": "evolution",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "vasilios a. siris",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "ion matei",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "theresa loconsolo",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "signed an open letter calling the move dangerous"
-            ],
-            "certainty": 0.4
-          },
-          {
-            "creator_id": "rebecca bellan, theresa loconsolo",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.45
-          },
-          {
             "creator_id": "nilesh nayan",
             "modal_profile": {},
             "frame": "",
@@ -9946,6 +9830,13 @@
             "frame": "infrastructure",
             "presuppositions": [],
             "certainty": 0.08
+          },
+          {
+            "creator_id": "rongxu cui",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 0.58
           },
           {
             "creator_id": "shengyuan ding",
@@ -10039,6 +9930,22 @@
               "it was designed precisely to avoid the"
             ],
             "certainty": 0.58
+          },
+          {
+            "creator_id": "rebecca bellan, theresa loconsolo",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.45
+          },
+          {
+            "creator_id": "theresa loconsolo",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [
+              "signed an open letter calling the move dangerous"
+            ],
+            "certainty": 0.4
           },
           {
             "creator_id": "monica munnangi",
@@ -10211,106 +10118,6 @@
             "certainty": 1
           },
           {
-            "creator_id": "zhuowei chen",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "tassilo schwarz",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "kaisen yang",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "ikram belmadani",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "yonghyun kim",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "andy tang",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "seokju cho",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 1
-          },
-          {
-            "creator_id": "pushwitha krishnappa",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [
-              "every metric scores the same outputs"
-            ],
-            "certainty": 0.58
-          },
-          {
-            "creator_id": "marwan lazrag",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.33
-          },
-          {
-            "creator_id": "ghassen marrakchi",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 1
-          },
-          {
-            "creator_id": "jiangwei ren",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "haoyu zhao",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.79
-          },
-          {
-            "creator_id": "aparna madva",
-            "modal_profile": {},
-            "frame": "infrastructure",
-            "presuppositions": [],
-            "certainty": 0.08
-          },
-          {
-            "creator_id": "shiqi liu",
-            "modal_profile": {},
-            "frame": "",
-            "presuppositions": [],
-            "certainty": 0.58
-          },
-          {
             "creator_id": "xixuan hao",
             "modal_profile": {},
             "frame": "infrastructure",
@@ -10425,6 +10232,20 @@
             "certainty": 0.58
           },
           {
+            "creator_id": "haoyu zhao",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.79
+          },
+          {
+            "creator_id": "marwan lazrag",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.33
+          },
+          {
             "creator_id": "maria levchenko",
             "modal_profile": {},
             "frame": "",
@@ -10509,6 +10330,13 @@
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
+          },
+          {
+            "creator_id": "ikram belmadani",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
           },
           {
             "creator_id": "hengji zhou",
@@ -10628,6 +10456,13 @@
             "certainty": 0.58
           },
           {
+            "creator_id": "ghassen marrakchi",
+            "modal_profile": {},
+            "frame": "infrastructure",
+            "presuppositions": [],
+            "certainty": 1
+          },
+          {
             "creator_id": "pratyush gupta",
             "modal_profile": {},
             "frame": "",
@@ -10672,6 +10507,13 @@
             "frame": "",
             "presuppositions": [],
             "certainty": 0.79
+          },
+          {
+            "creator_id": "shiqi liu",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.58
           },
           {
             "creator_id": "marcos eduardo cruz victorio",
@@ -10869,6 +10711,13 @@
             "certainty": 0.08
           },
           {
+            "creator_id": "jiangwei ren",
+            "modal_profile": {},
+            "frame": "",
+            "presuppositions": [],
+            "certainty": 0.08
+          },
+          {
             "creator_id": "nathan steinle",
             "modal_profile": {},
             "frame": "exploration",
@@ -11009,14 +10858,14 @@
             "certainty": 0.58
           },
           {
-            "creator_id": "alexander m. dalzell",
+            "creator_id": "yonghyun kim",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
             "certainty": 0.58
           },
           {
-            "creator_id": "priyankush deka",
+            "creator_id": "alexander m. dalzell",
             "modal_profile": {},
             "frame": "",
             "presuppositions": [],
@@ -11081,7 +10930,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_5116e67d",
+      "id": "cp_c01ca91f",
       "label": "There is a growing demand for advanced techniques to address",
       "description": "There is a growing demand for advanced techniques to address complex problems in various fields, including quantum cryptography and AI.",
       "convergence_type": "solution",
@@ -11143,20 +10992,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 3.8,
-      "acceleration": -0.01,
+      "stability_weeks": 4,
+      "acceleration": 0,
       "first_detected": "2026-07-14T12:47:44.070Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "30 independent sources are converging on: \"There is a growing demand for advanced techniques to address complex problems in various fields, including quantum cryptography and AI.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 3.8 weeks. Acceleration: -0.01",
+        "tier2_temporal": "Pattern stable for 4.0 weeks. Acceleration: 0.00",
         "tier2_independence": "30 creators (high independence). Platforms: adam bílek, senrui chen, farid thaalba, rahul kumar walia, michael rizvi-martel, abhijit chakraborty, antonio san martin, yu-han huang, junrui zhang, lingkai kong, shijie wang, giulia di fede, han gil choi, francesco sorrenti, chuanming yu, srinivasan arunachalam, rahul bandyopadhyay, alexander m. dalzell, zifan carl guo, meng chen, benjamin breen, kai ploeger, ying wang, pol buitrago, tiberiu musat, shikai qiu, chamindu liyanage, divya mereddy, raktim bhattacharya, bijan mazaheri",
         "tier2_frame": "Dominant frame: \"cultivation\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 5904,
-          "hedging": 4950,
-          "speculating": 16392
+          "asserting": 5994,
+          "hedging": 4992,
+          "speculating": 16518
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11392,7 +11241,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_6cf84eca",
+      "id": "cp_57cd466c",
       "label": "Designing AI systems to optimize performance and resource us",
       "description": "Designing AI systems to optimize performance and resource usage through various techniques such as adaptive allocation, differentiable trust regions, and efficient encoding.",
       "convergence_type": "solution",
@@ -11422,20 +11271,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.6,
+      "stability_weeks": 2.7,
       "acceleration": 0,
       "first_detected": "2026-07-23T13:50:15.668Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "7 independent sources are converging on: \"Designing AI systems to optimize performance and resource usage through various techniques such as adaptive allocation, differentiable trust regions, and efficient encoding.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.7 weeks. Acceleration: 0.00",
         "tier2_independence": "7 creators (high independence). Platforms: peng sun, akshat gupta, chinmay rane, hang zhang, kaiyuan tang, qicheng tang, jakub kowalski",
         "tier2_frame": "Dominant frame: \"evolution\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 2952,
-          "hedging": 2475,
-          "speculating": 8196
+          "asserting": 2997,
+          "hedging": 2496,
+          "speculating": 8259
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11500,7 +11349,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_158f44bc",
+      "id": "cp_ab85a748",
       "label": "There is a growing interest in developing advanced technolog",
       "description": "There is a growing interest in developing advanced technologies to address specific challenges in various fields, such as robotics and AI.",
       "convergence_type": "solution",
@@ -11533,20 +11382,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.6,
+      "stability_weeks": 2.7,
       "acceleration": 0,
       "first_detected": "2026-07-23T13:50:15.668Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "8 independent sources are converging on: \"There is a growing interest in developing advanced technologies to address specific challenges in various fields, such as robotics and AI.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.7 weeks. Acceleration: 0.00",
         "tier2_independence": "8 creators (high independence). Platforms: deniz kerimoglu, sheng-yu wang, grace hui yang, jason stanley, yu fang, maksat satybaldiev, xiaoyu li, daniel pearson",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 2952,
-          "hedging": 2475,
-          "speculating": 8196
+          "asserting": 2997,
+          "hedging": 2496,
+          "speculating": 8259
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11622,7 +11471,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_121e75e2",
+      "id": "cp_33193f85",
       "label": "Developing specialized mechanisms or strategies is crucial f",
       "description": "Developing specialized mechanisms or strategies is crucial for advancing specific areas of technology and research.",
       "convergence_type": "solution",
@@ -11648,20 +11497,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 3.6,
+      "stability_weeks": 3.7,
       "acceleration": 0,
       "first_detected": "2026-07-16T13:13:27.928Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "5 independent sources are converging on: \"Developing specialized mechanisms or strategies is crucial for advancing specific areas of technology and research.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 3.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 3.7 weeks. Acceleration: 0.00",
         "tier2_independence": "5 creators (high independence). Platforms: daehoon gwak, chalamalasetti kranti, stephan a. fahrenkrog-petersen, aleh manchuliantsau, minh hoang nguyen",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 1968,
-          "hedging": 1650,
-          "speculating": 5464
+          "asserting": 1998,
+          "hedging": 1664,
+          "speculating": 5506
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11712,7 +11561,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_29c67917",
+      "id": "cp_84727f0e",
       "label": "Designing algorithms to handle complex data and improve mode",
       "description": "Designing algorithms to handle complex data and improve model robustness through techniques like balanced minibatch sampling, Lipschitz continuity, and efficient encoding of perturbations.",
       "convergence_type": "solution",
@@ -11725,7 +11574,7 @@
         "shirshendu ganguly"
       ],
       "independence_score": 0.8,
-      "ci_score": 0.01,
+      "ci_score": 0,
       "frame_alignment": "",
       "presupposition_set": [
         "Robustness and fairness are critical in model design."
@@ -11733,20 +11582,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.4,
+      "stability_weeks": 2.6,
       "acceleration": 0,
       "first_detected": "2026-07-24T14:26:54.186Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "3 independent sources are converging on: \"Designing algorithms to handle complex data and improve model robustness through techniques like balanced minibatch sampling, Lipschitz continuity, and efficient encoding of perturbations.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.4 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
         "tier2_independence": "3 creators (high independence). Platforms: yi tang, lisha chen, shirshendu ganguly",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11781,7 +11630,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_99b78628",
+      "id": "cp_414ff801",
       "label": "Developing frameworks and models to enhance the performance ",
       "description": "Developing frameworks and models to enhance the performance of AI agents in specific environments.",
       "convergence_type": "solution",
@@ -11803,20 +11652,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 3.3,
+      "stability_weeks": 3.4,
       "acceleration": 0,
       "first_detected": "2026-07-18T12:19:31.352Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "3 independent sources are converging on: \"Developing frameworks and models to enhance the performance of AI agents in specific environments.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 3.3 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 3.4 weeks. Acceleration: 0.00",
         "tier2_independence": "3 creators (high independence). Platforms: junjie yin, zhao yang, mingrui jing",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11851,7 +11700,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_7f996832",
+      "id": "cp_31b8d909",
       "label": "Designing methods to measure physical phenomena using space-",
       "description": "Designing methods to measure physical phenomena using space-based observations.",
       "convergence_type": "solution",
@@ -11873,20 +11722,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 3.3,
+      "stability_weeks": 3.4,
       "acceleration": 0,
       "first_detected": "2026-07-18T13:48:16.104Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "3 independent sources are converging on: \"Designing methods to measure physical phenomena using space-based observations.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 3.3 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 3.4 weeks. Acceleration: 0.00",
         "tier2_independence": "3 creators (high independence). Platforms: runhui huang, tamar ervin, quinn o. casey",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11921,7 +11770,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_a8672c5f",
+      "id": "cp_48adb275",
       "label": "Graph-based agentic AI systems are emerging as a solution fo",
       "description": "Graph-based agentic AI systems are emerging as a solution for managing complex, long-running business processes.",
       "convergence_type": "solution",
@@ -11941,20 +11790,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.4,
+      "stability_weeks": 2.6,
       "acceleration": 0,
       "first_detected": "2026-07-24T14:26:54.186Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Graph-based agentic AI systems are emerging as a solution for managing complex, long-running business processes.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.4 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: alexander manev, daniel pearson",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -11982,7 +11831,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_cf94ab43",
+      "id": "cp_85ffe7de",
       "label": "Designing robust AI systems to handle complex, noisy data co",
       "description": "Designing robust AI systems to handle complex, noisy data conditions in real-world applications.",
       "convergence_type": "solution",
@@ -12003,20 +11852,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.4,
+      "stability_weeks": 2.6,
       "acceleration": 0,
       "first_detected": "2026-07-24T14:26:54.186Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Designing robust AI systems to handle complex, noisy data conditions in real-world applications.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.4 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: ioannis papageorgiou, lance kennedy",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12046,7 +11895,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_33fe3682",
+      "id": "cp_a7ae5583",
       "label": "Designing AI systems with embedded context management to pru",
       "description": "Designing AI systems with embedded context management to prune irrelevant information.",
       "convergence_type": "solution",
@@ -12066,20 +11915,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.6,
+      "stability_weeks": 2.7,
       "acceleration": 0,
       "first_detected": "2026-07-23T14:13:10.101Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Designing AI systems with embedded context management to prune irrelevant information.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.7 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: yuhang wang, kevin du",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12107,7 +11956,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_ade1f8b6",
+      "id": "cp_c6e804ae",
       "label": "Designing AI systems with high-order differentiable simulato",
       "description": "Designing AI systems with high-order differentiable simulators for complex physical systems.",
       "convergence_type": "solution",
@@ -12127,20 +11976,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.8,
+      "stability_weeks": 3,
       "acceleration": 0,
       "first_detected": "2026-07-21T12:53:13.858Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Designing AI systems with high-order differentiable simulators for complex physical systems.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.8 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 3.0 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: depeng su, leonard storcks",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12168,7 +12017,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_57baaccb",
+      "id": "cp_57018157",
       "label": "Developing methods to handle irregular time series is crucia",
       "description": "Developing methods to handle irregular time series is crucial for advancing applications in real-world scenarios.",
       "convergence_type": "solution",
@@ -12188,20 +12037,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.8,
+      "stability_weeks": 3,
       "acceleration": 0,
       "first_detected": "2026-07-21T12:53:13.858Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Developing methods to handle irregular time series is crucial for advancing applications in real-world scenarios.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.8 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 3.0 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: martim penim, alex mathai",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12229,7 +12078,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_999b9dfb",
+      "id": "cp_133420cc",
       "label": "Designing agentic frameworks that track spatial-temporal dyn",
       "description": "Designing agentic frameworks that track spatial-temporal dynamics of objects over time for anomaly detection.",
       "convergence_type": "solution",
@@ -12252,20 +12101,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.7,
+      "stability_weeks": 2.8,
       "acceleration": 0,
       "first_detected": "2026-07-22T13:45:32.900Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "3 independent sources are converging on: \"Designing agentic frameworks that track spatial-temporal dynamics of objects over time for anomaly detection.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.7 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.8 weeks. Acceleration: 0.00",
         "tier2_independence": "3 creators (high independence). Platforms: mei yuan, daniela rojas, christopher d. long",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 1968,
-          "hedging": 1650,
-          "speculating": 5464
+          "asserting": 1998,
+          "hedging": 1664,
+          "speculating": 5506
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12300,7 +12149,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_b4531dac",
+      "id": "cp_d2eadad2",
       "label": "Designing frameworks and pipelines for efficient and accurat",
       "description": "Designing frameworks and pipelines for efficient and accurate data processing, such as calibration-based grasping or computational frameworks.",
       "convergence_type": "solution",
@@ -12320,20 +12169,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.6,
+      "stability_weeks": 2.7,
       "acceleration": 0,
       "first_detected": "2026-07-23T14:13:10.101Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Designing frameworks and pipelines for efficient and accurate data processing, such as calibration-based grasping or computational frameworks.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.7 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: yi-ping chen, christopher d. long",
         "tier2_frame": "Dominant frame: \"evolution\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12361,7 +12210,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_dea2db3b",
+      "id": "cp_a6e89314",
       "label": "Developing quality-controlled datasets is crucial for advanc",
       "description": "Developing quality-controlled datasets is crucial for advancing research in specialized recommendation systems.",
       "convergence_type": "solution",
@@ -12381,20 +12230,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.4,
+      "stability_weeks": 2.6,
       "acceleration": 0,
       "first_detected": "2026-07-24T14:19:37.633Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Developing quality-controlled datasets is crucial for advancing research in specialized recommendation systems.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.4 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: minh hoang nguyen, dingyun zhang",
         "tier2_frame": "Dominant frame: \"infrastructure\"",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12422,7 +12271,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_11944c86",
+      "id": "cp_54fe452d",
       "label": "There is a growing recognition of the limitations in achievi",
       "description": "There is a growing recognition of the limitations in achieving both fairness and efficiency simultaneously in allocation problems.",
       "convergence_type": "problem",
@@ -12442,20 +12291,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.4,
+      "stability_weeks": 2.6,
       "acceleration": 0,
       "first_detected": "2026-07-24T14:26:54.186Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"There is a growing recognition of the limitations in achieving both fairness and efficiency simultaneously in allocation problems.\". Convergence type: problem. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.4 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: harish chandramouleeswaran, sitan chen",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12483,7 +12332,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_019edb89",
+      "id": "cp_db6c7612",
       "label": "Developing watermark forensics to attribute text generation ",
       "description": "Developing watermark forensics to attribute text generation back to specific users or payloads.",
       "convergence_type": "solution",
@@ -12503,20 +12352,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.6,
+      "stability_weeks": 2.7,
       "acceleration": 0,
       "first_detected": "2026-07-23T13:50:15.668Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Developing watermark forensics to attribute text generation back to specific users or payloads.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.7 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: xiaoyu li, jorge diaz chao",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12546,7 +12395,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_de528ffc",
+      "id": "cp_88433738",
       "label": "Designing language models with anonymized named entities dur",
       "description": "Designing language models with anonymized named entities during pretraining to reduce reliance on outdated or incomplete internal knowledge.",
       "convergence_type": "solution",
@@ -12567,20 +12416,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 3.4,
+      "stability_weeks": 3.6,
       "acceleration": 0,
       "first_detected": "2026-07-17T14:01:44.908Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Designing language models with anonymized named entities during pretraining to reduce reliance on outdated or incomplete internal knowledge.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 3.4 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 3.6 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: roi cohen, harsha vardhan khurdula",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12610,7 +12459,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_75a04158",
+      "id": "cp_aea0e50d",
       "label": "There is a shift towards intervention-based methods in causa",
       "description": "There is a shift towards intervention-based methods in causal discovery.",
       "convergence_type": "solution",
@@ -12631,20 +12480,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 2.6,
+      "stability_weeks": 2.7,
       "acceleration": 0,
       "first_detected": "2026-07-23T13:50:15.668Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"There is a shift towards intervention-based methods in causal discovery.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 2.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 2.7 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: bijan mazaheri, maksat satybaldiev",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12674,7 +12523,7 @@
       "slurry_class": "sharp"
     },
     {
-      "id": "cp_3cbce97a",
+      "id": "cp_ff6a0d50",
       "label": "Self-play training methods are becoming more common without ",
       "description": "Self-play training methods are becoming more common without human demonstrations.",
       "convergence_type": "solution",
@@ -12694,20 +12543,20 @@
       "presupposition_conflicts": [],
       "domains": [],
       "cross_domain": false,
-      "stability_weeks": 3.6,
+      "stability_weeks": 3.7,
       "acceleration": 0,
       "first_detected": "2026-07-16T13:53:11.593Z",
-      "last_updated": "2026-08-10T11:12:38.296Z",
+      "last_updated": "2026-08-11T11:12:15.795Z",
       "resolution_data": {
         "tier1_summary": "2 independent sources are converging on: \"Self-play training methods are becoming more common without human demonstrations.\". Convergence type: solution. Independence: high independence.",
-        "tier2_temporal": "Pattern stable for 3.6 weeks. Acceleration: 0.00",
+        "tier2_temporal": "Pattern stable for 3.7 weeks. Acceleration: 0.00",
         "tier2_independence": "2 creators (high independence). Platforms: jan mandrysch, zhouchonghao wu",
         "tier2_frame": "No dominant frame detected",
         "tier2_quantitative": "",
         "tier3_modal_distribution": {
-          "asserting": 984,
-          "hedging": 825,
-          "speculating": 2732
+          "asserting": 999,
+          "hedging": 832,
+          "speculating": 2753
         },
         "tier3_presupposition_conflicts": [],
         "tier3_frame_competition": [],
@@ -12736,6 +12585,6 @@
     }
   ],
   "presupposition_registry": [],
-  "total_sources_analyzed": 6288,
-  "generated_at": "2026-08-10T11:12:38.296Z"
+  "total_sources_analyzed": 6352,
+  "generated_at": "2026-08-11T11:12:15.795Z"
 }

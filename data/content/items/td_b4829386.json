@@ -1,0 +1,39 @@
+{
+  "id": "td_b4829386",
+  "source": "arxiv",
+  "source_id": "2608.09855",
+  "source_url": "https://arxiv.org/abs/2608.09855",
+  "content_type": "paper",
+  "creator": {
+    "id": "yifeng_he",
+    "name": "Yifeng He",
+    "handle": "Yifeng He, Jicheng Wang, Yinzhe Zhao, Jiachen Liu, Hao Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agentic Auto-Research is Fuzz Testing",
+  "body_text": "Agentic Auto-Research is Fuzz Testing\n\nAutonomous research agents can generate experiments faster than researchers can validate them. Researchers have responded by scaling the proposer and ranking more samples with a learned judge or human reviewers. We argue that this *generate-and-rank* paradigm misses the problem of sparse feedback. Within a declared research problem, an agent follows the control loop of a greybox fuzzer: it proposes a candidate, executes it, observes feedback, and chooses what to try next. A fuzzer rarely finds a bug, but coverage makes partial progress observable on every execution. Fuzzers then use that signal to mutate inputs and allocate effort, rather than only to rank completed runs. Auto-research needs the same two capabilities. First, each experiment should expose a cheap, dense signal of epistemic progress before final scientific validation is available. Second, that signal should determine the next intervention so that the agent searches rather than repeatedly samples. Because the optimized progress signal is guidance rather than a verdict, final validation must still decide what counts as a discovery using evidence protected from adaptive reuse. We propose controlled tests of whether candidate signals predict validated progress, whether feedback-directed search yields more validated discoveries per unit cost than repeated sampling, and whether protected validation reduces false discoveries. Feedback architecture, not only generation, is a central bottleneck in auto-research.\n\nAuthors: Yifeng He, Jicheng Wang, Yinzhe Zhao, Jiachen Liu, Hao Chen\nCategories: cs.AI, cs.CL, cs.AI",
+  "word_count": 214,
+  "published_at": "2026-08-10T17:13:02Z",
+  "ingested_at": "2026-08-11T11:04:23.432Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

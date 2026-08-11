@@ -1,0 +1,39 @@
+{
+  "id": "td_9c6992b2",
+  "source": "arxiv",
+  "source_id": "2608.09914",
+  "source_url": "https://arxiv.org/abs/2608.09914",
+  "content_type": "paper",
+  "creator": {
+    "id": "gijung_lee",
+    "name": "Gijung Lee",
+    "handle": "Gijung Lee, Ronald Wilson, Damon L. Woodard, Domenic Forte",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation",
+  "body_text": "Overcoming Data Scarcity and Confidentiality in Hardware Assurance via Synthetic Generation\n\nHardware assurance relies on scanning electron microscopy (SEM) to verify nanoscale structures, but assembling the large, high-quality datasets required for automated analysis is impeded by time-intensive acquisition and strict intellectual property (IP) constraints on proprietary designs. We propose a privacy-preserving pipeline that secures IP by heavily distorting the functional design while generating a visually realistic synthetic dataset from a small set of initial examples. A StyleGAN first learns the distribution of hardware layout masks to generate novel, macroscopically varied structures. Subsequently, a conditional GAN (Pix2PixHD) translates these masks into realistic SEM images that preserve authentic textures and noise. The primary finding of this work is that a segmentation model trained exclusively on this synthetic data not only demonstrates a successful \"sim-to-real\" transfer to real images but also outperforms a baseline model trained on the limited real dataset. Because the underlying synthetic layouts are demonstrably novel and reproduce none of the specific proprietary routing of the original design, deploying the final segmentation model mitigates the risk of exposing sensitive IP to attacks like gradient inversion and membership inference, providing a highly secure, high-performance solution for hardware assurance.\n\nAuthors: Gijung Lee, Ronald Wilson, Damon L. Woodard, Domenic Forte\nCategories: cs.CR, cs.CV, cs.CR",
+  "word_count": 186,
+  "published_at": "2026-08-10T17:56:03Z",
+  "ingested_at": "2026-08-11T11:04:43.723Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CV",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_4d4bc7da",
+  "source": "arxiv",
+  "source_id": "2608.09834",
+  "source_url": "https://arxiv.org/abs/2608.09834",
+  "content_type": "paper",
+  "creator": {
+    "id": "fan_zhang",
+    "name": "Fan Zhang",
+    "handle": "Fan Zhang, Jiaming Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RA-FinBERT: Rule-aware LoRA adaptation for low-resource financial sentiment classification",
+  "body_text": "RA-FinBERT: Rule-aware LoRA adaptation for low-resource financial sentiment classification\n\nFinancial sentiment analysis converts unstructured financial news into quantitative signals that can support market analysis and decision-making. Existing work on resource-efficient financial NLP has largely focused on compressing or adapting pretrained language models, with less attention to combining contextual representations with lightweight rule-derived features. This study develops Rule-Aware FinBERT (RA-FinBERT), a parameter-efficient framework that integrates low-rank adaptation (LoRA) with three continuous VADER-derived sentiment proportions (positive, negative, and neutral) and a source-level metadata feature. The standardized four-dimensional feature vector is directly concatenated with the 768-dimensional final-layer FinBERT [CLS] representation and passed through a lightweight classification head. This design introduces only 1,024 additional trainable weights relative to a structurally matched text-only FinBERT model. RA-FinBERT was evaluated against text-only FinBERT and a lightweight DistilBERT baseline for three-class sentiment classification of financial-news titles and descriptions. On the held-out test set, RA-FinBERT achieved 69.89% accuracy and a macro F1 score of 0.634, compared with 63.44% and 0.526 for text-only FinBERT. Neutral-class recall increased from 18.18% to 45.45%. The framework supports both CPU and GPU execution, offering a lightweight and practical approach to financial sentiment classification under constrained computational resources. These findings indicate that rule-derived sentiment information and source metadata can provide complementary signals to contextual FinBERT representations and improve performance with minimal additional model complexity.\n\nAuthors: Fan Zhang, Jiaming Li\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 210,
+  "published_at": "2026-08-10T16:52:19Z",
+  "ingested_at": "2026-08-11T11:04:23.432Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

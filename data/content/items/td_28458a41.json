@@ -1,0 +1,38 @@
+{
+  "id": "td_28458a41",
+  "source": "arxiv",
+  "source_id": "2608.09903",
+  "source_url": "https://arxiv.org/abs/2608.09903",
+  "content_type": "paper",
+  "creator": {
+    "id": "hsuan-cheng_wu",
+    "name": "Hsuan-Cheng Wu",
+    "handle": "Hsuan-Cheng Wu, Xiantao Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Nonlinear Stochastic Differential Equations to Quantum Channels: The Kolmogorov--Lindblad Mapping",
+  "body_text": "From Nonlinear Stochastic Differential Equations to Quantum Channels: The Kolmogorov--Lindblad Mapping\n\nNonlinear stochastic differential equations (SDEs) underlie molecular modeling and drug discovery, quantitative finance, stochastic learning, and uncertainty quantification. Their expectations, event probabilities, and time correlations are therefore natural targets for quantum computation, but nonlinear drift and averaging over noise realizations obstruct a direct quantum representation. We develop an exact \\emph{Kolmogorov--Lindblad mapping} (KLM) at the level of the probability law, encoded natively as a trace-one quantum density operator. For each Brownian realization, the pathwise density admits a half-density whose evolution is a stochastic Schrödinger equation. Averaging the associated pure states yields a Lindblad equation for $Γ(t)$ whose diagonal kernel is exactly the Fokker--Planck density, $p(t,x)=Γ(t;x,x)$, with classical diffusion represented by decoherence through Hermitian jump operators. Statistical observables become quantum expectations without the unknown time-dependent normalization introduced by direct amplitude encoding of the density, and classical two-time correlations admit an exact quantum regression formula. A structure-preserving Galerkin projection retains the Lindblad form at finite dimension, placing classical SDEs and open quantum dynamics on the same quantum-native computational footing. Numerical experiments for double-well Langevin dynamics and noisy Lorenz--63 exhibit rapid convergence of statistical observables. KLM thus provides a mathematically controlled path from general nonlinear stochastic dynamics to quantum channels, while isolating function approximation and coherent operator access as the remaining determinants of algorithmic efficiency.\n\nAuthors: Hsuan-Cheng Wu, Xiantao Li\nCategories: quant-ph, quant-ph",
+  "word_count": 211,
+  "published_at": "2026-08-10T17:49:22Z",
+  "ingested_at": "2026-08-11T11:04:43.724Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
