@@ -1,0 +1,40 @@
+{
+  "id": "td_10b9dfec",
+  "source": "arxiv",
+  "source_id": "2608.11167",
+  "source_url": "https://arxiv.org/abs/2608.11167",
+  "content_type": "paper",
+  "creator": {
+    "id": "changhao_xiang",
+    "name": "Changhao Xiang",
+    "handle": "Changhao Xiang, Shangyu Xing, Zhen Wu, Jianbing Zhang, Xinyu Dai",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment",
+  "body_text": "MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment\n\nExisting Multimodal Large Language Models (MLLMs) predominantly rely on image-text pairs for modality alignment pretraining, mapping global image representations to long textual descriptions. However, this image-level alignment suffers from referential ambiguity: models struggle to infer the correspondences between multiple visual objects and textual entities from the global representation, leading to data inefficiency and suboptimal semantic grounding. To address this, we propose MultiModal Code-Switching (MMCS), a novel pretraining paradigm that provides explicit object-level supervision. Inspired by the linguistic phenomenon of code-switching, MMCS interleaves vision and language by replacing textual entities with their corresponding visual objects, enforcing local vision-language grounding. We further develop a scalable data synthesis pipeline to generate a pretraining dataset of 773K samples with accurate object-entity correspondences. Experiments show that MMCS is highly data-efficient: with only 50K samples, it matches or surpasses models trained on 600K image-text pairs. Furthermore, MMCS consistently improves visual grounding and perception capabilities across varying model scales.\n\nAuthors: Changhao Xiang, Shangyu Xing, Zhen Wu, Jianbing Zhang, Xinyu Dai\nCategories: cs.CV, cs.CL, cs.LG, cs.CV",
+  "word_count": 152,
+  "published_at": "2026-08-11T17:28:52Z",
+  "ingested_at": "2026-08-12T11:04:19.472Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CL",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

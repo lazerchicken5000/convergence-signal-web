@@ -1,0 +1,38 @@
+{
+  "id": "td_be0cd5b8",
+  "source": "arxiv",
+  "source_id": "2608.11180",
+  "source_url": "https://arxiv.org/abs/2608.11180",
+  "content_type": "paper",
+  "creator": {
+    "id": "federica_stolf",
+    "name": "Federica Stolf",
+    "handle": "Federica Stolf, Tommaso Rigon, David B. Dunson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bayesian inference on beta diversity via feature allocation models with imperfect detection",
+  "body_text": "Bayesian inference on beta diversity via feature allocation models with imperfect detection\n\nBeta diversity quantifies variation in species composition across ecological communities and is fundamental for understanding biodiversity patterns across space and environmental gradients. Statistical inference on beta diversity is challenging: species occurrence data are high dimensional, many species remain unobserved despite extensive sampling, and surveys are subject to imperfect detection. Existing approaches are typically based on empirical dissimilarity indices with limited uncertainty quantification or on models that rely on unrealistic exchangeability and perfect detection assumptions. We introduce a new class of Bayesian feature allocation models for partially exchangeable species occurrence data with imperfect detection. The framework combines latent feature allocation models with occupancy-based detection mechanisms, allowing heterogeneous species compositions across sites, explicitly accounting for false negatives, and accommodating the discovery of previously unobserved species. We develop coherent probabilistic inference for species sharing and beta diversity, deriving explicit posterior and predictive distributions for between-community heterogeneity, including the number of shared species across sites and the number expected under future sampling. These analytical results yield interpretable posterior summaries of compositional heterogeneity and facilitate scalable inference in high-dimensional biodiversity studies. Simulation studies and an application to global fungal biodiversity data demonstrate improved inference on species sharing and between-community diversity.\n\nAuthors: Federica Stolf, Tommaso Rigon, David B. Dunson\nCategories: stat.ME, stat.ME",
+  "word_count": 195,
+  "published_at": "2026-08-11T17:38:21Z",
+  "ingested_at": "2026-08-12T11:06:16.793Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

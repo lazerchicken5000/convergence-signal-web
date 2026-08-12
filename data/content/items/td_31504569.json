@@ -1,0 +1,39 @@
+{
+  "id": "td_31504569",
+  "source": "arxiv",
+  "source_id": "2608.11175",
+  "source_url": "https://arxiv.org/abs/2608.11175",
+  "content_type": "paper",
+  "creator": {
+    "id": "sachin_sunil_kelkar",
+    "name": "Sachin Sunil Kelkar",
+    "handle": "Sachin Sunil Kelkar, Tanmay Dokania, Yashwanth Kumar Nakka",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments",
+  "body_text": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments\n\nFor autonomous space exploration, robotic agents need to perform motion planning in which environmental interactions may be unknown. Learning these interactions, such as terrain mechanics for wheeled robots, can introduce uncertainties that lead to risky motion plans and potentially hazardous operations or mission failures. Moreover, uncertainties induced by perception-based systems can exacerbate the problem of safe motion planning. In this letter, we address the problem of performing cost-optimal kinodynamic motion planning with risk awareness. We approach this in two steps. First, a sampling-based planner (AO-RRT) generates a dynamically feasible, risk-aware, and asymptotically cost-optimal trajectory. Second, we formulate motion planning as a nonlinear optimization problem and solve it using sequential convex programming (SCP), using the AO-RRT trajectory as an initial solution. By quantifying risk using conditional value-at-risk (CVaR), we demonstrate a reduction in risk by over $\\sim$97\\% across trajectories in simulation and hardware experiments.\n\nAuthors: Sachin Sunil Kelkar, Tanmay Dokania, Yashwanth Kumar Nakka\nCategories: cs.RO, eess.SY, cs.RO",
+  "word_count": 143,
+  "published_at": "2026-08-11T17:34:56Z",
+  "ingested_at": "2026-08-12T11:05:53.254Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "eess.SY",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

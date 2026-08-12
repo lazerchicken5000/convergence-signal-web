@@ -1,0 +1,38 @@
+{
+  "id": "td_15fa576c",
+  "source": "arxiv",
+  "source_id": "2608.11205",
+  "source_url": "https://arxiv.org/abs/2608.11205",
+  "content_type": "paper",
+  "creator": {
+    "id": "mingju_gao",
+    "name": "Mingju Gao",
+    "handle": "Mingju Gao, Jingkai Zhou, Kun Gai, Changqian Yu, Hao Tang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
+  "body_text": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss\n\nFréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses. However, directly optimizing Fréchet objectives can cause Fréchet hacking. The target metrics keep improving, but visual quality and Fréchet alignment in other feature spaces may stagnate or deteriorate. We attribute this failure to the static pretrained feature spaces used by existing Fréchet losses. These feature spaces provide incomplete and fixed views of the differences between real and generated distributions. To address this limitation, we propose Adversarial Fréchet Distance (AdvFD), which complements the static representation targets in FD-Loss with a calibrated adversarially learned representation. AdvFD augments the original static Fréchet objective with a learnable representation that adversarially maximizes the Fréchet discrepancy between real and generated samples, while the generator minimizes the same discrepancy in the resulting adaptive feature space. To prevent the adversarial representation from trivially increasing the objective through feature amplification, we further introduce real-feature whitening, which normalizes its scale and covariance geometry and stabilizes the min--max optimization. Extensive experiments show that AdvFD consistently improves one-step generator post-training across both JiT and pMF backbones and across different model scales.\n\nAuthors: Mingju Gao, Jingkai Zhou, Kun Gai, Changqian Yu, Hao Tang\nCategories: cs.CV, cs.CV",
+  "word_count": 190,
+  "published_at": "2026-08-11T17:59:56Z",
+  "ingested_at": "2026-08-12T11:05:53.252Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

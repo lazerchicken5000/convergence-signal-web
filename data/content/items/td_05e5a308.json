@@ -1,0 +1,38 @@
+{
+  "id": "td_05e5a308",
+  "source": "arxiv",
+  "source_id": "2608.11131",
+  "source_url": "https://arxiv.org/abs/2608.11131",
+  "content_type": "paper",
+  "creator": {
+    "id": "carsten_jentsch",
+    "name": "Carsten Jentsch",
+    "handle": "Carsten Jentsch, Stanislav Nagy, Martin Wendler",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Resampling simplicial depth",
+  "body_text": "Resampling simplicial depth\n\nThe simplicial depth (SD) is a commonly used indicator of the centrality of points $x\\in\\mathbb{R}^d$ with respect to distributions $P$ on $\\mathbb{R}^d$. Asymptotic theory for the sample SD is based on its representation as a $U$-statistic, which can be either non-degenerate or degenerate. For $d=2$, we prove under mild conditions that this $U$-statistic is degenerate with rate $n$ if and only if $x$ is a center of symmetry of $P$. Otherwise, the asymptotic distribution of SD is non-degenerate with rate $\\sqrt{n}$. Because the location of the center of symmetry of $P$ is usually unknown, these two modes of behavior complicate the estimation of the sample distribution of SD at $x$. We propose a two-step adaptive subsampling procedure for estimating that distribution. First, an estimator $\\widehat γ$ of a parameter $γ\\in\\{1/2, 1\\}$ characterizing the correct rate of convergence $n^γ$ of SD is constructed based on subsampling. Our estimator uses a bias correction suitable for $U$-statistics. Second, $\\widehat γ$ is employed for approximating the distribution of the sample SD. We prove the consistency of this subsampling approach and illustrate its usefulness (i) in the construction of confidence intervals for SD, and (ii) in an SD-based supervised classification task\n\nAuthors: Carsten Jentsch, Stanislav Nagy, Martin Wendler\nCategories: stat.ME, stat.ME",
+  "word_count": 196,
+  "published_at": "2026-08-11T16:50:19Z",
+  "ingested_at": "2026-08-12T11:06:16.795Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
