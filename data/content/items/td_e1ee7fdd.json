@@ -1,0 +1,38 @@
+{
+  "id": "td_e1ee7fdd",
+  "source": "arxiv",
+  "source_id": "2608.12277",
+  "source_url": "https://arxiv.org/abs/2608.12277",
+  "content_type": "paper",
+  "creator": {
+    "id": "anton_v_ievlev",
+    "name": "Anton V Ievlev",
+    "handle": "Anton V Ievlev, Heather Hare, Yiyang Li, Sergei V Kalinin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PACE-SIMS: Checkpoint-Gated Autonomous SIMS Characterization with AI-Agent Quality Control",
+  "body_text": "PACE-SIMS: Checkpoint-Gated Autonomous SIMS Characterization with AI-Agent Quality Control\n\nTime-of-flight secondary ion mass spectrometry (ToF-SIMS) is widely used for local chemical investigations across a broad range of materials and systems. However, its operation is expensive in expert time: a trained researcher must supervise acquisition throughout, dynamically tuning parameters throughout the experiment, often across a campaign spanning multiple days. Here, we present PACE-SIMS, an agentic workflow which runs a SIMS study as a human-AI collaboration. Here, the researcher specifies the scientific questions and quality requirements, and an AI agent builds the plan and, after approval, executes it autonomously, pausing at checkpoints to judge each measurement and to correct, retry, or escalate. To validate the approach, we applied it to a study of chemical composition in 18O-enriched WOx films. During this blind randomized, two-polarity study (8.1 hours, 35 measurements) the agent made three unscripted corrections a fixed script would have missed, and all four predictions held against the sealed ground truth. The same run returned transferable measurement science, including a composition calibration, a 5.3% isotope-reading offset between the two ion polarities, and the deposition's tracer-delivery mechanism, from less than two hours of researcher attention. The developed agentic architecture is not specific to SIMS and can be applied to other analytical techniques, with primary target being the destructive measurements for which optimization methods are poorly applicable.\n\nAuthors: Anton V Ievlev, Heather Hare, Yiyang Li, Sergei V Kalinin\nCategories: cond-mat.mtrl-sci, cond-mat.mtrl-sci",
+  "word_count": 214,
+  "published_at": "2026-08-12T17:17:23Z",
+  "ingested_at": "2026-08-13T11:04:37.957Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.mtrl-sci",
+    "cond-mat.mtrl-sci"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

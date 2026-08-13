@@ -1,0 +1,38 @@
+{
+  "id": "td_6936a2fd",
+  "source": "arxiv",
+  "source_id": "2608.12269",
+  "source_url": "https://arxiv.org/abs/2608.12269",
+  "content_type": "paper",
+  "creator": {
+    "id": "bryan_torres",
+    "name": "Bryan Torres",
+    "handle": "Bryan Torres, Daniel Riofrío, José Vega-Sánchez, Nathaly Orozco, Carla Parra, Karen Rosero, Felipe Grijalva",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Cascaded Unsupervised-Supervised NLP Pipeline for Detecting Accusatory Language in Public Procurement",
+  "body_text": "A Cascaded Unsupervised-Supervised NLP Pipeline for Detecting Accusatory Language in Public Procurement\n\nPublic procurement involves the allocation of substantial financial resources; therefore, continuous oversight through audits, controls, and monitoring mechanisms is essential. However, stakeholder comments and publicly available government data are often underutilized, despite their potential to reveal procedural irregularities. To address this gap, this paper analyzes metadata from Ecuador's Sistema Oficial de Contratación Pública (SOCE, Official Public Procurement System), with particular emphasis on participant comments generated during the pre-contractual phase. We propose a hybrid modeling framework that integrates unsupervised clustering and supervised classification within a natural language processing (NLP) pipeline to uncover latent patterns and detect potentially irregular procurement processes. Semantic embeddings are generated using Word2Vec, LLaMA, and RoBERTa, followed by Gaussian Mixture Models (GMMs) for unsupervised clustering. A supervised classification stage is then applied to identify accusatory or whistleblowing-style comments. Experimental results show that the combination of domain-trained Word2Vec embeddings, GMM-based clustering, and a Random Forest classifier achieves high precision and recall, even under severe class imbalance. These findings demonstrate that lightweight, domain-adapted NLP architectures can effectively support risk identification and enhance transparency in public procurement systems without requiring large-scale computational infrastructure.\n\nAuthors: Bryan Torres, Daniel Riofrío, José Vega-Sánchez, Nathaly Orozco, Carla Parra, Karen Rosero, Felipe Grijalva\nCategories: cs.CL, cs.CL",
+  "word_count": 182,
+  "published_at": "2026-08-12T17:09:14Z",
+  "ingested_at": "2026-08-13T11:04:24.218Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

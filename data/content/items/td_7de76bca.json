@@ -1,0 +1,38 @@
+{
+  "id": "td_7de76bca",
+  "source": "arxiv",
+  "source_id": "2608.12252",
+  "source_url": "https://arxiv.org/abs/2608.12252",
+  "content_type": "paper",
+  "creator": {
+    "id": "usama_imdad",
+    "name": "Usama Imdad",
+    "handle": "Usama Imdad, Ali Khan, Luke Lu, Zubair Khalid, Arif Mahmood",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Automated Borehole Core Analysis with Report-Derived Weak Labels and Supervised Crack Segmentation",
+  "body_text": "Automated Borehole Core Analysis with Report-Derived Weak Labels and Supervised Crack Segmentation\n\nBorehole archives commonly contain core tray photographs and corresponding digital log reports, but no native pixel-level crack annotations. We investigate two complementary approaches for extracting defect-spacing information from these archives. First, structured spacing categories recovered from the report text layer provide weak interval-level labels for classification. A DINO encoder trained on unlabeled core crops supplies domain-specific representations, and a manually verified subset is used to identify label inconsistencies. Second, we manually annotate 5,087 extracted core-row images and evaluate fully supervised crack-segmentation models. Our gated U-Net combines PiDiNet edge maps with Mask R-CNN masks through a learned spatial gating mechanism. This configuration achieves an F1 score of 0.860 and a crack-class IoU of 0.754, the highest result among the evaluated segmentation configurations. Deterministic post-processing converts predicted crack locations into defect-spacing categories. Separate rule-based branches estimate core-relative bedding angles and lithological color descriptors; their predictions agree with log-report references on 75.4% and 84.7% of 1,200 evaluated images, respectively. Because these references are extracted from existing reports, the reported values measure agreement with recorded geological observations rather than independent physical accuracy. The resulting framework combines report-derived weak supervision for spacing classification with fully supervised segmentation for image-based crack localization.\n\nAuthors: Usama Imdad, Ali Khan, Luke Lu, Zubair Khalid, Arif Mahmood\nCategories: cs.CV, cs.CV",
+  "word_count": 196,
+  "published_at": "2026-08-12T16:51:52Z",
+  "ingested_at": "2026-08-13T11:04:45.131Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

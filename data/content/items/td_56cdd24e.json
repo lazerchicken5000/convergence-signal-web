@@ -1,0 +1,38 @@
+{
+  "id": "td_56cdd24e",
+  "source": "arxiv",
+  "source_id": "2608.12297",
+  "source_url": "https://arxiv.org/abs/2608.12297",
+  "content_type": "paper",
+  "creator": {
+    "id": "po-wei_huang",
+    "name": "Po-Wei Huang",
+    "handle": "Po-Wei Huang, Bence Bakó, Bálint Koczor",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Eigenstate Preparation Through Near-Optimal Eigenprobability Filtering",
+  "body_text": "Eigenstate Preparation Through Near-Optimal Eigenprobability Filtering\n\nQuantum simulation is expected to be a main application of quantum computers with realistic utility in quantum chemistry, materials science and beyond. However, preparing excited or general eigenstates is a central challenge, particularly when the desired eigenvalue is not known in advance, or when the overlap with the initial state is insufficient. We introduce the Dominant Eigenstate Filtering via Eigenprobability Amplification and Thresholding (DEFEAT) algorithm that identifies and filters the eigenstate with the largest overlap with the supplied initial state. Our key observation is that we do not need prior knowledge of the target eigenvalue, as we construct efficient twirling superoperators that map initial states to eigenprobability density operators $ρ$, diagonal in the Hamiltonian eigenbasis and encoding its spectral weights, alongside its block-encoding implementation. Our crucial innovation is the quadratic amplification of probabilities via the factorisation $ρ=ρ_{\\rm sqrt}^\\daggerρ_{\\rm sqrt}$, analogous to the recently introduced sum-of-squares spectral amplification (SOSSA), which we use here to amplify the separation between dominant and subdominant components. Thresholding then yields the dominant-eigenstate projector. Compared with conventional phase estimation, DEFEAT improves the dependence on the overlap with the initial state while requiring substantially fewer ancillary qubits. We prove that the query complexity of the filtering step is optimal up to logarithmic factors and establish a complementary lower bound for eigenstate preparation under purified query access to $ρ$. We validate in numerical simulations that the convergence rate of DEFEAT matches our theoretical results. Our results provide a general eigenvalue-agnostic primitive for dominant eigenstate filtering and preparation, and for estimating properties of dominant eigenstates.\n\nAuthors: Po-Wei Huang, Bence Bakó, Bálint Koczor\nCategories: quant-ph, quant-ph",
+  "word_count": 255,
+  "published_at": "2026-08-12T17:39:15Z",
+  "ingested_at": "2026-08-13T11:04:52.088Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_6389aa58",
+  "source": "arxiv",
+  "source_id": "2608.12286",
+  "source_url": "https://arxiv.org/abs/2608.12286",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhipeng_chang",
+    "name": "Zhipeng Chang",
+    "handle": "Zhipeng Chang, Wenpeng Yin, Wenrui Hao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PatternFormer: Learning Multiple Solution Patterns in Reaction--Diffusion Systems",
+  "body_text": "PatternFormer: Learning Multiple Solution Patterns in Reaction--Diffusion Systems\n\nMany nonlinear models across physics, chemistry, and biology exhibit multiple solutions for the same parameters, and capturing this entire solution set is essential for understanding pattern-forming systems. Yet existing learned surrogates are fundamentally single-valued: neural operators map each parameter to a single output, and physics-informed neural networks converge to one branch. We develop \\textbf{PatternFormer} (PF), a large language model-based framework for learning the multiple solutions of nonlinear partial differential equations. By transforming unordered coexisting solutions into canonical sequences, PF produces structured solution sets in a single autoregressive pass, terminating automatically for finite families and enforcing physical residual constraints for unbounded ones. On nonlinear elliptic problems it recovers all solution branches in one inference step; on Gray--Scott it generates coexisting Turing patterns, including physically valid states absent from the reference data and beyond training. PF can also be sequentially fine-tuned across multistable systems, toward general foundation models for solution landscapes.\n\nAuthors: Zhipeng Chang, Wenpeng Yin, Wenrui Hao\nCategories: math-ph, math-ph",
+  "word_count": 149,
+  "published_at": "2026-08-12T17:31:38Z",
+  "ingested_at": "2026-08-13T11:04:45.130Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math-ph",
+    "math-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

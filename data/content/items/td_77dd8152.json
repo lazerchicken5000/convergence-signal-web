@@ -1,0 +1,38 @@
+{
+  "id": "td_77dd8152",
+  "source": "arxiv",
+  "source_id": "2608.12231",
+  "source_url": "https://arxiv.org/abs/2608.12231",
+  "content_type": "paper",
+  "creator": {
+    "id": "francesco_bacchiocchi",
+    "name": "Francesco Bacchiocchi",
+    "handle": "Francesco Bacchiocchi, Tommaso Cesari, Roberto Colomboni",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "An Efficient Near-Optimal Algorithm for Adversarial $m$-Set Bandits",
+  "body_text": "An Efficient Near-Optimal Algorithm for Adversarial $m$-Set Bandits\n\nWe study adversarial combinatorial bandits with $m$-set actions, where at each round the learner selects $m$ out of $d$ items and observes only the aggregate loss of the selected items. The resulting action set contains $K=\\binom{d}{m}$ elements and can therefore be exponentially large. Nevertheless, the loss of every action is determined by the same $d$-dimensional vector of item losses. We propose a computationally efficient algorithm that exploits this structure without explicitly enumerating the action set. Against adaptive non-anticipating adversaries, it guarantees, with probability at least $1-δ$, regret against the best fixed action of \\[ R_T = O\\left(\\sqrt{dT\\log(K/δ)}\\right). \\] This matches the high-probability regret bound of the finite-action EXP3-KW algorithm of Zimmert and Lattimore, whose direct implementation may require exponential space. Our algorithm instead represents each sampling distribution with $d$ parameters and runs in polynomial time without enumerating the action set. Thus, it resolves the open problem posed by Maiti et al.\n\nAuthors: Francesco Bacchiocchi, Tommaso Cesari, Roberto Colomboni\nCategories: cs.LG, cs.LG",
+  "word_count": 151,
+  "published_at": "2026-08-12T16:28:06Z",
+  "ingested_at": "2026-08-13T11:04:30.868Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
