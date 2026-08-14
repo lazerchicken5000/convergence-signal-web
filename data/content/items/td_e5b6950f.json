@@ -1,0 +1,35 @@
+{
+  "id": "td_e5b6950f",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+  "source_url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "sqlite-utils 4.2",
+  "body_text": "Release: sqlite-utils 4.2\n        Lots of improvements in this one relating to the table.transform() feature, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.\ntransform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns.\nThere are also new introspection properties for check constraints, and a whole lot of other smaller changes.\nIncludes contributions from Bunlong Heng, ethanhawkes-gif, Rami Abdelrazzaq, nyxst4ck, and ikatyal2110.\n(It later turned out 4.2 had a crashing bug, fixed in 4.2.1.)\n    \n    \n        Tags: releases, sqlite, sqlite-utils",
+  "word_count": 105,
+  "published_at": "2026-08-13T20:11:29.000Z",
+  "ingested_at": "2026-08-14T11:00:11.251Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

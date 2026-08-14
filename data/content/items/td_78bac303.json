@@ -1,0 +1,35 @@
+{
+  "id": "td_78bac303",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+  "source_url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm-gemini 0.33",
+  "body_text": "Release: llm-gemini 0.33\n        It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash, gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001.\nThe plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern:\nllm -m gemini-3.7-flash -T CodeExecution \\\n  'use python to calculate (factorial of 13) * 3'\n\nI had Gemini 3.7 Flash draw me some pelicans riding bicycles at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great:\n\nOne catch though: the pelican I showed here was rendered with Safari. Both Firefox and Chrome render it differently, due to Safari being more tolerant of empty SVG &lt;filter&gt; elements than those other two browsers.\nThey still display the bicycle, but the pelican is missing entirely!\n\n    \n    \n        Tags: google, ai, generative-ai, llms, llm, gemini, pelican-riding-a-bicycle, llm-release",
+  "word_count": 173,
+  "published_at": "2026-08-13T19:37:34.000Z",
+  "ingested_at": "2026-08-14T11:00:11.251Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
