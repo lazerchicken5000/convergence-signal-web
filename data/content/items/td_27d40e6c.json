@@ -1,0 +1,35 @@
+{
+  "id": "td_27d40e6c",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+  "source_url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Don't classify. Hallucinate!",
+  "body_text": "Don&#x27;t classify. Hallucinate!\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".\nDoug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!\nHis example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:\n\nYour task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.\nProduct classifications might look like:\nFurniture / Living Room Furniture / Coffee Tables &amp; End Tables / Coffee Tables\nDécor &amp; Pillows / Decorative Pillows &amp; Blankets / Throw Pillows\nFurniture / Bedroom Furniture / Dressers &amp; Chests\nKitchen &amp; Tabletop / Kitchen Organization / Food Storage &amp; Canisters\nSchool Furniture and Supplies / School Furniture / School Chairs &amp; Seating / Stackable Chairs\nBaby &amp; Kids / Toddler &amp; Kids Bedroom Furniture / Kids Beds\nHere's the query to generate classifications for:\nbrown coffee table\n\n\n\n    Tags: search, ai, generative-ai, llms, embeddings, doug-turnbull",
+  "word_count": 228,
+  "published_at": "2026-08-14T21:54:35.000Z",
+  "ingested_at": "2026-08-15T11:00:11.074Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
