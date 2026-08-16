@@ -1,0 +1,35 @@
+{
+  "id": "td_57baf58c",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+  "source_url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "CORS Chat",
+  "body_text": "Tool: CORS Chat\n        I built this today (with GPT-5.6-Sol xhigh) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.\nIt provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine.\nConversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in.\n\n    \n    \n        Tags: svg, ai, generative-ai, llms, cors, openrouter, lm-studio",
+  "word_count": 106,
+  "published_at": "2026-08-15T14:49:54.000Z",
+  "ingested_at": "2026-08-16T11:00:10.040Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
