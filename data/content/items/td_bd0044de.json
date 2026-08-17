@@ -1,0 +1,42 @@
+{
+  "id": "td_bd0044de",
+  "source": "arxiv",
+  "source_id": "2608.14502",
+  "source_url": "https://arxiv.org/abs/2608.14502",
+  "content_type": "paper",
+  "creator": {
+    "id": "juno_nam",
+    "name": "Juno Nam",
+    "handle": "Juno Nam, Bowen Deng, Xiaochen Du, Luis Barroso-Luque, Benjamin Kurt Miller, Rafael Gómez-Bombarelli",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
+  "body_text": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials\n\nFree energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We introduce the thermodynamic interatomic potential (TIP), which extends an interatomic potential from its static energy to a thermodynamically consistent Gibbs free energy model, with thermodynamic responses following from temperature and pressure by automatic differentiation. We implement TIP[UMA] using the universal potential UMA, train it on free energies from quasi-harmonic to molecular dynamics fidelity, and calibrate it to higher-resolution calculations or experiment. From a single evaluation, it returns the equation of state of a crystal and locates phase transitions among competing branches, including dynamically stabilized phases. Fine-tuning extends the model to alloy solubility limits and miscibility gaps. TIP makes the free energy as accessible as the potential energy, opening finite-temperature phase stability to high-throughput discovery.\n\nAuthors: Juno Nam, Bowen Deng, Xiaochen Du, Luis Barroso-Luque, Benjamin Kurt Miller, Rafael Gómez-Bombarelli\nCategories: cond-mat.mtrl-sci, cond-mat.stat-mech, cs.AI, cs.LG, physics.chem-ph, cond-mat.mtrl-sci",
+  "word_count": 138,
+  "published_at": "2026-08-14T17:16:27Z",
+  "ingested_at": "2026-08-17T11:04:14.966Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.mtrl-sci",
+    "cond-mat.stat-mech",
+    "cs.AI",
+    "cs.LG",
+    "physics.chem-ph",
+    "cond-mat.mtrl-sci"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

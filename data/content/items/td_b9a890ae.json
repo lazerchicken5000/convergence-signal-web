@@ -1,0 +1,38 @@
+{
+  "id": "td_b9a890ae",
+  "source": "arxiv",
+  "source_id": "2608.14499",
+  "source_url": "https://arxiv.org/abs/2608.14499",
+  "content_type": "paper",
+  "creator": {
+    "id": "zohar_barak",
+    "name": "Zohar Barak",
+    "handle": "Zohar Barak, Inbal Talgam-Cohen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Ex-ante versus Ex-post: Egalitarian Facility Location Mechanism Design",
+  "body_text": "Ex-ante versus Ex-post: Egalitarian Facility Location Mechanism Design\n\nWe study the facility location mechanism design problem where $n$ strategic agents report locations in Euclidean space and the mechanism outputs a single facility location. Each agent's cost is its distance from the facility, and our objective is to minimize the egalitarian cost, i.e., the maximum agent cost, in a strategyproof way. The optimal deterministic approximation ratio is $2$, achieved by any dictator mechanism. We study the power of randomized strategyproof-in-expectation mechanisms. Prior work has focused on ex-post evaluation, defined as the expected maximum agent cost. We instead study ex-ante evaluation, defined as the maximum expected agent cost, which is naturally aligned with strategyproofness in expectation. We establish the following results: (1) Low dimensions: Strict ex-ante vs. ex-post separation. In $\\mathbb{R}$, we give a simple strategyproof mechanism achieving the optimal ex-ante approximation ratio of $1$. In $\\mathbb{R}^2$, we design the \"Random Rotated Corner\" mechanism, with ex-ante approximation ratio at most $1.598$, breaking the deterministic barrier. For the ex-post objective, we prove a lower bound of $1.605$, yielding a strict separation in $\\mathbb{R}^2$. (2) High dimensions: Impossibility. In $\\mathbb{R}^d$ for $d \\gg 1$, we show that no strategyproof-in-expectation mechanism improves on the deterministic dictator mechanism beyond $o_d(1)$. Thus neither ex-post nor ex-ante evaluation yields improved fairness guarantees in high dimensions. An implication is that the \"Random Rotation Coordinate-Wise Median\" (RRCWM), currently the best known mechanism for the utilitarian objective, is also best possible for the egalitarian objective in high dimension: we show it achieves an approximation ratio of $2$ for both ex-post and ex-ante objectives in $\\mathbb{R}^d$ for every $d \\ge 1$.\n\nAuthors: Zohar Barak, Inbal Talgam-Cohen\nCategories: cs.GT, cs.GT",
+  "word_count": 261,
+  "published_at": "2026-08-14T17:13:42Z",
+  "ingested_at": "2026-08-17T11:04:35.542Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

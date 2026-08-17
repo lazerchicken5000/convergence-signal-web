@@ -1,0 +1,38 @@
+{
+  "id": "td_b7c9686d",
+  "source": "arxiv",
+  "source_id": "2608.14504",
+  "source_url": "https://arxiv.org/abs/2608.14504",
+  "content_type": "paper",
+  "creator": {
+    "id": "emily_j_evans",
+    "name": "Emily J Evans",
+    "handle": "Emily J Evans, Weihong Guo, Carlotta Domenicon",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RegRole: Regularized Role Detection and Prediction in Temporal Dynamic Networks",
+  "body_text": "RegRole: Regularized Role Detection and Prediction in Temporal Dynamic Networks\n\nThis paper introduces a dynamic role discovery technique in temporal dynamic networks, utilizing temporally regularized Non-negative Matrix Factorization (NMF). Our technique differs from existing dynamic role analysis techniques by creating a consistent set of roles across all time periods, as well as a universal transition matrix that describes the probability of transitioning between roles. We also apply a regularization penalty to ensure that role membership does not change dramatically between time periods making our model more robust against real-world noise. We test our data on five real-world and one synthetically simulated dataset using both engineered and automatically generated features. We demonstrate that the proposed regularized role detection method, for appropriate regularization weight parameter reduces prediction errors compared to other techniques. Furthermore, trace analysis of the transition matrices indicates that our method yields a more stable system, that is, individuals are more likely to stay in their roles with fewer arbitrary transitions. Our model learns time-aligned roles, captures behavioral transitions over time, and scales efficiently to large and sparse graphs.\n\nAuthors: Emily J Evans, Weihong Guo, Carlotta Domenicon\nCategories: cs.SI, cs.SI",
+  "word_count": 169,
+  "published_at": "2026-08-14T17:17:34Z",
+  "ingested_at": "2026-08-17T11:04:42.654Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SI",
+    "cs.SI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

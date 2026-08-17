@@ -1,0 +1,38 @@
+{
+  "id": "td_e7039728",
+  "source": "arxiv",
+  "source_id": "2608.14520",
+  "source_url": "https://arxiv.org/abs/2608.14520",
+  "content_type": "paper",
+  "creator": {
+    "id": "frederico_furtado",
+    "name": "Frederico Furtado",
+    "handle": "Frederico Furtado, Felipe Pereira, Li-Ming Yeh",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Comment on arXiv:2106.08363v3 [math.NA], E. Abreu, A. Espirito Santo, W. Lambert, and J. Perez, Convergence of a Lagrangian--Eulerian scheme by a weak asymptotic analysis for one-dimensional hyperbolic problems",
+  "body_text": "Comment on arXiv:2106.08363v3 [math.NA], E. Abreu, A. Espirito Santo, W. Lambert, and J. Perez, Convergence of a Lagrangian--Eulerian scheme by a weak asymptotic analysis for one-dimensional hyperbolic problems\n\nThis Comment concerns arXiv:2106.08363v3 [math.NA] by E. Abreu, A. Espirito Santo, W. Lambert and J. Perez, published in Numer. Methods Partial Differential Equations 39 (2023) 2400-2443. That article builds its scheme on space-time control volumes whose lateral boundaries, called \"no-flow curves\", solve dsigma/dt = H(u)/u and are presented as new. We show, equation by equation, that this object is the space-time integral curve of the locally conservative Eulerian-Lagrangian method of Douglas, Pereira and Yeh [Comput. Geosci. 4 (2000) 1-40], that the no-flow region is the tube those curves bound, and that its scalar forward-tracked form appears in Mancuso, Pereira and de Souza [TEMA 8 (2007) 269-276, 277-286]. At issue is not moving a control volume, which is generic, but which curve moves it: H'(u) and H(u)/u coincide identically only for a linear flux, and only the latter makes lateral mass flux vanish. The commented article itself calls the 2000 paper the first to introduce space-time local conservation, with an integral tube bounded by integral curves, while its abstract calls the same object introduced by the authors. A full-text corpus documents the changing terminology and attribution. Papers published in 2025 and 2026 use the same construction while citing later work but not DPY. Another 2026 paper gives mixed attribution: it calls the no-flow curve an \"extension\" of the DPY integral curve, although its own zero-flux definition and ratio ODE show identity, and it states that diffusion and dispersion do not modify the defining vector field. It extends the model, scheme and analysis, not the continuous curve. The later discrete contributions are not challenged.\n\nAuthors: Frederico Furtado, Felipe Pereira, Li-Ming Yeh\nCategories: math.NA, math.NA",
+  "word_count": 262,
+  "published_at": "2026-08-14T17:42:26Z",
+  "ingested_at": "2026-08-17T11:04:49.860Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

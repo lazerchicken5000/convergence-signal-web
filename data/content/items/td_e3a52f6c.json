@@ -1,0 +1,38 @@
+{
+  "id": "td_e3a52f6c",
+  "source": "arxiv",
+  "source_id": "2608.14501",
+  "source_url": "https://arxiv.org/abs/2608.14501",
+  "content_type": "paper",
+  "creator": {
+    "id": "bar_alon",
+    "name": "Bar Alon",
+    "handle": "Bar Alon, Itai Dinur, Muthuramakrishnan Venkitasubramaniam",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Lower Bounds on Black-Box Constructions of Pseudorandom Functions",
+  "body_text": "Lower Bounds on Black-Box Constructions of Pseudorandom Functions\n\nIn their seminal work, Goldreich, Goldwasser, and Micali [CRYPTO 1984] constructed a pseudorandom function (PRF) using a black-box access to a pseudorandom generator (PRG). When combined with Levin's domain extension technique, the GGM construction invokes the PRG $ω(\\log n)$ times, where $n$ denotes the input length to the PRG. To this day, no black-box construction achieving fewer calls is known. Recently, Beimel, Malkin, and Mazor [CRYPTO 2024] showed that for a certain family of constructions, which they termed \\emph{tree constructions}, the GGM construction is optimal. However, the basic challenge of whether a PRF can be built with just \\emph{one invocation} of the PRG still remains open. In this work, we consider fully black-box constructions of PRFs from PRGs, where both the construction and the reduction are required to be black-box, and the number of interactions the reduction makes with the adversary is independent of the number of oracle calls the adversary makes to its underlying function within each interaction. Our main result shows that no such construction can have $o(n/\\log n)$ and $o(\\mathsf{in}/\\log\\mathsf{in})$ \\emph{non-adaptive} calls to the PRG, where $\\mathsf{in}$ is the input length of the PRF. This impossibility holds even for weak PRFs with one-bit output, where the adversary is restricted to making i.i.d. uniformly random queries. In addition, we prove a lower bound for weak PRFs with sufficiently long outputs that holds even when the construction is allowed to make adaptive queries to the PRG.\n\nAuthors: Bar Alon, Itai Dinur, Muthuramakrishnan Venkitasubramaniam\nCategories: cs.CR, cs.CR",
+  "word_count": 237,
+  "published_at": "2026-08-14T17:15:54Z",
+  "ingested_at": "2026-08-17T11:04:49.862Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

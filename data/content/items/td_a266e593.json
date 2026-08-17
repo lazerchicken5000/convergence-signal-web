@@ -1,0 +1,39 @@
+{
+  "id": "td_a266e593",
+  "source": "arxiv",
+  "source_id": "2608.14527",
+  "source_url": "https://arxiv.org/abs/2608.14527",
+  "content_type": "paper",
+  "creator": {
+    "id": "evan_coleman",
+    "name": "Evan Coleman",
+    "handle": "Evan Coleman, Yuzhong Shen, Masha Sosonkina, Peng Xu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Validating LLM-Modernized Scientific Software Through Differential Fault Injection",
+  "body_text": "Validating LLM-Modernized Scientific Software Through Differential Fault Injection\n\nLarge language model (LLM) agents are increasingly used to modernize the legacy Fortran underlying production scientific software, but validation of these transformations emphasizes nominal executions and may not test whether a modernization preserves the original code's response to faults, perturbations, and reduced precision. We present a differential fault-injection validation method: a harness instruments the shared self-consistent-field driver of GAMESS at twelve sites and applies identical, deterministic faults to the original and LLM-modernized implementations, isolating the converted integral kernels. Across more than 2,200 runs, transient-fault absorption costs match a contraction-based model (predicted slopes 0.74 and 1.49 iterations per bit; measured 0.82 and 1.50), persistent perturbations halve final-energy error per additional bit, and the campaigns expose phase-dependent parallel deadlocks and false convergence under reduced precision. The original and modernized kernels agree in all 200 paired injections, and a measurement-guided synchronization change composes with the modernization, matching in all 40 pairs.\n\nAuthors: Evan Coleman, Yuzhong Shen, Masha Sosonkina, Peng Xu\nCategories: cs.DC, cs.SE, cs.DC",
+  "word_count": 148,
+  "published_at": "2026-08-14T17:45:55Z",
+  "ingested_at": "2026-08-17T11:04:35.542Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DC",
+    "cs.SE",
+    "cs.DC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "td_f6e79d3b",
+  "source": "arxiv",
+  "source_id": "2608.14528",
+  "source_url": "https://arxiv.org/abs/2608.14528",
+  "content_type": "paper",
+  "creator": {
+    "id": "masahiro_kato",
+    "name": "Masahiro Kato",
+    "handle": "Masahiro Kato, Taka Kato",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Handover of In-Context Learning State Across Session Boundaries",
+  "body_text": "Handover of In-Context Learning State Across Session Boundaries\n\nThis study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches the model's input limit, when the application restarts, or when another agent is asked to finish the task. The application must then decide which information from the earlier session to pass on. We formulate handover as the transfer of a task-relative in-context learning (ICL) state and distinguish exact recovery of earlier material from preservation of the target distribution. Under an exogeneity condition, predictive equivalence characterizes the coarsest deterministic sufficient handover and gives a fixed-length bit requirement. The analysis isolates the effects of the memory constraint, the writer, and the continuation procedure, and quantifies the cost of writing before the realized downstream query is known. We propose a three-part record that stores decisions and constraints exactly, uses task-justified statistics for repeated evidence, and retains original observations whose effect is not preserved by those statistics. Gaussian linear regression gives an exact finite-dimensional handover and finite-bit perturbation bounds, while nonparametric regression gives upper and lower bounds that relate memory to squared prediction error. These results provide a theory and method for deciding what a handover must retain and how its memory requirement depends on the continuation task.\n\nAuthors: Masahiro Kato, Taka Kato\nCategories: cs.AI, econ.EM, math.ST, stat.ME, stat.ML, cs.AI",
+  "word_count": 214,
+  "published_at": "2026-08-14T17:47:13Z",
+  "ingested_at": "2026-08-17T11:04:14.965Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "econ.EM",
+    "math.ST",
+    "stat.ME",
+    "stat.ML",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

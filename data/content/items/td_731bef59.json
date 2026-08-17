@@ -1,0 +1,39 @@
+{
+  "id": "td_731bef59",
+  "source": "arxiv",
+  "source_id": "2608.14516",
+  "source_url": "https://arxiv.org/abs/2608.14516",
+  "content_type": "paper",
+  "creator": {
+    "id": "jocelyn_xu",
+    "name": "Jocelyn Xu",
+    "handle": "Jocelyn Xu, Minje Kim",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Singer-Informed Vocal Source Separation for Multi-Singer Music Mixtures",
+  "body_text": "Singer-Informed Vocal Source Separation for Multi-Singer Music Mixtures\n\nMusic source separation systems typically extract a single vocal track and do not distinguish between multiple singers. We study singer-informed vocal source separation for multi-singer mixtures. Our framework introduces a short enrollment recording of a target singer to guide separation through a learned embedding. The singer embedding is incorporated using feature concatenation or feature-wise linear modulation (FiLM), enabling the model to focus on the target singer while suppressing interference. We construct a duet dataset based on DAMP-VSEP with quality filtering and non-overlapping enrollment segments. Experiments on solo and duet settings show that while baseline models perform well for single-singer mixtures, the proposed method improves target-singer extraction in multi-singer cases, increasing target-singer SI-SDR from 0.33 dB to 5.58 dB. Fréchet Audio Distance (FAD) further shows improved perceptual quality and better alignment with target audio distributions. Code and checkpoints are available at https://github.com/jocelynxu01/singer-separation-paper.\n\nAuthors: Jocelyn Xu, Minje Kim\nCategories: eess.AS, cs.SD, eess.AS",
+  "word_count": 141,
+  "published_at": "2026-08-14T17:38:16Z",
+  "ingested_at": "2026-08-17T11:04:42.653Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.AS",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

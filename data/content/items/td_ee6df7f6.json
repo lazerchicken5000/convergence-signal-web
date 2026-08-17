@@ -1,0 +1,38 @@
+{
+  "id": "td_ee6df7f6",
+  "source": "arxiv",
+  "source_id": "2608.14533",
+  "source_url": "https://arxiv.org/abs/2608.14533",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruizhe_wang",
+    "name": "Ruizhe Wang",
+    "handle": "Ruizhe Wang, Meng Xu, N. Asokan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Finding Vulnerabilities via LLM-Augmented Semantics-Aware Type-Checking",
+  "body_text": "Finding Vulnerabilities via LLM-Augmented Semantics-Aware Type-Checking\n\nVulnerability detection via static analysis traditionally relies on security experts encoding insecure coding patterns into algorithmic rules. However, this approach often focuses on syntactic patterns and overlooks deeper semantic information in the code, such as the meanings of variable and function names. As software systems grow more complex, modeling vulnerabilities using only syntactic rules becomes increasingly challenging. In this paper, we propose a semantics-aware approach to detecting software vulnerabilities. We present SETYPE, a semantics-aware type system that can be derived directly from source code based solely on the meanings of symbols and expressions in natural language. In the SETYPE type system, both type inference and checking are performed by Large Language Models (LLMs), and a failed type check indicates a potential vulnerability. We prototype PYSETYPE to demonstrate the feasibility of SETYPE for detecting vulnerabilities in Python web applications. Our evaluation on real-world applications achieves 87% detection precision and 88% detection accuracy. Using PYSETYPE, we identified 15 potential zero-day vulnerabilities, nine of which were confirmed by developers.\n\nAuthors: Ruizhe Wang, Meng Xu, N. Asokan\nCategories: cs.CR, cs.CR",
+  "word_count": 166,
+  "published_at": "2026-08-14T17:49:19Z",
+  "ingested_at": "2026-08-17T11:04:35.541Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

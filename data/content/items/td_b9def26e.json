@@ -1,0 +1,38 @@
+{
+  "id": "td_b9def26e",
+  "source": "arxiv",
+  "source_id": "2608.14548",
+  "source_url": "https://arxiv.org/abs/2608.14548",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuan_deng",
+    "name": "Yuan Deng",
+    "handle": "Yuan Deng, Vasilis Gkatzelis, Xizhi Tan, Grigoris Velegkas, Song Zuo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Forging Self-Funded Marketplaces among Strategic Agents",
+  "body_text": "Forging Self-Funded Marketplaces among Strategic Agents\n\nWe introduce the problem of designing mechanisms that incentivize strategic agents to form self-funded marketplaces. In our model, if agent $i$ exerts effort $x_i\\in [0,1]$, they incur a cost of $x_i\\cdot c_i$ (where $c_i$ is unknown to the mechanism designer) and they generate revenue $x_i\\cdot r_i$; crucially, $c_i$ can be greater or smaller than $r_i$. Each effort profile $\\mathbf{x}$ yields value $v(\\mathbf{x})$ and the objective is to choose an effort vector that maximizes the value while ensuring that every agent $i$ receives a payment $p_i\\geq x_i\\cdot c_i$ and that $\\mathbf{x}$ is budget-balanced, i.e., $\\sum_{i} p_i \\leq \\sum_{i} x_i\\cdot r_i$. This problem generalizes the well-studied budget-feasible mechanism design problem, where the requirement is that $\\sum_{i} p_i \\leq B$ for some predetermined budget $B$. To evaluate the performance of such mechanisms, we first consider the first-best benchmark (the optimal value achievable in the absence of any private information) and show that no truthful auction can achieve a bounded approximation of this benchmark. Also, even in restricted settings, no auction can achieve better than a logarithmic approximation. We complement these results by proposing a class of sequential auctions whose subgame perfect equilibria guarantee a logarithmic approximation of this benchmark. We then introduce an alternative benchmark, the maximin share (MMS), that better captures the thickness of the market and we provide an auction whose subgame perfect equilibria achieve a constant approximation of this benchmark.\n\nAuthors: Yuan Deng, Vasilis Gkatzelis, Xizhi Tan, Grigoris Velegkas, Song Zuo\nCategories: cs.GT, cs.GT",
+  "word_count": 230,
+  "published_at": "2026-08-14T17:59:38Z",
+  "ingested_at": "2026-08-17T11:04:35.541Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
