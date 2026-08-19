@@ -1,0 +1,39 @@
+{
+  "id": "td_75207957",
+  "source": "arxiv",
+  "source_id": "2608.18008",
+  "source_url": "https://arxiv.org/abs/2608.18008",
+  "content_type": "paper",
+  "creator": {
+    "id": "christophe_d._hounwanou",
+    "name": "Christophe D. Hounwanou",
+    "handle": "Christophe D. Hounwanou, John Emeka Eze, Yaé U. Gaba",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+  "body_text": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents\n\nCombining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the LLM per-state progress score is used as a bounded potential function, the resulting shaping term preserves the optimal policy set even when the LLM scores are inaccurate. This guarantee is stronger than what general LLM-as-reward approaches provide. We verify the result numerically on a small MDP under four potential configurations, including an adversarial one scaled to twenty times the base reward magnitude.\n\nAuthors: Christophe D. Hounwanou, John Emeka Eze, Yaé U. Gaba\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 103,
+  "published_at": "2026-08-18T16:55:46Z",
+  "ingested_at": "2026-08-19T11:04:39.530Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
