@@ -1,0 +1,38 @@
+{
+  "id": "td_073ae095",
+  "source": "arxiv",
+  "source_id": "2608.19133",
+  "source_url": "https://arxiv.org/abs/2608.19133",
+  "content_type": "paper",
+  "creator": {
+    "id": "steven_morse",
+    "name": "Steven Morse",
+    "handle": "Steven Morse, Daniel Runfola, Trenton W. Ford",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Comment-level Topic Drift Analysis in the Reddit Corpus",
+  "body_text": "Comment-level Topic Drift Analysis in the Reddit Corpus\n\nWe present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we analyzed 12.7 billion Reddit comments spanning 2006 to 2022. Using unsupervised methods on these embeddings, we identify dynamically evolving topic clusters over time. Our primary contribution is a methodology for analysis of semantic drift and discourse evolution in the embedding space itself. We also demonstrate modifications to existing methods that enable this analysis at scale, and we propose and demonstrate a null model comparison test to filter spurious dynamics. Key findings suggest that politically and socially contentious topics exhibit significant directional drift in embedding space, with inter-topic distances changing systematically over time beyond what the null model can explain, whereas domains such as music and sports remain comparatively stable.\n\nAuthors: Steven Morse, Daniel Runfola, Trenton W. Ford\nCategories: cs.CL, cs.CL",
+  "word_count": 148,
+  "published_at": "2026-08-19T17:27:25Z",
+  "ingested_at": "2026-08-20T11:04:51.578Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

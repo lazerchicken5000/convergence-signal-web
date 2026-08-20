@@ -1,0 +1,41 @@
+{
+  "id": "td_863fc29c",
+  "source": "arxiv",
+  "source_id": "2608.18061",
+  "source_url": "https://arxiv.org/abs/2608.18061",
+  "content_type": "paper",
+  "creator": {
+    "id": "akshay_balsubramani",
+    "name": "Akshay Balsubramani",
+    "handle": "Akshay Balsubramani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The concentration game: Bayesian updating, regret, and information",
+  "body_text": "The concentration game: Bayesian updating, regret, and information\n\nWe give a two-player zero-sum repeated game between a learner and nature whose value identity generates Bayesian updating and an exact accounting of exponential-weights regret at once, and supplies the comparator-class variational form that a wide class of concentration phenomena share. The terminal payoff is the most a comparator can gain at fixed relative entropy from the prior, and the one-step constraint is an information budget on nature's move under the learner's mixed action. With the learner's move otherwise unrestricted, Gibbs/Bayes weights emerge as its unique Bellman equalizer -- the mixed action that makes the per-round loss independent of which direction nature moves -- with log-partition functions playing the role of value functions. The regret decomposes exactly into three parts: a per-round information loss reflecting the variation in observed outcomes, an additive retempering drift that accounts exactly for any change of measurement scale between rounds, and the information the comparator carries relative to the prior. The variance and bounded-range proxies that drive standard regret bounds are looser relaxations of this decomposition, which holds generally and governs them all. Both players' strategies are read off from the decomposition term by term, and repeated play yields an information-theoretic ledger of self-play in place of the usual quadratic-variation surrogate. The same comparator-class geometry accounts for the classical large-deviation bounds, and methods across bandits, posterior sampling, aggregation, and boosting are specializations of the one regret decomposition.\n\nAuthors: Akshay Balsubramani\nCategories: cs.LG, cs.GT, math.PR, math.ST, cs.LG",
+  "word_count": 232,
+  "published_at": "2026-08-18T17:52:26Z",
+  "ingested_at": "2026-08-19T13:04:39.053Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.GT",
+    "math.PR",
+    "math.ST",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

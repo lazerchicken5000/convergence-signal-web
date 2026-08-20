@@ -1,0 +1,38 @@
+{
+  "id": "td_fb96a131",
+  "source": "arxiv",
+  "source_id": "2608.18039",
+  "source_url": "https://arxiv.org/abs/2608.18039",
+  "content_type": "paper",
+  "creator": {
+    "id": "a._jesse_jiryu_davis",
+    "name": "A. Jesse Jiryu Davis",
+    "handle": "A. Jesse Jiryu Davis, Jeremy Mikola, Jeff Yemin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Polyglot's Dilemma: Conformance Testing a Dozen Specs in as Many Languages",
+  "body_text": "The Polyglot's Dilemma: Conformance Testing a Dozen Specs in as Many Languages\n\nMongoDB maintains client libraries in a dozen programming languages, used by tens of thousands of organizations and millions of developers. Most are implemented natively rather than as wrappers around a shared core. Ensuring consistent behavior across these libraries, comprising millions of lines of code, is hard but essential. Over eleven years, we developed a specification-based testing approach: tests are written once in YAML and executed by language-specific interpreters for each library. We describe the evolution from many ad-hoc formats to a Unified Test Format, which allowed us to delete over 22,000 lines of test code. The rate of nonconformance bugs fell up to 86% in drivers that adopted YAML tests (though results varied). We report lessons learned about declarative test design, test architecture, schema evolution, and the limits of unification.\n\nAuthors: A. Jesse Jiryu Davis, Jeremy Mikola, Jeff Yemin\nCategories: cs.SE, cs.SE",
+  "word_count": 130,
+  "published_at": "2026-08-18T17:32:47Z",
+  "ingested_at": "2026-08-19T13:04:53.049Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

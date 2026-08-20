@@ -1,0 +1,39 @@
+{
+  "id": "td_630c764b",
+  "source": "arxiv",
+  "source_id": "2608.19165",
+  "source_url": "https://arxiv.org/abs/2608.19165",
+  "content_type": "paper",
+  "creator": {
+    "id": "thales_bertaglia",
+    "name": "Thales Bertaglia",
+    "handle": "Thales Bertaglia, Catalina Goanta, Gerasimos Spanakis, Gunes Acar",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
+  "body_text": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos\n\nChildSafeAds is a shared task on commercial content in YouTube videos likely to reach children and teenagers. It contains 3,360 videos from 939 channels. Each instance begins with a segment submitted to SponsorBlock, an open-source crowdsourced browser extension whose users mark sponsor segments so that others can skip them. We pair the segment with its available transcript, video and channel information, and a sales or service page linked from the video description. Systems determine what kind of offer is being promoted (ST1), assign product categories (ST2), and identify legal risk flags (ST3). The evidence is divided into four cumulative access levels, from the transcript to the linked page, so results can be compared against the cost of collecting the data. 45.5\\% of videos in our data failed to properly use the in-platform ad disclosure method (the ``Includes paid promotion'' label). GPT-5.4 produced the labels after the expert organiser team reviewed samples and iterated on the taxonomy, prompts and model choices. GPT-5.6-luna independently labelled the development set. This report describes the task, data and evaluation. An updated version will add participating systems and shared-task results.\n\nAuthors: Thales Bertaglia, Catalina Goanta, Gerasimos Spanakis, Gunes Acar\nCategories: cs.CL, cs.CY, cs.CL",
+  "word_count": 184,
+  "published_at": "2026-08-19T17:44:58Z",
+  "ingested_at": "2026-08-20T11:04:51.578Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CY",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_f2ffc579",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+  "source_url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+  "body_text": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript\n        I tasked Claude Fable 5 running in Claude Code for web with the following research task:\n\nPut https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files\nGoal is to be able to use this to execute user-provided tasks for things like data transformations\n\nIt quickly ran into a problem: the Claude Code for web environment can't run smol machines. Quoting the notes it wrote:\n\n\nThis Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. No /dev/kvm, no vmx/svm CPU flags → no nested virt.\nsmolvm machine run fails as expected: \"kvm not available\".\nPlan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit.\n\n\nAnd Plan B is what it did, installing smolvm and running these tests directly in a GitHub Actions runner against that branch.\nThat was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being relentlessly proactive.\n    \n    \n        Tags: research, sandboxing, ai, github-actions, generative-ai, llms, coding-agents, claude-mythos-fable",
+  "word_count": 237,
+  "published_at": "2026-08-19T23:16:00.000Z",
+  "ingested_at": "2026-08-20T11:00:11.326Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

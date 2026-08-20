@@ -15582,7 +15582,7 @@
       "vector_id": "tv_942e6fdd",
       "vector_text": "The industry is seeing an increasing need for advanced techniques and methods to enhance efficiency, accuracy, and scalability in AI-related fields.",
       "vector_type": "industry",
-      "sci": 0.97,
+      "sci": 0.88,
       "sci_level": "strong",
       "detection_count": 53,
       "unique_creators": [
@@ -15701,8 +15701,8 @@
       "vector_id": "tv_4f137782",
       "vector_text": "There is a growing demand for specialized tools and methods to address specific challenges in machine learning.",
       "vector_type": "industry",
-      "sci": 0.74,
-      "sci_level": "strong",
+      "sci": 0.67,
+      "sci_level": "emerging",
       "detection_count": 46,
       "unique_creators": [
         "jose e. aguilar escamilla",
@@ -15813,7 +15813,7 @@
       "vector_id": "tv_00decb32",
       "vector_text": "There is a growing demand for advanced techniques to improve the performance, reliability, and efficiency of AI models in complex tasks.",
       "vector_type": "industry",
-      "sci": 0.67,
+      "sci": 0.61,
       "sci_level": "emerging",
       "detection_count": 40,
       "unique_creators": [
@@ -15953,7 +15953,7 @@
       "vector_id": "tv_9aa267ab",
       "vector_text": "There is a growing demand for advanced techniques to handle complex data and systems, including AI and other fields.",
       "vector_type": "industry",
-      "sci": 0.65,
+      "sci": 0.59,
       "sci_level": "emerging",
       "detection_count": 43,
       "unique_creators": [
@@ -16062,7 +16062,7 @@
       "vector_id": "tv_581ac798",
       "vector_text": "Design AI systems to enhance user interaction through questioning and vocal delivery cues, focusing on real-time decision-making support.",
       "vector_type": "design",
-      "sci": 0.65,
+      "sci": 0.59,
       "sci_level": "emerging",
       "detection_count": 58,
       "unique_creators": [
@@ -16174,7 +16174,7 @@
       "vector_id": "tv_2d86dcf1",
       "vector_text": "Designing AI systems that enhance cognitive capabilities or reasoning skills.",
       "vector_type": "design",
-      "sci": 0.57,
+      "sci": 0.52,
       "sci_level": "emerging",
       "detection_count": 69,
       "unique_creators": [
@@ -16289,7 +16289,7 @@
       "vector_id": "tv_af9bc10e",
       "vector_text": "There is a growing demand for advanced and specialized technologies to solve complex problems in various domains, such as AI, machine learning, and statistical methods.",
       "vector_type": "industry",
-      "sci": 0.16,
+      "sci": 0.15,
       "sci_level": "noise",
       "detection_count": 6,
       "unique_creators": [
@@ -16330,7 +16330,7 @@
       "vector_id": "tv_b8dc4cd4",
       "vector_text": "There is a growing demand for advanced techniques to handle complex problems in specialized domains such as machine learning, audio signal separation, and autonomous navigation.",
       "vector_type": "industry",
-      "sci": 0.11,
+      "sci": 0.1,
       "sci_level": "noise",
       "detection_count": 5,
       "unique_creators": [
@@ -16375,7 +16375,7 @@
       "vector_id": "tv_6dd956ec",
       "vector_text": "Develop methods to enhance AI system performance, reliability, and correctness in various technical applications.",
       "vector_type": "strategy",
-      "sci": 0.09,
+      "sci": 0.08,
       "sci_level": "noise",
       "detection_count": 17,
       "unique_creators": [
@@ -17742,35 +17742,6 @@
         "Excessive optimism in AI can result in misleading claims and poor decisions.",
         "Overenthusiasm around AI can lead to unrealistic claims and poor decision-making."
       ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_74fe9ee3",
-      "vector_text": "Chinese AI companies are becoming more open-source and collaborative.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_0469d9ec"
-      ],
-      "first_detected": "2026-07-21T11:12:50.700Z",
-      "last_seen": "2026-07-21T11:12:50.700Z",
-      "trajectory": [
-        {
-          "date": "2026-07-21",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
       "convergence_pattern_id": null
     },
     {
@@ -313455,9 +313426,38 @@
         "Lightweight database solutions and advanced programming languages are crucial for efficient web applications."
       ],
       "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_74fe9ee3",
+      "vector_text": "Chinese AI companies are becoming more open-source and collaborative.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_0469d9ec"
+      ],
+      "first_detected": "2026-07-21T11:12:50.700Z",
+      "last_seen": "2026-07-21T11:12:50.700Z",
+      "trajectory": [
+        {
+          "date": "2026-07-21",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "stale",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
     }
   ],
   "total_content_processed": 2835,
   "total_creators_tracked": 30,
-  "last_updated": "2026-08-19T11:10:24.960Z"
+  "last_updated": "2026-08-20T11:13:13.820Z"
 }

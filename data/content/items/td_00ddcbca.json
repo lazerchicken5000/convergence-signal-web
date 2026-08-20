@@ -1,0 +1,38 @@
+{
+  "id": "td_00ddcbca",
+  "source": "arxiv",
+  "source_id": "2608.19157",
+  "source_url": "https://arxiv.org/abs/2608.19157",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhenyu_zhao",
+    "name": "Zhenyu Zhao",
+    "handle": "Zhenyu Zhao, Benxue Gong, Tinggang Zhao, Xianzheng Jia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "An Exact-Moment Local Legendre Frame Method with Block Convolution for Caputo Fractional Differentiation",
+  "body_text": "An Exact-Moment Local Legendre Frame Method with Block Convolution for Caputo Fractional Differentiation\n\nWe propose a local Legendre frame method for the accurate computation of Caputo fractional derivatives of order \\(0&lt;α&lt;1\\). On each local subinterval, the function is represented by a restricted Legendre frame obtained from scaled Legendre polynomials on an extended interval. The local coefficients are computed from equispaced samples by an exponentially weighted GTSVD regularization. The Caputo derivative is then evaluated by applying the weakly singular fractional integral to the derivatives of the local frame basis functions. Since these derivatives are polynomials, the corresponding Caputo weights can be written in terms of finite weighted moments, so that the singular kernel is treated analytically rather than by a low-order quadrature rule. For uniform partitions, the history weights have a block-dependent structure and can be reused efficiently. The error analysis separates the local frame reconstruction from the Caputo integration. In particular, the Caputo error is bounded by the derivative reconstruction error, while the latter is obtained from the \\(L^2\\) reconstruction error and a weighted smoothness bound of the GTSVD approximation through an interpolation argument. For analytic local functions with exponential coefficient decay, this leads to exponential-type convergence of the derivative and hence of the Caputo approximation. Numerical experiments confirm the accuracy of the exact moment weights, the effectiveness of the local weighted reconstruction, and the efficiency of the block implementation.\n\nAuthors: Zhenyu Zhao, Benxue Gong, Tinggang Zhao, Xianzheng Jia\nCategories: math.NA, math.NA",
+  "word_count": 217,
+  "published_at": "2026-08-19T17:42:02Z",
+  "ingested_at": "2026-08-20T11:05:19.795Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

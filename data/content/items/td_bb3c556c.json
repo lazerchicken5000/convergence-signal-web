@@ -1,0 +1,40 @@
+{
+  "id": "td_bb3c556c",
+  "source": "arxiv",
+  "source_id": "2608.19073",
+  "source_url": "https://arxiv.org/abs/2608.19073",
+  "content_type": "paper",
+  "creator": {
+    "id": "deep_kumar_ganguly",
+    "name": "Deep Kumar Ganguly",
+    "handle": "Deep Kumar Ganguly, Jan Křetínský",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Robust Risk Under Evolving Uncertainty: A Wasserstein Counterpart of the Entropic Value-at-Risk",
+  "body_text": "Robust Risk Under Evolving Uncertainty: A Wasserstein Counterpart of the Entropic Value-at-Risk\n\nAn agent still learning its environment should be cautious while ignorant and bold once confident. The entropic value-at-risk captures this through a robust-optimization identity---a confidence level fixes the radius of a relative-entropy ball of alternative models---but that ball cannot reach catastrophes the nominal deems impossible, precisely what a safe agent must hedge. We instead use an optimal-transport ball and study the coherent risk measure it induces, the Wasserstein entropic value-at-risk. It has a variational dual mirroring the entropic formula (an inverse temperature becomes a transport price), occupies a definite place in the risk hierarchy, and provably accounts for the reachable catastrophes the entropic measure ignores; we verify both dualities numerically. Driving the transport radius by belief entropy then yields a closed-form robust dynamic-programming operator whose caution contracts as the belief sharpens, with a certified safety sandwich and a sharp safety switch.\n\nAuthors: Deep Kumar Ganguly, Jan Křetínský\nCategories: cs.AI, cs.LG, stat.ML, cs.AI",
+  "word_count": 141,
+  "published_at": "2026-08-19T16:22:48Z",
+  "ingested_at": "2026-08-20T11:05:05.650Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "stat.ML",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

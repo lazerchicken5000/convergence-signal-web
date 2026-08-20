@@ -1,0 +1,39 @@
+{
+  "id": "td_ee09bc46",
+  "source": "arxiv",
+  "source_id": "2608.19125",
+  "source_url": "https://arxiv.org/abs/2608.19125",
+  "content_type": "paper",
+  "creator": {
+    "id": "george_andrikopoulos",
+    "name": "George Andrikopoulos",
+    "handle": "George Andrikopoulos",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Tuning the Stochastic Machine: A Systems Engineer's Operating Model for Human-AI Engineering",
+  "body_text": "Tuning the Stochastic Machine: A Systems Engineer's Operating Model for Human-AI Engineering\n\nWhen an expert corrects an LLM assistant's error, the correction usually dies with the session, and the error class returns. I argue this is an operations problem, not a tooling problem: mechanisms for persisting corrections exist and are shipping, but the discipline for governing them -- versioning with provenance, recurrence monitoring, counter-metrics, retirement of stale rules -- does not. Writing as a systems engineer of thirty years, I map the LLM stack onto the machines my profession already operates (frozen silicon, firmware, loadable modules, persistent configuration, volatile memory), identify where the mapping fails (stochastic generation, configuration that binds only probabilistically, no general-purpose retirement (verification) stage by default), and derive from the failures a seven-principle operating discipline with an error loop at its core. Three cases from my own practice illustrate the mechanism, among them a control that silently became the exact harm it was built to prevent. I close with the measurement framework this view implies and the lab study required to test it.\n\nAuthors: George Andrikopoulos\nCategories: cs.AI, cs.SE, cs.AI",
+  "word_count": 164,
+  "published_at": "2026-08-19T17:18:53Z",
+  "ingested_at": "2026-08-20T11:04:44.855Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.SE",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

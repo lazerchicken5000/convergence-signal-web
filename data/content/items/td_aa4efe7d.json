@@ -1,0 +1,39 @@
+{
+  "id": "td_aa4efe7d",
+  "source": "arxiv",
+  "source_id": "2608.18062",
+  "source_url": "https://arxiv.org/abs/2608.18062",
+  "content_type": "paper",
+  "creator": {
+    "id": "clara_meister",
+    "name": "Clara Meister",
+    "handle": "Clara Meister",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TokEval: A Tokenizer Evaluation Suite",
+  "body_text": "TokEval: A Tokenizer Evaluation Suite\n\nLanguage model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce TokEval, a framework of tokenizer evaluation metrics that goes beyond standard measures like fertility and compression rate to capture linguistically and structurally meaningful properties, e.g., UTF-8 character boundary integrity and digit place-value boundary alignment for mathematics. To validate whether these metrics are predictive of downstream model performance, we conduct controlled language model pretraining experiments, varying solely the tokenizers' training data mixture, pretokenization strategy, and training algorithm. We evaluate the resulting models on bits-per-byte (a tokenizer-agnostic version of perplexity) and several benchmarks, spanning linguistic understanding, mathematical reasoning, and code generation. Our experiments suggest that different intrinsic properties have different impacts on model abilities: information-theoretic metrics predict language modeling abilities (Spearman rho up to 0.80), while structure-sensitive metrics, such as those measuring digit and line-break handling, correlate with task accuracy. We hope TokEval enables more principled tokenizer evaluation, replacing pretraining sweeps with intrinsic measurement wherever the two agree.\n\nAuthors: Clara Meister\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 187,
+  "published_at": "2026-08-18T17:52:52Z",
+  "ingested_at": "2026-08-19T13:04:32.356Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
