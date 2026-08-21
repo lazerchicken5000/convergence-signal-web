@@ -1,0 +1,39 @@
+{
+  "id": "td_2831afe1",
+  "source": "arxiv",
+  "source_id": "2608.20258",
+  "source_url": "https://arxiv.org/abs/2608.20258",
+  "content_type": "paper",
+  "creator": {
+    "id": "md_saifur_rahman_mazumder",
+    "name": "MD Saifur Rahman Mazumder",
+    "handle": "MD Saifur Rahman Mazumder, Feng Yu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers",
+  "body_text": "DICS: Data-Informed Centroid Splitting for Decision Tree Classifiers\n\nDecision tree-based models are widely used in machine learning due to their interpretability and strong empirical performance. However, training decision trees can be computationally expensive, particularly for large and high-dimensional datasets, largely due to the exhaustive search over candidate splits at each node. To improve computational efficiency, we propose Data-Informed Centroid Splitting (DICS), a clustering-based framework that constructs a compact and informative set of candidate splits using data-driven priors. By incorporating class-aware structure, DICS significantly reduces the split search space for classification tasks while preserving predictive performance. We further provide theoretical analysis showing that under the stated assumptions, DICS does not degrade the performance of classification trees compared to exhaustive split search. DICS can be incorporated into classification trees, random forests, and gradient-boosting models. Extensive experiments demonstrate that DICS achieves comparable accuracy while substantially reducing training time across synthetic and benchmark datasets, highlighting the benefit of integrating data-informed priors into split selection for scalable classification tree learning.\n\nAuthors: MD Saifur Rahman Mazumder, Feng Yu\nCategories: cs.LG, stat.ML, cs.LG",
+  "word_count": 157,
+  "published_at": "2026-08-20T16:54:17Z",
+  "ingested_at": "2026-08-21T11:04:24.307Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

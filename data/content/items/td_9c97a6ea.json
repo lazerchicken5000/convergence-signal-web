@@ -1,0 +1,38 @@
+{
+  "id": "td_9c97a6ea",
+  "source": "arxiv",
+  "source_id": "2608.20338",
+  "source_url": "https://arxiv.org/abs/2608.20338",
+  "content_type": "paper",
+  "creator": {
+    "id": "sahil_kale",
+    "name": "Sahil Kale",
+    "handle": "Sahil Kale, Ian Harris",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+  "body_text": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models\n\nLarge Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and beneficial knowledge. We argue that effective unlearning must operate at the level of concepts, ensuring complete removal of unsafe applications while maintaining their correct and useful usage, thereby achieving conceptually meaningful and complete unlearning. To better evaluate unlearning techniques from such a practical viewpoint, we introduce the notion of dual-use concepts: concepts that can be used in both harmful and benign contexts. Building on these concepts, we construct a benchmark called ConceptGuard where forget and retain sets are explicitly complementary in concept usage. Our benchmark uniquely enables unlearning to be explored and gauged at the level of concepts, instead of sparse facts, and evaluation is intent-sensitive with the goal of maximizing contextual separation to promote safer behavior. We demonstrate that current unlearning techniques perform poorly under this setting, showing weak contextual separation alongside poor performance in ROUGE and concept-level metrics. Our results reveal strong forgetting-utility trade-offs, limited gains in contextual sensitivity, and poor consistency in concept-level control across methods, and provide ideas for unlearning approaches that better align with real-world safety requirements. Our dataset is publicly available.\n\nAuthors: Sahil Kale, Ian Harris\nCategories: cs.CL, cs.CL",
+  "word_count": 246,
+  "published_at": "2026-08-20T17:59:57Z",
+  "ingested_at": "2026-08-21T11:04:17.495Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
