@@ -1,0 +1,35 @@
+{
+  "id": "td_3bf37037",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/21/llm/",
+  "source_url": "https://simonwillison.net/2026/Aug/21/llm/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm 0.32.1",
+  "body_text": "Release: llm 0.32.1\n        Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a transitive openai dependency.\nThis dot-release fixes that for the moment by pinning to openai&lt;3, and a soon-to-drop 0.33 release will switch from httpx to httpx2.\n    \n    \n        Tags: httpx, openai, llm",
+  "word_count": 66,
+  "published_at": "2026-08-21T17:16:13.000Z",
+  "ingested_at": "2026-08-22T11:00:13.489Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
