@@ -1,0 +1,35 @@
+{
+  "id": "td_e510e6ab",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/22/llm/",
+  "source_url": "https://simonwillison.net/2026/Aug/22/llm/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm 0.33",
+  "body_text": "Release: llm 0.33\n        My highlights from this release:\n\n\nUpgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2. #1608, #1631\n\n\nI shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix.\n\n\nllm embed and llm embed-multi now accept --key. The Python EmbeddingModel.embed(), EmbeddingModel.embed_multi(), Collection.embed() and Collection.embed_multi() methods accept key= too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read self.key continue to work through a compatibility fallback. Thanks, ChrisJr404. #757, #1620\n\n\nThe embedding models now use the same pattern for keys that regular LLM models do.\n\n\nllm prompt -t/--template can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another.\n\n\nThis unlocks a neat pattern where you can create templates that package a model with a set of default options:\nllm -m gpt-5.6-luna -o reasoning_effort high --save lhigh\nllm \"Generate an SVG of a pelican riding a bicycle\" --save pelican\n# Combine and run the templates\nllm -t lhigh -t pelican\n\n\n\nReasoning-capable Responses API models now support a reasoning_summary option with auto, concise, and detailed values. This can be used with llm openai endpoint --responses. #1600\n\n\nThis is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API.\n    \n    \n        Tags: annotated-release-notes, llm",
+  "word_count": 232,
+  "published_at": "2026-08-22T17:01:16.000Z",
+  "ingested_at": "2026-08-23T11:00:10.067Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
