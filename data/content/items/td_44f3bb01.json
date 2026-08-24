@@ -1,0 +1,38 @@
+{
+  "id": "td_44f3bb01",
+  "source": "arxiv",
+  "source_id": "2608.21341",
+  "source_url": "https://arxiv.org/abs/2608.21341",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiangzhe_xu",
+    "name": "Xiangzhe Xu",
+    "handle": "Xiangzhe Xu, Hanxi Guo, Guangyu Shen, Siyuan Cheng, Xiangyu Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Natural-Language Workflows Are Not Software Yet: Artifact-Driven Compilation for Reliable Agent Execution",
+  "body_text": "Natural-Language Workflows Are Not Software Yet: Artifact-Driven Compilation for Reliable Agent Execution\n\nNatural-language workflows offer a software-like interface for agents: domain experts can write reusable procedures, and agents can execute them as instructions. This promise is not yet reliable. Workflow descriptions often leave data dependencies implicit, so the executor must infer which prior results a step should use; agents can also fail to follow long or branching instructions under context pressure. We propose Artic, an artifact-driven workflow compiler that transforms a natural-language workflow into an artifact-driven workflow in which each step declares the artifacts it reads and writes, constraints gate produced artifacts, and explicit control transfers route execution. This representation exposes the enforcement burden placed on agent execution, allowing the compiler to identify steps that depend on too much state or contain difficult control logic and refine them through constrained optimization. To validate the LLM-assisted transformation, Artic decomposes faithfulness checking into local obligations and uses scenario-based dry runs to test whether compiled workflow regions conform to the source workflow. We evaluate Artic on 488 problem instances from 11 real-world domain workflows; it improves task resolve rate by 28 percentage points over the original text workflow. We also show that workflows compiled by Artic are 32 and 56 percentage points more consistent in cross-model and repeated-execution setups, respectively.\n\nAuthors: Xiangzhe Xu, Hanxi Guo, Guangyu Shen, Siyuan Cheng, Xiangyu Zhang\nCategories: cs.SE, cs.SE",
+  "word_count": 205,
+  "published_at": "2026-08-21T17:47:47Z",
+  "ingested_at": "2026-08-24T11:04:58.272Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

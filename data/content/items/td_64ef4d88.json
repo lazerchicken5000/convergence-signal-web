@@ -1,0 +1,38 @@
+{
+  "id": "td_64ef4d88",
+  "source": "arxiv",
+  "source_id": "2608.21278",
+  "source_url": "https://arxiv.org/abs/2608.21278",
+  "content_type": "paper",
+  "creator": {
+    "id": "chengxiao_wang",
+    "name": "Chengxiao Wang",
+    "handle": "Chengxiao Wang, Enyi Jiang, Xiaojing Liao, Sanmi Koyejo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+  "body_text": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment\n\nImproving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign inputs. We propose \\textbf{C}ontinuous \\textbf{L}at\\textbf{E}nt \\textbf{A}dapter \\textbf{R}outing (CLEAR), a conditional safety adaptation framework that uses a lightweight hidden-state gate to continuously control the activation strength of a safety low-rank adapter. CLEAR aims to reduce harmful completions while avoiding unnecessary changes to the frozen backbone that could degrade performance on benign prompts. Experiments on widely used safety and utility benchmarks show that CLEAR improves robustness on HarmBench while reducing the utility degradation observed with globally applied safety tuning such as SFT or standard low-rank adaptation (LoRA). On Llama-3-8B-Instruct, CLEAR reduces HarmBench ASR from 32.3\\% to 0.5\\%, while retaining most of the base model's utility and achieving up to 7.1 percentage points higher GSM8K accuracy than globally applied SFT or LoRA. These results suggest that CLEAR is a promising mechanism for improving the safety--utility trade-off in LLM alignment.\n\nAuthors: Chengxiao Wang, Enyi Jiang, Xiaojing Liao, Sanmi Koyejo\nCategories: cs.AI, cs.AI",
+  "word_count": 165,
+  "published_at": "2026-08-21T16:36:10Z",
+  "ingested_at": "2026-08-24T11:04:37.364Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

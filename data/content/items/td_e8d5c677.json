@@ -1,0 +1,40 @@
+{
+  "id": "td_e8d5c677",
+  "source": "arxiv",
+  "source_id": "2608.21218",
+  "source_url": "https://arxiv.org/abs/2608.21218",
+  "content_type": "paper",
+  "creator": {
+    "id": "yinan_liu",
+    "name": "Yinan Liu",
+    "handle": "Yinan Liu, Zihan Zhou, Zichun Jin, Xinyu Wang, Bin Wang, Xiaochun Yang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Enhancing LLMs in Predictive Political QA with Semi-Structured Data",
+  "body_text": "Enhancing LLMs in Predictive Political QA with Semi-Structured Data\n\nPredictive political question answering (QA), such as predicting how a political actor will vote, goes beyond factual lookup. External political resources offer rich historical evidence, but rarely contain the answer itself. Existing LLM augmentation methods, including actor-profile-based simulation and knowledge graph evidence injection, improve political reasoning but largely treat external resources as knowledge-based evidence, leaving prediction-relevant signals under-modeled. We identify two complementary signals for predictive political QA: actor stances that capture issue-specific preferences, and high-order structure signals that capture indirect dependencies among political actors. We propose PSL, a dual-view framework that converts semi-structured political records into inference-oriented evidence for LLMs. PSL extracts stance signals from question-relevant actor records in a semantic view, and learns structure-aware actor representations from an actor interaction graph in a vector view. Across three real-world datasets and multiple LLMs, PSL consistently outperforms baselines, with ablations confirming the complementary gains of stance and structure signals.\n\nAuthors: Yinan Liu, Zihan Zhou, Zichun Jin, Xinyu Wang, Bin Wang, Xiaochun Yang\nCategories: cs.AI, cs.CL, cs.IR, cs.AI",
+  "word_count": 148,
+  "published_at": "2026-08-21T15:27:28Z",
+  "ingested_at": "2026-08-24T11:04:44.182Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.IR",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

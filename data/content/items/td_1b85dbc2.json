@@ -1,0 +1,38 @@
+{
+  "id": "td_1b85dbc2",
+  "source": "arxiv",
+  "source_id": "2608.21307",
+  "source_url": "https://arxiv.org/abs/2608.21307",
+  "content_type": "paper",
+  "creator": {
+    "id": "james_hartley",
+    "name": "James Hartley",
+    "handle": "James Hartley, Zeropy Surio, Daniel Whitmore, Hannah Clarke, Thomas Reed",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
+  "body_text": "SPARCL: Spectral Partitioned Analytic Continual Learning\n\nAnalytic continual learning has emerged as a strong exemplar-free alternative to gradient-based class-incremental learning because it replaces iterative optimization with closed-form ridge updates. Yet the usual forgetting narrative, centered on stochastic gradient overwriting, does not explain why analytic methods still drift on old classes despite exact recursive solvers. We identify the culprit as spectral interference: the joint ridge classifier for all tasks shares the inverse autocorrelation operator $(R+λI)^{-1}$, so incoming task samples that load onto old dominant eigendirections dilute the spectrum and perturb old-class logits even when old labels are never revisited. Based on this view, we propose SPARCL, a spectral partitioned analytic continual learner that decomposes the running autocorrelation into a high-energy core and a residual complement, freezes old-class classifier components in the core subspace, and updates only the residual block through recursive least squares with an optional residual random-projection expansion. This yields a simple closed-form update with a provable invariance guarantee for the core contribution of old logits. Across CIFAR-100, CUB-200, ImageNet-R, and ImageNet-A under a frozen ViT-B/16 protocol, SPARCL closes most of the gap from classical analytic learners to strong representation matchers, while remaining complementary to sparse feature-decorrelation approaches such as Fly-CL.\n\nAuthors: James Hartley, Zeropy Surio, Daniel Whitmore, Hannah Clarke, Thomas Reed\nCategories: cs.LG, cs.LG",
+  "word_count": 195,
+  "published_at": "2026-08-21T17:09:48Z",
+  "ingested_at": "2026-08-24T11:04:51.009Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

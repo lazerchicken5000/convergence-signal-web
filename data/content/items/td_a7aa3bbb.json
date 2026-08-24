@@ -1,0 +1,38 @@
+{
+  "id": "td_a7aa3bbb",
+  "source": "arxiv",
+  "source_id": "2608.21355",
+  "source_url": "https://arxiv.org/abs/2608.21355",
+  "content_type": "paper",
+  "creator": {
+    "id": "yiwen_liu",
+    "name": "Yiwen Liu",
+    "handle": "Yiwen Liu, Yujun Zhu, Kui Jia, Zhao Liao, Yangwei You, Shuaijun Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations",
+  "body_text": "ViTacPhys: Physical Property-Aware Grasping from Human Visual-Tactile Demonstrations\n\nRecent vision-based action models have demonstrated strong capabilities in complex manipulation, but they rarely leverage explicit object physical properties to adapt their policies. We introduce ViTacPhys, a visual-tactile framework and data acquisition system that estimates object mass and friction-coefficient classes, together with continuous stiffness, from human manipulation demonstrations. Trained on data from 60 rigid and deformable objects, ViTacPhys combines temporal visual-tactile modeling, cross-attention multimodal fusion, and a semantic prior derived from a vision-language model. On seen objects, it achieves 97.2% mass classification accuracy, 98.8% friction-coefficient classification accuracy, and a stiffness mean absolute percentage error (MAPE) of 5.51%. On held-out objects from known categories, it achieves 87.5% mass accuracy, 97.5% friction-coefficient accuracy, and a stiffness MAPE of 9.08%. We transfer ViTacPhys from the human domain to the robot domain using limited robot teleoperation data, robot-style video augmentation, and human demonstrations with matched actions, and deploy it as an online module for adaptive grasping. The resulting physical-property-conditioned policy achieves total grasping success rates of 95.0% on in-distribution objects and 83.4% on out-of-distribution objects. For out-of-distribution objects successfully grasped by both methods, its force profiles are more consistent with human teleoperation than those produced by ACT. These results demonstrate the feasibility of explicitly estimating and conditioning on object physical properties for real-world adaptive grasping.\n\nAuthors: Yiwen Liu, Yujun Zhu, Kui Jia, Zhao Liao, Yangwei You, Shuaijun Wang\nCategories: cs.RO, cs.RO",
+  "word_count": 211,
+  "published_at": "2026-08-21T17:58:10Z",
+  "ingested_at": "2026-08-24T11:05:05.542Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

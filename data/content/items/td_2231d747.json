@@ -1,0 +1,38 @@
+{
+  "id": "td_2231d747",
+  "source": "arxiv",
+  "source_id": "2608.21236",
+  "source_url": "https://arxiv.org/abs/2608.21236",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhibo_zhang",
+    "name": "Zhibo Zhang",
+    "handle": "Zhibo Zhang, Zhen Ouyang, Ling Shi, Kailong Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RARE: Decoupling Representation Steering from Expert Routing in Mixture-of-Experts Language Models",
+  "body_text": "RARE: Decoupling Representation Steering from Expert Routing in Mixture-of-Experts Language Models\n\nRepresentation engineering offers a lightweight means of controlling language-model behavior by modifying intermediate hidden states, but its direct application to Mixture-of-Experts (MoE) models introduces a structural mismatch. We first verify this failure mode through a series of empirical studies and find that preserving clean routing substantially recovers steering performance and that routing is more sensitive to semantic content than to behavioral changes under controlled content. Motivated by these findings, we introduce RARE, a router-agnostic representation engineering framework for MoE language models. RARE projects arbitrary behavioral perturbations onto the null space of the router matrix, thereby removing router-visible components, and further corrects routing drift propagated to selected downstream layers. To decide the best perturbation estimator in this framework, we evaluate five estimators on six heterogeneous open-weight MoE models across three steering scenarios: harmfulness, truthfulness, and factual editing. On harmfulness steering, RARE reaches an average attack success rate of 53.3% while retaining 67.8% MMLU accuracy, yielding a stronger aggregate effectiveness--utility trade-off than baselines. It further improves average TruthfulQA MC1 accuracy from 41.0% to 58.6% and CounterFact efficacy from 16.8% to 96.3%. These results support routing consistency as an important architectural consideration for adapting representation engineering to MoE models.\n\nAuthors: Zhibo Zhang, Zhen Ouyang, Ling Shi, Kailong Wang\nCategories: cs.CL, cs.CL",
+  "word_count": 196,
+  "published_at": "2026-08-21T15:45:36Z",
+  "ingested_at": "2026-08-24T11:04:44.182Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

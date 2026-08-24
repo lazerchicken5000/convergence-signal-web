@@ -1,0 +1,40 @@
+{
+  "id": "td_e186776a",
+  "source": "arxiv",
+  "source_id": "2608.21359",
+  "source_url": "https://arxiv.org/abs/2608.21359",
+  "content_type": "paper",
+  "creator": {
+    "id": "nikita_doikov",
+    "name": "Nikita Doikov",
+    "handle": "Nikita Doikov",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Primal Acceleration of Newton's Method",
+  "body_text": "Primal Acceleration of Newton's Method\n\nWe develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional residual. To the best of our knowledge, this is the first second-order method for this problem class attaining this rate while relying solely on one linear system solve per iteration (without solving auxiliary nonlinear regularized subproblems, such as cubic regularization, performing nonlinear parameter searches, or using dual extragradient corrections). Our method can be implemented in a Hessian-free way, using an inexact linear system solver, while preserving the fast global rate. We further extend our construction to arbitrary geometry through Bregman divergence, and to composite optimization problems.\n\nAuthors: Nikita Doikov\nCategories: math.OC, cs.AI, cs.LG, math.OC",
+  "word_count": 136,
+  "published_at": "2026-08-21T17:59:37Z",
+  "ingested_at": "2026-08-24T11:04:37.362Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.AI",
+    "cs.LG",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
