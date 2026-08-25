@@ -1,0 +1,40 @@
+{
+  "id": "td_3c10a862",
+  "source": "arxiv",
+  "source_id": "2608.23566",
+  "source_url": "https://arxiv.org/abs/2608.23566",
+  "content_type": "paper",
+  "creator": {
+    "id": "penghui_qi",
+    "name": "Penghui Qi",
+    "handle": "Penghui Qi, Xiangxin Zhou, Wee Sun Lee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "How to Train a Critic Stably and Efficiently",
+  "body_text": "How to Train a Critic Stably and Efficiently\n\nGroup-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. We study this instability and develop \\textbf{Best-Practice Critic Optimization (BPCO)}, a recipe that combines DPPO, value predictions bounded to the reward range, Monte Carlo value targets, unnormalized policy advantages, and length-adaptive generalized advantage estimation. Because the critic is used only during training, BPCO can also condition it on reward-defining information, such as a reference answer or grading rubric, that is hidden from the policy. Controlled experiments isolate the effect of each design choice. Across mathematical reasoning tasks with models ranging from 1.5B parameters to 30B-A3B mixtures of experts, BPCO improves a strong critic-based baseline consistently, and matches or exceeds a group-based baseline while sampling one response per prompt. The same recipe also improves learning with rubric-based rewards. These results show that a carefully designed critic provides a reliable alternative to group-relative advantage estimation. Code is available at https://github.com/QPHutu/golden_critic\n\nAuthors: Penghui Qi, Xiangxin Zhou, Wee Sun Lee\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 179,
+  "published_at": "2026-08-24T17:59:39Z",
+  "ingested_at": "2026-08-25T11:04:23.594Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

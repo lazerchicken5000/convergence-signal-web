@@ -1,0 +1,40 @@
+{
+  "id": "td_27f4b3e0",
+  "source": "arxiv",
+  "source_id": "2608.23480",
+  "source_url": "https://arxiv.org/abs/2608.23480",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiaming_qiu",
+    "name": "Jiaming Qiu",
+    "handle": "Jiaming Qiu, Yingye Zheng, Ying-Qi Zhao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees",
+  "body_text": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees\n\nTimely risk classification is essential in many clinical monitoring settings, where decisions must balance the benefit of classifying patients early for subsequent intervention against the value of observing additional data. Yet most existing statistical and machine-learning methods are designed for fully observed trajectories and offer limited control over key operating characteristics such as sensitivity, specificity, and monitoring cost. We cast the sequential classification problem within a multi-objective optimization framework targeting these three criteria. We characterize the optimal decision rule through a value recursion that quantifies, at each time point, the trade-off between immediate classification and continued monitoring. To estimate the rule from data, we formulate a constrained optimization problem that maximizes specificity while enforcing prespecified sensitivity and monitoring-cost constraints. We then develop an estimation procedure that employs a recurrent neural network to approximate the evolving value processes and a primal--dual updating scheme to satisfy the performance constraints. Through simulation studies and an application to continuous glucose monitoring for hypoglycemia risk prediction, we demonstrate that the proposed method yields accurate and timely sequential decision rules that adhere to the desired operating characteristics.\n\nAuthors: Jiaming Qiu, Yingye Zheng, Ying-Qi Zhao\nCategories: stat.ML, cs.LG, stat.ME, stat.ML",
+  "word_count": 181,
+  "published_at": "2026-08-24T16:44:46Z",
+  "ingested_at": "2026-08-25T11:04:37.307Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

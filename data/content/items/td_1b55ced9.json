@@ -1,0 +1,39 @@
+{
+  "id": "td_1b55ced9",
+  "source": "arxiv",
+  "source_id": "2608.23550",
+  "source_url": "https://arxiv.org/abs/2608.23550",
+  "content_type": "paper",
+  "creator": {
+    "id": "ting_yan",
+    "name": "Ting Yan",
+    "handle": "Ting Yan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When \"Do Not\" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls",
+  "body_text": "When \"Do Not\" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls\n\nIn CLAUDE.md, \"do not\" is a natural-language instruction that the model interprets. Claude Code's deny is a built-in control that blocks an action before the agent can take it. Both can express the same security goal, but they control the agent in different ways. We measure this gap in 481 public CLAUDE.md files. An LLM matched the extracted candidate rules against Claude Code's documented controls, and two security practitioners independently checked a sample without seeing the model's answers or each other's labels. Depending on how closely a control had to match the written rule, only about 4-16% of the retrieved security rules had a matching built-in control. Under the strictest standard the estimate was 4.4% (95% CI: 2.6-6.7%), and the two annotators agreed closely on which rules had a match. A manual review of complete files found that our extraction method captured 66.3% of eligible security rules; the reported rates therefore apply to the rules it captured. This is a usable security problem: CLAUDE.md is a write-only channel. A developer writes a security rule but gets no feedback on whether a control will enforce it. The same plain-text form hides two kinds of rule: those a permission rule, mode, or sandbox can enforce, and those left to the model to interpret.\n\nAuthors: Ting Yan\nCategories: cs.HC, cs.CR, cs.HC",
+  "word_count": 211,
+  "published_at": "2026-08-24T17:52:57Z",
+  "ingested_at": "2026-08-25T11:06:16.640Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.HC",
+    "cs.CR",
+    "cs.HC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

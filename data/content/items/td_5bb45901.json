@@ -1,0 +1,40 @@
+{
+  "id": "td_5bb45901",
+  "source": "arxiv",
+  "source_id": "2608.23538",
+  "source_url": "https://arxiv.org/abs/2608.23538",
+  "content_type": "paper",
+  "creator": {
+    "id": "erin_craig",
+    "name": "Erin Craig",
+    "handle": "Erin Craig, Yiling Huang, Snigdha Panigrahi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Interpretable AI with Local Distillation",
+  "body_text": "Interpretable AI with Local Distillation\n\nModern AI models such as tabular foundation models and gradient-boosted ensembles can outpredict classical methods, but provide little basis for reasoning about their predictions. High-stakes decisions call for models that are both accurate and interpretable as built. Local linear modeling offers a path forward: a smooth regression function is locally well approximated by a linear one, allowing a linear fit near each query point to achieve high accuracy without sacrificing transparency. The challenges lie in learning what is \"local\" and developing statistical tools for interpretation. Here, we propose local distillation, in which a black-box \"teacher\" guides a regularized linear \"student\" model at each query point. The teacher (1) defines locality by upweighting training observations with similar predicted outcomes, and (2) anchors the fit with its prediction at the query point, included as a pseudo-observation whose weight is estimated from the data. For interpretation, we add a small amount of Gaussian randomization to the local objective and use refits to assess stability: selection frequencies identify reliable features at a query point, and clustering the randomized fits identifies stable subgroups across the data. Under the lasso penalty, we prove that this randomization yields feature-selection probabilities that are stable under small perturbations of the training responses. Across 17 benchmark datasets, local distillation nearly matches its AI teacher's accuracy while producing a sparse linear model at each test point. In a high-dimensional cancer gene expression example, the framework identifies patient subgroups whose local models use different genes; this heterogeneity is invisible to a global linear model, and difficult to surface in a black-box model.\n\nAuthors: Erin Craig, Yiling Huang, Snigdha Panigrahi\nCategories: stat.ME, cs.LG, stat.ML, stat.ME",
+  "word_count": 260,
+  "published_at": "2026-08-24T17:43:07Z",
+  "ingested_at": "2026-08-25T11:04:37.306Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "cs.LG",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

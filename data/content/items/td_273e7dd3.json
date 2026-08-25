@@ -1,0 +1,39 @@
+{
+  "id": "td_273e7dd3",
+  "source": "arxiv",
+  "source_id": "2608.23536",
+  "source_url": "https://arxiv.org/abs/2608.23536",
+  "content_type": "paper",
+  "creator": {
+    "id": "kyle_stein",
+    "name": "Kyle Stein",
+    "handle": "Kyle Stein, Guillermo Francia, III Eman El-Sheikh, Andrew Arash Mahyari",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Adapter-Based Few-Shot Continual Learning for Malicious Packet Recognition",
+  "body_text": "Adapter-Based Few-Shot Continual Learning for Malicious Packet Recognition\n\nThe continual evolution of malware variants necessitates detection systems that can adapt to new threats without retraining from scratch. However, continually updating models on new data often leads to catastrophic forgetting, where previously learned knowledge is overwritten. While continual learning has been increasingly explored for malware detection, the specific setting of Few-Shot Class-Incremental Learning (FSCIL), where new malware classes must be learned from only a small number of labeled examples, remains comparatively underexplored. Therefore, this work investigates the FSCIL setting for malware classification. To address the stability-plasticity dilemma, we propose a hybrid framework that leverages a Self-Supervised Learning (SSL) backbone initialized through domain-specific pre-training on malware packets. Our method incorporates Low-Rank Adaptation (LoRA) to efficiently adapt the model during the base session while freezing the core backbone to preserve previously learned representations, alongside a prototype-based classification head for incremental sessions to establish robust decision boundaries from limited samples. Extensive experiments across several datasets demonstrate that our approach consistently outperforms prior malware FSCIL baselines and achieves state-of-the-art performance.\n\nAuthors: Kyle Stein, Guillermo Francia, III Eman El-Sheikh, Andrew Arash Mahyari\nCategories: cs.CR, cs.AI, cs.CR",
+  "word_count": 167,
+  "published_at": "2026-08-24T17:41:15Z",
+  "ingested_at": "2026-08-25T11:04:23.595Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

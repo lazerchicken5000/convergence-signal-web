@@ -1,0 +1,35 @@
+{
+  "id": "td_0fa5dc9b",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+  "source_url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm-anthropic 0.27",
+  "body_text": "Release: llm-anthropic 0.27\n        This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2. OpenAI made the same change in their v3.0.0 release two weeks ago.\nAnthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with:\n\nUpgrade to anthropic&gt;=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing\n\nHere's the resulting PR.\n    \n    \n        Tags: python, httpx, llm, anthropic, claude",
+  "word_count": 79,
+  "published_at": "2026-08-24T16:27:04.000Z",
+  "ingested_at": "2026-08-25T11:00:10.862Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

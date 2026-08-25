@@ -1,0 +1,39 @@
+{
+  "id": "td_0cdea4d5",
+  "source": "arxiv",
+  "source_id": "2608.23541",
+  "source_url": "https://arxiv.org/abs/2608.23541",
+  "content_type": "paper",
+  "creator": {
+    "id": "summer_eunhyung_ann",
+    "name": "Summer Eunhyung Ann",
+    "handle": "Summer Eunhyung Ann, Haokun Liu, Chenhao Tan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams",
+  "body_text": "The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams\n\nDoes multi-agent LLM interaction help or hurt? Some work reports gains from debate (Du et al., 2024), critique loops (Chen et al., 2025), and mixture-of-agents synthesis (Wang et al., 2025), while other work finds that interaction adds cost without improving quality under equal budgets (Tran &amp; Kiela, 2026; Xu et al., 2026; Jarrett et al., 2025), or that independent sampling already captures multi-agent gains (Li et al., 2024). We argue this contradiction partly reflects a missing distinction, because not all multi-agent communication is equal. Different model families find structurally different solutions, but when agents read each other's complete outputs, their proposals converge within one round, erasing the diversity that motivates using multiple models. We call this the interaction tax. We test 11 verifier-scored optimization tasks under matched budgets and find that full-solution interaction is a weak default. Independent proposal generation avoids this collapse. Full-solution interaction mainly makes agents stay close to the first solution they see instead of trying different approaches, and critique helps only if the violated rule is easy for the LLM to find and fix. These results suggest that multi-agent performance depends less on the number of agents than on the information they exchange, and interaction helps only when agents share the right information at the right time.\n\nAuthors: Summer Eunhyung Ann, Haokun Liu, Chenhao Tan\nCategories: cs.MA, cs.AI, cs.MA",
+  "word_count": 211,
+  "published_at": "2026-08-24T17:45:15Z",
+  "ingested_at": "2026-08-25T11:04:23.595Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.MA",
+    "cs.AI",
+    "cs.MA"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
