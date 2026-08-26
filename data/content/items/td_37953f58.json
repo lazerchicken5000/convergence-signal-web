@@ -1,0 +1,38 @@
+{
+  "id": "td_37953f58",
+  "source": "arxiv",
+  "source_id": "2608.24847",
+  "source_url": "https://arxiv.org/abs/2608.24847",
+  "content_type": "paper",
+  "creator": {
+    "id": "yann_issartel",
+    "name": "Yann Issartel",
+    "handle": "Yann Issartel, François Roueff",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the privacy cost for dependent Gaussian data: spectral density estimation under local differential privacy",
+  "body_text": "On the privacy cost for dependent Gaussian data: spectral density estimation under local differential privacy\n\nWe study the fundamental problem of estimating the dependence structure of a centered stationary Gaussian process under local differential privacy (LDP). In this setting, the spectral density characterizes the dependence structure of the data and is the quantity to be estimated. Our main contribution is to close the open $α^2$-versus-$α^4$ gap between the previously known lower and upper bounds on the minimax rate. Specifically, we establish a minimax lower bound showing that, over Sobolev-type classes of spectral densities, the effective sample size in the high-privacy regime is $Nα^4$, rather than the usual $Nα^2$ arising for independent observations. This additional privacy cost is caused by the temporal dependence between the observations rather than by their marginal distributions. The proof relies on a contraction bound for privatized dependent Gaussian observations. Our second contribution is a matching upper bound, free of the polylogarithmic losses present in previous work. Rather than applying a generic privatization scheme to classical estimators, we construct a problem-specific procedure attaining the rate identified by our lower bound. Beyond closing the gaps in spectral density estimation, we apply the tools developed for this problem to several related questions. We (i) close the logarithmic gap for fixed-lag autocovariance estimation, (ii) show that the $α^4$ cost arises locally around every spectral density bounded away from zero, and (iii) establish that classical asymptotic equivalence with an independent Gaussian experiment generally fails under LDP.\n\nAuthors: Yann Issartel, François Roueff\nCategories: math.ST, math.ST",
+  "word_count": 230,
+  "published_at": "2026-08-25T17:34:36Z",
+  "ingested_at": "2026-08-26T11:05:06.142Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.ST",
+    "math.ST"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

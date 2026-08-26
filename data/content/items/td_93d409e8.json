@@ -1,0 +1,38 @@
+{
+  "id": "td_93d409e8",
+  "source": "arxiv",
+  "source_id": "2608.23493",
+  "source_url": "https://arxiv.org/abs/2608.23493",
+  "content_type": "paper",
+  "creator": {
+    "id": "jialong_liu",
+    "name": "Jialong Liu",
+    "handle": "Jialong Liu, Yuling Shi, Ning Yang, Xiaodong Gu, Zuchao Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+  "body_text": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning\n\nSelf-reflection is a powerful mechanism for credit assignment in human learning, converting sparse outcome feedback into actionable guidance. However, its potential for post-training Large Language Models (LLMs) remains underexplored. We propose Self-Reflective Policy Optimization (SRPO), a framework that internalizes this capability. SRPO enables LLMs to analyze their own completed trajectories, synthesize errors into concise \"reflection patches,\" and use reflection-conditioned teacher scores on student on-policy rollouts as dense token-level training signals. This process effectively transforms sparse terminal supervision into dense, token-level learning signals without requiring external critics, separate reward models, or larger teacher models. We demonstrate that SRPO achieves state-of-the-art performance across mathematical reasoning and long-horizon agentic benchmarks with exceptional data efficiency. Using a Qwen3-8B base model, SRPO attains 73.3% on AIME'24 using only 8% (0.08x) of the training FLOPs required by scaled supervised fine-tuning, while significantly improving success rates on WebShop (64.7%), ALFWorld (76.8%), and SWE-Bench-Lite (31.2%). Code is available at https://github.com/Galleons2029/SRPO\n\nAuthors: Jialong Liu, Yuling Shi, Ning Yang, Xiaodong Gu, Zuchao Li\nCategories: cs.AI, cs.AI",
+  "word_count": 152,
+  "published_at": "2026-08-24T16:55:09Z",
+  "ingested_at": "2026-08-25T13:04:55.310Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

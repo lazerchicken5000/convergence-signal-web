@@ -15582,7 +15582,7 @@
       "vector_id": "tv_af9bc10e",
       "vector_text": "There is a growing demand for advanced and specialized technologies to solve complex problems in various domains, such as AI, machine learning, and statistical methods.",
       "vector_type": "industry",
-      "sci": 0.09,
+      "sci": 0.08,
       "sci_level": "noise",
       "detection_count": 6,
       "unique_creators": [
@@ -15623,7 +15623,7 @@
       "vector_id": "tv_b8dc4cd4",
       "vector_text": "There is a growing demand for advanced techniques to handle complex problems in specialized domains such as machine learning, audio signal separation, and autonomous navigation.",
       "vector_type": "industry",
-      "sci": 0.06,
+      "sci": 0.05,
       "sci_level": "noise",
       "detection_count": 5,
       "unique_creators": [
@@ -15727,39 +15727,6 @@
       "convergence_type": "solution",
       "presuppositions": [
         "Improving AI model reliability is essential for practical applications."
-      ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_ea30e0cd",
-      "vector_text": "LLMs need comprehensive evaluation across multiple dimensions to ensure robustness and accuracy.",
-      "vector_type": "strategy",
-      "sci": 0.01,
-      "sci_level": "noise",
-      "detection_count": 2,
-      "unique_creators": [
-        "yiderigun borjigin",
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_80615a24",
-        "td_18e9f417"
-      ],
-      "first_detected": "2026-08-17T11:12:25.445Z",
-      "last_seen": "2026-08-17T11:34:05.510Z",
-      "trajectory": [
-        {
-          "date": "2026-08-17",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0.88,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "LLMs require thorough testing to be reliable."
       ],
       "convergence_pattern_id": null
     },
@@ -15894,6 +15861,39 @@
       "convergence_type": "problem",
       "presuppositions": [
         "Theoretical research in various fields is setting new benchmarks for efficiency."
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_ea30e0cd",
+      "vector_text": "LLMs need comprehensive evaluation across multiple dimensions to ensure robustness and accuracy.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 2,
+      "unique_creators": [
+        "yiderigun borjigin",
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_80615a24",
+        "td_18e9f417"
+      ],
+      "first_detected": "2026-08-17T11:12:25.445Z",
+      "last_seen": "2026-08-17T11:34:05.510Z",
+      "trajectory": [
+        {
+          "date": "2026-08-17",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "active",
+      "graduated_reason": null,
+      "independence_score": 0.88,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "LLMs require thorough testing to be reliable."
       ],
       "convergence_pattern_id": null
     },
@@ -313459,5 +313459,5 @@
   ],
   "total_content_processed": 2835,
   "total_creators_tracked": 30,
-  "last_updated": "2026-08-25T11:12:20.091Z"
+  "last_updated": "2026-08-26T11:13:11.777Z"
 }

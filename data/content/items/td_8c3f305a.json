@@ -1,0 +1,38 @@
+{
+  "id": "td_8c3f305a",
+  "source": "arxiv",
+  "source_id": "2608.24747",
+  "source_url": "https://arxiv.org/abs/2608.24747",
+  "content_type": "paper",
+  "creator": {
+    "id": "shidong_yang",
+    "name": "Shidong Yang",
+    "handle": "Shidong Yang, Ziyu Ma, Tongwen Huang, Xucong Wang, Renda Li, Yiming Hu, Yong Wang, Xiangxiang Chu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
+  "body_text": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents\n\nLarge language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. Recent skill-based approaches, such as SkillRL, attempt to address this issue by extracting skills from raw trajectories, but treat the skill bank as an append-only repository without verifying whether stored skills remain effective. In this paper, we propose SkillForge, a framework for continuous skill evolution that enables skills to be verified and refined through environment interaction. By making skill usage explicit during agent interaction, RL can directly optimize both environment actions and skill invocation decisions. SkillForge further introduces evidence-based skill verification and multi-pathway skill induction, allowing the skill bank to continuously grow while maintaining its quality. Extensive experiments on ALFWorld, WebShop, and AppWorld show that SkillForge consistently outperforms SkillRL, demonstrating the effectiveness of continuously verified skills in training stronger LLM agents.\n\nAuthors: Shidong Yang, Ziyu Ma, Tongwen Huang, Xucong Wang, Renda Li, Yiming Hu, Yong Wang, Xiangxiang Chu\nCategories: cs.CL, cs.CL",
+  "word_count": 149,
+  "published_at": "2026-08-25T15:52:10Z",
+  "ingested_at": "2026-08-26T11:04:22.234Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_a76815d4",
+  "source": "arxiv",
+  "source_id": "2608.24795",
+  "source_url": "https://arxiv.org/abs/2608.24795",
+  "content_type": "paper",
+  "creator": {
+    "id": "xunkai_li",
+    "name": "Xunkai Li",
+    "handle": "Xunkai Li, Zekai Chen, Zhengyu Wu, Henan Sun, Daohan Su, Guang Zeng, Hongchao Qin, Rong-Hua Li, Guoren Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LION: A Clifford Neural Paradigm for Multimodal-Attributed Graph Learning",
+  "body_text": "LION: A Clifford Neural Paradigm for Multimodal-Attributed Graph Learning\n\nRecently, the rapid advancement of multimodal domains has driven a data-centric paradigm shift in graph ML, transitioning from text-attributed to multimodal-attributed graphs. This advancement significantly enhances data representation and expands the scope of graph downstream tasks, such as modality-oriented tasks, thereby improving the practical utility of graph ML. Despite its promise, limitations exist in the current neural paradigms:(1) Neglect Context in Modality Alignment: Most existing methods adopt topology-constrained or modality-specific operators as tokenizers.These aligners inevitably neglect graph context and inhibit modality interaction, resulting in suboptimal alignment.(2) Lack of Adaptation in Modality Fusion: Most existing methods are simple adaptations for 2-modality graphs and fail to adequately exploit aligned tokens equipped with topology priors during fusion, leading to poor generalizability and performance degradation.To address the above issues, we propose LION (c\\underline{LI}ff\\underline{O}rd \\underline{N}eural paradigm) based on the Clifford algebra and decoupled graph neural paradigm (i.e., propagation-then-aggregation) to implement alignment-then-fusion in multimodal-attributed graphs. Specifically, we first construct a modality-aware geometric manifold grounded in Clifford algebra.This geometric-induced high-order graph propagation efficiently achieves modality interaction, facilitating modality alignment.Then, based on the topology-aware Clifford components of aligned tokens, we propose adaptive holographic aggregation. This module integrates component-wise energy and propagation-scale information with learnable parameters to improve modality fusion. Extensive experiments on 9 text-image MAG datasets demonstrate that LION significantly outperforms SOTA baselines across 3 graph and 3 modality downstream tasks.\n\nAuthors: Xunkai Li, Zekai Chen, Zhengyu Wu, Henan Sun, Daohan Su, Guang Zeng, Hongchao Qin, Rong-Hua Li, Guoren Wang\nCategories: cs.LG, cs.LG",
+  "word_count": 223,
+  "published_at": "2026-08-25T16:39:59Z",
+  "ingested_at": "2026-08-26T11:04:29.138Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

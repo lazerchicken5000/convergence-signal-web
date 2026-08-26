@@ -1,0 +1,39 @@
+{
+  "id": "td_9801fc39",
+  "source": "arxiv",
+  "source_id": "2608.24823",
+  "source_url": "https://arxiv.org/abs/2608.24823",
+  "content_type": "paper",
+  "creator": {
+    "id": "seungik_cho",
+    "name": "Seungik Cho",
+    "handle": "Seungik Cho, Betul Orcan-Ekmekci",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "BioKERN: Biological Kernel Regularization for Histology-to-Transcriptomics Neighborhood Retrieval",
+  "body_text": "BioKERN: Biological Kernel Regularization for Histology-to-Transcriptomics Neighborhood Retrieval\n\nSpatially resolved biology requires representations that preserve biological neighborhood structure rather than only exact cross-modal correspondences. Existing histology--transcriptomics objectives can emphasize instance-level matching even when non-paired spots share molecular or spatial context. We introduce BioKERN, a multimodal spatial representation-learning framework that incorporates biological structure as an explicit, learnable inductive bias. BioKERN constructs a training-time biological kernel by combining transcriptomic similarity and spatial proximity, then uses it to provide graded neighborhood supervision and regularize embedding geometry. Evaluation uses a fixed, model-independent biological neighborhood definition shared by all methods. Across Mouse Brain Visium and Human Liver GSE240429, BioKERN consistently improves biological-neighborhood retrieval over BLEEP in both single- and multi-scale settings. Controlled shared-architecture experiments show that most of the improvement arises from biological-kernel regularization rather than increased model capacity. These results support explicit biological geometry as an interpretable inductive bias for multimodal learning in spatial biology.\n\nAuthors: Seungik Cho, Betul Orcan-Ekmekci\nCategories: cs.LG, q-bio.QM, cs.LG",
+  "word_count": 143,
+  "published_at": "2026-08-25T17:04:16Z",
+  "ingested_at": "2026-08-26T11:04:29.138Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "q-bio.QM",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

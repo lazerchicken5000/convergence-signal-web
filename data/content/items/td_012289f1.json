@@ -1,0 +1,38 @@
+{
+  "id": "td_012289f1",
+  "source": "arxiv",
+  "source_id": "2608.24780",
+  "source_url": "https://arxiv.org/abs/2608.24780",
+  "content_type": "paper",
+  "creator": {
+    "id": "gerrit_quaremba",
+    "name": "Gerrit Quaremba",
+    "handle": "Gerrit Quaremba, Hanqi Yan, Elizabeth Black, Denny Vrandecic, Elena Simperl",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text",
+  "body_text": "Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text\n\nDistinguishing machine-generated text (MGT) from human-written text (HWT) becomes increasingly important due to potential misuse. However, most supervised detectors often degrade out-of-domain (OOD) and require large, diverse training sets. In this work, we analyze the linearity and quality of MGT representations and show that simple linear probes outperform a wide range of detectors while being substantially more sample-efficient. We first show that MGT and HWT latent representations are linearly separable in low-dimensional space, and provide a plausible explanation for this separability through systematic differences in their representation quality. Motivated by these insights, we train two variants of simple linear probes and evaluate them across 4 benchmarks against 16 baselines. Probes consistently improve OOD detection (+11 AUC), requiring solely ${&lt;}100$ samples to reach near-peak performance. We show that this transferability arises because probes recover a shared latent MGT direction that generalizes across diverse settings. Finally, we demonstrate that probing vectors capture a continuous spectrum of ``machineness'', highlighting their potential for fine-grained estimation of AI-edited text. Overall, our work provides insights into latent-space differences between MGT and HWT and demonstrates the potential of linear probes as as robust and sample-efficient MGT detectors. We release our code on~\\href{https://github.com/gerritq/mgt_probes}{github}.\n\nAuthors: Gerrit Quaremba, Hanqi Yan, Elizabeth Black, Denny Vrandecic, Elena Simperl\nCategories: cs.CL, cs.CL",
+  "word_count": 195,
+  "published_at": "2026-08-25T16:21:24Z",
+  "ingested_at": "2026-08-26T11:04:22.233Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

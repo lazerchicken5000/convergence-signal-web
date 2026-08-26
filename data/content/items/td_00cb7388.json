@@ -1,0 +1,38 @@
+{
+  "id": "td_00cb7388",
+  "source": "arxiv",
+  "source_id": "2608.23501",
+  "source_url": "https://arxiv.org/abs/2608.23501",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuanpeng_he",
+    "name": "Yuanpeng He",
+    "handle": "Yuanpeng He, Fangjing Li, Xiangyu Ru, Kexin Sun, Kun Yang, Lijian Li, Chi-Man Pun, Qingsong Wen, Wenpin Jiao, Mingkai Guo, Yirong Feng, Daiheng Gao, Zhi Jin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "An Interactive Agent for Requirement-Driven Candidate Sourcing",
+  "body_text": "An Interactive Agent for Requirement-Driven Candidate Sourcing\n\nFinding people from a natural-language description (``ML engineers transitioning to research roles in biotech'') is increasingly delegated to LLM agents and framed as information retrieval. We argue that it is fundamentally a requirements engineering task: such a request is an under-determined requirement with implicit constraints, many valid answers, and no acceptance criterion, so useful answers require eliciting, validating, and verifying the requirement before search can matter. We present \\sys{}, to our knowledge the first interactive, requirements-driven candidate-sourcing agent (it elicits, validates, retrieves, and verifies a vague people-request into a justified slate through bounded elicitation, workflow templates, a two-stage commit protocol, and bidirectional termination guards) and \\bench{}, a benchmark that runs the requirements lifecycle (criteria-anchored validation, multi-model evidence-grounded oracle construction, and cost-aware verification). Across $21$ systems and all $691$ requirements, \\sys{} dominates breadth ($100%$ coverage at $2.5\\times$ the yield) and is \\emph{near-orthogonal} to the field, with $90%$ of the people it returns are surfaced by \\emph{none} of $20$ strong LLM-plus-web baselines combined. Beyond breadth, an evidence-grounded judging of every system shows \\sys{} \\emph{recalls} the most relevant real people: $0.241$ of the union pool, $1.9\\times$ the next system, with a bootstrap $95%$ interval disjoint from every baseline. \\sys{} is thus the strongest \\emph{sourcing} engine (the deepest real, reachable candidate pool), while precision-ranking LLMs serve as~complementary verifiers.\n\nAuthors: Yuanpeng He, Fangjing Li, Xiangyu Ru, Kexin Sun, Kun Yang, Lijian Li, Chi-Man Pun, Qingsong Wen, Wenpin Jiao, Mingkai Guo, Yirong Feng, Daiheng Gao, Zhi Jin\nCategories: cs.SE, cs.SE",
+  "word_count": 214,
+  "published_at": "2026-08-24T17:04:16Z",
+  "ingested_at": "2026-08-25T13:04:55.309Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

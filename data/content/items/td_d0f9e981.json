@@ -1,0 +1,38 @@
+{
+  "id": "td_d0f9e981",
+  "source": "arxiv",
+  "source_id": "2608.24846",
+  "source_url": "https://arxiv.org/abs/2608.24846",
+  "content_type": "paper",
+  "creator": {
+    "id": "md_saikat_islam_khan_bappy",
+    "name": "Md Saikat Islam Khan Bappy",
+    "handle": "Md Saikat Islam Khan Bappy, Oshani Seneviratne",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+  "body_text": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs\n\nReal-world data for knowledge graph question answering is often distributed across different organizations due to governance and data sovereignty constraints. While centralized systems exist, they cannot answer multi-hop questions when the required facts are split across vertically partitioned silos. In this paper, we propose FedV-KGQA, a framework for multi-hop reasoning over knowledge graphs in which organizations share entities but own disjoint sets of relations. Our approach combines local graph enrichment and knowledge graph embeddings to ensure raw triples and relation parameters never leave each silo, establishing a structural data boundary without requiring centralized graph access. We further introduce a topic entity anchoring mechanism that grounds questions in the correct graph neighborhood without any runtime inter-silo communication. We evaluate 12 model configurations across three benchmarks and show that FedV-KGQA performs strongly, remains close to centralized performance, generalizes to 3-hop reasoning, and is robust to embedding perturbations.\n\nAuthors: Md Saikat Islam Khan Bappy, Oshani Seneviratne\nCategories: cs.AI, cs.AI",
+  "word_count": 145,
+  "published_at": "2026-08-25T17:34:27Z",
+  "ingested_at": "2026-08-26T11:04:15.335Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

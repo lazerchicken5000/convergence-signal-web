@@ -1,0 +1,38 @@
+{
+  "id": "td_7ed79ad9",
+  "source": "arxiv",
+  "source_id": "2608.24760",
+  "source_url": "https://arxiv.org/abs/2608.24760",
+  "content_type": "paper",
+  "creator": {
+    "id": "jingyao_liu",
+    "name": "Jingyao Liu",
+    "handle": "Jingyao Liu, Jinkang Tang, Chen Huang, Wenqiang Lei, See-Kiong Ng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints",
+  "body_text": "ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints\n\nText-to-CAD aims to generate executable CAD programs from natural-language descriptions. However, real-world descriptions are often underspecified and omit critical spatial constraints required for valid CAD construction, a challenge that has been largely overlooked by existing methods. In this paper, we argue that missing spatial constraints should be inferred with respect to the underlying construction structure and informed by reusable design experience. Based on this insight, we propose ExpConCAD, an experience-enhanced framework for implicit spatial constraint completion. ExpConCAD first recovers the intended construction structure and constraint scopes, then retrieves relevant constraint-completion experience for similar scopes to complete the missing spatial constraints, and finally generates executable CadQuery programs. Extensive experiments demonstrate the effectiveness of ExpConCAD and provide insights into the role of construction structure understanding and experience memory in spatial constraint completion. Our code is available at: https://github.com/Hotjiashell/ExpConCAD.\n\nAuthors: Jingyao Liu, Jinkang Tang, Chen Huang, Wenqiang Lei, See-Kiong Ng\nCategories: cs.CL, cs.CL",
+  "word_count": 136,
+  "published_at": "2026-08-25T15:58:33Z",
+  "ingested_at": "2026-08-26T11:04:22.233Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

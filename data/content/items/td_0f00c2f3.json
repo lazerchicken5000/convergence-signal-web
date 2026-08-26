@@ -1,0 +1,38 @@
+{
+  "id": "td_0f00c2f3",
+  "source": "arxiv",
+  "source_id": "2608.24870",
+  "source_url": "https://arxiv.org/abs/2608.24870",
+  "content_type": "paper",
+  "creator": {
+    "id": "kai_ruan",
+    "name": "Kai Ruan",
+    "handle": "Kai Ruan, Jinghao Lin, Qianshan Wei, Ziqi Zhou, Zihe Huang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+  "body_text": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL\n\nGroup-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens one advantage per trajectory before optimizing a token-mean actor loss. We show that trajectory centering generally does not center the token-weighted quantity consumed by the actor, and fix the mismatch by standardizing terminal-outcome advantages under the action-token measure. We additionally organize prompt evidence by the policy event that generated it rather than learner receipt order. Across matched runs on ALFWorld at two model scales and on Math-TIR, SPO++ improves online learning efficiency over SPO. A paired ablation identifies action-token-measure normalization as the strongest tested component.\n\nAuthors: Kai Ruan, Jinghao Lin, Qianshan Wei, Ziqi Zhou, Zihe Huang\nCategories: cs.AI, cs.AI",
+  "word_count": 122,
+  "published_at": "2026-08-25T17:52:19Z",
+  "ingested_at": "2026-08-26T11:04:15.335Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

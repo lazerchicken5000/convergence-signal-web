@@ -1,0 +1,39 @@
+{
+  "id": "td_ed767181",
+  "source": "arxiv",
+  "source_id": "2608.24809",
+  "source_url": "https://arxiv.org/abs/2608.24809",
+  "content_type": "paper",
+  "creator": {
+    "id": "rima_hazra",
+    "name": "Rima Hazra",
+    "handle": "Rima Hazra, Sayan Layek, Somnath Banerjee, Soumen Chakrabarti, Animesh Mukherjee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+  "body_text": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch\n\nWe present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5-hop citation neighborhood, prunes citation edges whose claims lack entailment support, and ranks the remaining papers with a recency-aware random walk. This makes the candidate set, the reason each paper is kept, and the stopping condition explicit and fixed before inference. On LitSearch and one further benchmarks over a 500K-paper arXiv corpus, Crase outperforms deep research agents built on proprietary models by up to 3$\\times$ recall@50 at roughly a third of the cost.\n\nAuthors: Rima Hazra, Sayan Layek, Somnath Banerjee, Soumen Chakrabarti, Animesh Mukherjee\nCategories: cs.CL, cs.IR, cs.CL",
+  "word_count": 107,
+  "published_at": "2026-08-25T16:51:26Z",
+  "ingested_at": "2026-08-26T11:04:22.233Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.IR",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

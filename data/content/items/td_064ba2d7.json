@@ -1,0 +1,38 @@
+{
+  "id": "td_064ba2d7",
+  "source": "arxiv",
+  "source_id": "2608.24855",
+  "source_url": "https://arxiv.org/abs/2608.24855",
+  "content_type": "paper",
+  "creator": {
+    "id": "hsiang-wei_huang",
+    "name": "Hsiang-Wei Huang",
+    "handle": "Hsiang-Wei Huang, Jianxu Shangguan, Junbin Lu, Jenq-Neng Hwang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LeFlow: Generative Latent Flow Planning for World Models",
+  "body_text": "LeFlow: Generative Latent Flow Planning for World Models\n\nLatent world models are inherently strong encoders that transform image pixel to latent embedding, yet existing world models still rely on online trajectory optimization for action planning: for every state-goal pair, an iterative optimizer is run from scratch to search for optimal action sequences, treating the world model as a black-box simulator. This approach pays the full iterative optimization cost anew at every replanning step and reuses no planning experience across queries. In this work, we ask whether planning itself can be amortized once a latent world model has been learned. We present LeFlow, which learns a reusable latent trajectory prior operating directly in the latent dynamics space from the world model. LeFlow recasts planning as conditional latent trajectory generation: a rectified-flow model imagines a future latent path between the current and goal embeddings, an inverse dynamics decoder turns latent transitions into action chunks, and the frozen world model verifies each candidate by autoregressive rollout. Across four major goal-conditioned pixel-control benchmarks, LeFlow replaces iterative action-space optimization with amortized latent planning and fixed-budget rollout selection, achieving consistent success-rate gains with an order-of-magnitude reduction in planning time. Our results argue that latent world models should support not only prediction but reusable planning priors. Our code is available at https://github.com/hsiangwei0903/LeFlow.\n\nAuthors: Hsiang-Wei Huang, Jianxu Shangguan, Junbin Lu, Jenq-Neng Hwang\nCategories: cs.CV, cs.CV",
+  "word_count": 207,
+  "published_at": "2026-08-25T17:42:30Z",
+  "ingested_at": "2026-08-26T11:04:43.392Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
