@@ -1,0 +1,41 @@
+{
+  "id": "td_d0273bd6",
+  "source": "arxiv",
+  "source_id": "2608.26090",
+  "source_url": "https://arxiv.org/abs/2608.26090",
+  "content_type": "paper",
+  "creator": {
+    "id": "raphaël_bonnet-guerrini",
+    "name": "Raphaël Bonnet-Guerrini",
+    "handle": "Raphaël Bonnet-Guerrini, Johann Ioannou-Nikolaides, Inar Timiryasov, Vincenzo Piuri",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
+  "body_text": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders\n\nWe present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for direction reconstruction, we identify a validated atlas of physical concepts in the model representation, using a strict validation protocol consisting of held-out tests, matched nuisance controls, and replication across independent dictionary trainings. Causal interventions show that the direction head barely draws on this atlas. Motivated by this underused information, we train an uncertainty head on the same event-level representation to predict the model's angular reconstruction error. Unlike the direction head, it depends causally on quality and brightness features from the atlas. At $20\\%$ selection efficiency, this interpretable estimator improves the median angular resolution from $20.2^\\circ$ to $3.2^\\circ$. These results suggest that mechanistic interpretability can reveal learned latent physics encoded within a model's internal representation and help design downstream tasks that exploit it.\n\nAuthors: Raphaël Bonnet-Guerrini, Johann Ioannou-Nikolaides, Inar Timiryasov, Vincenzo Piuri\nCategories: astro-ph.HE, cs.AI, cs.LG, hep-ex, astro-ph.HE",
+  "word_count": 146,
+  "published_at": "2026-08-26T17:53:00Z",
+  "ingested_at": "2026-08-27T11:04:14.814Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.HE",
+    "cs.AI",
+    "cs.LG",
+    "hep-ex",
+    "astro-ph.HE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

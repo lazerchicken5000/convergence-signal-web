@@ -1,0 +1,40 @@
+{
+  "id": "td_090ac94e",
+  "source": "arxiv",
+  "source_id": "2608.26093",
+  "source_url": "https://arxiv.org/abs/2608.26093",
+  "content_type": "paper",
+  "creator": {
+    "id": "ahmad_khan",
+    "name": "Ahmad Khan",
+    "handle": "Ahmad Khan, Akram Bin Sediq, Sara Azadegi Naeini, Raviraj S. Adve",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
+  "body_text": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role\n\nDesigning machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that this design layer can be surrendered to an autonomous agent in its entirety. We adopt the autoresearch protocol, in which an AI coding agent edits a training script, runs a fixed-budget experiment, and retains or discards the change according to a single immutable metric. We grant the agent authority over the architecture family, the input representation, the output parameterization, the loss function and the task-sampling law, and set it a target chosen for its difficulty: sum-least-percentile-rate power control across a multicell network. The formulation targets cell-edge throughput and is non-convex, non-smooth and strongly NP-hard away from its max-min vertex. Safeguards render the results trustworthy: a hash-pinned evaluator, an enforced inference contract and a pre-registered falsifier per experiment. In eighty-one unattended experiments over twenty-six hours, the agent reached $99.5\\%$ of a converged minorization-maximization reference in one fixed-cost inference pass, at roughly $600\\times$ lower inference cost, closing $94\\%$ of the gap from its first working architecture, with one parameter set serving every network size and percentile target. It recovered provable structure rather than tuned constants: the output parameterization it discovered reproduces the exact max-min-optimal allocation at the minimum percentile, for every value of the trained weights.\n\nAuthors: Ahmad Khan, Akram Bin Sediq, Sara Azadegi Naeini, Raviraj S. Adve\nCategories: cs.LG, cs.IT, eess.SY, cs.LG",
+  "word_count": 221,
+  "published_at": "2026-08-26T17:56:00Z",
+  "ingested_at": "2026-08-27T11:04:28.689Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.IT",
+    "eess.SY",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

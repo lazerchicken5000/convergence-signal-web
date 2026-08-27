@@ -1,0 +1,39 @@
+{
+  "id": "td_77e8002e",
+  "source": "arxiv",
+  "source_id": "2608.26031",
+  "source_url": "https://arxiv.org/abs/2608.26031",
+  "content_type": "paper",
+  "creator": {
+    "id": "kaicheng_wang",
+    "name": "Kaicheng Wang",
+    "handle": "Kaicheng Wang, Liyan Huang, Jesse Thomason, Weihang Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Vulnerable Code Search: Transferable Attack for Code Language Models",
+  "body_text": "Vulnerable Code Search: Transferable Attack for Code Language Models\n\nReliable code retrieval is crucial for developer productivity and effective code reuse. However, current neural code language models (CLMs) powering search tools are susceptible to adversarial attacks targeting non-functional textual elements. In this paper, we introduce a programming language-agnostic, transferable, adversarial attack that exploits this CLM vulnerability. Our approach perturbs identifiers within a code snippet without altering the snippet's functionality to artificially align the code with a target query. We demonstrate that our attack, even when computed using smaller code embedding models, such as CodeT5+, is highly effective and transferable to larger, closed-source embedding models, like Voyage-code-3, or LLMs like Gemini-3.1-Pro. Our attack can increase the similarity between the query and arbitrary, irrelevant code snippets, consequently degrading key retrieval metrics such as the Mean Reciprocal Rank (MRR) of state-of-the-art models by up to 77%. The experimental results highlight the fragility of current code search methods and underscore the need for more robust, semantic-aware approaches.\n\nAuthors: Kaicheng Wang, Liyan Huang, Jesse Thomason, Weihang Wang\nCategories: cs.SE, cs.CR, cs.SE",
+  "word_count": 154,
+  "published_at": "2026-08-26T17:11:36Z",
+  "ingested_at": "2026-08-27T11:04:35.794Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.CR",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

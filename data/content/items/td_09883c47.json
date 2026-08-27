@@ -1,0 +1,39 @@
+{
+  "id": "td_09883c47",
+  "source": "arxiv",
+  "source_id": "2608.26095",
+  "source_url": "https://arxiv.org/abs/2608.26095",
+  "content_type": "paper",
+  "creator": {
+    "id": "kaichen_li",
+    "name": "Kaichen Li",
+    "handle": "Kaichen Li, Zhilin Zhu, Jianhao Huang, Zhengqin Lai, Baochen Xiong, Zibo Shao, Yaguang Song, Linhui Xiao, Xiaoshan Yang, Changsheng Xu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
+  "body_text": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training\n\nIn this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overlooking their heterogeneous visual dependence (VD). However, we reveal that token-level VD is crucial for MU-CPT. Specifically, its structural distortion serves as an indicator of cross-modal catastrophic forgetting, and its inherent heterogeneity acts as a compass to guide new-task learning. Leveraging this property, we propose a Visual Dependence-Aware (VDA) framework with two main components. First, Visually Constrained Optimal Transport (VC-OT) formulates the VD structural distortion of old-task VD during new-task learning as an optimal transport problem to mitigate cross-modal forgetting. By designing a region-aware ground cost and a dependence-stratified transport penalty, it prevents global shifts in visual focus while strictly prohibiting visual reliance from degenerating into language bias. Second, Visually Modulated Adaptation (VMA) exploits VD heterogeneity to emphasize visually grounded new-task learning, promoting new-task plasticity. Together, our method simultaneously maintains old-task stability and new-task plasticity during challenging MU-CPT. Extensive experiments under our MU-CPT setting validate the effectiveness of VDA.\n\nAuthors: Kaichen Li, Zhilin Zhu, Jianhao Huang, Zhengqin Lai, Baochen Xiong, Zibo Shao, Yaguang Song, Linhui Xiao, Xiaoshan Yang, Changsheng Xu\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 184,
+  "published_at": "2026-08-26T17:57:04Z",
+  "ingested_at": "2026-08-27T11:04:14.813Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

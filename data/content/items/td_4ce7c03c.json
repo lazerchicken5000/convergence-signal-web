@@ -1,0 +1,39 @@
+{
+  "id": "td_4ce7c03c",
+  "source": "arxiv",
+  "source_id": "2608.26072",
+  "source_url": "https://arxiv.org/abs/2608.26072",
+  "content_type": "paper",
+  "creator": {
+    "id": "hritvik_taneja",
+    "name": "Hritvik Taneja",
+    "handle": "Hritvik Taneja, Moinuddin Qureshi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Fleet to Lab: Revisiting the Security and Complexity of Industrial Rowhammer Mitigation",
+  "body_text": "From Fleet to Lab: Revisiting the Security and Complexity of Industrial Rowhammer Mitigation\n\nThis paper studies efficient and secure Rowhammer mitigation at the Memory-Controller (MC). Rowhammer mitigation faces a fundamental tradeoff between tracking storage and mitigation rate: precise trackers (such as Misra-Gries) avoid unnecessary mitigations but require large CAM structures, whereas sampling-based schemes (such as PARA) require no storage but incur frequent mitigations even when not under attack. Microsoft recently deployed Sigries, an MC-side Rowhammer defense that combines an under-provisioned Misra-Gries tracker with a row-sampling fallback, in its Azure Cobalt 200 SoC. Sigries observed that the tracker-to-sampling transition can be insecure, and claimed the reverse transition is always safe. Our analysis shows that this transition is also vulnerable, and a Round-Robin Attack across sub-banks reduces the MTTF of Sigries to about 1 second, 8 orders of magnitude below the 13 years with PARA. Sigries also suffers from CAM complexity and high storage overheads. Our proposal, FiRM (Filtered Rowhammer Mitigation), is based on the insight that, for a secure design, the tracking-mode and sampling-mode should not be configured independently but co-designed to ensure the system remains secure not only in both modes but also during transitions. FiRM incurs zero slowdown for benign workloads, since they do not exceed the filtering threshold, and also replaces the complex CAM-based tracker with simple SRAM filters. To handle stressful patterns, we propose FiRM-P (probabilistic) and FiRM-D (deterministic). FiRM-P uses varying probabilities during transitions and steady state to ensure both security and low performance overhead. FiRM-D provides guaranteed deterministic security by modulating the rate of mitigation. Both FiRM-P and FiRM-D have less storage overhead than Sigries. Our paper shows that a principled approach can avoid both the insecurity and the complexity of Sigries.\n\nAuthors: Hritvik Taneja, Moinuddin Qureshi\nCategories: cs.CR, cs.AR, cs.CR",
+  "word_count": 274,
+  "published_at": "2026-08-26T17:38:45Z",
+  "ingested_at": "2026-08-27T11:04:50.296Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

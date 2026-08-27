@@ -1,0 +1,38 @@
+{
+  "id": "td_b26cb981",
+  "source": "arxiv",
+  "source_id": "2608.26035",
+  "source_url": "https://arxiv.org/abs/2608.26035",
+  "content_type": "paper",
+  "creator": {
+    "id": "ziming_liu",
+    "name": "Ziming Liu",
+    "handle": "Ziming Liu, Bhanu Chaitanya Jasti, Ziyang Xu, Hongyu Wu, Yi Wu, Jiqun Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Local Surprise: Grounded Dialogue as Selective Belief Revision under Referential Uncertainty",
+  "body_text": "Beyond Local Surprise: Grounded Dialogue as Selective Belief Revision under Referential Uncertainty\n\nWhen a speaker refers to a scene that the listener cannot directly see, the listener must decide whether to preserve its current understanding or revise it as new utterances arrive. Many language systems treat local mismatch as a cue for updating: divergence from the current understanding encourages adjustment. Yet conversational understanding may be more conservative, interpreting mismatching evidence relative to prior understanding rather than immediately revising it. We introduce a controlled, data-driven framework for turn-by-turn preserve/revise decisions in dialogue, where competing revision policies are learned under otherwise identical conditions. We compare four theory-driven revision strategies, each reflecting a different assumption about when listeners should preserve or revise. Two findings stand out. First, a mismatch-driven policy that updates solely based on local divergence reacts strongly to mismatch but destabilizes grounding and degrades retrieval. Second, an uncertainty-sensitive policy extends mismatch-based updating with accumulated evidence, preserving coherent understanding while maintaining strong retrieval performance. Surprisingly, coherent understanding emerges from a counterintuitive pattern: local mismatch promotes preservation, whereas accumulated uncertainty promotes revision, suggesting that listeners maintain prior understanding despite local mismatch and revise only when uncertainty sufficiently accumulates. This pattern is consistent with conceptual pact theory.\n\nAuthors: Ziming Liu, Bhanu Chaitanya Jasti, Ziyang Xu, Hongyu Wu, Yi Wu, Jiqun Liu\nCategories: cs.CL, cs.CL",
+  "word_count": 191,
+  "published_at": "2026-08-26T17:13:46Z",
+  "ingested_at": "2026-08-27T11:04:21.726Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

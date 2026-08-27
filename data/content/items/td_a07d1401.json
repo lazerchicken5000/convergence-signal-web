@@ -1,0 +1,39 @@
+{
+  "id": "td_a07d1401",
+  "source": "arxiv",
+  "source_id": "2608.26049",
+  "source_url": "https://arxiv.org/abs/2608.26049",
+  "content_type": "paper",
+  "creator": {
+    "id": "mahshid_rezakhani",
+    "name": "Mahshid Rezakhani",
+    "handle": "Mahshid Rezakhani, Kimia Azar, Hadi Kamali",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
+  "body_text": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models\n\nThe rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to translate high-level specs. into synthesizable hardware. However, this reliance on pre-trained (3rd-party) fine-tuned models may introduce critical trust issues, as the training data and adaptation process of these models are often opaque. Thus, adversaries (even model providers) may embed hidden backdoor threats during fine-tuning, allowing malicious behavior, e.g., hardware Trojans, to be triggered by seemingly benign prompts given by victim user at inference time. In this paper, we introduce RTLGuard, to mitigate such a trust issue in AI-enabled IC supply chain. Rather than prohibitive computational cost of full-parameter retraining, RTLGuard leverages a teacher-student framework designed to sanitize compromised RTL generation models by (1) fine-tuning a small-scale, \"clean\" teacher model on a limited set of trusted RTL data, (2) guiding the poisoned target model via a composite teacher-student objective, and (3) incorporating feature alignment and knowledge distillation to suppress malicious behaviors. Our experiments across various LLM architectures demonstrate that RTLGuard significantly reduces the Attack Success Rate (ASR) while preserving the functional correctness and synthesizability of the generated RTL code.\n\nAuthors: Mahshid Rezakhani, Kimia Azar, Hadi Kamali\nCategories: cs.CR, cs.AR, cs.CR",
+  "word_count": 191,
+  "published_at": "2026-08-26T17:23:48Z",
+  "ingested_at": "2026-08-27T11:04:35.794Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
