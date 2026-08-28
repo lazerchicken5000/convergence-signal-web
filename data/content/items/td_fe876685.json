@@ -1,0 +1,38 @@
+{
+  "id": "td_fe876685",
+  "source": "arxiv",
+  "source_id": "2608.27422",
+  "source_url": "https://arxiv.org/abs/2608.27422",
+  "content_type": "paper",
+  "creator": {
+    "id": "edgar_chavez",
+    "name": "Edgar Chavez",
+    "handle": "Edgar Chavez",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "misi: a Metric Inverted Sample Index",
+  "body_text": "misi: a Metric Inverted Sample Index\n\nWe present misi, an inverted index for approximate nearest-neighbor search over general metric spaces whose vocabulary is a random sample of the database, of size proportional to $n$. Each object is represented by its $k_b$ nearest sample points, found by a pluggable inner index over the sample; queries are answered by an idf-weighted shared-neighbor vote followed by exact verification of $C$ candidates. The construction generalizes the NAPP index from a constant number of pivots to a linear-size vocabulary, which keeps posting lists at constant expected length $ρ= k_b/α$ as $n$ grows and turns the index into a combinator: any high-recall index on $αn$ points yields an index on $n$ points, for any metric. A probabilistic model gives a recall guarantee -- $k_b$ logarithmic in $n$ over the overlap gap suffices, with a verification budget the index itself estimates -- and a matching limit: the vote cannot resolve overlap differences below order $1/\\sqrt{k_b}$. The design's strengths are structural: construction is $n$ independent searches -- embarrassingly parallel, deterministic, $5{,}250$ s for $10^8$ vectors on 64 cores, $3.7\\times$ faster than a matched-recall graph build -- it streams under an enforced 3 GiB cap, and the portable artifact serves $10^8$ vectors from NVMe within an enforced 8 GB budget, below the working floor of the SSD-graph baseline. Its cost is query-time work: saturated graph baselines answer $6$-$16\\times$ faster in RAM, and the verification budget for 0.99 recall grows as $n^{0.30}$. All results carry seeds, saturation sweeps and full configurations, are generated from run manifests, and include measured negative results. The intended applications weight construction cost, determinism, memory footprint, or black-box metrics over peak throughput: frequently rebuilt corpora, batch similarity workloads, constrained-memory serving.\n\nAuthors: Edgar Chavez\nCategories: cs.IR, cs.IR",
+  "word_count": 278,
+  "published_at": "2026-08-27T17:48:22Z",
+  "ingested_at": "2026-08-28T11:05:09.007Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

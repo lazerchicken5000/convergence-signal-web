@@ -1,0 +1,35 @@
+{
+  "id": "td_a76a2630",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+  "source_url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Breaking Claude Code Opus 5 Auto Mode",
+  "body_text": "Breaking Claude Code Opus 5 Auto Mode\nAnthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness.\nJohann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive.\nIn a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute!\n\nIn a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command.\nClaude detects the compromise, but Auto Mode blocks its cleanup command\nThe safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it!\n\nI agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox:\n\n\nRun unattended coding agents in a container, VM or OS sandbox.\nRestrict network egress.\nMonitor your agents.\nDo not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...]\n\n\n\n\n    Tags: sandboxing, security, ai, prompt-injection, generative-ai, llms, anthropic, claude, johann-rehberger, claude-code",
+  "word_count": 257,
+  "published_at": "2026-08-27T22:50:25.000Z",
+  "ingested_at": "2026-08-28T11:00:09.848Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

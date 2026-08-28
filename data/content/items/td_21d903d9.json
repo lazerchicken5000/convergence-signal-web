@@ -1,0 +1,39 @@
+{
+  "id": "td_21d903d9",
+  "source": "arxiv",
+  "source_id": "2608.27313",
+  "source_url": "https://arxiv.org/abs/2608.27313",
+  "content_type": "paper",
+  "creator": {
+    "id": "zijie_cheng",
+    "name": "Zijie Cheng",
+    "handle": "Zijie Cheng, Xiang Li, Yang Peng, Zhihua Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Finite Sample Analysis for Quantile Temporal Difference Learning in Distributional Reinforcement Learning",
+  "body_text": "A Finite Sample Analysis for Quantile Temporal Difference Learning in Distributional Reinforcement Learning\n\nWe establish a global finite-sample guarantee for synchronous quantile temporal-difference learning (QTD) in tabular distributional reinforcement learning. The proof separates two stability mechanisms. A global comparison argument, based on the order monotonicity of reward cumulative distribution functions and the $W_\\infty$ contraction of the distributional Bellman operator, brings an arbitrarily initialized iterate into a local neighborhood. Inside that neighborhood, we linearize the QTD mean field. Its Jacobian is a nonsingular $M$-matrix, and the associated positive semigroup permits a variance-sensitive martingale analysis. For stepsizes $α_t=c(t+1)^{-a}$ with $a\\in(1/2,1)$, the leading last-iterate fluctuation is of order $\\widetilde O\\bigl(T^{-a/2}/\\sqrt{1-γ}\\bigr)$ and has no polynomial dependence on the number of quantiles. The deterministic transient and the required burn-in can still depend on the smallest Bellman-target density, which is of order $m^{-1}$ in the worst case. The result therefore distinguishes sharply between the local stochastic fluctuation and the global sample complexity.\n\nAuthors: Zijie Cheng, Xiang Li, Yang Peng, Zhihua Zhang\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 143,
+  "published_at": "2026-08-27T16:16:09Z",
+  "ingested_at": "2026-08-28T11:04:46.674Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

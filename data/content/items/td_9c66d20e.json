@@ -1,0 +1,39 @@
+{
+  "id": "td_9c66d20e",
+  "source": "arxiv",
+  "source_id": "2608.27423",
+  "source_url": "https://arxiv.org/abs/2608.27423",
+  "content_type": "paper",
+  "creator": {
+    "id": "b._campos",
+    "name": "B. Campos",
+    "handle": "B. Campos, P. Munch, V. O. Ferreira, D. C. Boffito, X. Banquy, B. Blais",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "High-order stabilized matrix-free simulation of rotating mixing devices using the Mortar Element Method",
+  "body_text": "High-order stabilized matrix-free simulation of rotating mixing devices using the Mortar Element Method\n\nWe present a finite element framework to simulate rotating mixing devices using the Mortar Element Method as a domain decomposition strategy. The model is implemented within a matrix-free Navier-Stokes framework which uses a high-order Continuous Galerkin method. The discretized domain is subdivided into rotor and stator parts. An Arbitrary Lagrangian-Eulerian approach accounts for the relative rotor-stator motion, and stabilization is ensured through the Streamline-Upwind/Petrov-Galerkin and Pressure-Stabilizing Petrov-Galerkin methods. The rotor-stator domains are connected by an interface composed of mortar cells, and continuity is weakly enforced in a Discontinuous Galerkin fashion by accounting for boundary integrals at the rotor-stator interface. Verifications of the convergence order in two-dimensional steady and transient examples report optimal rates. The geometric non-conformity created at the mortar interface due to rotor rotation does not introduce significant error in the solution. A three-dimensional example is used to investigate the model's scalability, which yields ideal strong scaling for large problems. A two-dimensional Rushton impeller example uses a torque analysis to showcase the mesh convergence, and the corresponding velocity profile is in agreement with existing numerical results. In a three-dimensional pitched blade turbine case, the power number curve (Np vs Re) shows good agreement with experimental data for Reynolds number values from 1 to 2000. An energy balance analysis reports a numerical dissipation of 1% for Re=200 and of 10% for Re=2000. By exploiting modern hardware capabilities through matrix-free methods, the proposed model is a robust, accurate, and efficient framework suitable for simulating flows with rotating geometries.\n\nAuthors: B. Campos, P. Munch, V. O. Ferreira, D. C. Boffito, X. Banquy, B. Blais\nCategories: physics.flu-dyn, math.NA, physics.flu-dyn",
+  "word_count": 247,
+  "published_at": "2026-08-27T17:48:45Z",
+  "ingested_at": "2026-08-28T11:05:09.007Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.flu-dyn",
+    "math.NA",
+    "physics.flu-dyn"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

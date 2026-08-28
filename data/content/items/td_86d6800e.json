@@ -1,0 +1,40 @@
+{
+  "id": "td_86d6800e",
+  "source": "arxiv",
+  "source_id": "2608.27339",
+  "source_url": "https://arxiv.org/abs/2608.27339",
+  "content_type": "paper",
+  "creator": {
+    "id": "xinwei_qiang",
+    "name": "Xinwei Qiang",
+    "handle": "Xinwei Qiang, Xiang Fang, Chang Chen, Yue Guan, Yufei Ding",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+  "body_text": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting\n\nBlock drafters propose several tokens in one forward pass, before earlier target tokens are realised. Their rejection mixes two losses: missing within-block path information and imperfect modelling of observable information. Accepted length cannot distinguish them. We separate the two with an information floor, the minimum expected rejection at a specified conditioning order; rejection above this floor is the model gap. Estimating both from target rollouts across four domains, four open-weight targets, and a frontier API target yields three findings. First, the all-parallel floor reaches $0.286$ at the final slot on Qwen3-4B, limiting even the best proposal to $71\\%$ per-slot acceptance. Second, one realised token removes $86$--$100\\%$ of this floor, a locality also recovered by an independent mutual-information analysis. Third, current drafters remain far above their floors: the final-slot model gap accounts for $43$--$64\\%$ of DFlash rejection and $85$--$92\\%$ of DSpark's oracle-conditioned rejection. These findings separate the value of short-range conditioning from proposal quality.\n\nAuthors: Xinwei Qiang, Xiang Fang, Chang Chen, Yue Guan, Yufei Ding\nCategories: cs.LG, cs.CL, cs.IT, cs.LG",
+  "word_count": 153,
+  "published_at": "2026-08-27T16:40:45Z",
+  "ingested_at": "2026-08-28T11:04:46.674Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.IT",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
