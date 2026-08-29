@@ -1,0 +1,35 @@
+{
+  "id": "td_6ecf2011",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+  "source_url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Just a rumour of a bug is enough to find a security exploit these days",
+  "body_text": "Just a rumour of a bug is enough to find a security exploit these days\nAnil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:\n\nThis normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.\n\nModern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task.\nAnil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.\nrclone maintainer Nick Craig-Wood confirms in the Hacker News comments that his project is seeing this problem:\n\nIn the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.\nThe hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]\nGitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.\n\n\n    Via Hacker News\n\n\n    Tags: open-source, security, ai, generative-ai, llms, coding-agents, ocaml, ai-security-research",
+  "word_count": 337,
+  "published_at": "2026-08-28T22:12:02.000Z",
+  "ingested_at": "2026-08-29T11:00:11.698Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
