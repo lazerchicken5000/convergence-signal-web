@@ -1,0 +1,35 @@
+{
+  "id": "td_83b061b2",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Aug/29/hy4/",
+  "source_url": "https://simonwillison.net/2026/Aug/29/hy4/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Introducing Hy4 Preview",
+  "body_text": "Introducing Hy4 Preview\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face.\nThis is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB.\nI recently started using model chat templates to better understand their capabilities. Here's Hy4's  chat_template.jinja on Hugging Face, which includes this section:\n{%- if not reasoning_effort is defined %}\n    {%- set reasoning_effort = 'high' %}\n{%- elif reasoning_effort not in ['high', 'no_think'] %}\n    {%- if reasoning_effort is none %}\n        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}\n    {%- else %}\n        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}\n    {%- endif %}\n{%- endif %}\nSo it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled).\nI tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning via OpenRouter and got this:\n\nQuoting the reasoning trace:\n\n[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.\nMaybe add sunglasses? no.\nMaybe add water? no.\n\nIt's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.\n\n\n    Tags: ai, generative-ai, llms, pelican-riding-a-bicycle, llm-reasoning, llm-release, ai-in-china",
+  "word_count": 260,
+  "published_at": "2026-08-29T23:53:13.000Z",
+  "ingested_at": "2026-08-30T11:00:10.475Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
