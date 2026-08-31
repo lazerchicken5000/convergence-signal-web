@@ -1,0 +1,40 @@
+{
+  "id": "td_d6c200fe",
+  "source": "arxiv",
+  "source_id": "2608.28518",
+  "source_url": "https://arxiv.org/abs/2608.28518",
+  "content_type": "paper",
+  "creator": {
+    "id": "sihan_jia",
+    "name": "Sihan Jia",
+    "handle": "Sihan Jia, Oliver Lemon",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+  "body_text": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI\n\nWe investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambiguity, while others weaken the model refusal behaviour and allow unsafe plans to be generated and executed. We show that in some cases automatic correction of ASR errors can reduce the risk, but this is not always effective. Overall, we show that ASR errors lead to significant safety risks for embodied AI.\n\nAuthors: Sihan Jia, Oliver Lemon\nCategories: cs.AI, cs.CL, cs.RO, cs.AI",
+  "word_count": 128,
+  "published_at": "2026-08-28T16:55:32Z",
+  "ingested_at": "2026-08-31T11:04:59.970Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.RO",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

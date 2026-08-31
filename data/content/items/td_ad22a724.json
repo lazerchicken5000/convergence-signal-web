@@ -1,0 +1,39 @@
+{
+  "id": "td_ad22a724",
+  "source": "arxiv",
+  "source_id": "2608.28481",
+  "source_url": "https://arxiv.org/abs/2608.28481",
+  "content_type": "paper",
+  "creator": {
+    "id": "samuel_xiao",
+    "name": "Samuel Xiao",
+    "handle": "Samuel Xiao, Judy Song, Rory Hu, Ziliang Zong",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+  "body_text": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry\n\nRecent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to translate informal mathematical problems into formal representations remains underexplored. This limitation is particularly important for neuro-symbolic geometry systems such as AlphaGeometry, whose theorem-proving engine requires inputs in a specialized domain-specific language (DSL). Although AlphaGeometry achieves near-IMO gold-medalist performance, manually converting natural-language problems into its formal syntax remains a significant usability bottleneck. To address this challenge, we introduce the Natural Language to AlphaGeometry Benchmark (NL2AGBench), which evaluates LLMs in translating English geometry problems into AlphaGeometry-compatible formal representations. NL2AGBench uses execution-based verification within AlphaGeometry to assess translation quality rather than relying solely on textual similarity. We evaluate ten state-of-the-art open- and closed-source LLMs across multiple parameter scales and analyze executable translation accuracy, syntactic correctness, and error characteristics. Our experiments reveal a substantial performance gap between closed- and open-source models: leading closed-source models achieve executable translation rates above 80%, while even the largest open-source models struggle to consistently preserve geometric constraints and produce valid formalizations. We introduce an error taxonomy distinguishing syntax and logic errors and investigate mitigation strategies, including few-shot prompting, fine-tuning, and human-guided hinting, which yield measurable improvements across multiple model families.\n\nAuthors: Samuel Xiao, Judy Song, Rory Hu, Ziliang Zong\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 203,
+  "published_at": "2026-08-28T16:07:16Z",
+  "ingested_at": "2026-08-31T11:05:06.977Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

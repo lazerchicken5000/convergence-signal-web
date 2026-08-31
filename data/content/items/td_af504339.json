@@ -1,0 +1,38 @@
+{
+  "id": "td_af504339",
+  "source": "arxiv",
+  "source_id": "2608.28570",
+  "source_url": "https://arxiv.org/abs/2608.28570",
+  "content_type": "paper",
+  "creator": {
+    "id": "seungyeon_kim",
+    "name": "Seungyeon Kim",
+    "handle": "Seungyeon Kim, Noémie Jaquier",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
+  "body_text": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos\n\nIdentifying the underlying dynamics and 3D geometry of deformable linear objects (DLOs), such as cables, ropes, and hoses, is essential for accurate robotic manipulation, but remains challenging due to their high-dimensional configuration spaces and diverse behaviors arising from varying material properties. Existing methods often rely on multi-stage pipelines and auxiliary depth inputs, which are prone to errors under dynamic interactions, while their high-dimensional state representations make model-based control computationally expensive. In this paper, we introduce ChainSplat, a physics-inspired framework that jointly learns the 3D geometry, appearance, kinematics, and dynamics of DLOs solely from multi-view RGB videos. ChainSplat represents a DLO as an open-chain structure of rigid links connected by revolute joints, yielding an analytic, screw-theoretic model with a compact state representation parameterized by joint configurations. By integrating this formulation with Gaussian splatting, ChainSplat jointly recovers DLO dynamics, kinematics-aware 3D geometry, and appearance, while enabling high-fidelity RGB rendering from arbitrary states. Through real-world experiments, we demonstrate that ChainSplat achieves state-of-the-art performance in dynamics predictions, 3D geometry reconstruction, and RGB rendering across dynamic interactions. ChainSplat further enables real-time state and force estimation, as well as accurate model-based trajectory optimization, highlighting its practical utility for real-world robotic manipulation of DLOs. Accompanying source code and video are available at: https://chainsplat.github.io.\n\nAuthors: Seungyeon Kim, Noémie Jaquier\nCategories: cs.RO, cs.RO",
+  "word_count": 206,
+  "published_at": "2026-08-28T17:46:38Z",
+  "ingested_at": "2026-08-31T11:05:28.693Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

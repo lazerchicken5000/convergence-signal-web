@@ -1,0 +1,38 @@
+{
+  "id": "td_7192e96a",
+  "source": "arxiv",
+  "source_id": "2608.28502",
+  "source_url": "https://arxiv.org/abs/2608.28502",
+  "content_type": "paper",
+  "creator": {
+    "id": "jun_wen_leong",
+    "name": "Jun Wen Leong",
+    "handle": "Jun Wen Leong",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Recognition Without Enforcement: Configuration-Dependent Failures in LLM Agent Instruction Arbitration and External Control",
+  "body_text": "Recognition Without Enforcement: Configuration-Dependent Failures in LLM Agent Instruction Arbitration and External Control\n\nLLM agents arbitrate among instructions from system prompts, users, memory, and tools, but this arbitration cannot be assumed to enforce trust boundaries. We identify a recognition-enforcement gap: source-format features (role-template position, channel metadata, formatting cues) are linearly decodable from model activations, and models can explicitly identify forged authority when prompted, yet some configurations still produce the conflicting tool call. We use \"recognition\" in this specific decodable-source-format-plus-verbalized-detection sense; crossed-probe controls show it is not a unified abstract trust representation. The gap is not an immutable property of model weights. Restrictive policies and diverse prompts can eliminate execution on the same models, while permissive configurations and particular prompt-model pairs yield deterministic failures. Across a fleet evaluation (authority spoofing: 46 model endpoints across 6 vendors including open-weight; memory conflict: 48 models), average execution under diverse novel attacks is 1.21% [0.5-2.1%] (model-clustered CI over 14,294 spoofed trials from 29 models), but vulnerability is concentrated in reproducible cells and shifts across deployment windows (up to 47pp within-window per-fingerprint range). Prompt-layer defenses likewise fail to generalize across models and adaptive formulations. We therefore treat model self-arbitration as a capability rather than a security boundary and implement an external reference monitor combining authenticated source routing with capability-gated tool execution. It deterministically rejects all tested forged, tampered, replayed, and unsigned requests while preserving legitimate operations. A separate adaptive red-team found one implementation flaw (a since-patched clock-skew admission), not a cryptographic bypass. Secure agents require external enforcement, not merely better recognition.\n\nAuthors: Jun Wen Leong\nCategories: cs.CR, cs.CR",
+  "word_count": 242,
+  "published_at": "2026-08-28T16:34:05Z",
+  "ingested_at": "2026-08-31T11:05:21.320Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

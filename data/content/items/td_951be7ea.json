@@ -1,0 +1,38 @@
+{
+  "id": "td_951be7ea",
+  "source": "arxiv",
+  "source_id": "2608.28568",
+  "source_url": "https://arxiv.org/abs/2608.28568",
+  "content_type": "paper",
+  "creator": {
+    "id": "fidel_omar_tito_cruz",
+    "name": "Fidel Omar Tito Cruz",
+    "handle": "Fidel Omar Tito Cruz, Angie Sanchez Marquina, Summy Farfan, Gissella Bejarano",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SignRR: Retrieve and Refine Real Motion for Sign Language Production",
+  "body_text": "SignRR: Retrieve and Refine Real Motion for Sign Language Production\n\nSign language production (SLP) aims to generate continuous signing motion from spoken language, often through gloss-to-pose generation. Prior work mainly follows two paradigms. Generative models synthesize motion from a learned prior or from noise, without reference to an observed signing instance, making rare hand configurations and signer-specific articulation difficult to preserve. Retrieval-based methods reuse real, well-articulated motion segments, but concatenating segments from different signers and co-articulation contexts can introduce rhythm and style inconsistencies across the full sequence, not only at segment boundaries. These limitations suggest a complementary solution: use retrieval to provide realistic articulation, and use learned refinement to impose the global coherence that retrieval alone lacks. We therefore propose retrieve-and-refine, a paradigm that starts from real retrieved motion and refines it into a globally coherent signing sequence rather than generating motion from scratch. Our framework, SignRR, initializes motion from a dictionary of real sign segments and refines the full sequence with a part-aware Residual VQ-VAE, where residual quantization preserves fine hand articulation and temporal length differences are handled in the latent space. Experiments on PHOENIX14T and CSL-Daily show that SignRR achieves state-of-the-art back-translation performance while maintaining competitive pose quality.\n\nAuthors: Fidel Omar Tito Cruz, Angie Sanchez Marquina, Summy Farfan, Gissella Bejarano\nCategories: cs.CV, cs.CV",
+  "word_count": 190,
+  "published_at": "2026-08-28T17:45:14Z",
+  "ingested_at": "2026-08-31T11:05:28.693Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

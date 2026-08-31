@@ -1,0 +1,38 @@
+{
+  "id": "td_81cae6b2",
+  "source": "arxiv",
+  "source_id": "2608.28571",
+  "source_url": "https://arxiv.org/abs/2608.28571",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiahui_wu",
+    "name": "Jiahui Wu",
+    "handle": "Jiahui Wu, Chao Zhang, Zipeng Wu, Shilin Huang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning to Decode Concatenated Quantum Codes with Hierarchical Message Passing",
+  "body_text": "Learning to Decode Concatenated Quantum Codes with Hierarchical Message Passing\n\nWe introduce a neural message-passing framework for decoding general concatenated stabilizer codes. Soft beliefs propagate bidirectionally across concatenation levels, and lightweight neural networks learn only to aggregate incoming messages. For the concatenated $[[15,7,3]]$ quantum Hamming code, the resulting decoder achieves substantially higher thresholds than the state-of-the-art bidirectional hard-decision decoder under both bit-flip and depolarizing noise. In particular, the depolarizing pseudo-threshold nearly doubles, from $6.5\\%$ to $12.3\\%$. For many-hypercube codes, a decoder fine-tuned on circuit-level errors in Knill's teleportation-based error correction can achieve lower logical-CNOT failure rates than their dedicated decoder, using a fixed number of message-passing iterations instead of extensive combinatorial search. Our framework provides a generic decoding tool for exploring the design space of concatenated codes, including non-CSS constructions, toward low-overhead fault tolerance.\n\nAuthors: Jiahui Wu, Chao Zhang, Zipeng Wu, Shilin Huang\nCategories: quant-ph, quant-ph",
+  "word_count": 124,
+  "published_at": "2026-08-28T17:48:04Z",
+  "ingested_at": "2026-08-31T11:05:28.693Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_ff210dfa",
+  "source": "arxiv",
+  "source_id": "2608.28508",
+  "source_url": "https://arxiv.org/abs/2608.28508",
+  "content_type": "paper",
+  "creator": {
+    "id": "v._s._d._s._mahesh_akavarapu",
+    "name": "V. S. D. S. Mahesh Akavarapu",
+    "handle": "V. S. D. S. Mahesh Akavarapu, Michael Daniel, Gerhard Jäger",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation",
+  "body_text": "Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation\n\nForced alignment evaluation typically requires manually annotated timestamps, limiting large-scale and multilingual analysis. We introduce two corpus-level metrics based on self-supervised (SSL) speech representations for reference-free forced alignment evaluation: Phoneme-Cluster Mutual Information (PCMI) and Word Acoustic Consistency Score (WACS). PCMI measures agreement between aligned phoneme labels and clusters induced from SSL-speech representations, while WACS measures consistency of repeated word realizations using dynamic time warping similarity between word representation sequences. Using both random and systematic perturbations, we show that PCMI and WACS degrade consistently under alignment perturbations. We further analyze the metrics across multiple alignment systems on 85 languages from FLEURS, validate them against manually annotated alignments from 45 languages in DoReCo, and evaluate them on two phonologically complex low-resource languages. The metrics effectively separate high- and low-quality alignments and correlate strongly with timestamp-based alignment quality measures. Our results demonstrate that SSL-speech representations enable scalable, reference-free forced alignment evaluation. The metrics are available as an open-source Python package at https://github.com/mahesh-ak/forced-aligner-metrics.\n\nAuthors: V. S. D. S. Mahesh Akavarapu, Michael Daniel, Gerhard Jäger\nCategories: cs.CL, cs.CL",
+  "word_count": 159,
+  "published_at": "2026-08-28T16:39:22Z",
+  "ingested_at": "2026-08-31T11:05:06.977Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

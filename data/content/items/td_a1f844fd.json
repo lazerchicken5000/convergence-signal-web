@@ -1,0 +1,38 @@
+{
+  "id": "td_a1f844fd",
+  "source": "arxiv",
+  "source_id": "2608.28496",
+  "source_url": "https://arxiv.org/abs/2608.28496",
+  "content_type": "paper",
+  "creator": {
+    "id": "di_wu",
+    "name": "Di Wu",
+    "handle": "Di Wu, Sergey Troshin, Christof Monz, Antske Fokkens, Vlad Niculae",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
+  "body_text": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation\n\nTwo forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier ones, and parallel, such as i.i.d. sampling with reranking. In this study, we investigate their properties in translation. First, our study shows that sequential sampling has a higher performance ceiling, providing a more diverse and effective pool of samples, particularly under smaller sampling budgets. Second, we interrogate the nature of test-time scaling through a multidimensional manual analysis. Human analysis of the Best-of-$N$ translations demonstrates that sequential sampling substantially improves translation fluency and naturalness, but can degrade accuracy when inference budgets are large. Finally, we suggest an explanation of the mechanism through which sequential scaling improves machine translation. Our controlled analysis partially attributes the success of sequential self-improvement to the model's access to a larger target-side context. Ablation experiments on sequential sampling demonstrate its robustness across different sampling temperatures, while also revealing sensitivity to context construction, suggesting directions for future improvement.\n\nAuthors: Di Wu, Sergey Troshin, Christof Monz, Antske Fokkens, Vlad Niculae\nCategories: cs.CL, cs.CL",
+  "word_count": 167,
+  "published_at": "2026-08-28T16:22:39Z",
+  "ingested_at": "2026-08-31T11:05:06.977Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

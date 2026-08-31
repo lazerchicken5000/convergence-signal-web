@@ -1,0 +1,39 @@
+{
+  "id": "td_c9782384",
+  "source": "arxiv",
+  "source_id": "2608.28542",
+  "source_url": "https://arxiv.org/abs/2608.28542",
+  "content_type": "paper",
+  "creator": {
+    "id": "adil_alshammari",
+    "name": "Adil Alshammari",
+    "handle": "Adil Alshammari, Hayretdin Bahsi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach",
+  "body_text": "Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach\n\nCross-organization agent workflows require preserved evidence that remains independently verifiable during later audit or dispute review. They may involve multiple organizations, delegated actions, policy-relevant events, and disputed accountability claims. This is difficult when live systems are unavailable, controlled by one party, or not trusted by all participants. Existing mechanisms provide useful pieces, including authenticated logging, delegation semantics, signed checkpoints, and consistency checks. What remains missing is a verifier-centered event-level bundle for checking evidence sufficiency offline under an explicit policy. We propose a preserved evidence-bundle model and a policy-controlled offline verifier for agent-to-agent workflow events. Each bundle preserves policy-required evidence, including sender authentication, authenticated log commitment, witness-backed checkpoint evidence, append-only continuity, delegation-aware authorization evidence, and explicit receiver-signed receipt evidence when required. The verifier accepts only claims supported by the selected policy-required evidence, giving a later reviewer an offline basis for assessing evidence sufficiency. It does not infer delivery or receipt from transport behavior or log inclusion alone. In a prototype evaluation over 300 complete workflows and 1200 valid preserved bundles, we measure offline verifier-side latency across policy profiles and workflow-event evidence requirements. Checkpoint-context anchoring has the highest latency in the current prototype, while delegation and workflow-prerequisite evidence require additional verification steps. In targeted negative-evidence tests, all corrupted or policy-insufficient bundles were rejected, with no false acceptance observed. These results support evidence-based audit and dispute review without relying on live services or platform-specific logs.\n\nAuthors: Adil Alshammari, Hayretdin Bahsi\nCategories: cs.CR, cs.MA, cs.CR",
+  "word_count": 232,
+  "published_at": "2026-08-28T17:18:49Z",
+  "ingested_at": "2026-08-31T11:05:21.319Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.MA",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

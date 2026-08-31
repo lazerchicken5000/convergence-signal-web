@@ -1,0 +1,40 @@
+{
+  "id": "td_6d5a7a0f",
+  "source": "arxiv",
+  "source_id": "2608.28515",
+  "source_url": "https://arxiv.org/abs/2608.28515",
+  "content_type": "paper",
+  "creator": {
+    "id": "tom_stent",
+    "name": "Tom Stent",
+    "handle": "Tom Stent, Nicolas Boullé",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Conformal Uncertainty Quantification Guarantees for Neural Operators",
+  "body_text": "Conformal Uncertainty Quantification Guarantees for Neural Operators\n\nNeural operators provide fast surrogate models for approximating operators between function spaces, but their predictions often lack uncertainty quantification. We develop a split conformal framework to guarantee that a calibrated pointwise band around the neural operator output contains the true solution on at least a $1-γ$ fraction of the evaluation domain, with probability at least $1-α$ over test and calibration inputs, where $α,γ\\in(0,1)$. Our method reduces a normalized residual field to its spatial $(1-γ)$-quantile and computes a scaling factor using a held-out calibration dataset. We prove marginal coverage guarantees for measurable residual fields defined on arbitrary probability spaces, covering both continuum domains and fixed discretizations. Under mild assumptions on the data distribution, we show that the coverage conditional on the calibration set follows a Beta distribution, which we verify with numerical experiments on Darcy flow and Navier--Stokes equations, where our calibration yields bands consistently tighter than existing corrections while retaining the target coverage.\n\nAuthors: Tom Stent, Nicolas Boullé\nCategories: math.NA, cs.AI, math.PR, math.NA",
+  "word_count": 153,
+  "published_at": "2026-08-28T16:50:57Z",
+  "ingested_at": "2026-08-31T11:04:59.970Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "cs.AI",
+    "math.PR",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

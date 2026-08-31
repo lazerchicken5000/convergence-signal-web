@@ -1,0 +1,38 @@
+{
+  "id": "td_c4ca7036",
+  "source": "arxiv",
+  "source_id": "2608.28580",
+  "source_url": "https://arxiv.org/abs/2608.28580",
+  "content_type": "paper",
+  "creator": {
+    "id": "anna_hasenfratz",
+    "name": "Anna Hasenfratz",
+    "handle": "Anna Hasenfratz, Ethan T. Neil, Letizia Parato, Noah Schwartz",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Renormalization-guided inverse blocking for lattice field generation: construction and validation",
+  "body_text": "Renormalization-guided inverse blocking for lattice field generation: construction and validation\n\nWe propose an algorithm for generating lattice field configurations based on the approximate inversion of a renormalization-group blocking transformation. We optimize the blocking transformation using a ``perfect blocking'' condition so that the blocked lattice distribution is well approximated by a simple coarse action. The blocking is separated into an invertible smoothing transformation followed by decimation. Machine learning, in the form of a conditional normalizing flow, is used to reconstruct the short-distance degrees of freedom removed by the decimation. A short fine-action rethermalization then removes the residual mismatch. Because the coarse ensemble supplies the long-distance modes, the same blocking transformation and conditional flow can be reused recursively on larger lattices, producing a cascade of configurations from an initial small-volume ensemble. We test the method in two-dimensional $φ^4$ theory with $λ=1$ at criticality and demonstrate stable cascade upscaling from $16^2$ to $2048^2$ lattices on local computational resources. Controlled rethermalization tests show that short-distance mismatches relax rapidly, whereas a deliberately introduced mismatch in the relevant thermal direction relaxes much more slowly. The construction uses ingredients that admit natural extensions to higher-dimensional systems and, ultimately, to gauge and fermionic degrees of freedom.\n\nAuthors: Anna Hasenfratz, Ethan T. Neil, Letizia Parato, Noah Schwartz\nCategories: hep-lat, hep-lat",
+  "word_count": 188,
+  "published_at": "2026-08-28T17:55:55Z",
+  "ingested_at": "2026-08-31T11:05:28.692Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "hep-lat",
+    "hep-lat"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

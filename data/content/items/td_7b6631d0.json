@@ -1,0 +1,39 @@
+{
+  "id": "td_7b6631d0",
+  "source": "arxiv",
+  "source_id": "2608.28499",
+  "source_url": "https://arxiv.org/abs/2608.28499",
+  "content_type": "paper",
+  "creator": {
+    "id": "shae_mcfadden",
+    "name": "Shae McFadden",
+    "handle": "Shae McFadden, Ilias Tsingenopoulos, Mario D'Onghia, Alexander Herzog, Myles Foley, Chris Hicks, Lorenzo Cavallaro, Fabio Pierazzi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "REPLICANT: Learning Policies for Evading and Hardening Malware Detectors",
+  "body_text": "REPLICANT: Learning Policies for Evading and Hardening Malware Detectors\n\nTo determine the real-world effectiveness of machine learning based malware detection, it is vital to evaluate its robustness against highly capable adversaries. However, state-of-the-art attacks do not effectively model realistic adversaries, as they often assume access to privileged information such as the training data, feature space, or confidence scores of the target. In this work, we present Replicant, a deep reinforcement learning framework that learns the realistic task of evasion under a strict label-only black-box threat model. Replicant learns a reusable policy on how to modify a malware sample and when to query the target, which transfers across samples, detectors, and feature spaces. Across seven Android malware detectors and three feature spaces, Replicant is the strongest and most query-efficient approach achieving a mean attack success rate of 78.8%, a relative improvement of 20.9%-39.2% over the state-of-the-art. Furthermore, when used for adversarial training, Replicant also outperforms the state-of-the art by producing detectors with more generalizable robustness. With Replicant we demonstrate that learning the task of evasion not only results in stronger attack performance but, crucially, provides a better signal for hardening malware detectors.\n\nAuthors: Shae McFadden, Ilias Tsingenopoulos, Mario D'Onghia, Alexander Herzog, Myles Foley, Chris Hicks, Lorenzo Cavallaro, Fabio Pierazzi\nCategories: cs.LG, cs.CR, cs.LG",
+  "word_count": 182,
+  "published_at": "2026-08-28T16:29:17Z",
+  "ingested_at": "2026-08-31T11:05:13.995Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CR",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
