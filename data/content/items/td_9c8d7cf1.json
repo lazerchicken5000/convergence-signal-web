@@ -1,0 +1,39 @@
+{
+  "id": "td_9c8d7cf1",
+  "source": "arxiv",
+  "source_id": "2608.31096",
+  "source_url": "https://arxiv.org/abs/2608.31096",
+  "content_type": "paper",
+  "creator": {
+    "id": "yunxiang_fu",
+    "name": "Yunxiang Fu",
+    "handle": "Yunxiang Fu, Meng Lou, Yizhou Yu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "One Adapter, Many Tasks: Task-Conditioned Feature Transformations for Continual Learning",
+  "body_text": "One Adapter, Many Tasks: Task-Conditioned Feature Transformations for Continual Learning\n\nClass-incremental learning (CIL) requires a model to incrementally learn tasks that contain new classes without accessing earlier training data while preserving the ability to recognize all seen classes. Recently, pretrained-model-based approaches have become prevalent by adapting a frozen backbone with additional lightweight trainable modules. Existing methods, however, exhibit limitations: task-specific adapters learn explicit per-task representations but are parameter- and computation-inefficient, while LoRA-based merging methods combine per-task LoRA parameters into a single model whose static aggregated weights cause representation interference during inference. To address these problems, we present \\textbf{FACET}: task-conditioned \\textbf{F}e\\textbf{A}ture transformation with \\textbf{C}ondition\\textbf{E}d feature consis\\textbf{T}ency, achieving excellent parameter efficiency while producing highly discriminative features during inference. When continually trained on a task sequence, FACET learns a single shared adapter that employs a dynamic task-conditioned feature transformation, shaping the overall feature distribution of the adapter into a mixture of overlap-reduced task-specific components. On the other hand, we propose an efficient replay-free task-conditioned feature consistency loss, aiming to mitigate catastrophic forgetting of the learned mixture distribution in the adapter's feature space. Even when maintaining only a single adapter, FACET demonstrates robust scalability. On both very long task sequences (e.g., 200 tasks) and standard short task sequences (e.g., 20 tasks), our method achieves superior performance while using significantly fewer trainable parameters and GFLOPs. The code will be made open source upon acceptance.\n\nAuthors: Yunxiang Fu, Meng Lou, Yizhou Yu\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 219,
+  "published_at": "2026-08-31T17:03:45Z",
+  "ingested_at": "2026-09-01T11:04:49.855Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

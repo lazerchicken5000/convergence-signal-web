@@ -1,0 +1,38 @@
+{
+  "id": "td_4b135d35",
+  "source": "arxiv",
+  "source_id": "2608.31149",
+  "source_url": "https://arxiv.org/abs/2608.31149",
+  "content_type": "paper",
+  "creator": {
+    "id": "paul_anthony_haigh",
+    "name": "Paul Anthony Haigh",
+    "handle": "Paul Anthony Haigh",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning to deform the matched filter",
+  "body_text": "Learning to deform the matched filter\n\nAnalytical signal-processing blocks are interpretable and reliable, but their optimality depends on assumptions that practical hardware and channels violate. Learned replacements can adapt, but often discard the structure that makes the original solution understandable. Here we introduce deformable matched filtering, a platform in which learning steers a bounded deformation of an explicit matched filter instead of replacing the waveform-processing path. In a hardware-in-the-loop optical wireless link, blind state descriptors drive causal, pilotless updates while payload samples, transmitted references, and condition labels remain outside the controller. Receiver deformation generalises across held-out signalling and channel conditions and remains ahead of a span-matched fractionally spaced equaliser after stationary convergence in most tested regimes. A transferable transmitter deformation reduces error-vector magnitude in all 144 held-out evaluations, whereas its additional value after receiver adaptation emerges principally under severe combined distortion. KAN, MLP, and linear controllers provide different condition-dependent advantages within the same filter structure. During 24 hours of uninterrupted changing-condition operation, bounded deformable receivers recover their original operating regime after severe intervening distortion while the persistent conventional equaliser accumulates destructive state. These results establish deformable analytical filters as a reusable middle ground between fixed theory and end-to-end learned signal processing.\n\nAuthors: Paul Anthony Haigh\nCategories: eess.SP, eess.SP",
+  "word_count": 195,
+  "published_at": "2026-08-31T17:50:38Z",
+  "ingested_at": "2026-09-01T11:05:04.611Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SP",
+    "eess.SP"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

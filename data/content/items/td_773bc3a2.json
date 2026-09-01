@@ -1,0 +1,40 @@
+{
+  "id": "td_773bc3a2",
+  "source": "arxiv",
+  "source_id": "2608.31120",
+  "source_url": "https://arxiv.org/abs/2608.31120",
+  "content_type": "paper",
+  "creator": {
+    "id": "guy_emerson",
+    "name": "Guy Emerson",
+    "handle": "Guy Emerson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions",
+  "body_text": "On the Complexity of the Compatibility Problem for Succinctly Encoded Conditional Distributions\n\nThe motivation for this paper is the investigation of the trade-offs implicit in probabilistic models used in machine learning. Models are often used to make predictions in the form of conditional probabilities. However, a pair of conditional distributions p(x|y) and p(y|x) may not be compatible with any joint distribution p(x,y). Given two such conditionals, determining if there exists a compatible joint is known as the compatibility problem. For discrete random variables, when the conditionals are encoded as probability tables, the compatibility problem has a known solution, which is computationally tractable. In this paper, we formalise and study a succinct version of the problem, encoding conditional distributions as arithmetic circuits. This is applicable to practical applications of probabilistic modelling in high-dimensional settings, including neural network models. We show that, for succinct circuit representations of conditionals, the compatibility problem is intractable. In the case that all probabilities are non-zero, the problem is co-NP-complete. In the case that probabilities can be zero, we give examples to demonstrate that several notions of compatibility can be distinguished, and we prove that multiple versions of the problem are PSPACE-complete. Furthermore, we show that, assuming the polynomial hierarchy does not collapse, there exist compatible succinct conditionals whose joint cannot be expressed succinctly. Implications of these results for probabilistic modelling and machine learning are discussed.\n\nAuthors: Guy Emerson\nCategories: cs.LG, cs.CC, math.PR, cs.LG",
+  "word_count": 217,
+  "published_at": "2026-08-31T17:32:21Z",
+  "ingested_at": "2026-09-01T11:04:49.854Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CC",
+    "math.PR",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

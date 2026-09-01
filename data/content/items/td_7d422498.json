@@ -1,0 +1,39 @@
+{
+  "id": "td_7d422498",
+  "source": "arxiv",
+  "source_id": "2608.31166",
+  "source_url": "https://arxiv.org/abs/2608.31166",
+  "content_type": "paper",
+  "creator": {
+    "id": "mingyang_liu",
+    "name": "Mingyang Liu",
+    "handle": "Mingyang Liu, Gabriele Farina, Asuman Ozdaglar",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Constant Individual Regret in General Games",
+  "body_text": "Constant Individual Regret in General Games\n\nUncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon. We remove this dependence for every finite $N$-player normal-form game under full-information feedback. We introduce \\emph{ECHO-OFTRL}: optimistic follow-the-regularized-leader (OFTRL) equipped with an EMA cascade for high-order optimism (ECHO), where EMA denotes exponential moving average. The algorithm is deterministic and fully uncoupled. If $m_{\\max}$ denotes the largest action-set size, then, simultaneously for every horizon $T\\geq1$, it guarantees that each of the $N$ players in the game incurs regret upper bounded by $O(\\textrm{poly}(N, \\log m_{\\max}))$. Our algorithm leverages a new form of optimism inspired by modern filter design.\n\nAuthors: Mingyang Liu, Gabriele Farina, Asuman Ozdaglar\nCategories: cs.LG, cs.GT, cs.LG",
+  "word_count": 108,
+  "published_at": "2026-08-31T17:59:16Z",
+  "ingested_at": "2026-09-01T11:04:49.854Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.GT",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

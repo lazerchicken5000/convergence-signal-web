@@ -1,0 +1,38 @@
+{
+  "id": "td_a957de88",
+  "source": "arxiv",
+  "source_id": "2608.31170",
+  "source_url": "https://arxiv.org/abs/2608.31170",
+  "content_type": "paper",
+  "creator": {
+    "id": "carlos_bain",
+    "name": "Carlos Bain",
+    "handle": "Carlos Bain, Max Bain",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Context-Aware Interleaved Batching for WhisperX",
+  "body_text": "Context-Aware Interleaved Batching for WhisperX\n\nWhile WhisperX accelerates speech transcription via intra-audio batching, it isolates audio segments, losing the historical context needed for coherent punctuation and terminology transcription. Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops. To achieve the best of both worlds, we propose Context-Aware Interleaved Batching. By using VAD-derived segment boundaries, our algorithm stabilizes Whisper's text conditioning, allowing us to safely maintain continuous historical context across batched audio segments. As demonstrated on long-form audio benchmarks, this approach reduces Word Error Rate (WER) and improves proper noun transcription, all while maintaining high-throughput inference speeds.\n\nAuthors: Carlos Bain, Max Bain\nCategories: cs.CL, cs.CL",
+  "word_count": 96,
+  "published_at": "2026-08-31T17:59:46Z",
+  "ingested_at": "2026-09-01T11:04:42.699Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_85089956",
+  "source": "arxiv",
+  "source_id": "2608.31139",
+  "source_url": "https://arxiv.org/abs/2608.31139",
+  "content_type": "paper",
+  "creator": {
+    "id": "riya_ahuja",
+    "name": "Riya Ahuja",
+    "handle": "Riya Ahuja, Tim Kacprowski, Roya Shiasi Sardoabi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+  "body_text": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation\n\nBioMedRAG introduced retrieval-augmented generation with a learned chunk scorer for biomedical information extraction. However, it relies on fixed-size chunking which can fragment semantic evidence. We propose a configurable semantic chunking framework that addresses this limitation by combining entity-preserving windows, trigger-centered chunking, proposition-first extraction, tiered trigger prioritization, and hierarchical relation resolution. The framework integrates with BioMedRAG by replacing only the chunk construction stage while preserving the embedding model, learned chunk scorer, generator, and evaluation protocol. We evaluate the framework on biomedical relation extraction benchmarks (GM-CIHT, DDI, ChemProt) and adverse event classification (ADE). On GM-CIHT, the full hybrid configuration achieves 82.6% F1, improving over the fixed-size baseline (74.2% F1) by 8.4 points under our experimental setup. Cross-dataset analysis shows that semantic chunking improves extraction datasets with explicit relation cues, such as GM-CIHT and DDI, while fixed chunking remains competitive or stronger for dense biochemical extraction and binary classification settings such as ChemProt and ADE. By externalizing chunking logic into configuration files, the framework provides an interpretable and adaptable alternative to rigid fixed-size chunking for biomedical RAG pipelines.\n\nAuthors: Riya Ahuja, Tim Kacprowski, Roya Shiasi Sardoabi\nCategories: cs.CL, cs.IR, cs.CL",
+  "word_count": 175,
+  "published_at": "2026-08-31T17:44:54Z",
+  "ingested_at": "2026-09-01T11:04:42.699Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.IR",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

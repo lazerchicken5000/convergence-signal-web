@@ -1,0 +1,38 @@
+{
+  "id": "td_0e1fbb0d",
+  "source": "arxiv",
+  "source_id": "2608.31079",
+  "source_url": "https://arxiv.org/abs/2608.31079",
+  "content_type": "paper",
+  "creator": {
+    "id": "camila_blank",
+    "name": "Camila Blank",
+    "handle": "Camila Blank, Zhuofan Ying, Christopher Potts, Peter Hase, Jing Huang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization",
+  "body_text": "Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization\n\nSycophantic agreement refers to a behavior in which language models excessively affirm the user, often at the cost of factual accuracy. Although sycophantic agreement is a well-known failure of model alignment, there is limited understanding of how it emerges from model training. In this work, we demonstrate that sycophantic agreement can emerge as an unintended consequence of widely used contrastive preference optimization objectives. Using the OLMo 3 post-training pipeline, we show that, for various pairs of teacher models across three families, there is a strong correlation between the log-ratio of the teacher model sycophantic agreement rates and the resulting student model sycophantic agreement rate. We further demonstrate that this unintended transfer is not limited to DPO but also occurs across 6 other preference optimization objectives. To understand whether this effect can be attributed to particular training examples, we analyze the preference data and find that the sycophancy signal is diffused across the entire dataset rather than concentrated in a sparse set of examples: each example appears neutral, i.e., there are no explicit instances of sycophantic agreement, and filtering based on probe-based data attribution or logit-linear selection fails to mitigate sycophancy without removing a large portion of the dataset. Overall, our findings suggest that the teacher models used to generate preference data can interact with alignment training objectives in unexpected ways, generalizing to undesirable and potentially harmful behaviors like sycophantic agreement.\n\nAuthors: Camila Blank, Zhuofan Ying, Christopher Potts, Peter Hase, Jing Huang\nCategories: cs.LG, cs.LG",
+  "word_count": 230,
+  "published_at": "2026-08-31T16:52:57Z",
+  "ingested_at": "2026-09-01T11:04:49.856Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
