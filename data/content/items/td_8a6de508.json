@@ -1,0 +1,40 @@
+{
+  "id": "td_8a6de508",
+  "source": "arxiv",
+  "source_id": "2609.01603",
+  "source_url": "https://arxiv.org/abs/2609.01603",
+  "content_type": "paper",
+  "creator": {
+    "id": "kefeng_duan",
+    "name": "Kefeng Duan",
+    "handle": "Kefeng Duan, Dewu Zheng, Yanlin Wang, Xiwen Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jiachi Chen, Mingwei Liu, Zibin Zheng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+  "body_text": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation\n\nEvaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents solve problems. We propose PTA-IRT, a Privileged Trajectory-Aware Item Response Theory framework that fuses process and outcome signals. Historical execution trajectories supply process-level evidence beyond pass/fail, such as explored context, attempted edits, and solving paths, which PTA-IRT uses as privileged information for calibration subset selection and ability estimation. Under low calibration budgets, PTA-IRT consistently outperforms prior IRT baselines on score and ranking recovery across four SWE benchmarks. Code and data are publicly available at https://github.com/DeepSoftwareAnalytics/PTA-IRT.\n\nAuthors: Kefeng Duan, Dewu Zheng, Yanlin Wang, Xiwen Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jiachi Chen, Mingwei Liu, Zibin Zheng\nCategories: cs.SE, cs.AI, cs.CL, cs.SE",
+  "word_count": 124,
+  "published_at": "2026-09-01T17:59:46Z",
+  "ingested_at": "2026-09-02T11:04:23.740Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.AI",
+    "cs.CL",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "td_6d801c14",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+  "source_url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Codex bundles LibreOffice",
+  "body_text": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime, including a full Python installation, a full Node.js installation, and native binaries for Poppler, git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010):\n\nThe ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries.\n\n    Tags: codex, generative-ai, openai, ai, llms, openoffice, open-source",
+  "word_count": 87,
+  "published_at": "2026-09-01T19:03:01.000Z",
+  "ingested_at": "2026-09-02T11:00:12.087Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_2ccecd60",
+  "source": "arxiv",
+  "source_id": "2609.01576",
+  "source_url": "https://arxiv.org/abs/2609.01576",
+  "content_type": "paper",
+  "creator": {
+    "id": "haichen_hu",
+    "name": "Haichen Hu",
+    "handle": "Haichen Hu, David Simchi-Levi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Pointwise Majorization for sub-Weibull and Mixed Tail Processes with Applications in Quadratic Chaos and Ergodic Diffusions",
+  "body_text": "Pointwise Majorization for sub-Weibull and Mixed Tail Processes with Applications in Quadratic Chaos and Ergodic Diffusions\n\nClassical chaining controls an indexed stochastic process through a single worst-case bound, which can obscure substantial variation across the index set. We establish the first simultaneous pointwise majorization theory for Banach-valued processes with sub-Weibull or two-metric mixed-tail increments. For an anchored sub-Weibull process on a separable index space, write $v(t):=d(t,t_0)$. Given a reference measure $μ$, the envelope at $t$ is governed by the pointwise Fernique-Talagrand functional of order $α$, $Φ_{μ,d}^{(α)}(t):=\\int_0^{4v(t)}(\\log\\frac{1}{μ(B_d(t,r))})^{1/α}dr$. $\\forall δ\\in(0,1)$, we obtain that $$ \\mathbb{P}(\\|Z_t\\|\\lesssim\\{Φ_{μ,d}^{(α)}(t)+v(t)(\\log(e/δ))^{1/α}\\},\\forall t)\\ge 1-δ. $$ Our bound is determined by the pointwise complexity $Φ_{μ,d}^{(α)}$ rather than a global quantity. The result holds for every $α&gt;0$ and does not involve dyadic logarithmic terms from peeling. For mixed tail processes, with fixed measures $μ_1,μ_2$ and $v_j(t):=d_j(t,t_0)$, $Φ_j(t):=\\int_0^{4v_j(t)}(\\log\\frac{1}{μ_j(B_{d_j}(t,r))})^{1/α_j}dr, j=1,2$, for any $δ\\in(0,1)$, we show that $$\\mathbb{P}(\\|Z_t\\|\\lesssim\\sum_{j=1}^2\\{Φ_j(t)+v_j(t)(\\log\\frac{e}δ)^{1/α_j}\\},\\forall t)\\ge 1-δ.$$ Although the two regimes are coupled in the mixed tail condition, each retains its own pseudo-metric, reference measure, pointwise Fernique-Talagrand functional, and tail exponent. The proof tracks the index-wise costs of measure-generated admissible chains and synchronizes them through a nested common refinement. For applications, we derive matrix-specific bounds for centered quadratic chaos under pseudo-metrics induced by the operator and Frobenius norms, and observable-specific finite-time bounds for diffusion empirical processes.\n\nAuthors: Haichen Hu, David Simchi-Levi\nCategories: math.PR, math.ST, stat.ML, math.PR",
+  "word_count": 199,
+  "published_at": "2026-09-01T17:42:38Z",
+  "ingested_at": "2026-09-02T11:04:53.011Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.PR",
+    "math.ST",
+    "stat.ML",
+    "math.PR"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

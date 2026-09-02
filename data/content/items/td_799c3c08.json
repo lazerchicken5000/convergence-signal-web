@@ -1,0 +1,39 @@
+{
+  "id": "td_799c3c08",
+  "source": "arxiv",
+  "source_id": "2609.01564",
+  "source_url": "https://arxiv.org/abs/2609.01564",
+  "content_type": "paper",
+  "creator": {
+    "id": "manish_gupta",
+    "name": "Manish Gupta",
+    "handle": "Manish Gupta, Chaitanya Giri, Jayasimha Talur",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
+  "body_text": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification\n\nLarge language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate labels by embedding similarity and prompt the LLM to choose among them. However, top-$K$ retrieval reduces the number of candidates but does not help the model tell similar ones apart. When two similar labels both appear as candidates, the model lacks the signal to choose correctly between them. We propose a framework that (1) identifies which label pairs the model struggles to distinguish, (2) expands the candidate set to include confusable labels, and (3) generates targeted rules to differentiate between similar candidates. The framework requires no fine-tuning, and the generated rules transfer to smaller, cheaper models. On three benchmarks (WOS, Flipkart, LEDGAR), our approach improves Macro F1 by up to 10.0pp over retrieval baselines, with smaller models (2B--20B) gaining up to 11.5pp via cross-model transfer.\n\nAuthors: Manish Gupta, Chaitanya Giri, Jayasimha Talur\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 161,
+  "published_at": "2026-09-01T17:31:02Z",
+  "ingested_at": "2026-09-02T11:04:23.742Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

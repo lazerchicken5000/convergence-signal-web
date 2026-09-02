@@ -1,0 +1,38 @@
+{
+  "id": "td_bba4db27",
+  "source": "arxiv",
+  "source_id": "2609.01549",
+  "source_url": "https://arxiv.org/abs/2609.01549",
+  "content_type": "paper",
+  "creator": {
+    "id": "tomáš_holeček",
+    "name": "Tomáš Holeček",
+    "handle": "Tomáš Holeček, Viliam Lisý",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "NashDreamer: Model-Based Reinforcement Learning for Zero-Sum Imperfect-Information Games",
+  "body_text": "NashDreamer: Model-Based Reinforcement Learning for Zero-Sum Imperfect-Information Games\n\nModel-based reinforcement learning (MBRL) has achieved remarkable results in single-agent domains, yet its extension to competitive imperfect information games (IIGs) remains underexplored. In multi-agent settings, opponent-induced non-stationarity complicates the learning process, and decentralized model learning faces severe identifiability barriers, which we argue make centralized model learning a mathematical necessity. Building on this analysis, we propose NashDreamer, a principled MBRL framework for two-player zero-sum IIGs. It introduces a centralized Multi-Agent Recurrent State-Space Model (MARSSM) that decouples environment dynamics from the effect of players' strategies on their individual observations. NashDreamer is designed to use arbitrary policy gradient algorithms and inherits their convergence guarantees towards Nash equilibria under an idealized model. Empirical evaluations across four benchmark games demonstrate that NashDreamer substantially improves sample efficiency over model-free baselines early in the training. Finally, we theoretically analyze the architecture's optimization landscape, identifying the vulnerability of the Dreamer family of algorithms to posterior collapse in stochastic environments. We leave it as an open challenge.\n\nAuthors: Tomáš Holeček, Viliam Lisý\nCategories: cs.LG, cs.LG",
+  "word_count": 158,
+  "published_at": "2026-09-01T17:15:41Z",
+  "ingested_at": "2026-09-02T11:04:37.924Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
