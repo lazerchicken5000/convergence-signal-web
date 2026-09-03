@@ -1,0 +1,38 @@
+{
+  "id": "td_c1b0d605",
+  "source": "arxiv",
+  "source_id": "2609.02875",
+  "source_url": "https://arxiv.org/abs/2609.02875",
+  "content_type": "paper",
+  "creator": {
+    "id": "guang_yang",
+    "name": "Guang Yang",
+    "handle": "Guang Yang, Wei Shi, Yuan Cao, Long Feng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning CNN Filters via Generalized Stein's Method",
+  "body_text": "Learning CNN Filters via Generalized Stein's Method\n\nConvolutional Neural Networks (CNNs) have undoubtedly revolutionized image data analysis and the field of computer vision. As the cornerstone of CNNs, the convolution operation enables the networks to extract abstract features and uncover hidden relationships in the image data. This paper considers the problem of estimating convolution filters from a statistical perspective using a classical tool --- Stein's formula. We first formulate CNNs into a general index model with matrix-valued input, where convolution filters can be viewed as index vectors. Furthermore, we propose a novel singular value decomposition (SVD) based approach to accurately learn the convolution filters based on a generalized version of the first-order Stein's formula. Theoretical analysis suggests that our estimation achieves an optimal convergence rate, comparable to that of generalized linear models where the link function is known. Extensive simulation studies and real data analyses demonstrate that our approach outperforms popular deep learning algorithms, such as Adam. Notably, our method extends beyond filter estimation and can be applied to nonlinear dimension reduction, providing a viable pathway for representation learning.\n\nAuthors: Guang Yang, Wei Shi, Yuan Cao, Long Feng\nCategories: stat.AP, stat.AP",
+  "word_count": 172,
+  "published_at": "2026-09-02T17:56:06Z",
+  "ingested_at": "2026-09-03T11:05:12.788Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.AP",
+    "stat.AP"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

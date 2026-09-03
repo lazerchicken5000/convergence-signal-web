@@ -1,0 +1,39 @@
+{
+  "id": "td_862ef894",
+  "source": "arxiv",
+  "source_id": "2609.02862",
+  "source_url": "https://arxiv.org/abs/2609.02862",
+  "content_type": "paper",
+  "creator": {
+    "id": "l._rebholz",
+    "name": "L. Rebholz",
+    "handle": "L. Rebholz, J. Reyes, J. Whitehead",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Continuous data assimilation in steady Navier-Stokes equations with unknown viscosity: robust and efficient solvers and fast parameter recovery",
+  "body_text": "Continuous data assimilation in steady Navier-Stokes equations with unknown viscosity: robust and efficient solvers and fast parameter recovery\n\nRecent advances in equation discovery methods such as SINDy have highlighted the growing interest in identifying governing parameters and models directly from data. In this work, we take a complementary approach grounded in analysis and numerical PDE methods: we recover an unknown viscosity in steady Navier-Stokes equations (NSE) from partial incompressible flow observations using continuous data assimilation (CDA). We propose a simple and efficient parameter recovery algorithm and also a nonlinear solver for CDA-NSE. Together, this creates a highly efficient technique for recovering an unknown viscosity from partial solution data. Our analysis establishes the well-posedness of steady CDA-NSE, quadratic convergence of the parameter recovery algorithm, and quadratic convergence of a CDA-Picard + CDA-Newton nonlinear solver. Numerical experiments illustrate that the methods are very effective in restoring parameters quickly, even with poor initial guesses.\n\nAuthors: L. Rebholz, J. Reyes, J. Whitehead\nCategories: math.NA, math.AP, math.NA",
+  "word_count": 133,
+  "published_at": "2026-09-02T17:45:51Z",
+  "ingested_at": "2026-09-03T11:05:20.316Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.AP",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

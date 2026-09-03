@@ -1,0 +1,41 @@
+{
+  "id": "td_746cce96",
+  "source": "arxiv",
+  "source_id": "2609.02797",
+  "source_url": "https://arxiv.org/abs/2609.02797",
+  "content_type": "paper",
+  "creator": {
+    "id": "isaiah_andrews",
+    "name": "Isaiah Andrews",
+    "handle": "Isaiah Andrews, Suproteem Sarkar",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Dutch Books for Language Models",
+  "body_text": "Dutch Books for Language Models\n\nPeople increasingly use language models to support life decisions. Many such decisions involve a probabilistic forecast: How likely is a major life event, a natural disaster, or an economic outcome? Users of language models may implicitly trust that these forecasts fall out of a coherent world model. In this paper, we evaluate the coherence of language model probabilistic forecasts through a procedure that builds on a theorem due to de Finetti. We elicit forecasts from language models across events generated from stock returns data. We then use linear programs to compute the largest Dutch-book profit - the profit an arbitrageur could guarantee by betting against model-generated probabilities - which we use as a measure of incoherence. Our procedure does not require outcome labels, so we can evaluate coherence even in settings where outcomes are not observed or have not yet resolved. We find substantial evidence of incoherence in language model forecasts. Such incoherence increases when there are richer logical relationships between events, and irrelevant contextual details can increase incoherence by an order of magnitude. We conclude by discussing how alternative training strategies may improve probabilistic coherence.\n\nAuthors: Isaiah Andrews, Suproteem Sarkar\nCategories: econ.GN, cs.AI, cs.CL, cs.LG, econ.GN",
+  "word_count": 186,
+  "published_at": "2026-09-02T16:31:47Z",
+  "ingested_at": "2026-09-03T11:04:43.672Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "econ.GN",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "econ.GN"
+  ],
+  "domain": "finance",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

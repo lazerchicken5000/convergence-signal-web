@@ -1,0 +1,39 @@
+{
+  "id": "td_9e89a157",
+  "source": "arxiv",
+  "source_id": "2609.02804",
+  "source_url": "https://arxiv.org/abs/2609.02804",
+  "content_type": "paper",
+  "creator": {
+    "id": "onur_uğurlu",
+    "name": "Onur Uğurlu",
+    "handle": "Onur Uğurlu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study",
+  "body_text": "frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study\n\nFor more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph. Together with a verified partition into 100 cliques of size 40, the witness proves that the maximum independent-set size is 100 and the minimum vertex-cover size is 3,900. The stochastic run that found the witness is kept separate from this proof. We evaluated its added pair and triple repair operators in a preregistered campaign comprising 8,668 valid runs. The primary comparison found no detectable acceleration over base ULSA (hazard ratio 0.967, 95% confidence interval 0.915-1.023; p=0.248), and the factorial ablation reached the same conclusion. On a smaller FRB suite, the group-aware CSP pipeline solved 2,500/2,500 runs, compared with 2,391/2,500 for LibMVC-NuMVC. On frb100-40, full ULSA, base ULSA, and NuMVC each produced 0/56 new certificates. With no events, the planned cross-solver hazard ratios remain unidentified. NuMVC ended with cover size 3,902 in 40 runs and 3,903 in 16. Exhaustive enumeration showed that none of the 108 unique recorded conflict-two states had a strictly improving group-aware CSP neighbor within Hamming radius three. The certificate settles the instance. The experiments characterize the search barrier, and the preregistered comparisons show no heuristic advantage.\n\nAuthors: Onur Uğurlu\nCategories: cs.DM, cs.AI, cs.DM",
+  "word_count": 216,
+  "published_at": "2026-09-02T16:40:46Z",
+  "ingested_at": "2026-09-03T11:04:43.672Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DM",
+    "cs.AI",
+    "cs.DM"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

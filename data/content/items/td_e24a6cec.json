@@ -1,0 +1,39 @@
+{
+  "id": "td_e24a6cec",
+  "source": "arxiv",
+  "source_id": "2609.02869",
+  "source_url": "https://arxiv.org/abs/2609.02869",
+  "content_type": "paper",
+  "creator": {
+    "id": "manuela-simona_cojocea",
+    "name": "Manuela-Simona Cojocea",
+    "handle": "Manuela-Simona Cojocea",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Statistical Inference for Probability Barycenters and Kolmogorov Moments",
+  "body_text": "Statistical Inference for Probability Barycenters and Kolmogorov Moments\n\nA probability coordinate chart is a continuous strictly increasing bijection that transports observations to the open unit interval, where averaging is always well defined. For barycentric inference, the first coordinate moment is returned through the inverse chart. Higher initial coordinate moments similarly generate initial Kolmogorov moments by pullback, while centred coordinate moments remain on the probability scale. We develop inference for these quantities under fixed, intrinsic, and estimated charts. For a fixed benchmark chart, the coordinate mean is the primary inferential object. Confidence intervals are constructed on the probability scale and then transported through the inverse chart, preserving the geometry and allowing asymmetry on the observation scale. Hoeffding's inequality also provides finite-sample distribution-free intervals. The intrinsic case requires different treatment. The empirical cumulative distribution function is not an admissible chart, and its natural generalised plug-in construction collapses exactly to a middle order statistic. Feasible intrinsic inference therefore reduces to median inference. This self-induced functional is distinguished from the frozen oracle construction, which has a different asymptotic variance. For estimated location-scale charts, the asymptotic expansion contains a calibration correction for the first-order effect of learning the chart from the same sample. This yields an influence-function variance estimator and a bootstrap procedure that recalibrates the chart in every resample. Joint covariance theory is developed for vectors of initial and centred coordinate moments, with initial Kolmogorov moments obtained by inverse-chart pullback. The framework separates variation on the probability scale, amplification by the inverse chart, and uncertainty from chart calibration.\n\nAuthors: Manuela-Simona Cojocea\nCategories: stat.ME, math.ST, stat.ME",
+  "word_count": 246,
+  "published_at": "2026-09-02T17:52:14Z",
+  "ingested_at": "2026-09-03T11:05:12.788Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "math.ST",
+    "stat.ME"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

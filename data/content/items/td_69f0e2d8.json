@@ -1,0 +1,38 @@
+{
+  "id": "td_69f0e2d8",
+  "source": "arxiv",
+  "source_id": "2609.02772",
+  "source_url": "https://arxiv.org/abs/2609.02772",
+  "content_type": "paper",
+  "creator": {
+    "id": "jongkyung_shin",
+    "name": "Jongkyung Shin",
+    "handle": "Jongkyung Shin, Minguk Jeon, Chanwoo Park, Chiehyeon Lim",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "HyperStyler: Low-resource Authorship Style Transfer via Context-aware Style Navigation and Hypernetworks",
+  "body_text": "HyperStyler: Low-resource Authorship Style Transfer via Context-aware Style Navigation and Hypernetworks\n\nLow-resource authorship style transfer (LAST) aims to rewrite text into the style of an arbitrary target author using only a few reference examples while preserving the original meaning. Existing methods often struggle to achieve both high style fidelity and semantic preservation because they compress diverse references into a single static author embedding, which averages out context-dependent stylistic variation, and rely on hidden representations for style control, which entangle style with content. We propose HyperStyler, a novel architecture that decouples LAST into style selection and style realization. Stylo-navigator predicts style coordinates by jointly modeling the source context and target-author references, and Stylo-hypernet realizes them via dynamic parameter modulation instead of hidden-state injection. Our experiments on Reddit, Blog, and News datasets demonstrate that HyperStyler consistently outperforms prior methods including LLM-based approaches and generalizes robustly across domains. Notably, HyperStyler achieves superior performance with as few as 2.4% additional parameters over T5-large, while being over 1.8x faster than LLMs at inference.\n\nAuthors: Jongkyung Shin, Minguk Jeon, Chanwoo Park, Chiehyeon Lim\nCategories: cs.CL, cs.CL",
+  "word_count": 157,
+  "published_at": "2026-09-02T16:07:42Z",
+  "ingested_at": "2026-09-03T11:04:50.787Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

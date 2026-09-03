@@ -1,0 +1,39 @@
+{
+  "id": "td_6f65b386",
+  "source": "arxiv",
+  "source_id": "2609.02861",
+  "source_url": "https://arxiv.org/abs/2609.02861",
+  "content_type": "paper",
+  "creator": {
+    "id": "cagri_temel",
+    "name": "Cagri Temel",
+    "handle": "Cagri Temel",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+  "body_text": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework\n\nAutonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensures every autonomous action can be traced back to sensor evidence through documented causal chains. The framework organizes decision-making into four auditable layers: Semantic Perception for evidence-grounded entity recognition, Belief Reasoning for probabilistic state estimation with causal graphs, Action Synthesis for constraint-aware planning with counterfactual documentation, and Execution Verification for compliance monitoring. TRACE is model-agnostic yet designed to integrate learning-based perception modules (CNNs, transformers) while preserving decision-level auditability. We evaluate the framework using three objective metrics: Evidence Traceability (sensor-to-decision linkage), Decision Reconstructability (post-hoc analysis capability), and Temporal Continuity (audit trail completeness). Experimental evaluation on warehouse robot navigation demonstrates that TRACE achieves 98.6% evidence traceability, 99.0% temporal continuity, and 98.1% decision reconstructability across 500 simulated decision cycles. Post-hoc methods like LIME provide feature attributions but lack the artifact structure needed for decision-level reconstruction. The framework addresses EU AI Act requirements for high-risk system transparency and contributes to Explainable AI for safety-critical autonomous systems.\n\nAuthors: Cagri Temel\nCategories: cs.RO, cs.AI, cs.RO",
+  "word_count": 189,
+  "published_at": "2026-09-02T17:44:25Z",
+  "ingested_at": "2026-09-03T11:04:43.671Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

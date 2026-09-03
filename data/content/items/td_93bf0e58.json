@@ -1,0 +1,35 @@
+{
+  "id": "td_93bf0e58",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+  "source_url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm-gemini 0.34",
+  "body_text": "Release: llm-gemini 0.34\n        \n\nNew model gemini-3.8-flash for Gemini 3.8 Flash, with low, medium and high thinking levels. #146\nFixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan. #137\n\n\nGoogle released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today.\nHere are the pelicans for high, medium, and low. This is high:\n\nFor comparison, here are the same pelicans generated using Gemini 3.7 Flash.\nSomething I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this, which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents.\n\n    \n    Your browser does not support HTML5 video.\n  \n\n\nIf you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash.\nMy markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered.\nI used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML blocks in the Markdown are rendered using a sandboxed iframe. Here's the transcript.\n    \n    \n        Tags: ai, generative-ai, llms, llm, gemini, pelican-riding-a-bicycle, llm-release",
+  "word_count": 222,
+  "published_at": "2026-09-02T16:39:38.000Z",
+  "ingested_at": "2026-09-03T11:00:13.322Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_d5e3f8c5",
+  "source": "arxiv",
+  "source_id": "2609.02771",
+  "source_url": "https://arxiv.org/abs/2609.02771",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuzhang_luo",
+    "name": "Yuzhang Luo",
+    "handle": "Yuzhang Luo, Chenpeng Wang, Jianhui Chen, Liangming Pan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
+  "body_text": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution\n\nTraining data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention value depends on both which examples are selected and how they are modified. Influence functions (IF) estimate behavioral changes under infinitesimal reweighting, yet IF-selected examples often show limited advantages over random selection under conventional weight-based interventions. This raises the question of whether influential examples lack intervention value or whether reweighting fails to realize their behavioral leverage.We introduce influence-guided response rewriting, which uses IF to identify intervention targets and replaces their responses with behavior-aligned or behavior-opposed supervision while keeping instructions fixed. Across four open-weight LLMs, we compare rewriting and reweighting on the same influence-selected examples using epistemic abstention as our primary testbed. Response rewriting produces stronger, more persistent, and bidirectional behavioral shifts, while reweighting the same examples yields weak and inconsistent effects. Further analyses show that influence-selected examples provide greater rewriting leverage than alternative selectors, with changes remaining concentrated on target-relevant behaviors. The same qualitative contrast extends to safety refusal. These results distinguish the local reweighting effects captured by influence estimates from the broader intervention leverage of the examples they identify, motivating intervention-aware evaluation of TDA methods.\n\nAuthors: Yuzhang Luo, Chenpeng Wang, Jianhui Chen, Liangming Pan\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 192,
+  "published_at": "2026-09-02T16:07:21Z",
+  "ingested_at": "2026-09-03T11:04:43.672Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
