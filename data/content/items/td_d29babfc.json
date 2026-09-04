@@ -1,0 +1,40 @@
+{
+  "id": "td_d29babfc",
+  "source": "arxiv",
+  "source_id": "2609.04199",
+  "source_url": "https://arxiv.org/abs/2609.04199",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuntian_deng",
+    "name": "Yuntian Deng",
+    "handle": "Yuntian Deng, Pengyu Nie, Stuart Shieber",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+  "body_text": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions\n\nMany recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable neural function. At compile time, teacher models generate task-specific examples that are used to train a small adapter for a compact interpreter. The resulting function runs without the teachers and can be stored, versioned, and composed like ordinary software. On FuzzyBench-Hard, a subset on which the Program-as-Weights fast compiler produced no exact matches, compile by training reaches 83.6% semantic accuracy. This higher accuracy comes with a higher compile-time cost: roughly a minute rather than seconds for the fast compiler. We deploy the compiler in a public interactive service and demonstrate compiled functions in a multi-site website helper, a language-controlled 3D avatar, and a bidirectional English-Claudish translator.\n\nAuthors: Yuntian Deng, Pengyu Nie, Stuart Shieber\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 151,
+  "published_at": "2026-09-03T17:59:49Z",
+  "ingested_at": "2026-09-04T11:04:20.901Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

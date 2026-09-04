@@ -1,0 +1,39 @@
+{
+  "id": "td_2d2485d2",
+  "source": "arxiv",
+  "source_id": "2609.04180",
+  "source_url": "https://arxiv.org/abs/2609.04180",
+  "content_type": "paper",
+  "creator": {
+    "id": "joseph_lee",
+    "name": "Joseph Lee",
+    "handle": "Joseph Lee, Yidi Huang, Dokyoon Kim, Shu Yang, Li Shen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+  "body_text": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views\n\nGaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally helpful for learning. We design controlled experiments to isolate this. First, we confirm that repetition is necessary for acquisition and clarify that paraphrasing helps only at smaller batch sizes. Second, holding the token budget fixed, allocating tokens from document repetition to auxiliary views improves learning, counterintuitively, even for factual recall. Third, the effectiveness of auxiliary views is not contingent on the strength of the teacher model that generates them. Fourth, we identify forms of knowledge, contextual and foundational, that aid learning in the presence of prior knowledge gaps. Finally, we examine how these effects manifest mechanistically via layer-wise biases and compression. Together, our findings suggest that auxiliary representations of knowledge, which arise naturally in large pre-training corpora, are a key factor in the success of pre-training and offer a plausible explanation for why data diversity matters.\n\nAuthors: Joseph Lee, Yidi Huang, Dokyoon Kim, Shu Yang, Li Shen\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 161,
+  "published_at": "2026-09-03T17:57:02Z",
+  "ingested_at": "2026-09-04T11:04:20.902Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

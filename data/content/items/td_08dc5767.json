@@ -1,0 +1,39 @@
+{
+  "id": "td_08dc5767",
+  "source": "arxiv",
+  "source_id": "2609.04113",
+  "source_url": "https://arxiv.org/abs/2609.04113",
+  "content_type": "paper",
+  "creator": {
+    "id": "omar_abbadi",
+    "name": "Omar Abbadi",
+    "handle": "Omar Abbadi, Rida Laraki, Panayotis Mertikopoulos",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Constant regret in general games via higher-order optimism",
+  "body_text": "Constant regret in general games via higher-order optimism\n\nWe introduce an uncoupled learning algorithm which, when employed by all players of an arbitrary $N$-player normal form game with up to $K$ actions per player, guarantees $O(N^3\\log^2 K)$ individual regret, uniformly over the horizon of play. The proposed algorithm - which we call higher-order optimism with discounting (HOOD) is a variant of optimistic follow-the-regularized-leader (OptFTRL) that combines a discounted $(N+1)$-th order predictor with entropic regularization over a suitable \"lifting\" of the game's strategy space. This combination of ingredients is purposefully designed to dampen large oscillations of the induced sequence of play in a controlled manner, removing in this way a key stumbling block of previous attempts to achieve constant regret in general games. Our approach bears several striking similarities to the concurrent - and completely independent - work of Liu, Farina, and Ozdaglar (arXiv:2608.31166), who very recently derived an $O(N^{21}\\log^{4} K)$ regret bound through the use of higher-order optimism and an exponential moving average estimator.\n\nAuthors: Omar Abbadi, Rida Laraki, Panayotis Mertikopoulos\nCategories: cs.LG, cs.GT, cs.LG",
+  "word_count": 156,
+  "published_at": "2026-09-03T17:16:13Z",
+  "ingested_at": "2026-09-04T11:04:35.191Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.GT",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

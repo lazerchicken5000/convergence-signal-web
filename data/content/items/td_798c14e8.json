@@ -1,0 +1,38 @@
+{
+  "id": "td_798c14e8",
+  "source": "arxiv",
+  "source_id": "2609.04151",
+  "source_url": "https://arxiv.org/abs/2609.04151",
+  "content_type": "paper",
+  "creator": {
+    "id": "mengwei_ren",
+    "name": "Mengwei Ren",
+    "handle": "Mengwei Ren, Xuaner Zhang, Zhihao Xia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Persistent Identity Preservation in Generative Image Models: A Benchmark and Evaluation System",
+  "body_text": "Persistent Identity Preservation in Generative Image Models: A Benchmark and Evaluation System\n\nGenerative image models can now produce high-quality images, follow complex instructions, and support precise edits, but they still struggle to preserve who or what is being depicted. When generating or editing images of a specific subject, identity may drift as the pose, expression, appearance, viewpoint, or surrounding scene changes. Existing subject-driven methods make fundamentally different choices about where identity is represented: through the input context (GPT-Image-2, NB2), as trainable subject-specific model parameters (LoRA), or as a persistent identity layer (PHOTA IDENTITY) reusable across generations and edits. We systematically benchmark these paradigms across subject-driven generation, editing, restoration, and multi-subject settings, with tasks designed to increasingly stress identity preservation. Our results show that identity preservation remains a distinct limitation of current generative foundation models: strong image quality and instruction following do not necessarily imply strong identity fidelity, and identity degradation becomes more pronounced under iterative edits, small subject scales, severe image degradation, and multi-subject composition. Persistent identity substantially reduces this degradation across generation, editing, and restoration, consistently improving identity preservation when applied to different foundation models while maintaining comparable instruction adherence and perceptual image quality. These results suggest that identity does not simply emerge from increasingly capable generative models, but can instead be represented as persistent subject knowledge that is composed independently with the underlying generative model.\n\nAuthors: Mengwei Ren, Xuaner Zhang, Zhihao Xia\nCategories: cs.CV, cs.CV",
+  "word_count": 215,
+  "published_at": "2026-09-03T17:44:25Z",
+  "ingested_at": "2026-09-04T11:05:28.645Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
