@@ -1,0 +1,38 @@
+{
+  "id": "td_c85b0d1d",
+  "source": "arxiv",
+  "source_id": "2609.05189",
+  "source_url": "https://arxiv.org/abs/2609.05189",
+  "content_type": "paper",
+  "creator": {
+    "id": "yumiao_li",
+    "name": "Yumiao Li",
+    "handle": "Yumiao Li, Peixin Liu, Donglin Di, Chen Li, Runhuan Feng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
+  "body_text": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers\n\nAssessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable when extrapolating to hypothetical scenarios, while field pilot programs are highly costly. In this paper, we propose using large language models (LLMs) as policy-assessment tools adapted from general-purpose models. We present FlexPension-LLM, the first domain-specialized large language model for a hierarchical pension-enrollment prediction task among flexible workers in China, and introduce DKI-RDistill, which injects policy-grounded cues into the prompt, including Probit-derived marginal effects and hukou-province pension rules. The method then uses LoRA/SFT to distill rationale-augmented supervision into an open-weight MoE student, with teacher errors corrected by regenerating those cases under ground-truth labels. On a CHFS 2019 blind split, FlexPension-LLM achieves 0.9316 Composite F1, surpassing its Claude Sonnet 4.5 teacher and 15 of 17 baselines, and is statistically indistinguishable from Claude Opus 4.6. Across four external surveys, it averages 0.7549 Composite F1 and shows the narrowest performance range among the strongest systems. Component analysis shows that gains come mainly from policy-grounded cue injection and error-filtered supervision, while rationales provide decision traces that can be checked against policy rules.\n\nAuthors: Yumiao Li, Peixin Liu, Donglin Di, Chen Li, Runhuan Feng\nCategories: cs.CL, cs.CL",
+  "word_count": 186,
+  "published_at": "2026-09-04T14:24:27Z",
+  "ingested_at": "2026-09-07T11:04:36.832Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

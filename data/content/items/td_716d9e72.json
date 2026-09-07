@@ -1,0 +1,39 @@
+{
+  "id": "td_716d9e72",
+  "source": "arxiv",
+  "source_id": "2609.05296",
+  "source_url": "https://arxiv.org/abs/2609.05296",
+  "content_type": "paper",
+  "creator": {
+    "id": "gaurab_baral",
+    "name": "Gaurab Baral",
+    "handle": "Gaurab Baral",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
+  "body_text": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics\n\nDoes a simplified legal clause still say what the original said? The checks in current use cannot establish that it does: requiring an identical pair to score highest and an unrelated pair lowest moves lexical overlap and legal force together, so any monotone function of token overlap satisfies both. Our remedy is a dissociation, an item holding surface form fixed while legal force moves. We release LexFlip, 373 minimal perturbations of Quebec statutory French that reverse legal force while preserving 0.93 of the tokens, with a harness scoring metrics, regressors and prompted judges alike. The seven embedding and BERTScore metrics we test spend only 0.022 to 0.039 of their identical-to-unrelated range on such an edit, against 0.670 for bidirectional NLI, the one family the identical-pair check would disqualify. On FrJudge, against a measured human ceiling of r=0.597, a bare length feature outscores every semantic metric and has the lowest margin we measure.\n\nAuthors: Gaurab Baral\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 152,
+  "published_at": "2026-09-04T15:49:09Z",
+  "ingested_at": "2026-09-07T11:04:36.832Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

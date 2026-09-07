@@ -1,0 +1,38 @@
+{
+  "id": "td_89817123",
+  "source": "arxiv",
+  "source_id": "2609.05374",
+  "source_url": "https://arxiv.org/abs/2609.05374",
+  "content_type": "paper",
+  "creator": {
+    "id": "haoting_shi",
+    "name": "Haoting Shi",
+    "handle": "Haoting Shi, Wenhao Wang, Weicheng Fang, Yaozhong Liang, Tian Jin, Pengxiang Zhao, Guangyi Liu, Siheng Chen, Yanfeng Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+  "body_text": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents\n\nComputer-use agents have advanced on benchmarks like OSWorld and AndroidWorld, but still act mostly through the GUI, often producing inefficient trajectories. Real-world computer work is hybrid, combining visual-state inspection with precise, high-throughput command-line operations, so capable agents must coordinate both modalities over shared application state. Yet scalable hybrid environments remain scarce because supporting both GUI and CLI over real applications typically requires substantial manual engineering for each application. Existing agents also struggle to use the two interfaces complementarily: CLI-native agents lack visual perception for tasks involving interface state or layout, while GUI-native agents are inefficient for operations better executed through commands. We introduce CUA-Universe, a scalable environment-to-data pipeline that turns real desktop software into hybrid GUI+CLI environments. App-Forge adapts applications into reproducible VMs and command-line surfaces it discovers, wraps, or generates, scaling to 16 applications; Task-Weave synthesizes diverse hybrid tasks of controllable difficulty from reusable operations over seed files; and Path-Steer steers rollouts along efficient hybrid paths and harvests verified trajectories for post-training. Training on this data shifts behavior from inefficient GUI interaction and brittle CLI scripting toward effective GUI+CLI orchestration. Our 9B model improves both success and efficiency on CUA-Verse (Score +39.3 pts; -37% steps, -60% tokens), OSWorld (SR +16.8 pts; -57% steps, -44% tokens), and OSWorld-MCP (Score +7.84 pts; -27% steps, -30% tokens). CUA-Universe provides a scalable path toward more capable and efficient computer-use agents.\n\nAuthors: Haoting Shi, Wenhao Wang, Weicheng Fang, Yaozhong Liang, Tian Jin, Pengxiang Zhao, Guangyi Liu, Siheng Chen, Yanfeng Wang\nCategories: cs.AI, cs.AI",
+  "word_count": 227,
+  "published_at": "2026-09-04T17:26:18Z",
+  "ingested_at": "2026-09-07T11:04:29.672Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

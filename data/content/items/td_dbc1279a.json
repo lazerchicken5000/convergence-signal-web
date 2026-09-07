@@ -1,0 +1,40 @@
+{
+  "id": "td_dbc1279a",
+  "source": "arxiv",
+  "source_id": "2609.05318",
+  "source_url": "https://arxiv.org/abs/2609.05318",
+  "content_type": "paper",
+  "creator": {
+    "id": "mohammadhossein_bateni",
+    "name": "MohammadHossein Bateni",
+    "handle": "MohammadHossein Bateni, Zahra Hadizadeh, MohammadTaghi Hajiaghayi, Mahdi JafariRaviz, Shayan Taherijam",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimal Rates for Agentic Networked Information Aggregation",
+  "body_text": "Optimal Rates for Agentic Networked Information Aggregation\n\nBuilding on the pioneering paper of Kearns, Roth, and Ryu (SODA'26), we study information aggregation in a networked learning model. The model captures a central pattern in agentic AI: each agent sees only part of the data and passes on only its own conclusion. Their model considers a linear regression problem with the mean squared error (MSE) loss. Agents sit in a DAG and each sees only a subset of the features and its parents' predictions, fits a linear predictor, and passes only its prediction forward. The benchmark is the full-feature learner that sees all raw features. A path of depth $D$ is $M$-covered if every block of $M$ consecutive agents collectively sees all raw features. Kearns, Roth, and Ryu proved that the excess mean squared error of the last agent on such a path is $O(M/\\sqrt D)$, and gave a cyclic instance with excess error $Ω(M/D)$ for $D&lt;M^2$. We close this gap: the correct rate is constant up to depth $M^2$, and $Θ(M^2/D)$ beyond it. We first give a sharper analysis of the cyclic instance and improve its lower bound to $Ω(\\sqrt{M/D})$ for $D&lt;M^2$. We then construct, for every depth $D\\ge M^2$, an $M$-covered path of depth $D$ with excess error $Ω(M^2/D)$. The same instance gives the constant lower bound for all $D &lt; M^2$. We also show that for any fixed distribution the excess error contracts geometrically along the path, ruling out any single instance that witnesses any polynomial lower bound at every depth. Finally, we prove the same optimal rate for logistic classification in the logit-passing model of Bateni et al., which considers the binary cross-entropy (BCE) loss. The same improved upper bound of $O(M^2/D)$ holds, and we transfer all the regression lower bounds by showing that on those examples the logistic path follows the least-squares path up to rescaling.\n\nAuthors: MohammadHossein Bateni, Zahra Hadizadeh, MohammadTaghi Hajiaghayi, Mahdi JafariRaviz, Shayan Taherijam\nCategories: cs.LG, cs.GT, econ.TH, cs.LG",
+  "word_count": 303,
+  "published_at": "2026-09-04T16:12:16Z",
+  "ingested_at": "2026-09-07T11:04:44.010Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.GT",
+    "econ.TH",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

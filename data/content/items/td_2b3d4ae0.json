@@ -1,0 +1,38 @@
+{
+  "id": "td_2b3d4ae0",
+  "source": "arxiv",
+  "source_id": "2609.05262",
+  "source_url": "https://arxiv.org/abs/2609.05262",
+  "content_type": "paper",
+  "creator": {
+    "id": "tim_wientzek",
+    "name": "Tim Wientzek",
+    "handle": "Tim Wientzek",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Self-Supervised Lexical Representation Learning for Fast, Large-Scale Phylogenetic Inference",
+  "body_text": "Self-Supervised Lexical Representation Learning for Fast, Large-Scale Phylogenetic Inference\n\nComputational phylogenetics has become an essential tool in historical linguistics, yet its application at a global scale remains constrained by two factors: the labor-intensive manual annotation of cognacy judgments required for character-based methods and the substantial computational cost of inference on large datasets. This paper introduces a fully self-supervised contrastive learning framework that learns lexical representations directly from raw IPA-transcribed wordlists, without requiring cognacy annotations, alignments, or additional expert input. The model employs a dual contrastive objective: a word-level loss that organizes phonetically similar forms into a coherent space, and an auxiliary language-level loss that encourages the lexical space to reflect broader phonological properties of languages. From the resulting word representations, pairwise language distances are derived and used to infer a global phylogenetic tree of 3,399 language varieties. The inferred tree achieves a generalized quartet distance (GQD) to the Glottolog reference tree competitive with multiple baselines, while requiring only minutes of computation on a standard notebook GPU. Furthermore, the same representations capture diachronic concept stability: variance in pairwise distances across languages yields stability rankings that correlate significantly with established rankings. Ablation studies confirm that both the language-level objective and the use of phonetic feature vectors improved the inferred trees topology with regards to GQD. The framework thus provides a computationally efficient and fully automatic alternative for large-scale phylogenetic inference and offers a unified representation supporting downstream analyses at both the language and concept level.\n\nAuthors: Tim Wientzek\nCategories: cs.CL, cs.CL",
+  "word_count": 234,
+  "published_at": "2026-09-04T15:23:12Z",
+  "ingested_at": "2026-09-07T11:04:36.832Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

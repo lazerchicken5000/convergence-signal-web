@@ -1,0 +1,41 @@
+{
+  "id": "td_e2a2735b",
+  "source": "arxiv",
+  "source_id": "2609.05337",
+  "source_url": "https://arxiv.org/abs/2609.05337",
+  "content_type": "paper",
+  "creator": {
+    "id": "leo_yao",
+    "name": "Leo Yao",
+    "handle": "Leo Yao, Ziming Liu, Max Tegmark",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Variational Continuation for Double Pendulum Periodic Orbits",
+  "body_text": "Variational Continuation for Double Pendulum Periodic Orbits\n\nWe present a Hessian-based approach to numerically continue periodic orbits in dynamical systems. A loop (periodic orbit candidate) is parametrized as a Fourier series; a loss function is defined based on the deviation of the loop from the physical differential equations. Unlike previous work relying on hand-derived Jacobians, our method automates the process by leveraging automatic differentiation, a common machine learning technique. The continuation direction can be determined by the flat directions of the loss landscapes (directions with zero eigenvalues), making the search of periodic orbits efficient and guided. Our method is integrator-free, precisely initializes oscillations around unstable fixed points, and efficiently detects orbit family intersections and subharmonic bifurcations. As a demonstration, we present full continuations of periodic double pendulum oscillations from fixed points, showing bifurcations along orbit families and categorizing branches of periodic orbits. In particular, we find periodic orbits where both pendulum masses are never simultaneously at rest, which to our knowledge has been missing in the literature.\n\nAuthors: Leo Yao, Ziming Liu, Max Tegmark\nCategories: cs.LG, math-ph, nlin.CD, physics.class-ph, cs.LG",
+  "word_count": 160,
+  "published_at": "2026-09-04T16:42:51Z",
+  "ingested_at": "2026-09-07T11:04:44.009Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math-ph",
+    "nlin.CD",
+    "physics.class-ph",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

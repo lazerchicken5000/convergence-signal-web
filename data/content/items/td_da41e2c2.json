@@ -1,0 +1,39 @@
+{
+  "id": "td_da41e2c2",
+  "source": "arxiv",
+  "source_id": "2609.05364",
+  "source_url": "https://arxiv.org/abs/2609.05364",
+  "content_type": "paper",
+  "creator": {
+    "id": "samuel_kushnir",
+    "name": "Samuel Kushnir",
+    "handle": "Samuel Kushnir, Kimia Noorbakhsh, Kavya Sreedhar, Liqun Cheng, Ming Liu, Parthasarathy Ranganathan, Mohammad Alizadeh, Fred Kjolstad, Suvinay Subramanian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
+  "body_text": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool\n\nMachine-learning performance modeling is a uniquely hostile terrain for long-lived software: the assumptions baked into today's abstractions are invalidated by tomorrow's models and systems, forcing perpetual refactoring of performance-modeling frameworks. Meanwhile, AI coding agents have become fast and capable enough that regenerating an entire library is cheaper than paying down the tech debt of incrementally patching it. We describe SMART, a rigorous symbolic performance-modeling library for ML systems whose main branch contains almost no code: the repository is a DAG of self-contained natural-language design docs, coding sub-agents regenerate the implementation from only the docs on new version updates, and every human change is a natural-language edit to a doc--self-documenting by construction. Two ingredients make regeneration reliable: (i) a design-doc style built around step-by-step worked examples that act as in-context demonstrations for the generating agents, and (ii) a minimal, recursively defined operator IR with symbolic (SymPy) cost expressions, a fast analytical roll-up mode for large sweeps, and a slow modulo-scheduling mode for fine-grained schedule studies. Regenerated implementations reproduce hand-audited reference models--including DeepSeek-V3 serving on a TPU pod slice--to round-off precision, suggesting that design docs--not code--can be the durable artifact for ML-systems co-design tools.\n\nAuthors: Samuel Kushnir, Kimia Noorbakhsh, Kavya Sreedhar, Liqun Cheng, Ming Liu, Parthasarathy Ranganathan, Mohammad Alizadeh, Fred Kjolstad, Suvinay Subramanian\nCategories: cs.PL, cs.AI, cs.PL",
+  "word_count": 192,
+  "published_at": "2026-09-04T17:08:51Z",
+  "ingested_at": "2026-09-07T11:04:51.374Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.PL",
+    "cs.AI",
+    "cs.PL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

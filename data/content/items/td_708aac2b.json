@@ -1,0 +1,39 @@
+{
+  "id": "td_708aac2b",
+  "source": "arxiv",
+  "source_id": "2609.05370",
+  "source_url": "https://arxiv.org/abs/2609.05370",
+  "content_type": "paper",
+  "creator": {
+    "id": "chang_liu",
+    "name": "Chang Liu",
+    "handle": "Chang Liu, Edward Raff, Kristopher Micinski",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When LLM Decompilers Recompile More and Preserve Less",
+  "body_text": "When LLM Decompilers Recompile More and Preserve Less\n\nDecompilation recovers high-level source from compiled machine code and serves as a foundation for security tasks such as vulnerability detection and malware analysis. Traditional decompilers like Ghidra and Hex-Rays expose whatever they cannot resolve as visible placeholders and often emit pseudocode that will not compile or execute; LLM-based decompilers produce clean, idiomatic C and are now judged almost entirely by recompilability and re-executability: whether the output builds and passes its shipped input/output tests. We show that these metrics can reward the wrong path: a function may recompile and pass every shipped test yet diverge on other legitimate inputs, and a disclosed vulnerability may disappear from the recompiled code with no visible trace of the crash. Neither failure is caught by existing suites. To address this gap, we propose Decompile-Diverge, a behavioral comparison oracle not relying on fixed or hand-crafted tests: for each function it synthesizes a driver, grows a fuzzing corpus from the reference, and reruns the decompiled code on the same inputs to detect changes in the function's behavior. Across eight systems in nine configurations on established LLM decompilation corpora, candidates that pass every shipped test still diverge from the original on our input corpus: 4.9% overall, and as many as 13% for a single system. On 300 real GitHub library functions and 287 CVE-grounded functions, recompilability and behavioral agreement can come apart: the strongest refinement LLM lifts Ghidra's build rate from 75% to 90%, while its Matched rate falls from 74% to 62%; on disclosed vulnerabilities, up to one tenth exhibit Crash Absence in its output. Source-level analysis traces this divergence to introduced fields, types, callees, and guards that replace the visible unknowns traditional tools leave behind.\n\nAuthors: Chang Liu, Edward Raff, Kristopher Micinski\nCategories: cs.CR, cs.AI, cs.CR",
+  "word_count": 279,
+  "published_at": "2026-09-04T17:16:18Z",
+  "ingested_at": "2026-09-07T11:04:29.672Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
