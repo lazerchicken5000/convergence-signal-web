@@ -1,0 +1,39 @@
+{
+  "id": "td_e0eeff3b",
+  "source": "arxiv",
+  "source_id": "2609.09130",
+  "source_url": "https://arxiv.org/abs/2609.09130",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiaoyu_li",
+    "name": "Xiaoyu Li",
+    "handle": "Xiaoyu Li, Zhizhou Sha, Jiaojiao Jiang, Junbin Gao, Andi Han",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks",
+  "body_text": "Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks\n\nAn input may activate few hidden units even when different inputs collectively use an entire network. We study the statistical complexity of this input-dependent sparsity in the one-hidden-layer ReLU model of Awasthi et al. (COLT 2024). For width $s$, at most $k$ active units per input, and effective weight and bias bounds $W,B$, every size-$m$ sample in the class's fixed radius-$R$ input domain satisfies $\\mathcal{R}(S)\\le CWR\\min\\{k,\\sqrt{sk/m}\\log^{3/2}(2m)\\}+kB/\\sqrt m$. A support-preserving cover and a single normalized chaining argument remove the previous explicit dimension factor, up to logarithms. Lower bounds on appropriate i.i.d. marginals match up to those logarithms, showing how changing active units across inputs retains a width dependence. The input domain matters: zero-bias networks sparse on the entire ball have at most $2k$ nonzero units and complexity $O(kWR/\\sqrt m)$, whereas bias bounds comparable to $WR$ restore the worst-case rate on that same domain in only logarithmic dimension. A spherical-cap construction proves the latter claim without assuming sparsity merely on the sampling support. For a specified normalized bounded loss and biases comparable to $WR$, we also obtain agnostic minimax excess-risk bounds of order $\\min\\{1,\\sqrt{s/(km)}\\}$ up to logarithms.\n\nAuthors: Xiaoyu Li, Zhizhou Sha, Jiaojiao Jiang, Junbin Gao, Andi Han\nCategories: cs.LG, stat.ML, cs.LG",
+  "word_count": 185,
+  "published_at": "2026-09-08T17:53:03Z",
+  "ingested_at": "2026-09-09T11:04:52.866Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

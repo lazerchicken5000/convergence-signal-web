@@ -1,0 +1,39 @@
+{
+  "id": "td_16a0a414",
+  "source": "arxiv",
+  "source_id": "2609.09135",
+  "source_url": "https://arxiv.org/abs/2609.09135",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiacheng_xu",
+    "name": "Jiacheng Xu",
+    "handle": "Jiacheng Xu, Feng Chen, Xiuneng Xu, Bo An",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+  "body_text": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation\n\nExisting methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation because programs cannot be compared by surface form and therefore do not directly provide a usable training signal. To make TTRL applicable to code generation, we propose probe-driven TTRL, which constructs output-free probe inputs from the problem statement, executes candidate programs on these probes, and defines a Probe Consensus Reward (PCR) from the resulting behavioral agreement. PCR provides a behavioral training signal for open-vocabulary programs, but it is not a fully reliable verifier and remains susceptible to reward hacking through spurious consensus. We therefore introduce Entropy-Regularized Rank-Masked Policy Optimization (ERPO), which converts low PCR into conservative negative updates through rank masking and controls policy drift with an entropy ceiling. On coding benchmarks, ERPO substantially improves pass@1 and pass@k in both in-domain adaptation and zero-shot transfer.\n\nAuthors: Jiacheng Xu, Feng Chen, Xiuneng Xu, Bo An\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 151,
+  "published_at": "2026-09-08T17:54:13Z",
+  "ingested_at": "2026-09-09T11:04:45.641Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

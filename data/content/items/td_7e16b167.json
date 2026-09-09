@@ -1,0 +1,39 @@
+{
+  "id": "td_7e16b167",
+  "source": "arxiv",
+  "source_id": "2609.09152",
+  "source_url": "https://arxiv.org/abs/2609.09152",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuhan_ye",
+    "name": "Yuhan Ye",
+    "handle": "Yuhan Ye, Kaizhao Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Silver Rate Is (Almost) Optimal for Gradient Descent Acceleration",
+  "body_text": "Silver Rate Is (Almost) Optimal for Gradient Descent Acceleration\n\nWe study how far gradient descent (GD) can be accelerated by predetermined nonnegative stepsizes in smooth convex optimization. Writing $p_{\\mathrm{sil}}=\\log_2(1+\\sqrt{2})$, we prove an $Ω\\left(n^{-p_{\\mathrm{sil}}-O(\\sqrt{\\log\\log n/\\log n})}\\right)$ non-anytime lower bound. In the anytime setting, every infinite nonnegative schedule has infinitely many horizons with error $Ω\\left(n^{-\\frac{2p_{\\mathrm{sil}}}{1+p_{\\mathrm{sil}}}-O(\\sqrt{\\log\\log n/\\log n})}\\right)$. Together with the silver-schedule upper bound [Altschuler and Parrilo, 2025] and the anytime upper bound [Zhang et al., 2025], our results determine the optimal polynomial convergence exponents in both settings.\n\nAuthors: Yuhan Ye, Kaizhao Liu\nCategories: math.OC, cs.LG, math.OC",
+  "word_count": 76,
+  "published_at": "2026-09-08T17:59:38Z",
+  "ingested_at": "2026-09-09T11:04:52.865Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.LG",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

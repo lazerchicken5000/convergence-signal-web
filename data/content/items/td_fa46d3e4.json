@@ -1,0 +1,38 @@
+{
+  "id": "td_fa46d3e4",
+  "source": "arxiv",
+  "source_id": "2609.09099",
+  "source_url": "https://arxiv.org/abs/2609.09099",
+  "content_type": "paper",
+  "creator": {
+    "id": "changho_shin",
+    "name": "Changho Shin",
+    "handle": "Changho Shin, David Alvarez-Melis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Curriculum Learning as Transport: Understanding Curricula with Wasserstein Geodesics",
+  "body_text": "Curriculum Learning as Transport: Understanding Curricula with Wasserstein Geodesics\n\nCurriculum learning is governed by several coupled design choices---how difficulty is defined, how examples are ordered, how much exposure each level receives, and how quickly training moves across levels---making it hard to isolate what actually helps. We present Wasserstein curriculum paths, a simple transport-based framework that decouples these factors by representing curricula as trajectories of training distributions over discrete difficulty levels. Across a calibrated synthetic suite with 12 tasks and 33 difficulty axes, we use this framework to isolate the effects of ordering, matched exposure, endpoint smoothness, and pacing under fixed training budgets. We find that curriculum effects are strongly context-dependent: no single strategy dominates across tasks, difficulty axes, and budgets, and curricula mainly change where a fixed budget is spent most effectively. Within this framework, easy-to-hard ordering improves hard-level performance relative to exposure-matched static sampling, showing that the benefit is not explained by cumulative exposure alone. We further show that endpoint smoothness and pacing substantially affect where along the difficulty spectrum a curriculum is effective. Finally, we show that the same transport view naturally supports extensions to learned pacing through geometry and to structured difficulty spaces beyond one-dimensional orderings.\n\nAuthors: Changho Shin, David Alvarez-Melis\nCategories: cs.LG, cs.LG",
+  "word_count": 190,
+  "published_at": "2026-09-08T17:39:16Z",
+  "ingested_at": "2026-09-09T11:04:52.866Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
