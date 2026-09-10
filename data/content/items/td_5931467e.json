@@ -1,0 +1,39 @@
+{
+  "id": "td_5931467e",
+  "source": "arxiv",
+  "source_id": "2609.10529",
+  "source_url": "https://arxiv.org/abs/2609.10529",
+  "content_type": "paper",
+  "creator": {
+    "id": "p._m._aronow",
+    "name": "P. M. Aronow",
+    "handle": "P. M. Aronow, Nathan Kallus, Patrick Lopatto",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A positive resolution of the gap-entropy conjecture",
+  "body_text": "A positive resolution of the gap-entropy conjecture\n\nWe prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}Δ_i^{-2}$. Let $p_r$ be the fraction of $H$ contributed by arms with $2^{-(r+1)}&lt;Δ_i\\le2^{-r}$, and let $\\mathrm{Ent}(I)=\\sum_{r:p_r&gt;0} p_r\\log(1/p_r)$. Among all algorithms that identify the optimal arm with probability at least $1-δ$ on every Gaussian instance, the optimal expected number of samples on a given instance, averaged over all permutations of the arm labels, is within absolute constant factors of $H(\\log(1/δ)+\\mathrm{Ent}(I))$. Moreover, there is an algorithm, independent of the instance, whose expected number of samples is bounded by a constant multiple of this quantity plus $g^{-2}\\log\\log(e^e/g)$, where $g=\\min_{i\\ne *}Δ_i$ is the gap to the closest competitor.\n\nAuthors: P. M. Aronow, Nathan Kallus, Patrick Lopatto\nCategories: cs.LG, stat.ML, cs.LG",
+  "word_count": 133,
+  "published_at": "2026-09-09T17:57:11Z",
+  "ingested_at": "2026-09-10T11:04:56.825Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

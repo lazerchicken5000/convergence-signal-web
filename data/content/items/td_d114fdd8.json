@@ -1,0 +1,40 @@
+{
+  "id": "td_d114fdd8",
+  "source": "arxiv",
+  "source_id": "2609.10534",
+  "source_url": "https://arxiv.org/abs/2609.10534",
+  "content_type": "paper",
+  "creator": {
+    "id": "phil_assheton",
+    "name": "Phil Assheton",
+    "handle": "Phil Assheton",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
+  "body_text": "Likelihood-free inference with nuisance parameters through normalizing flows\n\nWe present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the sense of minimum average KL-divergence of its $p$-values versus uniform and we argue that it can be expected to have good power when the dimension of the statistic equals the dimension of the parameter. It is able to incorporate prior knowledge about group invariances such as translation and scale. It can discover the one-sample $t$-test almost exactly, outperforms the Welch test in terms of worst-case size over a constrained variance-ratio range and achieves good calibration on partial biserial correlations, while showing higher power (and being much faster) on small-to-moderate samples than profile likelihood-ratio techniques.\n\nAuthors: Phil Assheton\nCategories: stat.ME, cs.LG, stat.ML, stat.ME",
+  "word_count": 139,
+  "published_at": "2026-09-09T17:58:15Z",
+  "ingested_at": "2026-09-10T11:04:56.825Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "cs.LG",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

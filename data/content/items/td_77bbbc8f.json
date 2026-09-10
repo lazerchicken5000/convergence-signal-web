@@ -1,0 +1,39 @@
+{
+  "id": "td_77bbbc8f",
+  "source": "arxiv",
+  "source_id": "2609.10509",
+  "source_url": "https://arxiv.org/abs/2609.10509",
+  "content_type": "paper",
+  "creator": {
+    "id": "suman_raj",
+    "name": "Suman Raj",
+    "handle": "Suman Raj, Hai Duc Nguyen, Haochen Pan, Ryan Chard, Kyle Chard, Ian Foster",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
+  "body_text": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs\n\nScientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but it remains unclear where to introduce agentic reasoning, how to bound its risk, and when it actually helps. We present Avatar, an actor-based architecture comprising an orchestrator, an executor, and a provenance monitor. Each actor's decision policy is pluggable (rule-based or LLM-backed) via a single adapter-validated action catalog, so conventional and agentic control run on the same core across different WMSs. We present an implementation using the Academy framework and evaluate Avatar across three workloads. We observe that Avatar's rule mode reproduces native execution, with a single unchanged core running all three. Moreover, LLM-backed Avatar reports a reduction of compute wastage by $55\\%$ and cuts GPU-busy time by $40\\%$. Overall, we envision Avatar as a step toward workflow systems that reason about their own orchestration rather than follow pre-fixed rules.\n\nAuthors: Suman Raj, Hai Duc Nguyen, Haochen Pan, Ryan Chard, Kyle Chard, Ian Foster\nCategories: cs.DC, cs.MA, cs.DC",
+  "word_count": 150,
+  "published_at": "2026-09-09T17:45:36Z",
+  "ingested_at": "2026-09-10T11:05:04.412Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DC",
+    "cs.MA",
+    "cs.DC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

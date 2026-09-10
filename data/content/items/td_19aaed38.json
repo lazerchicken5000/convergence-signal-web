@@ -1,0 +1,38 @@
+{
+  "id": "td_19aaed38",
+  "source": "arxiv",
+  "source_id": "2609.10531",
+  "source_url": "https://arxiv.org/abs/2609.10531",
+  "content_type": "paper",
+  "creator": {
+    "id": "jerred_chen",
+    "name": "Jerred Chen",
+    "handle": "Jerred Chen, Simon Weber, Ronald Clark",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Guiding Image-to-3D Generation with Test-Time Partial Observations",
+  "body_text": "Guiding Image-to-3D Generation with Test-Time Partial Observations\n\nImage-to-3D models can generate visually compelling 3D assets from a single RGB image, but their geometry is often only loosely constrained by the available observations, limiting their use in applications that require geometric fidelity. In many real-world settings, however, partial geometric observations of the object may be available at test time. We introduce a training-free framework for incorporating such evidence into pretrained image-to-3D generative models without retraining or finetuning. To do this, we guide generation using a ray-consistent observation likelihood defined over the model's occupancy representation, combining surface occupancy and free-space evidence. Applied to SAM 3D and its multi-view extension, our approach substantially improves geometric fidelity across different levels of observability, as well as visual quality. Our results demonstrate that pretrained image-to-3D models can effectively integrate partial geometric observations through explicit test-time guidance, complementing their learned generative priors without modifying the underlying model.\n\nAuthors: Jerred Chen, Simon Weber, Ronald Clark\nCategories: cs.CV, cs.CV",
+  "word_count": 143,
+  "published_at": "2026-09-09T17:58:04Z",
+  "ingested_at": "2026-09-10T11:05:11.989Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

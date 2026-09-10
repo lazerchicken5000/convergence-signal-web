@@ -1,0 +1,38 @@
+{
+  "id": "td_414aa411",
+  "source": "arxiv",
+  "source_id": "2609.10537",
+  "source_url": "https://arxiv.org/abs/2609.10537",
+  "content_type": "paper",
+  "creator": {
+    "id": "yiwei_fang",
+    "name": "Yiwei Fang",
+    "handle": "Yiwei Fang, Yichen Liu, Ze Jin, Haoqiang Wang, Qixu Liu, Luyi Xing",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+  "body_text": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning\n\nLogic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. These flaws are inherently tied to business-specific semantics and threat models, making their discovery and reasoning difficult and hard to scale. Real-world systems often exhibit diverse application features, complex protocol logic, and domain-specific threat models, necessitating substantial human effort and domain expertise for effective security analysis. In this paper, we introduce LL-Verifier, a novel, automated framework for identifying logic vulnerabilities built on (1) large language models for autonomous modeling, and (2) logic model checkers for rigorous reasoning. LL-Verifier processes natural language inputs, in particular protocol descriptions and security goals, to automatically generate formal logic models and properties expressed in a new logic language built on a generic logic language Maude, optimized for modeling arbitrary application-level semantics. These formal models are then converted into logical state machines, enabling exhaustive, rigorous verification through logic level model checking. This approach streamlines the analysis of diverse, application-level protocols deployed in real-world scenarios, offering automated, exhaustive, and precise reasoning within their logical constraints. We evaluated the high effectiveness, efficiency, and practicality of LL-Verifier by applying it to 27 access control protocols of widely used IoT devices, which come with vendor-specific logic flows and semantics. While LL-verifier tackles a hard problem in application security, i.e., automatic logic flaws discovery, our analysis uncovers a range of sophisticated logic vulnerabilities in IoT protocols and devices with serious security and privacy implications.\n\nAuthors: Yiwei Fang, Yichen Liu, Ze Jin, Haoqiang Wang, Qixu Liu, Luyi Xing\nCategories: cs.CR, cs.CR",
+  "word_count": 245,
+  "published_at": "2026-09-09T17:58:58Z",
+  "ingested_at": "2026-09-10T11:05:19.481Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
