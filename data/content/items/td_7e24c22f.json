@@ -1,0 +1,38 @@
+{
+  "id": "td_7e24c22f",
+  "source": "arxiv",
+  "source_id": "2609.11871",
+  "source_url": "https://arxiv.org/abs/2609.11871",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiaming_zhong",
+    "name": "Jiaming Zhong",
+    "handle": "Jiaming Zhong, Reza Valiollahi Mehrizi, Mohammad Pirani, Chao Yu, Alireza Kasaiezadeh, Yash Vardhan Pant, Amir Khajepour",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
+  "body_text": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance\n\nAgent-based model predictive control (AMPC) has recently been proposed as a distributed scheme that collaborates with all agents to achieve optimal holistic performance. However, its optimality highly depends on the prediction accuracy that requires all agents or their contributions to be known, which is too idealistic for actual implementation. This research proposes a novel practical hybrid control scheme - learning agent-based MPC (LAMPC), combining the model-based AMPC approach and data-based learning methods to improve the holistic vehicle performance for multi-agent systems. The Gaussian process regression (GPR) enhanced by an online data management strategy serves as the learning core to predict unknown contributions. A novel multi-step prediction mechanism leverages the GPR learning potential along the horizon. The predicted mean, representing the learned unknown contributions, completes the system model in the MPC for more accurate control. Meanwhile, a stochastic framework is formulated to guarantee control safety and feasibility using soft chance constraints based on the prediction variance. Both simulations and experiments show that, with the learning capability, LAMPC outperforms the traditional AMPC. LAMPC can achieve higher tracking performance in well-learned scenarios and always guarantee constraint satisfaction even in less-learned scenarios. Moreover, the proposed hybrid control scheme is efficient for real-time implementation and is flexible to any control agent topology.\n\nAuthors: Jiaming Zhong, Reza Valiollahi Mehrizi, Mohammad Pirani, Chao Yu, Alireza Kasaiezadeh, Yash Vardhan Pant, Amir Khajepour\nCategories: cs.RO, cs.RO",
+  "word_count": 207,
+  "published_at": "2026-09-10T17:43:16Z",
+  "ingested_at": "2026-09-11T11:05:00.780Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

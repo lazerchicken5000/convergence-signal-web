@@ -1,0 +1,38 @@
+{
+  "id": "td_722f3745",
+  "source": "arxiv",
+  "source_id": "2609.11889",
+  "source_url": "https://arxiv.org/abs/2609.11889",
+  "content_type": "paper",
+  "creator": {
+    "id": "vartika_singh",
+    "name": "Vartika Singh",
+    "handle": "Vartika Singh, Philip N. Brown",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ABRA: An algorithm which cannot converge to low-quality Nash equilibria",
+  "body_text": "ABRA: An algorithm which cannot converge to low-quality Nash equilibria\n\nWe consider a game theoretic approach to solve multi-agent coordination problems with submodular objectives. It is known for such problems that the Nash equilibria for the corresponding game are always within 50% of the optimal. A recent work further shows that the equilibria which achieve this worst-case bound are not stable. Leveraging this, we design an Approximate Best Response Algorithm (ABRA) governed by a noise parameter and a rationality parameter. The noise allows ABRA to escape the bad equilibria and the rationality parameter balances any degradation in the objective function caused by the noise. We show for any two-player game that if ABRA converges to a Nash equilibrium, its system objective value is strictly more than 50% of optimal plus a term controlled by the noise parameter. Otherwise, ABRA converges to some recurrent class: if a recurrent class contains any action profile yielding system objective less than 50% of the optimal, the class must also contain either the optimal action profile or an action profile yielding system objective strictly more than 50\\% of the optimal by the same amount in addition to a factor controlled by noise parameter. The time that ABRA spends in such action profiles can be controlled using the rationality parameter. Using numerical simulations, we show that the minimum expected objective function is typically well above half of the optimal.\n\nAuthors: Vartika Singh, Philip N. Brown\nCategories: cs.GT, cs.GT",
+  "word_count": 223,
+  "published_at": "2026-09-10T17:50:07Z",
+  "ingested_at": "2026-09-11T11:05:00.780Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.GT",
+    "cs.GT"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

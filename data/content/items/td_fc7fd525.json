@@ -1,0 +1,39 @@
+{
+  "id": "td_fc7fd525",
+  "source": "arxiv",
+  "source_id": "2609.11899",
+  "source_url": "https://arxiv.org/abs/2609.11899",
+  "content_type": "paper",
+  "creator": {
+    "id": "weitong_cai",
+    "name": "Weitong Cai",
+    "handle": "Weitong Cai, Hang Zhang, Yukai Huang, Yiqiao Xie, Shan Gao, Jiankang Deng, Songcen Xu, Jifei Song, Zhensong Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",
+  "body_text": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding\n\nLong-video understanding on edge devices must reason over hours of content under tight compute and bandwidth budgets. Subsampling visual tokens loses temporal structure, while text-only video memories lose fine-grained visual attributes. We observe a visual-textual duality: language memories carry long-range temporal structure better than dense frames, while pixels remain decisive for attribute-level perception. Building on this insight, we propose Caption-once, Frames-onDemand (CFD), a budget-aware edge-cloud agentic framework. The edge runs a single offline captioning pass that builds a dual-track narrative index, an event-level story skeleton plus a clip-level micro-log, cached and reused across queries without re-captioning. At query time, a cloud-side MLLM reasons over the index in a story-first loop centered on a lightweight Visual-Need Router: a per-query gating module that triggers bounded keyframe retrieval only for perceptual questions (appearance, on-screen text, attribute disambiguation) and keeps temporal-structural questions in language space. The router turns visual access into a first-class, query-conditioned cost, capping per-query frame consumption regardless of video length. Experiments on long-video benchmarks demonstrate strong accuracy-efficiency trade-offs while substantially reducing online visual processing.\n\nAuthors: Weitong Cai, Hang Zhang, Yukai Huang, Yiqiao Xie, Shan Gao, Jiankang Deng, Songcen Xu, Jifei Song, Zhensong Zhang\nCategories: cs.CV, cs.HC, cs.CV",
+  "word_count": 173,
+  "published_at": "2026-09-10T17:53:59Z",
+  "ingested_at": "2026-09-11T11:05:00.780Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.HC",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

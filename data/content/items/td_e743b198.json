@@ -1,0 +1,38 @@
+{
+  "id": "td_e743b198",
+  "source": "arxiv",
+  "source_id": "2609.11913",
+  "source_url": "https://arxiv.org/abs/2609.11913",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_henrik_nevermann",
+    "name": "Daniel Henrik Nevermann",
+    "handle": "Daniel Henrik Nevermann, Claudius Gros",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Distance generalization in transformers: why bother with positional encoding?",
+  "body_text": "Distance generalization in transformers: why bother with positional encoding?\n\nOut-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance when inter-token distances are changed between training and inference, while keeping a fixed context length. We construct two synthetic delay copy tasks, both involving finite distances between source and recall, where tokens are copied either fully or selectively, and test models on delays unseen during training. We address three questions: (A) Do positional encoding schemes such as RoPE and ALiBi improve distance resolution relative to no positional encoding (NoPE)? (B) How does data diversity, the number of inter-token distances seen in training, affect performance? (C) When is distance transfer learning positive or negative? We present a thorough investigation, finding that it is paramount to improve our understanding of the underlying mechanisms.\n\nAuthors: Daniel Henrik Nevermann, Claudius Gros\nCategories: cs.CL, cs.CL",
+  "word_count": 139,
+  "published_at": "2026-09-10T17:57:19Z",
+  "ingested_at": "2026-09-11T11:04:44.395Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

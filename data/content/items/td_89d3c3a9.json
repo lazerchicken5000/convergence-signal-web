@@ -1,0 +1,40 @@
+{
+  "id": "td_89d3c3a9",
+  "source": "arxiv",
+  "source_id": "2609.11864",
+  "source_url": "https://arxiv.org/abs/2609.11864",
+  "content_type": "paper",
+  "creator": {
+    "id": "yi-jen_shih",
+    "name": "Yi-Jen Shih",
+    "handle": "Yi-Jen Shih, Puyuan Peng, Abdelrahman Mohamed, David Harwath",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
+  "body_text": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs\n\nSpeech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-based LM architectures. However, they continue to lag behind text-only LLMs on complex reasoning tasks, while real-time spoken interaction imposes strict latency constraints. Although prior works employ Chain-of-Thought (CoT) and concurrent reasoning to enhance reasoning capabilities without inducing prohibitive delays, an inherent accuracy-latency trade-off persists. In this paper, we investigate whether a streaming SpeechLLM can dynamically revise its reasoning traces on the fly. We introduce RetroThinker, a multi-stage post-training framework that equips the Moshi model to self-verify and forward-correct CoT steps during inference. RetroThinker combines supervised fine-tuning (SFT) on curated retrospective thinking data with length-based direct preference optimization (DPO) to optimize retrospective during early reasoning (i.e., reasoning concurrently while the user speaks). Evaluated on the GSM8K benchmark, RetroThinker significantly improves the accuracy-latency trade-off over non-retrospective baselines, achieving an 11% absolute accuracy gain at a comparable latency.\n\nAuthors: Yi-Jen Shih, Puyuan Peng, Abdelrahman Mohamed, David Harwath\nCategories: eess.AS, cs.AI, cs.CL, eess.AS",
+  "word_count": 159,
+  "published_at": "2026-09-10T17:41:53Z",
+  "ingested_at": "2026-09-11T11:04:44.396Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.AS",
+    "cs.AI",
+    "cs.CL",
+    "eess.AS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

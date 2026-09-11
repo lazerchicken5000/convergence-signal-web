@@ -1,0 +1,38 @@
+{
+  "id": "td_545e41f2",
+  "source": "arxiv",
+  "source_id": "2609.11897",
+  "source_url": "https://arxiv.org/abs/2609.11897",
+  "content_type": "paper",
+  "creator": {
+    "id": "zi-rong_li",
+    "name": "Zi-Rong Li",
+    "handle": "Zi-Rong Li, Si-Yang Liu, Tian-Zuo Wang, Han-Jia Ye",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CausalArena: Benchmarking Causal Discovery in the Foundation Model Era",
+  "body_text": "CausalArena: Benchmarking Causal Discovery in the Foundation Model Era\n\nCausal discovery aims to uncover causal structures from data and is fundamental to scientific reasoning and intervention-based decision making. Its evaluation relies heavily on structural causal models (SCMs), which specify a causal graph together with the mechanisms that generate data, yet existing studies differ substantially in graph families, mechanisms, and evaluation protocols. The emergence of causal discovery foundation models (CDFMs) further complicates evaluation: performance may reflect not only causal discovery ability, but also overlap between pretraining environments and test SCMs, making results on fixed synthetic benchmarks difficult to interpret. We introduce CausalArena, a unified and evolvable benchmark for causal discovery under a common protocol. Synthetic SCMs supply controlled breadth over structures and mechanisms; semantic operational SCMs provide human-auditable, semantically grounded environments beyond standard synthetic generators; and formula-grounded SCMs test discovery under explicit scientific mechanisms. Public real-world datasets provide an additional external-validity check. Experiments across classical, neural, and pretrained methods reveal substantial ranking shifts across SCM families and protocols, showing that strong performance in one benchmark regime does not reliably transfer to others. These results highlight benchmark diversity and pretraining--evaluation overlap as central challenges for evaluating causal discovery in the foundation model era.\n\nAuthors: Zi-Rong Li, Si-Yang Liu, Tian-Zuo Wang, Han-Jia Ye\nCategories: cs.LG, cs.LG",
+  "word_count": 192,
+  "published_at": "2026-09-10T17:53:15Z",
+  "ingested_at": "2026-09-11T11:04:51.669Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

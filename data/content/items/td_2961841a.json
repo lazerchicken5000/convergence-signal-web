@@ -1,0 +1,40 @@
+{
+  "id": "td_2961841a",
+  "source": "arxiv",
+  "source_id": "2609.11918",
+  "source_url": "https://arxiv.org/abs/2609.11918",
+  "content_type": "paper",
+  "creator": {
+    "id": "hongbo_chen",
+    "name": "Hongbo Chen",
+    "handle": "Hongbo Chen, Li Charlie Xia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "General Quantification of Covariate and Concept Shifts",
+  "body_text": "General Quantification of Covariate and Concept Shifts\n\nGeneralization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that existing definition of concept shift breaks when the source and target supports mismatch. Leveraging entropic optimal transport, we propose a key notion: $γ^{*}\\!$-concept shifts, and derive a general error bound unifying covariate and $γ^{*}\\!$-concept shifts, which applies to broad loss functions, label spaces, and stochastic labeling. We further develop estimators for these shifts with concentration guarantees, and the DataShifts algorithm, which can quantify distribution shifts and estimate the error bound in most applications - a rigorous and general tool for analyzing learning error under distribution shift.\n\nAuthors: Hongbo Chen, Li Charlie Xia\nCategories: cs.LG, cs.AI, stat.ML, cs.LG",
+  "word_count": 130,
+  "published_at": "2026-09-10T17:57:52Z",
+  "ingested_at": "2026-09-11T11:04:37.138Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

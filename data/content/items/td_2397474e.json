@@ -1,0 +1,41 @@
+{
+  "id": "td_2397474e",
+  "source": "arxiv",
+  "source_id": "2609.11894",
+  "source_url": "https://arxiv.org/abs/2609.11894",
+  "content_type": "paper",
+  "creator": {
+    "id": "adnan_armouti",
+    "name": "Adnan Armouti",
+    "handle": "Adnan Armouti, Yixuan Gao, Rajalakshmi Nandakumar",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
+  "body_text": "3D Point Splatting for mmWave Radar Novel View Synthesis\n\nSolving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar forward model directly with explicit material modeling and complex outputs, but do not scale to the multi-view optimization NVS demands. Optical-NVS ports of NeRF, hash grids, and 3D Gaussians train fast but discard phase and replace explicit material modeling with opaque learned features, restricting them to power-only range-azimuth (RA) magnitudes. We propose 3D Point Splatting (3DPS), the first differentiable point renderer for radar, derived directly from the standard solid-angle form of the radar equation. Each oriented 3D point carries an ITU-R P.2040 material model, evaluated in closed form, with the resulting complex phasor splatted into range bins through a precomputed point spread function (PSF). The complex-valued output makes the renderer product-agnostic. The same optimized scene yields analog-to-digital converter (ADC), complex range profile (CRP), and RA outputs through standard fast Fourier transform (FFT) pipelines without retraining for each format. On six outdoor ColoRadar scenes, 3DPS reaches 0.587 mean Pearson correlation on held-out RA images. This is between 1.7x and 5.2x the three optical-NVS baselines (RadarSplat, Radar Fields, DART). Training takes approximately 3 minutes per scene on a single RTX 4090.\n\nAuthors: Adnan Armouti, Yixuan Gao, Rajalakshmi Nandakumar\nCategories: cs.CV, cs.GR, cs.LG, eess.SP, cs.CV",
+  "word_count": 215,
+  "published_at": "2026-09-10T17:52:17Z",
+  "ingested_at": "2026-09-11T11:04:51.669Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.GR",
+    "cs.LG",
+    "eess.SP",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
