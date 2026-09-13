@@ -1,0 +1,35 @@
+{
+  "id": "td_71b30ba0",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+  "source_url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+  "body_text": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning:\r\n\r\nI live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.\r\n\r\nIt worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:\r\n\r\nWhen I asked it how it had created the route, it replied:\r\n\r\nI used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails, then calculated the loops locally.\r\n\r\nFrustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature.\r\nBy the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem.\r\nAs for displaying the map to me, that used the visualize skill. It created a file called /workspace/el-granada-5k-share.html to embed directly into the ChatGPT UI.\r\nHere's a copy of that HTML, which starts like this:\r\n&lt;div id=\"eg-share-loop\"&gt;\r\n  &lt;div class=\"viz-row\"&gt;&lt;h3&gt;El Granada harbor loop&lt;/h3&gt;&lt;span class=\"text-small\"&gt;5.1 km&lt;/span&gt;&lt;/div&gt;\r\n  &lt;div id=\"eg-share-stage\"&gt;&lt;/div&gt;\r\n  &lt;div class=\"text-small text-muted\"&gt;Map data © &lt;a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\"&gt;OpenStreetMap contributors&lt;/a&gt;&lt;/div&gt;\r\n  &lt;style&gt;\r\n    #eg-share-loop { width:100%; }\r\n    #eg-share-loop #eg-share-stage { width:100%; margin:8px 0; }\r\n    #eg-share-loop .eg-share-map { display:block; width:100%; touch-action:none; }\r\n    #eg-share-loop .eg-share-map text { fill:var(--foreground); font-size:12px; font-weight:400; }\r\n    #eg-share-loop .eg-share-label { paint-order:stroke; stroke:var(--background); stroke-width:3px; stroke-linejoin:round; }\r\n  &lt;/style&gt;\r\n  &lt;script type=\"application/json\" id=\"eg-share-data\"&gt;{\"route\":{\"type\":\"LineString\",\"coordinates\":[[-122.467425,37.4997753] ...&lt;/script&gt;\r\n  &lt;script src=\"https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js\"&gt;&lt;/script&gt;\r\n  &lt;script&gt;\r\n  (() =&gt; {\r\n    const root=document.getElementById('eg-share-loop');\r\n\r\nThe &lt;script type=\"application/json\"&gt; element contains the full geometry needed to render both the running route and the map itself, using D3, which is loaded from an allow-listed CDN location described in this section of the visualize skill:\r\n\r\nExternal resources\r\n\r\nThe CSP allows only cdnjs.cloudflare.com, esm.sh, cdn.jsdelivr.net, unpkg.com, fonts.googleapis.com, fonts.gstatic.com, and fonts.bunny.net. Other origins are blocked and fail silently.\r\n\r\n\n    \n        Tags: geospatial, ai, d3, openai, generative-ai, chatgpt, llms, skills, gpt-6-astra",
+  "word_count": 364,
+  "published_at": "2026-09-12T23:56:42.000Z",
+  "ingested_at": "2026-09-13T11:00:11.832Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
