@@ -1,0 +1,35 @@
+{
+  "id": "td_5a9b5ff2",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+  "source_url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "commit-rewriter 0.1",
+  "body_text": "Release: commit-rewriter 0.1\n        I built this little web app the other day to help edit the commit messages for the Datasette security releases. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.\nIf you want to edit the commit messages for a repository you can run it like this:\nuvx commit-rewriter path/to/repo\n\nOmit the path if you are already in the directory for that repo.\n\nWhen you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent.\n    \n    \n        Tags: git, projects, python, ai-assisted-programming",
+  "word_count": 127,
+  "published_at": "2026-09-14T00:28:10.000Z",
+  "ingested_at": "2026-09-14T11:00:11.068Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
