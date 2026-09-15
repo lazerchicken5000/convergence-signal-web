@@ -1,0 +1,35 @@
+{
+  "id": "td_03498c61",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/not-glue-they-thought-it-was",
+  "source_url": "https://www.science.org/content/blog-post/not-glue-they-thought-it-was",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Not The Glue They Thought It Was",
+  "body_text": "I’ve been meaning to write about this paper, which has an unusual variation on the “molecular glue” concept. It’s getting to the point where I’m going to have to stop putting that phrase in quotation marks because it’s become so familiar. But for those outside the field, a glue is a small molecule that (by itself) brings two proteins together that otherwise would not interact in such a way. If you had tried this concept out on me thirty years ago I would have been pretty skeptical - when I first started hearing about it, it sounded like bringing two aircraft carriers together by sticking a canoe between them. But that metaphor breaks down quickly when you realize that the surfaces of proteins are a lot more varied and dynamic than the surfaces of aircraft carriers. There are indeed startlingly small molecules that form ternary complexes with two large protein partners, complexes that otherwise just don’t happen. The imide class is well-known by now, and auxin is an example in the plant world. Both of those recruit proteins to partners involved in the ubiquitin ligase pathway and thus lead to the degradation of the first protein once it gets ubiquitinated. This is an area of great interest, but it’s not the only place where gluing can work. The search has been on for the last several years to determine how widespread this mechanism is - how many proteins can be brought together in this way, how their behavior changes when this happens, and what sorts of small molecules can be used to do it. The paper linked in the first paragraph identifies a small-molecule glue that brings together the E3 ligase protein DCAF11 and a target protein called DDX18. This was discovered by a come-one come-all screen using mass spec techniques: a whole set of E3 ligases are immobilized on beads, and these are incubated with libraries of small molecule candidates along with cell lysates to see what turns up. The team started out with known interactions and worked up to multiplexing hundreds of compounds per well. A pooled approach (320 compounds per) with 7 immobilized ligases and over 5,000 compounds yielded a compound designated as M12. At this point the authors produced a batch of the ternary protein-glue complex and analyzed its structure through cryo-electron microscopy. That went fine, except there was some extra electron density at the glue interface that didn’t match up with anything. Something funny appeared to be going on with a potentially reactive 2-chloropyrdine in the M12 structure, and indeed removing this leaving group wiped out its glue activity. Even trying the system out with purified proteins rather than cell lysates killed off the glue activity, as did boiling the lysate before the experiment. These mysteries were resolved when the team realized that the actual glue molecule was the adduct between their M12 compound and glutathione (GSH). That’s a ubiquitous tripeptide with a free Cys side chain that is a very widely used reducing agent in cells, and it is most certainly found in cell lysate mixtures and is destroyed by heating. And in turn, DCAF11 has what appears to be a very specific and highly conserved glutathione binding region. It turns out that a number of well-characterized glutathione adducts do indeed bind to DCAF11. The M12 compound can be tethered to a ligard for some other target protein to produce bifunctional degraders that work through DCAF11, but all of these naturally are using the M12-GSH adduct. And that’s fine by itself, but the real surprise in this work was that glutathione binding site. This strongly suggests that there’s a whole endogenous glutathione-adduct recognition system out there, not to mention an endogenous glutathione-adduct degradation system. That could have some interesting features, and on an even larger scale it makes you wonder if there are ubiquitin-ligase degradation systems that recognize other common protein adducts and modifications. I wouldn’t rule it out.",
+  "word_count": 655,
+  "published_at": "2026-09-14T10:49:44.000Z",
+  "ingested_at": "2026-09-15T11:03:14.939Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

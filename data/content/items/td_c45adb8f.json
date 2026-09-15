@@ -1,0 +1,39 @@
+{
+  "id": "td_c45adb8f",
+  "source": "arxiv",
+  "source_id": "2609.15915",
+  "source_url": "https://arxiv.org/abs/2609.15915",
+  "content_type": "paper",
+  "creator": {
+    "id": "zeyang_li",
+    "name": "Zeyang Li",
+    "handle": "Zeyang Li, Sunbochen Tang, Navid Azizan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Safe Meta-Reinforcement Learning via Information Space Reachability",
+  "body_text": "Safe Meta-Reinforcement Learning via Information Space Reachability\n\nMeta-reinforcement learning (meta-RL) enables agents to adapt to unseen tasks with limited experience. Despite its promise, the application of meta-RL in real-world tasks is hindered by safety requirements, which have been underexplored in prior work. In this paper, we propose a safe meta-RL framework that explicitly accounts for safety during adaptation. Our key insight is to reason about safety in the information space, which captures both the physical state and the agent's belief over the underlying task. Within this space, we introduce a safety value function that measures the probability of the agent avoiding unsafe regions indefinitely. We show that this function satisfies a self-consistency condition and a Bellman equation, which make it learnable via meta-RL. Based on this formulation, we develop a safe meta-RL algorithm that learns the safety value function and leverages it for safety filtering and constrained policy optimization. Experiments on meta-RL benchmarks demonstrate the effectiveness of the proposed method.\n\nAuthors: Zeyang Li, Sunbochen Tang, Navid Azizan\nCategories: cs.LG, eess.SY, cs.LG",
+  "word_count": 153,
+  "published_at": "2026-09-14T17:27:11Z",
+  "ingested_at": "2026-09-15T11:05:12.689Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "eess.SY",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

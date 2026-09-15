@@ -1,0 +1,38 @@
+{
+  "id": "td_e23d40ee",
+  "source": "arxiv",
+  "source_id": "2609.15886",
+  "source_url": "https://arxiv.org/abs/2609.15886",
+  "content_type": "paper",
+  "creator": {
+    "id": "kyle_o'brien",
+    "name": "Kyle O'Brien",
+    "handle": "Kyle O'Brien, Edward James Young, Puria Radmard, Nathalie Kirch, Cameron Tice, Tomek Korbak, David Demitri Africa",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Inoculation Midtraining with Learned Neologisms",
+  "body_text": "Inoculation Midtraining with Learned Neologisms\n\nLarge language models (LLMs) often learn both desirable and undesirable properties during post-training. We study whether midtraining, an earlier training stage, can shape which of these properties later generalise. We introduce Inoculation Midtraining, a technique that teaches a base model that unsafe behaviour belongs to a designated &lt;quarantine_token&gt; context, as indicated by the &lt;quarantine_token&gt; neologism (a new token) introduced during midtraining, and then post-trains the model on unsafe data within that context. We then evaluate the model outside the context, with the &lt;quarantine_token&gt; neologism excluded from the system prompt. Across supervised fine-tuning and reinforcement learning post-training regimes, we find that Inoculation Midtraining can reduce misalignment while preserving the transfer of benign data properties (e.g., speaking in German or Shakespearean prose). However, our approach does not outperform standard Inoculation Prompting, is sensitive to training configuration, and produces a leaky boundary that nearby contextual cues can reactivate. These results show that inoculation with a learned association introduced via midtraining can shape selective generalisation. Still, more work is needed before this approach can become a load-bearing component in a developer's safety framework.\n\nAuthors: Kyle O'Brien, Edward James Young, Puria Radmard, Nathalie Kirch, Cameron Tice, Tomek Korbak, David Demitri Africa\nCategories: cs.CL, cs.CL",
+  "word_count": 179,
+  "published_at": "2026-09-14T17:12:52Z",
+  "ingested_at": "2026-09-15T11:05:05.384Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

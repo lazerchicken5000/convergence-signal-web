@@ -1,0 +1,35 @@
+{
+  "id": "td_d56f4325",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/state-ai-antibody-design",
+  "source_url": "https://www.science.org/content/blog-post/state-ai-antibody-design",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "The State of AI Antibody Design",
+  "body_text": "I often say that I think that antibody design is one of the better use cases for AI drug discovery at present, because you start with a lot of inherent advantages: antibodies as a class are evolutionarily optimized for long plasma half-lives, and the long list of approved antibody drugs shows you that success is out there to be had. But this is a relative scale! I still believe that antibodies are one of the more realizable AI design stories, but that doesn’t mean you can just walk over and start scooping up the profits. There are still a lot of things that can go wrong, starting with picking the right target (the recent anti-IL-6 failure for cardiovascular indications is an example of that one). Then you have to worry about specificity for your target, because “It’s an antibody” is not a plan to get around that step. And there’s immunogenicity: having an antibody be recognized as a foreign protein and then setting off an immune response against it just seems unfair, considering how antibodies in general are supposed to be sort of a privileged class in that regard. But it most certainly does happen. And given the variability of the immune system across a large patient population, it surely will happen with some people. But how many? And how bad will the consequences be? That’s up to you to find out, and computational methods are going to be of limited help there. So it’s still hard and still expensive, and this recent paper is a good illustration of that. It’s a report on the AIntibody challenge, where 511 AI-designed antibodies (from 29 different organizations) were put through a series of rigorous tests. All of them target the SARS-CoV-2 receptor binding domain (RBD), about whose structure we know far, far more than anyone ever would have wanted to before the pandemic. There were three different sorts of challenge here. The first was affinity maturation of a known antibody sequence recognizing the RBD, using a set of improved sequences from yeast display assays. Only the parent antibody’s affinity was provided - it itself had been experimentally improved, but the matured sequence from that effort was not provided to the participants. The idea was to improve affinity without compromising other known developability factors. The results here was that the overall distribution of the AI submissions were worse than the experimentally-derived antibodies. Most (71%) of the designed antibodies did bind to the RBD, but the rest didn’t even do that. But that said, the top computational designs were better than the best experimental design that had been arrived at previously. The best of the AI submissions was around a 2000x improvement in affinity over the parental sequence, which is impressive. The second challenge was, given a set of several thousand antibody sequences (from a semisynthetic experimental library), to computationally identify the highest-affinity developable sequence in each of three starting clusters. These varied quite a bit in their kinetics - submission based on one of the clusters had a lot of examples that worked because of slower dissociation rates, but those for another cluster were more based on faster association rate. And the third cluster was hard to deal with in general, with only a few submission showing any improvements at all. But to balance that out, all the decent ones in that last group were ranked as developable, while many submission for the other two clusters dropped out in that evaluation. Across all of them, the affinity improvements picked out were in the range of 2x to 7x compared to controls for each cluster. The real problem, though, is that picking random clones was shown to be just as effective, if not more so, than trying to use the AI systems to identify improved sequences, based on these results. And the third challenge built on 32,000 unique sequences (and the provided affinity of 142 of these) to see if participants could design novel high-affinity developable antibodies by changes in those variable regions (no framework modification allowed). This was a tough one. There was a higher-than-expected share of nonbinders, and the ones that bound tended to be worse than experimentally-derived antibodies. Getting higher affinity and developability at the same time was quite difficult, which I think mimics a lot of people’s real-world experiences (!) The organizers believe that the results in the first challenge give the clearest case for using AI to speed up antibody development, but noted the wide variation in results. One participant (Aureka) performed notably better than the others here, and the estimate is that if their model were both widely available and widely applicable (with the latter remaining to be proven, of course) that it could reduce experimental development time by two or three weeks. Challenge 2, unfortunately, didn’t even make it up to those standards, as mentioned above. And Challenge 3 results were all over the place: the winning antibody in affinity would probably not pass developability tests in the real world, and the best ones below that were in a statistical tie with the best experimentally-derived hits. The wide variations in affinities produced by most organization and algorithms would be a developmental challenge as one tried to sort things out. So that’s the state of the art. There may well be an emerging case for antibody maturation via AI techniques, but the other categories really do seem to need substantial improvement. And keep in mind that this was a very friendly environment to work in - as mentioned, the Covid RBD is a very well-trodden area already, and you’re not going to get that in most (or any) actual discovery and development projects. I will very much look forward to the next iteration of this challenge to see how things are progressing. Despite this, I’m sticking to my contention that antibody development is the best AI case right now. And that, folks, is because all the others are even harder than this!",
+  "word_count": 994,
+  "published_at": "2026-09-11T02:29:45.000Z",
+  "ingested_at": "2026-09-15T11:03:14.939Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

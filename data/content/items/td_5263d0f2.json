@@ -1,0 +1,40 @@
+{
+  "id": "td_5263d0f2",
+  "source": "arxiv",
+  "source_id": "2609.15982",
+  "source_url": "https://arxiv.org/abs/2609.15982",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruishuo_chen",
+    "name": "Ruishuo Chen",
+    "handle": "Ruishuo Chen, Xun Wang, Yu Chen, Zhuoran Li, Longbo Huang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+  "body_text": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM\n\nSkills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. Deployed harnesses route by preloading every skill's metadata into the context, which disperses the agent's attention and caps the library size. Retrieval pipelines move the selection out of the context, but also out of the agent's capability. We show that the frozen agent LLM already carries the routing signal in its own forward passes, and that two linear maps suffice to read it out with no skill text in the context. Gavel (Glance And Verdict from a frozen LLM) reads it in two steps. A glance projects the task's and each skill's mid-layer states through the two maps, the only parameters trained, and scores the full library against compact per-skill banks that one forward pass builds at installation. A verdict then resumes the shortlisted skills' forward passes and reads the model's own likelihood and yes/no judgment, fused with the glance as a product of experts. Trained once, Gavel transfers zero-shot to three public benchmarks and SkillTraj, our new benchmark of 372 simulated agent trajectories. On Qwen3-32B it outperforms progressive disclosure and retrieve-and-rerank pipelines that add 1.2B to 16B external parameters, by up to 13.4 points on written tasks and up to 21.9 when the need for a skill arises mid-rollout. Routing accuracy improves as the backbone does, and in a bash-agent harness the same 32B triggers the correct skill on Skill-Use more often than far larger frontier models running in Codex.\n\nAuthors: Ruishuo Chen, Xun Wang, Yu Chen, Zhuoran Li, Longbo Huang\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 251,
+  "published_at": "2026-09-14T17:58:27Z",
+  "ingested_at": "2026-09-15T11:05:05.383Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

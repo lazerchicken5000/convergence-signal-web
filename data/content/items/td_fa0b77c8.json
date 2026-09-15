@@ -1,0 +1,38 @@
+{
+  "id": "td_fa0b77c8",
+  "source": "arxiv",
+  "source_id": "2609.15964",
+  "source_url": "https://arxiv.org/abs/2609.15964",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiashuo_zhang",
+    "name": "Jiashuo Zhang",
+    "handle": "Jiashuo Zhang, Yuling Chen, Yvonne Commodore-Mensah, Michael Oberst",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Verifiable by Construction: Claim-Level Evaluation of Verbatim Citation in Clinical Question Answering",
+  "body_text": "Verifiable by Construction: Claim-Level Evaluation of Verbatim Citation in Clinical Question Answering\n\nLarge language models (LLMs) have been widely adopted for clinical question answering (QA). Current systems can attach citations to their answers, but these often point to broad texts, leaving time-pressed clinicians unable to verify them efficiently. An alternative is to ensure that responses are verifiable by construction: providing fine-grained verbatim quotes from reference material that substantiate claims, so users can verify an answer without opening other documents. In this paper, we evaluate the ability of current models to perform this task end-to-end: from providing citations for every factual claim, to producing verbatim quotes, to ensuring that those quotes fully substantiate the claims. To do so, we build a standardized harness over four clinical practice guidelines and evaluate twelve LLMs on 222 synthetic clinical questions, measuring each of these stages separately. We find that most models can attach verbatim quotes to over 90% of their claims from prompting alone, apart from some lightweight models such as claude-haiku-4.5. Yet these quotes often fail to substantiate every detail of the claims they accompany. For instance, claude-opus-5 produces verbatim quotes for 98.0% of its claims, but fully substantiates only 37.1%. Our work provides insights into the current capability gap of LLMs in building verifiable clinical QA systems, along with artifacts for future research.\n\nAuthors: Jiashuo Zhang, Yuling Chen, Yvonne Commodore-Mensah, Michael Oberst\nCategories: cs.CL, cs.CL",
+  "word_count": 209,
+  "published_at": "2026-09-14T17:53:51Z",
+  "ingested_at": "2026-09-15T11:05:05.384Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
