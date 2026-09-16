@@ -1,0 +1,35 @@
+{
+  "id": "td_5b23450f",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+  "source_url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Gemini Live audio",
+  "body_text": "Tool: Gemini Live audio\n        Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family.\nI pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.\n\nThe implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket endpoint and uses a Web Audio API AudioContext for both capture and playback.\nHere's the Gemini Live tutorial for getting started with that WebSockets API.\n    \n    \n        Tags: google, tools, websockets, generative-ai, llms, gemini, llm-release, speech-to-text",
+  "word_count": 130,
+  "published_at": "2026-09-15T22:47:07.000Z",
+  "ingested_at": "2026-09-16T11:00:13.117Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

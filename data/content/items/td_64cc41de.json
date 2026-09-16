@@ -1,0 +1,40 @@
+{
+  "id": "td_64cc41de",
+  "source": "arxiv",
+  "source_id": "2609.17509",
+  "source_url": "https://arxiv.org/abs/2609.17509",
+  "content_type": "paper",
+  "creator": {
+    "id": "thanapat_trachu",
+    "name": "Thanapat Trachu",
+    "handle": "Thanapat Trachu, Samuele Cornell, William Chen, Shinji Watanabe",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
+  "body_text": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs\n\nNeural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either operate on single-codebook codecs or apply a single compression step before multi-layer quantization. This forces all quantization layers to share the same segmentation boundaries, despite the residual embeddings at different quantization layers exhibiting different rates of change over time. We propose LACE (Layer-Adaptive Codec Encoding), a dynamic frame rate codec that applies an independent compression step at each quantization layer, enabling layer-specific segmentation boundaries. To use LACE tokens in downstream text-to-speech (TTS), we further introduce union alignment and boundary anchor mechanisms to make durations consistent across layers while preserving compression benefits. Experiments on LibriTTS show that LACE offers a better rate-quality tradeoff than prior dynamic frame rate methods on the reconstruction task and improves TTS inference efficiency while maintaining competitive synthesis quality. Our code is released as part of the ESPnet3 codec recipe.\n\nAuthors: Thanapat Trachu, Samuele Cornell, William Chen, Shinji Watanabe\nCategories: cs.SD, cs.AI, cs.CL, cs.SD",
+  "word_count": 183,
+  "published_at": "2026-09-15T17:46:51Z",
+  "ingested_at": "2026-09-16T11:04:55.584Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.AI",
+    "cs.CL",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

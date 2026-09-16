@@ -1,0 +1,38 @@
+{
+  "id": "td_996fc225",
+  "source": "arxiv",
+  "source_id": "2609.17501",
+  "source_url": "https://arxiv.org/abs/2609.17501",
+  "content_type": "paper",
+  "creator": {
+    "id": "soorya_haravu",
+    "name": "Soorya Haravu",
+    "handle": "Soorya Haravu, Mafalda Ramôa, Bharath Sambasivam",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms",
+  "body_text": "A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms\n\nHardware noise has been shown to significantly impact the accuracy of ADAPT-VQE, a ground state preparation algorithm. While previous work has studied the impact of noise on its parameter optimization step, its impact on the critical operator selection step remains comparatively unexplored. In this work, we examine the impact of a variety of noise channels on this step, using a linear H$_3$ molecule as a test case. We show that, despite the selection criterion's natural resilience to some noise, both coherent and incoherent noise can prevent convergence for sufficiently high noise rates. We employ quantum error mitigation techniques--dynamical decoupling, zero noise extrapolation, and Pauli twirling--and show that when combined appropriately, these techniques are capable of restoring a successful convergence profile. Our results highlight how error mitigation can improve the performance of ADAPT-VQE and enable convergence in the presence of hardware noise, offering valuable insights into the implementation of the algorithm on near-term quantum hardware.\n\nAuthors: Soorya Haravu, Mafalda Ramôa, Bharath Sambasivam\nCategories: quant-ph, quant-ph",
+  "word_count": 154,
+  "published_at": "2026-09-15T17:42:37Z",
+  "ingested_at": "2026-09-16T11:05:33.271Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

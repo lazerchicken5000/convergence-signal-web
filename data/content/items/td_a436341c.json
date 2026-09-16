@@ -1,0 +1,39 @@
+{
+  "id": "td_a436341c",
+  "source": "arxiv",
+  "source_id": "2609.17516",
+  "source_url": "https://arxiv.org/abs/2609.17516",
+  "content_type": "paper",
+  "creator": {
+    "id": "ali_şenol",
+    "name": "Ali Şenol",
+    "handle": "Ali Şenol",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+  "body_text": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control\n\nLarge language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-CoSQ at τ=0.90 reduces the mean unconditional wrong-commitment rate from 13.1% under chain-of-thought prompting to 8.9%, a 32.1% relative reduction, while increasing answered accuracy from 86.9% to 89.7% and answering 87.6% of questions. Both improvements hold for all eleven models and at every evaluated threshold. Critical-CoSQ and Adaptive-CoSQ provide neighboring operating points with 88.6% and 86.5% coverage, respectively, while remaining more reliable than the baseline. A secondary Natural Questions Short-Answer evaluation provides convergent open-form evidence. These findings show that self-assessment can support explicit, tunable answer-or-abstain decisions when an unsupported commitment is more costly than referral or review.\n\nAuthors: Ali Şenol\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 162,
+  "published_at": "2026-09-15T17:52:24Z",
+  "ingested_at": "2026-09-16T11:04:55.583Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

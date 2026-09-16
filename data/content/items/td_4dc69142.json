@@ -1,0 +1,38 @@
+{
+  "id": "td_4dc69142",
+  "source": "arxiv",
+  "source_id": "2609.17386",
+  "source_url": "https://arxiv.org/abs/2609.17386",
+  "content_type": "paper",
+  "creator": {
+    "id": "yuwei_liang",
+    "name": "Yuwei Liang",
+    "handle": "Yuwei Liang, Jian Liang, Dapeng Hu, Yinuo Xu, Ran He",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bridging the Confidence Gap: Temperature Scaling for Calibrating Test-Time Prompt Tuning",
+  "body_text": "Bridging the Confidence Gap: Temperature Scaling for Calibrating Test-Time Prompt Tuning\n\nTest-time prompt tuning (TPT) enables adaptation on a single test instance, achieving improved accuracy but often sacrificing calibration performance. Most existing calibration methods introduce additional regularization terms to promote dispersion across text embeddings and reduce calibration error, yet these methods often suffer from a drop in accuracy. Motivated by the well-calibrated nature of zero-shot predictions, we propose CoTS, a simple yet effective post-hoc calibration method that preserves accuracy. Specifically, CoTS applies temperature scaling to minimize the confidence gap between adapted and zero-shot predictions. To fully exploit the potential of multiple augmentations during adaptation, we introduce a weak-strong ensemble strategy that further boosts accuracy. We then apply CoTS to this ensemble, termed E-CoTS, to maintain its well-calibrated property. Extensive experiments on diverse datasets and backbones show that our approaches effectively mitigate miscalibration without compromising primary accuracy. For instance, E-CoTS reduces the average expected calibration error of TPT from 11.90% to 5.38% on ImageNet variants, while even increasing accuracy from 60.74% to 62.95%. Moreover, when integrated with existing calibration methods, E-CoTS usually enhances both accuracy and calibration simultaneously.\n\nAuthors: Yuwei Liang, Jian Liang, Dapeng Hu, Yinuo Xu, Ran He\nCategories: cs.LG, cs.LG",
+  "word_count": 176,
+  "published_at": "2026-09-15T16:25:48Z",
+  "ingested_at": "2026-09-16T11:05:10.260Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_c186fd8c",
+  "source": "arxiv",
+  "source_id": "2609.17515",
+  "source_url": "https://arxiv.org/abs/2609.17515",
+  "content_type": "paper",
+  "creator": {
+    "id": "congjing_zhang",
+    "name": "Congjing Zhang",
+    "handle": "Congjing Zhang, Vashishtha Patil, Henning Lange, Usman Aleem",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+  "body_text": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity\n\nPruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-experts (MoE) architectures, together with depth, width, hybrid, and expert pruning methods. After post-pruning supervised fine-tuning (SFT), we evaluate more than 19,500 instances from three smart-home datasets. Beyond aggregate task accuracy, we characterize degradation along two dimensions: action components (i.e., operation, device, argument, and value) and task complexity. Our results show that dense models have narrow safe pruning regions followed by sharp degradation, while MoE models tolerate substantially more pruning. Pruning degrades grounded specificity before schema-level intent, and aggressive dense pruning can induce systematic over-refusal. These findings highlight the importance of evaluating pruning beyond aggregate accuracy when selecting pruned LLMs for reliable tool execution.\n\nAuthors: Congjing Zhang, Vashishtha Patil, Henning Lange, Usman Aleem\nCategories: cs.CL, cs.CL",
+  "word_count": 143,
+  "published_at": "2026-09-15T17:51:48Z",
+  "ingested_at": "2026-09-16T11:05:02.907Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

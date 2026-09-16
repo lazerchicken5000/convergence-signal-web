@@ -1,0 +1,39 @@
+{
+  "id": "td_a9c19764",
+  "source": "arxiv",
+  "source_id": "2609.17429",
+  "source_url": "https://arxiv.org/abs/2609.17429",
+  "content_type": "paper",
+  "creator": {
+    "id": "liang-ching_tao",
+    "name": "Liang-Ching Tao",
+    "handle": "Liang-Ching Tao, Pi-Chung Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning-Guided Planning in Large Dynamic Action Spaces: Budgeted Tree Search for One-to-Many Mobile Charging",
+  "body_text": "Learning-Guided Planning in Large Dynamic Action Spaces: Budgeted Tree Search for One-to-Many Mobile Charging\n\nMany learned sequential decision systems map the current state directly to an action. That shortcut becomes brittle when candidate actions are numerous, geometrically structured, and rebuilt with the state. One-to-many mobile charging makes this setting concrete: with N=250 sensors, the initial state induces about 1,125 candidate charging-stop actions; each chosen stop simultaneously serves its in-range sensors, and the action universe changes as sensors die. LP-BTS is a learning-guided planning architecture: a graph proposal policy concentrates a small candidate support, a learned value critic evaluates leaves, and edge-budgeted PUCT compares short simulated futures before committing an action. Because the policy scores this set without a fixed output head, a single frozen checkpoint covers every evaluated setting, spanning action universes from 736 to 2,813 stops. Matched ablations reveal complementary effects: uniform sampling costs 8.8 survival percentage points, while, with targeted support fixed, PUCT jointly retains 1.4 points (about 3.5 of 250 sensors) and direct policy selection travels 23% farther. On a prospectively specified, sealed 30-scenario confirmatory bank evaluated once, LP-BTS attains the highest observed survival (0.4545) and alive-AUC (0.8031). Its estimated survival advantage over the strongest domain-engineered comparator is +0.0066 (95% CI [-0.0037, +0.0184]), an unresolved difference, while it exceeds a deadline heuristic and two source-derived direct-policy reconstructions on every paired scenario. Both learned rows are trained, source-derived reconstructions of variants reported by Gong et al. In this setting, the results provide controlled evidence about learning-guided planning in a large, dynamic action space.\n\nAuthors: Liang-Ching Tao, Pi-Chung Wang\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 241,
+  "published_at": "2026-09-15T16:42:12Z",
+  "ingested_at": "2026-09-16T11:05:10.260Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

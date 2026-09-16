@@ -15436,7 +15436,7 @@
       "vector_id": "tv_2533ce65",
       "vector_text": "There is a growing demand for advanced AI tools that can handle complex and long-term tasks.",
       "vector_type": "industry",
-      "sci": 0.62,
+      "sci": 0.56,
       "sci_level": "emerging",
       "detection_count": 44,
       "unique_creators": [
@@ -15731,41 +15731,6 @@
       "convergence_pattern_id": null
     },
     {
-      "vector_id": "tv_0797f6b4",
-      "vector_text": "Designing AI models to predict the visual effects of physical manipulation using partially revealed trajectories.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 3,
-      "unique_creators": [
-        "meena jagadeesan",
-        "mohd. faizuddin faruqui"
-      ],
-      "source_content_ids": [
-        "td_daf0b75d",
-        "td_00da33fd"
-      ],
-      "first_detected": "2026-07-22T11:58:34.964Z",
-      "last_seen": "2026-08-17T11:08:42.500Z",
-      "trajectory": [
-        {
-          "date": "2026-07-22",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0.88,
-      "convergence_type": "solution",
-      "presuppositions": [
-        "AI systems can have unintended negative impacts on users.",
-        "Ethical considerations are crucial in AI design.",
-        "AI models need to predict visual effects of physical manipulation"
-      ],
-      "convergence_pattern_id": null
-    },
-    {
       "vector_id": "tv_ef545771",
       "vector_text": "There is a growing demand for transparent and accountable AI systems that consider the specific needs of users.",
       "vector_type": "industry",
@@ -15895,93 +15860,6 @@
       "presuppositions": [
         "LLMs require thorough testing to be reliable."
       ],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_1a871671",
-      "vector_text": "Developing autonomous systems that can navigate articulated vehicles safely on narrow routes is a critical emerging area in robotics and autonomous navigation.",
-      "vector_type": "strategy",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "mohd. faizuddin faruqui"
-      ],
-      "source_content_ids": [
-        "td_00da33fd"
-      ],
-      "first_detected": "2026-08-17T11:08:42.500Z",
-      "last_seen": "2026-08-17T11:08:42.500Z",
-      "trajectory": [
-        {
-          "date": "2026-08-17",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_0b550a15",
-      "vector_text": "Designing AI systems that construct world models through iterative simulation and interaction.",
-      "vector_type": "design",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "alexy skoutnev"
-      ],
-      "source_content_ids": [
-        "td_134ecd29"
-      ],
-      "first_detected": "2026-08-17T11:11:25.830Z",
-      "last_seen": "2026-08-17T11:11:25.830Z",
-      "trajectory": [
-        {
-          "date": "2026-08-17",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
-      "convergence_pattern_id": null
-    },
-    {
-      "vector_id": "tv_c450464e",
-      "vector_text": "There is a growing mistrust towards technology companies and their claims about AI's potential.",
-      "vector_type": "industry",
-      "sci": 0,
-      "sci_level": "noise",
-      "detection_count": 1,
-      "unique_creators": [
-        "simon willison"
-      ],
-      "source_content_ids": [
-        "td_18e9f417"
-      ],
-      "first_detected": "2026-08-17T11:12:25.445Z",
-      "last_seen": "2026-08-17T11:12:25.445Z",
-      "trajectory": [
-        {
-          "date": "2026-08-17",
-          "sci": 0,
-          "mentions": 1
-        }
-      ],
-      "status": "active",
-      "graduated_reason": null,
-      "independence_score": 0,
-      "convergence_type": null,
-      "presuppositions": [],
       "convergence_pattern_id": null
     },
     {
@@ -313455,9 +313333,131 @@
       "convergence_type": null,
       "presuppositions": [],
       "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_0797f6b4",
+      "vector_text": "Designing AI models to predict the visual effects of physical manipulation using partially revealed trajectories.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 3,
+      "unique_creators": [
+        "meena jagadeesan",
+        "mohd. faizuddin faruqui"
+      ],
+      "source_content_ids": [
+        "td_daf0b75d",
+        "td_00da33fd"
+      ],
+      "first_detected": "2026-07-22T11:58:34.964Z",
+      "last_seen": "2026-08-17T11:08:42.500Z",
+      "trajectory": [
+        {
+          "date": "2026-07-22",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "stale",
+      "independence_score": 0.85,
+      "convergence_type": "solution",
+      "presuppositions": [
+        "AI systems can have unintended negative impacts on users.",
+        "Ethical considerations are crucial in AI design.",
+        "AI models need to predict visual effects of physical manipulation"
+      ],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_1a871671",
+      "vector_text": "Developing autonomous systems that can navigate articulated vehicles safely on narrow routes is a critical emerging area in robotics and autonomous navigation.",
+      "vector_type": "strategy",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "mohd. faizuddin faruqui"
+      ],
+      "source_content_ids": [
+        "td_00da33fd"
+      ],
+      "first_detected": "2026-08-17T11:08:42.500Z",
+      "last_seen": "2026-08-17T11:08:42.500Z",
+      "trajectory": [
+        {
+          "date": "2026-08-17",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "stale",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_0b550a15",
+      "vector_text": "Designing AI systems that construct world models through iterative simulation and interaction.",
+      "vector_type": "design",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "alexy skoutnev"
+      ],
+      "source_content_ids": [
+        "td_134ecd29"
+      ],
+      "first_detected": "2026-08-17T11:11:25.830Z",
+      "last_seen": "2026-08-17T11:11:25.830Z",
+      "trajectory": [
+        {
+          "date": "2026-08-17",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "stale",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
+    },
+    {
+      "vector_id": "tv_c450464e",
+      "vector_text": "There is a growing mistrust towards technology companies and their claims about AI's potential.",
+      "vector_type": "industry",
+      "sci": 0,
+      "sci_level": "noise",
+      "detection_count": 1,
+      "unique_creators": [
+        "simon willison"
+      ],
+      "source_content_ids": [
+        "td_18e9f417"
+      ],
+      "first_detected": "2026-08-17T11:12:25.445Z",
+      "last_seen": "2026-08-17T11:12:25.445Z",
+      "trajectory": [
+        {
+          "date": "2026-08-17",
+          "sci": 0,
+          "mentions": 1
+        }
+      ],
+      "status": "graduated",
+      "graduated_reason": "stale",
+      "independence_score": 0,
+      "convergence_type": null,
+      "presuppositions": [],
+      "convergence_pattern_id": null
     }
   ],
   "total_content_processed": 2835,
   "total_creators_tracked": 30,
-  "last_updated": "2026-09-15T11:12:05.539Z"
+  "last_updated": "2026-09-16T11:12:59.794Z"
 }

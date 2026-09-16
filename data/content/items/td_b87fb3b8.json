@@ -1,0 +1,38 @@
+{
+  "id": "td_b87fb3b8",
+  "source": "arxiv",
+  "source_id": "2609.17380",
+  "source_url": "https://arxiv.org/abs/2609.17380",
+  "content_type": "paper",
+  "creator": {
+    "id": "john_donaghy",
+    "name": "John Donaghy",
+    "handle": "John Donaghy, Brian Wilcox, Oğuzhan Ersoy, Shikhar Rastogi, Adam St Arnaud, Alexey Titov, Jordan Greenberg, Ben Fielding, Harry Grieve",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "OPEN-1B: A Fully Auditable Training Run",
+  "body_text": "OPEN-1B: A Fully Auditable Training Run\n\nOpen-source language models have a reproducibility problem. Despite releasing weights, training data, and recipes, none of them are provably reproducible due to the non-associativity of floating-point arithmetic. Deep learning frameworks often offer a deterministic execution mode, allowing reproducible operations on the same machines. Unfortunately, this determinism does not carry across hardware such that a user can verify that a released checkpoint was actually produced using the declared training recipe. This leaves room for undisclosed data, injected biases, or backdoors that existing techniques such as proof-of-learning or proof-of-training-data cannot rule out. We introduce a new tier of model transparency, fully auditable, in which every operation on every data sample during training is independently reproducible on heterogeneous commodity hardware with bitwise certainty. By imposing a definite order on the sources of training nondeterminism, GPU kernel reductions, data batch ordering across a data-parallel cluster, and inter/intra-node collective communication, we make it possible to replay any individual step of a large, distributed training run on a single piece of commodity hardware and check it against the published trajectory. Because replaying an entire run on one machine is infeasible, we support this with a collective verification scheme in which many independent auditors each certify individual steps, together covering the whole run. We release Open-1B, a model trained under this regime, together with its full pretraining dataset, every intermediate checkpoint, the training codebase, and the audit harness needed to reproduce and verify any step of its training.\n\nAuthors: John Donaghy, Brian Wilcox, Oğuzhan Ersoy, Shikhar Rastogi, Adam St Arnaud, Alexey Titov, Jordan Greenberg, Ben Fielding, Harry Grieve\nCategories: cs.LG, cs.LG",
+  "word_count": 241,
+  "published_at": "2026-09-15T16:23:08Z",
+  "ingested_at": "2026-09-16T11:05:10.261Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

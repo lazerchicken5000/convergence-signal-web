@@ -1,0 +1,38 @@
+{
+  "id": "td_f212dfaf",
+  "source": "arxiv",
+  "source_id": "2609.17491",
+  "source_url": "https://arxiv.org/abs/2609.17491",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiaoxuan_huang",
+    "name": "Xiaoxuan Huang",
+    "handle": "Xiaoxuan Huang, Jinlong Xu, YiZhe Wang, Meng Zhang, Xian Li, Yuying Bian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
+  "body_text": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection\n\nUnauthorized hardware replacement can preserve a wireless device's logical identity while altering its physical implementation, posing a challenge to hardware integrity verification. Spatio-frequency polarization fingerprints (SFPFs) capture device-dependent responses across multiple frequencies and directions, but their frequency and spatial dimensions exhibit different structural dependencies. We propose FreqSpaNet, an SFPF representation learning network for open set hardware anomaly detection. A frequency branch captures local variations among neighboring frequencies, while a geometry-aware spatial branch models directional relationships using angular information. The two representations are combined through adaptive fusion, and complementary pretraining further captures shared information while preserving the distinct characteristics of the frequency and spatial representations. Experiments show that FreqSpaNet achieves a mean AUROC of 96.31\\%, 9.05 points above the baseline. Results under seven hardware replacement scenarios further verify the effectiveness of FreqSpaNet.\n\nAuthors: Xiaoxuan Huang, Jinlong Xu, YiZhe Wang, Meng Zhang, Xian Li, Yuying Bian\nCategories: cs.LG, cs.LG",
+  "word_count": 131,
+  "published_at": "2026-09-15T17:32:12Z",
+  "ingested_at": "2026-09-16T11:05:10.259Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
