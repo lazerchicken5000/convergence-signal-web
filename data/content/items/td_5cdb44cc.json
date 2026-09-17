@@ -1,0 +1,39 @@
+{
+  "id": "td_5cdb44cc",
+  "source": "arxiv",
+  "source_id": "2609.19104",
+  "source_url": "https://arxiv.org/abs/2609.19104",
+  "content_type": "paper",
+  "creator": {
+    "id": "kaijun_zhou",
+    "name": "Kaijun Zhou",
+    "handle": "Kaijun Zhou, Zhiyang Li, Le Chen, Jinyu Gu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+  "body_text": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference\n\nFactory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies. Vision-Language-Action (VLA) models now dominate as the policy paradigm for these robots. The inference latency of VLA models directly affects robot responsiveness and motion smoothness. However, existing VLA inference frameworks do not fully exploit the characteristics of embodied workloads or account for the distinct bottlenecks across different stages of VLA inference. In this paper, we first characterize embodied workloads and identify substantial task similarity across repeated robot executions. We further find that such similarity extends beyond observations and action trajectories to internal model states. Drawing on these observations, we present rMuscle, a real-time VLA inference framework inspired by human muscle memory. It exploits cross-execution similarity through a dual-phase muscle-memory cache. The Context Cache reuses visual-token outputs to reduce computation, while the Action Cache reuses neuron activation patterns to reduce weight accesses. We keep both the cache memory footprint and access overhead low through online cache recomputation, sliding-window cache retrieval, and mask sharing across consecutive denoising steps. rMuscle achieves 1.29-1.42X speedup on RTX 4090 and Jetson Thor across LIBERO, RoboTwin, and physical manipulation tasks, while maintaining the original success rates on real-world robots.\n\nAuthors: Kaijun Zhou, Zhiyang Li, Le Chen, Jinyu Gu\nCategories: cs.RO, cs.AI, cs.RO",
+  "word_count": 213,
+  "published_at": "2026-09-16T17:34:43Z",
+  "ingested_at": "2026-09-17T11:04:32.685Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

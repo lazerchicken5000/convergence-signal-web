@@ -1,0 +1,42 @@
+{
+  "id": "td_c6dc59f2",
+  "source": "arxiv",
+  "source_id": "2609.19076",
+  "source_url": "https://arxiv.org/abs/2609.19076",
+  "content_type": "paper",
+  "creator": {
+    "id": "congzhou_m_sha",
+    "name": "Congzhou M Sha",
+    "handle": "Congzhou M Sha",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Double descent is the principle of least action",
+  "body_text": "Double descent is the principle of least action\n\nThe test error of a model plotted against its number of parameters $d$ falls, peaks when the model can just fit the training data, and falls again, exhibiting the double descent phenomenon. We explain the phenomenon with statistical mechanics. The training trajectory of a stochastic gradient-based method is a particle wandering over the energy landscape of the training loss at an induced temperature $T$, and a run that has equilibrated visits every parameter vector of a given training loss equally often, the fundamental postulate of statistical mechanics, with probability given by the Boltzmann distribution. Because training starts at an initial point and has only finite time to diffuse, it carries an effective weight decay, which makes every parameter a quadratic degree of freedom. The equipartition theorem then distributes the energy among the $d$ degrees of freedom in shares of $T/2$, so at a fixed training loss adding parameters lowers the temperature and drives the Boltzmann distribution toward the stationary path. Finally, adding parameters can only lower the $L^2$ norm of the stationary path, so a solution sampled at fixed loss is less likely to be large with increasing $d$, effectively increasing weight regularization.\n\nAuthors: Congzhou M Sha\nCategories: cs.LG, cs.AI, math.ST, physics.comp-ph, physics.data-an, cs.LG",
+  "word_count": 193,
+  "published_at": "2026-09-16T17:17:46Z",
+  "ingested_at": "2026-09-17T11:04:47.423Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "math.ST",
+    "physics.comp-ph",
+    "physics.data-an",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

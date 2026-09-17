@@ -1,0 +1,38 @@
+{
+  "id": "td_621b4af1",
+  "source": "arxiv",
+  "source_id": "2609.19097",
+  "source_url": "https://arxiv.org/abs/2609.19097",
+  "content_type": "paper",
+  "creator": {
+    "id": "zikai_xiong",
+    "name": "Zikai Xiong",
+    "handle": "Zikai Xiong, Robert M. Freund",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Level-Set Geometry and the Theoretical Performance of PDHG for Conic Linear Optimization",
+  "body_text": "Level-Set Geometry and the Theoretical Performance of PDHG for Conic Linear Optimization\n\nWe consider solving (convex) conic linear optimization problems, at the scale where matrix-factorization-free methods are attractive or necessary. The restarted primal-dual hybrid gradient method (rPDHG) -- with heuristic enhancements and GPU implementation -- has been very successful in solving huge-scale linear optimization problems (LPs). However, its application to more general conic convex optimization problems is not so well-studied. We analyze the theoretical performance of rPDHG for general (convex) conic linear optimization, and LP as a special case thereof. We show a relationship between the geometry of the primal-dual $δ$-(sub-)level sets ${W}_δ$ and the convergence rate of rPDHG. Specifically, we prove a bound on the convergence rate of rPDHG that improves when there is a primal-dual (sub-)level set ${W}_δ$ for which (i) ${W}_δ$ is close to the optimal solution set in Hausdorff distance, and (ii) the ratio of the diameter to the ``conic radius'' of ${W}_δ$ is small. And in the special case of LP, the performance of rPDHG is bounded only by this ratio applied to the (sub-)level set corresponding to the best non-optimal extreme point. Depending on the problem instance, this ratio can take on extreme values and can result in excellent or poor performance of rPDHG both in theory and in practice.\n\nAuthors: Zikai Xiong, Robert M. Freund\nCategories: math.OC, math.OC",
+  "word_count": 204,
+  "published_at": "2026-09-16T17:30:57Z",
+  "ingested_at": "2026-09-17T11:05:10.479Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

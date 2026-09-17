@@ -1,0 +1,38 @@
+{
+  "id": "td_2ac00f0a",
+  "source": "arxiv",
+  "source_id": "2609.19118",
+  "source_url": "https://arxiv.org/abs/2609.19118",
+  "content_type": "paper",
+  "creator": {
+    "id": "hamed_abdi",
+    "name": "Hamed Abdi",
+    "handle": "Hamed Abdi, Kiarash Banihashem, MohammadTaghi Hajiaghayi, Danny Mittal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the Strong Matroid Secretary Conjecture and Beyond",
+  "body_text": "On the Strong Matroid Secretary Conjecture and Beyond\n\nThe strong matroid secretary conjecture asserts that every matroid admits a $1/e$-competitive secretary algorithm, matching the classical single-choice guarantee. We formulate a finite linear program whose value is the optimal ordinal competitive ratio of any fixed matroid; for all matroids of positive rank on seven elements and nearly all on eight, this value exceeds $1/e$. The same computations suggested that the optimal ratio is monotone under truncation of the matroid; we prove this for uniform matroids, where the ratio is strictly increasing in the rank, and refute it for a graphic matroid. Guided by this evidence, we prove the conjecture for every linear matroid, a class that includes graphic matroids, regular matroids, laminar matroids, and gammoids, giving a $1/e$-competitive ordinal secretary algorithm. The algorithm maintains bounds on the expected intersection dimension of the accepted span with every ambient subspace. Uncrossing and separation show that these bounds can be preserved while admitting each current greedy-basis element with a prescribed probability and the construction uses finite linear programs. For every matroid, we also give a single-sample prophet algorithm with competitive ratio $1/2$ in any fixed arrival order independent of the samples and values. Its output, including the selected values, has exactly the law of an independent fair thinning of an optimum from a fresh product draw. The algorithm uses $O(n^2)$ independence queries on $n$ elements. Both constants are tight in their respective models. We also give a self-contained black-box reduction that converts a single-sample prophet ratio $α$ into a secretary ratio $α^2/16$, preserving polynomial running time. Our single-sample algorithm consequently yields a $1/64$-competitive ordinal secretary algorithm for arbitrary matroids.\n\nAuthors: Hamed Abdi, Kiarash Banihashem, MohammadTaghi Hajiaghayi, Danny Mittal\nCategories: cs.DS, cs.DS",
+  "word_count": 267,
+  "published_at": "2026-09-16T17:43:06Z",
+  "ingested_at": "2026-09-17T11:05:10.478Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

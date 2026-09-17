@@ -1,0 +1,38 @@
+{
+  "id": "td_0f9269b0",
+  "source": "arxiv",
+  "source_id": "2609.19135",
+  "source_url": "https://arxiv.org/abs/2609.19135",
+  "content_type": "paper",
+  "creator": {
+    "id": "pranaya_jajoo",
+    "name": "Pranaya Jajoo",
+    "handle": "Pranaya Jajoo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+  "body_text": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging\n\nCan a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a common logger with three memory states. Action coverage, belief coverage, and two behavior-marginal outcome-revealing conditions all have constants independent of $H$. Nevertheless, evaluating a known deterministic target policy to accuracy $1/8$ requires $Θ((3/2)^H \\log(1/δ))$ logged episodes at confidence $1-δ$, for $0 &lt; δ\\le 1/4$, even when both candidate models are known. The mechanism is simple: a reset erases the unknown transition that determines the target value. We characterize the resulting statistical experiment exactly and obtain a matching optimal estimator. A directed two-lane gridworld realizes the construction, and trajectory simulations agree with its finite-sample prediction. The result establishes intractability for the history-dependent-logging, model-based case posed by Zhang and Jiang (2025, arXiv:2503.01134), under their behavior-marginal definition of revealing.\n\nAuthors: Pranaya Jajoo\nCategories: cs.LG, cs.LG",
+  "word_count": 168,
+  "published_at": "2026-09-16T17:56:12Z",
+  "ingested_at": "2026-09-17T11:04:47.422Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

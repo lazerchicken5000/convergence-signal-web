@@ -1,0 +1,38 @@
+{
+  "id": "td_1b889a56",
+  "source": "arxiv",
+  "source_id": "2609.18935",
+  "source_url": "https://arxiv.org/abs/2609.18935",
+  "content_type": "paper",
+  "creator": {
+    "id": "zimu_xu",
+    "name": "Zimu Xu",
+    "handle": "Zimu Xu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Long-Lived Characters, Local Inference: Incremental Memory Maintenance for Game NPCs",
+  "body_text": "Long-Lived Characters, Local Inference: Incremental Memory Maintenance for Game NPCs\n\nA game character should not have to reread its entire life before every conversation. For locally deployed language-model characters, however, revising a few memories can invalidate a long reusable prefix. The resulting preparation cost competes with both foreground dialogue and the maintenance of other characters. This matters especially when dialogue feeds game-defined actions and value judgments: a fluent but incorrect account of who owns an item, or whether a transfer has already happened, can corrupt the input to otherwise deterministic rules. We study incremental memory maintenance for long-lived game NPCs in a quantized Qwen hybrid recurrent-attention model. Our runtime removes superseded attention KV entries, computes replacement records at the true sequence tail, and preserves the continuing recurrent state and unchanged KV. Existing local experiments combine multi-update dialogue replays, fixed-input placement ablations, and attention diagnostics. Independent block composition weakens query-conditioned memory selection without a uniform chunk-initial attention collapse. True-tail updates preserve important current-state and historical bindings across eight scripted maintenance rounds; a placement case recovers the full-refill quantity in three reconstructions, while slot-preserving alternatives repeat a double-subtraction error. Attention-distribution proximity alone does not explain these semantic differences. The results motivate treating a character's inference state as a maintained, history-dependent resource, rather than only a disposable encoding of its latest memory text.\n\nAuthors: Zimu Xu\nCategories: cs.CL, cs.CL",
+  "word_count": 210,
+  "published_at": "2026-09-16T17:09:05Z",
+  "ingested_at": "2026-09-17T11:04:40.047Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

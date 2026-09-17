@@ -1,0 +1,38 @@
+{
+  "id": "td_cdcb10da",
+  "source": "arxiv",
+  "source_id": "2609.19122",
+  "source_url": "https://arxiv.org/abs/2609.19122",
+  "content_type": "paper",
+  "creator": {
+    "id": "meng'en_qin",
+    "name": "Meng'en Qin",
+    "handle": "Meng'en Qin, Yinchen Liu, Mingxuan Cui, Youlu Xing",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Signal Representation",
+  "body_text": "Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Signal Representation\n\nVisual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse coding (CSC) provides an explicit mechanism for suppressing redundant components while preserving signal content, but its sparsity coefficient is typically fixed and manually selected. We propose an adaptive convolutional sparse coding framework for robust visual signal representation. Specifically, we unfold the CSC optimization with the Fast Iterative Shrinkage-Thresholding Algorithm (FISTA) and treat the sparsity coefficient as a differentiable variable jointly learned with the network parameters. From the information bottleneck perspective, this coefficient controls the trade-off between information retention and compression: the sparsity term promotes compact representations, while the reconstruction term together with task loss preserves task-relevant signal content. We further introduce a label-free post-training strategy that adjusts the compression strength for corrupted inputs with the main network parameters fixed. Experiments on CIFAR and ImageNet demonstrate competitive clean-data recognition and greatly improved robustness under different input perturbations.\n\nAuthors: Meng'en Qin, Yinchen Liu, Mingxuan Cui, Youlu Xing\nCategories: cs.CV, cs.CV",
+  "word_count": 149,
+  "published_at": "2026-09-16T17:43:46Z",
+  "ingested_at": "2026-09-17T11:05:02.856Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
