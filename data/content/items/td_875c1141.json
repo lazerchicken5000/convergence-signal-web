@@ -1,0 +1,38 @@
+{
+  "id": "td_875c1141",
+  "source": "arxiv",
+  "source_id": "2609.20734",
+  "source_url": "https://arxiv.org/abs/2609.20734",
+  "content_type": "paper",
+  "creator": {
+    "id": "haibo_feng",
+    "name": "Haibo Feng",
+    "handle": "Haibo Feng, Ruiqi Liang, Hanyang Peng, Shiqi Yu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On-Demand Attention: Language Models Know When to Recall",
+  "body_text": "On-Demand Attention: Language Models Know When to Recall\n\nReasoning and agentic workloads increasingly demand efficient long-context inference. Yet full-attention decoding reads the growing history at every step, regardless of its benefit to the next prediction. We show that a pretrained model's decoding states already contain information predictive of this benefit, before the global read. Building on this finding, we introduce On-Demand Attention (ODA), a local-first decoding method that uses a lightweight recall head to selectively invoke global attention as its predicted benefit changes during generation. ODA trains only the recall head, leaving pretrained weights unchanged and the complete historical KV cache available for future recall. We further implement GPU-side conditional execution in vLLM, translating reduced global reads into practical decoding speedups over full attention at long context lengths. Experiments across Qwen and Gemma models, including hybrid-attention backbones, show that selective recall recovers most of the performance lost under local attention while substantially reducing global reads. These findings support long-context inference in which pretrained models guide their own access to the information they retain.\n\nAuthors: Haibo Feng, Ruiqi Liang, Hanyang Peng, Shiqi Yu\nCategories: cs.CL, cs.CL",
+  "word_count": 165,
+  "published_at": "2026-09-17T17:24:48Z",
+  "ingested_at": "2026-09-18T11:04:45.297Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

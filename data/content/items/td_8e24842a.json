@@ -1,0 +1,40 @@
+{
+  "id": "td_8e24842a",
+  "source": "arxiv",
+  "source_id": "2609.20814",
+  "source_url": "https://arxiv.org/abs/2609.20814",
+  "content_type": "paper",
+  "creator": {
+    "id": "pochinapeddi_sai_bhargav",
+    "name": "Pochinapeddi Sai Bhargav",
+    "handle": "Pochinapeddi Sai Bhargav, Nithin Somasekharan, Rohit Sunil Kanchi, Sicheng He, Shaowu Pan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?",
+  "body_text": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?\n\nPretraining a neural PDE surrogate can reduce the amount of new CFD data needed when geometry or modeled physics changes. However, it remains unclear how different components of distribution shift affect this benefit. We pretrain a surrogate on 254,909 RANS solutions from one airfoil family and fine-tune it on a new family under two target settings with matched freestream ranges: the same Spalart-Allmaras (SA) modeling and SA with added $e^N$ transition modeling. At $N=1000$, the pretrained model matches the accuracy of a model trained from scratch on $3.25\\times$ as many samples for the same-SA target, but $2.58\\times$ as many for the transition-modeled target. By $N=5000$, this ordering reverses ($1.56\\times$ versus $1.86\\times$). At $N=1000$, sampling more distinct airfoils lowers error on both targets, but only for the same-SA target is the gain increase larger than the observed draw-to-draw variation ($3.3\\times$ to $4.0\\times$). These results show that pretraining value depends jointly on target-data budget, target-data coverage, and whether source and target differ in modeled physics.\n\nAuthors: Pochinapeddi Sai Bhargav, Nithin Somasekharan, Rohit Sunil Kanchi, Sicheng He, Shaowu Pan\nCategories: physics.comp-ph, cs.LG, physics.flu-dyn, physics.comp-ph",
+  "word_count": 163,
+  "published_at": "2026-09-17T17:59:24Z",
+  "ingested_at": "2026-09-18T11:04:52.833Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.comp-ph",
+    "cs.LG",
+    "physics.flu-dyn",
+    "physics.comp-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

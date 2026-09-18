@@ -1,0 +1,38 @@
+{
+  "id": "td_9cccb733",
+  "source": "arxiv",
+  "source_id": "2609.20792",
+  "source_url": "https://arxiv.org/abs/2609.20792",
+  "content_type": "paper",
+  "creator": {
+    "id": "frédéric_protin",
+    "name": "Frédéric Protin",
+    "handle": "Frédéric Protin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Framework for Supervised and Unsupervised Learning via Reproducing Kernel Hilbert Spaces",
+  "body_text": "A Framework for Supervised and Unsupervised Learning via Reproducing Kernel Hilbert Spaces\n\nWe introduce a unified framework for supervised and unsupervised learning based on reproducing kernel Hilbert spaces (RKHSs). We introduce the notion of a nested RKHS, namely an increasing sequence of RKHSs whose union is dense in an ambient $L^2$-space. This construction makes it possible to exploit the computational structure of RKHS methods at each finite approximation level while retaining the approximation power of the full $L^2$-space. We first study statistical learning in a fixed RKHS. In both unsupervised and supervised settings, we establish strong convergence results for empirical averages of random elements taking values in an RKHS continuously embedded in $L^2$. We then use the nested RKHS structure to combine these statistical convergence results with the density of the union of the RKHSs in the ambient $L^2$-space. We apply this construction to probability density estimation and binary Bayesian classification. For density estimation, we construct explicit empirical estimators of the orthogonal projections of the target density onto the RKHSs and establish their almost sure convergence. A diagonal selection procedure then yields a sequence of estimators converging almost surely to the target density in $L^2$. For binary Bayesian classification, we formulate the approximation of the Bayes target as the minimization of suitable population and empirical risk functionals. We prove consistency of the empirical minimizers and use the nested structure to obtain convergence towards the Bayes target in $L^2$. We further provide a geometric interpretation in terms of hyperplanes and weighted distances in the ambient $L^2$-space. Finally, we show that the population risk admits a direct probabilistic interpretation in terms of the probability of misclassification.\n\nAuthors: Frédéric Protin\nCategories: math.FA, math.FA",
+  "word_count": 262,
+  "published_at": "2026-09-17T17:53:53Z",
+  "ingested_at": "2026-09-18T11:05:40.909Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.FA",
+    "math.FA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

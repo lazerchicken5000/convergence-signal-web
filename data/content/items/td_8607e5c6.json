@@ -1,0 +1,38 @@
+{
+  "id": "td_8607e5c6",
+  "source": "arxiv",
+  "source_id": "2609.20807",
+  "source_url": "https://arxiv.org/abs/2609.20807",
+  "content_type": "paper",
+  "creator": {
+    "id": "martin_marek",
+    "name": "Martin Marek",
+    "handle": "Martin Marek, Max Ryabinin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+  "body_text": "Score Centering Stabilizes Off-policy Reinforcement Learning\n\nReinforcement learning (RL) of large language models is notoriously sensitive to small differences between training and inference engines, often referred to as the training-inference mismatch (TIM). However, completely eliminating TIM is impractical, as it would come at a major cost to rollout efficiency. In this paper, we show that the instability of RL under TIM is primarily caused by drift: a persistent bias between training and inference engines that accumulates with every training step. We derive an additive \"score centering\" correction term that stabilizes RL under TIM by canceling drift. When training models from 0.6B to 30B parameters, score centering alone matches or outperforms methods based on importance sampling under quantization, with the gap growing as the mismatch becomes more severe. Because the correction is additive, score centering also composes with importance sampling -- their composition outperforms pure importance-sampling baselines in our staleness experiments.\n\nAuthors: Martin Marek, Max Ryabinin\nCategories: cs.LG, cs.LG",
+  "word_count": 144,
+  "published_at": "2026-09-17T17:58:17Z",
+  "ingested_at": "2026-09-18T11:04:52.833Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

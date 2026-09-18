@@ -1,0 +1,38 @@
+{
+  "id": "td_aa0e45c0",
+  "source": "arxiv",
+  "source_id": "2609.20796",
+  "source_url": "https://arxiv.org/abs/2609.20796",
+  "content_type": "paper",
+  "creator": {
+    "id": "debarati_das",
+    "name": "Debarati Das",
+    "handle": "Debarati Das, Evangelos Kipouridis, Tomasz Kociumaka",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Metric Weighted Edit Distance: $(3+\\varepsilon)$-Approximation in $\\widetilde O_\\varepsilon(N^{1.6})$ Time",
+  "body_text": "Metric Weighted Edit Distance: $(3+\\varepsilon)$-Approximation in $\\widetilde O_\\varepsilon(N^{1.6})$ Time\n\nFor every $0 &lt; \\varepsilon \\le 1$, we give a randomized $(3+\\varepsilon)$-approximation to weighted edit distance when the costs form a metric on the alphabet augmented with a gap symbol. For strings of total length $N$, the running time is $\\widetilde{O}(N^{8/5}/\\varepsilon^{16/5})$, where $\\widetilde{O}$ suppresses factors polynomial in $\\log(N/\\varepsilon)$. The dependence on $N$ matches that of the fastest known $(3+\\varepsilon)$-approximation for unit-cost edit distance. The algorithm never underestimates the edit distance and achieves the approximation guarantee with inverse-polynomial failure probability in $N$. The running time bound assumes constant-time exact arithmetic operations and metric queries, and it is independent of the numerical range of the edit costs. We build on three tools: the sampling framework of Chakraborty, Das, Goldenberg, Koucký, and Saks (J. ACM, 2020), with subsequent refinements by Andoni (2020); Kuszmaul's removal of inexpensive characters (ICALP 2019); and Klein's data structure for distances in planar graphs (SODA 2005). Our new ingredients include, among others, a decomposition of one string into pieces of bounded length with highly structured total deletion costs. This decomposition lets us compare all pieces against a small family of substrings of the other string.\n\nAuthors: Debarati Das, Evangelos Kipouridis, Tomasz Kociumaka\nCategories: cs.DS, cs.DS",
+  "word_count": 186,
+  "published_at": "2026-09-17T17:54:31Z",
+  "ingested_at": "2026-09-18T11:05:40.909Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
