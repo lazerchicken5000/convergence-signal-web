@@ -1,0 +1,39 @@
+{
+  "id": "td_21e1932a",
+  "source": "arxiv",
+  "source_id": "2609.21962",
+  "source_url": "https://arxiv.org/abs/2609.21962",
+  "content_type": "paper",
+  "creator": {
+    "id": "luca_thiebaud",
+    "name": "Luca Thiebaud",
+    "handle": "Luca Thiebaud, Paul Chauchat, Mustapha Ouladsine, Stéphane Delliaux",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning Cardiac Features: ECG Biometrics Across Time and~Exercise",
+  "body_text": "Learning Cardiac Features: ECG Biometrics Across Time and~Exercise\n\nElectrocardiograms (ECGs) carry subject-specific patterns enabling reliable individual discrimination, forming the basis of ECG biometrics. Beyond authentication, this paradigm holds significant potential to secure sensitive cardiac data and to serve as a pretext task in self-supervised learning. Yet, most studies remain confined to singlesession, resting data, leaving robustness to temporal and physiological variations largely untested. We address this gap by evaluating ECG biometrics under realistic conditions involving exercise-induced stress and cross-session variability. A Siamese ResNet with late multi-lead fusion strategy is trained on a large ECG dataset extracted from cardiopulmonary exercise tests and evaluated with a exercise-and time-aware protocol, as well as on public benchmarks. This first extensive assessment of ECG biometrics under combined physiological and temporal variability achieves an intra-session rest-to-peak EER of 1.7% and stateof-the-art 3.9% on the CYBHi dataset. Findings support the presence of an intrinsic cardiac signature resilient to physiological and temporal drift.\n\nAuthors: Luca Thiebaud, Paul Chauchat, Mustapha Ouladsine, Stéphane Delliaux\nCategories: cs.AI, q-bio.TO, cs.AI",
+  "word_count": 147,
+  "published_at": "2026-09-18T16:22:31Z",
+  "ingested_at": "2026-09-21T11:04:36.250Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "q-bio.TO",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

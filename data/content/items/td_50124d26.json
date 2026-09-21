@@ -1,0 +1,39 @@
+{
+  "id": "td_50124d26",
+  "source": "arxiv",
+  "source_id": "2609.22064",
+  "source_url": "https://arxiv.org/abs/2609.22064",
+  "content_type": "paper",
+  "creator": {
+    "id": "alexandre_andre",
+    "name": "Alexandre Andre",
+    "handle": "Alexandre Andre, Shivashriganesh P. Mahato, Vinam Arora, Keshav Balaji, Divyansha Lachi, Nanda H. Krishna, Jingyun Xiao, Yizi Zhang, Ximeng Mao, Wenrui Ma, Han Yu, International Brain Laboratory, Daniel Birman, Niccolò Bonacchi, Gaelle A. Chapuis, Joana A. Catarino, Felicia Davatolhagh, Mayo Faulkner, Laura Freitas-Silva, Fei Hu, Julia M. Huntenburg, Anup Khanal, Inês Laranjeira, Petrina Lau, Guido T. Meijer, Nathaniel J. Miska, Jean-Paul Noel, Alejandro Pan-Vazquez, Georg Raiser, Cyrille Rossant, Karolina Z. Socha, Anne E. Urai, Miles J. Wells, Steven J. West, Olivier Winter, Blake Richards, Guillaume Lajoie, Cole Hurwitz, Mehdi Azabou, Matthew R. Whiteway, Liam Paninski, Eva L. Dyer",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
+  "body_text": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings\n\nAdvances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable across diverse downstream tasks. Yet, progress toward this goal has been limited by fragmented evaluation protocols and a narrow focus on individual task domains. Here, we present BrainWideBench, a benchmark for evaluating across-animal transfer on multi-region neural recordings, built on the International Brain Laboratory Brainwide Map dataset of neural and behavioral recordings spanning 276 brain regions from 139 mice performing a sensory-guided decision-making task. The benchmark is organized around three complementary task suites that evaluate whether learned representations support downstream decoding of behavior, can predict masked or future neural activity, and can recover biologically meaningful anatomical organization. With this benchmark, we systematically evaluate pretraining methods across transfer settings, including finetuning on downstream objectives and zero-shot generalization to unseen animals. Our results confirm pretraining improves performance over matched single-session baselines, but we show current methods exhibit heterogeneity in transfer capabilities: gains depend strongly on the alignment between pretraining objectives and downstream tasks. No single approach performs uniformly well across all three suites, and most methods are designed to only address a subset of them. Together, these findings suggest that learning representations that jointly generalize across behavior, dynamics, and anatomy remains an open challenge. By providing a unified and reproducible evaluation suite, BrainWideBench establishes a framework for measuring progress toward general-purpose models of the mouse brain.\n\nAuthors: Alexandre Andre, Shivashriganesh P. Mahato, Vinam Arora, Keshav Balaji, Divyansha Lachi, Nanda H. Krishna, Jingyun Xiao, Yizi Zhang, Ximeng Mao, Wenrui Ma, Han Yu, International Brain Laboratory, Daniel Birman, Niccolò Bonacchi, Gaelle A. Chapuis, Joana A. Catarino, Felicia Davatolhagh, Mayo Faulkner, Laura Freitas-Silva, Fei Hu, Julia M. Huntenburg, Anup Khanal, Inês Laranjeira, Petrina Lau, Guido T. Meijer, Nathaniel J. Miska, Jean-Paul Noel, Alejandro Pan-Vazquez, Georg Raiser, Cyrille Rossant, Karolina Z. Socha, Anne E. Urai, Miles J. Wells, Steven J. West, Olivier Winter, Blake Richards, Guillaume Lajoie, Cole Hurwitz, Mehdi Azabou, Matthew R. Whiteway, Liam Paninski, Eva L. Dyer\nCategories: cs.LG, q-bio.NC, cs.LG",
+  "word_count": 249,
+  "published_at": "2026-09-18T17:54:32Z",
+  "ingested_at": "2026-09-21T11:04:51.696Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "q-bio.NC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

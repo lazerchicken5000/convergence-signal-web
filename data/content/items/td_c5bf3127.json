@@ -1,0 +1,38 @@
+{
+  "id": "td_c5bf3127",
+  "source": "arxiv",
+  "source_id": "2609.22081",
+  "source_url": "https://arxiv.org/abs/2609.22081",
+  "content_type": "paper",
+  "creator": {
+    "id": "aho_yapi",
+    "name": "Aho Yapi",
+    "handle": "Aho Yapi, Pierre Latouche, Arnaud Guillin, Yan Bailly",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
+  "body_text": "Cross-sector generalization of accident-process role classification in occupational accident narratives\n\nOccupational accident narratives contain valuable information about work situations, unfavourable conditions, accident events, and their consequences. Automatically structuring these narratives can facilitate large-scale accident analysis and support occupational risk prevention. However, the terminology and writing styles used to describe accidents vary considerably across sectors and organisations, raising questions about the ability of automated coding systems to generalize beyond their training domain. In this paper, we evaluate the cross-sector generalization of accident-process role classification in French occupational accident narratives. We construct an expert-annotated corpus in which factual units are classified into four roles: work situation (A0), explicitly reported unfavourable condition (A1), accident event or deviation (B), and reported consequence (C). The role classifiers are developed and selected exclusively on 42,244 factual units extracted from 6,040 construction-sector narratives and are then evaluated on unseen corpora from the metallurgy and chemistry--plastics sectors, as well as on an independently collected company corpus, without retraining or target-domain tuning of the role classifier. We compare frozen pretrained representations with task-specific fine-tuning and supervised representation-learning strategies. The results show that task-specific adaptation consistently improves cross-domain transfer over frozen representations. Across repeated training runs, the three leading task-adapted strategies achieved average balanced accuracies between 85.6% and 85.8% across the three target corpora. These findings support the development of transferable assisted-coding systems capable of consistently structuring heterogeneous occupational accident narratives for expert review and cross-sector prevention analysis.\n\nAuthors: Aho Yapi, Pierre Latouche, Arnaud Guillin, Yan Bailly\nCategories: cs.CL, cs.CL",
+  "word_count": 228,
+  "published_at": "2026-09-18T17:59:10Z",
+  "ingested_at": "2026-09-21T11:04:43.947Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

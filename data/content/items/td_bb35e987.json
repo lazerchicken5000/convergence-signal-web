@@ -1,0 +1,39 @@
+{
+  "id": "td_bb35e987",
+  "source": "arxiv",
+  "source_id": "2609.22005",
+  "source_url": "https://arxiv.org/abs/2609.22005",
+  "content_type": "paper",
+  "creator": {
+    "id": "richard_zhe_wang",
+    "name": "Richard Zhe Wang",
+    "handle": "Richard Zhe Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
+  "body_text": "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention\n\nGating the value pathway of attention reportedly improves language model pretraining, and prior studies disagree on why. We argue and provide experimental evidence that such gates supply two different things that softmax attention lacks: abstention and noise filtering. The first is abstention, which allows an attention head to output nothing, bypassing the requirement that attention weights must sum to one. The second is noise filtering, which allows the value pathway of an attention head to suppress interference from superposed features in the residual stream. In our experiments in matched models from 10M to 350M parameters, we supply abstention through a learned per-head sink logit in the softmax and noise filtering through a gate on each value. We report three empirical findings. First, the benefit of abstention, measured as the reduction in validation loss relative to a matched baseline, declines as models grow, whereas the benefit of noise filtering increases with scale. In particular, abstention accounts for nearly all of the gain from gating at 10M and filtering for most of it at 350M. Second, the best model at every scale is the one with both primitives built in. Third, injecting controlled interference into the values a head reads confirms that the gate removes such interference, and reveals that each of the two gate forms we study has a characteristic blind spot. Supplying both primitives adds negligible parameters and remains compatible with the key-value cache.\n\nAuthors: Richard Zhe Wang\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 234,
+  "published_at": "2026-09-18T17:03:58Z",
+  "ingested_at": "2026-09-21T11:04:43.948Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

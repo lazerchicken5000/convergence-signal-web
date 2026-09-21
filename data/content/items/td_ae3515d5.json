@@ -1,0 +1,38 @@
+{
+  "id": "td_ae3515d5",
+  "source": "arxiv",
+  "source_id": "2609.22062",
+  "source_url": "https://arxiv.org/abs/2609.22062",
+  "content_type": "paper",
+  "creator": {
+    "id": "tianhao_qin",
+    "name": "Tianhao Qin",
+    "handle": "Tianhao Qin, Connor McCann, Berk Calli, Jing Xiao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Gripper-Aware Automatic Dense Packing of Irregular Objects",
+  "body_text": "Gripper-Aware Automatic Dense Packing of Irregular Objects\n\nAutomatic dense packing is widely desired in warehouse operations but remains a fundamental challenge in robotic manipulation. Existing work on irregular-object packing largely targets simulation with idealized contact, treating the object as an isolated rigid body. The gripper often enters as a discrete, post-hoc feasibility check, if considered at all, and the perception and contact drift accumulated during execution are not addressed. We present a closed-loop pipeline that integrates perception, gripper-aware placement optimization, and force-guided execution on a real manipulator. The optimizer represents the object together with the gripper as a single composite body of hierarchical sphere trees. It searches over five degrees of freedom on a GPU within a CMA-ES framework, with the vertical coordinate grounded analytically against the current heightmap. During execution, a force-monitored vertical descent stops on first contact. A post-release consolidation push then closes the residual lateral clearance that gripper-aware planning leaves behind. The container is re-perceived between placements so that drift does not accumulate. We validate the system on a Franka Emika Panda robot packing a 3D-printed set of flat, curved, and concave objects, and a YCB object subset. An ablation study isolates the contribution of gripper-aware optimization, the consolidation push, and mesh-derived geometry to end-to-end success, achieved density, and computational cost. We further benchmark against the heightmap-minimization method as a baseline representative of prior irregular-object packing work.\n\nAuthors: Tianhao Qin, Connor McCann, Berk Calli, Jing Xiao\nCategories: cs.RO, cs.RO",
+  "word_count": 223,
+  "published_at": "2026-09-18T17:53:16Z",
+  "ingested_at": "2026-09-21T11:05:07.690Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

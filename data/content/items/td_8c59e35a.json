@@ -1,0 +1,38 @@
+{
+  "id": "td_8c59e35a",
+  "source": "arxiv",
+  "source_id": "2609.22041",
+  "source_url": "https://arxiv.org/abs/2609.22041",
+  "content_type": "paper",
+  "creator": {
+    "id": "yufeng_wang",
+    "name": "Yufeng Wang",
+    "handle": "Yufeng Wang, Parivesh Priye, Meeshawn Marathe, Ramit Pahwa",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "$λ$-Controlled GRPO: Turning Flow-Matching Ratio Instability into a Budgeted Resource",
+  "body_text": "$λ$-Controlled GRPO: Turning Flow-Matching Ratio Instability into a Budgeted Resource\n\nReinforcement learning is increasingly used to align image generators with reward signals, and Flow-GRPO recently extended this paradigm to flow-matching models by treating the denoising sampler as a stochastic policy that can be optimized from reward feedback. Training in this setting is unstable in a way specific to multi-step denoising: the policy update changes systematically across denoising steps, with importance ratios drifting below one, becoming increasingly dispersed, clipping at different rates, and leaving fewer usable samples late in training. Prior work treats these effects as separate failure modes and addresses each with a hand-tuned stabilizer. We show instead that they arise from a single per-step quantity, which we call path variance. This quantity is determined exactly by the sampler's Gaussian transition kernel and can be estimated cheaply during training. This reframes instability as a resource that can be measured and budgeted rather than a collection of symptoms to repair. Our method, $λ$-Controlled GRPO, calibrates importance-ratio behavior from this predicted law rather than from noisy empirical statistics, and allocates gradient effort across denoising steps according to their predicted cost. The two scales governing the update are fixed by standard policy choices rather than introduced as free tuning parameters. On a text-to-image model under two reward settings, rendering difficult target text scored by optical character recognition and matching human preferences scored by a preference model, $λ$-Controlled GRPO improves both text accuracy and preference reward over the strongest empirical stabilizer. It also keeps late-step path variance within its intended budget, precisely where the baseline systematically overshoots. The result is a Flow-GRPO update calibrated by its own transition law rather than stabilized after instability appears.\n\nAuthors: Yufeng Wang, Parivesh Priye, Meeshawn Marathe, Ramit Pahwa\nCategories: cs.LG, cs.LG",
+  "word_count": 271,
+  "published_at": "2026-09-18T17:33:38Z",
+  "ingested_at": "2026-09-21T11:04:51.697Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

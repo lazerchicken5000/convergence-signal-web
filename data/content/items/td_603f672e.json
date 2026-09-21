@@ -1,0 +1,35 @@
+{
+  "id": "td_603f672e",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+  "source_url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm-keys-ui 0.1",
+  "body_text": "Release: llm-keys-ui 0.1\n        This plugin solves a very specific problem.\nI've started using Codex Remote to run coding agents on various machines while controlling them from my phone. \nSometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.\nI don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly.\nWith this plugin, I can tell Codex to run:\nuvx --with llm-keys-ui llm keys-ui --all\n\nThen have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys.\nThen later it can use a command like llm keys get anthropic as part of a shell command when it needs to use a key.\n\n  \n  \n\n    \n    \n        Tags: llm, coding-agents, codex",
+  "word_count": 146,
+  "published_at": "2026-09-20T19:22:19.000Z",
+  "ingested_at": "2026-09-21T11:00:11.783Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

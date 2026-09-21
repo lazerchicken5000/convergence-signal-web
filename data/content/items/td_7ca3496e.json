@@ -1,0 +1,38 @@
+{
+  "id": "td_7ca3496e",
+  "source": "arxiv",
+  "source_id": "2609.21995",
+  "source_url": "https://arxiv.org/abs/2609.21995",
+  "content_type": "paper",
+  "creator": {
+    "id": "aidan_furlong",
+    "name": "Aidan Furlong",
+    "handle": "Aidan Furlong, Vinicius de Melo Monteiro, Robert Salko, Juliana Pacheco Duarte, Xu Wu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Assessment of Machine Learning-Based Critical Heat Flux Models in the CTF Subchannel Code for Square Rod Bundle Prediction",
+  "body_text": "Assessment of Machine Learning-Based Critical Heat Flux Models in the CTF Subchannel Code for Square Rod Bundle Prediction\n\nThe prediction of critical heat flux (CHF), a key safety-related quantity in nuclear thermal hydraulics, remains an important challenge due to its direct relationship with fuel performance and reactor safety. Recent studies have demonstrated that relative to traditional empirical correlations and lookup tables (LUTs), machine learning (ML) methods can substantially improve CHF prediction accuracy. Most ML-based CHF models, however, have been developed and evaluated using tube databases, leaving their applicability to reactor-relevant rod bundle geometries largely unexplored. This study evaluates ML-based CHF models deployed within the CTF subchannel code using the Electric Power Research Institute (EPRI) rod bundle CHF database. Both pure and hybrid residual correction models are considered in local and semilocal formulations. The tube-trained ML CHF models generally transferred favorably to rod bundle applications and outperformed traditional CHF methods across most geometries and operating conditions. The local hybrid LUT model produced the strongest overall performance, and the semilocal pure ML model remained highly competitive. Comparison against the Bowring correlation, W-3 correlation, and 2006 Groeneveld LUT demonstrated that substantial improvements in rod bundle CHF prediction are possible even when models are trained exclusively on tube data. These findings provide one of the first large-scale assessments of ML-based CHF models in square rod bundles within a production-level subchannel analysis environment and support their broader application in reactor thermal hydraulic analysis.\n\nAuthors: Aidan Furlong, Vinicius de Melo Monteiro, Robert Salko, Juliana Pacheco Duarte, Xu Wu\nCategories: cs.LG, cs.LG",
+  "word_count": 220,
+  "published_at": "2026-09-18T16:56:45Z",
+  "ingested_at": "2026-09-21T11:04:51.698Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

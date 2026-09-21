@@ -1,0 +1,39 @@
+{
+  "id": "td_491f9e23",
+  "source": "arxiv",
+  "source_id": "2609.22012",
+  "source_url": "https://arxiv.org/abs/2609.22012",
+  "content_type": "paper",
+  "creator": {
+    "id": "sushovan_majhi",
+    "name": "Sushovan Majhi",
+    "handle": "Sushovan Majhi, Atish Mitra, Žiga Virk, Pramita Bagchi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "COMPLEX: A Closed-Form Certified Embedding of Multiparameter Persistence Modules",
+  "body_text": "COMPLEX: A Closed-Form Certified Embedding of Multiparameter Persistence Modules\n\nEvery multiparameter persistence vectorization we know of carries a one-sided Lipschitz upper bound and nothing below it: without a lower gauge there is no sense in which the features are faithful, and no per-prediction guarantee can be built on them. This paper supplies the missing side. COMPLEX is a closed-form, training-free embedding of multiparameter modules -- slice the module along a fixed near-diagonal net, embed each slice barcode by the certified PLACE/PALACE landmark map, concatenate. Under a checkable witnessing-slice coherence condition, holding on 100% of audited pairs on Orbit5k, a single slice carries a closed-form lower gauge: separated modules stay separated in the embedding. With the standard upper bound this gives, to our knowledge, the first two-sided distortion bound for a multiparameter feature map, making faithfulness measurable. Measuring it, we find the floor tight within a small factor of realized distances yet operationally local: an RBF-SVM reaches 91% where 1-NN reaches 78% on the same features. Local per-prediction certification therefore fails for a structural reason common to every landmark embedding whose lower gauge is witnessed by one coordinate. With no learned embedding and no held-out calibration -- only a cross-validated SVM head -- COMPLEX sets the state of the art on both Orbit benchmarks (91.95% on Orbit5k, 92.98% on Orbit100k), level with or above Euler-characteristic surfaces and above transformers and graphcode. On graphs it exceeds GRIL on all four shared molecular benchmarks with one fixed configuration, including the only multiparameter method to clear COX2's majority baseline by more than three points. Closed-form selection -- of the landmark radius, the kernel (certificate-preserving), and the bifiltration set -- buys further accuracy; gradient-shaped adaptation buys none.\n\nAuthors: Sushovan Majhi, Atish Mitra, Žiga Virk, Pramita Bagchi\nCategories: cs.LG, math.AT, cs.LG",
+  "word_count": 273,
+  "published_at": "2026-09-18T17:08:41Z",
+  "ingested_at": "2026-09-21T11:04:51.697Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.AT",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
