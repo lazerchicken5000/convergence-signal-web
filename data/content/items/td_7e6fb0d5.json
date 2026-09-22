@@ -1,0 +1,38 @@
+{
+  "id": "td_7e6fb0d5",
+  "source": "arxiv",
+  "source_id": "2609.24979",
+  "source_url": "https://arxiv.org/abs/2609.24979",
+  "content_type": "paper",
+  "creator": {
+    "id": "sean_augenstein",
+    "name": "Sean Augenstein",
+    "handle": "Sean Augenstein, Li Ding, Jihwan Lee, Keith Rush, Andrey Zhmoginov",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
+  "body_text": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization\n\nOn-device large language models (`LLMs'), e.g. running on mobile phones, are ripe for improvement via personalization. The limited compute resources of mobile devices impose limits on model scale and thus model quality, making any realizable quality gains highly impactful. At the same time, their personal nature (i.e., the close coupling to a particular user) means that a given on-device LLM tends to be used in similar, predictable patterns over the course of time. This paper presents a novel method for personalizing on-device LLMs. It trains a hypernetwork to map a user's context tokens to a low-rank adaptation (`LoRA') well-suited to that user. Once the trained common artifacts are deployed to users' devices, each user uses the hypernetwork to synthesize (entirely on device) a personalized LoRA. This approach blends the benefits while avoiding the drawbacks of two existing approaches to LLM customization: in-context learning (`ICL') and parameter-efficient fine-tuning (`PEFT'). Like ICL (and unlike PEFT), the on-device phase of our approach is computationally feasible, requiring only forward passes through neural networks. Like PEFT (and unlike ICL), our approach modifies the `target' base LLM via weights (the LoRA), avoiding negative consequences (e.g. increased latency) associated with extending the input sequence. Our approach is particularly well-suited to the mobile device regime. Apart from the on-device compute and latency benefits mentioned, it also requires minimal additional storage, as internally its architecture partly leverages the same LLM weights as belong to the target LLM to be personalized. We demonstrate the benefits of LoRA-generating hypernetworks on several representative personalization datasets, comparing against baselines like ICL and PEFT. Of note, our personalization experiments focus on more challenging and less studied long-form text generation tasks.\n\nAuthors: Sean Augenstein, Li Ding, Jihwan Lee, Keith Rush, Andrey Zhmoginov\nCategories: cs.LG, cs.LG",
+  "word_count": 276,
+  "published_at": "2026-09-21T17:55:48Z",
+  "ingested_at": "2026-09-22T11:05:00.803Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

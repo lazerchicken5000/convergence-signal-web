@@ -1,0 +1,38 @@
+{
+  "id": "td_121cea26",
+  "source": "arxiv",
+  "source_id": "2609.24995",
+  "source_url": "https://arxiv.org/abs/2609.24995",
+  "content_type": "paper",
+  "creator": {
+    "id": "mingke_lu",
+    "name": "Mingke Lu",
+    "handle": "Mingke Lu, Anxing Xiao, David Hsu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning",
+  "body_text": "MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning\n\nUnderstanding natural human instructions is crucial for deploying robots in human-centric environments. We study multimodal instruction grounding, where language and gesture provide complementary but uncertain cues. We present MIGU, a modular framework that combines semantic and geometric evidence into a unified grounding belief and connects it to manipulation planning. MIGU constructs a 3D geometric likelihood by propagating viewing-direction and depth uncertainty through eye-finger geometry while accounting for hand-direction estimation error. A vision-language model (VLM) provides semantic priors over candidate objects and regions, which are combined with the geometric likelihood through Bayes-inspired fusion. The resulting belief supports behavior planning to either proceed directly to downstream planning or request clarification. Grounded targets then define goals for mobile manipulation and tabletop task-and-motion planning. On a real-world benchmark, MIGU outperforms all evaluated baselines, while ablations support the benefit of explicit multimodal uncertainty modeling. Project website: multimodal-instruction.github.io\n\nAuthors: Mingke Lu, Anxing Xiao, David Hsu\nCategories: cs.RO, cs.RO",
+  "word_count": 142,
+  "published_at": "2026-09-21T17:58:22Z",
+  "ingested_at": "2026-09-22T11:05:16.391Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

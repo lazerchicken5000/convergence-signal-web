@@ -1,0 +1,39 @@
+{
+  "id": "td_0af24305",
+  "source": "arxiv",
+  "source_id": "2609.24949",
+  "source_url": "https://arxiv.org/abs/2609.24949",
+  "content_type": "paper",
+  "creator": {
+    "id": "tomoshige_nakamura",
+    "name": "Tomoshige Nakamura",
+    "handle": "Tomoshige Nakamura",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Selective Inference for CART with Binary Outcomes",
+  "body_text": "Selective Inference for CART with Binary Outcomes\n\nBinary classification trees select subgroups using the same outcomes later used to assess their differences. We develop finite-sample conditional tests of a common success probability within a parent selected by deterministic Gini CART. The construction retains all eligible cutpoints and conditions on the selected split, its ancestor path, the parent success total, and outside outcomes. The resulting uniform label fiber gives an exact count distribution, while a reversible parallel Monte Carlo construction yields super-uniform inclusive and exactly uniform tie-randomized p-values for any prespecified finite run budget. Within a two-child constant-risk model, the selected count law is an exponential family with information equal to its conditional count variance. We separate information loss from computational limitations and exhibit a selected fiber disconnected under single-label swaps. Simulations with 200 or 400 observations, ten independent or correlated predictors, and trees of depth three show conservative inclusive tests and nontrivial power for large risk differences. At 400 observations and a generating risk difference of 0.4, randomized rejection conditional on reaching the prespecified third-level target is 51--71\\%, while selection followed by rejection occurs in 11--21\\% of datasets. Smaller signals remain difficult to detect, and a representative fivefold increase in computation gives little power improvement. The guarantee concerns parent homogeneity, or equality of two constant child risks, and does not cover equality of heterogeneous regional averages.\n\nAuthors: Tomoshige Nakamura\nCategories: stat.ME, stat.ML, stat.ME",
+  "word_count": 219,
+  "published_at": "2026-09-21T17:44:41Z",
+  "ingested_at": "2026-09-22T11:05:24.128Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

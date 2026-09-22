@@ -1,0 +1,35 @@
+{
+  "id": "td_66926368",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+  "source_url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Cloudflare Python Workers are now generally available",
+  "body_text": "Cloudflare Python Workers are now generally available\nAfter a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully supported language on the Cloudflare Developer Platform\".\nA neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based workerd runtime.\nThis comes with some limitations, documented here - most notably both multiprocessing and threading are non-functional in the WebAssembly VM.\nOne particularly interesting detail of this is the local development environment story - their pywrangler development tool (confusingly packaged as workers-py on PyPI) runs a full local simulation of their stack, including executing code with Pyodide in WebAssembly in V8 in a 123MB workerd binary, which for me ended up in node_modules/@cloudflare/workerd-darwin-arm64/bin/workerd.\nPython Workers represent a significant investment in the wider Python ecosystem by Cloudflare. The release announcement is credited to Gyeongjae Choi, Dominik Picheta, and Hood Chatham - Gyeongjae and Hood are both Pyodide core maintainers.\n\n    Via Hacker News\n\n\n    Tags: python, cloudflare, webassembly, pyodide",
+  "word_count": 177,
+  "published_at": "2026-09-21T22:25:44.000Z",
+  "ingested_at": "2026-09-22T11:00:11.858Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

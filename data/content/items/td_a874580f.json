@@ -1,0 +1,38 @@
+{
+  "id": "td_a874580f",
+  "source": "arxiv",
+  "source_id": "2609.24980",
+  "source_url": "https://arxiv.org/abs/2609.24980",
+  "content_type": "paper",
+  "creator": {
+    "id": "junru_zhu",
+    "name": "Junru Zhu",
+    "handle": "Junru Zhu, Yixin Yang, Xiaoqing Ding, Ruoyu Qi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Residual Community Prototypes Under-Reject Held-Out Malware Families in FCG-MFD",
+  "body_text": "Residual Community Prototypes Under-Reject Held-Out Malware Families in FCG-MFD\n\nOpen-set malware-family recognition must classify known families while rejecting families absent from training. We test whether Louvain-community summaries add rejection information beyond a graph neural network embedding and dimension-matched generic topology. The study uses a deduplicated, conflict-audited FCG-MFD corpus, five held-out families, and three optimization seeds. Community features are residualized against generic topology using known-family training data before nearest-prototype scoring. Residual community does not produce stable held-out-family rejection. Ranking effects reverse across families, the false-positive rate at 95 percent unknown recall worsens for every held-out family, and a validation-fitted threshold rejects only 4.48 percent of unknown samples. Accepted-known macro F1 improves in every family, but with five independent family units the exact two-sided sign-flip p-value is 0.0625, the smallest attainable value. The score remains associated with graph scale, while simple classifier uncertainty performs better on ranking, high-recall rejection, and OSCR. In this GIN/FCG-MFD setting, community-enriched prototypes change known-class geometry without creating a stable unknown margin. Graph open-set evaluations should pair structural features with matched topology controls, operational thresholds, and held-out-family analysis.\n\nAuthors: Junru Zhu, Yixin Yang, Xiaoqing Ding, Ruoyu Qi\nCategories: cs.CR, cs.CR",
+  "word_count": 171,
+  "published_at": "2026-09-21T17:56:11Z",
+  "ingested_at": "2026-09-22T11:05:24.127Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

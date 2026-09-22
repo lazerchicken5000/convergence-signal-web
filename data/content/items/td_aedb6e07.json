@@ -1,0 +1,38 @@
+{
+  "id": "td_aedb6e07",
+  "source": "arxiv",
+  "source_id": "2609.24903",
+  "source_url": "https://arxiv.org/abs/2609.24903",
+  "content_type": "paper",
+  "creator": {
+    "id": "qisheng_liao",
+    "name": "Qisheng Liao",
+    "handle": "Qisheng Liao, Youngah Do",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ToneCL: Contrastive Learning for Few-Shot Syllable-Level Tone Classification",
+  "body_text": "ToneCL: Contrastive Learning for Few-Shot Syllable-Level Tone Classification\n\nTone languages constitute over 50-70% of the world's languages, but the vast majority are low-resource, lacking the large transcribed corpora needed for automatic tone classification. Existing datasets are typically collected at the sentence level, whereas field linguists require fine-grained syllable-level annotations. We propose ToneCL, a lightweight contrastive learning framework for few-shot syllable-level tone classification. We simulate low-resource conditions on Mandarin and Vietnamese, limiting labeled data to tens of examples per tone class. ToneCL is pretrained on unlabeled speech with augmentations that preserve tonal identity, then fine-tuned on few-shot examples. Experiments show our method consistently outperforms baselines, achieving 91.6% on six-speaker Mandarin at 10 shots. Cross-lingual transfer is also effective: pretraining on Vietnamese and fine-tuning on Mandarin reaches 91.0\\% accuracy at 10 shots. Ablation confirms that frequency band rejection is the most critical augmentation.\n\nAuthors: Qisheng Liao, Youngah Do\nCategories: cs.CL, cs.CL",
+  "word_count": 133,
+  "published_at": "2026-09-21T17:09:21Z",
+  "ingested_at": "2026-09-22T11:04:53.304Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

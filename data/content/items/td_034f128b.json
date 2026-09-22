@@ -1,0 +1,38 @@
+{
+  "id": "td_034f128b",
+  "source": "arxiv",
+  "source_id": "2609.24947",
+  "source_url": "https://arxiv.org/abs/2609.24947",
+  "content_type": "paper",
+  "creator": {
+    "id": "s._mohammad_mousavi",
+    "name": "S. Mohammad Mousavi",
+    "handle": "S. Mohammad Mousavi, Teeratorn Kadeethum, Nikolaos Bouklas, Somdatta Goswami",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning Physics from an Imperfect Ancestor",
+  "body_text": "Learning Physics from an Imperfect Ancestor\n\nNeural operators evaluate parametric partial differential equations cheaply but degrade sharply outside their training distribution. Physics-informed neural networks avoid dependence on labeled data, yet their optimization can be basin-fragile: when the governing residual admits multiple solutions, a PINN trained from scratch may converge to a physically incorrect state despite achieving a small residual. We show that these failure modes can be addressed jointly: an imperfect NO provides the structural prior needed to place a PINN in the correct solution basin, while the PDE residual refines the solution beyond the operator's accuracy. We introduce a three-stage framework that freezes the spatial basis of a physics-informed NO, extrapolates its solution branch to an out-of-distribution parameter using a polynomial continuation prior, and distills the resulting field into a fresh PINN. The NO need not be accurate at the target; it transfers solution-branch information, while PDE residual minimization in the PINN governs convergence. We evaluate the framework on three nonlinear PDEs: 1D viscous Burgers, 2D steady Allen-Cahn near a pitchfork bifurcation, and 2D steady lid-driven cavity flow. For Allen-Cahn, where the trivial solution satisfies the PDE residual exactly, a standard PINN collapses to the trivial zero branch, whereas distillation from the crude extrapolated operator recovers the non-trivial branch that matches the finite-difference reference. For the lid-driven cavity, extrapolating to a Reynolds number of Re = 3200 accelerates convergence to the correct physical state, achieving competitive accuracy using fewer parameters and optimization steps than recent literature baselines. These results establish a simple principle: an NO need not accurately predict the solution to be useful; it only needs to identify the correct basin from which PINN optimization can recover it.\n\nAuthors: S. Mohammad Mousavi, Teeratorn Kadeethum, Nikolaos Bouklas, Somdatta Goswami\nCategories: cs.LG, cs.LG",
+  "word_count": 274,
+  "published_at": "2026-09-21T17:42:17Z",
+  "ingested_at": "2026-09-22T11:05:00.803Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
