@@ -1,0 +1,35 @@
+{
+  "id": "td_261bfdad",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/22/llm/",
+  "source_url": "https://simonwillison.net/2026/Sep/22/llm/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "llm 0.36",
+  "body_text": "Release: llm 0.36\n        \n\nNew OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna. #1702\nModel plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations. The first plugin to use this is llm-typesafe. #1692\nReasoning traces in the Markdown output of llm logs are now wrapped in &lt;details&gt;&lt;summary&gt; tags. #1701\n\n\nPlus bug fixes from five new contributors.\n    \n    \n        Tags: openai, llm",
+  "word_count": 93,
+  "published_at": "2026-09-22T18:48:37.000Z",
+  "ingested_at": "2026-09-23T11:00:12.786Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_3ec82017",
+  "source": "arxiv",
+  "source_id": "2609.26789",
+  "source_url": "https://arxiv.org/abs/2609.26789",
+  "content_type": "paper",
+  "creator": {
+    "id": "romain_cosson",
+    "name": "Romain Cosson",
+    "handle": "Romain Cosson, Laurent Massoulié",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Polylogarithmic Collective Tree Exploration",
+  "body_text": "Polylogarithmic Collective Tree Exploration\n\nWe study asynchronous collective tree exploration, where $k$ agents with unrestricted communication start at the root of an unknown tree and discover edges online. At each step, an adversary chooses which agent moves. We give a deterministic algorithm that explores any tree with $n$ nodes and depth $D$ in at most \\[ 2n+O\\left(k\\log^2(k)D\\right) \\] moves, matching known lower bounds up to a constant factor. As a direct consequence, we obtain a near-optimal competitive ratio of $O(\\log^2 k)$ for synchronous collective tree exploration, where all agents move at each round. The proof relies on a multiscale power regularizer that may be of independent interest.\n\nAuthors: Romain Cosson, Laurent Massoulié\nCategories: cs.DS, cs.DS",
+  "word_count": 103,
+  "published_at": "2026-09-22T17:58:42Z",
+  "ingested_at": "2026-09-23T11:05:09.315Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.DS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_329475c0",
+  "source": "arxiv",
+  "source_id": "2609.26766",
+  "source_url": "https://arxiv.org/abs/2609.26766",
+  "content_type": "paper",
+  "creator": {
+    "id": "yanshuo_bai",
+    "name": "Yanshuo Bai",
+    "handle": "Yanshuo Bai, Kanji Tanaka",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation",
+  "body_text": "TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation\n\nThermal Visual Place Recognition (Thermal VPR) maps camera observations to metric poses within a mapped environment, serving as a prerequisite for autonomous navigation. However, thermal VPR suffers from severe environmental dependence, heavy online retraining overheads, and an inability to model dynamic non-linear shifts, causing existing frameworks to fail during online deployment. To achieve robust domain-invariant place recognition, we bridge Analytic Class-Incremental Learning (ACIL) with domain-invariant VPR for the first time, revealing that its gradient-free matrix updates construct a surprisingly strong baseline that outperforms conventional fine-tuning. Nevertheless, standard ACIL exhibits a critical vulnerability to extreme non-linear thermal fluctuations due to its structural linear assumptions. To overcome this limitation, we exploit a novel algebraic equivalence between ACIL and modern control theory, proposing a framework which embeds Unscented propagation (U-ACIL), Gaussian Mixture partitioning (GMM-ACIL), and minimax $H_\\infty$ optimization ($H_\\infty$-ACIL) directly into the update loop. Our formulation guarantees exact closed-form matrix updates within $\\mathcal{O}(1)$ computational complexity, bypassing backpropagation to ensure that the online update latency ($Δt_{\\mathrm{learn}}$) remains strictly bounded below the sensor acquisition interval ($Δt_{\\mathrm{acquire}}$), thereby eliminating trajectory jumps in real-time SLAM pipelines.\n\nAuthors: Yanshuo Bai, Kanji Tanaka\nCategories: cs.RO, cs.RO",
+  "word_count": 179,
+  "published_at": "2026-09-22T17:46:31Z",
+  "ingested_at": "2026-09-23T11:05:17.501Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

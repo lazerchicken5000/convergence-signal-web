@@ -1,0 +1,39 @@
+{
+  "id": "td_99d29e21",
+  "source": "arxiv",
+  "source_id": "2609.26764",
+  "source_url": "https://arxiv.org/abs/2609.26764",
+  "content_type": "paper",
+  "creator": {
+    "id": "nikolaos_ignatiadis",
+    "name": "Nikolaos Ignatiadis",
+    "handle": "Nikolaos Ignatiadis, Etienne Roquain",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Empirical Bayes prepivoting under group invariance: false discovery rate control and moderated t-tests",
+  "body_text": "Empirical Bayes prepivoting under group invariance: false discovery rate control and moderated t-tests\n\nWe consider simultaneously testing hypotheses about thousands of units, e.g., genes or proteins, where each unit yields a handful of replicate measurements and we test whether its mean is zero. A widely used approach in genomics, implemented in the limma software, borrows strength across units to learn the distribution of the unit-specific variances, then computes moderated t-statistics. Here we develop the first procedures using moderated t-statistics that (i) control the false discovery rate (FDR) in finite samples under independence across units and null group invariance, without assuming limma's hierarchical model, and (ii) match the power of an oracle local false discovery rate procedure in a sparse asymptotic regime under limma's working model. Benjamini-Hochberg (BH) with standard t-test p-values has asymptotically zero power in the same regime. Our approach learns the variance distribution from statistics that depend on each unit's data only through its orbit under a compact group of transformations that preserves the null distributions, such as sign flips or orthogonal rotations. We then calibrate the resulting moderated t-statistics against group-transformed statistics pooled across units to obtain compound p-values, which we use with BH and a close variant. For small finite groups, we also construct a Selective SeqStep+ procedure using the same learned scores. Our approach extends to two-sample tests and tests of linear model coefficients.\n\nAuthors: Nikolaos Ignatiadis, Etienne Roquain\nCategories: stat.ME, math.ST, stat.ME",
+  "word_count": 216,
+  "published_at": "2026-09-22T17:42:46Z",
+  "ingested_at": "2026-09-23T11:05:17.502Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "math.ST",
+    "stat.ME"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

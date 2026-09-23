@@ -1,0 +1,41 @@
+{
+  "id": "td_a5876b24",
+  "source": "arxiv",
+  "source_id": "2609.26658",
+  "source_url": "https://arxiv.org/abs/2609.26658",
+  "content_type": "paper",
+  "creator": {
+    "id": "md_ataur_rahman",
+    "name": "Md Ataur Rahman",
+    "handle": "Md Ataur Rahman, Dimitris Sacharidis, Oscar Romero, Sergi Nadal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Discovery-Driven Integration of Disjoint Tables via Text",
+  "body_text": "Discovery-Driven Integration of Disjoint Tables via Text\n\nIntegrating heterogeneous datasets within data lakes is a critical challenge, particularly for semantically related tables that lack the explicit attributes needed to be joined. We study Discovery-Driven Integration, where the relevant sources and their missing relational structure must be discovered before integration. In this setting, unstructured text provides the evidence that connects otherwise disjoint tables. The fundamental challenge is to discover the relationships at a fine-grained level that connect individual rows from different tables through specific sentences. We formalize this task as Text-Mediated Join Path Discovery and propose a horizontal bidirectional cross-attention architecture called LOKI Latent-space Optimization for Knowledge Integration) that learns contextualized representations of table rows and sentences. Through a global table-text contrastive objective, fine-grained row-sentence associations emerge without explicit local supervision. Existing multi-modal discovery methods largely retrieve coarse-grained column-text associations, whereas integration systems assume supplied row-text links, schemas, or queries. LOKI instead transforms these implicit associations into explicit, interpretable join paths, organizes them into relation-consistent groups, and materializes them as typed integrated tables with sentence-level provenance. Comprehensive evaluations on real-world benchmarks demonstrate that LOKI consistently outperforms state-of-the-art multi-modal data discovery approaches, and materializes typed integrated tables with 0.982 macro typed-pair precision while being up to 40 times cheaper in LLM API cost than direct prompting.\n\nAuthors: Md Ataur Rahman, Dimitris Sacharidis, Oscar Romero, Sergi Nadal\nCategories: cs.IR, cs.CL, cs.DB, cs.LG, cs.IR",
+  "word_count": 207,
+  "published_at": "2026-09-22T16:22:54Z",
+  "ingested_at": "2026-09-23T11:04:53.870Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.CL",
+    "cs.DB",
+    "cs.LG",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

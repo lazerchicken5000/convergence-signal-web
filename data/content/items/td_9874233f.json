@@ -1,0 +1,38 @@
+{
+  "id": "td_9874233f",
+  "source": "arxiv",
+  "source_id": "2609.26770",
+  "source_url": "https://arxiv.org/abs/2609.26770",
+  "content_type": "paper",
+  "creator": {
+    "id": "abhijeet",
+    "name": "Abhijeet",
+    "handle": "Abhijeet, Raja Abhishek Appana, Mrinal Kumar, Suman Chakravorty",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Refining GLSDC for Orbit Determination",
+  "body_text": "Refining GLSDC for Orbit Determination\n\nThis paper investigates the ambiguity of noisy short-arc angles-only orbit determination for a Molniya-orbit case study. Conventional Gauss Initial Orbit Determination followed by Gaussian Least-Squares Differential Correction is first shown to be unreliable under high-noise short-arc conditions, frequently failing to converge or converging to hyperbolic local solutions. To explore the candidate solution space, a Lambert-based initialization procedure is used over a grid of assumed ranges and angular-observation pairs, and the resulting states are refined using nonlinear least-squares optimization. The unconstrained solution set reveals multiple orbit families, including reentry elliptic, bounded elliptic, xGEO elliptic, and hyperbolic trajectories, all of which can reproduce the observed angular arc with comparable residuals. The solutions exhibit a structured range-velocity relationship, indicating that the angular measurements primarily constrain apparent line-of-sight motion rather than absolute range. Finally, physically motivated constraints are introduced to isolate Molniya-like bounded elliptic solutions. The results demonstrate that short-arc angles-only orbit determination is fundamentally non-unique without a priori information and that constraints should be interpreted as orbit-family selection tools rather than proof of uniqueness.\n\nAuthors: Abhijeet, Raja Abhishek Appana, Mrinal Kumar, Suman Chakravorty\nCategories: math.DS, math.DS",
+  "word_count": 171,
+  "published_at": "2026-09-22T17:49:30Z",
+  "ingested_at": "2026-09-23T11:05:25.279Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.DS",
+    "math.DS"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

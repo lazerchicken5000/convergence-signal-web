@@ -1,0 +1,40 @@
+{
+  "id": "td_c8f91855",
+  "source": "arxiv",
+  "source_id": "2609.26769",
+  "source_url": "https://arxiv.org/abs/2609.26769",
+  "content_type": "paper",
+  "creator": {
+    "id": "evan_borras",
+    "name": "Evan Borras",
+    "handle": "Evan Borras",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the Complexity of Finding Decoherence Free Subspaces",
+  "body_text": "On the Complexity of Finding Decoherence Free Subspaces\n\nDecoherence free subspaces are a steady-state structure of the open quantum system which preserves quantum coherence between the states lying with in it and thus has found a variety of applications throughout quantum information science and technology. In this paper we study the computational complexity of deciding whether an open quantum system admits a decoherence free subspace or not. More specifically we study this problem with in the context of Markovian open quantum systems, governed by the time-independent Lindblad master equation. Along the way we introduce the $k$-Local Lindbladian problem, which captures the difficulty of computing purity decay rates under Lindbladian dynamics. We show that both problems are hard for the complexity class Quantum Merlin Arthur (QMA) when the locality $k \\geq 5$, with the first under perfect completeness and the second being complete for QMA. Our hardness construction generalizes Kitaev's clock Hamiltonian construction to the open quantum system setting by encoding the execution of a quantum circuit into the steady subspace of a Lindbladian containing both pure and mixed history states. This subspace is then mixed depending on the output of the encoded circuit. Our results suggest that deciding whether a generic Markovian open quantum system admits a decoherence free subspace is intractable even for quantum computation.\n\nAuthors: Evan Borras\nCategories: quant-ph, cs.CC, math-ph, quant-ph",
+  "word_count": 208,
+  "published_at": "2026-09-22T17:49:23Z",
+  "ingested_at": "2026-09-23T11:05:25.280Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.CC",
+    "math-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

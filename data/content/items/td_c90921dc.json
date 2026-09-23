@@ -1,0 +1,38 @@
+{
+  "id": "td_c90921dc",
+  "source": "arxiv",
+  "source_id": "2609.26784",
+  "source_url": "https://arxiv.org/abs/2609.26784",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_dilley",
+    "name": "Daniel Dilley",
+    "handle": "Daniel Dilley, Anastashia Jebraeilli, Rayat Roy, Shobhit Gupta, Alvin Gonzales, Zain Saleem",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Error Suppression in Distributed Quantum Computing with Heterogeneous-Distance Lattice Surgery",
+  "body_text": "Error Suppression in Distributed Quantum Computing with Heterogeneous-Distance Lattice Surgery\n\nDistributed quantum computing requires fault-tolerant operations across inter-QPU links that can be substantially noisier than local gates. Uniformly increasing code distance provides additional protection but also enlarges data patches used for local storage and computation. Here, we introduce distributed heterogeneous-distance lattice surgery using an eight-data-patch ancilla-mediated (8-DAM) architecture, which will be useful for near-term quantum devices with less qubit overhead. In this architecture, the central ancilla spanning the inter-QPU boundary is enlarged while the data patches retain distance $d$. The protocol uses traveling stabilizers to suppress hook errors during merge and split operations between these unequal-distance patches. Circuit-level simulations of rotated surface codes at fixed local depolarizing noise show that logical-readout error rates depend only weakly on link noise. The resulting advantage over conventional lattice surgery grows as link errors increase. Comparisons with uniform distance implementations demonstrate comparable logical error suppression with reduced physical-qubit overhead. We also demonstrate how 8-DAM layouts support two simultaneous distributed logical CNOT operations between four logical data qubits using a single enlarged ancilla. At higher link noise, this construction yields lower logical error rates and more stability than two independent distributed logical CNOTs. These results support selective ancilla enlargement as a resource-efficient approach to fault-tolerant distributed quantum computing.\n\nAuthors: Daniel Dilley, Anastashia Jebraeilli, Rayat Roy, Shobhit Gupta, Alvin Gonzales, Zain Saleem\nCategories: quant-ph, quant-ph",
+  "word_count": 203,
+  "published_at": "2026-09-22T17:56:56Z",
+  "ingested_at": "2026-09-23T11:05:25.279Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

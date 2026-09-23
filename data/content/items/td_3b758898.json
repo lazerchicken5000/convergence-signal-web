@@ -1,0 +1,39 @@
+{
+  "id": "td_3b758898",
+  "source": "arxiv",
+  "source_id": "2609.26737",
+  "source_url": "https://arxiv.org/abs/2609.26737",
+  "content_type": "paper",
+  "creator": {
+    "id": "kosti_koistinen",
+    "name": "Kosti Koistinen",
+    "handle": "Kosti Koistinen, Vesa Kuikka, Joni Herttuainen, Matthew Hendren, Brian Holt, Kimmo K. Kaski",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
+  "body_text": "Diffusion-Induced Spatial Attention Overlapping Community Detection\n\nDetection of overlapping communities is essential for modelling networks in which nodes participate simultaneously in multiple structural or functional groups. Existing graph neural network approaches commonly rely on local message passing, which can obscure community boundaries through smoothing and limit the representation of structurally relevant long-range dependencies. We introduce Diffusion-Induced Spatial Attention Community Detection (DISCO), a deep-learning framework that combines a structural prior derived from influence spreading dynamics, sparse multi-head attention, and non-negative community-affiliation learning. The prior identifies candidate interactions beyond immediate graph neighbours and biases attention according to their structural proximity, while a Bernoulli-Poisson edge-reconstruction objective enables overlapping community inference from node attributes and structural profiles, or both. Benchmark experiments show that DISCO performs competitively against established graph convolutional and graph attention approaches across different input configurations. To demonstrate its practical applicability, we present a proof-of-concept cybersecurity use case in which changes between community assignments inferred from consecutive communication-network snapshots provide an interpretable anomaly signal. Temporal community similarity identifies structural deviations, while node-level contributions help locate the devices associated with them. DISCO therefore provides both a flexible method for overlapping community detection and a foundation for analysing structural change in dynamic networks.\n\nAuthors: Kosti Koistinen, Vesa Kuikka, Joni Herttuainen, Matthew Hendren, Brian Holt, Kimmo K. Kaski\nCategories: cs.SI, cs.LG, cs.SI",
+  "word_count": 193,
+  "published_at": "2026-09-22T17:25:55Z",
+  "ingested_at": "2026-09-23T11:05:01.547Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SI",
+    "cs.LG",
+    "cs.SI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

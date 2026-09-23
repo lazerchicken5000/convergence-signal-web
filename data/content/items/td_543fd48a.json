@@ -1,0 +1,40 @@
+{
+  "id": "td_543fd48a",
+  "source": "arxiv",
+  "source_id": "2609.26748",
+  "source_url": "https://arxiv.org/abs/2609.26748",
+  "content_type": "paper",
+  "creator": {
+    "id": "siyi_wang",
+    "name": "Siyi Wang",
+    "handle": "Siyi Wang, Alexandre Leblanc, Paul D. McNicholas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping",
+  "body_text": "Automatic depth-based local center clustering via $β$-integrated local depth and adaptive grouping\n\nClustering is an unsupervised learning technique that partitions unlabeled data into groups. Most existing methods require user-specified parameters, such as the number of clusters or neighborhood size. Conversely, we propose automatic depth-based local center clustering (A-DLCC), a fully data-driven method that eliminates numerical parameter tuning. A-DLCC uses the $β$-integrated local depth to identify stable exemplars, points consistently central across multiple locality levels, termed local centers, which are ranked by their representativeness. Each local center induces a group of similar points, with group-level similarity measured by a proposed nonparametric metric called group-level local similarity. To guide merging, we incorporate the bottleneck path idea from graph theory, which forms the basis of our adaptive merging criterion. Based on this criterion, we design a single agglomeration rule in which a group is either absorbed by a neighbor it reaches better than itself or bonded to a neighbor that both sides find more reachable than their own background, every merge being additionally required to be carried by a contact stronger than a configuration-model null expects. The rule automatically estimates the number of clusters and decides when to stop merging. Experiments on synthetic and real data show that A-DLCC produces interpretable clustering results without parameter tuning.\n\nAuthors: Siyi Wang, Alexandre Leblanc, Paul D. McNicholas\nCategories: stat.ME, cs.LG, stat.ML, stat.ME",
+  "word_count": 201,
+  "published_at": "2026-09-22T17:31:28Z",
+  "ingested_at": "2026-09-23T11:05:01.547Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "cs.LG",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
