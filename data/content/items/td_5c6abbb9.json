@@ -1,0 +1,39 @@
+{
+  "id": "td_5c6abbb9",
+  "source": "arxiv",
+  "source_id": "2609.28472",
+  "source_url": "https://arxiv.org/abs/2609.28472",
+  "content_type": "paper",
+  "creator": {
+    "id": "tyler_chen",
+    "name": "Tyler Chen",
+    "handle": "Tyler Chen, Diana Halikias, Christopher Musco, David Persson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Hutch#: Optimal non-adaptive Frobenius norm estimation",
+  "body_text": "Hutch#: Optimal non-adaptive Frobenius norm estimation\n\nThe Girard--Hutchinson estimator provides an extremely simple randomized estimate of the Frobenius norm of a matrix $A$ that can only be accessed implicitly via matrix-vector products. In particular, if $Ω$ is a random Gaussian matrix with $r = O(1/\\varepsilon^2)$ columns, than $\\frac{1}{r}\\|AΩ\\|_F^2$ provides a $(1\\pm \\varepsilon)$ multiplicative approximation to $\\|A\\|_F^2$ with high probability. In this work, we introduce a closely related estimator, given by \\begin{align*} {\\frac{1}{r}\\|AΩ\\|_F^2 + \\frac{1}{r}\\|Ψ^T A\\|_F^2 - \\frac{1}{r^2}\\|Ψ^T AΩ\\|_F^2}, \\end{align*} where $Ψ$ is a second, independent random Gaussian matrix with $r$ columns. We prove that this estimator yields a $(1\\pm\\varepsilon)$ multiplicative approximation to $\\|A\\|_F^2$ when $r = O(1/\\varepsilon)$, a quadratic improvement over Girard--Hutchinson. This dependence on $\\varepsilon$ is optimal. Our method, which we call Hutch# (pronounced ``Hutch sharp''), matches the complexity of the Hutch++ algorithm [Meyer, Musco, Musco, Woodruff, 2021]. However, unlike Hutch++, Hutch# uses only \\textit{non-adaptive} matrix-vector products with $A$ and $A^T$ and requires no orthogonalization or other adaptive linear algebra steps. Thus, Hutch# combines the simplicity of the Girard--Hutchinson estimator and the optimal query complexity of Hutch++.\n\nAuthors: Tyler Chen, Diana Halikias, Christopher Musco, David Persson\nCategories: math.NA, cs.DS, math.NA",
+  "word_count": 172,
+  "published_at": "2026-09-23T17:59:52Z",
+  "ingested_at": "2026-09-24T11:05:44.659Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "cs.DS",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

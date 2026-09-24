@@ -1,0 +1,38 @@
+{
+  "id": "td_6d8bbda9",
+  "source": "arxiv",
+  "source_id": "2609.28439",
+  "source_url": "https://arxiv.org/abs/2609.28439",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiang_ji",
+    "name": "Xiang Ji",
+    "handle": "Xiang Ji, Guixu Lin, Jiancheng Zhao, Zhengwei Yin, Yinqiang Zheng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "HaRP: High Dynamic Range Photosequencing through Dual Reversed Shutter Scanning",
+  "body_text": "HaRP: High Dynamic Range Photosequencing through Dual Reversed Shutter Scanning\n\nThe adoption of CMOS sensors in mobile photography is frequently compromised by the rolling shutter (RS) effect, which introduces geometric distortions and motion artifacts. Particularly, recent rolling shutter with global reset (RSGR) mode, while mitigating some RS issues, also incurs major limitations, including reduced capture speed and compressed dynamic range. To address these problems, we propose a novel dual reversed scanning setup utilizing both RSGR and inverted RSGR views. This solution not only handles the inherent flaws of RSGR by synchronizing complementary exposures to balance the dynamic range across the frames but also introduces an effective method for HDR photosequencing under highly dynamic scenes. Our proposed network first accommodates row-wise complementarity and manages visual shifts by row-adaptive feature alignment. Subsequently, the hallucination module, built upon a correlation-guided mixattention block, integrates the mutually reinforced features to recover missing details. In addition, we construct a coaxial imaging system to collect a real-world dataset, enabling robust training and evaluation beyond numerical simulation. Experimental results demonstrate the twofold benefits of our solution in mitigating RSGR limitations and advancing HDR reconstruction techniques.\n\nAuthors: Xiang Ji, Guixu Lin, Jiancheng Zhao, Zhengwei Yin, Yinqiang Zheng\nCategories: cs.CV, cs.CV",
+  "word_count": 177,
+  "published_at": "2026-09-23T17:38:30Z",
+  "ingested_at": "2026-09-24T11:05:21.109Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

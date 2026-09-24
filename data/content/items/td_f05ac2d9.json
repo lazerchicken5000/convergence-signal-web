@@ -1,0 +1,38 @@
+{
+  "id": "td_f05ac2d9",
+  "source": "arxiv",
+  "source_id": "2609.28450",
+  "source_url": "https://arxiv.org/abs/2609.28450",
+  "content_type": "paper",
+  "creator": {
+    "id": "liam_fitzpatrick",
+    "name": "Liam Fitzpatrick",
+    "handle": "Liam Fitzpatrick, Sean Molesky, Kai Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Spatial-Spectral Trade-offs in Metasurface-Based Snapshot Hyperspectral Imaging",
+  "body_text": "Spatial-Spectral Trade-offs in Metasurface-Based Snapshot Hyperspectral Imaging\n\nSnapshot hyperspectral imaging maps a spatial--spectral datacube onto a two-dimensional detector, with recoverability depending on the datacube sampling regime, the scene prior, and the optical encoding. We study this co-dependence with algorithmic recovery and optical design optimization in a differentiable metasurface model by varying the spatial--spectral ratio and comparing average-coherence, mutual-information, and end-to-end objectives. For compressed imaging with three bands, optimization of single-parameter dielectric pillars produces lens-like designs with overlapping wavelength-dependent point-spread functions across the objectives tested. End-to-end reconstruction can mask this collapse on restricted training distributions, showing that reconstruction fidelity depends jointly on the optical encoding and scene prior. For simple nano-pillar meta-atom geometries, the optimized singular-value spectrum deteriorates as the datacube becomes more spectrally dominated, whereas a relaxed model with independent complex transmission at each wavelength reduces this dependence. These results identify restricted wavelength-dependent transmission control in the pillar library as an important contributor to the observed spectral collapse. This motivates an illustrative local super-pixel spectrometer model in which spectral encoding is studied separately from global image formation under a plane-wave illumination approximation.\n\nAuthors: Liam Fitzpatrick, Sean Molesky, Kai Wang\nCategories: physics.optics, physics.optics",
+  "word_count": 175,
+  "published_at": "2026-09-23T17:47:37Z",
+  "ingested_at": "2026-09-24T11:05:44.661Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "physics.optics",
+    "physics.optics"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

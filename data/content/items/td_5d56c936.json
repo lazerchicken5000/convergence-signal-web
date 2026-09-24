@@ -1,0 +1,39 @@
+{
+  "id": "td_5d56c936",
+  "source": "arxiv",
+  "source_id": "2609.28344",
+  "source_url": "https://arxiv.org/abs/2609.28344",
+  "content_type": "paper",
+  "creator": {
+    "id": "kaiyang_li",
+    "name": "Kaiyang Li",
+    "handle": "Kaiyang Li, Shaobo Han, Yue Tian, Shihao Ji",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding",
+  "body_text": "Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding\n\nAudio-language models (ALMs) integrate acoustic perception with the knowledge encoded in language models, enabling contextual understanding of auditory events. Making these capabilities practical on devices with limited memory and computation motivates our focus on small ALMs with fewer than 200M parameters. We introduce a recipe that brings together architecture, data, and three-stage training to build Mizar, a 159.3M-parameter ALM. Its architecture connects a compact CED-Small audio encoder to SmolLM2-135M through a frequency-merging mapper. With supervision drawn from ReasonAQA, AudioMCQ, and AVQA, the model undergoes three training stages: audio-language alignment (Stage 1), audio-dependent fine-tuning (Stage 2), and post-training (Stage 3) aimed at strengthening weak skills while retaining learned capabilities. Across five random seeds, Mizar achieves mean accuracies of 52.92% on MMAU, 42.42% on MMAR, and 36.02% on ADQA-clean, surpassing the previous best-performing ALM below 200M parameters on all three benchmarks. It also supports local inference on a single CPU: on questions from the MMAU benchmark, the mean latency from opening the audio file to generating a complete answer is 1.09 seconds. Code and checkpoints are available at https://github.com/KaiyangLi1992/Mizar_159M.\n\nAuthors: Kaiyang Li, Shaobo Han, Yue Tian, Shihao Ji\nCategories: cs.SD, cs.CL, cs.SD",
+  "word_count": 177,
+  "published_at": "2026-09-23T16:21:51Z",
+  "ingested_at": "2026-09-24T11:04:57.593Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.CL",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

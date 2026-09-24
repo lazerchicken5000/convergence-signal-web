@@ -1,0 +1,40 @@
+{
+  "id": "td_6ea5a41a",
+  "source": "arxiv",
+  "source_id": "2609.28448",
+  "source_url": "https://arxiv.org/abs/2609.28448",
+  "content_type": "paper",
+  "creator": {
+    "id": "qucheng_gao",
+    "name": "Qucheng Gao",
+    "handle": "Qucheng Gao, Zuyi Yang, Xiao Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality",
+  "body_text": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality\n\nWe study the nonequilibrium dynamics of a minimal recurrent transformer with $N$ normalized tokens, $Q=K=I$, and a negative value map $V=-I$. Similarity-based attention selects nearby representations, while the negative value map drives tokens away from the selected field. This feedback can continually reorganize both the representation geometry and the attention network. For $d=2$, the tokens lie on a circle, where the regular polygon is an exact fixed point. As the attention feedback strength $γ$ is increased, the polygon loses stability through a flip bifurcation, giving rise to period-two motion, chaos, and cluster-exchange or cluster-flip states. Despite this temporal complexity, attention remains diffuse as $N\\to\\infty$ at finite fixed softmax sharpness $β$. Attention condensation instead emerges in the scaling regime $β\\sim N^2$. In the hard-routing limit, repulsive updates amplify local perturbations and routing-partner switches transmit them ballistically, producing an emergent butterfly cone in representation space. High-dimensional geometry provides a distinct route to localization. For $d=N\\to\\infty$, simulations from Gaussian initial conditions provide evidence for a condensation transition at $β=O(1)$, driven by dynamically generated finite overlap gaps. Depending on $γ$, the resulting phases include diffuse simplex-like states, consensus flips, condensed active routing with signatures of chaos, and fragmented cluster flips. These results establish temporal activity, attention condensation, and geometric clustering as distinct collective phenomena, and show that sparse attention can sustain persistent dynamics rather than freeze it.\n\nAuthors: Qucheng Gao, Zuyi Yang, Xiao Chen\nCategories: cond-mat.dis-nn, cond-mat.stat-mech, cs.LG, cond-mat.dis-nn",
+  "word_count": 223,
+  "published_at": "2026-09-23T17:46:38Z",
+  "ingested_at": "2026-09-24T11:05:05.316Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cond-mat.dis-nn",
+    "cond-mat.stat-mech",
+    "cs.LG",
+    "cond-mat.dis-nn"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

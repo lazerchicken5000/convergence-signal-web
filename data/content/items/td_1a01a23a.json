@@ -1,0 +1,39 @@
+{
+  "id": "td_1a01a23a",
+  "source": "arxiv",
+  "source_id": "2609.28396",
+  "source_url": "https://arxiv.org/abs/2609.28396",
+  "content_type": "paper",
+  "creator": {
+    "id": "vaishnavi_jagabathula",
+    "name": "Vaishnavi Jagabathula",
+    "handle": "Vaishnavi Jagabathula, P Sangeerth, Pushpak Jagtap",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Tractable Reinforcement Learning for Full Class of Signal Temporal Logic Specifications Using Spatiotemporal Tube Reward",
+  "body_text": "Tractable Reinforcement Learning for Full Class of Signal Temporal Logic Specifications Using Spatiotemporal Tube Reward\n\nThis paper addresses the control problem for robotic systems, including non-holonomic and underactuated platforms operating under unknown dynamics and strict actuator limits to satisfy complex high-level specifications. We denote these high-level specifications using Signal Temporal Logic (STL) and propose a novel time-aware Reinforcement Learning (RL) framework that leverages the geometric properties of Spatiotemporal Tubes (STTs). While traditional analytical STT controllers often struggle to enforce input constraints, and existing RL approaches rely on memory-intensive state history, our method natively overcomes both limitations. By mapping the logical and temporal complexities of the full class of STL into time-varying geometric boundaries, we directly constrain the multidimensional system state without relying on scalar robustness metrics. Augmenting the state space with time, we train a time-aware Soft Actor-Critic (SAC) agent using a continuous, geometry-aware reward function that eliminates the need to explicitly evaluate complex logical semantics during execution. The proposed framework offers a history-free, computationally efficient approach to learn continuous control policies that ensure robust satisfaction of specifications while strictly adhering to system input constraints.\n\nAuthors: Vaishnavi Jagabathula, P Sangeerth, Pushpak Jagtap\nCategories: cs.RO, eess.SY, cs.RO",
+  "word_count": 170,
+  "published_at": "2026-09-23T17:03:00Z",
+  "ingested_at": "2026-09-24T11:05:13.123Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "eess.SY",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

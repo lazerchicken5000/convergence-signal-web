@@ -1,0 +1,40 @@
+{
+  "id": "td_1a01ff04",
+  "source": "arxiv",
+  "source_id": "2609.28459",
+  "source_url": "https://arxiv.org/abs/2609.28459",
+  "content_type": "paper",
+  "creator": {
+    "id": "yingzhen_yang",
+    "name": "Yingzhen Yang",
+    "handle": "Yingzhen Yang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Even Sharper Bounds for Transductive Learning and Its Applications",
+  "body_text": "Even Sharper Bounds for Transductive Learning and Its Applications\n\nWe introduce Sharper Transductive Local Complexity (STLC), a localized complexity method for transductive learning under uniform sampling without replacement. The construction starts from a Bernstein-type concentration inequality for the supremum of the test--train empirical process. Its proof uses the modified log-Sobolev inequality for the swap walk and a two-parameter entropy closure. A peeling argument with a surrogate localization functional then gives excess-risk bounds with the same fixed-point and confidence terms as the classical inductive local Rademacher-complexity bounds, without the additional logarithmic confidence factor in earlier transductive results. For realizable learning over a binary class of VC dimension $\\dVC$, with training size $m$, test size $u$, and $u\\ge m\\ge\\dVC$, STLC yields $\\cO\\{\\dVC\\log(me/\\dVC)/m\\}$. This matches the standard inductive rate and, when $m\\ge9$, is within a logarithmic factor of the transductive minimax lower bound of order $\\dVC/m$. For transductive kernel learning, STLC gives a spectrum-adaptive excess-risk bound without the multiplicative imbalance factors appearing in the earlier local-complexity bound.\n\nAuthors: Yingzhen Yang\nCategories: cs.LG, cs.IT, math.ST, cs.LG",
+  "word_count": 155,
+  "published_at": "2026-09-23T17:52:50Z",
+  "ingested_at": "2026-09-24T11:05:05.316Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.IT",
+    "math.ST",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

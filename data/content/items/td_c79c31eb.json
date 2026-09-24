@@ -1,0 +1,38 @@
+{
+  "id": "td_c79c31eb",
+  "source": "arxiv",
+  "source_id": "2609.28438",
+  "source_url": "https://arxiv.org/abs/2609.28438",
+  "content_type": "paper",
+  "creator": {
+    "id": "karolina_drabik",
+    "name": "Karolina Drabik",
+    "handle": "Karolina Drabik, Ben Lewis, Antoni Puch, Etienne Boursier, Piotr Hofman, Matthias Englert, Ranko Lazić",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+  "body_text": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections\n\nWe study minimal-norm interpolation and $\\ell_2$-regularized logistic-loss minimization for binary classification by univariate two-layer ReLU networks. We give complete geometric characterizations of the optimal classifiers in function space, resolving how the solutions depend on whether hidden-layer biases are included in the parameter norm. When biases are unpenalized, the minimal-norm interpolators are exactly the continuous piecewise-affine functions that hug every label switch and have kinks of the appropriate convexity. When biases are penalized, the minimizer is unique in function space, has exactly one kink in each intermediate same-label segment, and is therefore a sparsest positive-margin classifier. We further show that adding a free affine skip connection leaves these function-space solutions unchanged but fundamentally improves the parameter-space landscape: every KKT point of the constrained problem becomes globally optimal, whereas suboptimal KKT points can occur without the skip connection. We establish analogous global-optimality and geometric results for sufficiently weak $\\ell_2$-regularization of the logistic loss. In the unpenalized-bias case, we identify an additional sparsity-like restriction, implying that most minimal-norm interpolators cannot arise as small-regularization limits of margin-normalized logistic-loss minimizers. Numerical experiments across varying dataset complexity and network width support the predicted landscape and sparsity phenomena.\n\nAuthors: Karolina Drabik, Ben Lewis, Antoni Puch, Etienne Boursier, Piotr Hofman, Matthias Englert, Ranko Lazić\nCategories: cs.LG, cs.LG",
+  "word_count": 191,
+  "published_at": "2026-09-23T17:37:26Z",
+  "ingested_at": "2026-09-24T11:05:05.317Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

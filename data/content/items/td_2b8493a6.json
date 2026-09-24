@@ -1,0 +1,39 @@
+{
+  "id": "td_2b8493a6",
+  "source": "arxiv",
+  "source_id": "2609.28427",
+  "source_url": "https://arxiv.org/abs/2609.28427",
+  "content_type": "paper",
+  "creator": {
+    "id": "sunin_baek",
+    "name": "Sunin Baek",
+    "handle": "Sunin Baek, Sungwoo Park, Daekyum Kim",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Context-Continuous Preference Learning for Exoskeleton Personalization",
+  "body_text": "Context-Continuous Preference Learning for Exoskeleton Personalization\n\nPersonalizing exoskeleton assistance across operating conditions is constrained by the time and physical effort required to collect user feedback. We examined whether a user's preference landscape varies smoothly across operating conditions and when this continuity supports learning from limited feedback. We propose Context-Continuous Preference Learning (CCPL), a Gaussian-process preference model that shares observations across nearby contexts while retaining context-specific utility estimates. We evaluated CCPL through simulations and retrospective analyses of ankle and elbow exoskeleton preference data from nine healthy adults. In simulations, CCPL improved reconstruction and preference-based Bayesian optimization relative to independent learning when preferences varied smoothly, but showed negative transfer when continuity was weak. In both human studies, full-data reference landscapes estimated separately for each participant and context tended to be more similar between nearby operating conditions. With five exposures per context, CCPL increased mean reconstruction correlation with these references from 0.644 to 0.720 for ankle assistance and from 0.476 to 0.526 for elbow assistance relative to independent learning. The five-exposure budget was approximately 37% lower for ankle and 17% lower for elbow than the estimated independent-learning budgets needed to match these correlations. CCPL also improved held-out response prediction relative to independent learning, while benefits over pooled learning varied. These findings support context continuity as a basis for sharing preference observations under limited feedback, although benefits for online personalization in humans remain to be established.\n\nAuthors: Sunin Baek, Sungwoo Park, Daekyum Kim\nCategories: cs.LG, cs.RO, cs.LG",
+  "word_count": 226,
+  "published_at": "2026-09-23T17:28:08Z",
+  "ingested_at": "2026-09-24T11:05:05.317Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.RO",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

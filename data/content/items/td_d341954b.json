@@ -1,0 +1,41 @@
+{
+  "id": "td_d341954b",
+  "source": "arxiv",
+  "source_id": "2609.28442",
+  "source_url": "https://arxiv.org/abs/2609.28442",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhixu_silvia_tao",
+    "name": "Zhixu Silvia Tao",
+    "handle": "Zhixu Silvia Tao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
+  "body_text": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning\n\nReordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We measure accuracy and permutation signal-to-noise ratio (SNR), which quantifies how distinctly ordering patterns are represented relative to variation across problem instances. Across 16 language models ranging from 1B to 8B parameters, we find a pattern: models that solve reordered problems more accurately represent different rule orderings more distinctly. Layer-averaged permutation SNR is positively rank-correlated with accuracy in every synthetic setting we evaluate, with Spearman correlations reaching 0.86. These findings highlight a distinction between answer invariance and representation invariance: successful mathematical rule composition can accompany distinct internal representations between equivalent rule orderings. This motivates distinguishing answer invariance from representation invariance, and offers a representational perspective on mathematical reasoning beyond answer accuracy alone.\n\nAuthors: Zhixu Silvia Tao\nCategories: cs.LG, cs.AI, cs.CL, cs.SC, cs.LG",
+  "word_count": 156,
+  "published_at": "2026-09-23T17:40:57Z",
+  "ingested_at": "2026-09-24T11:04:50.026Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.SC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

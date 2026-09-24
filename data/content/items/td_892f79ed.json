@@ -1,0 +1,39 @@
+{
+  "id": "td_892f79ed",
+  "source": "arxiv",
+  "source_id": "2609.28467",
+  "source_url": "https://arxiv.org/abs/2609.28467",
+  "content_type": "paper",
+  "creator": {
+    "id": "zilin_fang",
+    "name": "Zilin Fang",
+    "handle": "Zilin Fang, Zishuo Wang, Gim Hee Lee, David Hsu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+  "body_text": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction\n\nSocial navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for applications such as robotic guide dogs and autonomous mobility scooters. We formulate language-grounded robot group joining: given an observation and a natural-language description of a target group, the robot identifies the relevant group members and predicts socially compliant joining poses. For grounding, we generate structured candidate subsets through recursive spectral partitioning and rank them with a language-conditioned image--geometry model. Given the grounded group, a goal predictor leverages human-formation priors to produce a multimodal energy--orientation map over feasible robot poses. Experiments on conversations, queues, and audiences across varying group sizes, crowd densities, and visual ambiguities show that our method achieves competitive grounding accuracy with sub-second inference and outperforms all baselines in joining-pose prediction. Real-robot experiments further demonstrate group joining in both static and dynamically changing interactions.\n\nAuthors: Zilin Fang, Zishuo Wang, Gim Hee Lee, David Hsu\nCategories: cs.RO, cs.AI, cs.RO",
+  "word_count": 169,
+  "published_at": "2026-09-23T17:55:48Z",
+  "ingested_at": "2026-09-24T11:04:50.025Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

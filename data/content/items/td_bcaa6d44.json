@@ -1,0 +1,40 @@
+{
+  "id": "td_bcaa6d44",
+  "source": "arxiv",
+  "source_id": "2609.28452",
+  "source_url": "https://arxiv.org/abs/2609.28452",
+  "content_type": "paper",
+  "creator": {
+    "id": "abhijeet_mulgund",
+    "name": "Abhijeet Mulgund",
+    "handle": "Abhijeet Mulgund",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Stochastic Domination of Gaussian Maxima by the Regular Simplex",
+  "body_text": "Stochastic Domination of Gaussian Maxima by the Regular Simplex\n\nLet $n\\ge2$, and let $X=(X_1,\\ldots,X_n)$ be a centered Gaussian vector with $\\mathrm{Var}(X_i)=1$ for every $i$. Let $Z_1,\\ldots,Z_n$ be independent standard Gaussians, and put $\\overline{Z}=(Z_1+\\cdots+Z_n)/n$. We prove $\\mathbb{P}\\{\\max_i X_i\\le t\\}\\ge\\mathbb{P}\\{\\sqrt{n/(n-1)}\\,\\max_i(Z_i-\\overline{Z})\\le t\\}$ for every $t\\in\\mathbb{R}$, and for each fixed $t&gt;0$ equality holds only when $\\mathrm{Cov}(X_i,X_j)=-1/(n-1)$ for all $i\\ne j$. The right side is the distribution function of the maximum of the regular simplex vector. Equivalently, among all simplices containing a given centered ball, the regular simplex circumscribed about the ball has the least standard Gaussian measure, as conjectured by Balitskiy, Karasev, and Tsigler. In our preceding paper we proved this comparison after both maxima are smoothed by independent Gaussian noise of variance $1/(n-1)$, which suffices for the Weak Simplex Conjecture; here we remove the smoothing, which is what probabilities at a single threshold require. As an application we consider $n$ equally likely signals of equal energy in Gaussian noise, where the transmitter may also send nothing. At every positive false-alarm level, and for every law of a common nonnegative random amplitude not concentrated at zero, the regular simplex uniquely maximizes the average probability of correct identification whenever the signal dimension is at least $n-1$. A Lean formalization is available at https://github.com/abhmul/full-simplex-conjecture-lean.\n\nAuthors: Abhijeet Mulgund\nCategories: math.PR, cs.IT, math.MG, math.PR",
+  "word_count": 199,
+  "published_at": "2026-09-23T17:48:06Z",
+  "ingested_at": "2026-09-24T11:05:44.661Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.PR",
+    "cs.IT",
+    "math.MG",
+    "math.PR"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

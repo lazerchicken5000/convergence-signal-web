@@ -1,0 +1,39 @@
+{
+  "id": "td_da53f864",
+  "source": "arxiv",
+  "source_id": "2609.28444",
+  "source_url": "https://arxiv.org/abs/2609.28444",
+  "content_type": "paper",
+  "creator": {
+    "id": "gonzalo_a._benavides",
+    "name": "Gonzalo A. Benavides",
+    "handle": "Gonzalo A. Benavides, Franziska Weber",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Convergence of a fully discrete finite element method for the Beris-Edwards system of liquid crystal dynamics",
+  "body_text": "Convergence of a fully discrete finite element method for the Beris-Edwards system of liquid crystal dynamics\n\nWe propose and analyze a fully discrete finite element scheme for the Beris-Edwards system of nematic liquid crystal dynamics, in which the incompressible Navier-Stokes equations are coupled to a gradient flow for the Landau-de Gennes Q-tensor. The scheme combines a linearly implicit formally second-order accurate backward differentiation formula in time with an incremental Chorin projection step for the incompressibility constraint, conforming finite elements in space, and the invariant energy quadratization approach with mass lumping for the nonlinear bulk potential. Each time step requires the solution of one linear system and one Poisson problem. We show that the scheme is uniquely solvable, that it preserves the symmetry and trace-free structure of the discrete Q-tensor and molecular field, and that it satisfies a discrete energy law without any restriction on the time step. Our main result is that, as the mesh size $h$ and the time step $Δt$ tend to zero subject to $h^{2} = o(Δt)$, the approximations converge along a subsequence to a weak solution of the Beris-Edwards system. The convergence proof addresses two difficulties: the projection method produces two velocity approximations, only one of which is uniformly bounded in $L^2(0,T;H^1_0(Ω))$, and the coupling term $\\mathcal{H}\\nabla Q$ requires strong convergence of $\\nabla Q$, which we obtain from the structure of the equation for $\\mathcal{H}$ rather than from any discrete $H^2$-bound. Numerical experiments in two dimensions exhibit approximately second-order convergence in space and time, and reproduce the splitting of a $+1$ point defect into two $+1/2$ defects and the transport and deformation of a skyrmion induced by a constant pressure gradient.\n\nAuthors: Gonzalo A. Benavides, Franziska Weber\nCategories: math.NA, math.AP, math.NA",
+  "word_count": 259,
+  "published_at": "2026-09-23T17:43:16Z",
+  "ingested_at": "2026-09-24T11:05:44.661Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.AP",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
