@@ -1,0 +1,38 @@
+{
+  "id": "td_17935202",
+  "source": "arxiv",
+  "source_id": "2609.30243",
+  "source_url": "https://arxiv.org/abs/2609.30243",
+  "content_type": "paper",
+  "creator": {
+    "id": "zixiang_xu",
+    "name": "Zixiang Xu",
+    "handle": "Zixiang Xu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "JevOut: Natural Context Can Flip Decision Models",
+  "body_text": "JevOut: Natural Context Can Flip Decision Models\n\nDedicated decision models such as Jev map unstructured language to probability distributions over finite choices, allowing their outputs to directly route requests, select tools, and trigger actions. Yet real-world inputs rarely arrive in isolation: they come with background details and surrounding context. We find that short additions that fit naturally into this context can nevertheless redirect an otherwise correct decision, even when the correct answer remains unchanged. To study this behavior, we fix a wrong target option for each initially correct item and use the model's option probabilities to refine fluent context additions while preserving the source, question, choices, and gold answer. Within 64 accepted target evaluations, the optimizer identifies contexts that redirect Jev on 312 of 508 initially correct decisions (61.4%); in 229 cases, Jev assigns at least 0.7 probability to the fixed wrong option. Across seven datasets, three additional decision systems show targeted flip rates of 64.9%-73.2% on decisions they initially answer correctly. Taken together, these results expose a pronounced fragility in current decision models: short, ordinary-looking context can shift a correct choice to a high-confidence wrong one. Because these models turn language directly into downstream choices, this sensitivity raises concerns about treating their probability outputs as reliable decision interfaces.\n\nAuthors: Zixiang Xu\nCategories: cs.CL, cs.CL",
+  "word_count": 202,
+  "published_at": "2026-09-24T17:57:07Z",
+  "ingested_at": "2026-09-25T11:04:45.924Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

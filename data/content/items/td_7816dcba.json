@@ -1,0 +1,40 @@
+{
+  "id": "td_7816dcba",
+  "source": "arxiv",
+  "source_id": "2609.30238",
+  "source_url": "https://arxiv.org/abs/2609.30238",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenhao_li",
+    "name": "Wenhao Li",
+    "handle": "Wenhao Li, Zhibin Wu, Chong Xiao, Qiangchang Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+  "body_text": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data\n\nRecent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still suffer from spurious generation and noisy guidance due to the lack of high-level semantic grounding in partially observed multimodal evidence. To address these issues, we propose SemMSA, a latent semantic-aided framework that constructs rich sentiment-relevant semantics with LLMs, fully integrating with all modalities via anchor-free spectral alignment. It mainly consists of Cross-modal Semantic Refinement (CSR) and Cross-modal Spectral Alignment (CSA). Specifically, CSR first adaptively extracts visual and acoustic representations by corresponding adapters to form a unified multimodal prefix with language in the frozen LLM embedding space. It then iteratively produces continuous discriminative semantic states through a token-efficient latent refinement process without decoding explicit text. Next, CSA simultaneously aligns the refined semantics with all modalities by enhancing the dominant spectral component of their kernel Gram matrix. This captures global nonlinear dependencies among all representations without relying on a predefined anchor modality. In addition, an instance-level spectral separation constraint preserves cross-sample discriminability and mitigates representation collapse. Extensive experiments on SIMS, MOSI, and MOSEI benchmarks demonstrate that SemMSA achieves state-of-the-art performance.\n\nAuthors: Wenhao Li, Zhibin Wu, Chong Xiao, Qiangchang Wang\nCategories: cs.CL, cs.CV, cs.MM, cs.CL",
+  "word_count": 212,
+  "published_at": "2026-09-24T17:55:31Z",
+  "ingested_at": "2026-09-25T11:04:45.924Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CV",
+    "cs.MM",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

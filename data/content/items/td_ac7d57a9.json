@@ -1,0 +1,39 @@
+{
+  "id": "td_ac7d57a9",
+  "source": "arxiv",
+  "source_id": "2609.30266",
+  "source_url": "https://arxiv.org/abs/2609.30266",
+  "content_type": "paper",
+  "creator": {
+    "id": "jeremy_qin",
+    "name": "Jeremy Qin",
+    "handle": "Jeremy Qin, David Schmotz, Derck Prinzhorn, Luca Beurer-Kellner, Ameya Prabhu, Maksym Andriushchenko",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+  "body_text": "LLM Agents Can Easily Tamper With Their Own Traces\n\nAsynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that external attackers can exploit this gap to induce trace deletion. Finally, we show that trace tampering behavior emerges naturally in frontier models, when agents try to improve their rewards. We advise practitioners to ensure trace logging happens through an independent interception mechanism outside of the agent's control, preserving trace integrity even in cases of full host compromise. Overall, our findings identify a concrete failure of trace integrity in agent infrastructure which can be used to conceal misaligned behaviors like scheming or sabotage.\n\nAuthors: Jeremy Qin, David Schmotz, Derck Prinzhorn, Luca Beurer-Kellner, Ameya Prabhu, Maksym Andriushchenko\nCategories: cs.CR, cs.AI, cs.CR",
+  "word_count": 155,
+  "published_at": "2026-09-24T17:59:54Z",
+  "ingested_at": "2026-09-25T11:04:38.336Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_2bd4a9e5",
+  "source": "arxiv",
+  "source_id": "2609.30160",
+  "source_url": "https://arxiv.org/abs/2609.30160",
+  "content_type": "paper",
+  "creator": {
+    "id": "saurabh_kumar",
+    "name": "Saurabh Kumar",
+    "handle": "Saurabh Kumar, Diptiman Mohanta, Prasanta Kumar Ghosh",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Training Criterion with Token-Level Tolerance to Transcription Ambiguity for Automatic Speech Recognition",
+  "body_text": "A Training Criterion with Token-Level Tolerance to Transcription Ambiguity for Automatic Speech Recognition\n\nAutomatic speech recognition is typically trained assuming that the reference transcript is the only valid labeling of an utterance, yet even nominally verbatim transcripts contain localized differences in pronunciation, spelling, or lexical realization that the acoustics do not uniquely determine. Omni-temporal Classification (OTC) tolerates such noise by adding wildcard paths to the connectionist temporal classification (CTC) alignment graph, but its word-level arcs are too coarse, since bypassing one unsupported token discards supervision for the whole word. We move wildcard arcs to token granularity so unsupported tokens can be bypassed while the rest of the word stays supervised, and we combine token- and word-level arcs as complementary escape paths. Across 19 languages and three corpora, token-level OTC improves over CTC on all 25 tasks. We also replace epoch-indexed relaxation of the wildcard weights with a predictive-entropy-indexed schedule, which performs comparably while reducing dependence on training length. Combining this schedule with the hybrid graph gives the lowest mean word error rate (WER) on every corpus and a 9.45% average relative WER reduction over CTC. Independent validator transcriptions show that token-level models place significantly more wildcard-bypass probability than CTC on disputed characters, indicating that token-level tolerance targets localized transcript ambiguity.\n\nAuthors: Saurabh Kumar, Diptiman Mohanta, Prasanta Kumar Ghosh\nCategories: cs.CL, eess.AS, cs.CL",
+  "word_count": 197,
+  "published_at": "2026-09-24T17:17:55Z",
+  "ingested_at": "2026-09-25T11:04:45.925Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "eess.AS",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

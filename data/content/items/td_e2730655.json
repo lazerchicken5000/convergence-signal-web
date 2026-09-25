@@ -1,0 +1,39 @@
+{
+  "id": "td_e2730655",
+  "source": "arxiv",
+  "source_id": "2609.30210",
+  "source_url": "https://arxiv.org/abs/2609.30210",
+  "content_type": "paper",
+  "creator": {
+    "id": "hong-han_wang",
+    "name": "Hong-Han Wang",
+    "handle": "Hong-Han Wang, Yuntao Wang, Hu Ding",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "The Alignment Illusion in Multimodal Large Language Models",
+  "body_text": "The Alignment Illusion in Multimodal Large Language Models\n\nLayer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model progressively integrates visual content into a shared representation space. This reading rests on the assumption that scalar alignment scores reflect content-level cross-modal interaction. To test this assumption, we apply controlled interventions to the visual stream. Across 13 MLLMs from five families spanning 0.5B to 72B parameters, replacing projector-output visual tokens with Gaussian noise sharply reduces task accuracy, yet four standard scalar measures (CKA, SVCCA, MIR, and the leading principal-angle cosine) fail to consistently separate the corrupted stream from the original. We call this failure the alignment illusion and trace it to the shared language-model pathway: anisotropic MLP down-projections pull visual and text tokens toward common output directions, producing weight-induced alignment. Because this component is essentially one-dimensional, we introduce the principal-angle gap (PA gap), defined as the difference between the top two principal-angle cosines, which separates weight-induced similarity from multi-directional visual structure. Under graded visual corruption, the PA gap tracks task accuracy more consistently than the scalar scores we consider; under a structured but irrelevant image, it further exposes regimes in which internal geometry and task accuracy come apart. Internal visual-text alignment in MLLMs is therefore best read as a geometric diagnostic of the visual stream inside the language model rather than a direct proxy for content-level cross-modal interaction, and is most informative when calibrated by controlled task evidence.\n\nAuthors: Hong-Han Wang, Yuntao Wang, Hu Ding\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 236,
+  "published_at": "2026-09-24T17:42:29Z",
+  "ingested_at": "2026-09-25T11:04:53.528Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

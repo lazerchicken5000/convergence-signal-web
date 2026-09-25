@@ -1,0 +1,40 @@
+{
+  "id": "td_07284834",
+  "source": "arxiv",
+  "source_id": "2609.30220",
+  "source_url": "https://arxiv.org/abs/2609.30220",
+  "content_type": "paper",
+  "creator": {
+    "id": "romane_giard",
+    "name": "Romane Giard",
+    "handle": "Romane Giard, Yohann De Castro, Roland Denis, Clément Marteau",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Riemannian Gradient Descent for Gaussian Mixture Models with unknown diagonal covariances",
+  "body_text": "Riemannian Gradient Descent for Gaussian Mixture Models with unknown diagonal covariances\n\nThis paper investigates the numerical resolution of the Beurling-LASSO (BLASSO), a convex optimization framework that promotes sparsity in the space of measures. We consider its application to the estimation of Gaussian mixture models (GMMs) with an unknown number of components and unknown diagonal covariance matrices. Our approach combines the Conic Particle Gradient Descent (CPGD) principle with Riemannian gradient descent, to account for the underlying Fisher-Rao geometry of Gaussian distributions. Our contributions are twofold. First, we provide theoretical guarantees for the convergence of our algorithm. In particular, we establish exponential local convergence under a non-degeneracy condition on the solution and relate this assumption to a separation condition on the underlying statistical target. Second, we address practical implementation aspects of CPGD and present numerical experiments illustrating its performance. On the test cases considered, these experiments suggest that CPGD is more robust to overspecification of the number of components than the EM algorithm. We also investigate the impact of component separation on recovery accuracy.\n\nAuthors: Romane Giard, Yohann De Castro, Roland Denis, Clément Marteau\nCategories: math.OC, math.ST, stat.ML, math.OC",
+  "word_count": 161,
+  "published_at": "2026-09-24T17:48:09Z",
+  "ingested_at": "2026-09-25T11:05:17.258Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.ST",
+    "stat.ML",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
