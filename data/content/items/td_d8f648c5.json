@@ -1,0 +1,42 @@
+{
+  "id": "td_d8f648c5",
+  "source": "arxiv",
+  "source_id": "2609.31570",
+  "source_url": "https://arxiv.org/abs/2609.31570",
+  "content_type": "paper",
+  "creator": {
+    "id": "damiano_brigo",
+    "name": "Damiano Brigo",
+    "handle": "Damiano Brigo, Raphaël Huser, Dan Leonte",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Uncertainty and Explainability in Deep Rough Volatility: A Neural Information-Theoretic Posterior Approach",
+  "body_text": "Uncertainty and Explainability in Deep Rough Volatility: A Neural Information-Theoretic Posterior Approach\n\nDeep learning has substantially accelerated the calibration of complex stochastic-volatility models, but neural point calibration alone does not capture the uncertainty remaining after an implied-volatility (IV) surface has been observed. We develop a simulation-based inference framework for rough Heston (rHeston) calibration that learns the posterior distribution of the model parameters conditional on an IV surface. Using neural ratio estimation, we obtain calibrated posterior samples that can be propagated through heteroscedastic neural surrogate pricers for path-dependent exotic options. The resulting posterior-predictive distributions combine residual parameter uncertainty with conditional surrogate uncertainty and yield uncertainty-aware price intervals. We further introduce Hellinger-SHAP, an information-theoretic explainability method for posterior inference. Rather than attributing a single parameter point estimate, it applies local-background Kernel SHAP to a posterior-information functional measuring contraction from the prior to the posterior. This identifies maturity--moneyness regions associated with posterior information gain for individual rHeston parameters. In a simulation study, posterior-predictive intervals provide calibrated or conservative coverage across forward-start, barrier, and realized-variance claims, while point plug-in prices can be materially unreliable for selected contract regimes. Together, the UQ and XAI analyses provide a transparent framework for uncertainty-aware neural calibration and downstream exotic pricing under the specified prior-predictive model.\n\nAuthors: Damiano Brigo, Raphaël Huser, Dan Leonte\nCategories: stat.ML, cs.LG, stat.AP, stat.CO, stat.OT, stat.ML",
+  "word_count": 195,
+  "published_at": "2026-09-25T17:34:56Z",
+  "ingested_at": "2026-09-28T11:05:07.531Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.AP",
+    "stat.CO",
+    "stat.OT",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

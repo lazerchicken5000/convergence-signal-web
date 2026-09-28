@@ -1,0 +1,38 @@
+{
+  "id": "td_ae915d00",
+  "source": "arxiv",
+  "source_id": "2609.31606",
+  "source_url": "https://arxiv.org/abs/2609.31606",
+  "content_type": "paper",
+  "creator": {
+    "id": "hongrui_zheng",
+    "name": "Hongrui Zheng",
+    "handle": "Hongrui Zheng, Cristian Ioan Vasile, Antonio Loquercio, Rahul Mangharam",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient",
+  "body_text": "Learning Robot Policies from Sparse Success Signals via STL-Guided Stein Variational Policy Gradient\n\nLearning robot policies for tasks with sparse success signals is challenging when completion depends on coordinated actions, precise contact outcomes, or satisfying several conditions together. Intricate physical interactions with the world further complicate these requirements. Prior work using conventional reward shaping mechanisms provides dense feedback but local progress might not translate into eventual task completion. We present Signal Temporal Logic-guided Stein Variational Policy Gradient (STL-SVPG), a population-based method that uses smooth STL robustness as a trajectory-level training objective. Differentiating this objective through the dynamics assigns credit to policy actions according to their effect on the complete task specification, rather than local progress alone. We evaluate the approach on six quadcopter and manipulator tasks that involves event-triggered responses, strictly ordered behavior, responses within specified deadlines, and physical interaction with the world. STL-SVPG achieves the highest mean success rate among the compared methods on five of six benchmarks. Simulation-trained policies trained in simulation transfer temporal and contact task behavior to the real world.\n\nAuthors: Hongrui Zheng, Cristian Ioan Vasile, Antonio Loquercio, Rahul Mangharam\nCategories: cs.RO, cs.RO",
+  "word_count": 161,
+  "published_at": "2026-09-25T17:55:01Z",
+  "ingested_at": "2026-09-28T11:05:23.446Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

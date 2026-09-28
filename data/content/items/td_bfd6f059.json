@@ -1,0 +1,39 @@
+{
+  "id": "td_bfd6f059",
+  "source": "arxiv",
+  "source_id": "2609.31588",
+  "source_url": "https://arxiv.org/abs/2609.31588",
+  "content_type": "paper",
+  "creator": {
+    "id": "sathvik_udupa",
+    "name": "Sathvik Udupa",
+    "handle": "Sathvik Udupa, Naveen Kumar, Ryan Folmsbee",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue",
+  "body_text": "RePlay: Retrieval-Based Voice Playback for Multi-Turn spoken dialogue\n\nMany voice interaction applications require exact control over both the content and delivery of responses, typically using pre-recorded lines. Recent full-duplex models respond with low latency but cannot guarantee exact content or reproduce a specific recorded performance, while cascaded systems can be constrained to predefined responses at the cost of additional latency. We propose RePlay, a spoken dialogue system adapted from PersonaPlex that handles multi-turn conversations by retrieving and playing pre-recorded lines. Using probing, we identify the layer and frame at which the upcoming response becomes recoverable, and use this hidden state as the retrieval query. RePlay retains only the layers up to that point and replaces text and speech generation with lightweight turn-taking and retrieval heads. In simulated multi-turn interviews, RePlay reaches a median latency of 383 ms, 3 to 7 times lower than ASR-LLM cascades of comparable dialogue quality, at the cost of lower exact-line accuracy. In a user study, participants preferred RePlay in 63% of ratings versus 12% for a fast cascade with a small LLM (p = 0.008), and showed a non-significant preference (46% vs. 21%) over a slower cascade with a stronger LLM.\n\nAuthors: Sathvik Udupa, Naveen Kumar, Ryan Folmsbee\nCategories: eess.AS, cs.SD, eess.AS",
+  "word_count": 188,
+  "published_at": "2026-09-25T17:43:21Z",
+  "ingested_at": "2026-09-28T11:05:15.458Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.AS",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

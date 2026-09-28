@@ -1,0 +1,39 @@
+{
+  "id": "td_43ecf97e",
+  "source": "arxiv",
+  "source_id": "2609.31540",
+  "source_url": "https://arxiv.org/abs/2609.31540",
+  "content_type": "paper",
+  "creator": {
+    "id": "maleeha_masood",
+    "name": "Maleeha Masood",
+    "handle": "Maleeha Masood, Momina Nofal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can You Check That? The Checkability Boundary for Local LLM Network Automation",
+  "body_text": "Can You Check That? The Checkability Boundary for Local LLM Network Automation\n\nSending every network-automation input to a third-party frontier LLM exports sensitive artifacts such as production configurations, topologies, and logs. Querying small language models (SLMs) locally avoids this egress, but SLM outputs can be error-prone for direct use. This work introduces checkability as a criterion for determining which tasks are suitable for local inference. A task is checkable when it exposes a cheap, deterministic test - an intrinsic check - that rejects outputs violating a necessary correctness condition. We instantiate this idea in Touchstone, a local-first pipeline that uses seven off-the-shelf SLMs (1-8B parameters) to generate candidates, uses task-specific intrinsic checks to reject responses, and escalates unresolved inputs to a frontier LLM. On conflict detection and intent translation tasks, Touchstone reaches 98.6% and 93.8% end-to-end accuracy while escalating only 16% and 17% of inputs, respectively. On TeleQnA, a knowledge-only control that has no task-specific intrinsic checks, Touchstone is unable to match the accuracy of the frontier baseline. Our results support a simple deployment rule: keep inference local when task semantics support precise, low-cost checks; escalate the rest.\n\nAuthors: Maleeha Masood, Momina Nofal\nCategories: cs.NI, cs.AI, cs.NI",
+  "word_count": 176,
+  "published_at": "2026-09-25T17:11:55Z",
+  "ingested_at": "2026-09-28T11:04:52.199Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.NI",
+    "cs.AI",
+    "cs.NI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_6a44ea27",
+  "source": "arxiv",
+  "source_id": "2609.31513",
+  "source_url": "https://arxiv.org/abs/2609.31513",
+  "content_type": "paper",
+  "creator": {
+    "id": "marco_mandap",
+    "name": "Marco Mandap",
+    "handle": "Marco Mandap",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Statistical Foundations for a Google Play User-Review Sentiment Index: Signal Fusion, Shrinkage, Distributional Validation, and Dynamic Smoothing",
+  "body_text": "Statistical Foundations for a Google Play User-Review Sentiment Index: Signal Fusion, Shrinkage, Distributional Validation, and Dynamic Smoothing\n\nWe develop a statistically explicit sentiment index for Google Play user reviews and establish the mathematical results supporting its construction. Normalized star ratings and text-sentiment scores are treated as noisy measures of latent review valence and fused by covariance-aware inverse-variance weighting. Review-level estimates are aggregated with bounded helpfulness and recency weights, then shrunk toward a population mean using estimated precision rather than an arbitrary review-count threshold. App-level rating histograms provide a distributional diagnostic for samples returned under different API sort orders; because star ratings are discrete, classical continuous Kolmogorov-Smirnov critical values are not used. A local-level state-space model and the Kalman filter provide a denoised temporal trend. Full proofs cover the BLUE and Gaussian maximum-likelihood result, Gaussian-conjugate shrinkage, the Glivenko-Cantelli and Donsker theorems, count transformations via the delta method, and exact Gaussian Kalman filtering. A worked three-review example shows how textual complaints can materially reduce an apparently perfect star-only score.\n\nAuthors: Marco Mandap\nCategories: stat.ME, cs.CL, stat.AP, stat.ME",
+  "word_count": 150,
+  "published_at": "2026-09-25T16:54:09Z",
+  "ingested_at": "2026-09-28T11:04:59.861Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "cs.CL",
+    "stat.AP",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

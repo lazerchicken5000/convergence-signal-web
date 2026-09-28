@@ -1,0 +1,40 @@
+{
+  "id": "td_04e98285",
+  "source": "arxiv",
+  "source_id": "2609.31587",
+  "source_url": "https://arxiv.org/abs/2609.31587",
+  "content_type": "paper",
+  "creator": {
+    "id": "md_shohel_arman",
+    "name": "Md Shohel Arman",
+    "handle": "Md Shohel Arman, Igor Molybog",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+  "body_text": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer\n\nWe investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by whether code regenerated from them passes the original tests, and show that completeness, not length, drives a description's fidelity. Using the benchmark as an optimization signal, we discover a description-writing prompt that reaches full fidelity and generalizes to unseen files. We then test the hypothesis that motivated the work: that better documentation helps an agent resolve real repository issues. Across two model families and ten repositories, and against a positive control confirming that our evaluation can detect a genuine improvement, we find that it does not. When the source is present, neither static compact documentation nor retrieved context beats the issue alone. We report this negative result together with the benchmark and the optimizer, and we characterize the boundary at which documentation helps.\n\nAuthors: Md Shohel Arman, Igor Molybog\nCategories: cs.SE, cs.AI, cs.CL, cs.SE",
+  "word_count": 154,
+  "published_at": "2026-09-25T17:42:22Z",
+  "ingested_at": "2026-09-28T11:04:52.197Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SE",
+    "cs.AI",
+    "cs.CL",
+    "cs.SE"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "td_9bbeca45",
+  "source": "arxiv",
+  "source_id": "2609.31607",
+  "source_url": "https://arxiv.org/abs/2609.31607",
+  "content_type": "paper",
+  "creator": {
+    "id": "kevin_jiang",
+    "name": "Kevin Jiang",
+    "handle": "Kevin Jiang, Morgane Austern, Edgar Dobriban, Jason M. Klusowski",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
+  "body_text": "Statistical attribute alignment for black-box generative AI via output post-processing\n\nGenerative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns with a user-specified target. This is motivated by examples such as fairness, where we want to ensure that a protected attribute (e.g., gender, race, or age categories) follows a desired distribution, and synthetic data generation, where we want the generated data to be representative of a target distribution. We study the practically important black-box access setting, where a user can repeatedly query a generative AI model. The goal is to return $m\\ge 1$ outputs whose joint attribute distribution is as close as possible to this target. For both exact and approximate alignment, we develop algorithms that minimize the expected number of queries to the generator, and we further demonstrate their optimality as the number of requested outputs $m \\rightarrow \\infty$. Experiments on text-to-image generation and geocoded persona generation tasks show that our post-processing algorithms improve statistical attribute alignment, complementing prompting-based interventions.\n\nAuthors: Kevin Jiang, Morgane Austern, Edgar Dobriban, Jason M. Klusowski\nCategories: stat.ME, cs.AI, cs.LG, math.ST, stat.ME",
+  "word_count": 174,
+  "published_at": "2026-09-25T17:55:49Z",
+  "ingested_at": "2026-09-28T11:04:52.197Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "cs.AI",
+    "cs.LG",
+    "math.ST",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

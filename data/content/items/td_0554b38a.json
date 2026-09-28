@@ -1,0 +1,39 @@
+{
+  "id": "td_0554b38a",
+  "source": "arxiv",
+  "source_id": "2609.31572",
+  "source_url": "https://arxiv.org/abs/2609.31572",
+  "content_type": "paper",
+  "creator": {
+    "id": "jae_joong_lee",
+    "name": "Jae Joong Lee",
+    "handle": "Jae Joong Lee, Bedrich Benes",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "OC-GS: Gaussian Splatting for Irregular Turntable Capture",
+  "body_text": "OC-GS: Gaussian Splatting for Irregular Turntable Capture\n\nUneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared camera, rotation axis, and pivot. This orbit-consistent refinement jointly optimizes image-derived geometry and angles to reconstruct objects from sparse, irregular captures. On rendered objects with 12, 8, and 6 irregularly spaced views, OC-GS achieves mean foreground PSNR scores of 21.26, 19.36, and 15.83dB, respectively, exceeding all four evaluated pose-free Gaussian splatting baselines in each condition. Under a shared trainer, refining image-estimated angles improves mean foreground PSNR by 7.88dB over keeping those estimates fixed. An ablation study shows that both image-derived angle initialization and the shared motion model contribute to the improvement. On real captures, OC-GS's refinement increases mean foreground PSNR by 0.70dB. Results show that refining uncertain angles within a shared motion model improves reconstruction from sparse, irregular turntable captures.\n\nAuthors: Jae Joong Lee, Bedrich Benes\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 148,
+  "published_at": "2026-09-25T17:35:05Z",
+  "ingested_at": "2026-09-28T11:04:52.198Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

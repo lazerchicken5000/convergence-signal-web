@@ -1,0 +1,39 @@
+{
+  "id": "td_bf0f507c",
+  "source": "arxiv",
+  "source_id": "2609.31509",
+  "source_url": "https://arxiv.org/abs/2609.31509",
+  "content_type": "paper",
+  "creator": {
+    "id": "xuanzhi_liu",
+    "name": "Xuanzhi Liu",
+    "handle": "Xuanzhi Liu, Xinyi Wu, Hang Pan, Wensi Huang, Zhenyao Wu, Ruize Han, Song Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ClearGS: Reliability-Aware Gaussian Splatting from Handheld Videos",
+  "body_text": "ClearGS: Reliability-Aware Gaussian Splatting from Handheld Videos\n\nWe present ClearGS for 3D Gaussian Splatting (3DGS) from handheld videos with uneven viewpoint coverage and mixed frame quality. Rather than selecting frames with binary decisions, ClearGS uses Reliability-aware View Allocation (RVA) to assign graded raw-supervision weights based on appearance reliability, degradation risk, and geometric utility, while weakly reactivating useful suppressed frames to maintain trajectory coverage. Since weighting cannot restore details lost to blur or distortion, ClearGS further introduces Render-Guided In-Video Restoration (RIVR). The current 3DGS render provides a pose-aligned structural candidate, a frozen no-reference restoration expert restores the corresponding raw video observation without any clean reference image, and no-reference perceptual scores select among the render, restored observation, and high-frequency fused candidate. ClearGS then applies Full-Trajectory Repair Consolidation to revisit accepted repairs and preserve details introduced early. On GS2E and GSOTM, ClearGS achieves state-of-the-art overall performance, with consistent CLIP-IQA and MUSIQ gains and LPIPS reductions in most degradation settings, without paired sharp supervision or matched clean references.\n\nAuthors: Xuanzhi Liu, Xinyi Wu, Hang Pan, Wensi Huang, Zhenyao Wu, Ruize Han, Song Wang\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 157,
+  "published_at": "2026-09-25T16:50:46Z",
+  "ingested_at": "2026-09-28T11:04:52.199Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

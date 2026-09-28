@@ -1,0 +1,38 @@
+{
+  "id": "td_433b9eb8",
+  "source": "arxiv",
+  "source_id": "2609.31575",
+  "source_url": "https://arxiv.org/abs/2609.31575",
+  "content_type": "paper",
+  "creator": {
+    "id": "constantinos_patsakis",
+    "name": "Constantinos Patsakis",
+    "handle": "Constantinos Patsakis, Vasilios Argyropoulos, Efthymios Alepis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Configuration, Not Conscience: A Large-Scale Empirical Study of LLM System Prompts",
+  "body_text": "Configuration, Not Conscience: A Large-Scale Empirical Study of LLM System Prompts\n\nLeaked system prompts are often treated as windows into the hidden values of commercial language models, yet their composition is rarely studied at scale. We analyze a merged corpus of 407 leaked, reconstructed, or officially published system prompts from 62 vendors across four community collections, identifying 29 near-duplicate clusters covering 66 files. Operational content rather than ethical statements dominates the corpus; a deliberately simple block-level classifier assigns roughly 58\\% of classified words to tool/protocol and roughly 5\\% to safety policy, while the strictest rule-lines guard tool use and file safety over harmful content by an 11:1 margin. Literal text transfer concentrates in a small set of cross-vendor pairs. Prompts also carry measurable maintenance debt, with version chains turning over thousands of words per release. The evidence supports treating leaked prompts as operational specifications, closer to configuration files than value statements, and treats reuse and prompt rot as engineering and supply-chain concerns. Because most documents are adversarial in origin and the detectors are deliberately simple, all magnitudes are directional; we audit the main classifier's error modes.\n\nAuthors: Constantinos Patsakis, Vasilios Argyropoulos, Efthymios Alepis\nCategories: cs.CR, cs.CR",
+  "word_count": 175,
+  "published_at": "2026-09-25T17:36:51Z",
+  "ingested_at": "2026-09-28T11:05:15.458Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

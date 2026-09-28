@@ -1,0 +1,38 @@
+{
+  "id": "td_7718816f",
+  "source": "arxiv",
+  "source_id": "2609.31571",
+  "source_url": "https://arxiv.org/abs/2609.31571",
+  "content_type": "paper",
+  "creator": {
+    "id": "alexander_gurung",
+    "name": "Alexander Gurung",
+    "handle": "Alexander Gurung, Esmeralda S. Whitammer, Mirella Lapata",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Strategically Diverse Sampling for Self-Training",
+  "body_text": "Strategically Diverse Sampling for Self-Training\n\nMany LLM training and inference methods, including RL and test-time scaling, depend on repeated sampling, but benefit only when the responses meaningfully differ. Self-training faces the same challenge: training data is typically constructed by sampling IID responses and filtering primarily for correctness, thereby overrepresenting strategies a model already favours. We investigate strategic diversity, or substantive variation among approaches to a problem, as an alternative principle for constructing self-training data. We generate strategically diverse data with two sampling methods: GROOT, a new method which constructs a hierarchical tree of approaches and samples distinct paths, and Verbalized Sampling (VS), adapted to produce an unstructured set of approaches. Across competitive programming and Next-Chapter Prediction domains, models trained on strategically sampled data outperform IID-trained counterparts on difficult tasks and provide strong initializations for RL and test-time scaling. Most strikingly, self-training on strategically diverse but incorrect traces from Qwen3-4B outperforms IID distillation from a 235B teacher. These results challenge prevailing assumptions about what makes useful self-training data and show that diversity of approaches can matter more than correctness or teacher scale.\n\nAuthors: Alexander Gurung, Esmeralda S. Whitammer, Mirella Lapata\nCategories: cs.CL, cs.CL",
+  "word_count": 176,
+  "published_at": "2026-09-25T17:35:05Z",
+  "ingested_at": "2026-09-28T11:04:59.861Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

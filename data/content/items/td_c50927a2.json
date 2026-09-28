@@ -1,0 +1,38 @@
+{
+  "id": "td_c50927a2",
+  "source": "arxiv",
+  "source_id": "2609.31586",
+  "source_url": "https://arxiv.org/abs/2609.31586",
+  "content_type": "paper",
+  "creator": {
+    "id": "chainesh_gautam",
+    "name": "Chainesh Gautam",
+    "handle": "Chainesh Gautam, Raghuram Bharadwaj Diddigi, Chandramouli Kamanchi, Pankaj Dayama, Sumanta Mukherjee, Kameshwaran Sampath",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Trust Guided Decision Transformer",
+  "body_text": "Trust Guided Decision Transformer\n\nDecision Transformer performance degrades on long rollouts because the conditioning context drifts out of the training distribution. We show that this drift is visible through the model's own next state prediction error, which rises during rollout and stays elevated, giving a direct signal of when context has become unreliable. We introduce Trust Guided Decision Transformer (TGDT), which selects context before applying value guidance. At each step, TGDT evaluates several recent context suffixes using rolling next state prediction error, calibrated against held out offline data via split conformal prediction. It keeps only suffixes whose error stays within the calibrated threshold, then uses a frozen critic to choose the highest value action among the trusted suffixes. This reverses the order used by value only elastic selection, where the critic may choose an action generated from a context the model itself has flagged as unreliable. Experiments on D4RL navigation and locomotion tasks show that state prediction, critic guidance, and hard context reset each solve only part of the problem. TGDT reduces persistent high error runs and improves return over vanilla Decision Transformer, reset based context control, and value only context selection.\n\nAuthors: Chainesh Gautam, Raghuram Bharadwaj Diddigi, Chandramouli Kamanchi, Pankaj Dayama, Sumanta Mukherjee, Kameshwaran Sampath\nCategories: cs.LG, cs.LG",
+  "word_count": 188,
+  "published_at": "2026-09-25T17:42:19Z",
+  "ingested_at": "2026-09-28T11:05:07.531Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
