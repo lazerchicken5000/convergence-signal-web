@@ -1,0 +1,38 @@
+{
+  "id": "td_49f9260e",
+  "source": "arxiv",
+  "source_id": "2609.35765",
+  "source_url": "https://arxiv.org/abs/2609.35765",
+  "content_type": "paper",
+  "creator": {
+    "id": "andrás_kovács",
+    "name": "András Kovács",
+    "handle": "András Kovács, Alexander Conroy, Daniel Hershcovich, Jens Bjerring-Hansen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
+  "body_text": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales\n\nIdentifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Tales. Drawing on the commentary to a critical edition, we construct a benchmark of 189 annotated references and evaluate retrieval against all 31,170 verses of historically plausible Danish Old and New Testament translations. We compare TF-IDF and BM25 with multilingual and Danish sentence encoders, examine the effect of linguistic normalization, and fine-tune a Danish encoder using hard negatives and five-fold cross-validation. We analyze performance across automatically derived lexical-overlap strata representing quotations, paraphrases, and allusions. Linguistically normalized BM25 provides a strong zero-shot baseline, attaining an overall R@10 of 0.365 and retrieving every quotation within its ten highest-ranked verses. The best zero-shot dense model achieves a comparable overall score of 0.360 while performing better on allusions. Fine-tuning DFM-large raises its overall R@10 from 0.265 to 0.508 and more than doubles its performance on allusions, from 0.138 to 0.339. However, evaluation against editorial annotations alone understates the model's scholarly usefulness: a literary scholar judged seven of 30 selected rank-one predictions counted as false positives to be meaningful additional references. These findings show both the potential and the epistemic limits of computational intertextual retrieval. Rather than treating scholarly annotations as exhaustive or model outputs as discoveries, we propose retrieval models as heuristic co-readers that recover documented references and generate candidates for expert-led close reading.\n\nAuthors: András Kovács, Alexander Conroy, Daniel Hershcovich, Jens Bjerring-Hansen\nCategories: cs.CL, cs.CL",
+  "word_count": 245,
+  "published_at": "2026-09-28T17:59:27Z",
+  "ingested_at": "2026-09-29T11:04:53.790Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

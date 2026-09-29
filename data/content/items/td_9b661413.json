@@ -1,0 +1,40 @@
+{
+  "id": "td_9b661413",
+  "source": "arxiv",
+  "source_id": "2609.35745",
+  "source_url": "https://arxiv.org/abs/2609.35745",
+  "content_type": "paper",
+  "creator": {
+    "id": "huaiyuan_qin",
+    "name": "Huaiyuan Qin",
+    "handle": "Huaiyuan Qin, Muli Yang, Gabriel James Goenawan, Shiqi Huang, Min Kass Chong, Wahyu Wiratama, Peng Hu, Chen Gong, Wu Liu, Xi Peng, Chun Jian Ho, Hongyuan Zhu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Copy the Same, Distill the Difference: Initializing Linear Vision Transformers",
+  "body_text": "Copy the Same, Distill the Difference: Initializing Linear Vision Transformers\n\nLinear Vision Transformers (ViTs) are designed to replace the attention in Softmax ViTs with the linear-complexity attention operator for more efficient token routing, but they require from-scratch pre-training and typically underperform the original Softmax version. How to initialize linear ViTs both efficiently and effectively still remains unclear. In this work, we explicitly ask: given that most foundation ViTs are built on the mainstream Softmax attention, can linear ViTs benefit from their pre-trained weights? Recent works on Attention Transfer show that attention is the effective transferable component between Softmax ViTs, suggesting attention alone suffices for such reuse. However, we find the opposite for Softmax-to-linear transfer. The attention weights are operator-specific: copying them barely helps, and is sometimes even worse than random initialization. Instead, the attention's token routing behavior can be recovered through distillation with a proper loss design, letting linear ViTs reduce the gap and even match Softmax ones. In contrast, the MLP weights, which carry the learned representation, are operator-agnostic: they can be transferred by simple direct copying, which already carries most of the benefit of the pre-trained weights. Thus, copying MLPs can serve as an effective foundation for Softmax-to-linear transfer: paired with the distilled attention, linear ViTs eventually close the remaining gap and even surpass Softmax ones. These findings hold consistently across various linear ViT variants, different model sizes, and diverse datasets. We hope this study deepens the understanding of reusing pre-trained weights across attention operators: copy what stays the same and distill what differs, to recover the benefit across the Softmax-to-linear boundary.\n\nAuthors: Huaiyuan Qin, Muli Yang, Gabriel James Goenawan, Shiqi Huang, Min Kass Chong, Wahyu Wiratama, Peng Hu, Chen Gong, Wu Liu, Xi Peng, Chun Jian Ho, Hongyuan Zhu\nCategories: cs.CV, cs.AI, cs.LG, cs.CV",
+  "word_count": 254,
+  "published_at": "2026-09-28T17:55:21Z",
+  "ingested_at": "2026-09-29T11:04:46.107Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

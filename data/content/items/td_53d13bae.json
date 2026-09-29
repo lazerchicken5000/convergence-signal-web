@@ -1,0 +1,35 @@
+{
+  "id": "td_53d13bae",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+  "source_url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Claude Sonnet 5.5",
+  "body_text": "Claude Sonnet 5.5\nNew Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.\nHere are some pelicans riding bicycles. Sonnet 5.5 suffered from the same bug as Opus 5.5: the \"max\" thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG.\nHere's the pelican it gave me for thinking effort \"xhigh\", at a cost of 5.74 cents and taking 41 seconds:\n\nSonnet 5.5 appears to be almost as good as Opus 5.5 on some coding tasks, including various viral 3D animation tricks.\nThe most interesting thing about Sonnet 5.5 is that it's now the model used for the free tier on claude.ai. OpenAI's ChatGPT free tier uses Luna 5.6, which means Anthropic currently have a much more capable free offering.\nI ran this prompt against that free tier:\n\nbuild me an HTML page that renders a three-dimensional pelican riding a bicycle using WebGL\n\nAnd got back this page, which is a solid effort.\nAnthropic's announcement reiterates that Haiku 5.5 will be available \"in the coming weeks\". I really hope that one is price-competitive with GPT-6 Luna!\n\n\n    Tags: ai, generative-ai, llms, anthropic, claude, pelican-riding-a-bicycle, llm-release",
+  "word_count": 232,
+  "published_at": "2026-09-28T22:07:38.000Z",
+  "ingested_at": "2026-09-29T11:00:12.498Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

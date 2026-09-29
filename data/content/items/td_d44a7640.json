@@ -1,0 +1,38 @@
+{
+  "id": "td_d44a7640",
+  "source": "arxiv",
+  "source_id": "2609.35759",
+  "source_url": "https://arxiv.org/abs/2609.35759",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhennan_wan",
+    "name": "Zhennan Wan",
+    "handle": "Zhennan Wan, Jianfei Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+  "body_text": "Scaling Long-Form Story Generation via Narrative State Tracking\n\nLLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leaving their ability to scale to full-length novels underexplored. In this work, we introduce Narrative State Tracking Agent (NstAgent), a training-free agentic framework that allows LLMs to track a structured narrative state including characters, past events and future requirements. We extend an existing benchmark to compare narrative consistency across lengths, and use it together with a writing-quality benchmark to systematically evaluate stories ranging from 10K to 100K words. We show that NstAgent achieves better narrative consistency and writing quality as stories grow longer, and neither of them degrades noticeably as length increases, suggesting that it provides an effective approach to scaling story generation toward full-length novels.\n\nAuthors: Zhennan Wan, Jianfei Chen\nCategories: cs.CL, cs.CL",
+  "word_count": 143,
+  "published_at": "2026-09-28T17:59:09Z",
+  "ingested_at": "2026-09-29T11:04:53.790Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

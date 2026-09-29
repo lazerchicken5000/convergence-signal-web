@@ -1,0 +1,38 @@
+{
+  "id": "td_5771d0cb",
+  "source": "arxiv",
+  "source_id": "2609.35755",
+  "source_url": "https://arxiv.org/abs/2609.35755",
+  "content_type": "paper",
+  "creator": {
+    "id": "shelley_tong",
+    "name": "Shelley Tong",
+    "handle": "Shelley Tong, Philip Harris, Gaia Grosso",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Covariant Contrastive Learning for Uncertainty-Aware Anomaly Detection",
+  "body_text": "Covariant Contrastive Learning for Uncertainty-Aware Anomaly Detection\n\nMachine-learning-based anomaly detection (AD) offers a promising, model-agnostic alternative to traditional LHC analyses, allowing to search for many signals at once. Recent advances in representation learning motivate the use of neural embeddings to map high-dimensional physics observables into low-dimensional latent spaces better suited to statistical inference. However, the propagation of systematic uncertainty in embedded spaces remains poorly understood, severely limiting the application of these methods to real LHC analyses. We address this gap with a machine learning strategy that uses a likelihood-based regularization to improve the structure of embedded spaces. Building on previous work using supervised contrastive learning for physics-aware embeddings, our approach trains them jointly with a downstream parameterized classification task that incorporates continuous uncertainties as nuisance parameters. This method returns a latent space that covaries predictably with systematic shifts, and a model of such distortions that can be exploited in the downstream statistical test for anomaly detection. Using simulated CMS Level-1 trigger data, we show that our method successfully models continuous uncertainties in a 4D latent space with a linear parametric downstream classifier, improving both the interpretability and robustness of the statistical anomaly detection task. This framework offers a general way to study and control systematic uncertainties in latent spaces, opening the way to a new scalable statistical analysis workflow for anomaly detection at the LHC, and other high energy physics experiments.\n\nAuthors: Shelley Tong, Philip Harris, Gaia Grosso\nCategories: hep-ph, hep-ph",
+  "word_count": 224,
+  "published_at": "2026-09-28T17:59:02Z",
+  "ingested_at": "2026-09-29T11:05:17.548Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "hep-ph",
+    "hep-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

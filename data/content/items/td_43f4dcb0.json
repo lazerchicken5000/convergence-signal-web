@@ -1,0 +1,39 @@
+{
+  "id": "td_43f4dcb0",
+  "source": "arxiv",
+  "source_id": "2609.35742",
+  "source_url": "https://arxiv.org/abs/2609.35742",
+  "content_type": "paper",
+  "creator": {
+    "id": "andrew_nguyen",
+    "name": "Andrew Nguyen",
+    "handle": "Andrew Nguyen, Samson Kempiak, Agrim Gupta, Koushik Kar, Ish Kumar Jain",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MINT: Modeling GenAI Impact on Network Traffic",
+  "body_text": "MINT: Modeling GenAI Impact on Network Traffic\n\nGenerative AI (GenAI) is becoming a mainstream network workload, yet packet-level simulators lack measure\\-ment-driven GenAI traffic models. Currently researchers must approximate GenAI services using traditional sources such as file transfer and video streaming, limiting realistic network evaluation of scheduling and capacity planning. We present MINT, a measurement and modeling framework for GenAI network traffic. Using an isolated net\\-work-namespace capture pipeline, we collect client-side traces from three LLM providers across four modalities, cloud and edge servers, and wired and wireless network access points. We find that GenAI modalities exhibit distinct upload/download asymmetry and burst structures that differ from traditional applications. MINT clusters and models these burst regimes and validate empirical burst timing distribution behavior in ns-3 with normalized Wasserstein distances of 2--25\\%. Our results also reveal that realistic packet bursts have significantly more variability than constant token generator models. MINT open-sources the first measurement-driven GenAI traffic model for packet-level network simulation.\n\nAuthors: Andrew Nguyen, Samson Kempiak, Agrim Gupta, Koushik Kar, Ish Kumar Jain\nCategories: cs.NI, eess.SY, cs.NI",
+  "word_count": 150,
+  "published_at": "2026-09-28T17:54:31Z",
+  "ingested_at": "2026-09-29T11:05:09.574Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.NI",
+    "eess.SY",
+    "cs.NI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

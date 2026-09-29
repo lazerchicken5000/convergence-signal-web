@@ -1,0 +1,38 @@
+{
+  "id": "td_5407083c",
+  "source": "arxiv",
+  "source_id": "2609.35725",
+  "source_url": "https://arxiv.org/abs/2609.35725",
+  "content_type": "paper",
+  "creator": {
+    "id": "alessandro_rinaldi",
+    "name": "Alessandro Rinaldi",
+    "handle": "Alessandro Rinaldi, Edoardo Tedesco, Andrea Ferraris, Filippo Leveni, Daniele Baieri, Filippo Maggioli, Simone Melzi, Luca Magri",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Superquadric Primitive Decomposition of 3D point clouds via Geometric-Aware Inlier Refinement",
+  "body_text": "Superquadric Primitive Decomposition of 3D point clouds via Geometric-Aware Inlier Refinement\n\nThe decomposition of 3D point clouds into interpretable geometric primitives remains a longstanding challenge in Computer Vision and Computer Graphics. Among the available representations, superquadrics offer a compact and expressive model capable of capturing a wide range of shapes. However, their estimation is inherently challenging, as it requires solving a non-linear optimization problem and is particularly sensitive to noise, outliers, and overlapping structures. While robust estimation methods such as RANSAC and its variants achieve strong performance, they rely primarily on spatial proximity and residual-based criteria, often leading to incorrect inlier assignments across adjacent or complex arrangements of primitives. In this work, we introduce a geometric-aware framework for primitive decomposition that explicitly incorporates local surface properties into the fitting process. Specifically, we propose an inlier refinement step formulated as an energy minimization problem and solved via graph-cut optimization. Our formulation integrates geometric priors, such as normal consistency, enabling more reliable inlier selection beyond purely residual-based criteria. The approach naturally applies to both single-model estimation and multi-model decomposition. By leveraging geometric information beyond point-wise residuals, our method reduces erroneous inlier propagation and stabilizes parameter estimation. Experiments on synthetic and real datasets show consistent improvements in geometric accuracy, robustness to noise and outliers, and convergence efficiency compared to state-of-the-art RANSAC-based methods.\n\nAuthors: Alessandro Rinaldi, Edoardo Tedesco, Andrea Ferraris, Filippo Leveni, Daniele Baieri, Filippo Maggioli, Simone Melzi, Luca Magri\nCategories: cs.CV, cs.CV",
+  "word_count": 208,
+  "published_at": "2026-09-28T17:49:31Z",
+  "ingested_at": "2026-09-29T11:05:25.653Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

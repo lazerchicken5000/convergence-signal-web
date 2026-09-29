@@ -1,0 +1,38 @@
+{
+  "id": "td_b75bf5a0",
+  "source": "arxiv",
+  "source_id": "2609.35761",
+  "source_url": "https://arxiv.org/abs/2609.35761",
+  "content_type": "paper",
+  "creator": {
+    "id": "rui_zhou",
+    "name": "Rui Zhou",
+    "handle": "Rui Zhou, Yibo Yuan, Junkai Zhao, Fangyuan Zhao, Xiaoguang Zhao, Shanghang Zhang, Sirui Han",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations",
+  "body_text": "DexRoam: Learning Mobile Bimanual Dexterous Manipulation from Egocentric Whole-Body Human Demonstrations\n\nMobile bimanual dexterous manipulation requires continuous coordination of locomotion, whole-body motion, and finger-level dexterity within a single trajectory, creating a severe robot demonstration bottleneck. Egocentric human demonstrations offer a scalable alternative, but prior approaches ease the transfer by simplifying human motion, discarding exactly the fine-grained, coupled structure such tasks depend on. We present DexRoam, a complete system for learning mobile bimanual dexterous manipulation from human demonstrations, in which whole-body motion remains continuous and coupled throughout the human-to-robot transfer process. To enable scalable collection of whole-body human manipulation demonstrations, we develop a tracker-free capture system using only a consumer VR headset and a head-mounted stereo camera, without external cameras or motion trackers. We then perform three explicit alignment stages---embodiment, action-semantic, and temporal---to map captured motion into the robot action space, preserving fine-grained whole-body motion and allowing human and robot demonstrations to be jointly learned by standard VLA policies. Real-world experiments with different VLA backbones show that human demonstrations consistently improve policy learning across training paradigms, raising average success from 29% to 56% on GR00T N1.7 and from 32% to 57% on pi0.5, while matching robot-only training with half the robot demonstrations. Ablations confirm that each alignment stage is necessary. These results highlight the potential of human demonstrations for scalable whole-body mobile manipulation with preserved fine-grained motion structure.\n\nAuthors: Rui Zhou, Yibo Yuan, Junkai Zhao, Fangyuan Zhao, Xiaoguang Zhao, Shanghang Zhang, Sirui Han\nCategories: cs.RO, cs.RO",
+  "word_count": 216,
+  "published_at": "2026-09-28T17:59:10Z",
+  "ingested_at": "2026-09-29T11:05:17.547Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

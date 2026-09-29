@@ -1,0 +1,39 @@
+{
+  "id": "td_f55c1ad5",
+  "source": "arxiv",
+  "source_id": "2609.35695",
+  "source_url": "https://arxiv.org/abs/2609.35695",
+  "content_type": "paper",
+  "creator": {
+    "id": "qiyao_ma",
+    "name": "Qiyao Ma",
+    "handle": "Qiyao Ma, Junshan Zhang, Zhe Zhao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models",
+  "body_text": "Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models\n\nAligning large language models (LLMs) to diverse user preferences is fundamentally hindered by standard alignment paradigms that optimize for monolithic users. In this work, empirical studies are first used to reveal the existence of a massive, untapped performance headroom for personalized generation through test-time alignment. We demonstrate that personalized generation is uniquely suited for test-time scaling methods like Best-of-N (BoN) because it can be viewed primarily as a candidate matching problem rather than a generator capability bottleneck. While reward models could in principle exploit this headroom, they are poorly calibrated for personalization, and their billion-parameter scale makes scoring large candidate pools prohibitively expensive. To overcome this limitation, we propose a parameter-efficient framework utilizing million-parameter scale multi-layer perceptron (MLP) ranking models. Our personalized ranking model directly reuses the internal embeddings of the base generator with minimal overhead. By scaling train-time data to provide fine-grained personalized preferences, this million-parameter ranking model accurately scores large candidate pools and can seamlessly guide generation to reduce the cost of materializing N candidates. Extensive experiments on nine datasets spanning three personalized generation settings show that our personalized ranking model effectively exploits the discovered headroom, outperforming billion-parameter generalist reward models on every dataset, with under 0.4% of their parameters and four orders of magnitude lower scoring latency.\n\nAuthors: Qiyao Ma, Junshan Zhang, Zhe Zhao\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 210,
+  "published_at": "2026-09-28T17:38:53Z",
+  "ingested_at": "2026-09-29T11:04:53.791Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

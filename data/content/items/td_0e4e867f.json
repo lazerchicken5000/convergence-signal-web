@@ -1,0 +1,35 @@
+{
+  "id": "td_0e4e867f",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/now-s-impurity-story",
+  "source_url": "https://www.science.org/content/blog-post/now-s-impurity-story",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Now That's An Impurity Story",
+  "body_text": "Here’s a recent paper illustrating an impurity problem that I’ll bet none of us out there have experienced! It describes process work on an antifungal molecule, efinaconazole, which is now available as a generic drug. The authors were checking the purity of various batches of the final product and kept noticing a small peak shouldering the desired one under LC conditions. They estimated it at about 0.06% of the samples (it showed up every time!) and eluted just a bit faster than the real drug. This of course needed to be tracked down. The standard is generally 0.15% for a known impurity (one whose structure and properties have previously been worked out) and 0.10% for unknown ones. And this peak was getting too close to that cutoff - there were no guarantees that whatever-it-was might not come in across the threshold at some point, for some reason, and cause some real problems. Plus, just what was it anyway? Making sure of the structure could allow a switch to the 0.15% standard eventually. Chemical means of lowering its presence (different salt form isolation, different pH washings of a solution of the API, etc.) did not change the amounts at all. There was no change in the amounts seen in crystals versus the “mother liquor” in crystallization experiments, which is rather odd, because you’d expect to see more of a given impurity in the latter. This all made the identification more of a priority rather than less! Analytically, it appeared that the impurity was one Dalton heavier (one atomic mass unit) than the parent, which is a real puzzler. The paper includes some hypothetical structures where extra nitrogens (or NH) groups are switched for carbons in the framework (14-for-13 in the triazole ring, 15-for-14 in the piperidine), but it is of course very difficult to imagine how you’d get such impurities in the first place. More mass spec work narrowed down the increased weight to the piperidine region, but there was no evidence that the piperidine starting material had any M+1 impurity in it anywhere. In fact, using piperidine intermediates from completely different suppliers all led to the same final dilemma. This all points to the problem being outside of starting material impurities and outside of impurities introduced during the synthesis process. What does that leave you with? Some intrinsic property of the final molecule. . .and this was indeed the case, as high-resolution (Orbitrap) mass spec data revealed. The mass ruled out (once again) all those weirdo N-for-C switch ideas, but you know what it matched exactly? One deuterium swapped in for a single H down in the piperidine ring. A large-scale HPLC purification on 100g of efinaconazole produced 6mg of “pure impurity”, and inspection of its 1H and 13C NMR spectra confirmed the deuterium assignment, as did a 2H NMR itself. Specifically, it was a deuterium on a methylene carbons next to the nitrogen in the piperidine ring. Rotation around the C-N bond connecting that piperidine to the rest of the molecule was already known to be quite hindered - and it appears that having a D instead of an H at this position is enough to slow it down even more, and appears to change the physical properties of the compound enough to change its HPLC retention time. Where does the deuterium come from, you ask? Well, the natural abundance of deuterium is 0.015%, and there are four possible substitutions next to the nitrogen. . .so there are four different deuterated isomers in there, each at 0.015% abundance, and there, folks, is your 0.06% impurity, revealed by its very slightly different physical behavior. Yikes!",
+  "word_count": 605,
+  "published_at": "2026-09-28T02:02:38.000Z",
+  "ingested_at": "2026-09-29T11:02:56.448Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_91839718",
+  "source": "arxiv",
+  "source_id": "2609.35716",
+  "source_url": "https://arxiv.org/abs/2609.35716",
+  "content_type": "paper",
+  "creator": {
+    "id": "carlos_esteve-yagüe",
+    "name": "Carlos Esteve-Yagüe",
+    "handle": "Carlos Esteve-Yagüe, Richard Tsai, Stanley Osher",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When does least-squares residual minimization solve a differential equation?",
+  "body_text": "When does least-squares residual minimization solve a differential equation?\n\nLeast-squares residual minimization approximates a differential equation through an optimization problem. This paper investigates the conditions required to transition from stationary points and minimizing sequences of the residual functional to the exact solution. Starting from the classical orthogonality relation between the residual and the range of the linearized operator, we study how boundary conditions and parameterized variations determine what can be inferred about the residual at a stationary point. Smooth spurious critical points can occur even for well-posed problems; for linear equations, a compatibility condition yields an exact projection characterization. For a scalar conservation law with transonic boundary data, every minimizing sequence converges to a continuous function that does not solve the equation, even when a stationary entropy shock exists. We give conditions under which approaching this limit forces the parameter norms to diverge. A Hamilton--Jacobi example shows that a function can have zero residual without being the viscosity solution. Favorable results for a viscous model and uniformly convex Monge--Ampère critical points identify conditions that restore the corresponding implications. For piecewise-smooth trial families, the regularity needed to define the residual functional does not by itself justify the sampled gradient used in training. Moving residual jumps can contribute terms absent from that gradient; an explicit example has identically vanishing sampled gradients and a nonzero continuous derivative. Together, these results clarify what stationarity and sampled gradients imply about the residual, and under which conditions minimizing sequences lead to the intended solution.\n\nAuthors: Carlos Esteve-Yagüe, Richard Tsai, Stanley Osher\nCategories: math.NA, math.NA",
+  "word_count": 239,
+  "published_at": "2026-09-28T17:46:43Z",
+  "ingested_at": "2026-09-29T11:05:25.654Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
