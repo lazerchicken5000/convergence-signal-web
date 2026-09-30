@@ -1,0 +1,41 @@
+{
+  "id": "td_d1eca5d6",
+  "source": "arxiv",
+  "source_id": "2609.38133",
+  "source_url": "https://arxiv.org/abs/2609.38133",
+  "content_type": "paper",
+  "creator": {
+    "id": "ruoyu_lin",
+    "name": "Ruoyu Lin",
+    "handle": "Ruoyu Lin, Magnus Egerstedt, Fabio Pasqualetti",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Multi-Agent Flow Matching with Decoupled Generative Guidance",
+  "body_text": "Multi-Agent Flow Matching with Decoupled Generative Guidance\n\nGenerative modeling is widely used for producing diverse objects from complex, multimodal distributions. However, its expressivity does not, in general, come with formal guarantees that the generated objects satisfy hard constraints or requirements. In multi-agent generation, this problem becomes more challenging because a hard requirement can depend on multiple agents, while each agent may need to determine its own guidance input without relying on the simultaneously computed guidance inputs of other agents. To this end, we introduce DeGG-Flow, a general framework for multi-agent flow matching with decoupled generative guidance. By representing the generative process as a control-affine dynamical system, we develop guidance conditions for two classes of coupled requirements: shared requirements whose satisfaction depends on multiple agents together, and private requirements associated with each individual agent dependent on its neighbors. For both classes, we establish feasibility conditions and finite-horizon convergence guarantees. We further derive a Wasserstein bound that characterizes the distributional deviation induced by the guidance. We demonstrate DeGG-Flow on multi-robot collaboration for crossing a spatial gap by reconfiguring the environment, and on multi-object scene generation with affordance requirements. Across both applications, DeGG-Flow directly generates objects that satisfy all corresponding hard requirements, including at team sizes unseen during training.\n\nAuthors: Ruoyu Lin, Magnus Egerstedt, Fabio Pasqualetti\nCategories: cs.LG, cs.MA, cs.RO, math.OC, cs.LG",
+  "word_count": 199,
+  "published_at": "2026-09-29T17:54:07Z",
+  "ingested_at": "2026-09-30T11:05:07.070Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.MA",
+    "cs.RO",
+    "math.OC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

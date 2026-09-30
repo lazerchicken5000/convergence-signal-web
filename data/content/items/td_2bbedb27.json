@@ -1,0 +1,38 @@
+{
+  "id": "td_2bbedb27",
+  "source": "arxiv",
+  "source_id": "2609.38153",
+  "source_url": "https://arxiv.org/abs/2609.38153",
+  "content_type": "paper",
+  "creator": {
+    "id": "trong-tung_nguyen",
+    "name": "Trong-Tung Nguyen",
+    "handle": "Trong-Tung Nguyen, Anand Bhattad",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "PowerSim: Differentiable Physics Simulation and Rendering with Power Diagrams",
+  "body_text": "PowerSim: Differentiable Physics Simulation and Rendering with Power Diagrams\n\nWe introduce PowerSim, a method to bring physically grounded, differentiable dynamics to PowerFoam's power diagram based 3D representation. PowerSim directly couples a pre-trained PowerFoam scene to the Material Point Method (MPM) by exploiting a natural alignment between the two: the geometric and appearance properties of each primitive correspond closely to the quantities MPM already tracks as an object deforms. Consequently, simulated motion can drive the scene's geometry and appearance directly, without an auxiliary representation in between. Built on this framework, we enable a range of applications on real and synthetic scenes: (1) simulating a static scene under user interaction, (2) recovering spatially varying material fields, (3) compositing primitives from independently captured scenes into a single simulation-ready scene and (4) ray-tracing reflections that update consistently as the object deforms. Our results suggest that PowerSim excels over previous frameworks for physically grounded dynamics, while unlocking unique advantages-such as secondary ray lighting effects on dynamic scenes. Results are best viewed on our project website: https://power-sim.github.io/.\n\nAuthors: Trong-Tung Nguyen, Anand Bhattad\nCategories: cs.CV, cs.CV",
+  "word_count": 162,
+  "published_at": "2026-09-29T17:58:37Z",
+  "ingested_at": "2026-09-30T11:05:31.241Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

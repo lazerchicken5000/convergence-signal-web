@@ -1,0 +1,38 @@
+{
+  "id": "td_ff6e2c28",
+  "source": "arxiv",
+  "source_id": "2609.38180",
+  "source_url": "https://arxiv.org/abs/2609.38180",
+  "content_type": "paper",
+  "creator": {
+    "id": "hao-tang_tsui",
+    "name": "Hao-Tang Tsui",
+    "handle": "Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma, Nicolas Ugrinovic, Takaaki Shiratori, Kris Kitani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
+  "body_text": "Point2Part: Unified 3D Partitioning from Point Prompts\n\nExisting 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the entire shape, where the predicted parts are non-overlapping and jointly recover the entire shape. Our key insight is that part decomposition should consider all desired parts jointly, rather than modeling each part independently. To this end, we develop a promptable model for 3D part decomposition from images or meshes. Users can specify desired parts through 3D point prompts for controllable decomposition. Given one point prompt per desired part, our model produces the corresponding parts as a complete partition of the entire shape. We build on a pretrained 3D generation model and first obtain a shape latent from either an input image or mesh. We then introduce a prompt encoder that maps each 3D point prompt to a part token while attending to the shape latent. To decode the desired parts, we propose a novel part decoder jointly scoring the entire shape against all part tokens in a coarse-to-fine manner, assigning every position within the shape volume to exactly one part. We perform part decomposition in this shared shape latent space, enabling a unified model for image-to-part generation, mesh-to-part generation, and part segmentation. Our method outperforms existing works on all part-quality metrics across all three tasks, and improves compatibility among parts by an order of magnitude over previous SOTA methods. Code and models will be released.\n\nAuthors: Hao-Tang Tsui, Yu-Rou Tuan, Xiaoxuan Ma, Nicolas Ugrinovic, Takaaki Shiratori, Kris Kitani\nCategories: cs.CV, cs.CV",
+  "word_count": 256,
+  "published_at": "2026-09-29T17:59:58Z",
+  "ingested_at": "2026-09-30T11:05:31.240Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

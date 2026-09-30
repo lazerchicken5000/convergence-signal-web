@@ -1,0 +1,38 @@
+{
+  "id": "td_317a7d36",
+  "source": "arxiv",
+  "source_id": "2609.38136",
+  "source_url": "https://arxiv.org/abs/2609.38136",
+  "content_type": "paper",
+  "creator": {
+    "id": "teng_zhou",
+    "name": "Teng Zhou",
+    "handle": "Teng Zhou, Yunhao Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CLeaR: A Unified Framework for Resolving the Leakage-Degradation Dilemma in Style Transfer",
+  "body_text": "CLeaR: A Unified Framework for Resolving the Leakage-Degradation Dilemma in Style Transfer\n\nStyle transfer aims to render target content in the style of a reference image, but existing methods often suffer from content leakage, where objects, layouts, or semantics from the style reference appear in the generated output. Although prior data-driven and training-free methods can reduce leakage, they often face a leakage-degradation dilemma: stronger content suppression may weaken style fidelity, while richer style preservation may reintroduce unwanted reference content. We identify this dilemma across the full style-transfer pipeline, including feature separation, feature-space grounding, and diffusion generation. To address these issues, we propose CLeaR, a training-free framework for content-leakage-resistant style transfer. CLeaR first uses Orthogonal Subspace Projection to define content-reduced style targets in each vision foundation model (VFM) feature space. It then performs Ensemble Inversion, which optimizes a shared pixel-space style anchor satisfying style constraints across multiple VFMs. Finally, Energy-Guided Calibration maintains style alignment during diffusion sampling by steering the denoising trajectory toward the ensemble-defined style manifold. We further provide a theoretical analysis showing that the style-anchor estimation error decreases with the number of VFMs. Experiments on StyleBench demonstrate that CLeaR improves style alignment, reduces content leakage, and achieves better LLM-as-Judge evaluation compared with existing methods. The code is available at \\href{https://github.com/0606zt/CLeaR}{https://github.com/0606zt/CLeaR}.\n\nAuthors: Teng Zhou, Yunhao Chen\nCategories: cs.CV, cs.CV",
+  "word_count": 199,
+  "published_at": "2026-09-29T17:54:59Z",
+  "ingested_at": "2026-09-30T11:05:14.988Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
