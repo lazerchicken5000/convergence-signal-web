@@ -1,0 +1,39 @@
+{
+  "id": "td_9eecbe1a",
+  "source": "arxiv",
+  "source_id": "2609.40342",
+  "source_url": "https://arxiv.org/abs/2609.40342",
+  "content_type": "paper",
+  "creator": {
+    "id": "giulia_vannucci",
+    "name": "Giulia Vannucci",
+    "handle": "Giulia Vannucci",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning Global Sensitivity Indices from Observational Data: A Metamodel-Based Approach",
+  "body_text": "Learning Global Sensitivity Indices from Observational Data: A Metamodel-Based Approach\n\nClassical variance-based Global Sensitivity Analysis (GSA) assumes that the input--output mechanism can be repeatedly evaluated under a designed sampling scheme, which is infeasible when only a given sample of observations is available. We propose MM--GSA, a metamodel-based approach to GSA from observational data, in which supervised learning approximates the systematic input--output relationship. MM--GSA combines two complementary perspectives on input relevance: a model-agnostic estimator of the first-order Sobol' index, quantifying the contribution of an input to the variability of the systematic response, and a new trigger-based structural index, quantifying how predictive performance depends on the availability of a predictor across alternative predictor subsets. We establish consistency for both estimators and a variable-selection property for the structural index under input independence. Monte Carlo experiments and an NHANES application illustrate their finite-sample behavior and show that the two measures provide complementary information on input relevance.\n\nAuthors: Giulia Vannucci\nCategories: stat.ME, stat.ML, stat.ME",
+  "word_count": 142,
+  "published_at": "2026-09-30T17:58:37Z",
+  "ingested_at": "2026-10-01T11:05:21.284Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

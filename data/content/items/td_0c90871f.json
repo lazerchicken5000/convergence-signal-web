@@ -1,0 +1,38 @@
+{
+  "id": "td_0c90871f",
+  "source": "arxiv",
+  "source_id": "2609.40333",
+  "source_url": "https://arxiv.org/abs/2609.40333",
+  "content_type": "paper",
+  "creator": {
+    "id": "ivan_martinović",
+    "name": "Ivan Martinović",
+    "handle": "Ivan Martinović, Lukas Knobel, Yuki M. Asano",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video",
+  "body_text": "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video\n\nSelf-supervised learning draws inspiration from infant visual development, yet standard training pipelines bear little resemblance to it: images are independently sampled and globally shuffled across epochs. We study self-supervised learning from continuous video streams, where frames are consumed in temporal order using strict sliding-window batches, without global reshuffling or multi-epoch replay. To this end, we construct WT++, a 95-hour urban walking-tour video dataset for streaming pretraining. Combined with a comprehensive evaluation suite we find that contrastive and distillation-based methods struggle in this setting, while MAE is more robust but still falls short of standard i.i.d. pretraining. We find that high inter-batch similarity, caused by sliding-window consumption across consecutive batches, does not explain this gap. The main challenge is high intra-batch similarity, where frames within each batch are near-duplicates. To mitigate this, we propose StreamMAE, which preserves the core MAE reconstruction objective while adapting the input pipeline with stream-aware regularization and motion-biased crop selection. StreamMAE outperforms streaming baselines, matches i.i.d. MAE trained on the same video data, remains competitive with ImageNet-pretrained MAE, and scales positively as the pretraining stream grows from 12 to 95 hours.\n\nAuthors: Ivan Martinović, Lukas Knobel, Yuki M. Asano\nCategories: cs.CV, cs.CV",
+  "word_count": 184,
+  "published_at": "2026-09-30T17:57:30Z",
+  "ingested_at": "2026-10-01T11:05:21.284Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

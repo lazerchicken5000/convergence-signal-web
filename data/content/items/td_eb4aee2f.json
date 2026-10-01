@@ -1,0 +1,39 @@
+{
+  "id": "td_eb4aee2f",
+  "source": "arxiv",
+  "source_id": "2609.40353",
+  "source_url": "https://arxiv.org/abs/2609.40353",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiahao_zhang",
+    "name": "Jiahao Zhang",
+    "handle": "Jiahao Zhang, Yeying Fan, Moitreya Chatterjee, Suhas Lohit, Bernhard Egger, Tim K. Marks, Anoop Cherian, Stephen Gould",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
+  "body_text": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents\n\nThe task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning? To investigate this question, we introduce AssemblyWorld, an interactive 3D environment in which agents inspect rendered views and manipulate supplied rigid parts, guided by images or assembly manuals when available. Agents perceive part geometry through 2D views rather than direct access to mesh vertices or faces, while their resulting assemblies are evaluated geometrically. Building on this environment, we construct AssemblyWorldBench, comprising 100 assembly tasks across 80 objects spanning furniture, industrial assembly, and fracture reassembly. Evaluating eight agent systems reveals substantial differences in their capabilities. The strongest system achieves 80.9% part accuracy but 59.4% complete-assembly success. The evaluated open-source systems lag substantially behind their stronger closed-source peers in both execution reliability and assembly accuracy. Analyses of visual references, interaction trajectories, and failures show how agents revise assemblies while leaving residual positioning errors. AssemblyWorld provides a common setting for both assessing the capabilities of interactive assembly agents and characterizing the gap between approximate structure recovery and precise reconstruction.\n\nAuthors: Jiahao Zhang, Yeying Fan, Moitreya Chatterjee, Suhas Lohit, Bernhard Egger, Tim K. Marks, Anoop Cherian, Stephen Gould\nCategories: cs.CV, cs.RO, cs.CV",
+  "word_count": 187,
+  "published_at": "2026-09-30T17:59:14Z",
+  "ingested_at": "2026-10-01T11:05:13.193Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.RO",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

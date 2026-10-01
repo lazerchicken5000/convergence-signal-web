@@ -1,0 +1,41 @@
+{
+  "id": "td_6ad25993",
+  "source": "arxiv",
+  "source_id": "2609.40322",
+  "source_url": "https://arxiv.org/abs/2609.40322",
+  "content_type": "paper",
+  "creator": {
+    "id": "anson_y._lam",
+    "name": "Anson Y. Lam",
+    "handle": "Anson Y. Lam, Shuqing Li, Michael R. Lyu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MatLoom: Layered Text-to-Material Generation in a Compact Program Space",
+  "body_text": "MatLoom: Layered Text-to-Material Generation in a Compact Program Space\n\nMaterial generation should produce not only an appearance, but also the rules that construct it. We introduce MatLoom, a compact, layer-oriented language for text-to-material generation with pretrained language models. Each program composes alpha-masked layers whose shared spatial expressions define coverage and physically based rendering (PBR) channels, making dependencies between patterns, color, and relief explicit. A standalone interpreter evaluates the program into material maps, while the source retains named fields and layer parameters for subsequent authoring. Without task-specific fine-tuning, our pipeline uses parser-guided repair and preview-based critique to revise material designs, then searches noise seeds while keeping each candidate's remaining source fixed. On a curated benchmark of 141 prompts evaluated with six backbones, our best-performing configuration achieves higher mean scores than three diffusion baselines on all four flat-layout prompt-alignment metrics. Its initial programs already exceed all three baselines on mean BLIPScore, before critique or seed search. Retained programs have a median length of 21 lines when pooled across backbones. In a blind four-way comparison involving 30 participants and 20 prompts, our renders receive 59.2% of choices, compared with 19.3% for the most-preferred baseline. Compact executable programs thus offer a way to generate prompt-aligned materials while retaining their construction as part of the asset.\n\nAuthors: Anson Y. Lam, Shuqing Li, Michael R. Lyu\nCategories: cs.CV, cs.AI, cs.CL, cs.MM, cs.CV",
+  "word_count": 202,
+  "published_at": "2026-09-30T17:55:06Z",
+  "ingested_at": "2026-10-01T11:04:49.772Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.MM",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

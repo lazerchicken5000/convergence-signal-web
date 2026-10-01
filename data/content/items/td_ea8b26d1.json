@@ -1,0 +1,38 @@
+{
+  "id": "td_ea8b26d1",
+  "source": "arxiv",
+  "source_id": "2609.40330",
+  "source_url": "https://arxiv.org/abs/2609.40330",
+  "content_type": "paper",
+  "creator": {
+    "id": "tunyu_zhang",
+    "name": "Tunyu Zhang",
+    "handle": "Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
+  "body_text": "Turbo Harness: Instance-Adaptive Harness Optimization\n\nAutomating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically produce a single global harness that is applied uniformly across task instances. However, a harness that works well on average may not be optimal for every instance. We introduce Turbo Harness, a framework that can adapt a globally optimized harness to each instance by reusing information generated during the original optimization process. Specifically, Turbo Harness recycles artifacts produced during a completed global harness optimization run, and summarizes them into a structured playbook. We train a harness editor to leverage this prior optimization experience to generate instance-specific patches to the global harness. At inference time, the editor uses the instance and the playbook to construct a tailored harness in which the execution model operates. Through numerical experiments, we show that Turbo Harness consistently outperforms existing harness optimization baselines across seven benchmarks spanning interactive agent tasks, software engineering, and long-horizon terminal tasks.\n\nAuthors: Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas\nCategories: cs.AI, cs.AI",
+  "word_count": 160,
+  "published_at": "2026-09-30T17:56:09Z",
+  "ingested_at": "2026-10-01T11:04:49.772Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
