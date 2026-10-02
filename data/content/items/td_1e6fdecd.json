@@ -1,0 +1,38 @@
+{
+  "id": "td_1e6fdecd",
+  "source": "arxiv",
+  "source_id": "2610.02157",
+  "source_url": "https://arxiv.org/abs/2610.02157",
+  "content_type": "paper",
+  "creator": {
+    "id": "suying_liu",
+    "name": "Suying Liu",
+    "handle": "Suying Liu, Zitai Xu, Alexey V. Gorshkov, Xiaodi Wu, Yu-Xin Wang, Zhi-Yuan Wei",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning Many-Body Hamiltonians Using a Local Probe",
+  "body_text": "Learning Many-Body Hamiltonians Using a Local Probe\n\nHamiltonian learning provides a systematic framework for reconstructing unknown quantum dynamics. However, existing protocols typically assume direct measurement access to the entire system. With fast single-qubit control and a connected reference backbone, we show that a single measurable qubit suffices to learn all $O(N)$ independent parameters of a bounded-degree two-body Hamiltonian on $N$ qubits at the Heisenberg limit. Crucially, our protocol uses robust SWAP gates synthesized by quantum signal processing, enabling coherent transfer of states evolving under distant Hamiltonian parameters to the measurable qubit. This transfer requires no prior calibration of the Hamiltonian parameters of the intermediate links. A parallel learning architecture achieves total query time $\\widetilde{O}(N)$ for an $N$-qubit chain, while retaining Heisenberg-limited precision scaling. On the chain, these scalings match the fundamental precision and information-propagation lower bounds up to logarithmic factors. The framework further extends to arbitrary bounded-degree interaction graphs. Our results establish a scalable route to learning an extensive number of many-body Hamiltonian parameters through only a local measurement interface.\n\nAuthors: Suying Liu, Zitai Xu, Alexey V. Gorshkov, Xiaodi Wu, Yu-Xin Wang, Zhi-Yuan Wei\nCategories: quant-ph, quant-ph",
+  "word_count": 163,
+  "published_at": "2026-10-01T17:51:57Z",
+  "ingested_at": "2026-10-02T11:05:57.596Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

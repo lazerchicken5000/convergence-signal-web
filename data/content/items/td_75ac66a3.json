@@ -1,0 +1,39 @@
+{
+  "id": "td_75ac66a3",
+  "source": "arxiv",
+  "source_id": "2610.02190",
+  "source_url": "https://arxiv.org/abs/2610.02190",
+  "content_type": "paper",
+  "creator": {
+    "id": "cristian_mcgee",
+    "name": "Cristian McGee",
+    "handle": "Cristian McGee, El Houcine Bergou, Aritra Dutta",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
+  "body_text": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning\n\nStep-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine \\textbf{Z}ero-and-\\textbf{F}irst-\\textbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples direction selection from step-size. ZFO uses a trusted first-order optimizer to determine the direction and performs zeroth-order evaluations only along this one-dimensional subspace to choose how far to move. Using the current {gradient information} and two additional objective function evaluations, ZFO instances construct a local model of the objective function along the proposed direction and select a curvature-aware step within a bounded search interval. This yields an adaptive step-selection mechanism that costs less than a full line search. We provide theoretical guarantees to show that shared-sample evaluations produce reliable finite-difference curvature estimates, that the induced local model selects a near-optimal step along the search interval, and that ZFO converges to a neighborhood of a stationary point. Across the evaluated settings, language models and datasets, ZFO frequently improves optimization and final performance relative to fixed-step first-order baselines, with the magnitude and preferred local model depending on the objective. Our code is publicly available at: https://github.com/nizswan/Zeroth-First-Order-Framework.\n\nAuthors: Cristian McGee, El Houcine Bergou, Aritra Dutta\nCategories: cs.LG, math.OC, cs.LG",
+  "word_count": 186,
+  "published_at": "2026-10-01T17:59:28Z",
+  "ingested_at": "2026-10-02T11:05:33.278Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.OC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
