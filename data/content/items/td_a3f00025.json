@@ -1,0 +1,38 @@
+{
+  "id": "td_a3f00025",
+  "source": "arxiv",
+  "source_id": "2610.03531",
+  "source_url": "https://arxiv.org/abs/2610.03531",
+  "content_type": "paper",
+  "creator": {
+    "id": "nudrat_habib",
+    "name": "Nudrat Habib",
+    "handle": "Nudrat Habib, Tosin Adewumi, Sana Sabah Al-Azzawi, Marcus Liwicki, Elisa Barney",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Author Representation Strategies for Zero-Shot Authorship Attribution: A Comparative Study of LLM-Based and Embedding-Based Approaches",
+  "body_text": "Author Representation Strategies for Zero-Shot Authorship Attribution: A Comparative Study of LLM-Based and Embedding-Based Approaches\n\nAuthorship Attribution (AA) requires capturing fine-grained stylistic characteristics, making it particularly challenging in zero-shot (ZS) settings where no task-specific supervision is available. In this work, we investigate the effect of author representations on ZS AA by evaluating a label-only prompting baseline together with three author representation strategies: representative writing samples, LLM-generated descriptions, and style embeddings (LISA). The first three approaches perform attribution using LLM prompting, while the embedding-based approach uses style embeddings with cosine similarity. We investigate the influence of prompt design and propose a two-stage embedding-based attribution framework that combines candidate space reduction with embedding-dimension selection. The results show that label-only ZS AA is ineffective, while incorporating author-specific representations consistently improves attribution performance. Among the evaluated approaches, the proposed two-stage LISA framework achieves the strongest overall performance, whereas LLM-generated style descriptions provide a substantially more compact representation of author style at the cost of some attribution performance. These findings demonstrate the importance of author representation in ZS AA, while indicating that current open-source LLMs remain insufficient for robust attribution without more effective representation learning.\n\nAuthors: Nudrat Habib, Tosin Adewumi, Sana Sabah Al-Azzawi, Marcus Liwicki, Elisa Barney\nCategories: cs.CL, cs.CL",
+  "word_count": 175,
+  "published_at": "2026-10-02T16:16:47Z",
+  "ingested_at": "2026-10-05T11:09:02.567Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

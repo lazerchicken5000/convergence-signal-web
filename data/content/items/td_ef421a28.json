@@ -1,0 +1,38 @@
+{
+  "id": "td_ef421a28",
+  "source": "arxiv",
+  "source_id": "2610.03702",
+  "source_url": "https://arxiv.org/abs/2610.03702",
+  "content_type": "paper",
+  "creator": {
+    "id": "lyuxin_david_zhang",
+    "name": "Lyuxin David Zhang",
+    "handle": "Lyuxin David Zhang, Eric Wong, Surbhi Goel, Anton Xue",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
+  "body_text": "LESSER: Post-Training Data Selection with Output-Layer Gradients\n\nThe choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training data by how well their gradients align with those of a small validation set. However, ranking with full-parameter gradients requires an expensive backward pass on every sample, making computation intractable for large candidate pools. This raises a natural question: can we approximate full-gradient features at a fraction of the cost? Conveniently, we find that output-layer gradients suffice for effective data selection, yet require only the cheaper forward pass. We implement this as LESSER, a drop-in wrapper for selection methods that reduces the feature-extraction FLOP cost by $9.7\\times$ for SFT and $3.0\\times$ for RL benchmarks, while tracking full-gradient performance on downstream tasks. Empirically, we find that even when output-layer and full gradients rank individual samples differently, they select batches with aligned gradients.\n\nAuthors: Lyuxin David Zhang, Eric Wong, Surbhi Goel, Anton Xue\nCategories: cs.LG, cs.LG",
+  "word_count": 144,
+  "published_at": "2026-10-02T17:55:42Z",
+  "ingested_at": "2026-10-05T11:09:14.826Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

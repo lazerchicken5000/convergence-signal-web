@@ -1,0 +1,38 @@
+{
+  "id": "td_f1f21e3c",
+  "source": "arxiv",
+  "source_id": "2610.03689",
+  "source_url": "https://arxiv.org/abs/2610.03689",
+  "content_type": "paper",
+  "creator": {
+    "id": "yunus_serhat_bıçakçı",
+    "name": "Yunus Serhat Bıçakçı",
+    "handle": "Yunus Serhat Bıçakçı",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SigLIP2 for aerial fire risk classification",
+  "body_text": "SigLIP2 for aerial fire risk classification\n\nWe examine the transfer of a pretrained SigLIP2 image encoder to seven class fire risk classification from aerial imagery. We introduce a reproducible partition of the public FireRisk training mirror and an implementation that records data provenance, preprocessing and model selection. Two initial runs compare a frozen encoder probe with full model adaptation. On the validation partition, full adaptation reaches 63.05% accuracy and 58.94% macro F1, compared with 55.95% and 50.19% for the probe. Both runs use one training seed and select their checkpoint on the same validation partition. These development results support further evaluation of SigLIP2 but do not establish performance on an independent test set or unseen regions. The accompanying code provides a common framework for repeated experiments and comparisons with additional visual encoders.\n\nAuthors: Yunus Serhat Bıçakçı\nCategories: cs.CV, cs.CV",
+  "word_count": 126,
+  "published_at": "2026-10-02T17:52:34Z",
+  "ingested_at": "2026-10-05T11:09:46.009Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

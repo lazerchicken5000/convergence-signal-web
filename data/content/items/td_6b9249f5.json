@@ -1,0 +1,38 @@
+{
+  "id": "td_6b9249f5",
+  "source": "arxiv",
+  "source_id": "2610.03698",
+  "source_url": "https://arxiv.org/abs/2610.03698",
+  "content_type": "paper",
+  "creator": {
+    "id": "neel_varma",
+    "name": "Neel Varma",
+    "handle": "Neel Varma, Andrew Rufail, Dipika Khullar, Vasu Sharma",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers",
+  "body_text": "Decoding the Functional Roles of Register and High-Norm Patch Tokens in Vision Transformers\n\nSelf-supervised Vision Transformers (ViTs), such as DINOv2, learn rich visual representations, but the functions of their internal tokens remain poorly understood. Recent architectures introduce dedicated register tokens to reduce high-norm out- lier patch tokens that emerge in background re- gions, yet the semantic and functional roles of both token types have not been fully established. In this paper, we analyze these roles by training sparse autoencoders (SAEs) on register-token and outlier-token activations in DINOv2. Using an automated interpretability pipeline, UMAP clus- tering, and CLIP-space cross-checks, we find that register-token features are more strongly associ- ated with high-level semantic concepts. Outlier- token features, by contrast, are more often associ- ated with lower-level structural, background, and texture-dominant patterns. Causal ablations fur- ther reveal a substantial functional asymmetry: disrupting top-activating register-derived features produces a 48.17% drop in representation cosine similarity, whereas disrupting outlier-derived fea- tures produces only a 0.31% drop. Together, our results provide evidence for token specialization in self-supervised ViTs.\n\nAuthors: Neel Varma, Andrew Rufail, Dipika Khullar, Vasu Sharma\nCategories: cs.CV, cs.CV",
+  "word_count": 158,
+  "published_at": "2026-10-02T17:55:06Z",
+  "ingested_at": "2026-10-05T11:09:35.633Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

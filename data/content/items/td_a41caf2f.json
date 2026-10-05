@@ -1,0 +1,38 @@
+{
+  "id": "td_a41caf2f",
+  "source": "arxiv",
+  "source_id": "2610.03711",
+  "source_url": "https://arxiv.org/abs/2610.03711",
+  "content_type": "paper",
+  "creator": {
+    "id": "aditya_gulati",
+    "name": "Aditya Gulati",
+    "handle": "Aditya Gulati, Dakshita Khurana, Kabir Tomer",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "How to Build Pseudorandom Unitaries in Microcrypt",
+  "body_text": "How to Build Pseudorandom Unitaries in Microcrypt\n\nWe provide the first evidence relative to a classical oracle that pseudorandom unitaries (PRUs) can exist without quantum-computable one-way functions. To obtain this result, we first prove that five independent random diagonal phase layers interleaved with Hadamard transforms \\[ U=F_5HF_4HF_3HF_2HF_1 \\] form a strong PRU with security under adaptive, controlled access to the unitary, its inverse, transpose, and complex conjugate. Our main result is that, when the phase layers are implemented using a classical random oracle O, the construction remains secure against uniform BQP adversaries with coherent access to suitable Boolean completions of classical-input $QMA^{PH}^{O}}$ decision problems. Such an adversary can invert (even quantum-computable) one-way functions and solve efficiently verifiable one-way puzzles defined relative to O. Our result therefore provides classical-oracle evidence that PRUs do not imply quantum-computable one-way functions, in the form of a black-box separation. We substantially strengthen the classical-oracle result of Kretschmer, Qian, and Tal (STOC 2025) by obtaining PRUs secure against these QMA-aided adversaries. Our construction also consists of a simple, efficient circuit that queries a random function, suggesting a route to concrete implementation via the random-oracle heuristic.\n\nAuthors: Aditya Gulati, Dakshita Khurana, Kabir Tomer\nCategories: quant-ph, quant-ph",
+  "word_count": 182,
+  "published_at": "2026-10-02T17:58:06Z",
+  "ingested_at": "2026-10-05T11:09:46.009Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

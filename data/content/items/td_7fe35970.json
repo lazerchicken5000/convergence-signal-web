@@ -1,0 +1,39 @@
+{
+  "id": "td_7fe35970",
+  "source": "arxiv",
+  "source_id": "2610.03620",
+  "source_url": "https://arxiv.org/abs/2610.03620",
+  "content_type": "paper",
+  "creator": {
+    "id": "yudong_lin",
+    "name": "Yudong Lin",
+    "handle": "Yudong Lin, Haoyuan Deng, Zhuoxuan Yuan, Zaijia Yang, Yuanjiang Xue, Ziwei Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "UniIntervene++: An Adaptive Intervention Agent for Efficient Real-World Reinforcement Learning",
+  "body_text": "UniIntervene++: An Adaptive Intervention Agent for Efficient Real-World Reinforcement Learning\n\nOnline reinforcement learning (RL) enables robot policies to improve through physical interaction, but the assistance they require changes as their competence evolves. Existing intervention strategies based on offline estimates or fixed decision rules can therefore become mismatched to the current policy. To address this, we propose UniIntervene++, an adaptive intervention agent that learns to allocate control between autonomous execution and heterogeneous assisted behaviors during online RL. Specifically, UniIntervene++ first formulates the evolving RL policy, trajectory correction, and a task-structured CodePolicy as Options in a unified semi-Markov decision process and learns their relative values online. Building on this, competence-adaptive intervention periodically probes the RL policy through unassisted execution, keeping control allocation responsive to its evolving capability. Finally, coupled experience learning allows assisted behaviors to improve the RL policy, whose evolving outcomes in turn reshape future intervention decisions. In this way, UniIntervene++ jointly determines when to intervene, how to intervene, and when to return control as the RL policy improves. Across five real-world manipulation tasks, UniIntervene++ achieves an average success rate of 89.67%, outperforming all baselines by at least 6 percentage points, while reducing human intervention to 0.77%, a relative reduction of at least 94.6% from the best baseline. Code is available in our \\href{https://github.com/dannyyudong/An-Adaptive-Intervention-Agent-for-Efficient-Real-World-Reinforcement-Learning}{GitHub repository}.\n\nAuthors: Yudong Lin, Haoyuan Deng, Zhuoxuan Yuan, Zaijia Yang, Yuanjiang Xue, Ziwei Wang\nCategories: cs.LG, cs.RO, cs.LG",
+  "word_count": 204,
+  "published_at": "2026-10-02T17:18:12Z",
+  "ingested_at": "2026-10-05T11:09:23.457Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.RO",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

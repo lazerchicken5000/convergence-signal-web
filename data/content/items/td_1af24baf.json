@@ -1,0 +1,38 @@
+{
+  "id": "td_1af24baf",
+  "source": "arxiv",
+  "source_id": "2610.03643",
+  "source_url": "https://arxiv.org/abs/2610.03643",
+  "content_type": "paper",
+  "creator": {
+    "id": "jafar_norolahi",
+    "name": "Jafar Norolahi",
+    "handle": "Jafar Norolahi, Alireza Vahid",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SAC-Controlled RIS-Assisted Monopulse Radar for Multipath-Robust Vital-Sign Localization",
+  "body_text": "SAC-Controlled RIS-Assisted Monopulse Radar for Multipath-Robust Vital-Sign Localization\n\nContactless radar sensing offers a promising approach to continuous vital-sign monitoring. However, indoor multipath can distort direction estimates and generate ghost responses. This paper presents a reconfigurable intelligent surface (RIS)-assisted monopulse radar whose RIS phase configuration is controlled by a soft actor-critic agent to improve angular localization. The proposed framework combines simultaneous sum and difference beams with a programmable reflected path, enabling a single radar node to adapt the propagation environment without relying on multiple synchronized sensors. A compact multipath model formulates RIS control as a continuous-action reinforcement-learning problem whose reward penalizes bearing errors and misleading multipath reinforcement. Numerical results compare the proposed method with conventional monopulse processing without an RIS, a frequency-modulated continuous-wave range-angle fast Fourier transform baseline, random RIS phase configurations, and deterministic RIS controllers. The evaluation considers different target separations, signal-to-noise ratio levels, and multipath conditions.\n\nAuthors: Jafar Norolahi, Alireza Vahid\nCategories: eess.SP, eess.SP",
+  "word_count": 139,
+  "published_at": "2026-10-02T17:29:49Z",
+  "ingested_at": "2026-10-05T11:09:23.456Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SP",
+    "eess.SP"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

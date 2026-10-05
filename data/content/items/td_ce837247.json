@@ -1,0 +1,38 @@
+{
+  "id": "td_ce837247",
+  "source": "arxiv",
+  "source_id": "2610.03622",
+  "source_url": "https://arxiv.org/abs/2610.03622",
+  "content_type": "paper",
+  "creator": {
+    "id": "parastoo_ali_pour",
+    "name": "Parastoo Ali Pour",
+    "handle": "Parastoo Ali Pour, Deepak Prakash Kumar, Tommy Zhou, Pramod Khargonekar, Mohammad Abdullah Al Faruque",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CORNAV: Construction-Aware Reasoning for Robot Navigation on Active Worksites",
+  "body_text": "CORNAV: Construction-Aware Reasoning for Robot Navigation on Active Worksites\n\nThe construction industry faces persistent labor shortages, low productivity that costs the global economy over $1.6 trillion annually, and one of the highest injury rates among major industries. These factors motivate the use of autonomous robots to improve efficiency and worker safety. Existing language-grounded navigation systems, however, rely on semantic scene understanding alone and lack access to construction-specific context such as architectural plans, evolving work schedules, and safety constraints. As a result, they localize permanent building features unreliably and cannot safely navigate active jobsites. We present CORNAV, a blueprint-grounded, schedule-aware navigation framework that operates from 2D CAD drawings and project schedules without requiring a Building Information Model. CORNAV aligns architectural blueprints against hierarchical open-vocabulary 3D scene graphs to ground object queries, converts project schedules into time-varying navigation constraints, and validates requests through an LLM-based safety module that escalates hazardous zones before planning. An A* planner then enforces mandatory exclusion zones while preferentially avoiding higher-risk areas. Across an indoor office and a real construction site, blueprint grounding raises task success from 13.0% to 72.2% over semantic retrieval alone, schedule awareness eliminates all hard-zone violations, and the safety module correctly rejects hazardous requests arising from mislabeled project schedules.\n\nAuthors: Parastoo Ali Pour, Deepak Prakash Kumar, Tommy Zhou, Pramod Khargonekar, Mohammad Abdullah Al Faruque\nCategories: cs.RO, cs.RO",
+  "word_count": 196,
+  "published_at": "2026-10-02T17:19:05Z",
+  "ingested_at": "2026-10-05T11:09:23.457Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

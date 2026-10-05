@@ -1,0 +1,39 @@
+{
+  "id": "td_96d086ba",
+  "source": "arxiv",
+  "source_id": "2610.03529",
+  "source_url": "https://arxiv.org/abs/2610.03529",
+  "content_type": "paper",
+  "creator": {
+    "id": "nicolas_zucchet",
+    "name": "Nicolas Zucchet",
+    "handle": "Nicolas Zucchet, Scott W. Linderman",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Divergence controls entropy in distillation",
+  "body_text": "Divergence controls entropy in distillation\n\nDistillation has become a core primitive of large language model training, but its properties are not yet well understood. We take an entropic perspective, studying how the entropy of the student depends on the data and the divergence that define the distillation objective. We prove that forward KL inflates the entropy of the student above that of the teacher. Since cross-entropy training is a special case, this yields an identity that we verify quantitatively in pretraining and supervised finetuning. Other divergences come with no such guarantee: reverse KL deflates entropy until the gap between student and teacher gets too large, and interpolating between the two changes entropy smoothly early in training but abruptly at convergence. The lower entropy of on-policy distillation comes from token-level reverse KL, not from on-policy sampling. The divergence therefore acts as an implicit entropy regularizer, whose role is clearest in self-distillation: as conditioning on privileged information deflates entropy, the divergence hyperparameters that work best are those that compensate for it.\n\nAuthors: Nicolas Zucchet, Scott W. Linderman\nCategories: cs.LG, cs.CL, cs.LG",
+  "word_count": 164,
+  "published_at": "2026-10-02T16:15:53Z",
+  "ingested_at": "2026-10-05T11:09:02.567Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_3141ffbf",
+  "source": "arxiv",
+  "source_id": "2610.03656",
+  "source_url": "https://arxiv.org/abs/2610.03656",
+  "content_type": "paper",
+  "creator": {
+    "id": "junyoung_koh",
+    "name": "Junyoung Koh",
+    "handle": "Junyoung Koh, Hao-Wen Dong",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Revisiting Input Time-frequency Representations in Multi-pitch Estimation for Vocal Ensembles",
+  "body_text": "Revisiting Input Time-frequency Representations in Multi-pitch Estimation for Vocal Ensembles\n\nMulti-pitch estimation in vocal ensembles is challenging because singers occupy overlapping pitch ranges and often sing at closely spaced fundamental frequencies, causing their harmonics to overlap in time-frequency representations. Existing models commonly use harmonic constant-Q transform (HCQT)-based representations to provide frequency-adaptive resolution, at the cost of expensive feature extraction when training mixtures are generated on the fly. We revisit this design and compare HCQT with a linear short-time Fourier transform (STFT), whose frequency bins are directly provided as model inputs. Despite its fixed frequency resolution and the absence of a pitch-aligned input grid, the linear STFT outperforms HCQT while substantially reducing feature-extraction cost. Further analysis shows that a longer analysis window or broader spectral coverage provides no additional improvement, while restricting the input to the predicted pitch range reduces the advantage of the linear STFT. These results suggest that finer frequency resolution does not necessarily improve vocal-ensemble MPE, and that shorter analysis windows can be more effective for time-varying vocal pitches.\n\nAuthors: Junyoung Koh, Hao-Wen Dong\nCategories: cs.SD, cs.AI, cs.SD",
+  "word_count": 161,
+  "published_at": "2026-10-02T17:35:06Z",
+  "ingested_at": "2026-10-05T11:08:52.396Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.AI",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

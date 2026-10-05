@@ -1,0 +1,38 @@
+{
+  "id": "td_8d54b939",
+  "source": "arxiv",
+  "source_id": "2610.03684",
+  "source_url": "https://arxiv.org/abs/2610.03684",
+  "content_type": "paper",
+  "creator": {
+    "id": "kishor_bharti",
+    "name": "Kishor Bharti",
+    "handle": "Kishor Bharti, Tobias Haug, Derek Khu, Andrew Tanggara",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Single-Shot Error Correction at Optimal Spacetime Cost",
+  "body_text": "Single-Shot Error Correction at Optimal Spacetime Cost\n\nRecent work established that, for independent erasures, storing $K$ logical qubits for $S$ time steps with error at most $\\varepsilon$ requires a spacetime cost of $Ω(S(K+\\log(S/\\varepsilon)))$. A matching construction was also given, but assumes ideal error correction. Here we show that the same scaling can be achieved with an explicit noisy error-correction circuit and efficient decoding, counting all state-preparation, gate, measurement, and wait locations, provided that the hardware supports long-range qubit connectivity and fast, reliable classical processing. Thus, reliability adds only a logarithmic overhead shared by all stored qubits. The construction works for sufficiently weak but otherwise general circuit noise, including faults during syndrome extraction and correlated faults, and for independent erasures it matches the best known lower bound up to constant factors. We attain this scaling using quantum Tanner codes, with each memory step consisting of one round of syndrome extraction followed by a fixed number of parallel classical decoder steps that reduce the residual error enough to keep later faults correctable, regardless of memory size, storage time, or target accuracy. Together, this gives exponentially small failure probability per step while keeping the cost of each memory step linear in the code size. The same analysis also extends to certain constant-depth logical Clifford operations.\n\nAuthors: Kishor Bharti, Tobias Haug, Derek Khu, Andrew Tanggara\nCategories: quant-ph, quant-ph",
+  "word_count": 205,
+  "published_at": "2026-10-02T17:50:12Z",
+  "ingested_at": "2026-10-05T11:09:46.010Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

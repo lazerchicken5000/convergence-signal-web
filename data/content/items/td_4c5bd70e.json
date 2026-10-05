@@ -1,0 +1,38 @@
+{
+  "id": "td_4c5bd70e",
+  "source": "arxiv",
+  "source_id": "2610.03525",
+  "source_url": "https://arxiv.org/abs/2610.03525",
+  "content_type": "paper",
+  "creator": {
+    "id": "teng_lin",
+    "name": "Teng Lin",
+    "handle": "Teng Lin, Xinyu Liu, Nan Tang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Structured Composition of Verifiable Atomic Insights for Table-to-Report Generation",
+  "body_text": "Structured Composition of Verifiable Atomic Insights for Table-to-Report Generation\n\nTable-to-report generation refers to the task of automatically generating article-level analyt- ical reports from relational tables and is an essential capability for automated data science and decision support. Its central challenge lies in systematically discovering verifiable com- posite insights across tables, attributes, and analytical perspectives, and organizing them into coherent, complete, and traceable evidence chains. Existing methods primarily rely on sequential, reactive data agents or direct Large Language Model(LLM) generation. They suffer from exploration bias: early local observations constrain subsequent actions, causing models to focus prematurely on local analyzes and miss cross-table or cross-dimensional evidence. We propose ComInsight, which reformulates insight discovery as the composition of atomic evidences. We first define an atomic insight as the smallest executable analytical unit conforming to a predefined analysis pattern and enumerate all valid atomic insights from database schema and content. These atoms are then organized into a multi-relational insight graph, where nodes represent verified data facts and edges encode logical, temporal, or hierarchical relations. Finally, a set of composition operators systematically fuses atomic nodes into higher-order composite conclusions. Every composite output is accompanied by executable SQL and fine-grained provenance, ensuring full verifiability. Across three benchmarks InsightBench, DDR-Bench, and T2R-Bench, ComInsight consistently outperforms strong baselines in factual correctness, novelty, and structural completeness. We believe ComInsight offers a reliable, efficient, and explainable path toward table-to-report generation.\n\nAuthors: Teng Lin, Xinyu Liu, Nan Tang\nCategories: cs.CL, cs.CL",
+  "word_count": 221,
+  "published_at": "2026-10-02T16:14:18Z",
+  "ingested_at": "2026-10-05T11:09:02.568Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_fef8101d",
+  "source": "arxiv",
+  "source_id": "2610.03712",
+  "source_url": "https://arxiv.org/abs/2610.03712",
+  "content_type": "paper",
+  "creator": {
+    "id": "yiming_huang",
+    "name": "Yiming Huang",
+    "handle": "Yiming Huang, Lennart Bastian, Hanqun Cao, Luis Vollmers, Tolga Birdal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
+  "body_text": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics\n\nRibonucleic acid (RNA) functions through conformational changes that are not fully captured by static structures. However, large-scale standardized RNA dynamics data remain limited, and existing approaches typically treat trajectory generation and dynamics understanding as separate objectives. Here, we introduce RNADynBench, a standardized RNA molecular dynamics (MD) benchmark with 2585 quality-controlled 100-ns all-atom trajectories and leakage-controlled splits. Building on RNADynBench, we develop RNADynNet, a unified model for RNA dynamics learning that uses a shared backbone for both trajectory generation and dynamics fingerprint extraction from a single conformer. It combines coordinate denoising, single-frame-to-trajectory alignment, and physical grounding to connect all-atom trajectory generation with dynamics representation learning. Physical grounding improves both generated dynamics and the physical information recoverable from these fingerprints. Across both test sets, including the high-flexibility challenge set, the generated trajectories achieve RMSF correlations of 0.875 and 0.766, while single-conformer predictions show comparable agreement with MD-derived dynamics. RNADynBench and RNADynNet together establish a benchmark and unified modeling framework for generating and understanding RNA dynamics.\n\nAuthors: Yiming Huang, Lennart Bastian, Hanqun Cao, Luis Vollmers, Tolga Birdal\nCategories: cs.LG, physics.bio-ph, q-bio.BM, cs.LG",
+  "word_count": 163,
+  "published_at": "2026-10-02T17:58:08Z",
+  "ingested_at": "2026-10-05T11:09:14.826Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "physics.bio-ph",
+    "q-bio.BM",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
