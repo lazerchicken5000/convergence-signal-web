@@ -1,0 +1,38 @@
+{
+  "id": "td_5e27adb3",
+  "source": "arxiv",
+  "source_id": "2610.06848",
+  "source_url": "https://arxiv.org/abs/2610.06848",
+  "content_type": "paper",
+  "creator": {
+    "id": "joshua_kalyanapu",
+    "name": "Joshua Kalyanapu",
+    "handle": "Joshua Kalyanapu, Darsh Asher, Kaushal Mhapsekar, Bita Aslrousta, Rushiraj Chaitanyakumar Sheth, Maharshi Mukeshkumar Oza, Achyuta Kannan, Samira Mirbagher Ajorpaz",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
+  "body_text": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify\n\nMembership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-time, static neural networks with masked confidence. This paper performs the first cycle-level examination of how large language models and vision transformers interact with various modern microarchitecture components, including integrated accelerators, as LLMs scale in size and answers the question of whether the data that a model was trained on affects its execution footprint even without any input-dependent branch, dynamic optimization, or early exit and in constant-time models. The results confirm that the answer is yes and identify which modern hardware components, such as TLBs or on-core accelerators, reveal or amplify that effect. The results also answer whether the signal is informative enough to reliably classify the in-/vs/out-of-distribution property of membership. To understand why, we perform a systematic root cause analysis and find that the transformer's tokenization steps, which happen during training, alter the locality of the accesses the model makes to fetch the vocabulary token later during inference and, as a result, change the page table access patterns and TLB in a previously unknown data-dependent way, causing microarchitectural state to vary significantly based on whether or not the input was in the distribution of the transformer training data. Building on the above observation, we introduce TranScope: the first microarchitecture tool for detecting membership information with low cost, no need for a surrogate model, and significantly higher robustness, e.g., 0.6 AUC for PETAL (best previously reported) vs 0.9 AUC (ours). This reintroduces hardware as both an opportunity, e.g., a tool for checking copyright violation for the first time, and a new channel for inferring membership (MIA).\n\nAuthors: Joshua Kalyanapu, Darsh Asher, Kaushal Mhapsekar, Bita Aslrousta, Rushiraj Chaitanyakumar Sheth, Maharshi Mukeshkumar Oza, Achyuta Kannan, Samira Mirbagher Ajorpaz\nCategories: cs.CR, cs.CR",
+  "word_count": 278,
+  "published_at": "2026-10-05T17:59:42Z",
+  "ingested_at": "2026-10-06T11:05:29.324Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

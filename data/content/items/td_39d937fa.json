@@ -1,0 +1,38 @@
+{
+  "id": "td_39d937fa",
+  "source": "arxiv",
+  "source_id": "2610.06782",
+  "source_url": "https://arxiv.org/abs/2610.06782",
+  "content_type": "paper",
+  "creator": {
+    "id": "olga_tsymboi",
+    "name": "Olga Tsymboi",
+    "handle": "Olga Tsymboi, Ramil Latypov, Aleksandr Medvedev, Danil Taranets, Dmitrii Stoianov, Nikita Gulyakov, Gleb Alektorov, Anatolii Potapov",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "T-Search: An Open Agentic Retriever and Playground for Hard Multi-Step Search",
+  "body_text": "T-Search: An Open Agentic Retriever and Playground for Hard Multi-Step Search\n\nWe present T-Search, an open-weight agentic retriever for hard multi-step search. Given a question and a search tool over a fixed corpus, it runs a bounded multi-round search and returns a ranked list of evidence chunks with short justifications, leaving answer generation to a downstream model, so backend and generator can be swapped without retraining. T-Search is built on Qwen3.6-35B-A3B and trained on adversarially filtered synthetic search tasks with round-sliced supervised fine-tuning followed by GSPO on a recall reward. Averaged over seven English and Russian benchmarks with gold evidence annotations, it reaches 56.0 Recall@10 with one rollout, 14.4 points above its base, and 61.3 with three fused rollouts, outperforming larger open models. We release the model, harness, live demo, and three benchmarks, including TRuST, the first native-Russian hard-search benchmark.\n\nAuthors: Olga Tsymboi, Ramil Latypov, Aleksandr Medvedev, Danil Taranets, Dmitrii Stoianov, Nikita Gulyakov, Gleb Alektorov, Anatolii Potapov\nCategories: cs.CL, cs.CL",
+  "word_count": 129,
+  "published_at": "2026-10-05T17:44:26Z",
+  "ingested_at": "2026-10-06T11:05:12.345Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "td_0e90c8c3",
+  "source": "arxiv",
+  "source_id": "2610.06822",
+  "source_url": "https://arxiv.org/abs/2610.06822",
+  "content_type": "paper",
+  "creator": {
+    "id": "amartya_sanyal",
+    "name": "Amartya Sanyal",
+    "handle": "Amartya Sanyal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Private online learning and prediction for Littlestone classes",
+  "body_text": "Private online learning and prediction for Littlestone classes\n\nWe study mistake bounds for differentially private online learning and online prediction under oblivious realisable adversaries. Online learning requires the learner to release a hypothesis at each time step whereas in online prediction, the learner only needs to make predictions without releasing a hypothesis. Using a novel lower bound for private online learning and an upper bound for private prediction, we show that the sample complexity of these two problems are separated by a factor that grows with the time horizon for every class of finite Littlestone dimension $d$. First, we prove that every $\\br{ε,δ}$-private online learner has a deterministic realisable stream of length $T$ on which the mistake bound is at least $\\bE\\bs{M_T}=\\Om{\\frac dε\\log\\br{ T}^{2/3}}$. In particular, this is the first non-trivial lower in the range $1/T&lt;δ&lt;1/\\log T)$ left open in earlier works[SR22,DSS24,LWY24]. Second, we prove that for every class of of Littlestone dimension $d$, there exists an $(ε,δ)$-jointly private predictor with at most $2^{2^{cd^2}}ε^{-2}\\log^2\\br{2/\\br{εδ}}$ expected mistakes, independently of $T$, for some absolute constant $c&gt;0$. Thus, for every fixed class of finite Littlestone dimension when $δ=Θ\\br{1/\\log T}$, private learning requires $\\Om{\\br{\\log T}^{2/3}}$ expected mistakes, whereas private prediction admits $\\bigO{\\br{\\log\\log T}^2}$.\n\nAuthors: Amartya Sanyal\nCategories: cs.LG, cs.CR, stat.ML, cs.LG",
+  "word_count": 191,
+  "published_at": "2026-10-05T17:56:47Z",
+  "ingested_at": "2026-10-06T11:05:20.393Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CR",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

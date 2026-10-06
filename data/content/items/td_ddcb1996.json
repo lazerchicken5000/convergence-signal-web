@@ -1,0 +1,40 @@
+{
+  "id": "td_ddcb1996",
+  "source": "arxiv",
+  "source_id": "2610.06798",
+  "source_url": "https://arxiv.org/abs/2610.06798",
+  "content_type": "paper",
+  "creator": {
+    "id": "joão_böger",
+    "name": "João Böger",
+    "handle": "João Böger, Simon Driscoll, Niccolò Zagli, Valerio Lucarini, Francisco Camara Pereira",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Response Theory Probe for Learned Stochastic AI Simulators, Tested on Lorenz-63",
+  "body_text": "A Response Theory Probe for Learned Stochastic AI Simulators, Tested on Lorenz-63\n\nMachine-learning emulators of chaotic and stochastic systems are usually validated on forecast skill and long-run statistics. Neither certifies that an emulator responds correctly to forcing, the property that projection and attribution studies rely on. Linear response theory makes this testable: the forced response follows from unperturbed correlations through a generalized fluctuation-dissipation relation, and decomposes over the stochastic Ruelle-Pollicott resonances of the Koopman generator. Building on the Koopmanism Response framework, we turn this into a calibrated, mode-resolved test for learned surrogates: each surrogate rollout passes or fails each check, and failure rates are compared with those of independent realizations of the true system. On stochastic Lorenz-63, a three-variable toy model, we evaluate SINDy, an MLP, a reservoir computer, a neural ODE and a neural SDE with learned diffusion, over up to 80 rollouts each. A sparse-regression model with the correct library passes every check at rates consistent with the true system. Invariant-statistics fidelity and response fidelity dissociate in both directions: a quarter of reservoir-computer rollouts pass every invariant-statistics check and match the static susceptibility $χ(0)$, yet misrepresent the slow relaxation modes, while the neural ODE and SDE rarely meet the invariant-statistics floor but recover those modes in three quarters of rollouts. As expected of a time-integrated quantity dominated here by fast relaxation, $χ(0)$ does not separate these cases. For a fixed network, the training formulation (one-step drift, flow map, or multi-step through the integrator) decides which of these properties it gets right.\n\nAuthors: João Böger, Simon Driscoll, Niccolò Zagli, Valerio Lucarini, Francisco Camara Pereira\nCategories: math.DS, cs.LG, nlin.CD, math.DS",
+  "word_count": 241,
+  "published_at": "2026-10-05T17:51:23Z",
+  "ingested_at": "2026-10-06T11:05:46.334Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.DS",
+    "cs.LG",
+    "nlin.CD",
+    "math.DS"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

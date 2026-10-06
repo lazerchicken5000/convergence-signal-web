@@ -1,0 +1,38 @@
+{
+  "id": "td_3c7eef49",
+  "source": "arxiv",
+  "source_id": "2610.06790",
+  "source_url": "https://arxiv.org/abs/2610.06790",
+  "content_type": "paper",
+  "creator": {
+    "id": "je_yang",
+    "name": "Je Yang",
+    "handle": "Je Yang, Ivan Lobov, Thomas Karpati",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
+  "body_text": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification\n\nThe unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Language Models (LLMs) have made rapid inroads into Electronic Design Automation (EDA), approximately 74.6% of existing studies target static Register-Transfer Level (RTL) code generation, leaving post-simulation verification and interactive waveform debugging largely untouched. We introduce Back-to-the-Future (BTTF), an end-to-end agentic framework that closes this infrastructural gap. BTTF distills massive, unstructured simulation dumps into a normalized relational SQLite database and couples it with a collaborative multi-agent orchestration engine that translates natural-language verification queries into schema-aware SQL while correlating signal anomalies with versioned RTL repositories. Across a 150-query benchmark, BTTF attains 95.33% execution accuracy, charting a practical path toward autonomous EDA verification.\n\nAuthors: Je Yang, Ivan Lobov, Thomas Karpati\nCategories: cs.AI, cs.AI",
+  "word_count": 125,
+  "published_at": "2026-10-05T17:48:14Z",
+  "ingested_at": "2026-10-06T11:05:29.325Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
