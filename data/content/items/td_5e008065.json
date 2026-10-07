@@ -1,0 +1,39 @@
+{
+  "id": "td_5e008065",
+  "source": "arxiv",
+  "source_id": "2610.08716",
+  "source_url": "https://arxiv.org/abs/2610.08716",
+  "content_type": "paper",
+  "creator": {
+    "id": "hicham_randrianarivo",
+    "name": "Hicham Randrianarivo",
+    "handle": "Hicham Randrianarivo, Logan Renaud, Alexia Allal",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Disentangling Paradigm, Identifier, and Decoding in Generative Retrieval",
+  "body_text": "Disentangling Paradigm, Identifier, and Decoding in Generative Retrieval\n\nGenerative retrieval trains a language model to generate the identifier of a relevant document. Recent work replaces the autoregressive decoder with diffusion, but changes identifiers, training recipe and decoding at once, so differences cannot be credited to the paradigm. On NQ320K and MS300K, we train autoregressive, masked-diffusion and block-diffusion models with residual-quantised, product-quantised and random identifiers. With identifier length and training budget fixed, we decode each model in several ways. Decoding alone moves a diffusion model's Hit@1 by 6.6 to 13.7 points. Our reference diffusion decoding, generate-and-match, generates an identifier, then retrieves the closest corpus identifiers. The generated identifier is right for 14-21% of NQ320K queries. We test one-pass scoring to decode diffusion retrievers: the model reads a fully masked identifier once, and each document is scored by its codes' probabilities. It matches or beats generate-and-match in 11 of 12 settings. Autoregressive models still lead in Hit@1; on NQ320K, the lead comes from the model, not beam search. Starting from one sampled identifier, one-pass scoring removes 46-83% of masked diffusion's deficit to beam search; from generate-and-match, at most a quarter. On NQ320K, every paradigm largely memorises which identifier answers which query: random identifiers keep 83-90% of the Hit@1 of residual-quantised ones. There, product-quantised identifiers lead residual-quantised ones by 3.4 points in the autoregressive model and by -0.7 to +3.6 in diffusion models; across decodings, AR's gap exceeds diffusion's by 1.5-2.3 points, around our 2-point threshold. Paradigm comparisons must report each paradigm at its own recipe and best decoding.\n\nAuthors: Hicham Randrianarivo, Logan Renaud, Alexia Allal\nCategories: cs.IR, cs.CL, cs.IR",
+  "word_count": 248,
+  "published_at": "2026-10-06T17:23:47Z",
+  "ingested_at": "2026-10-07T11:05:24.015Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.CL",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

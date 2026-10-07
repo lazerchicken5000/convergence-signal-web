@@ -1,0 +1,39 @@
+{
+  "id": "td_d0ad94f6",
+  "source": "arxiv",
+  "source_id": "2610.08743",
+  "source_url": "https://arxiv.org/abs/2610.08743",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenwen_si",
+    "name": "Wenwen Si",
+    "handle": "Wenwen Si, Honghao Wei",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+  "body_text": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation\n\nSequential recommenders typically use a fixed slate size even though the number of useful alternatives changes within a session. We propose Reinforcement Learning with Calibrated Pruning (RLCP), which adapts the retained action set using critic scores and an online threshold. The threshold is updated from binary feedback indicating whether the set contains an action in a proxy target. We prove a deterministic bound on the observed proxy miss rate along adaptive trajectories. To quantify the effect of pruning on reward, we derive an exact decomposition of value loss into filtering and selection losses. Under explicit proxy and critic approximation conditions, this decomposition yields a finite session reward bound that also accounts for imperfect selection and set truncation, without requiring the learning parameters to converge. Experiments on KuaiRand-Pure and MovieLens 1M compare two RLCP implementations with four RL baselines. In each of the 19 configurations, at least one RLCP variant achieves the highest catalog diversity, reaching $1.11\\times$ to $5.21\\times$ that of the strongest baseline, with competitive session depth and no larger retained sets.\n\nAuthors: Wenwen Si, Honghao Wei\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 172,
+  "published_at": "2026-10-06T17:40:52Z",
+  "ingested_at": "2026-10-07T11:05:16.194Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

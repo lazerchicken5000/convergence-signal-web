@@ -1,0 +1,38 @@
+{
+  "id": "td_b11b53a2",
+  "source": "arxiv",
+  "source_id": "2610.08713",
+  "source_url": "https://arxiv.org/abs/2610.08713",
+  "content_type": "paper",
+  "creator": {
+    "id": "hairong_yin",
+    "name": "Hairong Yin",
+    "handle": "Hairong Yin, Huangying Zhan, Shin-Fang Chng, Yi Xu, Raymond A. Yeh",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SpaTime: Streaming Vision-Language Models for Spatio-temporal Reasoning",
+  "body_text": "SpaTime: Streaming Vision-Language Models for Spatio-temporal Reasoning\n\nEmbodied agents must reason about 3D space while the video is still arriving, answering questions as soon as they have observed enough of the scene. VLMs that incorporate 3D geometric priors achieve strong spatial reasoning, but they operate offline, i.e., the full video must be available before they produce an answer. Streaming VLMs process frames causally and decide for themselves when to respond, yet they lack explicit 3D representations. We present SpaTime, a streaming VLM that fuses causal geometry tokens into the language model at every frame, using only the frames observed so far. To supervise when the model answers, we propose a response-time loss that maps per-frame response probabilities to a differentiable expected response time and penalizes the distance from the ground-truth frame. For evaluation, we construct StreamVSTI-Bench and StreamVSI-Bench, streaming adaptations of VSTI-Bench and VSI-Bench. On StreamVSTI-Bench, SpaTime reaches 49.2% overall accuracy and reduces the mean response-time error by 66% relative to the strongest streaming baseline.\n\nAuthors: Hairong Yin, Huangying Zhan, Shin-Fang Chng, Yi Xu, Raymond A. Yeh\nCategories: cs.CV, cs.CV",
+  "word_count": 158,
+  "published_at": "2026-10-06T17:22:33Z",
+  "ingested_at": "2026-10-07T11:05:40.212Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_0a682786",
+  "source": "arxiv",
+  "source_id": "2610.08735",
+  "source_url": "https://arxiv.org/abs/2610.08735",
+  "content_type": "paper",
+  "creator": {
+    "id": "anupam_gupta",
+    "name": "Anupam Gupta",
+    "handle": "Anupam Gupta, Guru Guruganesh, Honghao Lin, Vahab Mirrokni, Renato Paes Leme, David P. Woodruff",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Optimal and Efficient Online Inverse Optimization",
+  "body_text": "Optimal and Efficient Online Inverse Optimization\n\nIn online inverse linear optimization, a learner recommends an action and then observes the choice of an expert who maximizes a fixed, unknown linear objective on $\\mathbb{R}^{d}$; the goal is to learn to optimize this objective without observing it. Sakaue recently obtained the optimal regret $O(\\sqrt d)$ with a randomized algorithm making $(dT)^{O(d)}$ linear optimizations per round, and asked whether it can be attained in polynomial time. We answer positively: our deterministic algorithm has regret $O(\\sqrt d)$ for every horizon $T$ and runs in time polynomial in $d$ and $T$. It is a variant of the variable-metric algorithms of Sakaue et al.\\ and Cai et al., in which a metric update is revoked once the query point moves far enough from where the update was made.\n\nAuthors: Anupam Gupta, Guru Guruganesh, Honghao Lin, Vahab Mirrokni, Renato Paes Leme, David P. Woodruff\nCategories: cs.LG, cs.DS, cs.LG",
+  "word_count": 126,
+  "published_at": "2026-10-06T17:37:24Z",
+  "ingested_at": "2026-10-07T11:05:32.022Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.DS",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

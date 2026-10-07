@@ -1,0 +1,39 @@
+{
+  "id": "td_f33ec8af",
+  "source": "arxiv",
+  "source_id": "2610.08781",
+  "source_url": "https://arxiv.org/abs/2610.08781",
+  "content_type": "paper",
+  "creator": {
+    "id": "ziyu_chen",
+    "name": "Ziyu Chen",
+    "handle": "Ziyu Chen, Yilun Zhao, Jiashuo Sun, Yiling Ma, Manasi Patwardhan, Arman Cohan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+  "body_text": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas\n\nScientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack structured supervision for how papers should be synthesized. We introduce IdeaAnchor, a paradigm for training LLMs to perform research ideation using structured specifications as privileged signals. Each IdeaAnchor instance encodes how each input paper should be synthesized into a successful idea, including their functional roles, relationships, and target synthesis criteria. We build this paradigm by mining instances from published papers, capturing how real ideas emerge from prior literature. We then train models via demonstration, self-distillation, and reinforcement learning, and further enhance generation with retrieval at inference time. Experiments show consistent improvements in ideation quality. Our analysis reveals a functional decomposition: anchor-based training strengthens creative synthesis, retrieval enhances detail elaboration, and combining both yields the best performance.\n\nAuthors: Ziyu Chen, Yilun Zhao, Jiashuo Sun, Yiling Ma, Manasi Patwardhan, Arman Cohan\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 158,
+  "published_at": "2026-10-06T17:59:01Z",
+  "ingested_at": "2026-10-07T11:05:16.193Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

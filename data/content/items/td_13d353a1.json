@@ -1,0 +1,38 @@
+{
+  "id": "td_13d353a1",
+  "source": "arxiv",
+  "source_id": "2610.08739",
+  "source_url": "https://arxiv.org/abs/2610.08739",
+  "content_type": "paper",
+  "creator": {
+    "id": "habibur_rahaman",
+    "name": "Habibur Rahaman",
+    "handle": "Habibur Rahaman, Swastik Bhattacharya, Sanjay Das, Kanad Basu, Swarup Bhunia",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors",
+  "body_text": "BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors\n\nDeep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a few memory level perturbations can drastically degrade accuracy. Existing defenses incur significant hardware overhead, depend on retraining, or fail against targeted flips. We propose BARE-AI, a runtime framework that detects, localizes, and mitigates BFAs during inference. BARE-AI introduces AI Performance Counters (APCs), lightweight hardware monitors in the accelerator datapath that capture per-layer activation statistics such as sparsity, entropy, kurtosis, and spectral shift. These are analyzed by the Predictive Unit for Layer Security Evaluation (PULSE), a compact detector trained offline as an ensemble of classifiers and realized on-chip as a small neural engine. For explainability and recovery, BARE-AI introduces an Activation Shift Index (ASI) for layer level fault localization and a z-score based repair that resets anomalous weights toward clean layer statistics. Across CNNs, Vision Transformers, and Large Language Models under random, targeted, adaptive, and magnitude based BFAs, BARE-AI achieves up to 98% detection accuracy on vision models and 74% to 95% on language models, restores near clean accuracy for CNNs and ViTs, and provides partial recovery for LLMs. Synthesized at 28nm, the monitoring infrastructure incurs under 3% energy, under 4% area, and about 10% latency overhead, with a configurable operating point that reduces latency overhead to about 6%. Unlike error correcting codes, whose redundancy grows with the number of tolerated flips, BARE-AI's overhead remains constant regardless of attack strength, making it attractive for resource constrained, safety critical edge applications such as autonomous systems, energy, and healthcare.\n\nAuthors: Habibur Rahaman, Swastik Bhattacharya, Sanjay Das, Kanad Basu, Swarup Bhunia\nCategories: cs.CR, cs.CR",
+  "word_count": 258,
+  "published_at": "2026-10-06T17:38:24Z",
+  "ingested_at": "2026-10-07T11:05:40.211Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CR",
+    "cs.CR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

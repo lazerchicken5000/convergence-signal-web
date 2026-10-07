@@ -1,0 +1,38 @@
+{
+  "id": "td_1d049382",
+  "source": "arxiv",
+  "source_id": "2610.08785",
+  "source_url": "https://arxiv.org/abs/2610.08785",
+  "content_type": "paper",
+  "creator": {
+    "id": "kevin_zhang",
+    "name": "Kevin Zhang",
+    "handle": "Kevin Zhang, Stephen Bates",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+  "body_text": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective\n\nConformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understood. In this work, we provide such a foundation using a decision-theoretic generalization of entropy tailored to set-valued prediction. In particular, we introduce a family of generalized information measures based on the size and coverage of conformal prediction sets. Notably, Shannon mutual information admits an exact integral representation in terms of these measures. We then show that, in standard classification settings, the reduction in conformal set size from additional information (i) is sandwiched between calibration-dependent members of this family and (ii) obeys a data processing inequality, both up to finite-sample calibration and model error terms. Together, our results formally relate conformal prediction to classical information-theoretic quantities and justify using set-size reduction as an information gain metric. Empirically, we validate our theory across 11 classification settings and show that set-size reduction and Shannon mutual information can rank features differently in a greedy feature selection experiment.\n\nAuthors: Kevin Zhang, Stephen Bates\nCategories: cs.LG, cs.LG",
+  "word_count": 182,
+  "published_at": "2026-10-06T17:59:11Z",
+  "ingested_at": "2026-10-07T11:05:32.020Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

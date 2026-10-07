@@ -1,0 +1,40 @@
+{
+  "id": "td_6751ffcc",
+  "source": "arxiv",
+  "source_id": "2610.08773",
+  "source_url": "https://arxiv.org/abs/2610.08773",
+  "content_type": "paper",
+  "creator": {
+    "id": "sarim_hashmi",
+    "name": "Sarim Hashmi",
+    "handle": "Sarim Hashmi, Mukul Ranjan, Kshitij Mishra, Mikhail Kuznetsov, Praneeth Vepakomma, Nils Lukas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+  "body_text": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model\n\nWeb agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the trained model bypass them. Adversarial training lets the attacker adapt but keeps the tasks fixed, so a task stops teaching once the agent solves it. We introduce AdvSim2Real, which co-evolves a task curriculum, an injection adversary, and the agent inside a frozen web world model. The curriculum is rewarded for tasks the agent solves about half of the time, and the adversary only for a success flip, an injection that turns a judged success into a failure. Training in the simulator makes a 4B agent both more capable and more robust: its completion rises with and without attacks, holds against a frontier-model adversary it never trained against, and its capability gain carries over to a real browser. On 150 web tasks, AdvSim2Real raises completion under this unseen adversary by 33.6\\% relative to the base agent.\n\nAuthors: Sarim Hashmi, Mukul Ranjan, Kshitij Mishra, Mikhail Kuznetsov, Praneeth Vepakomma, Nils Lukas\nCategories: cs.CL, cs.AI, cs.LG, cs.CL",
+  "word_count": 201,
+  "published_at": "2026-10-06T17:56:43Z",
+  "ingested_at": "2026-10-07T11:05:16.193Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

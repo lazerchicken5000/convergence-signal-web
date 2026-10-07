@@ -1,0 +1,38 @@
+{
+  "id": "td_d94c0030",
+  "source": "arxiv",
+  "source_id": "2610.08745",
+  "source_url": "https://arxiv.org/abs/2610.08745",
+  "content_type": "paper",
+  "creator": {
+    "id": "seyed_mohammad_hadi_hosseini",
+    "name": "Seyed Mohammad Hadi Hosseini",
+    "handle": "Seyed Mohammad Hadi Hosseini, Yasin Abbasi-Yadkori, Sattar Vakili",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Linear Bandits under Exact Sliding-Window Constraints",
+  "body_text": "Linear Bandits under Exact Sliding-Window Constraints\n\nWe study linear bandits under exact sliding-window constraints, where every consecutive block of actions must belong to a prescribed feasible set. In the offline setting, where the reward function is known, we show that convexity and cyclic-shift invariance make a stationary solution optimal when $w\\mid T$ and within an additive $O(w)$ gap otherwise. In the online setting, we show that geometric structure alone is insufficient for learning, and sublinear regret can be impossible. We introduce a transition diameter $τ$ that quantifies feasible reachability and develop a rare-switching OFUL algorithm with regret $\\widetilde{O}(d\\sqrt{T}+τd+w)$ against the offline-optimal feasible trajectory. Finally, we remove cyclic invariance and consider general sliding-window constraints, where optimal behavior may be non-stationary. We represent recent action history as the state of a finite-memory control problem and introduce a history-state diameter $D$ that measures feasible communication between viable histories. Combining optimistic remaining-horizon planning with rare policy updates, we obtain a regret bound of $\\widetilde{O}(d\\sqrt{T}+dD+w)$. We evaluate our approach on real-world and synthetic benchmarks, showing that it maintains exact feasibility while achieving reward and regret comparable to baselines with substantially fewer policy updates.\n\nAuthors: Seyed Mohammad Hadi Hosseini, Yasin Abbasi-Yadkori, Sattar Vakili\nCategories: cs.LG, cs.LG",
+  "word_count": 182,
+  "published_at": "2026-10-06T17:41:08Z",
+  "ingested_at": "2026-10-07T11:05:32.021Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

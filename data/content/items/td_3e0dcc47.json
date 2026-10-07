@@ -1,0 +1,38 @@
+{
+  "id": "td_3e0dcc47",
+  "source": "arxiv",
+  "source_id": "2610.08719",
+  "source_url": "https://arxiv.org/abs/2610.08719",
+  "content_type": "paper",
+  "creator": {
+    "id": "shrey_shah",
+    "name": "Shrey Shah",
+    "handle": "Shrey Shah, Yinheng Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Holdout Best-of-N: Unbiased Evaluation and Its Cost",
+  "body_text": "Holdout Best-of-N: Unbiased Evaluation and Its Cost\n\nReusing the scores that select a Best-of-$N$ winner can overstate its expected reward. We study evaluation from a fixed matrix of $K$ independent scores per candidate for a policy that selects using $J$ fresh scores. A single estimator based only on this matrix is exactly unbiased for expected judge reward under every independent, stable collection of candidate-specific score laws if and only if $J&lt;K$, for every pool size $M\\ge N\\ge2$. At $J=K-1$, the selector deepens as $K$ grows. For independent Gaussian scores with common variance and fixed $M\\ge N\\ge2$, the unbiased minimax risk in this regime is of order $σ^2/\\sqrt K$, attained by Holdout; allowing bias improves the rate to $σ^2/K$. For two candidates, we derive the minimum-variance unbiased estimator at known variance and the sharp asymptotic unbiased minimax constant $1/(π\\sqrt2)$, which Holdout attains without knowing the variance. The cyclic average over subsets and ties can be computed in $O(MK\\log M)$ operations. At fixed selector depth, cyclic evaluation of bounded scores has $O(K^{-1})$ risk uniformly in pool size. The impossibility result concerns the fixed matrix: one additional fresh winner score permits unbiased evaluation of the all-$K$ policy.\n\nAuthors: Shrey Shah, Yinheng Li\nCategories: cs.CL, cs.CL",
+  "word_count": 187,
+  "published_at": "2026-10-06T17:26:05Z",
+  "ingested_at": "2026-10-07T11:05:24.015Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_5eee75fa",
+  "source": "arxiv",
+  "source_id": "2610.08732",
+  "source_url": "https://arxiv.org/abs/2610.08732",
+  "content_type": "paper",
+  "creator": {
+    "id": "alexia_allal",
+    "name": "Alexia Allal",
+    "handle": "Alexia Allal, Hicham Randrianarivo, Sylvain Lamprier",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Systematic Study of Semantic ID Spaces for Generative Information Retrieval",
+  "body_text": "A Systematic Study of Semantic ID Spaces for Generative Information Retrieval\n\nGenerative Information Retrieval (GIR) has emerged as a transformative paradigm, shifting document retrieval from a traditional \"retrieve-and-rank\" workflow to sequence-to-sequence generation, where a model directly predicts document identifiers (DocIDs). While the semantic design of these DocIDs is known to be critical for performance, a fundamental question remains under-explored: what makes a good DocID? Current approaches rely heavily on computationally expensive downstream evaluations, hindering systematic analysis and rapid iteration. In this work, we address this challenge by presenting a comprehensive study on the properties, metrics, and trade-offs that define effective numerical DocIDs. Specifically, our contributions are threefold: First, we propose a unified framework that unifies Product Quantization (PQ) and Residual Quantization (RQ), and their hybrid variants within a single design space. This enables us to systematically study key DocID properties, such as hierarchy versus parallelism, as well as the impact of hyperparameters like DocID length and codebook size. Second, we define a suite of training-free, intrinsic metrics, to quantify DocID quality and evaluate structural fidelity without the overhead of full model training. Through extensive experiments on MS MARCO 300K and NQ320K, we analyze how these structural properties influence retrieval effectiveness.\n\nAuthors: Alexia Allal, Hicham Randrianarivo, Sylvain Lamprier\nCategories: cs.IR, cs.CL, cs.IR",
+  "word_count": 189,
+  "published_at": "2026-10-06T17:33:32Z",
+  "ingested_at": "2026-10-07T11:05:24.015Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.CL",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

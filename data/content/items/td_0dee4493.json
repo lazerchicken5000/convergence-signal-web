@@ -1,0 +1,39 @@
+{
+  "id": "td_0dee4493",
+  "source": "arxiv",
+  "source_id": "2610.08738",
+  "source_url": "https://arxiv.org/abs/2610.08738",
+  "content_type": "paper",
+  "creator": {
+    "id": "mathias_ollu",
+    "name": "Mathias Ollu",
+    "handle": "Mathias Ollu, Nikos Komodakis",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
+  "body_text": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling\n\nDiffusion Language Models (DLMs) hold the promise of order-agnostic, parallel text generation. Recently, continuous diffusion and flow matching models have seen substantial gains, driven by carefully crafted token representations and diffusion/flow spaces. In this work, we introduce Hierarchical Continuous Diffusion Language Models (H-CDLMs), a simple framework that further improves continuous DLMs with minimal compute and parameter overhead. Drawing on the discrete DLM and continuous image diffusion literature on joint diffusion, we diffuse multiple modalities in parallel. These modalities represent tokens at different semantic granularities: in our instantiation, the tokens themselves and coarser clusters obtained by clustering pretrained token embeddings. We propose a general setup that allows per-modality samplers and schedules to enhance the interplay between modalities. Applied to CoBit, this yields H-CoBit, which delivers large empirical gains across benchmarks. At dataset entropy, H-CoBit improves MAUVE and reaches a generative perplexity (GenPPL) of 49.4 on LM1B and 50.4 on OWT, improving on the baseline by 24.2 and 20.7 points and surpassing even discrete DLMs of comparable size. On GSM8K, it reaches 27.4% accuracy, outperforming prior continuous diffusion and flow-based models. We further apply H-CDLM to the flow matching model FLM, obtaining consistent gains with H-FLM and demonstrating that the framework generalizes across continuous generative paradigms. Our code will be made publicly available at https://github.com/matol-16/HCDLM.git .\n\nAuthors: Mathias Ollu, Nikos Komodakis\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 214,
+  "published_at": "2026-10-06T17:38:19Z",
+  "ingested_at": "2026-10-07T11:05:24.014Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "td_960fec9b",
+  "source": "arxiv",
+  "source_id": "2610.08764",
+  "source_url": "https://arxiv.org/abs/2610.08764",
+  "content_type": "paper",
+  "creator": {
+    "id": "luke_bhan",
+    "name": "Luke Bhan",
+    "handle": "Luke Bhan, Miroslav Krstic, Yuanyuan Shi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+  "body_text": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion\n\nWe develop the first feedback design for rapid stabilization of the Kuramoto--Sivashinsky equation with a spatially varying anti-diffusion coefficient. For constant coefficients, the single-input Fredholm design of Coron and Lü (2015) excludes a discrete set of values at which repeated unstable eigenvalues cause a loss of controllability. We overcome this obstruction by introducing a second boundary input and assigning the two inputs distinct roles. The key idea, inspired by Heymann's Lemma, is to use the boundary value $u(0,t)$ entirely for a pre-feedback that renders the modified plant controllable through the curvature input $u_{xx}(0,t)$. The latter input then stabilizes the plant through a Fredholm backstepping transformation. We show that two inputs suffice for controllability and are necessary when the plant has an unstable double eigenvalue. However, the Fredholm kernel still must be approximated for implementation. Hence, to enable kernel and gain approximation, we prove continuity of the coefficient-to-gain design map on compact admissible design classes. Unlike Volterra-based continuity proofs using successive approximations, our proof uses the modal representation to control the spectral data, the inverse coefficient system, and the tails of the kernel and gain series. This yields a single neural operator approximation of the gain to any prescribed $L^2$ accuracy across the class. Finally, we establish rapid local stabilization of the nonlinear closed-loop system under both the exact gains and sufficiently accurate approximations. We conclude with numerical results that illustrate prescribed decay rates and the computational cost of the approximations. In particular, we train a Fourier neural operator that achieves typical relative gain errors of approximately $0.1\\%$ and stabilizes all held-out cases tested, including a plant with an unstable double eigenvalue.\n\nAuthors: Luke Bhan, Miroslav Krstic, Yuanyuan Shi\nCategories: eess.SY, cs.LG, math.AP, math.OC, eess.SY",
+  "word_count": 271,
+  "published_at": "2026-10-06T17:50:54Z",
+  "ingested_at": "2026-10-07T11:05:32.021Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SY",
+    "cs.LG",
+    "math.AP",
+    "math.OC",
+    "eess.SY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
