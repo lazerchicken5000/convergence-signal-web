@@ -1,0 +1,38 @@
+{
+  "id": "td_4cc6823c",
+  "source": "arxiv",
+  "source_id": "2610.10482",
+  "source_url": "https://arxiv.org/abs/2610.10482",
+  "content_type": "paper",
+  "creator": {
+    "id": "nuzla_ismail",
+    "name": "Nuzla Ismail",
+    "handle": "Nuzla Ismail, Shanika Amarasoma, Michelle Galeas-Pena, Sarah C. Glover",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Truecell reproduces R Seurat's single-cell analysis outputs natively in the Python ecosystem",
+  "body_text": "Truecell reproduces R Seurat's single-cell analysis outputs natively in the Python ecosystem\n\nSingle-cell RNA-sequencing analyses predominantly use either Seurat (R) or Scanpy (Python), with the choice often driven by programming language preference. However, by default, these tools produce divergent variable features, neighbour graphs, clusters, and marker genes. Laboratories requiring Python, which supports most deep-learning, foundation-model, and agent tools, must re-implement Seurat analyses in a framework that does not replicate Seurat's results. Truecell was developed as a Python implementation of the Seurat interface, preserving function names, arguments, default settings, and the object model to facilitate seamless transfer of analyses. In eighteen paired end-to-end evaluations against R Seurat, deterministic outputs matched to floating-point precision, and fold-change order was identical across all nine differential expression tests. In a three-arm benchmark on three datasets, with fixed user parameters and 20 seeds per tool, Truecell more closely reproduced Seurat's clustering than a Seurat-configured Scanpy in all 12 combinations of dataset and resolution settings. Truecell's marker genes and enriched pathways were also closer to Seurat's than Scanpy's were, and pseudobulk DESeq2 reproduced Seurat's gene lists with a Jaccard index ranging from 0.95 to 1.00. This agreement reflects fidelity to Seurat rather than biological correctness.\n\nAuthors: Nuzla Ismail, Shanika Amarasoma, Michelle Galeas-Pena, Sarah C. Glover\nCategories: q-bio.GN, q-bio.GN",
+  "word_count": 186,
+  "published_at": "2026-10-07T17:38:28Z",
+  "ingested_at": "2026-10-08T11:05:28.503Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "q-bio.GN",
+    "q-bio.GN"
+  ],
+  "domain": "peptide_biotech",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

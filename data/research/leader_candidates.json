@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:13:48.905Z",
+  "generated_at": "2026-10-08T11:13:26.575Z",
   "total_leaders_analyzed": 683,
   "candidates": [
     {
@@ -427,8 +427,8 @@
       "score": 0.246,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 2,
-      "score_change": 0.004,
+      "rank_change": 0,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -462,7 +462,7 @@
       "score": 0.243,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -496,7 +496,7 @@
       "score": 0.242,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -1013,42 +1013,56 @@
     },
     {
       "rank": 30,
-      "id": "cursor",
-      "name": "cursor",
+      "id": "daniel_whitenack_and_chris_benson",
+      "name": "daniel whitenack and chris benson",
       "leader_type": "architect",
-      "entity_type": "unknown",
-      "score": 0.213,
+      "entity_type": "media_channel",
+      "score": 0.215,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
       "score_change": 0,
-      "is_new_entrant": false,
+      "is_new_entrant": true,
       "top_signals": [
         {
           "signal": "social_pagerank",
-          "value": 0.913
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.4
+          "value": 0.9
         },
         {
           "signal": "content_volume",
-          "value": 0.05
+          "value": 0.55
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
         }
       ],
       "pattern_count": 0,
       "domains": [
-        "open_source"
+        "publishing"
       ],
       "source_types": [
-        "github",
-        "citation"
+        "rss"
       ]
     }
   ],
-  "new_entrants": [],
+  "new_entrants": [
+    {
+      "name": "daniel whitenack and chris benson",
+      "rank": 30,
+      "score": 0.215,
+      "reason": "Entered at #30 — social_pagerank strength"
+    }
+  ],
   "rising": [],
-  "fading": [],
-  "dropped_out": []
+  "fading": [
+    {
+      "name": "cursor",
+      "previous_rank": 30,
+      "score_change": 0
+    }
+  ],
+  "dropped_out": [
+    "cursor"
+  ]
 }

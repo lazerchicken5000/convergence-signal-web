@@ -1,0 +1,39 @@
+{
+  "id": "td_428faede",
+  "source": "arxiv",
+  "source_id": "2610.10488",
+  "source_url": "https://arxiv.org/abs/2610.10488",
+  "content_type": "paper",
+  "creator": {
+    "id": "lukas_zierahn",
+    "name": "Lukas Zierahn",
+    "handle": "Lukas Zierahn, Wouter M. Koolen, Shubhada Agrawal, Christina Katsimerou, Dirk van der Hoeven",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Best Arm Identification for Bandits with Shifting Means",
+  "body_text": "Best Arm Identification for Bandits with Shifting Means\n\nWe study the best arm identification problem in a stochastic environment with a novel form of adversarial perturbations, which we coin Shifting Means. While classically the mean rewards of the $K$ arms are stable in time, in Shifting Means only the gaps $\\boldsymbolΔ$ between mean rewards are stable, while their common shift may be determined adversarially in each round. The objective of the learner is to identify the best arm with high probability while minimizing sample complexity (the fixed confidence setting). Handling shifts requires new tools: we show that algorithms employing a Generalized Likelihood Ratio Test (GLRT) stopping rule, including the popular Track-and-Stop, fail under time-varying shifts. Instead, we propose Importance Weights for Shifting Means ($\\mathsf{ISM}$). Assuming means bounded by $U$ and $σ^2$-sub-Gaussian rewards, we show $\\mathsf{ISM}$ to be $δ$-correct and to enjoy a sample complexity bound of order $K (σ^2 + U^2) Δ_{\\min}^{-2} \\ln \\frac{1}δ$. We also present a matching (up to constant factors) worst-case lower bound and evaluate our results empirically.\n\nAuthors: Lukas Zierahn, Wouter M. Koolen, Shubhada Agrawal, Christina Katsimerou, Dirk van der Hoeven\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 163,
+  "published_at": "2026-10-07T17:44:34Z",
+  "ingested_at": "2026-10-08T11:05:20.122Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

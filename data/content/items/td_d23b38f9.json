@@ -1,0 +1,40 @@
+{
+  "id": "td_d23b38f9",
+  "source": "arxiv",
+  "source_id": "2610.10483",
+  "source_url": "https://arxiv.org/abs/2610.10483",
+  "content_type": "paper",
+  "creator": {
+    "id": "walid_bendada",
+    "name": "Walid Bendada",
+    "handle": "Walid Bendada, Guillaume Salha-Galvan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Two-Level Softmax Sampling Done Right: Correcting Bias from Size Imbalance and Dispersion",
+  "body_text": "Two-Level Softmax Sampling Done Right: Correcting Bias from Size Imbalance and Dispersion\n\nSampling from a softmax distribution is a fundamental operation in machine learning, but its linear complexity in the number of items makes exact sampling impractical at scale. Two-level softmax (2LS) sampling is a popular alternative enabling sublinear-time sampling. Assuming items are partitioned into clusters, 2LS first samples a cluster and then an item within it. In this paper, we show that, despite its advantages, 2LS introduces systematic and undesirable sampling biases, which arise from misweighting clusters by ignoring both cluster size imbalance and intra-cluster similarity dispersion. We propose two sampling methods, Size-Corrected 2LS (S-2LS) and Size- and Dispersion-Corrected 2LS (SD-2LS), which correct these biases and provide provably better softmax approximations with negligible to non-existent computational overhead. In-depth experiments on five large-scale datasets validate the improved sampling properties of our methods. We recommend their consistent use in place of standard 2LS in future work.\n\nAuthors: Walid Bendada, Guillaume Salha-Galvan\nCategories: cs.LG, cs.IR, stat.ML, cs.LG",
+  "word_count": 143,
+  "published_at": "2026-10-07T17:38:35Z",
+  "ingested_at": "2026-10-08T11:05:20.122Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.IR",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

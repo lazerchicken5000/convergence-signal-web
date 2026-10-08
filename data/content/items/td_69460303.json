@@ -1,0 +1,40 @@
+{
+  "id": "td_69460303",
+  "source": "arxiv",
+  "source_id": "2610.10536",
+  "source_url": "https://arxiv.org/abs/2610.10536",
+  "content_type": "paper",
+  "creator": {
+    "id": "saif_punjwani",
+    "name": "Saif Punjwani",
+    "handle": "Saif Punjwani, Micah Goldblum",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Decoupling Exploration from Optimization in RLVR",
+  "body_text": "Decoupling Exploration from Optimization in RLVR\n\nModern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality. Because verifiable rewards supervise only a narrow slice of the model's knowledge and behavior, such degradations are difficult to recover from. Instead, we decouple exploration from optimization in a framework we call Exploration-Distillation (ExpDis). We train one or more explorer policies with a novelty bonus in the reward, filter their trajectories for correctness and quality, and distill them into a separate student policy. The student policy is then trained without a novelty bonus. We repeat the above procedure for several rounds, alternating between exploration and optimization. This decoupling allows us to aggressively scale exploration without degrading the student policy. Across seven mathematical reasoning benchmarks and two model families, ExpDis outperforms DAPO at the same wall-clock budget. Moreover, we observe improved pass@$k$ scaling, indicating that ExpDis produces models that generate more diverse correct solutions.\n\nAuthors: Saif Punjwani, Micah Goldblum\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 192,
+  "published_at": "2026-10-07T17:59:26Z",
+  "ingested_at": "2026-10-08T11:05:03.549Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
