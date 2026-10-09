@@ -1,0 +1,40 @@
+{
+  "id": "td_22880bd9",
+  "source": "arxiv",
+  "source_id": "2610.12361",
+  "source_url": "https://arxiv.org/abs/2610.12361",
+  "content_type": "paper",
+  "creator": {
+    "id": "saisab_sadhu",
+    "name": "Saisab Sadhu",
+    "handle": "Saisab Sadhu, Shreeyans Arora, Pratinav Seth",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness",
+  "body_text": "Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness\n\nLarge language models increasingly justify legal decisions by naming the statute or precedent behind a verdict, treated as evidence that the decision follows from it. We test this directly: holding case facts fixed, we substitute the named legal authority for an unrelated one and decode a model's evolving verdict from its hidden states. Across seven open-weight models (8B-70B) and four benchmarks spanning judicial and contractual reasoning, when explicitly required to justify a verdict by naming the governing authority, models name the correct one in 66.7%-100% of generations, while the verdict changing when the authority changes is far less consistent: 0.0%-21.7% on CaseHOLD, 30.0%-76.7% on ECHR and SCOTUS, and 43.3%-50.0% on ContractNLI. Neither scale nor a purpose-built legal-reasoning model (a best-effort LoRA reproduction; Section 6) closes this gap. A red-teaming evaluation on five core models finds compliance with an adversarial instruction hidden in the case facts (73.3%-96.4%) exceeds verdict-swap sensitivity by a wide margin, holding without exception across model rankings. Naming a legal authority is thus a poor proxy for a verdict's dependence on it, while the same verdict remains separately vulnerable to adversarial manipulation. Both findings replicate across checks ruling out prompt-wording noise and confounded sampling, and bear directly on the use of generated legal explanations as compliance or audit artefacts.\n\nAuthors: Saisab Sadhu, Shreeyans Arora, Pratinav Seth\nCategories: cs.AI, cs.CL, cs.CY, cs.AI",
+  "word_count": 211,
+  "published_at": "2026-10-08T17:26:17Z",
+  "ingested_at": "2026-10-09T11:05:06.486Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CY",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

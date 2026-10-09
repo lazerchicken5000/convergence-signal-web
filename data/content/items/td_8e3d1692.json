@@ -1,0 +1,39 @@
+{
+  "id": "td_8e3d1692",
+  "source": "arxiv",
+  "source_id": "2610.12416",
+  "source_url": "https://arxiv.org/abs/2610.12416",
+  "content_type": "paper",
+  "creator": {
+    "id": "mingyuan_lei",
+    "name": "Mingyuan Lei",
+    "handle": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+  "body_text": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances\n\nGenerating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion. However, supervision for these capabilities is rarely available jointly at scale. Human-scene datasets provide rich information about environment-aware motion, while human-object datasets capture detailed interaction dynamics, yet paired human-object-scene data remain scarce. We present MAMHOI, an affordance-mediated factorization for scene-aware human-object interaction generation. MAMHOI factorizes scene-aware HOI generation through an explicit motion-affordance interface between scene understanding and motion synthesis: a scene-conditioned model first predicts where and how an interaction can be feasibly executed, and an affordance-conditioned HOI model then generates the corresponding human-object motion. This factorization allows scene understanding and interaction dynamics to be learned from complementary sources of supervision without requiring paired human-object-scene data. Experiments in complex indoor environments show that MAMHOI reduces object--scene penetration while better preserving human--object interaction quality, yielding more realistic and physically feasible scene-aware interactions. Project page: https://leimingyuan.github.io/MAMHOI-project-page/\n\nAuthors: Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 158,
+  "published_at": "2026-10-08T17:52:02Z",
+  "ingested_at": "2026-10-09T11:04:58.658Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
