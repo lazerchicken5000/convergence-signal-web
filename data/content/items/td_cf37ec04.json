@@ -1,0 +1,39 @@
+{
+  "id": "td_cf37ec04",
+  "source": "arxiv",
+  "source_id": "2610.12451",
+  "source_url": "https://arxiv.org/abs/2610.12451",
+  "content_type": "paper",
+  "creator": {
+    "id": "boyao_han",
+    "name": "Boyao Han",
+    "handle": "Boyao Han, Chen Shi, Jingjing Qian, ZhuoTan Tian, Li Jiang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation",
+  "body_text": "VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation\n\nVision-Language-Action (VLA) models have emerged as powerful foundations for robotic manipulation, but their reliance on fixed camera configurations during training makes them brittle to changes in camera count or pose during deployment. To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning. VersaCamVLA learns a unified scene-token interface that maps an arbitrary, variable set of posed RGB views into fixed-size latent scene tokens. This is achieved via multi-signal target-view prediction and Wrist-Augmented Pose Sampling (WAPS), which leverages natural wrist-camera motion for free pose diversity. At deployment, a lightweight spatial encoder injects these compact scene tokens into a pretrained base VLA as a supplementary visual condition, requiring no explicit 3D sensing or novel-view rendering. Experiments on RoboTwin, LIBERO, and a real-robot platform demonstrate that VersaCamVLA consistently outperforms prior VLA methods and direct multi-view baselines, maintaining robust performance across varying camera counts and unseen camera poses.\n\nAuthors: Boyao Han, Chen Shi, Jingjing Qian, ZhuoTan Tian, Li Jiang\nCategories: cs.CV, cs.RO, cs.CV",
+  "word_count": 151,
+  "published_at": "2026-10-08T17:58:47Z",
+  "ingested_at": "2026-10-09T13:07:23.713Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.RO",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

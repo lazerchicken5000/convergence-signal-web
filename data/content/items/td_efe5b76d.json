@@ -1,0 +1,39 @@
+{
+  "id": "td_efe5b76d",
+  "source": "arxiv",
+  "source_id": "2610.12437",
+  "source_url": "https://arxiv.org/abs/2610.12437",
+  "content_type": "paper",
+  "creator": {
+    "id": "song_liu",
+    "name": "Song Liu",
+    "handle": "Song Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Density Ratio Estimation with Stein Displacement Fields",
+  "body_text": "Density Ratio Estimation with Stein Displacement Fields\n\nDensity ratios quantify distribution shift from a probability-mass point of view, whereas displacement fields describe, from a dynamical point of view, how one distribution is transported onto another. Although both offer complementary insights, they are usually estimated separately, and converting one into the other requires post-processing. In this paper, we estimate the density ratio between a target and a base distribution by parametrizing it through a displacement field acting on the base: the log-ratio is modeled as minus the Stein operator of the base applied to the field, up to a normalizing constant. This gives both statistical and dynamical descriptions of the distribution shift through a single convex optimization problem. Iterating this estimate-and-move step gives two inference algorithms: push-forward moves the model and corrects a pretrained sampler without retraining it, whereas pull-back moves the data closer to the base and fits a transformation model one layer at a time. Applications to distribution shift in simulation-based inference and to nonlinear independent component analysis illustrate the benefits and limitations of the approach.\n\nAuthors: Song Liu\nCategories: stat.ML, cs.LG, stat.ML",
+  "word_count": 170,
+  "published_at": "2026-10-08T17:57:33Z",
+  "ingested_at": "2026-10-09T13:05:45.838Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

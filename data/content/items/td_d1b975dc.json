@@ -1,0 +1,38 @@
+{
+  "id": "td_d1b975dc",
+  "source": "arxiv",
+  "source_id": "2610.12420",
+  "source_url": "https://arxiv.org/abs/2610.12420",
+  "content_type": "paper",
+  "creator": {
+    "id": "nishanth_arun_rao",
+    "name": "Nishanth Arun Rao",
+    "handle": "Nishanth Arun Rao, Royina Karegoudra Jayanth, Benjamin Eysenbach, Jaime Fernández Fisac",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning",
+  "body_text": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning\n\nReinforcement learning in safety-critical domains requires maximizing task performance while strictly adhering to safety constraints. Existing safe reinforcement learning paradigms typically force a trade-off: they either require a priori knowledge to provide strict safety guarantees (e.g., safety filters), or they enable joint learning but only satisfy safety constraints on average. In this work, we propose a novel Bellman operator that unifies performance and safety objectives into a joint value function. We show that temporal difference learning with the joint Bellman operator converges under a two-timescale stochastic approximation framework. On the fast timescale, the safety value of the learning joint policy is estimated, while the joint value is estimated on the slow timescale. Convergence is ensured by formulating the limiting dynamics as an occupation-averaged differential inclusion, and showing that it asymptotically converges to a set of limiting optimal safety-constrained task value functions. Theoretically, once converged, the resulting optimal policy maximizes task return while maintaining safety at all times. Empirical evaluations on continuous control tasks with neural approximations demonstrate stable convergence with near-zero safety violations at test time.\n\nAuthors: Nishanth Arun Rao, Royina Karegoudra Jayanth, Benjamin Eysenbach, Jaime Fernández Fisac\nCategories: cs.LG, cs.LG",
+  "word_count": 176,
+  "published_at": "2026-10-08T17:53:02Z",
+  "ingested_at": "2026-10-09T13:07:49.964Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

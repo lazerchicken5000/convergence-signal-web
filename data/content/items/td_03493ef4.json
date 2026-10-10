@@ -1,0 +1,38 @@
+{
+  "id": "td_03493ef4",
+  "source": "arxiv",
+  "source_id": "2610.12457",
+  "source_url": "https://arxiv.org/abs/2610.12457",
+  "content_type": "paper",
+  "creator": {
+    "id": "jiayu_wang",
+    "name": "Jiayu Wang",
+    "handle": "Jiayu Wang, Yue Yu, Bin Zhu, Zhiyao Yang, Jingjing Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+  "body_text": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation\n\nFrontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily insufficient policy capability, but insufficient spatial observability, where task-critical spatial relationships may be poorly revealed by the existing physical camera setup. We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup. SpatialHarness maintains an online simulated scene synchronized with real-world execution, identifies task-critical spatial relationships, and renders complementary virtual views that expose them to a frozen multimodal policy. To keep the simulated scene aligned during interaction, we develop interaction-aware scene synchronization that distinguishes static, held, and transition modes. We evaluate SpatialHarness on four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. Using the same frozen GPT-6 Astra policy, SpatialHarness substantially improves task success, including from 26.7% to 66.7% on plug insertion and from 0% to 100% on Tower of Hanoi. These results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models. Project website: https://emilia113.github.io/SpatialHarness/.\n\nAuthors: Jiayu Wang, Yue Yu, Bin Zhu, Zhiyao Yang, Jingjing Chen\nCategories: cs.RO, cs.RO",
+  "word_count": 199,
+  "published_at": "2026-10-08T17:59:20Z",
+  "ingested_at": "2026-10-09T13:07:23.713Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

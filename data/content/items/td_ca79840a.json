@@ -1,0 +1,39 @@
+{
+  "id": "td_ca79840a",
+  "source": "arxiv",
+  "source_id": "2610.12448",
+  "source_url": "https://arxiv.org/abs/2610.12448",
+  "content_type": "paper",
+  "creator": {
+    "id": "adrian_bulat",
+    "name": "Adrian Bulat",
+    "handle": "Adrian Bulat, Yassine Ouali, Georgios Tzimiropoulos",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+  "body_text": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts\n\nIn this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this design in two regimes: supervised ImageNet-1k training and distillation from a DINOv2 teacher. Across both regimes, controlled adaptations identify weight-space merging as the strongest tested MoE family at a matching one-FFN budget, ahead of the token-dispatch and output-mixture alternatives. Trained from scratch, reViT-B/16 attains DeiT III accuracy with about 70\\% fewer stored parameters. An 8-experts model distilled using only the teacher's output features retains nearly all of its DINOv2 teacher's linear-probe accuracy and transfers across classification, segmentation, and depth prediction. Elastic-depth training allows one checkpoint (trained model) to operate at multiple tested depths by resampling the same normalized coordinate interval. For fixed-depth deployment, the recurrent block can be materialized as a conventional dense graph, removing online routing and merging without changing the one-FFN-per-depth compute but expanding deployment storage.\n\nAuthors: Adrian Bulat, Yassine Ouali, Georgios Tzimiropoulos\nCategories: cs.CV, cs.LG, cs.CV",
+  "word_count": 197,
+  "published_at": "2026-10-08T17:58:36Z",
+  "ingested_at": "2026-10-09T13:05:45.837Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
