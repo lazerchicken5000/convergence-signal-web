@@ -1,0 +1,35 @@
+{
+  "id": "td_b2b7af65",
+  "source": "rss",
+  "source_id": "https://news.ycombinator.com/item?id=50038634",
+  "source_url": "https://wallhop.io/",
+  "content_type": "article",
+  "creator": {
+    "id": "hacker_news:_best",
+    "name": "TheWaffleHax",
+    "handle": "Hacker News: Best",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
+  "body_text": "Hi HN, I'm Josh. WallHop is a free paywall bypass: paste an article URL (or prefix any URL with wallhop.io/) and you get the readable article without the paywall popup, ads or clutter. No signup, no extension.\nI built it after 12ft.io went away. The News Media Alliance took it down in July 2025 and I missed having something I could hit from my phone.\nHow it works: it started as a fork of everywall/ladder (GPL-3.0) and I've modified it heavily since. Instead of relying on one trick, it chains several bypass methods per request and falls back to archive.is when they all fail, so one site blocking one technique doesn't break it.\nThings that might be interesting:\n- iOS Shortcut: on iPhone, tap Share > WallHop from any article in Safari or another app. This is how I use it 95% of the time.\n- It works on Medium member-only posts, which 12ft never handled.\n- Bookmarklet for desktop, plus /raw/ and /api/ endpoints if you want to script it.\nI've tested it against most major news outlets and a bunch of local papers. It won't work everywhere. There are SOME server-side paywalls that are out of reach, and I'd rather say that up front. If you find a site that breaks, I'd love the link, and I can likely figure out a way to bypass it!\nComments URL: https://news.ycombinator.com/item?id=50038634\nPoints: 256\n# Comments: 107",
+  "word_count": 236,
+  "published_at": "2026-10-11T00:46:48.000Z",
+  "ingested_at": "2026-10-11T13:00:27.057Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

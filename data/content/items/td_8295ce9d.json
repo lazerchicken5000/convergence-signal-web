@@ -1,0 +1,38 @@
+{
+  "id": "td_8295ce9d",
+  "source": "arxiv",
+  "source_id": "2610.13893",
+  "source_url": "https://arxiv.org/abs/2610.13893",
+  "content_type": "paper",
+  "creator": {
+    "id": "tirthankar_chakraborty",
+    "name": "Tirthankar Chakraborty",
+    "handle": "Tirthankar Chakraborty, Arnab Maity",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Information-Weighted Distributed Kalman Filter for Multi-Target Tracking over Switching Sensor Networks",
+  "body_text": "Information-Weighted Distributed Kalman Filter for Multi-Target Tracking over Switching Sensor Networks\n\nTarget tracking over wide areas using a network of sensor agents is a challenging problem when agents have limited sensing coverage and communication topologies vary over time. Existing distributed filtering approaches commonly assume that each agent, or at least one of its neighbors, can directly observe the target, and further rely on fixed network topologies, global network parameters, or multiple consensus rounds per time step. These requirements limit their applicability in wide-area network deployments. In this paper, we propose an Information-Weighted Distributed Kalman Filter (IWDKF) that relaxes these assumptions through a weighted-consensus mechanism applicable to arbitrary switching topologies satisfying joint connectivity. The proposed approach requires no prior knowledge of global network properties and limits communication overhead to a single consensus exchange per time step, while enabling information fusion even when some agents lack direct target measurements. The weighted-consensus covariance matrix is shown to remain positive definite, and the resulting consensus update is proven to maintain estimate consistency. It is also established that the proposed weighting strategy preserves the asymptotic agreement property of the underlying consensus protocol under joint connectivity. Numerical simulations of a multi-target tracking scenario involving a network of sensor agents demonstrate the improved estimation accuracy of the proposed IWDKF under both fixed and switching network topologies. The performance of the proposed filter is close to that of the centralized Kalman filter, and is compared with three existing distributed filters.\n\nAuthors: Tirthankar Chakraborty, Arnab Maity\nCategories: eess.SY, eess.SY",
+  "word_count": 231,
+  "published_at": "2026-10-09T17:39:22Z",
+  "ingested_at": "2026-10-12T11:05:22.683Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.SY",
+    "eess.SY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

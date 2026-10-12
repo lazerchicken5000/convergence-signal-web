@@ -1,0 +1,40 @@
+{
+  "id": "td_7bb126be",
+  "source": "arxiv",
+  "source_id": "2610.13935",
+  "source_url": "https://arxiv.org/abs/2610.13935",
+  "content_type": "paper",
+  "creator": {
+    "id": "bhanu_tokas",
+    "name": "Bhanu Tokas",
+    "handle": "Bhanu Tokas, Rahul Nair, Rockwell Jackson, Hannah Kerner",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+  "body_text": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models\n\nInterpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide image-level attribution. We propose Hide and Seek (HnS), a new method for concept-level attribution that does not require access to model weights or labeled concept datasets. HnS can interpret a wide range of vision models. Given a concept and image set, HnS retrieves concept-aligned images using a vision-language model, localizes the concept within each image, masks the localized region, and measures attribution from the change in the black-box model's output between the original and masked images. This enables faithful attribution by directly measuring the model's behavior and supporting local attributions. We validated HnS on CelebA and COCO-Stuff. Compared to existing methods, HnS showed better agreement with ground-truth attributions. We demonstrated the applicability of HnS on diverse tasks, including image captioning and satellite image segmentation, where no existing concept attribution method can be used. We provided our anonymous code in the supplementary material.\n\nAuthors: Bhanu Tokas, Rahul Nair, Rockwell Jackson, Hannah Kerner\nCategories: cs.CV, cs.AI, cs.LG, cs.CV",
+  "word_count": 189,
+  "published_at": "2026-10-09T17:56:59Z",
+  "ingested_at": "2026-10-12T11:04:58.499Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

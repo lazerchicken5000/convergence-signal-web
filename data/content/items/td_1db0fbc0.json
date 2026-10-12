@@ -1,0 +1,41 @@
+{
+  "id": "td_1db0fbc0",
+  "source": "arxiv",
+  "source_id": "2610.13826",
+  "source_url": "https://arxiv.org/abs/2610.13826",
+  "content_type": "paper",
+  "creator": {
+    "id": "fu-an_chao",
+    "name": "Fu-An Chao",
+    "handle": "Fu-An Chao, Bi-Cheng Yan, Berlin Chen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation",
+  "body_text": "OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation\n\nRecent advances in automatic pronunciation assessment (APA) have driven a shift from scripted to free-form assessment. However, existing methods often rely on multi-stage pipelines with forced alignment and separate feature extractors, limiting their practicality across response settings. In light of this, we propose OpenPA, a novel APA framework that leverages Whisper's cross-attention mechanism to jointly predict word- and utterance-level pronunciation scores without forced alignment. Through mixed-transcript adaptation and adaptive substitution weighting, OpenPA accommodates heterogeneous transcripts across closed- and open-response settings within a single model. Trained solely on speechocean762, OpenPA achieves the strongest overall performance among evaluated systems under in-domain closed and simulated open-response conditions, while maintaining its performance zero-shot on MultiPA. An additional cross-task evaluation on oral-cancer speech suggests its potential applicability beyond non-native speech.\n\nAuthors: Fu-An Chao, Bi-Cheng Yan, Berlin Chen\nCategories: eess.AS, cs.CL, cs.SD, eess.SP, eess.AS",
+  "word_count": 125,
+  "published_at": "2026-10-09T16:35:25Z",
+  "ingested_at": "2026-10-12T11:05:06.412Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "eess.AS",
+    "cs.CL",
+    "cs.SD",
+    "eess.SP",
+    "eess.AS"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

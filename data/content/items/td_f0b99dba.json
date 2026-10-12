@@ -1,0 +1,39 @@
+{
+  "id": "td_f0b99dba",
+  "source": "arxiv",
+  "source_id": "2610.13929",
+  "source_url": "https://arxiv.org/abs/2610.13929",
+  "content_type": "paper",
+  "creator": {
+    "id": "changhao_wang",
+    "name": "Changhao Wang",
+    "handle": "Changhao Wang, Jaden Clark, Shuran Song",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Chronos Policy: Learning Robot Policies on Physical Time",
+  "body_text": "Chronos Policy: Learning Robot Policies on Physical Time\n\nRobot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. This assumption breaks when observation rates or delays vary, or when inference latency changes. We introduce Chronos Policy, which makes physical time explicit by conditioning on observation capture times and desired action execution times. We study two ways to incorporate time into a diffusion transformer: adding timestamp embeddings to token features, or encoding physical time in positional encoding through time-aware rotary positional encodings (time-aware RoPE). We find that time-aware RoPE is more robust, allowing attention to depend directly on physical time while keeping token content unchanged. During training, we temporally randomize which observations are sampled and when the action chunk begins, exposing the policy to a wider range of sensing and execution schedules that may occur during deployments. This also enables learning from asynchronous, multi-rate data without forcing all measurements onto a fixed temporal grid. Across simulation and real-world experiments, Chronos Policy improves performance on dynamic tasks, where observation-to-action timing is critical, and on multisensory tasks, where the relative timing between observations matters. On standard quasi-static tasks, it preserves nominal performance while improving robustness to changes in sensing and inference timing.\n\nAuthors: Changhao Wang, Jaden Clark, Shuran Song\nCategories: cs.RO, cs.CV, cs.RO",
+  "word_count": 199,
+  "published_at": "2026-10-09T17:55:20Z",
+  "ingested_at": "2026-10-12T11:05:30.949Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.RO",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_a99da68f",
+  "source": "arxiv",
+  "source_id": "2610.13934",
+  "source_url": "https://arxiv.org/abs/2610.13934",
+  "content_type": "paper",
+  "creator": {
+    "id": "yeva_gevorgyan",
+    "name": "Yeva Gevorgyan",
+    "handle": "Yeva Gevorgyan, Diogo Gomes",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Riesz-Map Preconditioned Extragradient Method for Price Formation in Mean Field Games",
+  "body_text": "A Riesz-Map Preconditioned Extragradient Method for Price Formation in Mean Field Games\n\nWe develop and analyze a projected extragradient method, preconditioned by a Riesz map, for a first-order price-formation mean field game in one space dimension. The model couples Hamilton--Jacobi--Bellman and transport equations through a global market-clearing constraint. Finite propagation justifies truncating the first-order transport equation to a bounded interval. A monotone weak formulation incorporates the mixed initial--terminal data. Its Riesz map uses $L^2$ norms for density and price directions and a space-time $H^1$ norm for value-function directions, preconditioning the residual without adding higher-order regularization terms to the MFG equations. A density-only argument rules out cocoercivity on the localized admissible set in every equivalent Hilbert metric, motivating extragradient updates. For $H(x,p)=p^2/2$, we use a monotone upwind discretization with adjoint-consistent transport and a state-constraint boundary closure. We establish a mesh-independent Lipschitz bound on bounded convex admissible sets with uniform density, slope, and price bounds. With exact metric projection onto these sets, the iteration converges to a solution of the discrete variational inequality on each fixed grid, with an admissible step-size threshold independent of both mesh sizes. Convergence under mesh refinement is not proved. On a quadratic benchmark, all reported runs reach the stopping tolerance with one fixed step size across a factor-of-16 reduction in both mesh sizes. Price errors and value-function errors measured away from low-density regions decay approximately at first order under refinement, while density errors decrease more slowly.\n\nAuthors: Yeva Gevorgyan, Diogo Gomes\nCategories: math.AP, math.AP",
+  "word_count": 227,
+  "published_at": "2026-10-09T17:56:28Z",
+  "ingested_at": "2026-10-12T11:05:39.243Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.AP",
+    "math.AP"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

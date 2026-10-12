@@ -1,0 +1,39 @@
+{
+  "id": "td_5b1162f9",
+  "source": "arxiv",
+  "source_id": "2610.13841",
+  "source_url": "https://arxiv.org/abs/2610.13841",
+  "content_type": "paper",
+  "creator": {
+    "id": "daniel_thi_graviet",
+    "name": "Daniel Thi Graviet",
+    "handle": "Daniel Thi Graviet, Tanmay Shah",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Returning to Development States: When Full Sandbox Snapshots Help Coding Agents",
+  "body_text": "Returning to Development States: When Full Sandbox Snapshots Help Coding Agents\n\nCoding agents often make useful progress before they fail, but retry-from-scratch discards the machine state created along the way. This makes failure recovery an interesting search problem: if intermediate environment states preserve meaningful progress, restoring and branching from them could outperform repeatedly restarting from the initial state. We implement Go-Explore-style search over full Daytona snapshots and find that higher and more efficient solve rates depend mainly on progress that sits outside the repository, such as databases, services, and other runtime state. Our results suggest that full-snapshot search is most effective when long-horizon coding work spans multiple services whose state cannot be reconstructed from a single diff.\n\nAuthors: Daniel Thi Graviet, Tanmay Shah\nCategories: cs.LG, cs.SE, cs.LG",
+  "word_count": 106,
+  "published_at": "2026-10-09T16:50:19Z",
+  "ingested_at": "2026-10-12T11:05:22.684Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.SE",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

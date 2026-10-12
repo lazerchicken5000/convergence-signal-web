@@ -1,0 +1,38 @@
+{
+  "id": "td_3617a09a",
+  "source": "arxiv",
+  "source_id": "2610.13910",
+  "source_url": "https://arxiv.org/abs/2610.13910",
+  "content_type": "paper",
+  "creator": {
+    "id": "shubh_garg",
+    "name": "Shubh Garg",
+    "handle": "Shubh Garg, Chen Shani",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+  "body_text": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors\n\nVision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether representations consistently encode concepts under controlled one-concept interventions, and CASP-VL (Causally controlled Spatial Perturbations for Vision-Language models), a benchmark of causally controlled spatial perturbations derived from Visual Genome scene graphs. Across multiple VLM architectures, we find that spatial relations are represented substantially less faithfully than lexical information, even when the same models score well above chance on compositional benchmarks. Further analysis shows that the relation is identifiable at the predicate's own tokens but is lost when the sentence is aggregated into a global representation, whether through the (EOS) token or by mean pooling. These findings reveal a systematic failure invisible to output-based evaluation: VLMs do not preserve, in the representation used downstream, relational information that is present in their own input.\n\nAuthors: Shubh Garg, Chen Shani\nCategories: cs.CL, cs.CL",
+  "word_count": 158,
+  "published_at": "2026-10-09T17:50:03Z",
+  "ingested_at": "2026-10-12T11:05:06.411Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
