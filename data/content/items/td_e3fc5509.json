@@ -1,0 +1,35 @@
+{
+  "id": "td_e3fc5509",
+  "source": "rss",
+  "source_id": "https://simonwillison.net/2026/Oct/12/web-edit/",
+  "source_url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+  "content_type": "article",
+  "creator": {
+    "id": "simon_willison's_weblog",
+    "name": "Simon Willison's Weblog",
+    "handle": "Simon Willison's Weblog",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "web-edit 0.1a0",
+  "body_text": "Release: web-edit 0.1a0\n        I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.\nSo... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone.\nHere's the interface for browsing files in a folder:\n\nEditing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet.\n    \n    \n        Tags: projects, python, ai, tailscale, generative-ai, llms, codex",
+  "word_count": 126,
+  "published_at": "2026-10-12T15:54:36.000Z",
+  "ingested_at": "2026-10-13T11:00:14.094Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}
