@@ -1,0 +1,39 @@
+{
+  "id": "td_6b59ba51",
+  "source": "arxiv",
+  "source_id": "2610.18818",
+  "source_url": "https://arxiv.org/abs/2610.18818",
+  "content_type": "paper",
+  "creator": {
+    "id": "divyanshu_bathla",
+    "name": "Divyanshu Bathla",
+    "handle": "Divyanshu Bathla, Parag Singla, Jitin Singla",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+  "body_text": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs\n\nPre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translates monolingual sentences in each language, and the resulting pairs train it in the reverse direction. Updates on the parallel set are interleaved for stable learning. With 1K parallel pairs on Odia and Swahili, BT beats continued pretraining into the low-resource language by 7.7 to 16.4 XCOMET-XXL points in domain. With beam-decoded intermediate translations, it also beats a model with 10 time more parallel data. In-context examples retrieved from the parallel data further improve BT. We also analyze the source, quality and amount of monolingual text. Across five low-resource languages, with Hindi as a high-resource control, and two 3B backbones, BT improves translation into the low-resource language by 16 to 173% XCOMET-XXL over parallel-only fine-tuning. Blind human evaluation on Odia and Sanskrit agrees with the automatic metrics.\n\nAuthors: Divyanshu Bathla, Parag Singla, Jitin Singla\nCategories: cs.CL, cs.AI, cs.CL",
+  "word_count": 200,
+  "published_at": "2026-10-13T17:50:18Z",
+  "ingested_at": "2026-10-14T11:05:34.214Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

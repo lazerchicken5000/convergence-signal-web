@@ -1,0 +1,39 @@
+{
+  "id": "td_9b6bf8eb",
+  "source": "arxiv",
+  "source_id": "2610.18838",
+  "source_url": "https://arxiv.org/abs/2610.18838",
+  "content_type": "paper",
+  "creator": {
+    "id": "peter_chen",
+    "name": "Peter Chen",
+    "handle": "Peter Chen, Sergey Levine",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Scaling Online Optimal Transport Minibatches for Flow Matching",
+  "body_text": "Scaling Online Optimal Transport Minibatches for Flow Matching\n\nA central challenge in scaling flow models is maintaining stability in training and integration. In flow matching, this stability depends critically on how source samples are paired with data. Independent random pairing introduces substantial stochasticity, motivating minibatch optimal transport (OT) to construct online source-target couplings that reduce this randomness (Tong et al., 2024). However, as applications extend to larger and higher-dimensional datasets, small minibatches can limit these benefits, while scaling the coupling to substantially larger minibatches at every iteration is computationally prohibitive. Moreover, how OT coupling affects the full stochastic gradient and integration remains theoretically unresolved. In this work, we develop a scalable online entropic OT approximation that enables substantially larger source-target couplings while preserving the benefits of OT. We close the theoretical gap for both unregularized and entropic OT by proving strict reductions in full stochastic-gradient variance and integration error relative to independent pairing, and further characterize how these improvements strengthen as the online coupling minibatch grows. Experiments on single-cell gene interpolation-flow and image-flow training validate these predictions, showing that larger online couplings consistently improve training stability and final generation performance.\n\nAuthors: Peter Chen, Sergey Levine\nCategories: cs.LG, cs.CV, cs.LG",
+  "word_count": 182,
+  "published_at": "2026-10-13T17:56:26Z",
+  "ingested_at": "2026-10-14T11:06:07.192Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

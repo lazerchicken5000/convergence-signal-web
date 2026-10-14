@@ -1,0 +1,39 @@
+{
+  "id": "td_a46ee307",
+  "source": "arxiv",
+  "source_id": "2610.18820",
+  "source_url": "https://arxiv.org/abs/2610.18820",
+  "content_type": "paper",
+  "creator": {
+    "id": "muyao_kong",
+    "name": "Muyao Kong",
+    "handle": "Muyao Kong, Zhihao Lin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Read the Room Before Your Model Generates",
+  "body_text": "Read the Room Before Your Model Generates\n\nLarge language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable representation of the communicative scenario. In this work, we introduce a simple and interpretable temperature selection framework, the \\textbf{Scenario-Actor}, which adapts decoding to the inferred situational characteristics. Scenario-Actor extracts scenario-relevant structures from Transformer hidden states and determines the temperature from scenario embedding, a structured geometric representation of the communicative setting. Empirical results show that on Llama-3.1-8B-Instruct, Scenario-Actor achieves strong goal-completion performance in interactive social scenarios, significant gains on open-ended instruction following, and competitive performance on multi-turn conversation compared to multiple baselines.\n\nAuthors: Muyao Kong, Zhihao Lin\nCategories: cs.AI, cs.CL, cs.AI",
+  "word_count": 120,
+  "published_at": "2026-10-13T17:51:18Z",
+  "ingested_at": "2026-10-14T11:05:34.214Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

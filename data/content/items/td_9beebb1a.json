@@ -1,0 +1,38 @@
+{
+  "id": "td_9beebb1a",
+  "source": "arxiv",
+  "source_id": "2610.18837",
+  "source_url": "https://arxiv.org/abs/2610.18837",
+  "content_type": "paper",
+  "creator": {
+    "id": "zheng_sun",
+    "name": "Zheng Sun",
+    "handle": "Zheng Sun",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Fully discrete multi-entropy-stable compact Runge--Kutta discontinuous Galerkin methods for hyperbolic conservation laws",
+  "body_text": "Fully discrete multi-entropy-stable compact Runge--Kutta discontinuous Galerkin methods for hyperbolic conservation laws\n\nWe develop fully discrete multi-entropy-stable high-order compact Runge--Kutta discontinuous Galerkin (cRKDG) methods for hyperbolic conservation laws. Our main result is a weak cell entropy inequality for multi-dimensional systems after one full high-order Runge--Kutta (RK) time step. The proof exploits the cell-local intermediate stages of cRKDG: their perturbations are controlled by the initial in-cell variation. The analysis does not require a strong stability preserving decomposition or stagewise entropy correction. For a sufficiently dissipative Lax--Friedrichs flux and explicit RK methods with nonnegative output weights, the inequality holds under a suitable time-step restriction for strongly convex entropy pairs. For a prescribed, uniformly conditioned family of such entropies, common dissipation and time-step conditions ensure weak cell entropy stability for all entropy pairs. A single cell-average-preserving scaling at the end of each step then enforces all corresponding strong cell entropy inequalities simultaneously. We also prove a Lax--Wendroff-type theorem: under the stated assumptions, any strongly convergent sequence of numerical solutions converges to a weak solution satisfying all prescribed entropy inequalities. Numerical experiments in one and two dimensions demonstrate high-order accuracy, the benefit of multiple entropy constraints for nonconvex scalar problems, and robust performance on shock problems.\n\nAuthors: Zheng Sun\nCategories: math.NA, math.NA",
+  "word_count": 190,
+  "published_at": "2026-10-13T17:56:00Z",
+  "ingested_at": "2026-10-14T11:06:07.192Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

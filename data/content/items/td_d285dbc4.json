@@ -1,0 +1,35 @@
+{
+  "id": "td_d285dbc4",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/accelerated-reactions-electric-field",
+  "source_url": "https://www.science.org/content/blog-post/accelerated-reactions-electric-field",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Accelerated Reactions in an Electric Field",
+  "body_text": "This paper caught my eye, but it’s in one of those categories that tends to do so. There are a number of things about chemical reactions that most of us chemists tend to sort of slide past, but which are (in theory) subject to manipulation, and this sort of thing could turn out to be very useful. Electric fields and electric field gradients are one of those, and over the years there have been several attempts to address that idea. It isn’t easy. In theory you can certainly alter the electron distributions of your reactants in such a field, and for well-chosen reaction types that could make a huge different. But the orientation of the molecules within such fields is crucial to testing their effects, and how do you get them to line up? Here’s some earlier work that uses mechanically tethered molecules (the sorts of systems you’d use to pull said molecules apart from each end) in electric fields, and the authors were definitely able to see effects on reaction rates, presumably through stabilization of the transition states by the applied electric fields. In this latest paper, the confinement-and-orientation problem is approached in a different way. The authors are looking at a Diels-Alder reaction as it takes place between the closely-spaced plates (100 micron separation) of a microfluidic capacitor. The reaction takes place in the electric double layer (the Helmholz layer) on the surface of the charged plates, and the authors use several positively charged species to produce these around the cathode plate (ammonium binapthyls, N-alkylated quinines, polyarginines, etc.) An example reaction is shown in the graphic. The prediction is that you need electric fields of at least 1 volt/nm to affect transition states, and you’re not going to be able to realize that with “naked” capacitor plates at that spacing. That’s where the charged layers come in - these can get you up to the required field strength. Flowing the reaction mixtures between such “layered” plates shows some real effects, not least because the Diels-Alder reactions investigated here show no product formation at all at room temperature without the electric fields present. Interestingly, you get a sigmoidal curve, with a rapid increase in yield that levels off as voltages are increased (probably due to the formation of a good a Helmholz layer as you’re ever going to get). You’ll also note that the components of that layer can be chiral (as with the polyarginine or the quinines), and the authors show that this can lead to enantioselectivity in the products as they react in this oriented chiral environment. The solvent used to flow the reactants in has strong effects as well. Polar solvents (as you’d expect) can form the ordered layers all their own under these conditions, but these can also interfere with the designed layers that you might be trying to produce. Less polar solvents make that less complicated, but the ion-pair separation also becomes harder to achieve. But moving to gradually less polar solvent mixtures (various levels of chloroform/DMSO) increased the enantioselectivity of the electric-field-accelerated Diels-Alder reactions, which definitely argues for it taking place in that chiral layer. And changing the components of that layer gave results that strongly suggest that the Diels-Alder is taking place mostly in the cationic Helmholz layers as opposed to the anionic ones. Taken together, this is a pretty compelling demonstration of new electric-field-driven chemistry in such layers, and it presents a whole range of possibilities for people to investigate. There are many other reactions that might respond to such electric field strengths, and of course there is a huge range of possible mixtures to form the double-layers under the reaction conditions. Optimization of these leads one to imagine an actual flow-chemistry reactor pushing components through a pile of microcapacitors, and it’s an open question as to what throughputs these things could scale to. Given the number of variables involved, I think it’ll be a while before things get to that stage, but for now, we’ll see what people can make of this new technique.",
+  "word_count": 674,
+  "published_at": "2026-10-13T03:34:45.000Z",
+  "ingested_at": "2026-10-14T11:03:28.265Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

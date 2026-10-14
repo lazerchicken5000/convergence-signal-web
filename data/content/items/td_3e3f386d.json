@@ -1,0 +1,40 @@
+{
+  "id": "td_3e3f386d",
+  "source": "arxiv",
+  "source_id": "2610.18871",
+  "source_url": "https://arxiv.org/abs/2610.18871",
+  "content_type": "paper",
+  "creator": {
+    "id": "chih-hai_su",
+    "name": "Chih-Hai Su",
+    "handle": "Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+  "body_text": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion\n\nSparse-to-dense motion completion recovers dense mesh motion from sparse vertex displacements. Residual priors trained on one geometry family frequently fail to beat parameter-free harmonic extension off-family. Moreover, cross-family training meets a scaling barrier: residual amplitude varies by more than an order of magnitude across geometry families and collapses as observations become denser. Since this scale depends on unknown target motion, it cannot be measured directly at test time. We decouple residual structure from physical scale by learning a dimensionless prior, estimating amplitude from observables and a lightweight correction fitted only on training sources. Our unified model surpasses harmonic extension across all evaluated families, including unseen cloth and legged bodies, without skeletons, registration, or cross-mesh correspondence. The same prior applies without retraining to point-tracked animal video and a robot grasping a soft body. Project page: https://su-terry.github.io/cepheid-website/\n\nAuthors: Chih-Hai Su, Tsung-Wei Ke, Yu-Lun Liu\nCategories: cs.CV, cs.GR, cs.LG, cs.CV",
+  "word_count": 135,
+  "published_at": "2026-10-13T17:59:53Z",
+  "ingested_at": "2026-10-14T11:05:42.189Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.GR",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
