@@ -1,0 +1,40 @@
+{
+  "id": "td_a11a6cdc",
+  "source": "arxiv",
+  "source_id": "2610.20567",
+  "source_url": "https://arxiv.org/abs/2610.20567",
+  "content_type": "paper",
+  "creator": {
+    "id": "ofek_lavi",
+    "name": "Ofek Lavi",
+    "handle": "Ofek Lavi, Jhonatan Tavori, Hanoch Levy, Anat Bremler-Barr",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Prioritizing Microservice Requests via Retries",
+  "body_text": "Prioritizing Microservice Requests via Retries\n\nCloud services rapidly shift towards independently-managed microservices architectures. This independence may lead to temporary microservices miscoordination, resulting in overloads and rejections of valuable transactions. This weakness may further be exploited by attackers to launch overload attacks inflicting performance and cost damages. Retry operations are a key machinery aiming at overcoming seldom rejections. However, during overload periods they: a) Fail protecting valuable transactions from rejections, and b) Trigger large-scale performance-degrading retry storms. We propose simple modifications in retry operations, overcoming these deficiencies by transforming retries into a rejection prioritization mechanism, DiffTry (Differential Retries). It is based on a simple, lightweight, distributed and stateless design and requires neither overload sensing nor microservices coordination. We develop an analytical model capturing DiffTry's effectiveness for two services in tandem, then generalize it to networks of services. Our theoretical framework lets practitioners quantify, for a given network, the resulting prioritization and rejection rates, and yields formal guarantees that DiffTry substantially reduces the impact of both incidental and adversarial orchestrated overloads. We validate these predictions in simulation and on a live Kubernetes deployment, where DiffTry is a simple drop-in service-mesh plugin requiring no application changes; the measured rejection closely matches the analysis.\n\nAuthors: Ofek Lavi, Jhonatan Tavori, Hanoch Levy, Anat Bremler-Barr\nCategories: cs.NI, cs.CR, cs.DC, cs.NI",
+  "word_count": 195,
+  "published_at": "2026-10-14T17:51:58Z",
+  "ingested_at": "2026-10-15T11:05:45.795Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.NI",
+    "cs.CR",
+    "cs.DC",
+    "cs.NI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

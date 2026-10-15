@@ -1,0 +1,39 @@
+{
+  "id": "td_e6e0b0b0",
+  "source": "arxiv",
+  "source_id": "2610.20586",
+  "source_url": "https://arxiv.org/abs/2610.20586",
+  "content_type": "paper",
+  "creator": {
+    "id": "afshin_khadangi",
+    "name": "Afshin Khadangi",
+    "handle": "Afshin Khadangi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Continuum Attention",
+  "body_text": "Continuum Attention\n\nWe introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponential relevance density along the curve. Integrating the density and interpolated values yields exact normalized attention from closed form exponential moments, including half token boundary contributions. The gradients follow analytically from moments of order at most two, enabling parallel GPU implementations while retaining quadratic sequence complexity and the standard Transformer decoder. Compared with ordinary softmax and focal attention, CA reduces mean validation negative log likelihood by 0.0200 and 0.0480 nats per byte, respectively, winning all paired comparisons. An additional disjoint validation slice yields a 0.0457 nats per byte advantage over the strongest selected softmax baseline, with a paired 95% confidence interval. These findings motivate continuous integration as a promising attention alternative while leaving larger scale generalization open.\n\nAuthors: Afshin Khadangi\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 147,
+  "published_at": "2026-10-14T17:57:40Z",
+  "ingested_at": "2026-10-15T11:05:05.021Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

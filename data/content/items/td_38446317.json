@@ -1,0 +1,38 @@
+{
+  "id": "td_38446317",
+  "source": "arxiv",
+  "source_id": "2610.20608",
+  "source_url": "https://arxiv.org/abs/2610.20608",
+  "content_type": "paper",
+  "creator": {
+    "id": "saeed_razavi",
+    "name": "Saeed Razavi",
+    "handle": "Saeed Razavi, Xingjian Leng, Liang Zheng",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Representation Conditioning for Generation",
+  "body_text": "Representation Conditioning for Generation\n\nRepresentation-alignment methods effectively accelerate the diffusion transformer training. REPA, for example, uses a pretrained vision encoder to supervise an intermediate layer through an MLP projection head which is discarded after training. It aims to import semantics from the vision encoder to the diffusion backbone. While this objective is achieved at early layers by back-propagating the alignment loss, there is no guarantee that later layers, supervised by the velocity prediction loss alone, can well access such semantics. We propose a simple solution, representation conditioning (RECON), to improve semantics in later layers. During training, we feed the pretrained vision encoder tokens into later layers; during inference, because we no longer have the clean image, we reuse the MLP head (as a proxy to the vision encoder) and project its output tokens to the later layers. Our method adds no parameters and leads to much faster convergence: RECON is $63\\times$ faster than SiT and $25\\times$ faster than REPA. Code is available at https://github.com/saeidrazavi/RECON\n\nAuthors: Saeed Razavi, Xingjian Leng, Liang Zheng\nCategories: cs.CV, cs.CV",
+  "word_count": 160,
+  "published_at": "2026-10-14T17:59:52Z",
+  "ingested_at": "2026-10-15T11:05:45.793Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

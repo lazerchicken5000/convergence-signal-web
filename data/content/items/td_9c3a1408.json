@@ -1,0 +1,39 @@
+{
+  "id": "td_9c3a1408",
+  "source": "arxiv",
+  "source_id": "2610.20582",
+  "source_url": "https://arxiv.org/abs/2610.20582",
+  "content_type": "paper",
+  "creator": {
+    "id": "yingfa_chen",
+    "name": "Yingfa Chen",
+    "handle": "Yingfa Chen, Xingyu Shen, Chaojun Xiao, Xu Han",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Latent Compaction with Test-Time Training",
+  "body_text": "Latent Compaction with Test-Time Training\n\nLong contexts enlarge key--value (KV) caches, increasing memory use and attention costs during generation. Compressing these caches must preserve information for unseen questions. We introduce **Latent Compaction**, which learns a compact document-specific cache through test-time training. We initialize cache entries using reconstruction importance, teacher attention, and key-space diversity. Training first fits attention outputs and log-normalizers to those of the full cache, with reconstruction-selected entries held fixed. It then jointly optimizes the entire cache through end-to-end distillation from the full-cache model. Model weights remain frozen throughout, and training uses only generic prompts about the document, without access to downstream questions or answers. Experiments on RULER, LongBench, and Phonebook Lookup demonstrate substantial gains over budget-matched compression baselines. On a RULER, for example, our method achieves 96.7% accuracy at 32$\\times$ compression, compared with 40.0% for KVZip+. The method also transfers across model scales and families, with retrieval gains on both Qwen3 and MiniCPM5. These results show that treating the KV cache as a neural network and optimizing it with test-time training can preserve retrieval accuracy under aggressive compression. The code is released at https://www.github.com/THUNLP/latent-compaction\n\nAuthors: Yingfa Chen, Xingyu Shen, Chaojun Xiao, Xu Han\nCategories: cs.CL, cs.LG, cs.CL",
+  "word_count": 181,
+  "published_at": "2026-10-14T17:57:01Z",
+  "ingested_at": "2026-10-15T11:05:13.088Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.LG",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

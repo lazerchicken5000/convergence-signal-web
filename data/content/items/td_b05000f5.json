@@ -1,0 +1,39 @@
+{
+  "id": "td_b05000f5",
+  "source": "arxiv",
+  "source_id": "2610.20572",
+  "source_url": "https://arxiv.org/abs/2610.20572",
+  "content_type": "paper",
+  "creator": {
+    "id": "kaixiang_zhao",
+    "name": "Kaixiang Zhao",
+    "handle": "Kaixiang Zhao, Tianrun Yu, Shangzhe Li, Yuxiao Yang, Amanda Hughes, Weitong Zhang, Taylor W. Killian",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+  "body_text": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation\n\nOn-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to restore recoverability. The teacher critiques an incorrect rollout, allowing the student to rewrite its solution following the error. The resulting output, including the critique as privileged information, is scored by the teacher while the student uses the revision without the critique for training. On two Qwen3 students and six mathematical reasoning benchmarks, CriticOPD improves OPD, with the largest gains on competition problems.\n\nAuthors: Kaixiang Zhao, Tianrun Yu, Shangzhe Li, Yuxiao Yang, Amanda Hughes, Weitong Zhang, Taylor W. Killian\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 126,
+  "published_at": "2026-10-14T17:54:34Z",
+  "ingested_at": "2026-10-15T11:05:05.022Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

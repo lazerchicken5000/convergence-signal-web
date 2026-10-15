@@ -1,0 +1,38 @@
+{
+  "id": "td_b1a91281",
+  "source": "arxiv",
+  "source_id": "2610.20539",
+  "source_url": "https://arxiv.org/abs/2610.20539",
+  "content_type": "paper",
+  "creator": {
+    "id": "damilola_fasiku",
+    "name": "Damilola Fasiku",
+    "handle": "Damilola Fasiku, Wentao Tang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Decomposition-Based Data-Driven Branch-and-Bound Approach for Black-Box Global Optimization",
+  "body_text": "A Decomposition-Based Data-Driven Branch-and-Bound Approach for Black-Box Global Optimization\n\nMany scientific and engineering applications require the global optimization of expensive black-box functions. In high-dimensional settings, however, achieving computational scalability is a major challenge. To address this challenge, we propose a distributed spatial branch-and-bound framework that exploits partially separable structure for the global optimization of box-constrained black-box problems. The proposed framework adopts a two-layer structure in which branching is performed only on a lower-dimensional set of coupling variables in an outer layer. Within each outer node, the remaining non-overlapping (private) variables, which appear independently across blocks, have their domains partitioned and explored in parallel within an inner layer, resulting in a naturally parallelizable framework that is well suited for implementation on multi-core CPU architectures. At each node, valid upper bounds are obtained via sampling, with optional refinement using a local solver, while lower bounds are computed using data-driven convex underestimators constructed over partitions of the private variables. A residual-based correction and finite-sample validity analysis provide conditions under which the partitionwise underestimators are valid lower bounds, while the proposed branching and refinement mechanism establishes convergence to an $ε$-global optimum. Numerical studies on benchmark and ODE-constrained parameter-estimation problems demonstrate improvements in both sampling efficiency and computational performance relative to monolithic approaches.\n\nAuthors: Damilola Fasiku, Wentao Tang\nCategories: math.OC, math.OC",
+  "word_count": 199,
+  "published_at": "2026-10-14T17:33:19Z",
+  "ingested_at": "2026-10-15T11:05:45.795Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

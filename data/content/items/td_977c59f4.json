@@ -1,0 +1,39 @@
+{
+  "id": "td_977c59f4",
+  "source": "arxiv",
+  "source_id": "2610.20573",
+  "source_url": "https://arxiv.org/abs/2610.20573",
+  "content_type": "paper",
+  "creator": {
+    "id": "anna_mei",
+    "name": "Anna Mei",
+    "handle": "Anna Mei, Michael R. Douglas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization",
+  "body_text": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization\n\nWe introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic review with mechanical numerical and vacuity checks, providing checkable feedback and detecting errors missed by LLM judges. We apply this method, along with our Extract-Verify-Proof autoformalization pipeline, to construct the Formalized Library of Mathematical Functions (FLMF), a partial formalization of the NIST Digital Library of Mathematical Functions (DLMF). On three labeled datasets, our method achieves the lowest accepted-error rate among the evaluated methods, measured as the fraction of incorrect statements accepted by the verification method. Expert review of the results also identifies translation and source defects in existing datasets. Code available at https://github.com/annamei1/FLMF-Ch7ErrFunc-Release.git.\n\nAuthors: Anna Mei, Michael R. Douglas\nCategories: cs.LO, cs.AI, cs.LO",
+  "word_count": 123,
+  "published_at": "2026-10-14T17:54:48Z",
+  "ingested_at": "2026-10-15T11:05:05.022Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LO",
+    "cs.AI",
+    "cs.LO"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
