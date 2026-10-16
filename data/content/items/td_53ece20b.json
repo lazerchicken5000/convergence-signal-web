@@ -1,0 +1,41 @@
+{
+  "id": "td_53ece20b",
+  "source": "arxiv",
+  "source_id": "2610.22343",
+  "source_url": "https://arxiv.org/abs/2610.22343",
+  "content_type": "paper",
+  "creator": {
+    "id": "hongchang_liu",
+    "name": "Hongchang Liu",
+    "handle": "Hongchang Liu, Jian Liu, Yujuan Ding, Liang Peng, Xun Jiang, Fei Ma, Xing Xu, Yi Bin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+  "body_text": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling\n\nRecent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically, a scene tokenizer aggregates multi-view GFM features into a view-decoupled scene state, which a geometry decoder queries using camera rays. An autoregressive world model then predicts future scene states, while camera motion is modeled separately. The predicted states can therefore be decoded under either predicted or externally specified cameras, while retaining a single context-derived scale throughout the rollout without per-frame scale alignment. Experiments show that GeoState outperforms prior 3D world models on Waymo, supports geometrically consistent cross-view querying, and generalizes zero-shot to KITTI and nuScenes. Project page: https://hongchang-liu.github.io/GeoState-project-page/\n\nAuthors: Hongchang Liu, Jian Liu, Yujuan Ding, Liang Peng, Xun Jiang, Fei Ma, Xing Xu, Yi Bin\nCategories: cs.CV, cs.AI, cs.LG, cs.RO, cs.CV",
+  "word_count": 151,
+  "published_at": "2026-10-15T17:56:18Z",
+  "ingested_at": "2026-10-16T11:05:16.404Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

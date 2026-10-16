@@ -1,0 +1,38 @@
+{
+  "id": "td_5f33a099",
+  "source": "arxiv",
+  "source_id": "2610.22310",
+  "source_url": "https://arxiv.org/abs/2610.22310",
+  "content_type": "paper",
+  "creator": {
+    "id": "yujeong_jo",
+    "name": "Yujeong Jo",
+    "handle": "Yujeong Jo, Incheol Baek, Changbeom Shim, Yon Dohn Chung",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TraHist: Fast and Accurate Cardinality Estimation for Trajectory Data (Extended Version)",
+  "body_text": "TraHist: Fast and Accurate Cardinality Estimation for Trajectory Data (Extended Version)\n\nCardinality estimation is fundamental for query optimization in database systems. Histogram-based estimators are widely used for their simplicity and efficiency but rely on point-centric partitioning that assumes record independence. This assumption breaks in trajectory data, where records from the same moving object show strong spatiotemporal dependencies. Conventional axis-aligned histograms therefore fragment trajectories across partition boundaries, leading to overestimation through duplicate counting. This error reflects a structural limitation of partition boundaries that are misaligned with trajectory-induced density patterns. To this end, we propose TraHist, a histogram-based estimator approximating density-aligned partitioning via efficient grid-based propagation. TraHist builds density-adaptive rectilinear buckets to preserve trajectory continuity and local density coherence while keeping histogram efficiency. Experiments on large-scale real-world datasets show that TraHist reduces estimation error by over 20x relative to the strongest competing estimator in query regimes where trajectory fragmentation is a dominant source of estimation error, while maintaining sub-millisecond query latency and competitive construction cost.\n\nAuthors: Yujeong Jo, Incheol Baek, Changbeom Shim, Yon Dohn Chung\nCategories: cs.DB, cs.DB",
+  "word_count": 152,
+  "published_at": "2026-10-15T17:50:05Z",
+  "ingested_at": "2026-10-16T11:05:57.831Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DB",
+    "cs.DB"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

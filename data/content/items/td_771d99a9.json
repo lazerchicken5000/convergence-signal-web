@@ -1,0 +1,40 @@
+{
+  "id": "td_771d99a9",
+  "source": "arxiv",
+  "source_id": "2610.22350",
+  "source_url": "https://arxiv.org/abs/2610.22350",
+  "content_type": "paper",
+  "creator": {
+    "id": "dongxu_yang",
+    "name": "Dongxu Yang",
+    "handle": "Dongxu Yang, Hongda Yan, Renxin Wang, Baoli Zhang, Haojia Zuo, Ying Zhao, Youmin Chen, Xiaojian Liao, Congming Gao, Tianyang Jiang, Yixiao Chen, Qing Wang, Zhiguo Yu, Xiaqing Li, Yuhao Zhang, Jiawen Sun, Renzhe Xu, De Mi, Tiancheng Wu, Xianya Fu, Xuanlu Zhao, Bo Feng, Meixuan Ren, Guanming Lin, Ziheng Zhou, Xinhua Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "FDE-Gym: The Last Mile of AI Delivery",
+  "body_text": "FDE-Gym: The Last Mile of AI Delivery\n\nExisting agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated customer environments with scripted stakeholders and modifiable customer systems, agents interact with stakeholders and operate on production-like systems to deliver working solutions. FDE-Gym scores a delivery by how much it improves the customer's own success metric, normalized between 0 (unchanged system) and 1 (reference solution), with penalties for stakeholder interactions (messages, trial runs, and waiting time). An online platform lets humans practice FDE skills under the same grading criteria. We evaluate 13 model configurations from seven providers. In the realistic setting, where unstated constraints must be discovered, the best configuration achieves a mean FDE-Gym score of 0.56 and resolves only 14 of the 95 tasks (a score of at least 0.8 with no incident). Discovering unstated constraints is the primary bottleneck: performance drops sharply when models must uncover them without explicit guidance. Yet information discovery alone does not account for the gap: even on the 23 tasks where the best configuration obtains every key fact from stakeholders, it reaches a normalized business uplift of 0.8 or above on only 10. These results reveal a substantial gap between solving well-specified tasks and delivering effective AI systems for real customers.\n\nAuthors: Dongxu Yang, Hongda Yan, Renxin Wang, Baoli Zhang, Haojia Zuo, Ying Zhao, Youmin Chen, Xiaojian Liao, Congming Gao, Tianyang Jiang, Yixiao Chen, Qing Wang, Zhiguo Yu, Xiaqing Li, Yuhao Zhang, Jiawen Sun, Renzhe Xu, De Mi, Tiancheng Wu, Xianya Fu, Xuanlu Zhao, Bo Feng, Meixuan Ren, Guanming Lin, Ziheng Zhou, Xinhua Wang\nCategories: cs.AI, cs.CL, cs.SE, cs.AI",
+  "word_count": 253,
+  "published_at": "2026-10-15T17:57:23Z",
+  "ingested_at": "2026-10-16T11:05:16.403Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.SE",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_6b84fa66",
+  "source": "arxiv",
+  "source_id": "2610.22356",
+  "source_url": "https://arxiv.org/abs/2610.22356",
+  "content_type": "paper",
+  "creator": {
+    "id": "han_su",
+    "name": "Han Su",
+    "handle": "Han Su, Meng Tian, Tianyu Huang, Mingyu Gao, Lennox Wei, Dongxu Li, Jianhua Han, Hang Xu, Xiaohe Wu, Wangmeng Zuo",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
+  "body_text": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models\n\nVision-language models still struggle to understand 3D spatial relations across views and update spatial judgments as the observer moves. A common approach fuses 3D reconstruction features into visual tokens, but aligning these features with pretrained semantic representations remains challenging under limited spatial supervision. We propose DK-VLM with Dual-Kernel Attention, which computes attention from both a visual token's input position and its geometric position in the scene. A semantic kernel retains the pretrained model's native attention and positional encoding, while a separate geometric kernel uses estimated 3D points and camera poses to directly modulate attention through point displacements and relative view transformations. Then, a learned gate fuses their outputs. Geometry thus enters attention as position rather than as fused reconstruction features. We further introduce Reference-Frame Composition (RC) supervision to train the model to update its reference frame across successive judgments. It provides stepwise turn and heading targets derived from verified single-step annotations. Among the compared methods, DK-VLM-8B achieves the highest average score across six spatial benchmarks and the highest overall scores on VSI-Bench (74.33) and ReVSI-32 (58.28). RC supervision further improves multi-step spatial reasoning, while the full model preserves general video understanding. Project page: https://sumuru789.github.io/DK-VLM-website/.\n\nAuthors: Han Su, Meng Tian, Tianyu Huang, Mingyu Gao, Lennox Wei, Dongxu Li, Jianhua Han, Hang Xu, Xiaohe Wu, Wangmeng Zuo\nCategories: cs.CV, cs.CV",
+  "word_count": 194,
+  "published_at": "2026-10-15T17:58:15Z",
+  "ingested_at": "2026-10-16T11:05:49.042Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

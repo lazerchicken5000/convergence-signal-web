@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:13:19.335Z",
+  "generated_at": "2026-10-16T11:13:49.854Z",
   "total_leaders_analyzed": 686,
   "candidates": [
     {
@@ -978,6 +978,40 @@
     },
     {
       "rank": 29,
+      "id": "daniel_whitenack_and_chris_benson",
+      "name": "daniel whitenack and chris benson",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.219,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 1,
+      "score_change": 0.004,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.9
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.6
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        }
+      ],
+      "pattern_count": 0,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
+      "rank": 30,
       "id": "cloudflare",
       "name": "cloudflare",
       "leader_type": "architect",
@@ -985,7 +1019,7 @@
       "score": 0.216,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -1009,40 +1043,6 @@
       "source_types": [
         "github",
         "citation"
-      ]
-    },
-    {
-      "rank": 30,
-      "id": "daniel_whitenack_and_chris_benson",
-      "name": "daniel whitenack and chris benson",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.215,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.9
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.55
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
       ]
     }
   ],
