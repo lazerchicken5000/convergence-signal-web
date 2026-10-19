@@ -1,0 +1,38 @@
+{
+  "id": "td_076c905f",
+  "source": "arxiv",
+  "source_id": "2610.23800",
+  "source_url": "https://arxiv.org/abs/2610.23800",
+  "content_type": "paper",
+  "creator": {
+    "id": "muhammad_arif",
+    "name": "Muhammad Arif",
+    "handle": "Muhammad Arif, Samah Fodeh-Jarad, Elyas Irankhah, Uroosa Fatima, Lama Ayash, Sreeraj Ramachandran",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Large Language Model LLM Approach to COVID-19 Fake News Detection",
+  "body_text": "A Large Language Model LLM Approach to COVID-19 Fake News Detection\n\nText classification is a widely studied problem in information retrieval and data mining, with applications ranging from healthcare diagnosis to the detection of COVID-19-related fake news. Social media platforms generate vast volumes of user-generated text, and the rapid spread of misinformation during the pandemic has made automated fake news detection an important task. In this study, we apply pretrained transformer-based transfer learning (TL) models and large language models (LLMs), namely BERT-base, ALBERT-base, XLM-RoBERTa-base, DistilBERT, GPT-2, XLNet, and T5, to the COVID-19 English Tweets dataset, which contains 6,420 tweets labeled as real or fake. To further improve performance, we apply six late-fusion optimization techniques: weighted fusion, particle swarm optimization (PSO) fusion, the Nelder-Mead algorithm, Powell's method, the Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm, and trust-region constrained optimization. Models are evaluated using accuracy, precision, recall, and F1-score, and confusion-matrix heatmaps are used to visualize the predictions of each model. GPT-2 achieved the best performance, with an accuracy of 0.9631, precision of 0.9612, recall of 0.9610, and F1-score of 0.9600, while Nelder-Mead fusion achieved the best result among the fusion methods with an accuracy of 0.9610. These results highlight the value of LLMs for COVID-19 fake news detection. We conclude by outlining future directions, including multiclass classification, multilingual datasets, and real-time social media streams.\n\nAuthors: Muhammad Arif, Samah Fodeh-Jarad, Elyas Irankhah, Uroosa Fatima, Lama Ayash, Sreeraj Ramachandran\nCategories: cs.CY, cs.CY",
+  "word_count": 208,
+  "published_at": "2026-10-16T17:25:06Z",
+  "ingested_at": "2026-10-19T11:05:29.711Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CY",
+    "cs.CY"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

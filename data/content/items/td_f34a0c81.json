@@ -1,0 +1,41 @@
+{
+  "id": "td_f34a0c81",
+  "source": "arxiv",
+  "source_id": "2610.23792",
+  "source_url": "https://arxiv.org/abs/2610.23792",
+  "content_type": "paper",
+  "creator": {
+    "id": "james_davies",
+    "name": "James Davies",
+    "handle": "James Davies, Paweł Rzążewski, Jack Spalding-Jamieson, Bartosz Walczak",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Revisiting separators in string graphs, region intersection graphs, and induced-minor-free graphs",
+  "body_text": "Revisiting separators in string graphs, region intersection graphs, and induced-minor-free graphs\n\nString graphs are intersection graphs of continuous curves in the plane. In 2010, Fox and Pach proved that string graphs with $m$ edges admit balanced vertex separators of size $\\mathcal{O}(m^{3/4}\\sqrt{\\log m})$ and conjectured that this bound can be improved to $\\mathcal{O}(\\sqrt{m})$, which would be optimal. After partial progress, Lee claimed in 2017 to prove this conjecture, and more generally to prove analogous separator theorems for region intersection graphs over minor-closed graph families. A key intermediate step in Lee's approach was a padded decomposition scheme for region intersection graphs. In 2024, Korhonen and Lokshtanov extended Lee's approach to the broader setting of graph classes excluding a fixed graph as an induced minor. These results have since found applications in a wide range of works. Later in 2024, a flaw was discovered in the construction of Lee's padded decomposition scheme, invalidating Lee's as well as Korhonen and Lokshtanov's separator results, and many works relying on them. In this work, we prove that string graphs with $m$ edges admit balanced separators of size $\\mathcal{O}(\\sqrt{m})$, and more generally obtain analogous $\\mathcal{O}(\\sqrt{m})$ bounds for region intersection graphs over fixed minor-closed graph families and for graphs excluding a fixed graph as an induced minor, thereby repairing the vast majority of the affected works. Furthermore, our balanced separators can be found in polynomial time. Our proof uses a different approach from Lee's and does not rely on padded decompositions. Since padded decompositions have also found applications independent of the separator theorems, particularly for string graphs, we also prove a padded decomposition result for region intersection graphs that is optimal for string graphs. We have formalized both the balanced separator and the padded decomposition results in Lean 4 with mathlib.\n\nAuthors: James Davies, Paweł Rzążewski, Jack Spalding-Jamieson, Bartosz Walczak\nCategories: math.CO, cs.CG, cs.DM, math.MG, math.CO",
+  "word_count": 282,
+  "published_at": "2026-10-16T17:20:19Z",
+  "ingested_at": "2026-10-19T11:05:47.004Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.CO",
+    "cs.CG",
+    "cs.DM",
+    "math.MG",
+    "math.CO"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

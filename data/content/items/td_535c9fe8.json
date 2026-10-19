@@ -1,0 +1,38 @@
+{
+  "id": "td_535c9fe8",
+  "source": "arxiv",
+  "source_id": "2610.23818",
+  "source_url": "https://arxiv.org/abs/2610.23818",
+  "content_type": "paper",
+  "creator": {
+    "id": "chiatzen_wang",
+    "name": "Chiatzen Wang",
+    "handle": "Chiatzen Wang, Bill Xu, Haochen Gu, Hongyang Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding",
+  "body_text": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding\n\nSpeculative decoding typically characterizes speedup by draft tokens accepted per verification round. Lossless verification preserves the target model's output distribution and thus expected completion length, making this metric a meaningful efficiency proxy. Relaxed (lossy) verification accepts tokens that lossless verification would reject, potentially altering that distribution. We identify a length inflation phenomenon: relaxed verification lengthens completions, primarily by extending reasoning traces, largely offsetting apparent gains in accepted tokens per round. We evaluate existing training-free relaxed verification rules on twelve target-drafter pairs against lossless verification on identical prompts, measuring completion length, verifier rounds, wall-clock time, and task accuracy. At each rule's most relaxed evaluated setting, relaxed verification on average accepts $1.34\\times$ as many tokens per round but produces $1.54\\times$ longer completions. For rules with higher acceptance lengths, tokens accepted only under relaxed verification tend to have low target-model probability, contributing to length inflation. For rules that reduce verifier rounds, accuracy typically drops substantially. Further analysis traces some failures to continued reasoning that exhausts the budget needed to deliver a final answer. Overall, accepted tokens per round alone is an unreliable measure of decoding speed under relaxed verification. Completion length and verifier rounds must also be reported to assess actual efficiency.\n\nAuthors: Chiatzen Wang, Bill Xu, Haochen Gu, Hongyang Zhang\nCategories: cs.CL, cs.CL",
+  "word_count": 199,
+  "published_at": "2026-10-16T17:41:19Z",
+  "ingested_at": "2026-10-19T11:05:13.253Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

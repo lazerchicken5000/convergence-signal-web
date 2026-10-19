@@ -1,0 +1,39 @@
+{
+  "id": "td_92e532df",
+  "source": "arxiv",
+  "source_id": "2610.23820",
+  "source_url": "https://arxiv.org/abs/2610.23820",
+  "content_type": "paper",
+  "creator": {
+    "id": "tianmeng_hu",
+    "name": "Tianmeng Hu",
+    "handle": "Tianmeng Hu, Biao Luo, Ke Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning",
+  "body_text": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning\n\nDesigning RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by multiple agents. This approach reduces the complexity of the problem and improves the exploration of design policies. During training, a centralized critic uses global structural information to guide the agents, enabling them to jointly optimize their design strategies. As a result, CocoRNA learns high-quality RNA design policies that generalize effectively to unseen structures without additional training. Experiments on the Rfam dataset demonstrate that CocoRNA substantially outperforms state-of-the-art methods in both success rate and design speed. Further experiments on other biological sequence design tasks highlight the effectiveness and broad potential of CocoRNA for complex design tasks.\n\nAuthors: Tianmeng Hu, Biao Luo, Ke Li\nCategories: cs.LG, cs.MA, cs.LG",
+  "word_count": 146,
+  "published_at": "2026-10-16T17:43:25Z",
+  "ingested_at": "2026-10-19T11:05:21.315Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.MA",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

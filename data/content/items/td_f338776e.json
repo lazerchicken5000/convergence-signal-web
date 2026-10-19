@@ -1,0 +1,38 @@
+{
+  "id": "td_f338776e",
+  "source": "arxiv",
+  "source_id": "2610.23811",
+  "source_url": "https://arxiv.org/abs/2610.23811",
+  "content_type": "paper",
+  "creator": {
+    "id": "jagaran_chakma",
+    "name": "Jagaran Chakma",
+    "handle": "Jagaran Chakma, Zhiguang Zhou, Badhan Chakma, Priyanta Chakma",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Explainable Machine Learning Analysis of Temperature Effects on Mechanical Strength of Fiber-Reinforced High-Performance Concrete",
+  "body_text": "Explainable Machine Learning Analysis of Temperature Effects on Mechanical Strength of Fiber-Reinforced High-Performance Concrete\n\nPredicting the compressive strength of fiber-reinforced high-performance concrete subjected to temperature exposure is challenging because to the intricate interdependencies of mixture composition, fiber properties, curing conditions, and temperature. A data-driven framework to predict compressive strength utilizing 1,204 experimental records containing a diverse array of material designs and exposure situations. This study evaluates eight machine-learning models and demonstrate that ensemble approaches routinely surpass individual learners. Both gradient boosting and extreme gradient boosting exhibit superior performance on unseen data, each attaining a R^2 of 0.903. Gradient boosting produces the minimal root mean square error (6.67 MPa), whereas extreme gradient boosting achieves the lowest mean absolute error (3.97 MPa) and mean absolute percentage error (10.60%). The models are further interpreted utilizing Shapley additive explanations and partial dependence analysis, which reveal temperature as the primary factor influencing compressive strength, succeeded by fine aggregate, superplasticizer, cement content, water-to-binder ratio, and water content. Strength diminishes significantly with rising temperature, albeit the extent of deterioration is contingent upon the specific combination design. The best performing models are subsequently implemented in a Python-based graphical user interface for expedited prediction. Our findings offer a precise and comprehensible methodology for evaluating temperature-dependent compressive strength and facilitate the practical, data-driven design of fiber-reinforced high-performance concrete.\n\nAuthors: Jagaran Chakma, Zhiguang Zhou, Badhan Chakma, Priyanta Chakma\nCategories: cs.LG, cs.LG",
+  "word_count": 204,
+  "published_at": "2026-10-16T17:34:24Z",
+  "ingested_at": "2026-10-19T11:05:21.315Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

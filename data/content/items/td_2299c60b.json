@@ -1,0 +1,42 @@
+{
+  "id": "td_2299c60b",
+  "source": "arxiv",
+  "source_id": "2610.23734",
+  "source_url": "https://arxiv.org/abs/2610.23734",
+  "content_type": "paper",
+  "creator": {
+    "id": "lisette_espín-noboa",
+    "name": "Lisette Espín-Noboa",
+    "handle": "Lisette Espín-Noboa, Mingrong She, Ana Maria Jaramillo, Liuhuaying Yang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Bridging the Language Gap in Scholarly Data II: Enhancing Gender Inference for Chinese Names",
+  "body_text": "Bridging the Language Gap in Scholarly Data II: Enhancing Gender Inference for Chinese Names\n\nPerceived gender inference from names is important for inclusive scientometrics research, yet existing methods perform poorly on non-Western scholars. We address this gap for Chinese names, which appear in two forms, Hanzi and Pinyin, its Romanized form (e.g., Zhang Wei, Li Na). In international bibliographic records, names are often available only in Pinyin. However, a single pinyin name can correspond to multiple distinct hanzi characters with different gender associations, so gender inference from Pinyin alone is intrinsically ambiguous. To address this, we first develop two hanzi models, a regression model that produces a continuous gender score from 0 (male) to 1 (female), and a classification model that outputs one of three labels (\\em{male}, \\em{neutral}, \\em{female}). We train them on a sample of hanzi names from Chinese-language physics publications, rated by 11 native Chinese speakers. On this sample, the models achieve an RMSE of $0.09$ and an R$^2$ of $0.85$ (regression), and macro-AUC of $0.97$ and a Cohen's $κ$ of $0.81$ (classification), demonstrating high performance that is robust to class imbalance. For pinyin names, we propose a pipeline that aggregates hanzi predictions via transliteration and frequency weighting, together with an ambiguity score that flags names whose gender cannot be resolved from Pinyin alone. Benchmarked against three off-the-shelf tools (Namsor, GPT, and Claude), our models achieve the highest agreement with human annotations for both gender scores and gender labels, in both scripts. Applied to an independent sample of Chinese-named authors in APS journals, our models assign a gender to every name, whereas existing Pinyin-based methods leave between 20\\% and 100\\% of names unclassified. These findings demonstrate the importance of hanzi-level information for reliable gender inference of Chinese names. Code and data are publicly available.\n\nAuthors: Lisette Espín-Noboa, Mingrong She, Ana Maria Jaramillo, Liuhuaying Yang\nCategories: cs.CL, cs.CY, cs.LG, cs.SI, physics.soc-ph, cs.CL",
+  "word_count": 282,
+  "published_at": "2026-10-16T16:44:41Z",
+  "ingested_at": "2026-10-19T11:05:13.254Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CY",
+    "cs.LG",
+    "cs.SI",
+    "physics.soc-ph",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

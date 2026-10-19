@@ -1,0 +1,40 @@
+{
+  "id": "td_22c82e19",
+  "source": "arxiv",
+  "source_id": "2610.23827",
+  "source_url": "https://arxiv.org/abs/2610.23827",
+  "content_type": "paper",
+  "creator": {
+    "id": "anis_bekri",
+    "name": "Anis Bekri",
+    "handle": "Anis Bekri, Amar Abane, Van Sy Mai, Abdella Battou, Saddek Bensalem",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?",
+  "body_text": "Quality-of-Transmission Estimation in Quantum Networks: Compute, Simulate, or Learn?\n\nFuture quantum networks will rely on control-plane decisions such as routing, scheduling, entanglement provisioning, purification, and memory allocation. Each decision depends on a timely and reliable estimate of the quality of the entanglement that a candidate path can deliver, with end-to-end fidelity as a central metric. Inspired by the optical-networking experience with quality-of-transmission (QoT) estimation, this article asks when a quantum controller should compute fidelity analytically, simulate it, or learn a surrogate model. The optical analogy is useful but incomplete: optical QoT estimation often predicts a scalar transmission margin, whereas quantum QoT estimation must account for probabilistic entanglement generation, random memory waiting times, decoherence, state consumption, and measurement constraints that can make fidelity a stochastic target. We propose a compute/simulate/learn framework for quantum QoT estimation and illustrate it with a simulation-based proof of concept. Our study shows that analytical composition can be sufficient in simple regimes, that simulation becomes necessary when stochastic memory effects shape the delivered fidelity distribution, and that lightweight learned surrogates can approximate simulator labels at much lower runtime cost for online control. We close with open challenges for deployment, including stochastic targets, sim-to-real transfer, data-generation cost, physics-informed learning, and generalization beyond individual paths to full network topologies.\n\nAuthors: Anis Bekri, Amar Abane, Van Sy Mai, Abdella Battou, Saddek Bensalem\nCategories: quant-ph, cs.LG, cs.NI, quant-ph",
+  "word_count": 201,
+  "published_at": "2026-10-16T17:49:43Z",
+  "ingested_at": "2026-10-19T11:05:21.314Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "cs.LG",
+    "cs.NI",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

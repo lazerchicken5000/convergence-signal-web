@@ -1,0 +1,39 @@
+{
+  "id": "td_3d652971",
+  "source": "arxiv",
+  "source_id": "2610.23854",
+  "source_url": "https://arxiv.org/abs/2610.23854",
+  "content_type": "paper",
+  "creator": {
+    "id": "soumik_mukhopadhyay",
+    "name": "Soumik Mukhopadhyay",
+    "handle": "Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava, Aniruddha Mahapatra",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+  "body_text": "Rethinking the design space of Vanilla Pixel Diffusion Transformers\n\nPixel-space diffusion models have recently re-emerged as a compelling alternative to latent diffusion, avoiding the lossy latent bottleneck and separately trained autoencoder. JiT shows that a vanilla diffusion transformer can generate directly in pixel space by replacing the commonly used velocity prediction ($\\boldsymbol{u}$-prediction) with clean image prediction ($\\boldsymbol{x_0}$-prediction). In this work, we revisit this choice and introduce MFlow, an adaptive parameterization that learns to interpolate between $\\boldsymbol{x_0}$- and $\\boldsymbol{u}$-prediction across principal directions of the data, learned end-to-end with diffusion training. We find that the preferred parameterization varies systematically with the data representation and model capacity -- notably, increasing model capacity shifts preference toward velocity prediction. We evaluate MFlow across ImageNet, UCF-101 video, and large-scale text-to-image generation, demonstrating competitive or improved generative performance across diverse settings. In addition, we find that vanilla pixel diffusion transformers, irrespective of parameterization, retain a persistent high-frequency deficit relative to real images. To address this, we introduce ConvRefiner, a lightweight convolutional module trained post-hoc with an adversarial loss while keeping the diffusion backbone frozen. With only a small amount of additional training, ConvRefiner restores the high-frequency statistics of generated images while preserving FID. Project webpage: https://soumik-kanad.github.io/mflow-diffusion/.\n\nAuthors: Soumik Mukhopadhyay, Long Mai, Abhinav Shrivastava, Aniruddha Mahapatra\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 190,
+  "published_at": "2026-10-16T17:59:30Z",
+  "ingested_at": "2026-10-19T11:05:05.197Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

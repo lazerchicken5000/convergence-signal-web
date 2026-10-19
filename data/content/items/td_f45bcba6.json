@@ -1,0 +1,39 @@
+{
+  "id": "td_f45bcba6",
+  "source": "arxiv",
+  "source_id": "2610.23745",
+  "source_url": "https://arxiv.org/abs/2610.23745",
+  "content_type": "paper",
+  "creator": {
+    "id": "koki_ryu",
+    "name": "Koki Ryu",
+    "handle": "Koki Ryu, Hitomi Yanaka",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "VocalGrad: Evaluating Acoustic Perception in Audio Language Models",
+  "body_text": "VocalGrad: Evaluating Acoustic Perception in Audio Language Models\n\nRecent large audio language models (LALMs) have extended their capabilities beyond lexical speech understanding to tasks requiring paralinguistic and non-linguistic audio understanding, such as emotion recognition. However, these models still struggle to reliably utilize acoustic information, particularly when it co-occurs with spoken linguistic content. Existing benchmarks do not clearly distinguish acoustic perception from higher-level reasoning, making it difficult to identify the source of these failures. To address this issue, we introduce VocalGrad, a benchmark designed to evaluate LALMs' ability to perceive low-level acoustic variations. VocalGrad formulates this problem as a simple binary classification of temporal change direction, enabling evaluation largely independent of higher-level reasoning or semantic understanding. Our benchmark results reveal a substantial gap in acoustic perception between human annotators and state-of-the-art LALMs: while human annotators achieve high accuracy, LALMs perform at near-chance levels. We further conduct linear probing to identify structural bottlenecks in these models. Our analysis reveals two distinct failure modes: for some categories, task-relevant information is preserved in internal representations but not utilized by the language model head; for others, the information becomes progressively less linearly decodable across model layers. Overall, our results reveal substantial limitations of LALMs in modeling acoustic variation under controlled settings and expose representation differences not observable from text outputs.\n\nAuthors: Koki Ryu, Hitomi Yanaka\nCategories: cs.SD, cs.CL, cs.SD",
+  "word_count": 207,
+  "published_at": "2026-10-16T16:54:35Z",
+  "ingested_at": "2026-10-19T11:05:13.253Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.SD",
+    "cs.CL",
+    "cs.SD"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

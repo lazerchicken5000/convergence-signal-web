@@ -1,0 +1,40 @@
+{
+  "id": "td_75aaba1c",
+  "source": "arxiv",
+  "source_id": "2610.23821",
+  "source_url": "https://arxiv.org/abs/2610.23821",
+  "content_type": "paper",
+  "creator": {
+    "id": "joshua_williamson",
+    "name": "Joshua Williamson",
+    "handle": "Joshua Williamson, Niall Jeffrey, Lorne Whiteway",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere",
+  "body_text": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere\n\nMany of the most important datasets in the physical sciences live natively on the sphere, and these data often carry no preferred position or orientation. Using methods that do not reflect this symmetry leads to far higher simulation requirements, which can be catastrophic for scientific analyses (forcing reliance on cheap, imperfect models that bias results). We present a novel spherical implementation of a gauge equivariant mesh architecture that is specifically designed for the Hierarchical Equal Area isoLatitude Pixelization (\\healpix{}) of the sphere. The $\\mathrm{SO}(3)$-equivariant convolution is built from steerable filters, parallel transport and spin-weighted features. The architecture supplies the exact symmetry, so the network does not spend training data learning it. The convolution operations are constructed to give provably exact equivariance, given a band-limit. Our full CNNs can achieve SO(3)-invariance error at per-cent-level and lower, which is controlled through well-understood hyperparameters. On benchmarks, our technique gives the most accurate dense gradient regression and competitive cosmic microwave background foreground removal and denoising. The improved simulation efficiency matters most in simulation-based inference (SBI), where high-fidelity simulations are expensive and neural compressors require large training sets, so a fixed budget forces analyses with less accurate simulators. In cosmology lensing SBI, our technique yields the tightest posteriors at matched simulation count. This approach is a novel method that will enable new convolutional neural network analyses, including generative and inference tasks, for processes and data on the sphere.\n\nAuthors: Joshua Williamson, Niall Jeffrey, Lorne Whiteway\nCategories: stat.ML, astro-ph.CO, cs.LG, stat.ML",
+  "word_count": 233,
+  "published_at": "2026-10-16T17:45:43Z",
+  "ingested_at": "2026-10-19T11:05:21.315Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ML",
+    "astro-ph.CO",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
