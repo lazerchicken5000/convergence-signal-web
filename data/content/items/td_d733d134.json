@@ -1,0 +1,40 @@
+{
+  "id": "td_d733d134",
+  "source": "arxiv",
+  "source_id": "2610.26815",
+  "source_url": "https://arxiv.org/abs/2610.26815",
+  "content_type": "paper",
+  "creator": {
+    "id": "christopher_criscitiello",
+    "name": "Christopher Criscitiello",
+    "handle": "Christopher Criscitiello",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Tight lower bounds for Lipschitz geodesically convex optimization on hyperbolic space",
+  "body_text": "Tight lower bounds for Lipschitz geodesically convex optimization on hyperbolic space\n\nWe determine the dimension-independent first-order query complexity of minimizing a Lipschitz geodesically convex (g-convex) function on hyperbolic space. Given a ball of radius $r$ containing a global minimizer, we prove that $Ω(ζ_r/ε^2)$ queries are necessary to attain accuracy $εMr$, where $M$ is the Lipschitz constant and $ζ_r=r/\\tanh r$ captures the effect of curvature. This matches the known $O(ζ_r/ε^2)$ upper bound for the Riemannian subgradient method (Zhang and Sra, 2016). This is the first query-complexity result for g-convex optimization that is tight simultaneously in curvature and target accuracy. The standard Euclidean recipe of constructing hard instances as maxima of affine functions does not transfer to hyperbolic space, so the lower bound requires a new mechanism. Our starting point is the worst-function construction of Criscitiello and Boumal (2023, Appendix A). It gives the same lower bound for a subclass of algorithms, including the subgradient method, whose queries remain in prescribed g-convex regions. We retain this geometric setup and carefully tune and augment their hard function to accommodate every deterministic first-order algorithm. The key new mechanism is an advance-or-stall scheme: when a query lies in these regions, the oracle reveals at most one new information direction (advance); when a query leaves them, we show that the oracle can answer without revealing any new hidden direction (stall). Unlike earlier curvature-dependent lower bounds, the proof uses no ball-packing argument.\n\nAuthors: Christopher Criscitiello\nCategories: math.OC, math.DG, math.NA, math.OC",
+  "word_count": 224,
+  "published_at": "2026-10-19T17:51:34Z",
+  "ingested_at": "2026-10-20T11:06:06.072Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "math.DG",
+    "math.NA",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

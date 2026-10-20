@@ -1,0 +1,39 @@
+{
+  "id": "td_3a75be53",
+  "source": "arxiv",
+  "source_id": "2610.26856",
+  "source_url": "https://arxiv.org/abs/2610.26856",
+  "content_type": "paper",
+  "creator": {
+    "id": "shiao_xie",
+    "name": "Shiao Xie",
+    "handle": "Shiao Xie, Siyu Chen, Jianwei Lv, Xiandong Li, Yujin Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+  "body_text": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation\n\nMultimodal reinforcement learning with verifiable rewards (RLVR) provides reliable task-level supervision, yet offers limited guidance for localizing errors in visual reasoning. On-policy self-distillation (OPSD) complements this supervision with dense token-level corrections from a privileged teacher equipped with an evidence-centered visual view. However, the resulting corrections may conflate visual evidence with non-visual shifts induced by linguistic priors, response style, or the privileged view itself. We formalize this phenomenon as privileged-correction contamination: a token-level correction is contaminated when its update direction cannot be consistently attributed to the privileged visual evidence. Directly distilling contaminated corrections may therefore reinforce erroneous token-level updates. To address this issue, we propose reinforcement learning with visually attributable on-policy self-distillation, an evidence-consistent paradigm that augments task-level RLVR supervision with privileged token-level corrections grounded in visual evidence. We instantiate this paradigm with Visual-Attribution Gating (VAG), which uses the verifier-derived advantage as the optimization anchor and validates each privileged correction against the contrast between evidence-present and evidence-degraded teacher views. By admitting only corrections directionally supported by this visual contrast, VAG preserves visually grounded guidance while suppressing inconsistent residuals. Experiments across six visual reasoning benchmarks show that VAG consistently outperforms GRPO and OPSD methods, establishing new state-of-the-art average performance.\n\nAuthors: Shiao Xie, Siyu Chen, Jianwei Lv, Xiandong Li, Yujin Wang\nCategories: cs.CV, cs.AI, cs.CV",
+  "word_count": 197,
+  "published_at": "2026-10-19T17:59:56Z",
+  "ingested_at": "2026-10-20T11:05:23.961Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

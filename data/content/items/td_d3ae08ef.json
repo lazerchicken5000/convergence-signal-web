@@ -1,0 +1,40 @@
+{
+  "id": "td_d3ae08ef",
+  "source": "arxiv",
+  "source_id": "2610.26861",
+  "source_url": "https://arxiv.org/abs/2610.26861",
+  "content_type": "paper",
+  "creator": {
+    "id": "wenqian_zhang",
+    "name": "Wenqian Zhang",
+    "handle": "Wenqian Zhang, Yangyi Huang, Zigeng Xu, Weiyang Liu, Zhen Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+  "body_text": "Can It Actually Work? Synthesizing Functional CAD Mechanisms\n\nWhile LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mechanisms may realize the same function through entirely different components, controls, and operating sequences. To bridge this gap, we propose FunCAD-Harness, a framework that translates abstract requirements into candidate-specific physical tests and uses simulation feedback to guide design revisions. To systematically evaluate this capability, we introduce FunCADBench, a benchmark spanning 46 mechanism families with interdependent and multi-step operations. Experiments across frontier LLM agents show that FunCAD-Harness exposes subtle mechanical failures invisible to visual inspection, substantially improving functional success rates over standard simulation-augmented baselines. Ultimately, our work marks a step toward CAD agents capable of translating human intent into working mechanisms.\n\nAuthors: Wenqian Zhang, Yangyi Huang, Zigeng Xu, Weiyang Liu, Zhen Liu\nCategories: cs.CV, cs.CL, cs.GR, cs.CV",
+  "word_count": 151,
+  "published_at": "2026-10-19T17:59:58Z",
+  "ingested_at": "2026-10-20T11:05:32.028Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CL",
+    "cs.GR",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

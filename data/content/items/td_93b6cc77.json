@@ -1,0 +1,39 @@
+{
+  "id": "td_93b6cc77",
+  "source": "arxiv",
+  "source_id": "2610.26839",
+  "source_url": "https://arxiv.org/abs/2610.26839",
+  "content_type": "paper",
+  "creator": {
+    "id": "youran_dong",
+    "name": "Youran Dong",
+    "handle": "Youran Dong, Junfeng Yang, Wei Yao, Jin Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Newton-Based Methods for Bilevel Optimization Beyond Lower-Level Strong Convexity",
+  "body_text": "Newton-Based Methods for Bilevel Optimization Beyond Lower-Level Strong Convexity\n\nBilevel optimization provides a framework for machine learning tasks such as hyperparameter optimization, data reweighting, and meta-learning. Existing Newton-based bilevel methods typically rely on the classical hypergradient formula, which is generally unavailable when lower-level solutions are nonunique and the lower-level Hessian is singular. We develop two Newton-based methods beyond lower-level strong convexity by exploiting curvature shared by the lower-level and multiplier updates. Newton-based GALET handles potentially singular lower-level curvature under a positive spectral-gap condition, exploiting its range structure to avoid the squared-Hessian multiplier system used in GALET. Newton-based BAMM uses a strongly convex aggregation model when the lower-level objective is convex and the upper-level objective is strongly convex in the lower-level variable. We establish convergence guarantees and improved complexity bounds relative to GALET and sl-BAMM under the corresponding assumptions. We further introduce GNBO, a generalized Newton-based framework that captures the shared-curvature structure of the proposed methods and several existing Newton and quasi-Newton bilevel methods. Experiments on synthetic problems, data hyper-cleaning, and GPT-2 data reweighting evaluate the proposed methods across different bilevel learning tasks.\n\nAuthors: Youran Dong, Junfeng Yang, Wei Yao, Jin Zhang\nCategories: math.OC, cs.LG, math.OC",
+  "word_count": 173,
+  "published_at": "2026-10-19T17:58:34Z",
+  "ingested_at": "2026-10-20T11:05:40.114Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.OC",
+    "cs.LG",
+    "math.OC"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

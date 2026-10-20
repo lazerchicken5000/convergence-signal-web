@@ -1,0 +1,38 @@
+{
+  "id": "td_ea921735",
+  "source": "arxiv",
+  "source_id": "2610.26824",
+  "source_url": "https://arxiv.org/abs/2610.26824",
+  "content_type": "paper",
+  "creator": {
+    "id": "zhongxin_chen",
+    "name": "Zhongxin Chen",
+    "handle": "Zhongxin Chen, Songhao Wu, Heng Cui, Cong Li, Xiao Zhou, Rui Yan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+  "body_text": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum\n\nMatryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we extend MRL with a parameter-derived spectral basis organized with feature importance. SpecMRL otherwise follows standard MRL, with prefix readout performed in the learned spectral space. Experiments on MTEB show that SpecMRL outperforms MRL at all evaluated reduced dimensions, with larger gains under more aggressive compression. These results suggest that the learned spectral basis better prioritizes informative directions, enabling more effective representation compression. Notably, SpecMRL extends the performance frontier of MRL, surpassing full-dimensional MRL with only half the embedding dimensions.\n\nAuthors: Zhongxin Chen, Songhao Wu, Heng Cui, Cong Li, Xiao Zhou, Rui Yan\nCategories: cs.CL, cs.CL",
+  "word_count": 133,
+  "published_at": "2026-10-19T17:54:20Z",
+  "ingested_at": "2026-10-20T11:05:32.029Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

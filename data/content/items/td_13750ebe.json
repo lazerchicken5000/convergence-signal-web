@@ -1,0 +1,39 @@
+{
+  "id": "td_13750ebe",
+  "source": "arxiv",
+  "source_id": "2610.26843",
+  "source_url": "https://arxiv.org/abs/2610.26843",
+  "content_type": "paper",
+  "creator": {
+    "id": "xiajie_huang",
+    "name": "Xiajie Huang",
+    "handle": "Xiajie Huang, Cristina Álvarez Yuste, Nikita Guseynov, Nana Liu, Javier González-Conde",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Quantum algorithms for optimal control: large-scale finite-horizon linear-quadratic regulation",
+  "body_text": "Quantum algorithms for optimal control: large-scale finite-horizon linear-quadratic regulation\n\nWe develop quantum algorithms for optimal control over a prescribed finite time interval (finite horizon), focusing on continuous-time linear-quadratic regulation (LQR). This foundational control problem often requires solving a nonlinear matrix Riccati equation, which can be costly for large systems and long control durations on conventional classical solvers. We instead work directly with the state-costate optimality equations, reformulating the LQR problem as a multiple-shooting linear system. Importantly, we prove a condition-number bound for the system that is independent of the horizon, under stabilizability and detectability assumptions. By incorporating the initial and final conditions into a single linear system, we can solve the subsequent linear system more efficiently with a quantum linear systems subroutine. For a given initial state, our quantum algorithms return classical estimates of the optimal cost and the optimal control inputs at a selected time, without constructing a Riccati solution operator. Given sparse-matrix block-encodings, an initial-state preparation oracle and a fixed number of control inputs, the query and gate complexities scale polylogarithmically with system size and control duration, provided that sparsity, relevant norms, and stability parameters are bounded. The dependence on the target error is inverse-linear up to logarithmic factors. We establish the required bounds uniformly in system size and duration for a family of damped mass-spring chains with two endpoint controls. Numerical experiments support the analysis.\n\nAuthors: Xiajie Huang, Cristina Álvarez Yuste, Nikita Guseynov, Nana Liu, Javier González-Conde\nCategories: quant-ph, math.OC, quant-ph",
+  "word_count": 219,
+  "published_at": "2026-10-19T17:58:57Z",
+  "ingested_at": "2026-10-20T11:06:06.071Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "math.OC",
+    "quant-ph"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
