@@ -1,0 +1,39 @@
+{
+  "id": "td_2036cbc4",
+  "source": "arxiv",
+  "source_id": "2610.28580",
+  "source_url": "https://arxiv.org/abs/2610.28580",
+  "content_type": "paper",
+  "creator": {
+    "id": "martin_hernandez",
+    "name": "Martin Hernandez",
+    "handle": "Martin Hernandez, Xinyan Qing, Mo Zhou, Yuhua Zhu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Continuous-Time Policy Gradient from Discrete Data: Convergence Analysis and Model-Free Algorithms",
+  "body_text": "Continuous-Time Policy Gradient from Discrete Data: Convergence Analysis and Model-Free Algorithms\n\nContinuous-time reinforcement learning seeks an optimal policy under unknown dynamics driven by stochastic differential equations using observations collected at discrete times. We develop a policy gradient framework that combines rigorous convergence analysis with learning from discrete data. We first establish a performance difference lemma and derive policy gradient formulas for randomized and parametrized policies. We then prove exponential convergence of an entropy-regularized policy flow to the regularized optimum. For discrete parametrized updates, we derive a convergence bound that explicitly separates the contributions of critic error, policy-regression error, and the learning step size. To enable learning under unknown dynamics, we integrate this framework with PhiBE, which constructs a continuous-time surrogate generator from discrete transition data. The resulting on-policy and off-policy model-free actor-critic algorithms preserve the continuous-time structure of the control problem. Numerical experiments on an entropy-regularized linear-quadratic regulator and a nonlinear wheeled robot demonstrate the performance and stability of the proposed methods with both known and data-driven dynamics.\n\nAuthors: Martin Hernandez, Xinyan Qing, Mo Zhou, Yuhua Zhu\nCategories: cs.LG, math.OC, cs.LG",
+  "word_count": 157,
+  "published_at": "2026-10-20T17:33:08Z",
+  "ingested_at": "2026-10-21T11:05:57.368Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "math.OC",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

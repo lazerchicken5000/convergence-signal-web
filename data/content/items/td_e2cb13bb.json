@@ -1,0 +1,40 @@
+{
+  "id": "td_e2cb13bb",
+  "source": "arxiv",
+  "source_id": "2610.28603",
+  "source_url": "https://arxiv.org/abs/2610.28603",
+  "content_type": "paper",
+  "creator": {
+    "id": "hiroyuki_tako_ishikawa",
+    "name": "Hiroyuki Tako Ishikawa",
+    "handle": "Hiroyuki Tako Ishikawa, Naho Fujita, Yuta Kato, Miki Kurihara, Takashi Minoshima, Daikou Shiota, Kazumasa Iwai, Marco Pinto, António Pessanha Gomes, Go Murakami, Kanya Kusano, Chihiro Mitsuda",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Automated optimization of solar energetic particle acceleration and transport parameters against five-spacecraft observations of the 9 October 2021 event",
+  "body_text": "Automated optimization of solar energetic particle acceleration and transport parameters against five-spacecraft observations of the 9 October 2021 event\n\nSolar energetic particle (SEP) events threaten space infrastructure, yet physics-based prediction models depend on numerous poorly constrained free parameters. We introduce the Fujitsu Solar Energetic particle Intelligent Tuning and Evaluation Network (SEITEN), which couples the SUSANOO MHD model of CME propagation to SEPIF, a diffusive shock acceleration and focused transport model, through the shock conditions SUSANOO supplies, and automatically optimizes the free parameters of the particle model against the SEP event of 9 October 2021. The mean free path and the injection efficiency vary independently along each magnetic field line and heliolongitudinal bin, giving a 19-dimensional problem solved by quasi-Monte Carlo sampling followed by a Tree-structured Parzen Estimator. The optimized model reproduces proton flux profiles at five spacecraft with a mean absolute error of $\\approx 0.45$ in $\\log_{10}$ flux, and the inferred mean free paths show a clear east-west structure; these are effective parameters conditional on the assumed transport geometry. Six independent runs show that whether mean free paths or injection efficiencies dominate depends on the MHD shock strength, and that injection efficiencies differ by orders of magnitude between MHD configurations despite nearly identical fit quality. Joint MHD-SEP parameter estimation is therefore a necessary next step towards generalized, operational SEP forecasting.\n\nAuthors: Hiroyuki Tako Ishikawa, Naho Fujita, Yuta Kato, Miki Kurihara, Takashi Minoshima, Daikou Shiota, Kazumasa Iwai, Marco Pinto, António Pessanha Gomes, Go Murakami, Kanya Kusano, Chihiro Mitsuda\nCategories: astro-ph.SR, astro-ph.EP, physics.space-ph, astro-ph.SR",
+  "word_count": 201,
+  "published_at": "2026-10-20T17:48:06Z",
+  "ingested_at": "2026-10-21T11:05:57.367Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "astro-ph.SR",
+    "astro-ph.EP",
+    "physics.space-ph",
+    "astro-ph.SR"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

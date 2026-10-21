@@ -1,0 +1,38 @@
+{
+  "id": "td_059a35b7",
+  "source": "arxiv",
+  "source_id": "2610.28620",
+  "source_url": "https://arxiv.org/abs/2610.28620",
+  "content_type": "paper",
+  "creator": {
+    "id": "runguo_li",
+    "name": "Runguo Li",
+    "handle": "Runguo Li, Dezhen Lu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Weight Placement Is Not Enough: Synchronization in Multi-Node CPU Decoding of Ternary LLMs",
+  "body_text": "Weight Placement Is Not Enough: Synchronization in Multi-Node CPU Decoding of Ternary LLMs\n\nTernary LLMs read only a few gigabytes per decoded token, yet on dual-socket servers with four NUMA nodes the fastest ternary runtime we found uses less than half of the memory bandwidth. Placing each weight on the node of the thread that reads it is necessary but not enough: in a decode engine with node-local weights that reuses ik_llama.cpp's kernels, threads on two generations of Xeon servers still spend 20-48% of each token waiting at synchronization points. Per-thread barrier traces show that most of the wait is for the slowest threads of each node; the barriers' own latency (microseconds each, but up to 12% of the token for the smallest model) and serial per-node work are smaller parts. On identical kernels, a Megatron-style column split beats a row-owned split without cross-node reductions in every configuration we measured, and isolating the number of barriers shows that most of its gain comes from its threads waiting less for each other and for their node leaders, and only a minority from having fewer barriers. Where decoding is DRAM-bound, the resulting engine is 1.5-2.1x faster than ik_llama.cpp with all cores and 1.5-1.9x faster than ik_llama.cpp at its fastest thread count (3.2x and 2.8x for a small model that runs from the L3 cache), at the same accuracy and with less energy per token.\n\nAuthors: Runguo Li, Dezhen Lu\nCategories: cs.DC, cs.DC",
+  "word_count": 219,
+  "published_at": "2026-10-20T17:56:35Z",
+  "ingested_at": "2026-10-21T11:05:40.265Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DC",
+    "cs.DC"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

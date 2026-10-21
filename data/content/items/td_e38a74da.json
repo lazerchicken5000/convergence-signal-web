@@ -1,0 +1,40 @@
+{
+  "id": "td_e38a74da",
+  "source": "arxiv",
+  "source_id": "2610.28598",
+  "source_url": "https://arxiv.org/abs/2610.28598",
+  "content_type": "paper",
+  "creator": {
+    "id": "hrishikesh_viswanath",
+    "name": "Hrishikesh Viswanath",
+    "handle": "Hrishikesh Viswanath, Md Ashiqur Rahman, Chi Lin, Damon Conover, Aniket Bera",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Neural Implicit Energy Optimization for LiDAR Mapping",
+  "body_text": "Neural Implicit Energy Optimization for LiDAR Mapping\n\nNeural implicit representations provide memory-efficient signed distance field (SDF) parameterizations for large-scale LiDAR scenes, but the geometry recovered from sparse and often noisy inputs carries jitter and artifacts. Classical geometric optimization techniques resolve such artifacts with surface energy functionals, whose minimizers correspond to smooth surfaces. Motivated by this principle, we formulate neural LiDAR mapping as the optimization of energy functionals over the parameter space of neural implicit representations. Specifically, we regularize the signed distance field with an energy functional defined on the shape operator of its level set, which represents the curvature of the surface, thus encouraging smoothness along the surface. This adapts classical geometric priors to the scale of million-point LiDAR maps. Experiments on large-scale datasets show reconstructions with improved smoothness at preserved geometric fidelity, and no additional inference-time cost. The code is publicly available at \\href{https://github.com/HrishikeshVish/nieo}{https://github.com/HrishikeshVish/nieo}\n\nAuthors: Hrishikesh Viswanath, Md Ashiqur Rahman, Chi Lin, Damon Conover, Aniket Bera\nCategories: cs.CV, cs.GR, cs.LG, cs.CV",
+  "word_count": 138,
+  "published_at": "2026-10-20T17:47:07Z",
+  "ingested_at": "2026-10-21T11:05:30.959Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.GR",
+    "cs.LG",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

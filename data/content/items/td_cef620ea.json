@@ -1,0 +1,38 @@
+{
+  "id": "td_cef620ea",
+  "source": "arxiv",
+  "source_id": "2610.28618",
+  "source_url": "https://arxiv.org/abs/2610.28618",
+  "content_type": "paper",
+  "creator": {
+    "id": "vincent_jung",
+    "name": "Vincent Jung",
+    "handle": "Vincent Jung, Alba Carballo-Castro, Yiming Qin, Lonneke van der Plas, Pascal Frossard",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Efficient Edge-aware Attention Network for Graph Generation",
+  "body_text": "Efficient Edge-aware Attention Network for Graph Generation\n\nGraph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware attention implementations, limiting their scalability. The adaptation is, however, non-trivial: edge and graph-level features must be injected into pairwise attention scores, graph masks must be respected, and dynamic edge updates remain a major source of quadratic memory usage. We propose an edge-aware attention layer for graph generation that incorporates structural information through head-wise score modulation, while updating edge representations with a lightweight residual mechanism that retains attention-score dependent edge updates. This layer can be effectively implemented using PyTorch's FlexAttention. We achieve similar generation quality to our baseline while reducing peak GPU memory by around 65% and substantially improving training and sampling throughput. These results suggest that the proposed architecture is a practical step toward scalable graph foundation models.\n\nAuthors: Vincent Jung, Alba Carballo-Castro, Yiming Qin, Lonneke van der Plas, Pascal Frossard\nCategories: cs.LG, cs.LG",
+  "word_count": 143,
+  "published_at": "2026-10-20T17:56:05Z",
+  "ingested_at": "2026-10-21T11:05:30.958Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
