@@ -1,0 +1,38 @@
+{
+  "id": "td_a8ddc27a",
+  "source": "arxiv",
+  "source_id": "2610.30100",
+  "source_url": "https://arxiv.org/abs/2610.30100",
+  "content_type": "paper",
+  "creator": {
+    "id": "chunyu_chen",
+    "name": "Chunyu Chen",
+    "handle": "Chunyu Chen, Xinyi Huang, Zhengjie Miao",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Building SQL Equivalence Proofs from Query Rewrite Rules",
+  "body_text": "Building SQL Equivalence Proofs from Query Rewrite Rules\n\nQuery rewriting and semantic evaluation of text-to-SQL systems both depend on deciding whether two SQL queries return the same result on every database satisfying the schema constraints. Decades of equivalence-preserving optimizer rules provide a natural basis for constructive proofs: two queries are equivalent when admitted rewrites transform them to a common logical expression. Building on this observation, \\sys{} organizes query-rewriting knowledge as a standalone proof-producing system. It separates rule validation from proof discovery, explicitly aligns alternative query representations, and returns the resulting rewrite derivation. Across three corpus classes, EquiTrace proves 648/1,106 expected-equivalent text-to-SQL pairs (58.6%), 229/266 curated pairs (86.1%), and 97/240 LLM-generated rewrites whose results agree under benchmark execution (40.4%). On the query rewrite corpus, EquiTrace proves 97 pairs, compared with 35 for QED and 38 for SQLSolver. An analysis of 1,242 recorded proofs shows that coverage depends on a small number of transformations, while many frequently used rules are individually substitutable. The resulting derivations make each proof replayable and expose the specific transformations on which it depends.\n\nAuthors: Chunyu Chen, Xinyi Huang, Zhengjie Miao\nCategories: cs.DB, cs.DB",
+  "word_count": 168,
+  "published_at": "2026-10-21T17:47:58Z",
+  "ingested_at": "2026-10-22T11:06:18.108Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DB",
+    "cs.DB"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

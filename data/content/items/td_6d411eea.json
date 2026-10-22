@@ -1,0 +1,40 @@
+{
+  "id": "td_6d411eea",
+  "source": "arxiv",
+  "source_id": "2610.30014",
+  "source_url": "https://arxiv.org/abs/2610.30014",
+  "content_type": "paper",
+  "creator": {
+    "id": "shota_fujikawa",
+    "name": "Shota Fujikawa",
+    "handle": "Shota Fujikawa, Takuya Tamura, Kosuke Akimoto, Daichi Haraguchi, Masafumi Oyamada",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
+  "body_text": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them\n\nLLM agents with similar success rates can follow different action sequences. An Agent Behavior Map represents LLM-harness combinations using centered action log-likelihoods on shared reference trajectories, without requiring new environment rollouts from the target agent. We derive error bounds relating squared coordinate distances to trajectory KL under explicit assumptions, and across eight cross-scored models the distances track the directly measured trajectory KL in rank order. Across 100 LLMs and four environments, ALFWorld-based coordinates support performance prediction and identify behavioral similarities. In ALFWorld, these similarities persist after controlling for success rates and model size, including across model families. As an extension, harness-component displacements approximately compose, with accuracy varying across components and environments.\n\nAuthors: Shota Fujikawa, Takuya Tamura, Kosuke Akimoto, Daichi Haraguchi, Masafumi Oyamada\nCategories: cs.LG, cs.AI, cs.CL, cs.LG",
+  "word_count": 111,
+  "published_at": "2026-10-21T16:44:02Z",
+  "ingested_at": "2026-10-22T11:05:44.767Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

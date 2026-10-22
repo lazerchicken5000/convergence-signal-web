@@ -1,0 +1,41 @@
+{
+  "id": "td_8dcb88ca",
+  "source": "arxiv",
+  "source_id": "2610.30123",
+  "source_url": "https://arxiv.org/abs/2610.30123",
+  "content_type": "paper",
+  "creator": {
+    "id": "frank_kammer",
+    "name": "Frank Kammer",
+    "handle": "Frank Kammer, Sandra Kiefer, Johannes Meintrup",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Temporal Exploration and Rendezvous via Weisfeiler-Leman Colorings",
+  "body_text": "Temporal Exploration and Rendezvous via Weisfeiler-Leman Colorings\n\nTemporal graphs are graphs whose edge relation changes in discrete time steps. The Temporal Exploration Problem (TEXP) asks for a temporal walk that visits all vertices. We show that every connected temporal graph with $n$ vertices can be explored in $O(qn\\log^3(n))$ time steps, where $q$ is the number of vertex color classes induced by the 2-dimensional Weisfeiler-Leman (2-WL) coloring. For small $q$, our bound substantially improves on the known worst-case bound of $Θ(n^2)$ in general connected temporal graphs. A corresponding walk can be constructed in deterministic polynomial time. The upper bound is complemented by lower bounds of $Ω(n\\log(n))$ when $q$ is constant and $Ω(qn)$ when $1 \\leq q \\leq n$. We also apply our techniques to the Temporal Rendezvous Problem (TRP), in which two agents that do not communicate have to meet on a vertex of the temporal graph. Our exploration algorithm yields that, with only polynomial-time computational power, the agents can meet in $O(n\\log^3(n))$ time steps, leaving a gap of only $\\log^2(n)$ to the known lower bound. Dogeas, Erlebach, Kammer, Meintrup, and Moses Jr. [ICALP'24] have shown an $O(rn^{1+ε})$ bound for TEXP, for every fixed $ε&gt; 0$, where $r$ is the number of orbits, and an $O(n^{1+ε})$ bound for TRP. Both results require superpolynomial computation time. Our contribution improves upon these results in several ways. First, the dependence on $n$ in the upper bounds on the number of time steps is decreased from $n^{1+ε}$ to $n\\log^3(n)$ for both TEXP and TRP. Second, for TEXP, we bound the number of time steps linearly by the parameter q, which is efficiently computable and upper bounded by $r$. Third, we provide novel deterministic polynomial-time algorithms for both TEXP and TRP.\n\nAuthors: Frank Kammer, Sandra Kiefer, Johannes Meintrup\nCategories: cs.DS, cs.CC, cs.DM, math.CO, cs.DS",
+  "word_count": 278,
+  "published_at": "2026-10-21T17:57:42Z",
+  "ingested_at": "2026-10-22T11:06:01.208Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.DS",
+    "cs.CC",
+    "cs.DM",
+    "math.CO",
+    "cs.DS"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
