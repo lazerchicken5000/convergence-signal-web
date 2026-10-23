@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T11:13:28.591Z",
-  "total_leaders_analyzed": 687,
+  "generated_at": "2026-10-23T11:13:30.719Z",
+  "total_leaders_analyzed": 688,
   "candidates": [
     {
       "rank": 1,
@@ -385,6 +385,41 @@
     },
     {
       "rank": 12,
+      "id": "openai",
+      "name": "openai",
+      "leader_type": "architect",
+      "entity_type": "organization",
+      "score": 0.25,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 1,
+      "score_change": 0.004,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 1
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.4
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.35
+        }
+      ],
+      "pattern_count": 0,
+      "domains": [
+        "open_source"
+      ],
+      "source_types": [
+        "github",
+        "citation"
+      ]
+    },
+    {
+      "rank": 13,
       "id": "sean_o_kane",
       "name": "sean o'kane",
       "leader_type": "architect",
@@ -392,7 +427,7 @@
       "score": 0.246,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -415,41 +450,6 @@
       ],
       "source_types": [
         "rss",
-        "citation"
-      ]
-    },
-    {
-      "rank": 13,
-      "id": "openai",
-      "name": "openai",
-      "leader_type": "architect",
-      "entity_type": "organization",
-      "score": 0.246,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 1
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.4
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.3
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "open_source"
-      ],
-      "source_types": [
-        "github",
         "citation"
       ]
     },
@@ -524,6 +524,40 @@
     },
     {
       "rank": 16,
+      "id": "the_changelog_software_development_open_",
+      "name": "the changelog: software development, open source",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.231,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 3,
+      "score_change": 0.004,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.9
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.75
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        }
+      ],
+      "pattern_count": 0,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
+      "rank": 17,
       "id": "hugging_face",
       "name": "hugging face",
       "leader_type": "architect",
@@ -531,42 +565,7 @@
       "score": 0.23,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 1
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.4
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.1
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "open_source"
-      ],
-      "source_types": [
-        "github",
-        "citation"
-      ]
-    },
-    {
-      "rank": 17,
-      "id": "openclaw",
-      "name": "openclaw",
-      "leader_type": "architect",
-      "entity_type": "unknown",
-      "score": 0.23,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -594,6 +593,41 @@
     },
     {
       "rank": 18,
+      "id": "openclaw",
+      "name": "openclaw",
+      "leader_type": "architect",
+      "entity_type": "unknown",
+      "score": 0.23,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -1,
+      "score_change": 0,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 1
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.4
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.1
+        }
+      ],
+      "pattern_count": 0,
+      "domains": [
+        "open_source"
+      ],
+      "source_types": [
+        "github",
+        "citation"
+      ]
+    },
+    {
+      "rank": 19,
       "id": "yiming_zhang",
       "name": "yiming zhang",
       "leader_type": "architect",
@@ -601,7 +635,7 @@
       "score": 0.229,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -625,40 +659,6 @@
       "source_types": [
         "arxiv",
         "citation"
-      ]
-    },
-    {
-      "rank": 19,
-      "id": "the_changelog_software_development_open_",
-      "name": "the changelog: software development, open source",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.227,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.9
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.7
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
       ]
     },
     {
@@ -915,8 +915,8 @@
       "score": 0.223,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 2,
-      "score_change": 0.004,
+      "rank_change": 0,
+      "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -949,7 +949,7 @@
       "score": 0.222,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -984,7 +984,7 @@
       "score": 0.22,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": -1,
+      "rank_change": 0,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -1047,7 +1047,14 @@
     }
   ],
   "new_entrants": [],
-  "rising": [],
+  "rising": [
+    {
+      "name": "the changelog: software development, open source",
+      "rank": 16,
+      "rank_change": 3,
+      "score_change": 0.004
+    }
+  ],
   "fading": [],
   "dropped_out": []
 }

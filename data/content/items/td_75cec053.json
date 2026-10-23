@@ -1,0 +1,38 @@
+{
+  "id": "td_75cec053",
+  "source": "arxiv",
+  "source_id": "2610.31635",
+  "source_url": "https://arxiv.org/abs/2610.31635",
+  "content_type": "paper",
+  "creator": {
+    "id": "zunnan_xu",
+    "name": "Zunnan Xu",
+    "handle": "Zunnan Xu, Shangchen Zhou, Yihang Luo, Chen Change Loy",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+  "body_text": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction\n\nFeed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces independent local reconstructions with inconsistent coordinate frames and duplicate estimates of shared cameras. Achieving global consistency requires propagating constraints from adjacent overlaps and distant revisits across the sequence. This requirement naturally motivates pose graph optimization. However, the choice of graph level creates a trade-off. Chunk-level graphs efficiently resolve scale drift and close large loops. Yet, their rigid transformations cannot correct internal errors or conflicting frame predictions. Conversely, frame-level optimization offers local flexibility, but scaling it globally is computationally expensive and can break metric scale. HiP3R resolves this trade-off using a hierarchical pose graph. HiP3R first optimizes a robust chunk-level $\\mathrm{Sim}(3)$ graph to establish the global layout and scale. It then holds this layout fixed and estimates one shared $\\mathrm{SE}(3)$ camera per frame, turning overlapping window predictions into a single trajectory. Experiments across multiple benchmarks demonstrate the effectiveness of HiP3R in improving camera trajectories and 3D reconstruction. Our method applies to both chunk-based and streaming backends without additional training or fine-tuning. The codes are available at https://kkakkkka.github.io/HiP3R.\n\nAuthors: Zunnan Xu, Shangchen Zhou, Yihang Luo, Chen Change Loy\nCategories: cs.CV, cs.CV",
+  "word_count": 205,
+  "published_at": "2026-10-22T17:51:10Z",
+  "ingested_at": "2026-10-23T11:06:01.372Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

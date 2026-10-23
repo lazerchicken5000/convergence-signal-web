@@ -1,0 +1,40 @@
+{
+  "id": "td_e8c2a9f7",
+  "source": "arxiv",
+  "source_id": "2610.31558",
+  "source_url": "https://arxiv.org/abs/2610.31558",
+  "content_type": "paper",
+  "creator": {
+    "id": "ali_al-lawati",
+    "name": "Ali Al-Lawati",
+    "handle": "Ali Al-Lawati, Elsayed Eshra, Dongwon Lee, Suhang Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks",
+  "body_text": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks\n\n\\emph{Continuous-space} attacks find prompts that trigger malicious behaviors, such as overthinking, in black-box LLMs by sampling or optimizing over a low-dimensional Gaussian latent space and decoding it to text through a \\emph{random mapping} and nearest-token lookup. Because the random mapping is not learned from language, its prompts can be highly unnatural, and as such easily detectable through input guardrails, and the risk estimates they yield are not grounded in natural prompts. In this paper, we demonstrate that the same continuous latent-space framework can be coupled directly to a learned generative distribution over language, a continuous diffusion language model (dLLM), which removes the artificial random mapping while preserving the standard-Gaussian latent formulation and the downstream sampling or optimization procedure. We evaluate this approach under two settings: sampling-based estimation using \\emph{RareTrap} and optimization-based search using \\emph{ThinkTrap}. We find that character-level perplexity drops from $10^3$--$10^7$ to 3--5 in RareTrap and from 20--28 to 4.3--5.4 in ThinkTrap. We also find that model risk estimates can differ by an order of magnitude across the two mappings.\n\nAuthors: Ali Al-Lawati, Elsayed Eshra, Dongwon Lee, Suhang Wang\nCategories: cs.LG, cs.CL, stat.ML, cs.LG",
+  "word_count": 171,
+  "published_at": "2026-10-22T17:00:39Z",
+  "ingested_at": "2026-10-23T11:05:27.137Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.CL",
+    "stat.ML",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

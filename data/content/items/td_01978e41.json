@@ -1,0 +1,39 @@
+{
+  "id": "td_01978e41",
+  "source": "arxiv",
+  "source_id": "2610.31624",
+  "source_url": "https://arxiv.org/abs/2610.31624",
+  "content_type": "paper",
+  "creator": {
+    "id": "barış_alparslan",
+    "name": "Barış Alparslan",
+    "handle": "Barış Alparslan, Sandy Tanwisuth, Caleb Petterson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+  "body_text": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3\n\nInstrumental convergence is often invoked as a general reason to expect capable agents to acquire or express power-seeking subgoals: self-preservation, resource acquisition, deception, or resistance to oversight which poses an important threat to the society. For LLMs, reinforcement learning is the first stage of post-training that directly optimizes behavior against an objective; therefore, it is the stage where convergent instrumental behavior, on IC grounds, likely to appear. Does reinforcement learning with verifiable rewards (RLVR) make a model more likely to express instrumental-convergence behavior, or does this depend on the training regime, evaluation frame, and stage of post-training? We study this question as a checkpoint-conditioned behavioral trajectory rather than as a single before/after safety score. Using InstrumentalEval, we evaluate OLMo-3-7B-Think across SFT, DPO, 13 intermediate RLVR checkpoints, and the final RLVR model. The trajectory is nonmonotonic: instrumental rate rises from 25.0% at SFT to 46.1% near RLVR step 200, then falls to 11.8% at the final checkpoint. Paired item-level tests and step-wise regression support the final SFT-to-RLVR reduction. Prompt framing does not explain this pattern: a harmful-prompt indicator combined with other framing effects explains only 15% of within-checkpoint score variance on average, and Iterative Null-space Projection (INLP) removes a detectable framing direction without changing the SFT-to-final-RLVR gap. Together with preliminary 32B endpoint results (35.53% SFT to 22.37% RLVR final), these findings indicate that RLVR does not monotonically increase instrumental behavior in this setting: the rate rises early, then falls below the SFT baseline. The result is specific to this model family and benchmark, and judge agreement is moderate, so absolute rates should be read cautiously.\n\nAuthors: Barış Alparslan, Sandy Tanwisuth, Caleb Petterson\nCategories: cs.LG, cs.AI, cs.LG",
+  "word_count": 264,
+  "published_at": "2026-10-22T17:44:41Z",
+  "ingested_at": "2026-10-23T11:05:19.004Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

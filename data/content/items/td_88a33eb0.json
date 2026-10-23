@@ -1,0 +1,38 @@
+{
+  "id": "td_88a33eb0",
+  "source": "arxiv",
+  "source_id": "2610.31642",
+  "source_url": "https://arxiv.org/abs/2610.31642",
+  "content_type": "paper",
+  "creator": {
+    "id": "jonathan_t._barron",
+    "name": "Jonathan T. Barron",
+    "handle": "Jonathan T. Barron, Dan Gnanapragasam, Michael Tschannen",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "A Fix for Softmax and Cross-Entropy",
+  "body_text": "A Fix for Softmax and Cross-Entropy\n\nStandard implementations of softmax, log-softmax, and cross-entropy have two numerical bugs. The first bug, Softmax Collapse, rounds the target logit's gradient to zero if that one logit is much larger than the others, resulting in gradients that no longer sum to zero. The second bug, Softmax Cancellation, occurs when student logits are close to teacher logits, and produces non-zero gradients even when the student and teacher logits are equal. We present simple implementations of log-softmax, softmax, and cross-entropy that fix both bugs. Our fix eliminates the previously-observed \"Slingshot\" phenomenon, speeds up grokking with weight decay, prevents accuracy collapse without weight decay, stops student networks from drifting away from the teacher during distillation, and shows that after memorization, logit growth is bounded by an equilibrium between weight decay and Adam's $ε$ hyperparameter.\n\nAuthors: Jonathan T. Barron, Dan Gnanapragasam, Michael Tschannen\nCategories: cs.LG, cs.LG",
+  "word_count": 131,
+  "published_at": "2026-10-22T17:54:56Z",
+  "ingested_at": "2026-10-23T11:05:35.262Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "td_0fe2dec9",
+  "source": "arxiv",
+  "source_id": "2610.31663",
+  "source_url": "https://arxiv.org/abs/2610.31663",
+  "content_type": "paper",
+  "creator": {
+    "id": "xin_he",
+    "name": "Xin He",
+    "handle": "Xin He, Huan Lao, Xiliang Lu, Shijun Zhang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Phase Transition from Random Features to Fully Trainable Networks",
+  "body_text": "Phase Transition from Random Features to Fully Trainable Networks\n\nConstructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations. This paper quantifies a phase transition pattern in approximation bounds and observes analogous behavior in training errors: a rapid but smooth initial improvement followed by diminishing returns, with a sharper transition under greater initialization mismatch. Under polynomial spectral decay with exponent $α&gt;1$ and leverage compatibility, we establish a squared $L_2$ approximation rate $\\mathcal{O}((κ_P\\log(m/δ)/m)^α)$ for two-layer networks of width $m$ and trainable proportion $P$, where $κ_P=(P/κ_1^*+(1-P)/κ_0^*)^{-1}$. The bound holds uniformly over the unit ball of a reproducing kernel Hilbert space (RKHS) with probability at least $1-δ$. The constants $κ_0^*$ and $κ_1^*$ quantify the fixed and trainable groups' sampling mismatches relative to the target RKHS. For spherical biased-ReLU features in dimension $d$, we verify these assumptions with $α=(d+2)/(d-1)$ and $κ_0^*=4\\sqrt{2}τ(d+1)/d$ for initialization scale $τ\\ge1$, and $κ_1^*=1$ under ridge leverage sampling. For $d=5$ and $τ=10$, a trainable proportion of approximately $4.1\\%$ captures $90\\%$ of the reduction in the approximation bound from $P=0$ to $P=1$. A structured three-layer example illustrates how a few trainable first-layer neurons exploit fixed downstream blocks through nonlinear composition. Numerical experiments across diverse settings, including networks with up to 15 layers, exhibit similar phase transitions in training errors.\n\nAuthors: Xin He, Huan Lao, Xiliang Lu, Shijun Zhang\nCategories: math.NA, cs.LG, math.ST, stat.ML, math.NA",
+  "word_count": 214,
+  "published_at": "2026-10-22T17:59:29Z",
+  "ingested_at": "2026-10-23T11:05:35.261Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "math.NA",
+    "cs.LG",
+    "math.ST",
+    "stat.ML",
+    "math.NA"
+  ],
+  "domain": "academic",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
