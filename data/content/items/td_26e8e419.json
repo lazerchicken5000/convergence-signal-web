@@ -1,0 +1,40 @@
+{
+  "id": "td_26e8e419",
+  "source": "arxiv",
+  "source_id": "2610.32970",
+  "source_url": "https://arxiv.org/abs/2610.32970",
+  "content_type": "paper",
+  "creator": {
+    "id": "aleksandar_arandjelovic",
+    "name": "Aleksandar Arandjelovic",
+    "handle": "Aleksandar Arandjelovic, Patrick Cheridito",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "On the continuity of conditional distributions and stratification for derivative pricing",
+  "body_text": "On the continuity of conditional distributions and stratification for derivative pricing\n\nStratification can reduce the estimator variance in Monte Carlo simulations by partitioning the sample space according to a low-dimensional factor and sampling separately within the resulting strata, making it well suited to the valuation of path-dependent claims in high-dimensional financial models. Its performance, however, depends critically on the choice of the stratification factor, and effective low-dimensional factors are generally difficult to identify in complex continuous-time models. Neural networks provide a flexible approximation class for this purpose and have proved useful in related variance-reduction problems in quantitative finance. In this paper, we study the construction of neural stratification factors for derivative pricing under proportional allocation in continuous-time models. Since the numerical construction of a stratification factor typically involves approximation, we establish continuity results for the associated conditional expectations and, more generally, conditional distributions, and provide several counterexamples showing the limits of this continuity theory. Combined with density results for neural networks, our findings yield a universal approximation theorem for admissible stratification factors. We conclude with numerical experiments involving a constant-maturity-swap range accrual in a two-factor Gaussian short-rate model and a worst-of autocallable in a Wishart stochastic covariance model, where the learned factors outperform all considered benchmarks.\n\nAuthors: Aleksandar Arandjelovic, Patrick Cheridito\nCategories: q-fin.CP, math.PR, q-fin.MF, q-fin.CP",
+  "word_count": 195,
+  "published_at": "2026-10-23T17:57:09Z",
+  "ingested_at": "2026-10-26T11:06:16.611Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "q-fin.CP",
+    "math.PR",
+    "q-fin.MF",
+    "q-fin.CP"
+  ],
+  "domain": "finance",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

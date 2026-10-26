@@ -1,0 +1,38 @@
+{
+  "id": "td_dcd4dc50",
+  "source": "arxiv",
+  "source_id": "2610.32980",
+  "source_url": "https://arxiv.org/abs/2610.32980",
+  "content_type": "paper",
+  "creator": {
+    "id": "danil_gusak",
+    "name": "Danil Gusak",
+    "handle": "Danil Gusak, Anna Volodkevich, Ivan Oseledets, Evgeny Frolov",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Separating Thinking from Spelling for Efficient Generative Recommendation",
+  "body_text": "Separating Thinking from Spelling for Efficient Generative Recommendation\n\nGenerative recommenders retrieve items by writing their semantic IDs (SIDs) code by code under trie-constrained beam search, an approach now deployed on large web platforms. Standard autoregressive interfaces pay for the SID length K twice: a history of T items enters the backbone as TK code tokens, and every beam-search step runs through the backbone, so returning B candidates costs O(BK) backbone decode tokens per user. The second cost often dominates, and it grows with the backbone, the SID depth and the candidate budget. We introduce Deco (decoding from concepts), which separates reading the history from writing the identifier. The backbone reads each history item as one fused token and condenses the history once into a compact next-item concept; a light KV-cached decoder conditioned on the concept and the generated prefix runs the entire beam search, while the identifiers, the trie and the autoregressive factorization stay unchanged. The decoder approaches full-backbone accuracy with cross-entropy alone, and distillation improves it further. On seven datasets from e-commerce, movies and music streaming, Deco achieves comparable or better accuracy than both a standard generative recommender and the full-backbone teacher with fused inputs, while delivering 3.2--8.6$\\times$ their throughput under a 50 ms p95 latency budget in a production-style serving pipeline. Delegating beam search makes larger candidate pools and models practical: Deco generates 1000 candidates faster than its teacher generates 100, and with a 1.5B-parameter LLM backbone, it matches the 69M-parameter teacher's throughput while achieving higher accuracy.\n\nAuthors: Danil Gusak, Anna Volodkevich, Ivan Oseledets, Evgeny Frolov\nCategories: cs.IR, cs.IR",
+  "word_count": 241,
+  "published_at": "2026-10-23T17:59:24Z",
+  "ingested_at": "2026-10-26T11:06:07.715Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "td_fcf4bed7",
+  "source": "arxiv",
+  "source_id": "2610.32890",
+  "source_url": "https://arxiv.org/abs/2610.32890",
+  "content_type": "paper",
+  "creator": {
+    "id": "shubham_gupta",
+    "name": "Shubham Gupta",
+    "handle": "Shubham Gupta, Siva Reddy, Perouz Taslakian, Valentina Zantedeschi, Cem Subakan",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Closing the Modality Gap via Simplex-Constrained Representations",
+  "body_text": "Closing the Modality Gap via Simplex-Constrained Representations\n\nWhile multimodal contrastive models like CLIP and CLAP successfully learn shared representations, their embeddings typically exhibit a persistent \\emph{modality gap}. We propose addressing this separation through a purely geometric approach: changing the embedding domain from the unit sphere, $S^{d-1}$, to the probability simplex, $Δ^{d-1}$. Although both manifolds share the same intrinsic dimension, the simplex acts as a structural prior; its nonnegative, unit-mass constraints serve as a cross-modal calibration that forces both modalities to ground themselves in the same coordinate system. By attaching lightweight softmax adapters and using Total Variation similarity, we reduce the centroid $\\ell_2$ gap by 97--99\\% across five multimodal retrieval benchmarks. This confirms that simplicial geometry induces genuine semantic alignment, matching or exceeding the retrieval performance of standard unconstrained models.\n\nAuthors: Shubham Gupta, Siva Reddy, Perouz Taslakian, Valentina Zantedeschi, Cem Subakan\nCategories: cs.AI, cs.CV, cs.AI",
+  "word_count": 122,
+  "published_at": "2026-10-23T16:57:48Z",
+  "ingested_at": "2026-10-26T11:05:42.905Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.AI",
+    "cs.CV",
+    "cs.AI"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

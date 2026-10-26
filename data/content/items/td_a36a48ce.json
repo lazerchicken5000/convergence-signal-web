@@ -1,0 +1,38 @@
+{
+  "id": "td_a36a48ce",
+  "source": "arxiv",
+  "source_id": "2610.32817",
+  "source_url": "https://arxiv.org/abs/2610.32817",
+  "content_type": "paper",
+  "creator": {
+    "id": "khan_raiyan_ibne_reza",
+    "name": "Khan Raiyan Ibne Reza",
+    "handle": "Khan Raiyan Ibne Reza, Sanjana Aktar Maria, Shakil Ahmed, Faiyad Hossain, Sumaiya Tabassum Nimi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "KrishokTech: A Bengali Agricultural Advisory System with Explicit Authorization Controls",
+  "body_text": "KrishokTech: A Bengali Agricultural Advisory System with Explicit Authorization Controls\n\nFor agricultural advisory, generating an answer is only part of the problem: the system must also control unsafe requests, work with limited connectivity, and accommodate changing guidance. KRISHOKTECH is a Bengali agricultural advisory system built around an explicit authorization boundary around generation. Before retrieval, normalization and rule-based admission checks refer policy-covered high-risk requests and ask for a crop when treatment intent is underspecified. The system then binds retrieval to a single crop and asks for confirmation when the text and image indicate different crops. After generation, a narrow verifier removes dosage claims not supported by retrieved BARI/BRRI evidence. Agricultural guidance is kept in an external evidence index that can be updated without retraining the generator, while browser-side vision and local retrieval reduce connectivity requirements. The interface makes these decisions visible as ASK, CONFIRM, REFER, and DROP, together with their evidence. On 200 farmer queries and 400 stress queries, the controls halted underspecified requests and reduced cross-crop retrieval violations from 36.5% to 0% under the tested alias filter. Mismatch detection caught 453 of 454 text-image conflicts, while the verifier caught 114 of 118 inserted dosage errors. The demonstration shows how these controls govern the path from request to delivered advice.\n\nAuthors: Khan Raiyan Ibne Reza, Sanjana Aktar Maria, Shakil Ahmed, Faiyad Hossain, Sumaiya Tabassum Nimi\nCategories: cs.CL, cs.CL",
+  "word_count": 199,
+  "published_at": "2026-10-23T15:51:51Z",
+  "ingested_at": "2026-10-26T11:05:51.156Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

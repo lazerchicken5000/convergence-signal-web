@@ -1,0 +1,40 @@
+{
+  "id": "td_9010fea8",
+  "source": "arxiv",
+  "source_id": "2610.32835",
+  "source_url": "https://arxiv.org/abs/2610.32835",
+  "content_type": "paper",
+  "creator": {
+    "id": "ankit_gupta",
+    "name": "Ankit Gupta",
+    "handle": "Ankit Gupta, Akshat Pandya, Christoph Adami, Emily Dolson",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "SPOOK: Sparse Pixel Optimization for Off-Manifold Knowledge in Vision Encoders",
+  "body_text": "SPOOK: Sparse Pixel Optimization for Off-Manifold Knowledge in Vision Encoders\n\nModern vision encoders are widely used as semantic representations, but the relationship between embedding similarity and human-visible semantics can become unclear far from the natural-image manifold. We probe this regime in a black-box setting by applying sparse pixel edits to blank canvases with a simple pixel-level hill-climbing procedure. Across ImageNet and Flickr30k, we evaluate whether these edited blank canvases can retrieve chosen targets in multimodal contrastive encoders and self-supervised visual encoders. On OpenCLIP, inputs optimized toward class prompts achieve strong top-1 and top-5 targeted retrieval performance; on DINOv3, inputs optimized toward class prototypes achieve high target alignment and near-top prototype ranks. These results show that sparse edits on otherwise blank, visually non-semantic inputs can enter target semantic basins in both language-aligned and self-supervised visual representation spaces. Our findings identify a shared off-manifold failure mode of modern vision encoders and suggest sparse blank-canvas optimization as a simple probe of representation geometry.\n\nAuthors: Ankit Gupta, Akshat Pandya, Christoph Adami, Emily Dolson\nCategories: cs.CV, cs.CL, cs.HC, cs.CV",
+  "word_count": 150,
+  "published_at": "2026-10-23T16:09:57Z",
+  "ingested_at": "2026-10-26T11:05:51.156Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CV",
+    "cs.CL",
+    "cs.HC",
+    "cs.CV"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

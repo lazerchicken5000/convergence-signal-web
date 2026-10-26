@@ -1,0 +1,38 @@
+{
+  "id": "td_f45da333",
+  "source": "arxiv",
+  "source_id": "2610.32951",
+  "source_url": "https://arxiv.org/abs/2610.32951",
+  "content_type": "paper",
+  "creator": {
+    "id": "yijing_ke",
+    "name": "Yijing Ke",
+    "handle": "Yijing Ke, Tianle Cai, Ruosong Wang",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+  "body_text": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning\n\nReinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences remain. We align training-side rounding locations with inference in three regions---RoPE, SwiGLU, and residual RMSNorm---by retaining selected intermediates in FP32 until their BF16 outputs. Across four Qwen-family models, aligning all three regions prevents the collapse observed under the default BF16 baseline; RoPE-path alignment alone also suffices in the studied runs, despite remaining numerical discrepancies. The interventions keep the inference engine, matrix-multiplication and attention kernels, and learning objective unchanged.\n\nAuthors: Yijing Ke, Tianle Cai, Ruosong Wang\nCategories: cs.LG, cs.LG",
+  "word_count": 136,
+  "published_at": "2026-10-23T17:45:03Z",
+  "ingested_at": "2026-10-26T11:05:59.296Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
