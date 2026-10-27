@@ -1,0 +1,38 @@
+{
+  "id": "td_3542cba0",
+  "source": "arxiv",
+  "source_id": "2610.35840",
+  "source_url": "https://arxiv.org/abs/2610.35840",
+  "content_type": "paper",
+  "creator": {
+    "id": "sahel_sharifymoghaddam",
+    "name": "Sahel Sharifymoghaddam",
+    "handle": "Sahel Sharifymoghaddam, Yauhen Babakhin, Reza Esfandiarpoor, Oliver Holworthy, Jimmy Lin, Bo Liu",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "ACARE: Agent-Context-Aware Reranker for Iterative Search",
+  "body_text": "ACARE: Agent-Context-Aware Reranker for Iterative Search\n\nIn agentic search, a document can match an agent-generated sub-query without helping answer the user's original question. Conventional rerankers score documents against the sub-query alone, overlooking the broader task and the agent's reasoning. We introduce the Agent-Context-Aware Reranker (ACARe), a compact 4B LLM trained to rerank documents using this context when available. Across multiple benchmarks and agent families, ACARe improves retrieval quality over its base reranker while reducing search effort. These benefits extend to answer generation: ACARe improves accuracy and reduces searches over no reranking, while matching or exceeding the base reranker's mean accuracy with more precise evidence. It also helps smaller agents narrow the retrieval-quality gap to larger agents, showing how better retrieval tools can make smaller agents more effective. The model, training data, and code will be released soon.\n\nAuthors: Sahel Sharifymoghaddam, Yauhen Babakhin, Reza Esfandiarpoor, Oliver Holworthy, Jimmy Lin, Bo Liu\nCategories: cs.IR, cs.IR",
+  "word_count": 131,
+  "published_at": "2026-10-26T17:53:30Z",
+  "ingested_at": "2026-10-27T11:06:14.444Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.IR",
+    "cs.IR"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "td_64688666",
+  "source": "arxiv",
+  "source_id": "2610.35787",
+  "source_url": "https://arxiv.org/abs/2610.35787",
+  "content_type": "paper",
+  "creator": {
+    "id": "christian_moya",
+    "name": "Christian Moya",
+    "handle": "Christian Moya, Purav Matlia, Elliott Thornley, Guang Lin",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Selective Tie Learning: Mitigating Spurious Correlations in Preference Optimization",
+  "body_text": "Selective Tie Learning: Mitigating Spurious Correlations in Preference Optimization\n\nPreference optimization can learn spurious correlations, and augmenting the preference data with ties (equally preferred responses) can reduce spurious reliance. However, ties differ in their corrective effect, making their selection for augmentation important. For log-linear policies, we derive each tie's influence on spurious reliance and show that taking the largest predicted reductions is first-order optimal among subsets of equal size. Computing these influences requires knowledge of the spurious features and the curvature of the training objective, which is often unavailable or expensive to estimate. To this end, we explore using the magnitude of a tie's implicit reward margin and characterize the conditions under which it is a useful proxy for predicted influence. To test the theory and its qualitative transfer to neural models, we estimate influence with a counterfactual proxy for spurious reliance and use a generalized Gauss--Newton approximation to curvature for language models. Across log-linear policies, neural models, and large language models, our selection rules consistently achieve comparable reductions in spurious reliance with fewer ties than uniform selection.\n\nAuthors: Christian Moya, Purav Matlia, Elliott Thornley, Guang Lin\nCategories: cs.LG, cs.LG",
+  "word_count": 169,
+  "published_at": "2026-10-26T17:26:32Z",
+  "ingested_at": "2026-10-27T11:06:05.943Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.LG",
+    "cs.LG"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

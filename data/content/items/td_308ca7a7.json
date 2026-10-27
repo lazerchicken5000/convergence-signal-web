@@ -1,0 +1,38 @@
+{
+  "id": "td_308ca7a7",
+  "source": "arxiv",
+  "source_id": "2610.35824",
+  "source_url": "https://arxiv.org/abs/2610.35824",
+  "content_type": "paper",
+  "creator": {
+    "id": "hsuan-cheng_wu",
+    "name": "Hsuan-Cheng Wu",
+    "handle": "Hsuan-Cheng Wu, Xiantao Li",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Sparse Carleman Embeddings for Nonlinear Discrete Dynamical Systems",
+  "body_text": "Sparse Carleman Embeddings for Nonlinear Discrete Dynamical Systems\n\nDiscrete nonlinear dynamical systems arise in population models, iterative optimization, and numerical simulations, where computing many iterations can be costly in high dimensions. We study Carleman embedding for forced quadratic discrete systems and its application to quantum state preparation. Under explicit stability and initial-state assumptions, we prove that the truncation error decreases geometrically with the embedding degree, uniformly over all iterations. A central obstacle in discrete time is that the lifted update can become dense even when the original coefficient maps are sparse. We overcome this obstacle by constructing an exact auxiliary linear-system representation that applies the coefficient maps one tensor factor at a time, with row and column sparsities bounded independently of the truncation degree. After rescaling, the associated history system has a condition number that grows linearly with the iteration count, uniformly in the truncation degree. These results yield a quantum algorithm for preparing an approximation to the normalized $n$th iterate with constant success probability. Under coherent input-access assumptions, and for fixed sparsity, stability parameters, and a known positive lower bound on the final-state norm, the oracle query complexity is linear in $n$ and polylogarithmic in the inverse accuracy. Numerical experiments in one and three dimensions illustrate the convergence of the truncated embedding.\n\nAuthors: Hsuan-Cheng Wu, Xiantao Li\nCategories: quant-ph, quant-ph",
+  "word_count": 205,
+  "published_at": "2026-10-26T17:48:13Z",
+  "ingested_at": "2026-10-27T11:06:31.545Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "quant-ph",
+    "quant-ph"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
