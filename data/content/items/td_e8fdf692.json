@@ -1,0 +1,35 @@
+{
+  "id": "td_e8fdf692",
+  "source": "rss",
+  "source_id": "https://www.science.org/content/blog-post/lipidation-and-its-discontents",
+  "source_url": "https://www.science.org/content/blog-post/lipidation-and-its-discontents",
+  "content_type": "article",
+  "creator": {
+    "id": "aaas:_keyword_search_for_query",
+    "name": " ",
+    "handle": "AAAS: Keyword search for query",
+    "platform": "rss",
+    "follower_count": null,
+    "is_tracked": true
+  },
+  "title": "Lipidation and Its Discontents",
+  "body_text": "Medicinal chemists are always interested in getting more actual data on our various compound modification tricks and rules of thumb for changing activity and distribution. There are a lot of these, but the depth of the evidence behind them does vary. This new paper looks at lipidation (adding some sort of lipid tail to a given structure) as a strategy for increasing cell penetration. The technique they use is “CHAMP”, or chloroalkane azide-based membrane penetration. As chem-bio folks will have guessed from that name, it’s a HaloTag-driven idea (that’s an engineered protein system that is very sensitive to a chloroalkane group, far more so than anything you’re likely to encounter in a living cell). In this case, the cells under analysis (bacterial or human) are made to express the HaloTag protein, and then they’re treated with a chloroalkane compound that has a click-reactive tag on the other end (dibenzocyclooctane, or DBCO). Once these have been grabbed up inside the cell, you treat the cells with a lipidated drug molecule (your choice of lipid groups!) that also has an azide group on it. If this comes near any of those DBCO groups it will do a cycloaddition and form a linked triazole and thus sit there. You then treat the cells with an azide-containing fluorophore and let it soak up the remaining DBCO groups. Measuring the fluorescence at this point - and comparing these numbers across different doses of the lipidated azide-containing drug - tells you how well that drug substance got into the cell in the first place. If your fluorescence readout is big and bright and similar to a no-drug control experiment, then you know that little or none of the lipidated drug made it in. Decreasing fluorescence in other experiments will indicate greater and greater cell membrane penetration of the lipidated drug probe (i.e., greater usage of those DBCOs, leaving less of them around for the final fluorophore to pick up). The authors tried out a number of compounds and a number of lipid-ish groups, ranging from straight saturated alkyl chains of various lengths, branched chains, unsaturated lipids of various sorts, cyclic alkyls, fluorinated species and other heteroatoms, etc. These were assayed in smooth E. coli cells and in HeLa cells as well, one prokaryote and one eukaryote. And the differences in these were stark indeed! For the bacteria, no lipid conjugate ever accumulated as much as the unmodified drug substance. And only the shortest alkyl modifications (C3-C4) worked even to a reasonable extent; longer more “lipid-y” conjugations severely reduced the amount of compound that could make it into the bacterial cytosol. Further study gave results consistent with the idea that these compounds became stuck in the outer membrane of the E. coli and that the inner membrane of these Gram-negative cells was a substantial barrier. But in the HeLa (human-derived) cells, the saturated chains in the C6-C8 range were the best, very much better than the parent compounds or the plain acetylated (C1) versions. Unsaturated lipids were somewhat worse, while cyclic saturated were also fine and worked better as their size increased. Similarly, branched chains also worked well, and a perfluoro chain was quite good. These results parallel the results seen in earlier studies in mammalian cells, but the huge split with the bacterial results was more than the authors anticipated. Trying these trends across different drug scaffolds showed that (at least in the bacteria) membrane penetration that was driven by such structural variations couldn’t be offset very much by lipid-tail changes. For the HeLa cells, one effect they noted is that some of the earlier papers in this field seem to have been measuring compounds that were stuck to the cell membrane rather than making it all the way into the cytosol. In fact, some of the large, hydrophobic tails that gave rather strong results in earlier total-fluorescence techniques seem to have been mostly driven by this effect, whereas the CHAMP assay gives a better indication of actually reaching the cytosol. So the take-homes are: don’t assume that lipidation is a one-size-fits-all modification, for starters. And don’t depend on it at all to get into Gram-negative bacteria, because that seems very unlikely to help you. For mammalian cells, go for medium-chain, cyclic, and/or fluorinated tails for your best shot. And good luck to you!",
+  "word_count": 718,
+  "published_at": "2026-10-27T03:02:35.000Z",
+  "ingested_at": "2026-10-28T11:03:09.719Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [],
+  "domain": "tech_startup",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "news_article",
+  "cited_creator_ids": []
+}

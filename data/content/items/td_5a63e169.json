@@ -1,0 +1,38 @@
+{
+  "id": "td_5a63e169",
+  "source": "arxiv",
+  "source_id": "2610.37642",
+  "source_url": "https://arxiv.org/abs/2610.37642",
+  "content_type": "paper",
+  "creator": {
+    "id": "mingyu_zhao",
+    "name": "Mingyu Zhao",
+    "handle": "Mingyu Zhao, Shuhang Lin, Ligong Han, Xiaojing Yu, Zhenting Wang, Yifei Pang, Yang Zhou, Dimitris N. Metaxas",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents",
+  "body_text": "Metacognitive Decoding: Efficient Inference for Diffusion Language Agents\n\nDiffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller that guides diffusion generation according to the needs of the current response and the agent's interaction with the environment. It learns when to finalize tokens and how far generation should extend, reducing overall computation within responses. Our controller, a lightweight plug-in for the diffusion backbone, is trained on agent trajectories to balance correctness and generation cost. This approach connects the agent's generation process to the interaction the agent serves. Experiments across five benchmarks demonstrate that our approach reduces inference FLOPs by 20.6% on average compared with the most efficient baseline, while maintaining competitive task accuracy. Ablation studies further validate the effectiveness of our approach.\n\nAuthors: Mingyu Zhao, Shuhang Lin, Ligong Han, Xiaojing Yu, Zhenting Wang, Yifei Pang, Yang Zhou, Dimitris N. Metaxas\nCategories: cs.CL, cs.CL",
+  "word_count": 139,
+  "published_at": "2026-10-27T17:55:24Z",
+  "ingested_at": "2026-10-28T11:05:22.720Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.CL",
+    "cs.CL"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

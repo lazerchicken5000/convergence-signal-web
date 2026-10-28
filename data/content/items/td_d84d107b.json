@@ -1,0 +1,39 @@
+{
+  "id": "td_d84d107b",
+  "source": "arxiv",
+  "source_id": "2610.37611",
+  "source_url": "https://arxiv.org/abs/2610.37611",
+  "content_type": "paper",
+  "creator": {
+    "id": "lorenzo_tedesco",
+    "name": "Lorenzo Tedesco",
+    "handle": "Lorenzo Tedesco",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "Agentic Distributional Regression: Conditional Density Estimation through Agent-Written Programs",
+  "body_text": "Agentic Distributional Regression: Conditional Density Estimation through Agent-Written Programs\n\nIn this paper we propose a method for estimating conditional densities from an iid sample using a language-model agent. The agent writes the estimator as a short program that, for each covariate value, returns the estimated conditional distribution of the response. The program is built from a library of probability distributions, so the returned law can be a parametric distribution, a mixture or a multivariate factorization, with parameters given by explicit functions of the covariates. Since the number of operations and constants in the program is limited, the fitted conditional density is a formula that can be inspected and evaluated independently of the agent, while the choice of the model structure and of the fitting procedure is left to the agent. We call this approach agentic distributional regression (ADR). Treating the returned program as a random conditional density estimator, we derive a finite-sample error bound under explicit complexity and optimization assumptions, and an oracle inequality for selection using independent validation data. For a stably selected regular structure with sufficiently accurate fitting, we obtain asymptotic normality of the fitted constants. In simulation studies, on twelve real datasets and on a new dataset collected after the agents' training data, ADR with Claude Opus 5.5 has the best average performance among the methods considered.\n\nAuthors: Lorenzo Tedesco\nCategories: stat.ME, stat.ML, stat.ME",
+  "word_count": 211,
+  "published_at": "2026-10-27T17:41:14Z",
+  "ingested_at": "2026-10-28T11:05:39.579Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "stat.ME",
+    "stat.ML",
+    "stat.ME"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}

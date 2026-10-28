@@ -1,0 +1,38 @@
+{
+  "id": "td_78e878e0",
+  "source": "arxiv",
+  "source_id": "2610.37592",
+  "source_url": "https://arxiv.org/abs/2610.37592",
+  "content_type": "paper",
+  "creator": {
+    "id": "alireza_saleh_abadi",
+    "name": "Alireza Saleh Abadi",
+    "handle": "Alireza Saleh Abadi, Leen-Kiat Soh, Adam Eck, Prashant Doshi",
+    "platform": "arxiv",
+    "follower_count": null,
+    "is_tracked": false
+  },
+  "title": "TANDEM: Balancing Centralized and Decentralized Critics to Address the Information Gap in Complex Multi-Agent Environments",
+  "body_text": "TANDEM: Balancing Centralized and Decentralized Critics to Address the Information Gap in Complex Multi-Agent Environments\n\nCooperative multi-agent reinforcement learning under centralized training with decentralized execution (CTDE) shapes decentralized policies with a centralized critic that observes the global state, then removes the critic at execution. The policies are optimized to rely on information they will not have when they act, an information gap between training and execution. It widens under partial observability, observation noise, and openness, where the set of agents and tasks present changes during an episode. Existing methods transfer centralized guidance in one direction only, removing or distilling the critic once, so the policies never rehearse acting without the critic while they can still be corrected. We propose TANDEM, which keeps one centralized critic and reads it two ways at each training step: a centralized read from the global state, and a decentralized read restricted to the information each agent will have at execution. A parameter-free gate compares the two reads for each agent and trains the policy on the decentralized read where they agree, reinstating the centralized read only where the local view is misleading. A shared target pulls the decentralized read toward the centralized one. We formalize the setting as a task- and agent-open decentralized partially observable Markov decision process (TAO-Dec-POMDP) and evaluate TANDEM on three cooperative domains, each isolating one form of the information gap: discovery for partial observability, sampling for observation noise, and openness in wildfire suppression. We compare against six CTDE baselines and ablate the gate and the shared target; the supplementary material holds the full variant sweep, diagnostics, and learning curves. We measure return at execution, once the centralized critic is removed. TANDEM is the best method on eight of the nine setups and never significantly worse than any baseline.\n\nAuthors: Alireza Saleh Abadi, Leen-Kiat Soh, Adam Eck, Prashant Doshi\nCategories: cs.MA, cs.MA",
+  "word_count": 282,
+  "published_at": "2026-10-27T17:28:43Z",
+  "ingested_at": "2026-10-28T11:05:56.680Z",
+  "engagement": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null,
+    "bookmarks": null,
+    "engagement_rate": null
+  },
+  "tags": [
+    "cs.MA",
+    "cs.MA"
+  ],
+  "domain": "tech_ai",
+  "language": "en",
+  "media_duration_seconds": null,
+  "distilled": true,
+  "discourse_format": "academic_paper",
+  "cited_creator_ids": []
+}
