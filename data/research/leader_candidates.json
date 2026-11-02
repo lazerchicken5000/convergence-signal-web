@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:09:51.478Z",
+  "generated_at": "2026-11-02T11:13:56.270Z",
   "total_leaders_analyzed": 692,
   "candidates": [
     {
@@ -146,6 +146,43 @@
     },
     {
       "rank": 5,
+      "id": "karpathy",
+      "name": "karpathy",
+      "leader_type": "bridge",
+      "entity_type": "unknown",
+      "score": 0.282,
+      "tier": "top",
+      "trajectory": "stable",
+      "rank_change": 0,
+      "score_change": 0,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 1
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.6
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.3
+        }
+      ],
+      "pattern_count": 0,
+      "domains": [
+        "open_source",
+        "publishing"
+      ],
+      "source_types": [
+        "github",
+        "rss",
+        "citation"
+      ]
+    },
+    {
+      "rank": 6,
       "id": "theresa_loconsolo",
       "name": "theresa loconsolo",
       "leader_type": "architect",
@@ -180,7 +217,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "id": "fireship",
       "name": "fireship",
       "leader_type": "architect",
@@ -214,7 +251,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "id": "tim_fernholz",
       "name": "tim fernholz",
       "leader_type": "architect",
@@ -248,7 +285,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "thedaily_nytimes_com_the_new_york_times",
       "name": "thedaily@nytimes.com (the new york times)",
       "leader_type": "architect",
@@ -282,7 +319,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": "theo_t3_gg",
       "name": "theo - t3․gg",
       "leader_type": "architect",
@@ -316,7 +353,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "id": "connie_loizos",
       "name": "connie loizos",
       "leader_type": "architect",
@@ -350,7 +387,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "id": "hard_fork_nyt",
       "name": "hard fork (nyt)",
       "leader_type": "architect",
@@ -384,7 +421,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 13,
       "id": "openai",
       "name": "openai",
       "leader_type": "architect",
@@ -419,7 +456,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 14,
       "id": "sean_o_kane",
       "name": "sean o'kane",
       "leader_type": "architect",
@@ -454,7 +491,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 15,
       "id": "practical_ai",
       "name": "practical ai",
       "leader_type": "architect",
@@ -485,41 +522,6 @@
       ],
       "source_types": [
         "rss"
-      ]
-    },
-    {
-      "rank": 15,
-      "id": "karpathy",
-      "name": "karpathy",
-      "leader_type": "architect",
-      "entity_type": "unknown",
-      "score": 0.242,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 1
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.4
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.25
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "open_source"
-      ],
-      "source_types": [
-        "github",
-        "citation"
       ]
     },
     {
