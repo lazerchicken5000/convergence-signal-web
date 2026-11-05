@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T11:13:54.445Z",
-  "total_leaders_analyzed": 695,
+  "generated_at": "2026-11-05T11:14:42.801Z",
+  "total_leaders_analyzed": 696,
   "candidates": [
     {
       "rank": 1,
@@ -530,11 +530,11 @@
       "name": "the changelog: software development, open source",
       "leader_type": "architect",
       "entity_type": "media_channel",
-      "score": 0.235,
+      "score": 0.239,
       "tier": "established",
       "trajectory": "stable",
       "rank_change": 0,
-      "score_change": 0,
+      "score_change": 0.004,
       "is_new_entrant": false,
       "top_signals": [
         {
@@ -543,7 +543,7 @@
         },
         {
           "signal": "content_volume",
-          "value": 0.8
+          "value": 0.85
         },
         {
           "signal": "cross_source_mentions",
@@ -560,6 +560,40 @@
     },
     {
       "rank": 17,
+      "id": "daniel_whitenack_and_chris_benson",
+      "name": "daniel whitenack and chris benson",
+      "leader_type": "architect",
+      "entity_type": "media_channel",
+      "score": 0.231,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": 3,
+      "score_change": 0.004,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 0.9
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.75
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.2
+        }
+      ],
+      "pattern_count": 0,
+      "domains": [
+        "publishing"
+      ],
+      "source_types": [
+        "rss"
+      ]
+    },
+    {
+      "rank": 18,
       "id": "hugging_face",
       "name": "hugging face",
       "leader_type": "architect",
@@ -567,42 +601,7 @@
       "score": 0.23,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 1
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.4
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.1
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "open_source"
-      ],
-      "source_types": [
-        "github",
-        "citation"
-      ]
-    },
-    {
-      "rank": 18,
-      "id": "openclaw",
-      "name": "openclaw",
-      "leader_type": "architect",
-      "entity_type": "unknown",
-      "score": 0.23,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -630,6 +629,41 @@
     },
     {
       "rank": 19,
+      "id": "openclaw",
+      "name": "openclaw",
+      "leader_type": "architect",
+      "entity_type": "unknown",
+      "score": 0.23,
+      "tier": "established",
+      "trajectory": "stable",
+      "rank_change": -1,
+      "score_change": 0,
+      "is_new_entrant": false,
+      "top_signals": [
+        {
+          "signal": "social_pagerank",
+          "value": 1
+        },
+        {
+          "signal": "cross_source_mentions",
+          "value": 0.4
+        },
+        {
+          "signal": "content_volume",
+          "value": 0.1
+        }
+      ],
+      "pattern_count": 0,
+      "domains": [
+        "open_source"
+      ],
+      "source_types": [
+        "github",
+        "citation"
+      ]
+    },
+    {
+      "rank": 20,
       "id": "yiming_zhang",
       "name": "yiming zhang",
       "leader_type": "architect",
@@ -637,7 +671,7 @@
       "score": 0.229,
       "tier": "established",
       "trajectory": "stable",
-      "rank_change": 0,
+      "rank_change": -1,
       "score_change": 0,
       "is_new_entrant": false,
       "top_signals": [
@@ -661,40 +695,6 @@
       "source_types": [
         "arxiv",
         "citation"
-      ]
-    },
-    {
-      "rank": 20,
-      "id": "daniel_whitenack_and_chris_benson",
-      "name": "daniel whitenack and chris benson",
-      "leader_type": "architect",
-      "entity_type": "media_channel",
-      "score": 0.227,
-      "tier": "established",
-      "trajectory": "stable",
-      "rank_change": 0,
-      "score_change": 0,
-      "is_new_entrant": false,
-      "top_signals": [
-        {
-          "signal": "social_pagerank",
-          "value": 0.9
-        },
-        {
-          "signal": "content_volume",
-          "value": 0.7
-        },
-        {
-          "signal": "cross_source_mentions",
-          "value": 0.2
-        }
-      ],
-      "pattern_count": 0,
-      "domains": [
-        "publishing"
-      ],
-      "source_types": [
-        "rss"
       ]
     },
     {
@@ -1049,7 +1049,14 @@
     }
   ],
   "new_entrants": [],
-  "rising": [],
+  "rising": [
+    {
+      "name": "daniel whitenack and chris benson",
+      "rank": 17,
+      "rank_change": 3,
+      "score_change": 0.004
+    }
+  ],
   "fading": [],
   "dropped_out": []
 }
